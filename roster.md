@@ -1,5 +1,14 @@
+---
+title: Roster
+type: roster
+tags:
+  - npcs
+  - roster
+---
 
-> **(CG)** = sourced from the *Forgotten Realms Campaign Guide*. **(world.md)** = established in this campaign's world file. **(DM ADDITION)** = invented for this campaign. All DM additions are designed to fit the CG's description of Shadowdale: an unwalled village of ~1,000 people at the crossing of the North Ride and the River Ashaba, set within the fey-haunted Living Wood, beneath the granite dome of Old Skull.
+# NPC Roster
+
+> **(CG)** = sourced from the *Forgotten Realms Campaign Guide*. **([[world]])** = established in this campaign's world file. **(DM ADDITION)** = invented for this campaign. All DM additions are designed to fit the CG's description of Shadowdale: an unwalled village of ~1,000 people at the crossing of the North Ride and the River Ashaba, set within the fey-haunted Living Wood, beneath the granite dome of Old Skull.
 
 ---
 
@@ -11,7 +20,7 @@
 - **Status:** Alive
 - **One-line summary:** A practical, composed woman who has held a quiet dale together for twenty years — and is now watching that quiet erode from below.
 
-**Appearance:** Mid-fifties. Brown skin weathered by years of outdoor inspections and border rides. Silver-streaked black hair kept in a tight braid. She wears the **Pendant of Ashaba** openly — a deep blue teardrop stone on a silver chain — and plain working clothes unless ceremony demands otherwise. Carries herself without theatrics. **(DM ADDITION, consistent with world.md)**
+**Appearance:** Mid-fifties. Brown skin weathered by years of outdoor inspections and border rides. Silver-streaked black hair kept in a tight braid. She wears the **Pendant of Ashaba** openly — a deep blue teardrop stone on a silver chain — and plain working clothes unless ceremony demands otherwise. Carries herself without theatrics. **(DM ADDITION, consistent with [[world]])**
 
 **Personality:**
 - *In a word:* Steady.
@@ -29,7 +38,7 @@
 - *What she wants from the party:* Reliable people who can go into Old Skull or the Living Wood and bring back information (or solutions) without triggering a panic.
 - *What she'd never tell them:* That she thinks the drow incursion may already be further along than her militia's reports suggest, and that she's been having the Ashaba House's lower cellars quietly sealed off.
 
-**Source notes:** Name and the Pendant of Ashaba established in world.md (consistent with CG). Physical description and personality are DM additions.
+**Source notes:** Name and the Pendant of Ashaba established in [[world]] (consistent with CG). Physical description and personality are DM additions.
 
 ---
 
@@ -198,4 +207,4 @@
 
 ---
 
-> *All NPCs on this sheet are DM additions consistent with the Campaign Guide's Shadowdale entry and world.md. When any of these NPCs are confirmed canonical in play, update this note.*
+> *All NPCs on this sheet are DM additions consistent with the Campaign Guide's Shadowdale entry and [[world]]. When any of these NPCs are confirmed canonical in play, update this note.*

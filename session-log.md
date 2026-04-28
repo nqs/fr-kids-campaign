@@ -1,3 +1,11 @@
+---
+title: Session Log
+type: log
+tags:
+  - sessions
+  - log
+---
+
 # Session Log
 
 <!-- Entries run oldest → newest. Each session gets its own block.
@@ -57,7 +65,7 @@
 ### NPC Interactions
 - **Torval Dunmore** — first contact; vouched for the party, gave them Ulphor's note. Genuine concern for Tessar; now trusts the party.
 - **Lady Addee Ulphor** — hired the party; received the recovered intelligence with controlled calm. Favor extended: "my door is not closed to you." Privately confirmed the drow threat is real and worse than she's said publicly.
-- **Rellan Tessar** — rescued; dehydrated, three cracked ribs, grateful but not dramatic. DM ADDITION: add to roster.md as recurring NPC.
+- **Rellan Tessar** — rescued; dehydrated, three cracked ribs, grateful but not dramatic. DM ADDITION: add to [[roster]] as recurring NPC.
 - **Orvyn Tal** — introduced at session end; tested the party's discretion. Harper faction is now in play.
 
 ### Combat & Encounters
@@ -74,7 +82,7 @@
 - **Reputation:** Lady Ulphor's private favor. Torval's trust. Orvyn Tal's cautious interest.
 
 ### DM Notes
-- Add **Rellan Tessar** to roster.md — he owes the party his life and should recur as a militia contact.
+- Add **Rellan Tessar** to [[roster]] — he owes the party his life and should recur as a militia contact.
 - Track whether **Zeldrazz escaped** — if he was killed rather than retreating, remove from villain pool; if he fled down the cleft, he becomes a recurring antagonist who knows the party's faces.
 - The **two remaining cleft sites** from the map are the natural Session 2 thread. Lady Ulphor will be the one to ask — she has the map.
 - **Corwick Helm's cover-up** is unresolved. The party hasn't met him yet. Lady Ulphor's "management" of the situation is an open scene worth playing out.
@@ -96,7 +104,7 @@
 | Two remaining Vhaeraunian staging sites (from map fragment) | Session 001 | Open | Map delivered to Lady Ulphor; she will commission the scouting |
 | Corwick Helm's cover-up (filed Tessar's disappearance as desertion) | Session 001 | Open | Lady Ulphor said she would "manage" him — scene unplayed |
 | Orvyn Tal / Harpers — is the incursion surface-coordinated? | Session 001 | Open | Tal is watching; will pay for answers |
-| Rellan Tessar — recurring NPC, owes party his life | Session 001 | Open | Recovering from exhaustion; add to roster.md |
+| Rellan Tessar — recurring NPC, owes party his life | Session 001 | Open | Recovering from exhaustion; add to [[roster]] |
 | Zeldrazz T'orrl — fate TBD | Session 001 | Open | Confirm whether killed or escaped; affects villain pool |
 
 ---

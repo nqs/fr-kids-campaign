@@ -1,4 +1,12 @@
-# factions.md — Dalelands Campaign
+---
+title: Factions
+type: reference
+tags:
+  - factions
+  - reference
+---
+
+# Factions — Dalelands Campaign
 
 > **Source notes:** Entries marked *[CG]* draw on the *Forgotten Realms Campaign Guide*; *[PG]* from the *Forgotten Realms Player's Guide*. Entries marked *[HOMEBREW]* are campaign-specific additions not derived from published sourcebooks. All sourcebook material reflects the post-Spellplague era (~1479 DR); adjust or override as needed for your table's timeline.
 
@@ -263,7 +271,7 @@ A powerful and old fey entity is using Sela as an unwitting courier. The message
 
 ### Adventure Hooks
 - Sela asks the party to accompany her on a forest consultation — something has changed and she doesn't want to go alone
-- Farmers on the forest edge report that their animals are going missing (the party has heard this in the village — see world.md)
+- Farmers on the forest edge report that their animals are going missing (the party has heard this in the village — see [[world]])
 - A fey territorial dispute has spilled into farmland; the displaced farmer is considering an arson solution that would make everything much worse
 
 ---
@@ -309,7 +317,7 @@ Archendale is the most fortified and commercially aggressive of the free dales, 
 The Trade Houses aren't evil — they're simply operating on a shorter time horizon than the geopolitical situation warrants. Some individual merchants are genuinely helpful; others are selling information to multiple bidders. Distinguishing between them is the challenge.
 
 ### Adventure Hooks
-- A merchant caravan from Mistledale arrived two days late with a frightened driver who won't say what happened (world.md) — one of the Trade Houses owns that caravan
+- A merchant caravan from Mistledale arrived two days late with a frightened driver who won't say what happened ([[world]]) — one of the Trade Houses owns that caravan
 - The party needs something that can only be sourced through Archenbridge black markets — which means dealing with someone who has a hand in multiple factions
 - A Trade House factor needs an escort through territory that has just become significantly more dangerous
 
@@ -472,7 +480,7 @@ Myth Drannor's coronal does not condone the Eldreth Veluuthra, but suppressing t
 ### Overview
 The Scarred Road Syndicate is a criminal operation that has established itself in the interstitial spaces between the free dales and the occupied ones — the road corridors, the river crossings, and the forest tracks that move goods (and people) across contested territory. *[HOMEBREW]*
 
-They are not ideological. They work for the Sembians when Sembia pays, for the Trade Houses when Archendale pays, and for private interests when private interests pay more. They have likely been involved in at least one thing the party has noticed already (see world.md: the merchant caravan from Mistledale that arrived two days late with a frightened driver who won't explain the delay).
+They are not ideological. They work for the Sembians when Sembia pays, for the Trade Houses when Archendale pays, and for private interests when private interests pay more. They have likely been involved in at least one thing the party has noticed already (see [[world]]: the merchant caravan from Mistledale that arrived two days late with a frightened driver who won't explain the delay).
 
 ### What They Want
 Money, leverage, and to remain invisible. They are not interested in conquest; they are interested in monopolizing the movement of information and goods across a region where that movement is increasingly dangerous and therefore increasingly valuable.

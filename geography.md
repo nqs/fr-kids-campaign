@@ -1,4 +1,13 @@
-# geography.md — Campaign Geography Reference
+---
+title: Geography
+type: reference
+tags:
+  - geography
+  - locations
+  - reference
+---
+
+# Geography — Campaign Reference
 
 > **Source note:** Entries marked **(CG)** are drawn from the *Forgotten Realms Campaign Guide* (4e, 1479 DR baseline). Entries marked **(PG)** are drawn from the *Forgotten Realms Player's Guide*. Entries marked **(DM ADDITION)** are campaign-specific inventions not in the sourcebooks. The 1479 DR date is the sourcebook's baseline; adjust references to "current events" to match your campaign year.
 
