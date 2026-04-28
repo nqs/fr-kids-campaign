@@ -192,45 +192,113 @@
   --callout-icon: lucide-book-open;
 }
 
-/* In reading view + print: solid backgrounds for callouts (override the
-   default translucent treatment so they pop on parchment) */
-.markdown-preview-view .callout,
-.markdown-rendered .callout {
+/* Solid parchment backgrounds + dark text for themed callouts. Apply
+   universally (Reading View, Live Preview, print) so the text is always
+   readable against the background regardless of the active theme. */
+.callout[data-callout="dm"],
+.callout[data-callout="read-aloud"],
+.callout[data-callout="hook"],
+.callout[data-callout="boss"],
+.callout[data-callout="lore"],
+.callout[data-callout="cite"],
+.callout[data-callout="npc"],
+.callout[data-callout="faction"] {
   border-left-width: 4px;
+  color: #1a1208;
 }
 
-.markdown-preview-view .callout[data-callout="dm"],
-.markdown-rendered .callout[data-callout="dm"] {
+/* Force dark text on every descendant of these callouts so the dark theme's
+   light --text-normal doesn't leak through paragraphs, links, code, etc. */
+.callout[data-callout="dm"] *,
+.callout[data-callout="read-aloud"] *,
+.callout[data-callout="hook"] *,
+.callout[data-callout="boss"] *,
+.callout[data-callout="lore"] *,
+.callout[data-callout="cite"] *,
+.callout[data-callout="npc"] *,
+.callout[data-callout="faction"] * {
+  color: #1a1208;
+}
+
+/* Callout titles: keep them in the themed accent red */
+.callout[data-callout="dm"] .callout-title,
+.callout[data-callout="boss"] .callout-title,
+.callout[data-callout="npc"] .callout-title,
+.callout[data-callout="faction"] .callout-title {
+  color: #58180d;
+}
+
+.callout[data-callout="dm"] .callout-title *,
+.callout[data-callout="boss"] .callout-title *,
+.callout[data-callout="npc"] .callout-title *,
+.callout[data-callout="faction"] .callout-title * {
+  color: #58180d;
+}
+
+.callout[data-callout="hook"] .callout-title,
+.callout[data-callout="hook"] .callout-title * {
+  color: #a25e0d;
+}
+
+.callout[data-callout="read-aloud"] .callout-title,
+.callout[data-callout="read-aloud"] .callout-title *,
+.callout[data-callout="lore"] .callout-title,
+.callout[data-callout="lore"] .callout-title *,
+.callout[data-callout="cite"] .callout-title,
+.callout[data-callout="cite"] .callout-title * {
+  color: #6b4e16;
+}
+
+/* Links inside callouts: red, dotted underline */
+.callout[data-callout="dm"] a,
+.callout[data-callout="read-aloud"] a,
+.callout[data-callout="hook"] a,
+.callout[data-callout="boss"] a,
+.callout[data-callout="lore"] a,
+.callout[data-callout="cite"] a,
+.callout[data-callout="npc"] a,
+.callout[data-callout="faction"] a {
+  color: #58180d;
+  border-bottom: 1px dotted #a25e0d;
+  text-decoration: none;
+}
+
+/* Strong / em inside callouts: deeper red / brown for emphasis */
+.callout[data-callout="dm"] strong,
+.callout[data-callout="read-aloud"] strong,
+.callout[data-callout="hook"] strong,
+.callout[data-callout="boss"] strong,
+.callout[data-callout="lore"] strong,
+.callout[data-callout="cite"] strong,
+.callout[data-callout="npc"] strong,
+.callout[data-callout="faction"] strong {
+  color: #3a0f08;
+}
+
+.callout[data-callout="dm"] {
   background: #ebe0c2;
 }
 
-.markdown-preview-view .callout[data-callout="read-aloud"],
-.markdown-rendered .callout[data-callout="read-aloud"] {
+.callout[data-callout="read-aloud"] {
   background: #f0e7d8;
 }
 
-.markdown-preview-view .callout[data-callout="hook"],
-.markdown-rendered .callout[data-callout="hook"] {
+.callout[data-callout="hook"] {
   background: #f5e9c8;
 }
 
-.markdown-preview-view .callout[data-callout="boss"],
-.markdown-rendered .callout[data-callout="boss"] {
+.callout[data-callout="boss"] {
   background: #efd8c8;
 }
 
-.markdown-preview-view .callout[data-callout="lore"],
-.markdown-preview-view .callout[data-callout="cite"],
-.markdown-rendered .callout[data-callout="lore"],
-.markdown-rendered .callout[data-callout="cite"] {
+.callout[data-callout="lore"],
+.callout[data-callout="cite"] {
   background: #ede2cb;
   font-size: 0.95em;
 }
 
-.markdown-preview-view .callout[data-callout="npc"],
-.markdown-preview-view .callout[data-callout="faction"],
-.markdown-rendered .callout[data-callout="npc"],
-.markdown-rendered .callout[data-callout="faction"] {
+.callout[data-callout="npc"],
+.callout[data-callout="faction"] {
   background: #ebe0c2;
 }
 
