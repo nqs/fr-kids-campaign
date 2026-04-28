@@ -7,11 +7,41 @@
   "showOrphans": true,
   "collapse-color-groups": false,
   "colorGroups": [
-    { "query": "tag:#world", "color": { "a": 1, "rgb": 5419488 } },
-    { "query": "tag:#faction", "color": { "a": 1, "rgb": 14701138 } },
-    { "query": "tag:#npc", "color": { "a": 1, "rgb": 5431518 } },
-    { "query": "tag:#location", "color": { "a": 1, "rgb": 14725458 } },
-    { "query": "tag:#session", "color": { "a": 1, "rgb": 5450495 } }
+    {
+      "query": "tag:#world",
+      "color": {
+        "a": 1,
+        "rgb": 5419488
+      }
+    },
+    {
+      "query": "tag:#faction",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "tag:#npc",
+      "color": {
+        "a": 1,
+        "rgb": 5431518
+      }
+    },
+    {
+      "query": "tag:#location",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "tag:#session",
+      "color": {
+        "a": 1,
+        "rgb": 5450495
+      }
+    }
   ],
   "collapse-display": false,
   "showArrow": true,
