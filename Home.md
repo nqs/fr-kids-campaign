@@ -34,3 +34,4 @@ PDFs live in `lib/`:
 ## DM Operating Doc
 
 - [[claude|Campaign Keeper instructions]] — source hierarchy, canon-first rules, skill handoff
+- [[Obsidian Setup]] — recommended D&D plugins (statblocks, dice, initiative, callouts) and the parchment-style print snippet

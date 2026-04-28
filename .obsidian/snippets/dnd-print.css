@@ -1,0 +1,148 @@
+/*
+ * D&D print / export styling.
+ * Toggle on in Settings → Appearance → CSS snippets.
+ * Targets both Obsidian's print view and the Better Export PDF / Pandoc flows.
+ */
+
+@media print {
+  body {
+    --font-text: "Bookman Old Style", "Palatino", "Garamond", Georgia, serif;
+    --font-monospace: "Courier New", monospace;
+    --text-normal: #1a1208;
+    --background-primary: #f5ecd7;
+  }
+
+  .markdown-preview-view,
+  .print {
+    background: #f5ecd7 !important;
+    color: #1a1208 !important;
+    font-family: "Bookman Old Style", "Palatino", "Garamond", Georgia, serif !important;
+    font-size: 11pt;
+    line-height: 1.45;
+    padding: 0.5in 0.75in !important;
+  }
+
+  .markdown-preview-view h1,
+  .print h1 {
+    font-family: "Trajan Pro", "Cinzel", "Georgia", serif;
+    color: #58180d;
+    border-bottom: 2px solid #58180d;
+    padding-bottom: 0.15em;
+    page-break-before: always;
+    page-break-after: avoid;
+  }
+
+  .markdown-preview-view h1:first-of-type,
+  .print h1:first-of-type {
+    page-break-before: auto;
+  }
+
+  .markdown-preview-view h2,
+  .print h2 {
+    font-family: "Trajan Pro", "Cinzel", "Georgia", serif;
+    color: #58180d;
+    border-bottom: 1px solid #c9ad6a;
+    padding-bottom: 0.1em;
+    page-break-after: avoid;
+  }
+
+  .markdown-preview-view h3,
+  .print h3 {
+    color: #58180d;
+    page-break-after: avoid;
+  }
+
+  .markdown-preview-view blockquote,
+  .print blockquote {
+    background: #ebe0c2;
+    border-left: 4px solid #58180d;
+    padding: 0.5em 1em;
+    page-break-inside: avoid;
+  }
+
+  .markdown-preview-view table,
+  .print table {
+    border-collapse: collapse;
+    width: 100%;
+    page-break-inside: avoid;
+  }
+
+  .markdown-preview-view th,
+  .print th {
+    background: #58180d;
+    color: #f5ecd7;
+    padding: 0.4em 0.6em;
+    text-align: left;
+  }
+
+  .markdown-preview-view td,
+  .print td {
+    border-bottom: 1px solid #c9ad6a;
+    padding: 0.3em 0.6em;
+  }
+
+  /* Fantasy Statblocks: keep a stat block on one page when possible */
+  .statblock,
+  .statblock-statblock,
+  .obsidian-statblock-plugin {
+    page-break-inside: avoid;
+    background: #fdf1dc !important;
+    border: 1px solid #58180d;
+    box-shadow: none !important;
+  }
+
+  /* Admonitions: callout boxes for DM Notes / Read-Aloud */
+  .admonition,
+  .callout {
+    page-break-inside: avoid;
+    border-left-width: 4px;
+  }
+
+  .callout[data-callout="dm"],
+  .admonition-dm {
+    background: #ebe0c2;
+    border-color: #58180d;
+  }
+
+  .callout[data-callout="read-aloud"],
+  .admonition-read-aloud {
+    background: #f0e7d8;
+    border-left: 4px solid #6b4e16;
+    font-style: italic;
+  }
+
+  /* Hide UI chrome that shouldn't print */
+  .workspace-ribbon,
+  .workspace-tab-header-container,
+  .status-bar,
+  .markdown-embed-link,
+  .edit-block-button {
+    display: none !important;
+  }
+
+  a {
+    color: #58180d;
+    text-decoration: none;
+  }
+
+  code {
+    background: #ebe0c2;
+    padding: 0.1em 0.3em;
+    border-radius: 2px;
+  }
+
+  pre {
+    background: #ebe0c2;
+    border: 1px solid #c9ad6a;
+    padding: 0.6em;
+    page-break-inside: avoid;
+  }
+}
+
+/* Also apply when exporting via Better Export PDF (uses .export class on body) */
+body.export-pdf,
+body.print-mode {
+  --font-text: "Bookman Old Style", "Palatino", "Garamond", Georgia, serif;
+  background: #f5ecd7;
+  color: #1a1208;
+}
