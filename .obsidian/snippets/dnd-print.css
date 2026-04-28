@@ -111,6 +111,35 @@
     font-style: italic;
   }
 
+  .callout[data-callout="hook"],
+  .admonition-hook {
+    background: #f5e9c8;
+    border-left: 4px solid #a25e0d;
+  }
+
+  .callout[data-callout="boss"],
+  .admonition-boss {
+    background: #efd8c8;
+    border-left: 4px solid #58180d;
+  }
+
+  .callout[data-callout="lore"],
+  .callout[data-callout="cite"],
+  .admonition-lore,
+  .admonition-cite {
+    background: #ede2cb;
+    border-left: 4px solid #6b4e16;
+    font-size: 0.95em;
+  }
+
+  .callout[data-callout="npc"],
+  .callout[data-callout="faction"],
+  .admonition-npc,
+  .admonition-faction {
+    background: #ebe0c2;
+    border-left: 4px solid #58180d;
+  }
+
   /* Hide UI chrome that shouldn't print */
   .workspace-ribbon,
   .workspace-tab-header-container,
@@ -145,4 +174,42 @@ body.print-mode {
   --font-text: "Bookman Old Style", "Palatino", "Garamond", Georgia, serif;
   background: #f5ecd7;
   color: #1a1208;
+}
+
+/* Screen styling: keep editor neutral, but theme custom callouts in reading view */
+.callout[data-callout="dm"] {
+  --callout-color: 88, 24, 13;
+  --callout-icon: lucide-eye-off;
+}
+
+.callout[data-callout="read-aloud"] {
+  --callout-color: 107, 78, 22;
+  --callout-icon: lucide-megaphone;
+  font-style: italic;
+}
+
+.callout[data-callout="hook"] {
+  --callout-color: 162, 94, 13;
+  --callout-icon: lucide-anchor;
+}
+
+.callout[data-callout="boss"] {
+  --callout-color: 88, 24, 13;
+  --callout-icon: lucide-skull;
+}
+
+.callout[data-callout="npc"] {
+  --callout-color: 88, 24, 13;
+  --callout-icon: lucide-user;
+}
+
+.callout[data-callout="faction"] {
+  --callout-color: 88, 24, 13;
+  --callout-icon: lucide-flag;
+}
+
+.callout[data-callout="lore"],
+.callout[data-callout="cite"] {
+  --callout-color: 107, 78, 22;
+  --callout-icon: lucide-book-open;
 }

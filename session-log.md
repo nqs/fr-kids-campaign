@@ -50,17 +50,64 @@ tags:
 - Returned Tessar to Shadowdale. Lady Ulphor received them privately, paid the balance, accepted the map fragment and Vhaeraun mask pendant with composed dread, and extended her private goodwill. Warned them to keep it quiet; said Captain Helm would be "managed."
 - That evening at the Old Skull Inn, Orvyn Tal — a bookseller — sat down uninvited and slid a Dalelands map across the table. Asked, mildly, whether they'd seen anything interesting on their walk. The Harpers are now on the board.
 
+> [!read-aloud] Approaching the Cleft
+> The pines thin into a stand of black oaks whose roots clutch the granite like fingers. Beyond them, a fissure splits the northern flank of Old Skull — a slanted black wound in the rock, taller than a man, breathing out cold air that smells of wet stone and something older. From inside, you hear a low, careful voice — not a language any of you speak — and the dry click of chitin against stone.
+
+> [!boss] Zeldrazz T'orrl — Drow Elite Warrior
+> Vhaeraunian field officer. Iron half-mask, twin scimitars, expects to win.
+
+```statblock
+name: Zeldrazz T'orrl
+source: Session 001 — The Missing Scout
+size: Medium
+type: humanoid
+subtype: elf, drow
+alignment: neutral evil
+ac: 18
+hp: 71
+hit_dice: 11d8 + 22
+speed: 30 ft.
+stats: [14, 18, 14, 13, 13, 12]
+saves:
+  - dexterity: 7
+  - constitution: 5
+  - wisdom: 4
+skills:
+  - perception: 4
+  - stealth: 10
+senses: darkvision 120 ft., passive Perception 14
+languages: Elvish, Undercommon
+cr: 5
+traits:
+  - name: Fey Ancestry
+    desc: Zeldrazz has advantage on saving throws against being charmed, and magic can't put him to sleep.
+  - name: Innate Spellcasting
+    desc: "His innate spellcasting ability is Charisma. He can cast: at will — *dancing lights*; 1/day each — *darkness*, *faerie fire*, *levitate* (self only)."
+  - name: Sunlight Sensitivity
+    desc: While in sunlight, Zeldrazz has disadvantage on attack rolls and Perception checks that rely on sight.
+actions:
+  - name: Multiattack
+    desc: Zeldrazz makes three attacks with his scimitars or three attacks with his hand crossbow.
+  - name: Scimitar
+    desc: "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 7 (1d6+4) slashing damage plus 10 (3d6) poison damage."
+  - name: Hand Crossbow
+    desc: "*Ranged Weapon Attack:* +7 to hit, range 30/120 ft., one target. *Hit:* 7 (1d6+4) piercing damage. The target must succeed on a DC 13 Constitution save or be poisoned for 1 hour. If the save fails by 5 or more, the target is also unconscious while poisoned (wakes if it takes damage or another creature uses an action to shake it awake)."
+reactions:
+  - name: Parry
+    desc: Zeldrazz adds 3 to his AC against one melee attack that would hit him. He must see the attacker and be wielding a melee weapon.
+```
+
 ### Key Decisions & Consequences
 - Party went directly to Lady Ulphor rather than approaching Corwick Helm — consistent with Torval's setup and her private instruction.
 - Successfully achieved surprise in the skill challenge; the combat did not involve Tessar being used as a hostage.
 - Party delivered the map fragment and the iron half-mask to Lady Ulphor rather than keeping them — she now holds the key intelligence items from the session.
 - Interaction with Orvyn Tal: unclear yet how forthcoming the party was; outcome determines warmth of Harper relationship going forward.
 
-### Loose Ends & Hooks
-- The Vhaeraunian map fragment shows **two more staging sites** on Old Skull's northern flank. Lady Ulphor will want them scouted before the Vhaeraunians reinforce.
-- **Corwick Helm** filed Tessar's disappearance as desertion to avoid triggering a mobilization. Lady Ulphor said she would "manage" him — what that looks like is an open question.
-- **Orvyn Tal's offer** — the Harpers want to know if the Vhaeraunian incursion is coordinated with anyone on the surface. They will pay for answers.
-- **Rellan Tessar** owes the party his life. He will volunteer for anything they need from the militia once he recovers (exhaustion level 2 — needs a long rest).
+> [!hook] Loose Ends & Hooks
+> - The Vhaeraunian map fragment shows **two more staging sites** on Old Skull's northern flank. Lady Ulphor will want them scouted before the Vhaeraunians reinforce.
+> - **Corwick Helm** filed Tessar's disappearance as desertion to avoid triggering a mobilization. Lady Ulphor said she would "manage" him — what that looks like is an open question.
+> - **Orvyn Tal's offer** — the Harpers want to know if the Vhaeraunian incursion is coordinated with anyone on the surface. They will pay for answers.
+> - **Rellan Tessar** owes the party his life. He will volunteer for anything they need from the militia once he recovers (exhaustion level 2 — needs a long rest).
 
 ### NPC Interactions
 - **Torval Dunmore** — first contact; vouched for the party, gave them Ulphor's note. Genuine concern for Tessar; now trusts the party.
@@ -81,12 +128,12 @@ tags:
 - **Milestone:** Advance PCs to halfway through level 5 (or ~1,500 XP per PC if tracking discretely)
 - **Reputation:** Lady Ulphor's private favor. Torval's trust. Orvyn Tal's cautious interest.
 
-### DM Notes
-- Add **Rellan Tessar** to [[roster]] — he owes the party his life and should recur as a militia contact.
-- Track whether **Zeldrazz escaped** — if he was killed rather than retreating, remove from villain pool; if he fled down the cleft, he becomes a recurring antagonist who knows the party's faces.
-- The **two remaining cleft sites** from the map are the natural Session 2 thread. Lady Ulphor will be the one to ask — she has the map.
-- **Corwick Helm's cover-up** is unresolved. The party hasn't met him yet. Lady Ulphor's "management" of the situation is an open scene worth playing out.
-- Note for **Orvyn Tal** roleplay: his reaction to the party depends on how forthcoming they were. If guarded, he was equally pleased — but the relationship starts cooler. Confirm and track.
+> [!dm] DM Notes
+> - Add **Rellan Tessar** to [[roster]] — he owes the party his life and should recur as a militia contact.
+> - Track whether **Zeldrazz escaped** — if he was killed rather than retreating, remove from villain pool; if he fled down the cleft, he becomes a recurring antagonist who knows the party's faces.
+> - The **two remaining cleft sites** from the map are the natural Session 2 thread. Lady Ulphor will be the one to ask — she has the map.
+> - **Corwick Helm's cover-up** is unresolved. The party hasn't met him yet. Lady Ulphor's "management" of the situation is an open scene worth playing out.
+> - Note for **Orvyn Tal** roleplay: his reaction to the party depends on how forthcoming they were. If guarded, he was equally pleased — but the relationship starts cooler. Confirm and track.
 
 ---
 

@@ -8,7 +8,8 @@ tags:
 
 # Factions — Dalelands Campaign
 
-> **Source notes:** Entries marked *[CG]* draw on the *Forgotten Realms Campaign Guide*; *[PG]* from the *Forgotten Realms Player's Guide*. Entries marked *[HOMEBREW]* are campaign-specific additions not derived from published sourcebooks. All sourcebook material reflects the post-Spellplague era (~1479 DR); adjust or override as needed for your table's timeline.
+> [!cite] Source key
+> Entries marked *[CG]* draw on the *Forgotten Realms Campaign Guide*; *[PG]* from the *Forgotten Realms Player's Guide*. Entries marked *[HOMEBREW]* are campaign-specific additions not derived from published sourcebooks. All sourcebook material reflects the post-Spellplague era (~1479 DR); adjust or override as needed for your table's timeline.
 
 ---
 
@@ -90,10 +91,10 @@ The free dales in council are: **Archendale, Battledale, Daggerdale, Deepingdale
 ### Tensions
 Archendale plays both sides, Mistledale hoards political capital, and Shadowdale's seat is perpetually underresourced. The Council knows Lady Ulphor hasn't attended in person for over a year. They haven't pressed the issue — yet.
 
-### Adventure Hooks
-- Brynn Ashford's unauthorized intelligence-gathering has turned up something that directly concerns the party — but revealing it would embarrass Lady Ulphor at exactly the wrong moment
-- A vote is coming that could open the Dales to Cormyrian "protection" — which the party may want to influence one way or another
-- The Council's messenger service has been compromised; a critical communiqué never arrived
+> [!hook] Adventure Hooks
+> - Brynn Ashford's unauthorized intelligence-gathering has turned up something that directly concerns the party — but revealing it would embarrass Lady Ulphor at exactly the wrong moment
+> - A vote is coming that could open the Dales to Cormyrian "protection" — which the party may want to influence one way or another
+> - The Council's messenger service has been compromised; a critical communiqué never arrived
 
 ---
 
@@ -120,10 +121,10 @@ The Harpers are a secret society that balances the spread of power throughout Fa
 ### What the Harpers Know
 They know something is wrong under Old Skull — probably more than Lady Ulphor does. They don't know what to do about it yet.
 
-### Adventure Hooks
-- Orvyn Tal approaches the party with a job that sounds like a book retrieval but is actually a dead-drop run
-- A Harper agent in Scardale has gone silent; someone needs to go find out why without triggering Sembian attention
-- The party discovers Orvyn's affiliation by accident — now they have to decide whether that's a problem or an opportunity
+> [!hook] Adventure Hooks
+> - Orvyn Tal approaches the party with a job that sounds like a book retrieval but is actually a dead-drop run
+> - A Harper agent in Scardale has gone silent; someone needs to go find out why without triggering Sembian attention
+> - The party discovers Orvyn's affiliation by accident — now they have to decide whether that's a problem or an opportunity
 
 ---
 
@@ -147,10 +148,10 @@ Strong and genuine, though not without friction — elven and human priorities d
 ### Tensions
 The **Eldreth Veluuthra** — a human-supremacist militant elven faction — complicates Myth Drannor's political position. The coronal can't be seen to suppress them without elven civil unrest, but can't endorse them either.
 
-### Adventure Hooks
-- A Myth Drannor diplomat needs discreet help with something the coronal's court can't do officially
-- The party is asked to carry a message to the Myth Drannor embassy in New Velar — the message is more consequential than it looks
-- The coronal's court has heard rumors about Old Skull and wants a private report before deciding whether to intervene
+> [!hook] Adventure Hooks
+> - A Myth Drannor diplomat needs discreet help with something the coronal's court can't do officially
+> - The party is asked to carry a message to the Myth Drannor embassy in New Velar — the message is more consequential than it looks
+> - The coronal's court has heard rumors about Old Skull and wants a private report before deciding whether to intervene
 
 ---
 
@@ -172,10 +173,10 @@ Membership requires demonstrated competence and a sponsor already in the Fellows
 ### Why It Matters to the Party
 The Fall of Stars is the single best location in the free Dales for finding work, gathering rumors, and making contacts across faction lines. Joining the Fellowship is a concrete mechanical benefit the party can earn.
 
-### Adventure Hooks
-- A mission board posting that shouldn't exist — someone is using the Fellowship to recruit for something covert
-- A famous Fellow has gone missing on a job in the occupied dales; his companions need outside help
-- The party has an opportunity to earn sponsorship into the Fellowship — but the task required is more dangerous than the sponsor admits
+> [!hook] Adventure Hooks
+> - A mission board posting that shouldn't exist — someone is using the Fellowship to recruit for something covert
+> - A famous Fellow has gone missing on a job in the occupied dales; his companions need outside help
+> - The party has an opportunity to earn sponsorship into the Fellowship — but the task required is more dangerous than the sponsor admits
 
 ---
 
@@ -192,10 +193,10 @@ The Abbey of the Sword is the most prominent temple to **Tempus** (god of war) i
 ### Current Internal Tension
 A conservative faction wants to fortify and focus on defense. A militant faction wants to push down into the portal and take the fight to the drow — despite not knowing what waits below.
 
-### Adventure Hooks
-- The succession dispute for Priest General has turned dangerous — someone is using poison to shape the outcome
-- The party is hired to clear and seal the portal the drow used; something below doesn't want it closed
-- The abbey needs an escort for a sacred relic being transported to Ashabenford — the timing is deeply political
+> [!hook] Adventure Hooks
+> - The succession dispute for Priest General has turned dangerous — someone is using poison to shape the outcome
+> - The party is hired to clear and seal the portal the drow used; something below doesn't want it closed
+> - The abbey needs an escort for a sacred relic being transported to Ashabenford — the timing is deeply political
 
 ---
 
@@ -218,10 +219,10 @@ More than they're saying publicly. The scouts have confirmed drow movement in at
 ### Relationship with the Party
 The militia will cautiously cooperate with outside adventurers — Corwick doesn't have the luxury of turning down capable help. But he will want to know who they are and what they want before he shares anything sensitive.
 
-### Adventure Hooks
-- Corwick approaches the party quietly, at the Old Skull Inn — not through Lady Ulphor's office — asking them to go somewhere the militia can't go officially
-- A militiaman has gone missing on a scouting run; Corwick is holding it together but Torval Dunmore (who knows the man's family) is not
-- The missing scout reappears — changed in a way that isn't explainable as ordinary trauma
+> [!hook] Adventure Hooks
+> - Corwick approaches the party quietly, at the Old Skull Inn — not through Lady Ulphor's office — asking them to go somewhere the militia can't go officially
+> - A militiaman has gone missing on a scouting run; Corwick is holding it together but Torval Dunmore (who knows the man's family) is not
+> - The missing scout reappears — changed in a way that isn't explainable as ordinary trauma
 
 ---
 
@@ -243,10 +244,10 @@ Tasseldale was overrun by Sembian mercenaries in 1420 DR after Archendale refuse
 ### Why It's Complicated
 The Resistance's leadership is divided over whether to make contact with the Harpers (who have resources but their own agenda) or to wait for a direct Dales Council commitment (which the Council has so far been unwilling to make). The party could tip that balance.
 
-### Adventure Hooks
-- The party is asked to carry supplies or a message to a Resistance cell — the Harpers are asking, not the Council, which tells you something
-- A Tassadran informant needs extraction before Sembian agents close in
-- The Resistance has captured a Sembian officer who knows something important — but they can't hold him and they can't let him go
+> [!hook] Adventure Hooks
+> - The party is asked to carry supplies or a message to a Resistance cell — the Harpers are asking, not the Council, which tells you something
+> - A Tassadran informant needs extraction before Sembian agents close in
+> - The Resistance has captured a Sembian officer who knows something important — but they can't hold him and they can't let him go
 
 ---
 
@@ -269,10 +270,10 @@ Something has changed in the Living Wood near Old Skull. Fey who used to range f
 ### The Unknown Fey Lord
 A powerful and old fey entity is using Sela as an unwitting courier. The messages he sends — and receives — are unknown. He is aware the drow threat threatens his domain, but his methods and allegiances are entirely opaque. This is a long-term thread, not a villain to fight immediately.
 
-### Adventure Hooks
-- Sela asks the party to accompany her on a forest consultation — something has changed and she doesn't want to go alone
-- Farmers on the forest edge report that their animals are going missing (the party has heard this in the village — see [[world]])
-- A fey territorial dispute has spilled into farmland; the displaced farmer is considering an arson solution that would make everything much worse
+> [!hook] Adventure Hooks
+> - Sela asks the party to accompany her on a forest consultation — something has changed and she doesn't want to go alone
+> - Farmers on the forest edge report that their animals are going missing (the party has heard this in the village — see [[world]])
+> - A fey territorial dispute has spilled into farmland; the displaced farmer is considering an arson solution that would make everything much worse
 
 ---
 
@@ -291,10 +292,10 @@ High Dale has already accepted Cormyrian protectorate status (1422 DR) to stave 
 ### Current Relevance
 There is a movement within the Dales Council to formally request Cormyrian protection for the remaining free dales. **Brynn Ashford** fears this would effectively end Shadowdale's independence. The party's actions could influence how this vote goes.
 
-### Adventure Hooks
-- A Cormyrian diplomatic mission arrives in the Dalelands with an offer that needs to be accepted or refused before the Netherese hear about it
-- Cormyr's War Wizards want to examine something connected to the Old Skull situation — on Cormyrian terms
-- The party needs Cormyrian military intelligence; getting it requires doing something for the Purple Dragons first
+> [!hook] Adventure Hooks
+> - A Cormyrian diplomatic mission arrives in the Dalelands with an offer that needs to be accepted or refused before the Netherese hear about it
+> - Cormyr's War Wizards want to examine something connected to the Old Skull situation — on Cormyrian terms
+> - The party needs Cormyrian military intelligence; getting it requires doing something for the Purple Dragons first
 
 ---
 
@@ -316,10 +317,10 @@ Archendale is the most fortified and commercially aggressive of the free dales, 
 ### Why They're Complicated
 The Trade Houses aren't evil — they're simply operating on a shorter time horizon than the geopolitical situation warrants. Some individual merchants are genuinely helpful; others are selling information to multiple bidders. Distinguishing between them is the challenge.
 
-### Adventure Hooks
-- A merchant caravan from Mistledale arrived two days late with a frightened driver who won't say what happened ([[world]]) — one of the Trade Houses owns that caravan
-- The party needs something that can only be sourced through Archenbridge black markets — which means dealing with someone who has a hand in multiple factions
-- A Trade House factor needs an escort through territory that has just become significantly more dangerous
+> [!hook] Adventure Hooks
+> - A merchant caravan from Mistledale arrived two days late with a frightened driver who won't say what happened ([[world]]) — one of the Trade Houses owns that caravan
+> - The party needs something that can only be sourced through Archenbridge black markets — which means dealing with someone who has a hand in multiple factions
+> - A Trade House factor needs an escort through territory that has just become significantly more dangerous
 
 ---
 
@@ -340,10 +341,10 @@ The **Shadovar** — humans who lived in the Plane of Shadow during Netheril's a
 - Break the Myth Drannor alliance before Myth Drannor grows strong enough to resist
 - Keep the Dales Council fractious enough that it cannot coordinate a unified military response
 
-### Adventure Hooks
-- Netherese agents are in Archenbridge — not openly, but the party encounters traces
-- A Sembian tax official is overstepping in a way that's destabilizing a dale the party has reason to care about
-- The Shade Enclave sends a negotiator to the Dales Council with an offer that sounds reasonable, because it's designed to
+> [!hook] Adventure Hooks
+> - Netherese agents are in Archenbridge — not openly, but the party encounters traces
+> - A Sembian tax official is overstepping in a way that's destabilizing a dale the party has reason to care about
+> - The Shade Enclave sends a negotiator to the Dales Council with an offer that sounds reasonable, because it's designed to
 
 ---
 
@@ -362,10 +363,10 @@ Once the dominant criminal and mercenary network of the northern Dalelands and M
 ### Current Dalelands Presence
 The Black Network's influence in the Dales proper is scattered — opportunistic agents, sell-swords flying no colors, and intelligence assets cultivated in better days. They're not a dominant power here anymore. They are still dangerous.
 
-### Adventure Hooks
-- A Zhentarim mercenary approaches the party with a job that's against another faction the Zhentarim hates — the enemy of my enemy, for now
-- Ruins of Zhentil Keep conceal something the party needs; Zhent agents at Darkhold also want it
-- A former Zhent agent is hiding in the Dales, trying to get out — someone from Darkhold is trying to silence him
+> [!hook] Adventure Hooks
+> - A Zhentarim mercenary approaches the party with a job that's against another faction the Zhentarim hates — the enemy of my enemy, for now
+> - Ruins of Zhentil Keep conceal something the party needs; Zhent agents at Darkhold also want it
+> - A former Zhent agent is hiding in the Dales, trying to get out — someone from Darkhold is trying to silence him
 
 ---
 
@@ -389,10 +390,10 @@ In truth, **Hoar now serves Bane**, and the misconception that the Hand deals pu
 ### Why They're Dangerous
 They don't look like a Banite organization. A troubadour working the common rooms of every inn from Archenbridge to New Velar could be a Hand informant — and probably is.
 
-### Adventure Hooks
-- The party is hired by (or against) a Hidden Hand operative pursuing a target in the Dales
-- A troubadour who works as a Hand informant has learned something too dangerous — and is now the one being hunted
-- The temple in the Arch Wood is hiring outside talent for a job it can't staff internally; they don't tell the party who they're actually working for
+> [!hook] Adventure Hooks
+> - The party is hired by (or against) a Hidden Hand operative pursuing a target in the Dales
+> - A troubadour who works as a Hand informant has learned something too dangerous — and is now the one being hunted
+> - The temple in the Arch Wood is hiring outside talent for a job it can't staff internally; they don't tell the party who they're actually working for
 
 ---
 
@@ -409,9 +410,9 @@ Mulmaster is a Moonsea city-state built on iron foundries and fishing, wedged in
 ### Dalelands Reach
 The Church of Bane considers itself the ideological successor to the Zhentarim's control of the Moonsea-to-Dales corridor. They are more patient than the old Zhents and more disciplined — a worse combination. The Hidden Hand of Fate is their covert arm in the Dales, though most Hand operatives don't know the full chain of command.
 
-### Adventure Hooks
-- A Banite priest arrives in Ashabenford with a very reasonable-sounding proposal for Dales Council cooperation
-- The party uncovers the link between the Hidden Hand and the Church of Bane — which tells them something important about the scope of what they're dealing with
+> [!hook] Adventure Hooks
+> - A Banite priest arrives in Ashabenford with a very reasonable-sounding proposal for Dales Council cooperation
+> - The party uncovers the link between the Hidden Hand and the Church of Bane — which tells them something important about the scope of what they're dealing with
 
 ---
 
@@ -436,10 +437,10 @@ Corwick Helm's militia has confirmed drow movement in at least two upper passage
 
 Nobody is saying the word "drow" out loud in the village. Everybody is thinking it.
 
-### Adventure Hooks
-- The party is the people Lady Ulphor calls when she can no longer pretend this isn't happening
-- The Vhaeraunian faction and the Lolthite faction are in conflict below; the party could exploit that — or get caught between them
-- Someone on the surface has been in contact with the drow voluntarily; the party needs to find out who before the situation escalates
+> [!hook] Adventure Hooks
+> - The party is the people Lady Ulphor calls when she can no longer pretend this isn't happening
+> - The Vhaeraunian faction and the Lolthite faction are in conflict below; the party could exploit that — or get caught between them
+> - Someone on the surface has been in contact with the drow voluntarily; the party needs to find out who before the situation escalates
 
 ---
 
@@ -463,10 +464,10 @@ Their presence has devastated the timber trade through the Hullack Forest, harmi
 ### Tensions with Myth Drannor
 Myth Drannor's coronal does not condone the Eldreth Veluuthra, but suppressing them openly is politically complicated — some members were once loyal citizens. They exploit this difficulty expertly.
 
-### Adventure Hooks
-- A trade caravan has vanished on the Hullack road; evidence points to Eldreth Veluuthra
-- A half-elf NPC from the party's backstory is being hunted; the Eldreth Veluuthra has found them
-- A captured operative is willing to talk — but only for something they want very badly
+> [!hook] Adventure Hooks
+> - A trade caravan has vanished on the Hullack road; evidence points to Eldreth Veluuthra
+> - A half-elf NPC from the party's backstory is being hunted; the Eldreth Veluuthra has found them
+> - A captured operative is willing to talk — but only for something they want very badly
 
 ---
 
@@ -488,10 +489,10 @@ Money, leverage, and to remain invisible. They are not interested in conquest; t
 ### Why They're Hard to Deal With
 The Syndicate doesn't have a villain headquarters. It has a network of people who each know only the person above and below them. Unraveling it requires working from the outside in, which means first identifying they exist at all.
 
-### Adventure Hooks
-- The frightened caravan driver eventually tells the party what scared him; it leads somewhere the Syndicate doesn't want anyone looking
-- The party needs to move something (or someone) across an occupied border; the only broker who can arrange it turns out to be Syndicate-connected
-- Someone the party trusts has been sharing information with a Syndicate contact, not knowing what the Syndicate is
+> [!hook] Adventure Hooks
+> - The frightened caravan driver eventually tells the party what scared him; it leads somewhere the Syndicate doesn't want anyone looking
+> - The party needs to move something (or someone) across an occupied border; the only broker who can arrange it turns out to be Syndicate-connected
+> - Someone the party trusts has been sharing information with a Syndicate contact, not knowing what the Syndicate is
 
 ---
 

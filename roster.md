@@ -8,6 +8,7 @@ tags:
 
 # NPC Roster
 
+> [!cite] Source key
 > **(CG)** = sourced from the *Forgotten Realms Campaign Guide*. **([[world]])** = established in this campaign's world file. **(DM ADDITION)** = invented for this campaign. All DM additions are designed to fit the CG's description of Shadowdale: an unwalled village of ~1,000 people at the crossing of the North Ride and the River Ashaba, set within the fey-haunted Living Wood, beneath the granite dome of Old Skull.
 
 ---
@@ -31,14 +32,21 @@ tags:
 **Motivations:**
 - *Wants:* To keep Shadowdale free, peaceful, and fed. To resolve the Old Skull situation before it becomes a crisis she can't contain.
 - *Fears:* That the drow threat is larger than the dale can handle alone — and that asking for outside help will cost Shadowdale its independence.
-- *Secret:* She has not attended the Dales Council in person for over a year. She sends Brynn Ashford in her place because she doesn't dare leave Shadowdale with the Underdark activity growing. The Council knows but hasn't pressed the issue — yet. **(DM ADDITION)**
+
+> [!dm] Secret
+> She has not attended the Dales Council in person for over a year. She sends Brynn Ashford in her place because she doesn't dare leave Shadowdale with the Underdark activity growing. The Council knows but hasn't pressed the issue — yet. **(DM ADDITION)**
+
 
 **Relationship with the party:**
 - *First impression:* Courteous but appraising — she sizes up strangers quickly and doesn't waste words on those she doesn't trust yet.
 - *What she wants from the party:* Reliable people who can go into Old Skull or the Living Wood and bring back information (or solutions) without triggering a panic.
-- *What she'd never tell them:* That she thinks the drow incursion may already be further along than her militia's reports suggest, and that she's been having the Ashaba House's lower cellars quietly sealed off.
 
-**Source notes:** Name and the Pendant of Ashaba established in [[world]] (consistent with CG). Physical description and personality are DM additions.
+> [!dm] What she won't say
+> That she thinks the drow incursion may already be further along than her militia's reports suggest, and that she's been having the Ashaba House's lower cellars quietly sealed off.
+
+
+> [!cite] Source notes
+> Name and the Pendant of Ashaba established in [[world]] (consistent with CG). Physical description and personality are DM additions.
 
 ---
 
@@ -61,12 +69,18 @@ tags:
 **Motivations:**
 - *Wants:* To get Shadowdale taken seriously as a voice on the Council, not just a small dale that benefits from others' decisions. To eventually be trusted with a broader mandate from Lady Ulphor.
 - *Fears:* That the Council will decide the free dales' best option is to seek Cormyrian protection — which would effectively end Shadowdale's independence.
-- *Secret:* He has begun quietly building his own relationships with other delegates' staffers, gathering information Lady Ulphor didn't authorize him to gather. He tells himself it's for the dale's benefit. It might be. **(DM ADDITION)**
+
+> [!dm] Secret
+> He has begun quietly building his own relationships with other delegates' staffers, gathering information Lady Ulphor didn't authorize him to gather. He tells himself it's for the dale's benefit. It might be. **(DM ADDITION)**
+
 
 **Relationship with the party:**
 - *First impression:* Slightly guarded — he's used to evaluating people's usefulness before investing in them.
 - *What he wants from the party:* If they have any standing with other factions (Myth Drannor, Harpers, Cormyr), he wants to know. Leverage is his primary currency.
-- *What he'd never tell them:* The specific state of Council fractures he's observed — that information is his personal insurance.
+
+> [!dm] What he won't say
+> The specific state of Council fractures he's observed — that information is his personal insurance.
+
 
 **Plot hook:** If the party needs Council resources, Brynn can unlock them — but he'll extract something in return. And if his unauthorized information-gathering ever surfaces, it could embarrass Lady Ulphor badly at precisely the wrong moment. **(DM ADDITION)**
 
@@ -91,12 +105,18 @@ tags:
 **Motivations:**
 - *Wants:* For the dale to stay safe. Specifically for Old Skull not to become what it was when he was young.
 - *Fears:* That his grandchildren will grow up in a dale that's been overrun or absorbed.
-- *Secret:* The cellar of the Old Skull Inn has a sealed passage — part of the old tunnel network beneath the village. He cemented the hatch shut himself after his wife disappeared down it thirty years ago. He has never told Lady Ulphor. **(DM ADDITION)**
+
+> [!dm] Secret
+> The cellar of the Old Skull Inn has a sealed passage — part of the old tunnel network beneath the village. He cemented the hatch shut himself after his wife disappeared down it thirty years ago. He has never told Lady Ulphor. **(DM ADDITION)**
+
 
 **Relationship with the party:**
 - *First impression:* Professionally welcoming, privately curious. He'll serve them, hear their names and business, and say almost nothing revealing until they've been around long enough to be vouched for.
 - *What he wants from the party:* Nothing directly — but if they're the kind of people who go into dark places and come back, he will eventually find a way to ask them about the cellar.
-- *What he'd never tell them (initially):* Anything about the sealed passage.
+
+> [!dm] What he won't say
+> Anything about the sealed passage.
+
 
 **Practical notes:** Rooms 4 cp/night, stabling available, meals are simple but filling. He brews his own dark ale ("Skull Stout") that locals swear by. **(DM ADDITION)**
 
@@ -121,12 +141,18 @@ tags:
 **Motivations:**
 - *Wants:* The Living Wood to remain healthy and the fey within it to remain — she knows that if the drow threat drives the fey out, something much worse will move in.
 - *Fears:* That the Feywild bleed-through is not entirely benevolent. She has been noticing strange behavior from some of the fey near Old Skull — things she can't explain as typical territorial behavior.
-- *Secret:* A fey lord of the Living Wood, one of the older and more powerful ones, has been asking her to carry messages. She doesn't know who the messages are intended for, and she's been saying yes because she doesn't know how to say no to him. **(DM ADDITION)**
+
+> [!dm] Secret
+> A fey lord of the Living Wood, one of the older and more powerful ones, has been asking her to carry messages. She doesn't know who the messages are intended for, and she's been saying yes because she doesn't know how to say no to him. **(DM ADDITION)**
+
 
 **Relationship with the party:**
 - *First impression:* Friendly, quietly evaluating. She's seen enough adventurers to know they usually bring trouble for someone.
 - *What she wants from the party:* If they're trustworthy, she may ask them to accompany her on one of her forest "consultations." Something has changed in the wood and she doesn't want to go alone.
-- *What she'd never tell them (initially):* Who she's been carrying messages for, or to whom.
+
+> [!dm] What she won't say
+> Who she's been carrying messages for, or to whom.
+
 
 **Practical notes:** She can provide healing poultices, basic antitoxins, and herbal remedies. She won't charge people who genuinely can't pay. She'll also answer questions about the Living Wood — up to a point. **(DM ADDITION)**
 
@@ -151,12 +177,18 @@ tags:
 **Motivations:**
 - *Wants:* Better-trained militia. Better-equipped militia. Any help at all, frankly.
 - *Fears:* That Old Skull is going to produce something that ten farmers with spears cannot handle, and that by the time the Dales Council gets around to doing anything about it, the village will already be gone.
-- *Secret:* Two of his scouts went into the lower passages of Old Skull three weeks ago and came back one short. He told Lady Ulphor one; he hasn't told anyone they found signs of a fresh camp — not a patrol, a camp — forty feet below the surface. **(DM ADDITION)**
+
+> [!dm] Secret
+> Two of his scouts went into the lower passages of Old Skull three weeks ago and came back one short. He told Lady Ulphor one; he hasn't told anyone they found signs of a fresh camp — not a patrol, a camp — forty feet below the surface. **(DM ADDITION)**
+
 
 **Relationship with the party:**
 - *First impression:* Skeptical, functional. He'll assess their gear and bearing before he says much. If they look capable, he warms up fast because he needs capable people badly.
 - *What he wants from the party:* Scouting help. Specifically someone to go back into Old Skull's upper passages and tell him what the scouts saw wasn't what he thinks it was.
-- *What he'd never tell them (initially):* The full truth of what the scouts reported. He'll tell them the passages need checking; the detail about the camp comes later, when he trusts them.
+
+> [!dm] What he won't say
+> The full truth of what the scouts reported. He'll tell them the passages need checking; the detail about the camp comes later, when he trusts them.
+
 
 **Practical notes:** Can repair or commission armor and weapons. His work is solid if not beautiful. He'll do it cheaper for people who are helping the dale. **(DM ADDITION)**
 
@@ -181,12 +213,18 @@ tags:
 **Motivations:**
 - *Wants:* To keep Shadowdale's Harper network functional. To understand what's happening under Old Skull before Netheril does — the Shadovar's interest in old drow passages is a known quantity and it worries him.
 - *Fears:* That the Netherese already have an agent in the village. He has suspicions but no proof. He keeps revising the list.
-- *Secret:* He knows approximately where a long-dormant Harper safehouse is beneath the village — a room sealed during the last bad period with drow. He doesn't know if it still has anything useful inside. He also doesn't know whether the drow have found it. **(DM ADDITION)**
+
+> [!dm] Secret
+> He knows approximately where a long-dormant Harper safehouse is beneath the village — a room sealed during the last bad period with drow. He doesn't know if it still has anything useful inside. He also doesn't know whether the drow have found it. **(DM ADDITION)**
+
 
 **Relationship with the party:**
 - *First impression:* Pleasantly forgettable. He's good at this.
 - *What he wants from the party:* To know who they are and whether they're trustworthy, before anything else. If they are, he has information to trade.
-- *What he'd never tell them (initially):* That he's still Harper-active. He'll wait to see if they already know — if they're Harpers themselves, they'll find out through channels. If they're not, he'll decide whether to tell them based on what they do next.
+
+> [!dm] What he won't say
+> That he's still Harper-active. He'll wait to see if they already know — if they're Harpers themselves, they'll find out through channels. If they're not, he'll decide whether to tell them based on what they do next.
+
 
 **Practical notes:** His shop has genuine value: maps of the Dalelands and surrounding regions (some quite old), histories of Shadowdale, and one or two arcane texts. He can also source specific books for a price and a wait — through methods he doesn't describe. **(DM ADDITION)**
 
@@ -207,4 +245,5 @@ tags:
 
 ---
 
-> *All NPCs on this sheet are DM additions consistent with the Campaign Guide's Shadowdale entry and [[world]]. When any of these NPCs are confirmed canonical in play, update this note.*
+> [!cite] Maintenance note
+> All NPCs on this sheet are DM additions consistent with the Campaign Guide's Shadowdale entry and [[world]]. When any of these NPCs are confirmed canonical in play, update this note.
