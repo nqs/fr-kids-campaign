@@ -1,3 +1,11 @@
+---
+title: House Rules
+type: rules
+tags:
+  - rules
+  - homebrew
+---
+
 # House Rules & Variant Options
 
 <!-- Document every departure from the 5e RAW (Rules as Written) here.

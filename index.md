@@ -1,3 +1,11 @@
+---
+title: Locations Index
+type: index
+tags:
+  - locations
+  - index
+---
+
 # Locations Index
 
 <!-- One entry per significant location the party has visited or will visit.

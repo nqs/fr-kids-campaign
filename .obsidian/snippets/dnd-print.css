@@ -1,0 +1,304 @@
+/*
+ * D&D look-and-feel for the campaign vault.
+ *
+ * Applies a parchment + serif "sourcebook" treatment to reading view and to
+ * exported / printed output. Editor (live) view is left untouched.
+ *
+ * Toggle on in Settings → Appearance → CSS snippets.
+ */
+
+/* ============================================================
+   Reading view + print: parchment treatment
+   ============================================================ */
+
+.markdown-preview-view,
+.markdown-rendered {
+  background: #f5ecd7;
+  color: #1a1208;
+  font-family: "Bookman Old Style", "Palatino", "Garamond", Georgia, serif;
+  line-height: 1.5;
+  padding: 1.5em 2em;
+}
+
+.markdown-preview-view h1,
+.markdown-rendered h1 {
+  font-family: "Trajan Pro", "Cinzel", Georgia, serif;
+  color: #58180d;
+  border-bottom: 2px solid #58180d;
+  padding-bottom: 0.15em;
+  letter-spacing: 0.02em;
+}
+
+.markdown-preview-view h2,
+.markdown-rendered h2 {
+  font-family: "Trajan Pro", "Cinzel", Georgia, serif;
+  color: #58180d;
+  border-bottom: 1px solid #c9ad6a;
+  padding-bottom: 0.1em;
+}
+
+.markdown-preview-view h3,
+.markdown-rendered h3,
+.markdown-preview-view h4,
+.markdown-rendered h4 {
+  font-family: "Trajan Pro", "Cinzel", Georgia, serif;
+  color: #58180d;
+}
+
+.markdown-preview-view a,
+.markdown-rendered a,
+.markdown-preview-view a.internal-link,
+.markdown-rendered a.internal-link {
+  color: #58180d;
+  text-decoration: none;
+  border-bottom: 1px dotted #a25e0d;
+}
+
+.markdown-preview-view strong,
+.markdown-rendered strong {
+  color: #3a0f08;
+}
+
+.markdown-preview-view em,
+.markdown-rendered em {
+  color: #4a2410;
+}
+
+/* Plain blockquotes (not callouts) */
+.markdown-preview-view blockquote:not(.callout),
+.markdown-rendered blockquote:not(.callout) {
+  background: #ebe0c2;
+  border-left: 4px solid #58180d;
+  color: #1a1208;
+  padding: 0.5em 1em;
+  margin: 0.8em 0;
+}
+
+/* Tables — sourcebook style */
+.markdown-preview-view table,
+.markdown-rendered table {
+  border-collapse: collapse;
+  width: 100%;
+  background: transparent;
+  font-family: inherit;
+}
+
+.markdown-preview-view th,
+.markdown-rendered th {
+  background: #58180d !important;
+  color: #f5ecd7 !important;
+  padding: 0.5em 0.8em;
+  text-align: left;
+  border: 1px solid #58180d;
+}
+
+.markdown-preview-view td,
+.markdown-rendered td {
+  border-bottom: 1px solid #c9ad6a;
+  padding: 0.4em 0.8em;
+  color: #1a1208;
+}
+
+.markdown-preview-view tr:nth-child(even) td,
+.markdown-rendered tr:nth-child(even) td {
+  background: #ebe0c2;
+}
+
+/* Inline code and code blocks */
+.markdown-preview-view code,
+.markdown-rendered code {
+  background: #ebe0c2;
+  color: #58180d;
+  padding: 0.1em 0.3em;
+  border-radius: 2px;
+}
+
+.markdown-preview-view pre,
+.markdown-rendered pre {
+  background: #ebe0c2 !important;
+  border: 1px solid #c9ad6a;
+  padding: 0.6em;
+}
+
+.markdown-preview-view pre code,
+.markdown-rendered pre code {
+  background: transparent;
+  color: #1a1208;
+}
+
+/* Horizontal rule = decorative break */
+.markdown-preview-view hr,
+.markdown-rendered hr {
+  border: none;
+  height: 2px;
+  background: linear-gradient(to right, transparent, #58180d, transparent);
+  margin: 2em 0;
+}
+
+/* Frontmatter block, when shown */
+.metadata-container,
+.frontmatter-container {
+  background: #ebe0c2;
+  border-left: 4px solid #c9ad6a;
+}
+
+/* Stat blocks (Fantasy Statblocks) */
+.statblock,
+.statblock-statblock {
+  background: #fdf1dc !important;
+  border: 1px solid #58180d;
+  box-shadow: 0 2px 6px rgba(88, 24, 13, 0.15);
+  color: #1a1208;
+}
+
+/* ============================================================
+   Callout color + icon mapping (applies everywhere)
+   ============================================================ */
+
+.callout[data-callout="dm"] {
+  --callout-color: 88, 24, 13;
+  --callout-icon: lucide-eye-off;
+}
+
+.callout[data-callout="read-aloud"] {
+  --callout-color: 107, 78, 22;
+  --callout-icon: lucide-megaphone;
+  font-style: italic;
+}
+
+.callout[data-callout="hook"] {
+  --callout-color: 162, 94, 13;
+  --callout-icon: lucide-anchor;
+}
+
+.callout[data-callout="boss"] {
+  --callout-color: 88, 24, 13;
+  --callout-icon: lucide-skull;
+}
+
+.callout[data-callout="npc"] {
+  --callout-color: 88, 24, 13;
+  --callout-icon: lucide-user;
+}
+
+.callout[data-callout="faction"] {
+  --callout-color: 88, 24, 13;
+  --callout-icon: lucide-flag;
+}
+
+.callout[data-callout="lore"],
+.callout[data-callout="cite"] {
+  --callout-color: 107, 78, 22;
+  --callout-icon: lucide-book-open;
+}
+
+/* In reading view + print: solid backgrounds for callouts (override the
+   default translucent treatment so they pop on parchment) */
+.markdown-preview-view .callout,
+.markdown-rendered .callout {
+  border-left-width: 4px;
+}
+
+.markdown-preview-view .callout[data-callout="dm"],
+.markdown-rendered .callout[data-callout="dm"] {
+  background: #ebe0c2;
+}
+
+.markdown-preview-view .callout[data-callout="read-aloud"],
+.markdown-rendered .callout[data-callout="read-aloud"] {
+  background: #f0e7d8;
+}
+
+.markdown-preview-view .callout[data-callout="hook"],
+.markdown-rendered .callout[data-callout="hook"] {
+  background: #f5e9c8;
+}
+
+.markdown-preview-view .callout[data-callout="boss"],
+.markdown-rendered .callout[data-callout="boss"] {
+  background: #efd8c8;
+}
+
+.markdown-preview-view .callout[data-callout="lore"],
+.markdown-preview-view .callout[data-callout="cite"],
+.markdown-rendered .callout[data-callout="lore"],
+.markdown-rendered .callout[data-callout="cite"] {
+  background: #ede2cb;
+  font-size: 0.95em;
+}
+
+.markdown-preview-view .callout[data-callout="npc"],
+.markdown-preview-view .callout[data-callout="faction"],
+.markdown-rendered .callout[data-callout="npc"],
+.markdown-rendered .callout[data-callout="faction"] {
+  background: #ebe0c2;
+}
+
+/* ============================================================
+   Print-only rules: page breaks, hide chrome
+   ============================================================ */
+
+@media print {
+  body {
+    background: #f5ecd7;
+    color: #1a1208;
+    font-family: "Bookman Old Style", "Palatino", "Garamond", Georgia, serif;
+    font-size: 11pt;
+  }
+
+  .markdown-preview-view,
+  .markdown-rendered,
+  .print {
+    padding: 0.5in 0.75in !important;
+  }
+
+  .markdown-preview-view h1,
+  .markdown-rendered h1,
+  .print h1 {
+    page-break-before: always;
+    page-break-after: avoid;
+  }
+
+  .markdown-preview-view h1:first-of-type,
+  .markdown-rendered h1:first-of-type,
+  .print h1:first-of-type {
+    page-break-before: auto;
+  }
+
+  .markdown-preview-view h2,
+  .markdown-rendered h2,
+  .markdown-preview-view h3,
+  .markdown-rendered h3,
+  .print h2,
+  .print h3 {
+    page-break-after: avoid;
+  }
+
+  .markdown-preview-view blockquote,
+  .markdown-rendered blockquote,
+  .markdown-preview-view .callout,
+  .markdown-rendered .callout,
+  .markdown-preview-view table,
+  .markdown-rendered table,
+  .statblock,
+  pre {
+    page-break-inside: avoid;
+  }
+
+  /* Hide UI chrome that shouldn't print */
+  .workspace-ribbon,
+  .workspace-tab-header-container,
+  .status-bar,
+  .markdown-embed-link,
+  .edit-block-button {
+    display: none !important;
+  }
+}
+
+/* Better Export PDF body class */
+body.export-pdf,
+body.print-mode {
+  background: #f5ecd7;
+  color: #1a1208;
+  font-family: "Bookman Old Style", "Palatino", "Garamond", Georgia, serif;
+}

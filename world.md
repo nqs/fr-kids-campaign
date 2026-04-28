@@ -1,3 +1,12 @@
+---
+title: World
+type: world
+tags:
+  - world
+  - lore
+  - setting
+---
+
 # World Overview
 
 ## Setting Name
@@ -44,8 +53,9 @@ at the intersection of all of it.
 - **Astral / Upper Planes:** Distant for now.
 
 ### The Gods / Divine Powers
-*Mystra is dead (the Spellplague's root cause). Her death diminished all her Chosen,
-including Elminster. The weave of magic is recovering but still scarred.*
+
+> [!lore] Mystra is dead
+> Her death — the Spellplague's root cause — diminished all her Chosen, including Elminster. The weave of magic is recovering but still scarred.
 
 | Name | Domain | Alignment | Notes |
 |------|---------|-----------|-------|
@@ -118,12 +128,12 @@ is wrong under Old Skull.
 - **Dales Council fractures** — pressure from Sembia is splitting loyalties;
   Archendale in particular is playing both sides.
 
-### The "News of the Day"
-Ordinary Shadowdalers are talking about: a family whose goats have gone missing
-near the forest edge (almost certainly fey mischief, possibly something worse);
-a merchant caravan from Mistledale that arrived two days late with a frightened
-driver who won't say what delayed them; and the fact that Elminster's smoke hasn't
-been seen rising from the Silverhand farm chimney in a week.
+> [!hook] The "News of the Day"
+> Ordinary Shadowdalers are talking about: a family whose goats have gone missing
+> near the forest edge (almost certainly fey mischief, possibly something worse);
+> a merchant caravan from Mistledale that arrived two days late with a frightened
+> driver who won't say what delayed them; and the fact that Elminster's smoke hasn't
+> been seen rising from the Silverhand farm chimney in a week.
 
 ---
 
