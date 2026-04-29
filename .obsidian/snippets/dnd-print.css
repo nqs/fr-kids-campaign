@@ -135,11 +135,41 @@
   margin: 2em 0;
 }
 
-/* Frontmatter block, when shown */
+/* Frontmatter / properties panel */
 .metadata-container,
 .frontmatter-container {
   background: #ebe0c2;
   border-left: 4px solid #c9ad6a;
+  color: #1a1208;
+}
+
+/* Force all text inside the properties panel to be readable */
+.metadata-container *,
+.frontmatter-container * {
+  color: #1a1208 !important;
+}
+
+/* Property key labels */
+.metadata-property-key,
+.metadata-property-key input,
+.metadata-label-text {
+  color: #58180d !important;
+}
+
+/* Property value inputs and tag chips */
+.metadata-property-value,
+.metadata-property-value input,
+.metadata-tag,
+.multi-select-pill,
+.multi-select-pill-content {
+  color: #1a1208 !important;
+}
+
+/* Tag chips: give them a slightly darker parchment background */
+.metadata-tag,
+.multi-select-pill {
+  background: #d4c49a !important;
+  border-color: #c9ad6a !important;
 }
 
 /* Stat blocks (Fantasy Statblocks) */
@@ -192,114 +222,120 @@
   --callout-icon: lucide-book-open;
 }
 
-/* Solid parchment backgrounds + dark text for themed callouts. Apply
-   universally (Reading View, Live Preview, print) so the text is always
-   readable against the background regardless of the active theme. */
-.callout[data-callout="dm"],
-.callout[data-callout="read-aloud"],
-.callout[data-callout="hook"],
-.callout[data-callout="boss"],
-.callout[data-callout="lore"],
-.callout[data-callout="cite"],
-.callout[data-callout="npc"],
-.callout[data-callout="faction"] {
-  border-left-width: 4px;
-  color: #1a1208;
+/* Themed callout styling. Applied universally with html/body prefix
+   selectors to outweigh any theme rule that targets callout content. */
+
+html body .callout[data-callout="dm"],
+html body .callout[data-callout="read-aloud"],
+html body .callout[data-callout="hook"],
+html body .callout[data-callout="boss"],
+html body .callout[data-callout="lore"],
+html body .callout[data-callout="cite"],
+html body .callout[data-callout="npc"],
+html body .callout[data-callout="faction"] {
+  border-left-width: 4px !important;
+  color: #1a1208 !important;
+  -webkit-text-fill-color: #1a1208 !important;
+  --text-normal: #1a1208;
+  --text-muted: #3a2510;
+  --text-faint: #4a3520;
+  --link-color: #58180d;
+  --link-external-color: #58180d;
 }
 
-/* Force dark text on every descendant of these callouts so the dark theme's
-   light --text-normal doesn't leak through paragraphs, links, code, etc. */
-.callout[data-callout="dm"] *,
-.callout[data-callout="read-aloud"] *,
-.callout[data-callout="hook"] *,
-.callout[data-callout="boss"] *,
-.callout[data-callout="lore"] *,
-.callout[data-callout="cite"] *,
-.callout[data-callout="npc"] *,
-.callout[data-callout="faction"] * {
-  color: #1a1208;
+/* Per-type background colors */
+html body .callout[data-callout="dm"] {
+  background: #ebe0c2 !important;
+}
+html body .callout[data-callout="read-aloud"] {
+  background: #f0e7d8 !important;
+}
+html body .callout[data-callout="hook"] {
+  background: #f5e9c8 !important;
+}
+html body .callout[data-callout="boss"] {
+  background: #efd8c8 !important;
+}
+html body .callout[data-callout="lore"],
+html body .callout[data-callout="cite"] {
+  background: #ede2cb !important;
+  font-size: 0.95em;
+}
+html body .callout[data-callout="npc"],
+html body .callout[data-callout="faction"] {
+  background: #ebe0c2 !important;
 }
 
-/* Callout titles: keep them in the themed accent red */
-.callout[data-callout="dm"] .callout-title,
-.callout[data-callout="boss"] .callout-title,
-.callout[data-callout="npc"] .callout-title,
-.callout[data-callout="faction"] .callout-title {
-  color: #58180d;
+/* Force dark text on every descendant. Set both color and -webkit-text-fill-color
+   because Chromium renders text via -webkit-text-fill-color when present, and
+   themes that set it to a light value would otherwise win. */
+html body .callout[data-callout="dm"] *,
+html body .callout[data-callout="read-aloud"] *,
+html body .callout[data-callout="hook"] *,
+html body .callout[data-callout="boss"] *,
+html body .callout[data-callout="lore"] *,
+html body .callout[data-callout="cite"] *,
+html body .callout[data-callout="npc"] *,
+html body .callout[data-callout="faction"] * {
+  color: #1a1208 !important;
+  -webkit-text-fill-color: #1a1208 !important;
 }
 
-.callout[data-callout="dm"] .callout-title *,
-.callout[data-callout="boss"] .callout-title *,
-.callout[data-callout="npc"] .callout-title *,
-.callout[data-callout="faction"] .callout-title * {
-  color: #58180d;
+/* Callout titles: accent colors */
+html body .callout[data-callout="dm"] .callout-title,
+html body .callout[data-callout="dm"] .callout-title *,
+html body .callout[data-callout="boss"] .callout-title,
+html body .callout[data-callout="boss"] .callout-title *,
+html body .callout[data-callout="npc"] .callout-title,
+html body .callout[data-callout="npc"] .callout-title *,
+html body .callout[data-callout="faction"] .callout-title,
+html body .callout[data-callout="faction"] .callout-title * {
+  color: #58180d !important;
+  -webkit-text-fill-color: #58180d !important;
 }
 
-.callout[data-callout="hook"] .callout-title,
-.callout[data-callout="hook"] .callout-title * {
-  color: #a25e0d;
+html body .callout[data-callout="hook"] .callout-title,
+html body .callout[data-callout="hook"] .callout-title * {
+  color: #a25e0d !important;
+  -webkit-text-fill-color: #a25e0d !important;
 }
 
-.callout[data-callout="read-aloud"] .callout-title,
-.callout[data-callout="read-aloud"] .callout-title *,
-.callout[data-callout="lore"] .callout-title,
-.callout[data-callout="lore"] .callout-title *,
-.callout[data-callout="cite"] .callout-title,
-.callout[data-callout="cite"] .callout-title * {
-  color: #6b4e16;
+html body .callout[data-callout="read-aloud"] .callout-title,
+html body .callout[data-callout="read-aloud"] .callout-title *,
+html body .callout[data-callout="lore"] .callout-title,
+html body .callout[data-callout="lore"] .callout-title *,
+html body .callout[data-callout="cite"] .callout-title,
+html body .callout[data-callout="cite"] .callout-title * {
+  color: #6b4e16 !important;
+  -webkit-text-fill-color: #6b4e16 !important;
 }
 
-/* Links inside callouts: red, dotted underline */
-.callout[data-callout="dm"] a,
-.callout[data-callout="read-aloud"] a,
-.callout[data-callout="hook"] a,
-.callout[data-callout="boss"] a,
-.callout[data-callout="lore"] a,
-.callout[data-callout="cite"] a,
-.callout[data-callout="npc"] a,
-.callout[data-callout="faction"] a {
-  color: #58180d;
+/* Links inside callouts */
+html body .callout[data-callout="dm"] a,
+html body .callout[data-callout="read-aloud"] a,
+html body .callout[data-callout="hook"] a,
+html body .callout[data-callout="boss"] a,
+html body .callout[data-callout="lore"] a,
+html body .callout[data-callout="cite"] a,
+html body .callout[data-callout="npc"] a,
+html body .callout[data-callout="faction"] a {
+  color: #58180d !important;
+  -webkit-text-fill-color: #58180d !important;
   border-bottom: 1px dotted #a25e0d;
   text-decoration: none;
 }
 
-/* Strong / em inside callouts: deeper red / brown for emphasis */
-.callout[data-callout="dm"] strong,
-.callout[data-callout="read-aloud"] strong,
-.callout[data-callout="hook"] strong,
-.callout[data-callout="boss"] strong,
-.callout[data-callout="lore"] strong,
-.callout[data-callout="cite"] strong,
-.callout[data-callout="npc"] strong,
-.callout[data-callout="faction"] strong {
-  color: #3a0f08;
-}
-
-.callout[data-callout="dm"] {
-  background: #ebe0c2;
-}
-
-.callout[data-callout="read-aloud"] {
-  background: #f0e7d8;
-}
-
-.callout[data-callout="hook"] {
-  background: #f5e9c8;
-}
-
-.callout[data-callout="boss"] {
-  background: #efd8c8;
-}
-
-.callout[data-callout="lore"],
-.callout[data-callout="cite"] {
-  background: #ede2cb;
-  font-size: 0.95em;
-}
-
-.callout[data-callout="npc"],
-.callout[data-callout="faction"] {
-  background: #ebe0c2;
+/* Strong inside callouts */
+html body .callout[data-callout="dm"] strong,
+html body .callout[data-callout="read-aloud"] strong,
+html body .callout[data-callout="hook"] strong,
+html body .callout[data-callout="boss"] strong,
+html body .callout[data-callout="lore"] strong,
+html body .callout[data-callout="cite"] strong,
+html body .callout[data-callout="npc"] strong,
+html body .callout[data-callout="faction"] strong {
+  color: #3a0f08 !important;
+  -webkit-text-fill-color: #3a0f08 !important;
 }
 
 /* ============================================================
