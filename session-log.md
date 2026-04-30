@@ -13,30 +13,6 @@ tags:
      loose ends, not to reconstruct the whole story. -->
 
 ---
-
-## Session 000 — Session Zero
-**Date played:**
-**Location in-world:**
-**Players present:**
-
-### What Happened
-<!-- Brief summary: 3–10 bullet points. -->
--
-
-### Decisions Made
-<!-- Rulings, world choices, character choices that set canon. -->
--
-
-### Loose Ends & Hooks
-<!-- Unresolved threads, dangled mysteries, promises made. -->
--
-
-### DM Notes
-<!-- Things to follow up on next time. Player reactions. Tone observations. -->
--
-
----
-
 ## Session 001 — The Missing Scout
 **Date played:**
 **Location in-world:** Shadowdale — the Old Skull Inn, the Ashaba House, the Living Wood, Old Skull's northern flank
@@ -55,48 +31,6 @@ tags:
 
 > [!boss] Zeldrazz T'orrl — Drow Elite Warrior
 > Vhaeraunian field officer. Iron half-mask, twin scimitars, expects to win.
-
-```statblock
-name: Zeldrazz T'orrl
-source: Session 001 — The Missing Scout
-size: Medium
-type: humanoid
-subtype: elf, drow
-alignment: neutral evil
-ac: 18
-hp: 71
-hit_dice: 11d8 + 22
-speed: 30 ft.
-stats: [14, 18, 14, 13, 13, 12]
-saves:
-  - dexterity: 7
-  - constitution: 5
-  - wisdom: 4
-skills:
-  - perception: 4
-  - stealth: 10
-senses: darkvision 120 ft., passive Perception 14
-languages: Elvish, Undercommon
-cr: 5
-traits:
-  - name: Fey Ancestry
-    desc: Zeldrazz has advantage on saving throws against being charmed, and magic can't put him to sleep.
-  - name: Innate Spellcasting
-    desc: "His innate spellcasting ability is Charisma. He can cast: at will — *dancing lights*; 1/day each — *darkness*, *faerie fire*, *levitate* (self only)."
-  - name: Sunlight Sensitivity
-    desc: While in sunlight, Zeldrazz has disadvantage on attack rolls and Perception checks that rely on sight.
-actions:
-  - name: Multiattack
-    desc: Zeldrazz makes three attacks with his scimitars or three attacks with his hand crossbow.
-  - name: Scimitar
-    desc: "*Melee Weapon Attack:* +7 to hit, reach 5 ft., one target. *Hit:* 7 (1d6+4) slashing damage plus 10 (3d6) poison damage."
-  - name: Hand Crossbow
-    desc: "*Ranged Weapon Attack:* +7 to hit, range 30/120 ft., one target. *Hit:* 7 (1d6+4) piercing damage. The target must succeed on a DC 13 Constitution save or be poisoned for 1 hour. If the save fails by 5 or more, the target is also unconscious while poisoned (wakes if it takes damage or another creature uses an action to shake it awake)."
-reactions:
-  - name: Parry
-    desc: Zeldrazz adds 3 to his AC against one melee attack that would hit him. He must see the attacker and be wielding a melee weapon.
-```
-
 ### Key Decisions & Consequences
 - Party went directly to Lady Ulphor rather than approaching Corwick Helm — consistent with Torval's setup and her private instruction.
 - Successfully achieved surprise in the skill challenge; the combat did not involve Tessar being used as a hostage.
