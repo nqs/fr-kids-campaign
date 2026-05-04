@@ -1,8 +1,0 @@
-.DS_Store
-
-# Obsidian — keep shared vault config, ignore per-user/workspace state
-.obsidian/workspace
-.obsidian/workspace.json
-.obsidian/workspace-mobile.json
-.obsidian/cache
-.trash/
