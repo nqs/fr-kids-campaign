@@ -223,4 +223,30 @@ To the north of the Dalelands. An unsettled and dangerous region that continuall
 
 ## DM Additions
 
-*Nothing added yet. When new locations, roads, or landmarks are established in play, record them here with the **(DM ADDITION)** tag.*
+### Old Skull — Northern Flank Cleft Chain *(DM ADDITION)*
+
+**Old Skull** is the bald granite hill rising at the north edge of Shadowdale village, named for its pale, weatherworn dome. The hill is a known feature of Shadowdale; the **cleft chain** along its northern and northwestern flanks is a campaign-specific fixture established in sessions 001–003.
+
+A series of three narrow vertical fissures (locally called *clefts*) pierce the hill's flanks, each roughly a 20–40-foot drop into a small antechamber at the surface, then a steeper crawl down into the upper Underdark passages beneath Old Skull. The clefts are old, weather-worked, and natural in origin — but the **Vhaeraunian drow surface cell** has been using them as staging mouths for surface operations. The clefts run roughly west-to-east along the hill's northern shoulder, separated by a few hundred yards of pine-wooded slope each.
+
+| Site | Location | Status (post-S2 prep) | Notes |
+|---|---|---|---|
+| **Site A** | Western cleft, lower slope, near the village wood-line | **Closed (S1)** — collapsed and warded by the party | First Vhaeraunian staging mouth the party encountered; **Zeldrazz T'orrl** was the field officer here |
+| **Site B / The Hawthorn Chimney** | Center cleft, mid-slope, beneath an old hawthorn windbreak | **Closed (S2, by Lolthites)** — vertical shaft collapsed from below | Lolthite raiders purged this site before the party arrived; party found a cold camp and the after-action signs of a crawl-tunnel infiltration |
+| **Site C / The Granite Shoulder** | Eastern cleft, upper northern flank, on a broad granite shoulder above the Living Wood edge | **Active (S3 prep)** — Vhaeraunian shrine-camp; portal-anchor ritual mid-consecration | Run by **Khelziir Aun'velve**; Lolthite Crash incoming through a crawl-tunnel beneath the Spider Pen |
+
+**Surrounding terrain:**
+- **The Living Wood** — the band of fey-touched pine and hawthorn forest skirting Old Skull's northern flank. The fey of the granite shoulder have largely withdrawn; **Quillip Burr-and-Whistle** is the lone holdout, lairing in a hollow knothole near Site C
+- **The Hawthorn Chimney** — surface name for the cold camp at Site B, marked by a distinctive twin-trunked hawthorn at the cleft mouth
+- **The Granite Shoulder** — broad rock terrace above the Living Wood; Site C's surface antechamber opens onto it
+
+**Travel:** Site A → Site B is roughly 2 hours overland on the cleft-line trail; Site B → Site C another 3 hours. The whole chain is within a half-day's hike from Shadowdale village.
+
+**Why it matters:** The Vhaeraunian cell treats the cleft chain as a single piece of infrastructure — surface anchors for a planned portal network into Shadowdale. The Lolthites under Old Skull are walking the same line, closing each cleft from below. Whichever faction wins the cleft chain wins the surface foothold under Shadowdale.
+
+> [!cite] Source notes
+> Old Skull itself is canonical Shadowdale geography *[CG]*. The northern cleft chain, Sites A/B/C, the Hawthorn Chimney name, the Granite Shoulder, and the Living Wood holdout are DM additions established in play across sessions 001–003.
+
+---
+
+*When new locations, roads, or landmarks are established in play, record them here with the **(DM ADDITION)** tag.*

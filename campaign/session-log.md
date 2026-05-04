@@ -8,70 +8,37 @@ tags:
 
 # Session Log
 
-<!-- Entries run oldest → newest. Each session gets its own block.
-     Keep summaries tight — this file is read at prep time to surface
-     loose ends, not to reconstruct the whole story. -->
+<!-- This file is the campaign-wide index. Per-session detail lives in each
+     session's own folder under sessions/session N/session N - log.md.
+     Keep this file tight: read at prep time to surface loose ends and
+     remind yourself where the arc is heading. -->
 
----
-## Session 001 — The Missing Scout
-**Date played:**
-**Location in-world:** Shadowdale — the Old Skull Inn, the Ashaba House, the Living Wood, Old Skull's northern flank
-**Players present:** Kaitlyn (Kto), Fox (Fiorn), Sev (Yinu), Lily (Loric T.), Piper (Nalith)
+## Session Index
 
-### What Happened
-- Party arrived in Shadowdale and settled in at the Old Skull Inn; Torval Dunmore flagged them as capable and pitched the hook: militia scout Rellan Tessar overdue four days, Captain Helm calling it desertion, Torval not buying it.
-- Party took Torval's note and got an audience with Lady Addee Ulphor at the Ashaba House. She asked her three vetting questions, confirmed her suspicion about drow activity without naming it, and hired them — 150 gp up front, 150 gp on return with Tessar (alive or confirmed dead). Provided Tessar's patrol route sketch and a militia brass sigil.
-- Party tracked Tessar's trail through the fey-touched Living Wood along Old Skull's northern slope — skill challenge, 4 successes before 3 failures. Approached the drow cleft undetected; gained surprise.
-- Fought and defeated Zeldrazz T'orrl (drow elite warrior), two drow scouts, and a giant spider in the cleft chamber beneath Old Skull's northern flank. Rescued Rellan Tessar (bound to a stalagmite, conscious, exhausted).
-- Returned Tessar to Shadowdale. Lady Ulphor received them privately, paid the balance, accepted the map fragment and Vhaeraun mask pendant with composed dread, and extended her private goodwill. Warned them to keep it quiet; said Captain Helm would be "managed."
-- That evening at the Old Skull Inn, Orvyn Tal — a bookseller — sat down uninvited and slid a Dalelands map across the table. Asked, mildly, whether they'd seen anything interesting on their walk. The Harpers are now on the board.
-
-> [!read-aloud] Approaching the Cleft
-> The pines thin into a stand of black oaks whose roots clutch the granite like fingers. Beyond them, a fissure splits the northern flank of Old Skull — a slanted black wound in the rock, taller than a man, breathing out cold air that smells of wet stone and something older. From inside, you hear a low, careful voice — not a language any of you speak — and the dry click of chitin against stone.
-
-> [!boss] Zeldrazz T'orrl — Drow Elite Warrior
-> Vhaeraunian field officer. Iron half-mask, twin scimitars, expects to win.
-### Key Decisions & Consequences
-- Party went directly to Lady Ulphor rather than approaching Corwick Helm — consistent with Torval's setup and her private instruction.
-- Successfully achieved surprise in the skill challenge; the combat did not involve Tessar being used as a hostage.
-- Party delivered the map fragment and the iron half-mask to Lady Ulphor rather than keeping them — she now holds the key intelligence items from the session.
-- Interaction with Orvyn Tal: unclear yet how forthcoming the party was; outcome determines warmth of Harper relationship going forward.
-
-> [!hook] Loose Ends & Hooks
-> - The Vhaeraunian map fragment shows **two more staging sites** on Old Skull's northern flank. Lady Ulphor will want them scouted before the Vhaeraunians reinforce.
-> - **Corwick Helm** filed Tessar's disappearance as desertion to avoid triggering a mobilization. Lady Ulphor said she would "manage" him — what that looks like is an open question.
-> - **Orvyn Tal's offer** — the Harpers want to know if the Vhaeraunian incursion is coordinated with anyone on the surface. They will pay for answers.
-> - **Rellan Tessar** owes the party his life. He will volunteer for anything they need from the militia once he recovers (exhaustion level 2 — needs a long rest).
-
-### NPC Interactions
-- **Torval Dunmore** — first contact; vouched for the party, gave them Ulphor's note. Genuine concern for Tessar; now trusts the party.
-- **Lady Addee Ulphor** — hired the party; received the recovered intelligence with controlled calm. Favor extended: "my door is not closed to you." Privately confirmed the drow threat is real and worse than she's said publicly.
-- **Rellan Tessar** — rescued; dehydrated, three cracked ribs, grateful but not dramatic. DM ADDITION: add to [[roster]] as recurring NPC.
-- **Orvyn Tal** — introduced at session end; tested the party's discretion. Harper faction is now in play.
-
-### Combat & Encounters
-- **Skill Challenge — The Living Wood:** Group tracking challenge, 4 successes before 3 failures. Party succeeded — approached undetected, gained surprise.
-- **The Drow Cleft (Scene 4):** Zeldrazz T'orrl (CR 5 drow elite warrior) + 2 drow scouts (CR 1/4) + 1 giant spider (CR 1). Hard encounter for 5 × level 5. Party had surprise. All enemies defeated; Tessar recovered. Adjusted XP: ~4,200.
-
-### Loot & Rewards
-- **300 gp** from Lady Ulphor (150 gp advance + 150 gp on completion)
-- **~125 gp** in camp goods (50 gp mixed coin from camp; Zeldrazz's scimitar worth ~75 gp to the right buyer — drow-made, ornate, non-magical)
-- **~425 gp total** for the party
-- **Vhaeraunian map fragment** (vellum, Undercommon script, three marked sites on Old Skull's northern flank) — delivered to Lady Ulphor
-- **Zeldrazz's iron half-mask pendant** (Vhaeraun's sigil — worthless as treasure, priceless as intelligence) — delivered to Lady Ulphor
-- **Milestone:** Advance PCs to halfway through level 5 (or ~1,500 XP per PC if tracking discretely)
-- **Reputation:** Lady Ulphor's private favor. Torval's trust. Orvyn Tal's cautious interest.
-
-> [!dm] DM Notes
-> - Add **Rellan Tessar** to [[roster]] — he owes the party his life and should recur as a militia contact.
-> - Track whether **Zeldrazz escaped** — if he was killed rather than retreating, remove from villain pool; if he fled down the cleft, he becomes a recurring antagonist who knows the party's faces.
-> - The **two remaining cleft sites** from the map are the natural Session 2 thread. Lady Ulphor will be the one to ask — she has the map.
-> - **Corwick Helm's cover-up** is unresolved. The party hasn't met him yet. Lady Ulphor's "management" of the situation is an open scene worth playing out.
-> - Note for **Orvyn Tal** roleplay: his reaction to the party depends on how forthcoming they were. If guarded, he was equally pleased — but the relationship starts cooler. Confirm and track.
+| # | Title | Log |
+|---|-------|-----|
+| 001 | The Missing Scout | [[sessions/session 1/session 1 - log\|session 1 - log]] |
+| 002 | The Hawthorn Chimney | [[sessions/session 2/session 2 - log\|session 2 - log]] |
 
 ---
 
-<!-- Duplicate the Session 001 block for each subsequent session. -->
+## Campaign Arc So Far
+
+The party arrived in **Shadowdale** as freelance hands and, in two sessions, has become the unofficial drow-incursion task force for **Lady Addee Ulphor** and the Ashaba House. Session 001 saw them rescue militia scout **Rellan Tessar** from a Vhaeraunian cleft on Old Skull's northern flank, killing the field officer **Zeldrazz T'orrl** (presumed escaped) and recovering a map fragment that pointed to two more staging sites. They've been quietly courted by the **Harpers** through **Orvyn Tal**, while **Captain Corwick Helm** — embarrassed by his own cover-up of Tessar's disappearance — has soured into an active rival, especially after Fiorn's open contempt at the Session 002 briefing. In Session 002 they reached **Site B (the Hawthorn Chimney)** only to find a **Lolthite raid party had already purged it** the night before and collapsed the cleft from below; the party killed the wounded drider left behind and recovered written confirmation that two drow factions — Lolthite and Vhaeraunian — are at war beneath Old Skull. **Brynn Ashford** has now opened a Council-side back-channel, asking the party to bring intel to her *before* the Harpers see it.
+
+The natural next move is **Site C**, the third Vhaeraunian staging cleft, where a drow priestess (sigil confirmed by Yinu) and the demoted **Zeldrazz T'orrl** are almost certainly waiting. The bigger questions the party is now positioned to answer are: which drow faction (if either) do they side with, who do they report to first when they come back with answers — Lady Ulphor, Brynn Ashford, or Orvyn Tal — and how do they handle Corwick Helm before his hostility costs the militia someone else. The Lolthites do not yet know the party exists; the Vhaeraunians at Site C will be expecting them.
+
+---
+
+## Recent Session — Session 002 Quick Reference
+**Title:** The Hawthorn Chimney · **Full log:** [[sessions/session 2/session 2 - log\|session 2 - log]]
+
+- Site B is **closed** — Lolthites purged the Vhaeraunian camp and collapsed the shaft. Party killed the wounded drider left behind.
+- **Brynn Ashford** opened a Council-side first-call channel with Loric (Loric noncommittal).
+- **Lolthite vs. Vhaeraunian war** under Old Skull is now confirmed party knowledge.
+- **Corwick Helm** rift widened publicly after Fiorn's contempt at the briefing.
+- **Site C remains open and unscouted** — the obvious S3 thread.
+- Loot: 30 gp, broken ceremonial half-mask (~80 gp), half-burnt Lolthite scroll.
 
 ---
 
@@ -82,11 +49,15 @@ tags:
 
 | Hook / Thread | Introduced | Status | Notes |
 |---------------|------------|--------|-------|
-| Two remaining Vhaeraunian staging sites (from map fragment) | Session 001 | Open | Map delivered to Lady Ulphor; she will commission the scouting |
-| Corwick Helm's cover-up (filed Tessar's disappearance as desertion) | Session 001 | Open | Lady Ulphor said she would "manage" him — scene unplayed |
-| Orvyn Tal / Harpers — is the incursion surface-coordinated? | Session 001 | Open | Tal is watching; will pay for answers |
+| ~~Two remaining Vhaeraunian staging sites (from map fragment)~~ | Session 001 | Partial | **Site B closed** S2 — Lolthites purged the camp and collapsed the cleft. **Site C still open and unscouted** — natural S3 thread |
+| Corwick Helm's cover-up (filed Tessar's disappearance as desertion) | Session 001 | Open + worsening | Lady Ulphor said she would "manage" him; S2 added a public rift after Fiorn's contempt at the briefing |
+| Orvyn Tal / Harpers — is the incursion surface-coordinated? | Session 001 | Open | Confirmed Harper to the party in S2; not yet contacted directly |
 | Rellan Tessar — recurring NPC, owes party his life | Session 001 | Open | Recovering from exhaustion; add to [[roster]] |
-| Zeldrazz T'orrl — fate TBD | Session 001 | Open | Confirm whether killed or escaped; affects villain pool |
+| Zeldrazz T'orrl — fate TBD | Session 001 | Escaped (presumed) | Per adventure plan, expected at Site C as returning antagonist |
+| Brynn Ashford's "first call" arrangement | Session 002 | Open | Brynn pulled Loric aside, asked party to report findings before the Harpers; Loric noncommittal. Nalith overheard undetected |
+| Lolthite vs. Vhaeraunian drow war beneath Old Skull | Session 002 | Active | Confirmed party knowledge — Lolthites sealing surface anchors that Vhaeraunians are opening. Lolthites do not yet know the party exists |
+| Drow priestess on the surface (Vhaeraunian) | Session 002 | Open | Sigil identified by Yinu (Religion 20). Not yet sighted; almost certainly at Site C |
+| Drider trail / Lolthite incursion route | Session 002 | Open | Collapsed shaft at Site B blocks pursuit *there*; broader route unknown |
 
 ---
 

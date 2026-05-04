@@ -83,6 +83,9 @@ Backstory fields were blank on the sheet. No bonds, ideals, flaws, or allies rec
 
 **HP:** 38 | **AC:** 15 (Studded Leather) | **Speed:** 30 ft. walking, 30 ft. climbing | **Initiative:** +3
 **Proficiency Bonus:** +3 | **Hit Dice:** 5d8
+**Saving Throws (prof):** Dexterity +6, Intelligence +3
+**Passive Perception:** 12 | **Passive Insight:** 12 | **Passive Investigation:** 10
+**Currency:** 1,530 gp
 
 ### Key Skills (proficient/expertise)
 Acrobatics +6, Deception +9 *(expertise)*, Performance +9 *(expertise)*, Sleight of Hand +6, Stealth +6, Persuasion +6, Perception +2, Insight +2
@@ -196,9 +199,11 @@ Backstory and personality fields were blank on the sheet.
 **Proficiency Bonus:** +3 | **Hit Dice:** 5d6
 **Resistances:** Fire | **Darkvision:** 60 ft.
 **Saving Throws (prof):** Constitution +4, Charisma +6
+**Passive Perception:** 12 | **Passive Insight:** 12 | **Passive Investigation:** 12
+**Currency:** 43 gp
 
 ### Key Skills (proficient)
-Deception +6, Religion +5, Stealth +3, Persuasion +6, History +2, Intimidation +3
+Deception +6, Persuasion +6, Religion +5, Stealth +3
 
 ### Weapons / Attacks
 | Name | Hit | Damage |

@@ -230,6 +230,145 @@ tags:
 
 ---
 
+## Quillip Burr-and-Whistle — Curious Pixie of the Living Wood
+
+- **Role:** Independent fey contact; freelance trickster and bargain-broker
+- **Affiliation:** None formal; Living Wood fey community
+- **Location:** Currently roosting in a hollow knothole near the cleft mouth on Old Skull's northern flank (Site C). Range is the granite shoulder and the northern Living Wood
+- **Status:** Alive
+- **One-line summary:** A tiny, archly-polite pixie who refused to withdraw from Site C with the rest of the wood because a drow priest setting up shop in *her* granite shoulder is the most interesting thing that's happened in eighty years.
+
+**Appearance:** Tiny fey, roughly the height of a pinecone. Dragonfly-veined wings the color of stained glass. Skin like polished birch with faint freckle-constellations. Wears a stitched-together dress of moth-wing scraps and acorn-cup buttons. Carries a sewing-needle rapier she has never drawn. Invisible by default; visible only when she chooses. **(DM ADDITION)**
+
+**Personality:**
+- *In a word:* Curious.
+- *Public face:* Playful, archly polite, speaks in rhyming couplets when excited and trails off mid-sentence when bored. Calls strangers "the loud ones."
+- *Private self:* Lonely in a way she would never admit. Most of her cohort fled the granite shoulder when the drow set up; she stayed out of stubbornness and curiosity, and is starting to notice the silence.
+- *Mannerism:* Counts things by stacking pinecones (her notes are pinecones arranged by importance). Hovers behind a PC's shoulder when interested in what they're saying.
+
+**Motivations:**
+- *Wants:* Stories. Songs never sung in the Living Wood before. Trinkets from far away. Excuses to use her *polymorph* spell.
+- *Fears:* Being forgotten. The drow priestess finishing her ritual — she doesn't know exactly what it does, but she can taste it from a tree away and it makes her wings itch.
+
+> [!dm] Secret
+> She has been keeping detailed observation notes on Khelziir's cell for two days — headcount, watch rotations, the spider's alarm behavior, the priest's mid-ritual status. She will trade this intel cheaply to anyone who interests her. She has not told the wider fey community because she's not sure she trusts them anymore. **(DM ADDITION)**
+
+
+**Relationship with the party:**
+- *First impression:* Watching from invisibility. Reveals herself the moment a PC says or does anything that interests her — Druidic spoken aloud, Fiorn's shapechange, a true name, a fragment of a real song.
+- *What she wants from the party:* A bargain. She'll offer intel, a diversion (lure the Watcher down with *phantasmal force*), or a banked single-use boon (*polymorph*, *confusion*, or *sleep* on a target the party names within 24 hours) in exchange for **one** fey-style payment — a true secret, a song, a true name, a page from Yinu's spellbook copied for her, a binding promise, or a token from far away.
+
+> [!dm] What she won't say
+> That she's been alone on the granite shoulder for nearly two weeks and is more rattled by the priestess than her tone suggests. That if asked directly about Sela Wyndmere's "unnamed fey lord," she will go very still — she knows of him, will not name him, and will leave the conversation if pressed.
+
+
+**Bargain rules:** All fey bargains struck with Quillip are honored fey-style — the boon comes through reliably; the cost comes due *exactly as stated, no more, no less.* No monkey's-paw twists. (She is not a hag.) If a PC stiffs her on payment, she returns in a later session politely demanding payment with interest.
+
+**Bargain Matrix.** Quillip prices each boon at one fey-style payment from the cost column. The party picks the boon; *she* picks the cost (from the listed tier). She will not stack — one boon, one cost, per encounter. If pressed for a second boon she names a price one tier above; rinse and repeat.
+
+| Boon offered | What it does | Cost tier (she picks one item) |
+|---|---|---|
+| **Intel: Watcher schedule** | Names the scout's ~15-minute walk-arc, blind side, and signal-horn placement. Useful, not magical. | *Cheap* — a true secret about a PC (not a deep one), a verse of a real song sung in tune, a small worked token from somewhere outside the Dales |
+| **Intel: Site C interior** | Two-day surveillance: headcount, watch rotations, the spider's alarm behavior, **Khelziir's mid-ritual status, the 2-round countdown** | *Cheap* — same tier as above; she values that this intel changes hands, not the price |
+| **Diversion: lure the Watcher** | Casts *phantasmal force* one cleft over to draw the Vhaeraunian scout off-post for ~5 minutes. PCs choose the timing. | *Moderate* — a binding promise the PC will keep (specific, named, finite — e.g., "I will leave this clearing standing"), or a true name of someone *not* in the party |
+| **Banked boon: *sleep* on a named target** | Within 24 hours, on a target the party names aloud, Quillip casts *sleep* (5d8 HP) at the moment the party requests. One use. | *Moderate* — same tier as above |
+| **Banked boon: *confusion* on a named target** | Within 24 hours, on a target the party names aloud, Quillip casts *confusion* (10-ft. radius, 1 minute, WIS save) at the moment the party requests. One use. | *Steep* — a page from Yinu's spellbook copied in Yinu's own hand; or a true name of someone close to a PC; or a song composed *for Quillip* in the moment |
+| **Banked boon: *polymorph* on a named target** | Within 24 hours, on a target the party names aloud (PC- or NPC-sized), Quillip casts *polymorph* (1 hour or until concentration drops) at the moment the party requests. One use. | *Steep* — same tier as above |
+
+> [!dm] DM notes on the matrix
+> - **Quillip will NOT** sell *polymorph* against a creature she considers a "true wood-thing" (a fey, a beast bonded to a place, a treant). She'll refuse politely and offer *confusion* at the same price.
+> - **Banked boons resolve at the start of the named target's next turn after the party invokes the bargain.** Quillip is not on initiative; she just makes it happen.
+> - **If the party tries to invoke a banked boon outside her ~½-mile range** (e.g., they descend deep into the cleft and are far from the granite shoulder), the boon still fires — fey range rules are abstracted; the price was paid.
+> - **Concentration:** for *polymorph* and *confusion*, *Quillip* concentrates from her hidden roost. If she is killed, knocked unconscious, or suffers >10 damage in one hit while concentrating, the boon ends early. Treat her concentration as DC 10 (she is a small, distractable pixie). The party should know this when they buy. **(DM ADDITION)**
+
+
+**Refusal path:** If brushed off or threatened, she vanishes (Superior Invisibility) and does **not** tip off the Vhaeraunians — aiding drow is distasteful to her — but the offered intel and boon are gone for this session. She remembers.
+
+**Statline base:** Pixie *(MM p.253; CR 1/4)*. Tiny fey, neutral good. AC 15, HP 1, fly 30 ft. Innate spellcasting (CHA): at-will *druidcraft*; 1/day each — *confusion, dancing lights, detect evil and good, detect thoughts, dispel magic, entangle, fly, phantasmal force, polymorph, sleep*. Superior Invisibility. Magic Resistance.
+
+> [!cite] Source notes
+> Pixie statline from MM. Personality, location, name, and bargain framework are DM additions.
+
+---
+
+## Khelziir Aun'velve — Drow Priest of Vhaeraun
+
+- **Role:** Field-priest of Vhaeraun; commander of the Site C surface cell
+- **Affiliation:** Vhaeraunian drow (the male-supremacist heretic faction); cell of unknown size in the passages beneath Old Skull
+- **Location:** The Shrine, Site C shrine-camp, granite shoulder of Old Skull's northern flank
+- **Status:** Alive (as of session 003 prep)
+- **One-line summary:** A patient, ritually-disciplined Vhaeraunian field-priest mid-way through anchoring a one-way portal to the surface — and willing to die at his altar to finish the work.
+
+**Appearance:** Slim, ascetic drow in robes the color of dried blood. Wears the **silver half-mask of a Vhaeraunian priest** (200 gp curio if recovered) over the upper half of his face — only his thin mouth and angular jaw show. Carries a holy symbol of Vhaeraun (a stylized half-mask) at his belt and twin shortswords across his back. **(DM ADDITION)**
+
+**Personality:**
+- *In a word:* Patient.
+- *Public face:* Cold, formal, devotional. Speaks rarely; when he does it is deliberate and clipped, in good Common.
+- *Private self:* A true believer. He does not see himself as a villain. He sees himself as the faithful instrument of a god correcting an injustice — Vhaeraun's exclusion from the surface and from Lolth's matriarchy. He treats his own death as acceptable if the anchor is consecrated.
+- *Mannerism:* Touches the forehead of his half-mask before speaking, as if asking permission. Will not raise his voice in the shrine — the shrine is sacred space.
+
+**Motivations:**
+- *Wants:* To complete the consecration of the portal-anchor at Site C, opening a stable one-way surface mouth for Vhaeraunian operatives and supplies.
+- *Fears:* That Lolth's drow find the anchor before it is fully consecrated and smash it (which they are, by S3, actively trying to do).
+
+> [!dm] Secret
+> The anchor's consecration is **further along than the Site B intel suggested.** Khelziir has had an extra in-fiction night and the ritual countdown at session start is **2 rounds, not 3.** **(DM ADDITION)**
+
+
+**Relationship with the party:**
+- *First impression:* He has not met the party. He has heard of them — described to him by Zeldrazz as the surface adventurers who closed Site A and embarrassed the cell. He will not negotiate or surrender.
+- *What he wants from the party:* For them to die in his shrine, ideally before the countdown ends.
+
+> [!dm] What he won't say
+> The exact destination of the portal anchor on the Underdark side. He doesn't fully know — he was given coordinates and a consecration rite, not a map.
+
+
+**Statline base:** Custom CR 6 cleric build (chain shirt + *shield of faith*; *spirit guardians*, *silence*, *spiritual weapon*, *bane*, *banishment*). Full stat-block in [[sessions/session 3/the-half-mask-shrine-2-combat-tracker|S3 combat tracker]]. **(DM ADDITION)**
+
+> [!cite] Source notes
+> Vhaeraun and the Vhaeraunian heresy are canonical *[CG, PG]*. Khelziir himself, his name, the silver half-mask, the Site C cell, and the portal-anchor mechanic are DM additions.
+
+---
+
+## Zeldrazz T'orrl — Drow Elite Warrior, Demoted
+
+- **Role:** Khelziir's bodyguard at Site C; formerly the field officer of the Site A cell
+- **Affiliation:** Vhaeraunian drow
+- **Location:** The Shrine, Site C shrine-camp (as of session 003 prep)
+- **Status:** Alive (escaped at the end of session 001 with a near-fatal wound delivered by **Kto**)
+- **One-line summary:** A demoted drow elite who survived a killing-strike from the party in session 001 by sheer spite, has been carrying the scar and the grudge ever since, and is now flanking Khelziir specifically to get a second swing at the PC who marked him.
+
+**Appearance:** Tall for a drow, lean and scarred. **A long pale scar runs across his right cheek** — Kto's S1 strike, never properly healed, left as a deliberate reminder. Wears a chain shirt and shield in the Vhaeraunian style; carries a plain steel scimitar where a more ornate blade once sat (the ornate blade was a sign of rank he no longer holds). **(DM ADDITION)**
+
+**Personality:**
+- *In a word:* Spiteful.
+- *Public face:* Disciplined, controlled, deferential to Khelziir.
+- *Private self:* Furious. He was the field officer of Site A; the party broke that cell and nearly killed him; his superiors demoted him to bodyguard duty, which he experiences as a humiliation he is owed satisfaction for. The satisfaction is named **Kto**.
+- *Mannerism:* Touches the scar on his cheek when Kto's name is spoken or when Kto is in line of sight. Smiles, badly, when he sees her.
+
+**Motivations:**
+- *Wants:* To kill Kto personally, with a blade, while she sees his face.
+- *Fears:* Failing again and being demoted further — or worse, being handed to Lolth's drow as a peace-offering.
+
+> [!dm] Secret
+> If he survives a *third* encounter with the party (S3 being his second), he becomes a confirmed personal nemesis arc — Kto's grudge-mate, marked for a final cap fight in a later session. **(DM ADDITION)**
+
+
+**Relationship with the party:**
+- *First impression:* He knows the party already. **He smiles at Kto** when they enter the Shrine.
+- *What he wants from the party:* Kto's death. The rest can live or die as the fight allows.
+
+> [!dm] What he won't say
+> That his demotion was real and that returning with Kto's head is, in his own mind, his only path back to field-officer rank.
+
+
+**Statline base:** Drow Elite Warrior reskin (MM p.128 baseline; +poison damage rider on shortsword; Parry reaction). Full stat-block in [[sessions/session 3/the-half-mask-shrine-2-combat-tracker|S3 combat tracker]]. **(DM ADDITION)**
+
+> [!cite] Source notes
+> Drow Elite Warrior statblock from MM. Zeldrazz himself, his name, the S1 scar, the demotion, and the Kto vendetta are DM additions established in session 001 and codified in session 003 prep.
+
+---
+
 ## NPC Relationship Web — Shadowdale
 
 | NPC | Connected to | Nature |
@@ -242,6 +381,12 @@ tags:
 | Torval Dunmore | Sela Wyndmere | She tends his regulars when they drink themselves into trouble |
 | Sela Wyndmere | Orvyn Tal | He has texts on the fey she has borrowed before; she doesn't know what he is |
 | Sela Wyndmere | *unnamed fey lord* | She carries his messages; this will become a problem |
+| Quillip Burr-and-Whistle | Sela Wyndmere | Both Living Wood fixtures; Sela will recognize the description if the party mentions her |
+| Quillip Burr-and-Whistle | *unnamed fey lord* | Knows of him; refuses to name him; will leave a conversation that presses on it |
+| Khelziir Aun'velve | Zeldrazz T'orrl | Priest and bodyguard; Zeldrazz reports to him; Khelziir treats him as expendable |
+| Zeldrazz T'orrl | Kto (party) | Personal vendetta — S1 scar, S3 second engagement; will target her on sight |
+| Khelziir's cell | Lolthite enclave (Old Skull) | At war; Lolthites just purged Site B and are coming for Site C |
+| Quillip Burr-and-Whistle | Khelziir's cell | Two days of unsolicited surveillance; the cell does not know she's watching |
 
 ---
 

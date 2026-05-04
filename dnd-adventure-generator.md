@@ -1,6 +1,6 @@
 # D&D 5e Adventure Generator
 
-This skill turns Claude into a D&D 5e content creation assistant that produces print-ready adventures, encounters, NPCs, and stat blocks as polished PDFs with AI-generated portraits and maps.
+This file defines the procedure the agent follows to produce print-ready D&D 5e adventures, encounters, NPCs, and stat blocks. The primary deliverable is a set of Obsidian markdown files with AI-generated portraits and maps embedded by URL; printable PDFs are compiled from those markdown files as a separate, opt-in step.
 
 This is a **preparation tool**, not an interactive DM. Do not simulate gameplay, roll dice, or track party state across sessions. Produce content the DM can read at the table.
 
@@ -34,22 +34,89 @@ Once the user approves moving to images, plan what's needed:
 
 Rules for this step:
 
-- Use `gemini:generate_image` via the Gemini MCP for **every** image. Before your first call, run `tool_search(query="gemini generate image")` to load the tool.
+- Use `generate_image_gemini` (Gemini MCP) for **every** image.
 - Never use any other image source. No Pillow, no matplotlib, no SVG drawing, no placeholders, no colored rectangles. Substituting anything else for Gemini is unacceptable.
 - If Gemini fails after a single retry, skip that image and tell the user. Never fall back to a placeholder.
 - Extract the hosted URL from each tool result. Do **not** extract or decode base64 data — Gemini's URLs are valid for 30 days and are the source of truth.
-- Keep a running list of `{description, url, aspect_ratio}` for every image generated. This list is the handoff to Step 5.
-- Present images to the user by referencing the URLs. Ask for regenerations, changes, or approval to compile the PDF.
+- Keep a running list of `{description, url, aspect_ratio}` for every image generated. Persist it as `sessions/session <N>/images.json` so the markdown files and the PDF renderer can both reference image sizes without re-querying Gemini. This list is the handoff to Step 5.
+- Present images to the user by referencing the URLs. Ask for regenerations, changes, or approval to author the markdown files.
 
-### 5. PDF Compilation
+### 5. Markdown Authoring
 
-Once images are approved, compile the final PDF using **ReportLab Platypus**.
+Once images are approved, write three markdown files into `sessions/session <N>/` (the next session number after the highest-numbered existing folder). These are the **primary deliverable** — what the user reviews, edits, and reads at the table. PDF compilation is a separate, opt-in step.
 
-- Use the image URLs from Step 4. Never regenerate images at this step.
-- For each image, download the URL into a `BytesIO` buffer with `urllib` or `requests` and pass the buffer directly to ReportLab's `Image()`. No intermediate files required.
-- Embed images inline with the text sections they illustrate.
-- Use the aspect ratios from the original Gemini calls to set `Image()` dimensions. No PIL/Pillow.
-- Save the final PDF to `/mnt/user-data/outputs/` and present it via `present_files`.
+Naming pattern, slugified from the adventure title (e.g., *The Second Cleft* → `the-second-cleft`):
+
+1. `<slug>-1-adventure.md` — main body
+2. `<slug>-2-combat-tracker.md` — DM combat tracker
+3. `<slug>-3-player-handouts.md` — player handout appendix
+
+Each file starts with YAML frontmatter:
+
+```yaml
+---
+tags: [campaign/session-<N>, <section-tag>, dnd-5e]
+session: "<NNN>"
+adventure: <Adventure Title>
+section: <main-body|combat-tracker|player-handouts>
+---
+```
+
+The adventure file may add `tier`, `party_level`, and `duration` keys. Inline images use standard markdown `![Caption](https://…)` referencing the Gemini URLs from Step 4 — never download or rehost. Use vanilla Obsidian markdown (tables, headers, lists, fenced code). Do not use Fantasy Statblocks or Admonition syntax unless the user has explicitly asked for them; the print/export pipelines assume plain markdown.
+
+**File 1 — `<slug>-1-adventure.md`:** lead with a summary table (**Title, Tier, Duration, Setting, Hook From**), then the adventure narrative — summary, scenes, encounters, NPCs, treasure, loose ends. Embed inline images immediately after the section they illustrate.
+
+**File 2 — `<slug>-2-combat-tracker.md`:** the per-encounter tracker sheets and stat-block cards described in the Combat Tracker section below, expressed as markdown tables. HP boxes, round counters, and spell slots use the `☐` glyph (Obsidian renders it; the PDF font does not — see PDF rules).
+
+**File 3 — `<slug>-3-player-handouts.md`:** every inline image from File 1 reproduced under its own `##` heading naming the subject (NPC, location, monster, map). One image per section. Maps may be revealed in pieces at GM discretion — note that in the file's preamble.
+
+Present the three file paths to the user. Stop here and wait for review. Once the user approves the markdown as canon, **proceed to Step 6 (Update the Campaign Bible) automatically — do not wait for a separate ask.** Do **not** proceed to Step 7 (PDF compilation) unless the user explicitly asks for it.
+
+### 6. Update the Campaign Bible
+
+Once the three markdown files are approved as canon, the campaign bible must be updated to reflect the new content. **Treat this as a required step in the generation workflow, not an optional follow-up.** Different files update at different points in the session lifecycle — call out the timing distinction explicitly to the user when proposing changes.
+
+**Update immediately, before the session is played:**
+
+- **`campaign/roster.md`** — full entries for any new recurring NPCs (role, affiliation, location, status, one-line summary, appearance, personality, motivations, party relationship, statline reference pointing to `<slug>-2-combat-tracker.md` by wikilink). Add new edges to the NPC Relationship Web. Promote any noteworthy mechanical details that the DM will want at-a-glance during play (a recurring NPC's bargain matrix, a vendetta flag, a faction-link callout) so they live in the roster, not buried in the session file.
+- **`campaign/factions.md`** — new faction intelligence, organizational details, retaliation clocks, doctrinal signatures, iconography, and references to any homebrew stat blocks introduced in the combat tracker (link by wikilink). When the new content extends an existing faction section, expand that section in place rather than appending a parallel one.
+- **`campaign/geography.md`** — new permanent locations, dungeon sites, regional landmarks, or travel routes. Place under the **DM Additions** section, tag `(DM ADDITION)`, and add a source-notes callout when the surrounding region is canonical FR so the DM/CG/PG provenance is clear.
+
+**Hold until after the session is actually played:**
+
+- **`campaign/session-log.md`** — Session Index row, Campaign Arc refresh, Recent Session pointer, Loose Ends Tracker resolutions, Foreshadowing Log entries. **Do not write session-log entries based on planned content — only on what actually happened at the table.** State this hold explicitly to the user when proposing the pre-play bible updates so they know `campaign/session-log.md` is intentionally untouched. The user runs the session, then asks for a post-play log update as a separate request.
+
+**Edit mode depends on agent capability.** When running with file-write access (Augment, Cursor, similar), edit the bible files directly using file-editing tools and summarize the diff back to the user. When running as a stock chat model without write access, produce copy-pasteable markdown blocks instead. In either mode, surface every change to the user, never silently modify content, and never claim a file was edited if it wasn't.
+
+**Scratch files** — if the session prep produced a working scratch file (e.g., `session-<N>-plan.md`), delete it as part of this step once the three deliverables are authored and the bible is updated. The deliverables and the bible are the persistent record; the scratch plan is not.
+
+After the bible is updated, present a summary of the diff and stop. Step 7 is opt-in.
+
+### 7. PDF Compilation (on request)
+
+Only run this step when the user explicitly asks for PDFs. The three markdown files from Step 5 are the source of truth; the PDF is rendered **from** them. Never write narrative content into the PDF build that doesn't exist in the markdown — if something needs to change, change the markdown and rebuild.
+
+Two acceptable approaches — ask which the user prefers if it isn't already established:
+
+- **Obsidian-native** — the user exports each markdown file via the **Better Export PDF** plugin (configured in `Obsidian Setup.md`, with the `dnd-print.css` snippet enabled). The agent's job is to make sure the markdown renders cleanly. No script work required.
+- **ReportLab build (markdown → PDF renderer)** — for adventures that need rendered checkbox cells, parchment stat-card backgrounds, or a single combined PDF, build with **ReportLab Platypus** by parsing the three markdown files. The script reads `<slug>-1-adventure.md`, then `<slug>-2-combat-tracker.md`, then `<slug>-3-player-handouts.md`, and emits a single PDF in that order. The build script contains no duplicated narrative — narrative lives only in the markdown.
+
+ReportLab build rules:
+
+- Parse each markdown file with a library that exposes an AST. Recommended: `mistune` v3 in AST mode, or `markdown-it-py`. Walk the AST and map nodes to Platypus flowables.
+- Required node mappings:
+  - `heading` level 1 → page break + `H1` Paragraph
+  - `heading` level 2/3 → `H2` / `H3` Paragraph
+  - `paragraph` → body Paragraph (preserve inline `em` / `strong` / `code`)
+  - `list` → `ListFlowable` of bullet or numbered items
+  - `table` → ReportLab `Table` with the standard grid style; tables matching tracker patterns get the special styling described in the Combat Tracker section
+  - `image` (`![alt](url)`) → stream the URL into a `BytesIO` with `urllib` or `requests` and emit `Image()` sized from the captured aspect ratio (see `images.json` below). No PIL/Pillow.
+  - `block_code` (fenced) → preformatted Paragraph in a monospace style
+  - `block_quote` → indented body Paragraph
+- **Checkbox glyphs.** Whenever a paragraph or table cell contains `☐`, the renderer replaces each glyph with a small empty bordered cell. Times-Roman does not carry `☐` and falls back to a filled square. Do not register a substitute font; replace at render time so the boxes are crisp and consistently sized.
+- **Image sizing.** Step 4 already captures `{description, url, aspect_ratio}` for each image. Persist that list as `images.json` in the session folder so the renderer can size each `Image()` without re-querying Gemini. Lookup is by URL; if a URL isn't found, fall back to a 4:3 default and warn.
+- **Output:** single PDF at `sessions/session <N>/<adventure-slug>.pdf`.
+- **Run:** `python3 build_pdf.py` from inside the session folder. Tell the user the PDF path on completion; the user opens it themselves in Obsidian or Finder.
 
 ## Text Standards
 
@@ -63,13 +130,13 @@ Once images are approved, compile the final PDF using **ReportLab Platypus**.
 
 ## Image Generation Specs
 
-All images come from `gemini:generate_image`. Write rich, specific prompts (>15 words) that name the subject, mood, color palette, and style. Always work with the returned URL, never the base64 payload.
+All images come from `generate_image_gemini`. Write rich, specific prompts (>15 words) that name the subject, mood, color palette, and style. Always work with the returned URL, never the base64 payload.
 
 - **Maps**: Top-down, print-optimized (minimal background clutter, high contrast). Include a scale indicator, N-arrow, and room/area labels. Use `aspect_ratio="4:3"` for landscape or `aspect_ratio="3:4"` for portrait. Size for 8.5"×11" pages.
 - **Portraits**: `aspect_ratio="3:4"`, painterly fantasy style, neutral background. Must match the text description exactly — armor, species, distinguishing features, attitude.
 - **Location art**: `aspect_ratio="16:9"` for scene/landscape illustrations.
 
-Never use Claude's built-in vector drawing tool or any Python-drawn graphics.
+Never use any built-in vector drawing tool or any Python-drawn graphics for adventure art. Maps, portraits, and scene art come from Gemini only.
 
 ## PDF Formatting
 
@@ -77,4 +144,116 @@ Never use Claude's built-in vector drawing tool or any Python-drawn graphics.
 - Use clear headers and styled body text via ReportLab Platypus paragraph styles.
 - Place each image immediately after the text section it illustrates, with a caption.
 - Images stream from their Gemini URLs into memory at PDF build time — no local caching required.
-- Final PDF output goes to `/mnt/user-data/outputs/` and is shared via `present_files`.
+- Final PDF output goes to `sessions/session <N>/<adventure-slug>.pdf`. The user opens it in Obsidian or Finder; do not attempt to invoke a presentation tool.
+
+### Session folder layout
+
+Each session lives in `sessions/session <N>/` with this file layout:
+
+**Markdown deliverables (always produced — Step 5):**
+
+- `<adventure-slug>-1-adventure.md` — main adventure body.
+- `<adventure-slug>-2-combat-tracker.md` — per-encounter trackers and stat-block cards.
+- `<adventure-slug>-3-player-handouts.md` — labeled images, one per section.
+
+**Image manifest (always written when Step 4 runs):**
+
+- `images.json` — list of `{description, url, aspect_ratio}` captured during image generation. The renderer uses `aspect_ratio` to size each `Image()`. Always present so the PDF can be built later without re-querying Gemini.
+
+**ReportLab PDF artifacts (only when the user asks for a scripted PDF — Step 7):**
+
+- `build_pdf.py` — entry point. Imports `md_to_pdf`, reads the three markdown files in order, looks up image sizes from `images.json`, and emits the combined PDF.
+- `md_to_pdf.py` — reusable markdown→Platypus renderer (page styles, AST walker, checkbox replacement, stat-card and init-table special cases). Session-agnostic — copy unchanged from the previous session's folder.
+- `<adventure-slug>.pdf` — the build output.
+
+The old per-session `build_pdf_content.py`, `combat_tracker.py`, `combat_stat_blocks.py`, and `combat_render.py` modules are no longer used. All adventure, encounter, and stat-block content lives in the three markdown files; the renderer parses them.
+
+## Combat Tracker
+
+Every adventure must include a **DM combat tracker** — as the dedicated `<slug>-2-combat-tracker.md` file (always) and, when a ReportLab PDF is built, as a section between the main body and the player handout appendix. The tracker is a printable, fillable reference the DM uses at the table — it is not a replacement for the encounter prose in the main body.
+
+### Per-encounter contents
+
+For each combat encounter in the adventure, generate:
+
+**1. Tracker sheet (one page per encounter)** containing:
+- Header strip: encounter name, scene reference, location, difficulty (XP total + threshold), light, terrain.
+- Round counter: 10 tick boxes labeled 1–10.
+- **Initiative & damage table** — NPC rows with **pre-rolled initiative** (averaged from DEX), AC, HP shown as **tick boxes at 5 HP per box** (DM crosses out as damage is dealt), and a notes column. **Blank rows are interleaved with the monsters so the DM can write each PC into the table at the right initiative count after dice are rolled.** See the *Initiative table layout* rules below.
+- Conditions reference strip (5e abbreviations: Bln · Chr · Deaf · Frt · Grp · Inc · Inv · Prl · Pet · Pzn · Prn · Rst · Stn · Uns · Conc).
+- Triggers, countdowns, reinforcement conditions (bulleted) — anything time-sensitive that affects when/how the fight escalates.
+- Concentration / Ongoing Effects write-in box (3 blank lines).
+- Tactics summary line per non-PC combatant.
+- Loot/aftermath note.
+- Notes write-in box (resources spent, persisting conditions, XP awarded).
+
+**2. Stat-block cards** for every unique non-PC combatant in that encounter:
+- Portrait thumbnail when one exists in the inline image set; omit cleanly when none.
+- Title + type/alignment line + CR (XP).
+- AC / HP / Speed; ability scores; saves, skills, senses, languages.
+- Traits — write innate spellcasting as `1× spell · 1× spell · 1× spell` so the DM strikes uses inline rather than relying on a checkbox glyph.
+- Spellcasting block with **slot tick boxes per spell level** (1st/2nd/3rd…), DC, attack modifier.
+- Actions, Reactions, Legendary Actions where applicable.
+- Tactics paragraph (round-by-round if the creature has a defined opener).
+- On-defeat loot.
+
+If a creature type appears in multiple encounters, **reprint** its card under each encounter rather than referencing back. The DM should not need to flip pages mid-fight.
+
+### Markdown form
+
+In `<slug>-2-combat-tracker.md`, render each encounter as:
+
+- A level-2 heading (`## Encounter N — <name>`) plus an italic line with scene reference and difficulty.
+- A small key/value table for **Location**, **Light**, **Terrain**.
+- A round strip line: `**Round:** ☐ 1 · ☐ 2 · ☐ 3 · …` through 10.
+- An **Initiative & Damage** markdown table with pre-filled NPC rows interleaved with blank PC rows (`__` / `_________________`) per the *Initiative table layout* rules below. Render HP as `<total>: ☐☐☐☐☐ ☐☐☐☐☐ …` (5 HP per box, ceiling-rounded).
+- `### Triggers & Countdowns`, `### Concentration / Ongoing Effects`, `### Tactics Summary`, `### Loot / Aftermath`, and `### Notes` sections.
+
+Stat-block cards follow as level-3 sections under each encounter, reprinted in full when a creature appears in multiple encounters.
+
+#### Initiative table layout
+
+Blank rows are placed around the monster rows so the DM can slot each PC into the right initiative count after live dice are rolled. The rules:
+
+1. **Each monster (or same-init monster group) gets at least 2 blank rows above and at least 2 blank rows below it.**
+2. **Monsters with the same pre-rolled initiative are listed adjacent** — no blank rows between them. The 2-above / 2-below buffer applies to the group, not each member.
+3. **Monsters with different initiatives are separated by 2 blank rows.** The 2-below of the higher-init monster and the 2-above of the lower-init monster overlap into a single 2-row gap.
+4. **Every initiative table has at least 6 blank rows total.** If rules 1–3 produce fewer than 6 (e.g., a single-monster encounter), pad evenly — add a third blank row above and a third below.
+
+Worked examples (assuming a party that needs ~5 PC slots):
+
+- *1 monster* → 3 blank · monster · 3 blank (6 blanks total — padded for the minimum)
+- *2 monsters at the same init* → 3 blank · M · M · 3 blank (6 blanks total — padded)
+- *3 monsters at different inits (A > B > C)* → 2 blank · A · 2 blank · B · 2 blank · C · 2 blank (8 blanks total — already over the minimum)
+- *3 monsters, two share an init (A > B = C)* → 2 blank · A · 2 blank · B · C · 2 blank (6 blanks total)
+
+Blank-row format matches the column widths exactly:
+`| __ | _________________ | __ | _________________ | _________________ |`
+
+Do **not** include `_PC 1_` / `_PC 2_` placeholder labels in the blank rows — the DM writes the PC name directly into the cell when assigning initiative. Do **not** hard-code a fixed PC count; the layout is monster-relative and works for any party size.
+
+### PDF rendering pattern (only when compiling a ReportLab PDF)
+
+The combat tracker section of the PDF is rendered by `md_to_pdf.py` directly from `<slug>-2-combat-tracker.md`. There are no parallel python data modules — the markdown is the source. The renderer recognizes the patterns from the **Markdown form** above and applies these special cases when emitting Platypus flowables:
+
+- A markdown table whose header row is `Init | Combatant | AC | HP | Notes` becomes the **initiative table**: alternating row shading, fixed column widths. Each HP cell text matching `<n>: <runs of ☐>` is split — the integer is left-aligned as a label (`HP 78`), and the `☐` runs are replaced with bordered tick boxes (5 HP per box).
+- A paragraph beginning `**Round:**` followed by `☐ N · ☐ N …` becomes the **round strip**: a row of bordered numbered tick boxes, one per round 1–10.
+- A level-3 heading naming a creature, followed by a key/value block (`AC`, `HP`, `Speed`, ability scores, traits, actions), becomes a **stat-block card** with parchment background and a thin accent border. If the card text contains a markdown image, it renders as a portrait thumbnail at the top.
+- A line of `☐` glyphs inside a Spellcasting block (e.g., `1st: ☐ ☐ ☐`) becomes a row of spell-slot tick boxes, one per slot.
+- A `### Notes` or `### Concentration / Ongoing Effects` section whose body is a sequence of underscore lines (`______`) renders as a bordered write-in box with the right number of blank lines.
+
+These rules are **single-pass and pattern-based** — the renderer recognizes shapes in the parsed markdown rather than consulting a separate data structure. If the markdown matches the patterns documented under **Markdown form**, the PDF inherits the right styling automatically.
+
+### PDF rendering rules
+
+- **Replace every `☐` glyph with a rendered bordered cell.** Times-Roman does not carry the ballot-box glyph and falls back to a filled square. The renderer's checkbox helper substitutes empty-bordered cells of a fixed point size. (The markdown file keeps `☐` because Obsidian renders it correctly — this rule is PDF-only.)
+- **Pre-roll NPC initiative** so it is printed in the markdown, and the PDF inherits it. PCs roll live and write into the blank rows. Use the average of `1d20 + DEX_mod` rounded to the nearest integer.
+- **HP tick boxes** use 5 HP per box, ceiling-rounded. Print the total HP next to the boxes (e.g., `HP 78`) so the DM can confirm.
+- **Spell-slot tick boxes** match the level's slot count exactly. Cantrips have no boxes.
+- Stat-block cards use a parchment background and a thin accent border to distinguish them visually from narrative content.
+- Initiative tables alternate row shading lightly to keep rows scannable.
+- Single-encounter trackers should fit on one page when feasible. Boss-tier encounters with 5+ combatants and multiple triggers may flow to a second page; do not compress to fit.
+
+### Reuse across sessions
+
+`md_to_pdf.py` is session-agnostic — copy it unchanged into each new session folder. Only the three markdown files and `images.json` are written fresh per session.

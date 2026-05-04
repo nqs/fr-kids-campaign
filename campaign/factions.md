@@ -432,8 +432,31 @@ Drow plague **Battledale, Mistledale, and Shadowdale** via Underdark passages. O
 
 **Lolthite (Spider-Cult) Enclaves** — Standard Lolth-worshipping drow society. Territorial and focused on slow expansion and the corruption of surface communities through enslaved intermediaries. They once controlled Shadowdale via Old Skull; that grip was loosened and has not been fully reestablished — yet.
 
+### The Vhaeraunian Surface Cell at Old Skull *[HOMEBREW]*
+A small Vhaeraunian forward cell has been operating from a chain of three staging clefts on Old Skull's flanks: **Site A** (closed by the party in session 001), **Site B / the Hawthorn Chimney** (closed by a Lolthite raid before the party arrived in session 002), and **Site C / the granite shoulder** (active as of session 003). The cell's surviving leadership at Site C:
+
+- **Khelziir Aun'velve** — field-priest of Vhaeraun, mid-way through consecrating a portal-anchor that would open a stable one-way surface mouth for Vhaeraunian operatives and supplies. *[HOMEBREW — see [[roster]]]*
+- **Zeldrazz T'orrl** — demoted former field officer of Site A, now Khelziir's bodyguard, carrying a personal vendetta against **Kto** from session 001. *[HOMEBREW — see [[roster]]]*
+
+The cell's iconography is the **silver half-mask** of Vhaeraun (priests) and plain **steel half-masks** (footsoldiers). Standard scout loadout: hand crossbow, drow poison, brass signal horns at observation posts.
+
+### The Lolthite Counter-Operation *[HOMEBREW]*
+The Lolthite enclave under Old Skull has the same intelligence the party does — there is a Vhaeraunian cell consecrating surface anchors — and is moving aggressively to close every surface mouth before any portal stabilizes. Their operational signatures:
+
+- **Spider-emblem shields** and **webbed cloaks**; double curved scimitars; **Lolth's-poison** (DC 14 CON, more potent than standard drow poison)
+- **Crawl-tunnel infiltration** — they prefer to come up through narrow vertical shafts beneath the Vhaeraunian camps rather than attack from outside
+- They purged Site B by collapsing the Hawthorn Chimney shaft from below in session 002
+- They are pre-positioned to do the same to Site C in session 003 — the **Lolthite Crash** — emerging through a crawl-tunnel in the Spider Pen
+
+**The enclave does not yet know the surface party exists.** Whether it learns this is the central political stakes of session 003: if any Lolthite raider escapes alive or sees the party clearly during the Crash, the enclave's intelligence picture changes radically and the Lolthite priesthood adds the party to its target list.
+
+**Stat-block note:** *Lolthite Drow Raider* (CR 1 homebrew, AC 16, HP 39) is reproduced in full in [[sessions/session 3/the-half-mask-shrine-2-combat-tracker|S3 combat tracker]]. Promote to a permanent stat-block reference if used in future sessions.
+
+### Vhaeraunian Retaliation Timer
+**Regardless of S3 outcome**, a Vhaeraunian retaliation arrives in 2–3 weeks of in-fiction time. Form depends on which Site C ending the party chose — public smash invites a heavy strike, quiet steal triggers an investigative response, listening-glyph Feed delays the response and gives the Harpers warning. Track this clock once S3 is logged.
+
 ### What's Happening Under Old Skull Right Now
-Corwick Helm's militia has confirmed drow movement in at least two upper passages. A scout who went deeper three weeks ago came back changed and has stopped talking. Lady Ulphor has been quietly sealing the Ashaba House's lower cellars. Sela Wyndmere has noticed fey withdrawing from the forest near Old Skull.
+Corwick Helm's militia has confirmed drow movement in at least two upper passages. A scout who went deeper three weeks ago came back changed and has stopped talking. Lady Ulphor has been quietly sealing the Ashaba House's lower cellars. Sela Wyndmere has noticed fey withdrawing from the forest near Old Skull. The fey of the granite shoulder withdrew weeks ago — except for **Quillip Burr-and-Whistle**, who stayed out of curiosity and has been observing Khelziir's cell.
 
 Nobody is saying the word "drow" out loud in the village. Everybody is thinking it.
 
@@ -441,6 +464,7 @@ Nobody is saying the word "drow" out loud in the village. Everybody is thinking 
 > - The party is the people Lady Ulphor calls when she can no longer pretend this isn't happening
 > - The Vhaeraunian faction and the Lolthite faction are in conflict below; the party could exploit that — or get caught between them
 > - Someone on the surface has been in contact with the drow voluntarily; the party needs to find out who before the situation escalates
+> - The Vhaeraunian retaliation clock starts ticking the moment Site C closes — a hostile op arrives in 2–3 weeks
 
 ---
 
