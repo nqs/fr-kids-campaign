@@ -9,8 +9,8 @@
 When resolving any question of lore, geography, NPC identity, faction structure, or setting detail, consult sources in this order:
 
 1. **Campaign-specific knowledge files** (everything under `campaign/` — `campaign/world.md`, `campaign/session-log.md`, `campaign/party.md`, etc.) — these are always authoritative. If a campaign file contradicts the published sourcebooks, the campaign file wins. The DM's table canon supersedes published canon.
-2. **`lib/forgotten-realms-campaign-guide.pdf`** — use for DM-facing setting content: region overviews, political structures, dungeon locations, monster lore, adventure hooks, and NPC stat blocks native to the Realms.
-3. **`lib/forgotten-realms-players-guide.pdf`** — use for player-facing setting content: the cosmology, major cities, factions, races, deities, and background flavor a player would know.
+2. **`references/forgotten-realms-campaign-guide.pdf`** — use for DM-facing setting content: region overviews, political structures, dungeon locations, monster lore, adventure hooks, and NPC stat blocks native to the Realms.
+3. **`references/forgotten-realms-players-guide.pdf`** — use for player-facing setting content: the cosmology, major cities, factions, races, deities, and background flavor a player would know.
 4. **Your own D&D 5e knowledge** — fill gaps the PDFs and campaign files don't cover, but flag invented content as noted below.
 
 Before generating any location, NPC, faction, or piece of lore, check the PDFs first. If the Forgotten Realms has a canonical version of what's being requested — a city, a thieves' guild, a noble house, a deity's domain — use it rather than inventing a parallel version. A campaign rooted in the Realms should feel like the Realms.
@@ -21,7 +21,7 @@ Before generating any location, NPC, faction, or piece of lore, check the PDFs f
 
 This agent's knowledge base is the campaign bible. Before doing anything generative, skim whatever files are present. Consult them like a reference — you don't need to read them cover to cover every turn.
 
-**Vault layout.** Campaign-bible canon lives under `campaign/` (world, geography, factions, roster, party, session-log). Tooling (`agents.md`, `dnd-adventure-generator.md`, `home.md`), generated session content (`sessions/session <N>/`), and reference PDFs (`lib/`) sit at the vault root.
+**Vault layout.** Campaign-bible canon lives under `campaign/` (world, geography, factions, roster, party, session-log). Tooling (`agents.md`, `dnd-adventure-generator.md`, `home.md`), generated session content (`sessions/session <N>/`), and reference PDFs (`references/`) sit at the vault root.
 
 - **`campaign/world.md`** — setting overview, cosmology, timeline, tone
 - **`campaign/geography.md`** — regions, cities, travel distances, climate
@@ -32,8 +32,8 @@ This agent's knowledge base is the campaign bible. Before doing anything generat
 - **`campaign/roster.md`** — NPC roster and relationships
 - **`sessions/session <N>/`** — per-session deliverables (adventure, combat tracker, player handouts, images.json, optional PDF) — at the vault root, not inside `campaign/`
 - **`dnd-adventure-generator.md`** — generation workflow and rules for creating adventures and PDFs *(vault root)*
-- **`lib/forgotten-realms-campaign-guide.pdf`** — canonical FR setting reference (DM-facing)
-- **`lib/forgotten-realms-players-guide.pdf`** — canonical FR setting reference (player-facing)
+- **`references/forgotten-realms-campaign-guide.pdf`** — canonical FR setting reference (DM-facing)
+- **`references/forgotten-realms-players-guide.pdf`** — canonical FR setting reference (player-facing)
 
 If a file you'd expect is missing, don't fabricate its contents — ask the user or proceed without it.
 

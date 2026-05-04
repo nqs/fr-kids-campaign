@@ -19,7 +19,7 @@ The DM's vault for an ongoing D&D 5e campaign set in **Shadowdale**, the Dalelan
 
 ## Reference Material
 
-PDFs live in `lib/`:
+PDFs live in `references/`:
 - `forgotten-realms-campaign-guide.pdf` — DM-facing setting reference
 - `forgotten-realms-players-guide.pdf` — player-facing setting reference
 
@@ -52,7 +52,7 @@ fr-kids-campaign/
 │   └── session-log.md            # campaign-wide session index + loose ends
 ├── sessions/                     # per-session deliverables (root-level)
 │   └── session <N>/              # adventure / combat-tracker / handouts / images.json / pdf
-└── lib/                          # canonical FR sourcebook PDFs (DM and player guides)
+└── references/                   # canonical FR sourcebook PDFs (DM and player guides)
 ```
 
 Wikilinks like `[[roster]]` resolve regardless of folder, so bullets here work whether the target is at root or under `campaign/`. Path-prefixed wikilinks (e.g. `[[sessions/session 3/...]]`) point at the root-level `sessions/` tree.
