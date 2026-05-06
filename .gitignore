@@ -10,3 +10,7 @@
 
 .claude/
 .copilot/
+
+# Python
+__pycache__/
+*.pyc
