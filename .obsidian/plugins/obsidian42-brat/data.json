@@ -17,7 +17,7 @@
   "loggingVerboseEnabled": false,
   "debuggingMode": false,
   "notificationsEnabled": true,
-  "globalTokenName": "",
+  "globalTokenName": "obsidian",
   "personalAccessToken": "",
   "selectLatestPluginVersionByDefault": false,
   "allowIncompatiblePlugins": false

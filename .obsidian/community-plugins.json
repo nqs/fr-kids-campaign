@@ -1,10 +1,11 @@
 [
+  "fantasy-statblocks",
   "obsidian-dice-roller",
+  "initiative-tracker",
   "obsidian-admonition",
+  "obsidian-leaflet-plugin",
   "obsidian-pandoc",
-  "better-export-pdf",
   "obsidian-style-settings",
-  "obsidian42-brat",
-  "agent-client",
-  "obsidian-git"
+  "obsidian-5e-statblocks",
+  "obsidian42-brat"
 ]
