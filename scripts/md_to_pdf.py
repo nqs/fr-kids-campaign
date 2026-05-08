@@ -466,9 +466,9 @@ class BlockRenderer:
                     inner_html.append(_inline_to_html(child.get("children", [])))
             html = "<br/>".join(h for h in inner_html if h.strip())
             items.append(ListItem(Paragraph(html or "&nbsp;", BULLET),
-                                  leftIndent=10))
+                                  leftIndent=22, bulletOffsetY=-1))
         self.out.append(ListFlowable(items, bulletType="bullet", start="•",
-                                     leftIndent=14, bulletFontSize=8,
+                                     leftIndent=22, bulletFontSize=9,
                                      bulletOffsetY=-1, spaceBefore=2, spaceAfter=6))
 
     def _h_table(self, node: dict) -> None:
