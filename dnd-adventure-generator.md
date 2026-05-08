@@ -101,11 +101,16 @@ Only run this step when the user explicitly asks for PDFs. The three markdown fi
 Two acceptable approaches — ask which the user prefers if it isn't already established:
 
 - **Obsidian-native** — the user exports each markdown file via the **Better Export PDF** plugin (configured in `Obsidian Setup.md`, with the `dnd-print.css` snippet enabled). The agent's job is to make sure the markdown renders cleanly. No script work required.
-- **ReportLab build (markdown → PDF renderer)** — for adventures that need rendered checkbox cells, parchment stat-card backgrounds, or a single combined PDF, build with **ReportLab Platypus** by parsing the three markdown files. The script reads `<slug>-1-adventure.md`, then `<slug>-2-combat-tracker.md`, then `<slug>-3-player-handouts.md`, and emits a single PDF in that order. The build script contains no duplicated narrative — narrative lives only in the markdown.
+- **ReportLab build (markdown → PDF renderer)** — for adventures that need rendered checkbox cells, parchment stat-card backgrounds, or a single combined PDF, run the reusable build script at `scripts/build_pdf.py`. It parses the three markdown files in order (`<slug>-1-adventure.md` → `<slug>-2-combat-tracker.md` → `<slug>-3-player-handouts.md`) and emits a single PDF. The script contains no duplicated narrative — narrative lives only in the markdown.
 
-ReportLab build rules:
+The reusable scripts:
 
-- Parse each markdown file with a library that exposes an AST. Recommended: `mistune` v3 in AST mode, or `markdown-it-py`. Walk the AST and map nodes to Platypus flowables.
+- **`scripts/build_pdf.py`** — CLI entry point. Auto-discovers the session folder, slug, three markdown files, `images.json`, and PDF title (from the adventure file's `adventure:` frontmatter key). Do not copy this into the session folder; invoke it from the repo root.
+- **`scripts/md_to_pdf.py`** — the markdown→Platypus renderer (page styles, AST walker, checkbox replacement, stat-card and init-table special cases). Imported by `build_pdf.py`. Session-agnostic; do not copy or fork per session.
+
+ReportLab build rules (these describe what `scripts/md_to_pdf.py` already implements; touch the script if any of these need to change, never reimplement per session):
+
+- Parse each markdown file with a library that exposes an AST. The current implementation uses `mistune` v3 in AST mode (with the `table` plugin). Walk the AST and map nodes to Platypus flowables.
 - Required node mappings:
   - `heading` level 1 → page break + `H1` Paragraph
   - `heading` level 2/3 → `H2` / `H3` Paragraph
@@ -117,8 +122,9 @@ ReportLab build rules:
   - `block_quote` → indented body Paragraph
 - **Checkbox glyphs.** Whenever a paragraph or table cell contains `☐`, the renderer replaces each glyph with a small empty bordered cell. Times-Roman does not carry `☐` and falls back to a filled square. Do not register a substitute font; replace at render time so the boxes are crisp and consistently sized.
 - **Image sizing.** Step 4 already captures `{description, url, aspect_ratio}` for each image. Persist that list as `images.json` in the session folder so the renderer can size each `Image()` without re-querying Gemini. Lookup is by URL; if a URL isn't found, fall back to a 4:3 default and warn.
-- **Output:** single PDF at `sessions/session <N>/<adventure-slug>.pdf`.
-- **Run:** `python3 build_pdf.py` from inside the session folder. Tell the user the PDF path on completion; the user opens it themselves in Obsidian or Finder.
+- **Output:** single PDF at `sessions/session <N>/<adventure-slug>.pdf` (the slug is derived from `<slug>-1-adventure.md`).
+- **Run:** from the repo root, `.venv/bin/python scripts/build_pdf.py [<session-number-or-folder>]`. With no argument it builds the latest session; pass `3` or `"sessions/session 3"` to target a specific one. Optional `--title` and `--out` flags override the auto-detected title and output path. Tell the user the PDF path on completion; the user opens it themselves in Obsidian or Finder.
+- **Dependencies:** `mistune` and `reportlab`, installed into a project venv at `.venv/`. If the venv is missing, create it once with `python3 -m venv .venv && .venv/bin/python -m pip install mistune reportlab`. Do not install into the system Python (Homebrew Python is PEP 668 externally-managed).
 
 ## Text Standards
 
@@ -162,13 +168,11 @@ Each session lives in `sessions/session <N>/` with this file layout:
 
 - `images.json` — list of `{description, url, aspect_ratio}` captured during image generation. The renderer uses `aspect_ratio` to size each `Image()`. Always present so the PDF can be built later without re-querying Gemini.
 
-**ReportLab PDF artifacts (only when the user asks for a scripted PDF — Step 7):**
+**ReportLab PDF artifact (only when the user asks for a scripted PDF — Step 7):**
 
-- `build_pdf.py` — entry point. Imports `md_to_pdf`, reads the three markdown files in order, looks up image sizes from `images.json`, and emits the combined PDF.
-- `md_to_pdf.py` — reusable markdown→Platypus renderer (page styles, AST walker, checkbox replacement, stat-card and init-table special cases). Session-agnostic — copy unchanged from the previous session's folder.
-- `<adventure-slug>.pdf` — the build output.
+- `<adventure-slug>.pdf` — the build output. Produced by `scripts/build_pdf.py` from the three markdown files plus `images.json`.
 
-The old per-session `build_pdf_content.py`, `combat_tracker.py`, `combat_stat_blocks.py`, and `combat_render.py` modules are no longer used. All adventure, encounter, and stat-block content lives in the three markdown files; the renderer parses them.
+The build scripts themselves live at the repo root, not per-session: `scripts/build_pdf.py` (CLI entry point) and `scripts/md_to_pdf.py` (markdown→Platypus renderer). Do not copy them into the session folder. The old per-session `build_pdf_content.py`, `combat_tracker.py`, `combat_stat_blocks.py`, and `combat_render.py` modules are no longer used either. All adventure, encounter, and stat-block content lives in the three markdown files; the renderer parses them.
 
 ## Combat Tracker
 
@@ -258,4 +262,4 @@ These rules are **single-pass and pattern-based** — the renderer recognizes sh
 
 ### Reuse across sessions
 
-`md_to_pdf.py` is session-agnostic — copy it unchanged into each new session folder. Only the three markdown files and `images.json` are written fresh per session.
+The renderer (`scripts/md_to_pdf.py`) and the CLI (`scripts/build_pdf.py`) are session-agnostic and live at the repo root. Reference them in place — do not copy or fork them into session folders. Only the three markdown files and `images.json` are written fresh per session; the PDF is rebuilt from them on demand.
