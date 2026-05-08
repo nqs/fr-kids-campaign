@@ -1,0 +1,767 @@
+{
+  "version": 1,
+  "sessionId": "4bd51468-94e6-475b-86bf-367ae00d61af",
+  "agentId": "Auggie",
+  "messages": [
+    {
+      "id": "b13036f1-c40d-4610-be7b-a6bf7421c4be",
+      "role": "user",
+      "content": [
+        {
+          "type": "text_with_context",
+          "text": "Update @[[agents]] and  @[[dnd-adventure-generator]] to use the markdown files in the references/ folder instead of trying to load the PDF files",
+          "autoMentionContext": {
+            "noteName": "home",
+            "notePath": "home.md"
+          }
+        }
+      ],
+      "timestamp": "2026-05-08T18:21:32.400Z"
+    },
+    {
+      "id": "3e6c72f2-67cd-4b98-b87e-a263e96723b6",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "agent_thought",
+          "text": " I need to check what markdown files are available in the references folder, then update both agents.md and dnd-adventure-generator.md to point to those instead of the PDF files they currently reference."
+        }
+      ],
+      "timestamp": "2026-05-08T18:23:13.451Z"
+    },
+    {
+      "id": "7e20c8d2-30ea-483d-a38e-028dba153849",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_013C7znZAsBBDKiWXSC6P4br",
+          "title": "List directory `references`",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "path": "/Users/nstewart/Library/Mobile Documents/iCloud~md~obsidian/Documents/fr-kids-campaign/references"
+            }
+          ],
+          "rawInput": {
+            "path": "references",
+            "type": "directory"
+          }
+        }
+      ],
+      "timestamp": "2026-05-08T18:23:13.451Z"
+    },
+    {
+      "id": "82d6ad6c-570b-43c5-bd7f-9bacc86f0afc",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_011ZgrU53THXMcD8wejvNV1Z",
+          "title": "Read `agents.md`",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "path": "/Users/nstewart/Library/Mobile Documents/iCloud~md~obsidian/Documents/fr-kids-campaign/agents.md"
+            }
+          ],
+          "rawInput": {
+            "path": "agents.md"
+          }
+        }
+      ],
+      "timestamp": "2026-05-08T18:23:13.451Z"
+    },
+    {
+      "id": "358528f3-2853-4749-8f2a-3e34de1407b9",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01Qpuqd8S1gaiiQUgQFDvVzZ",
+          "title": "Read `dnd-adventure-generator.md`",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "path": "/Users/nstewart/Library/Mobile Documents/iCloud~md~obsidian/Documents/fr-kids-campaign/dnd-adventure-generator.md"
+            }
+          ],
+          "rawInput": {
+            "path": "dnd-adventure-generator.md"
+          }
+        },
+        {
+          "type": "agent_thought",
+          "text": " I need to explore the folder structure to see what markdown files are actually available in the references directory."
+        }
+      ],
+      "timestamp": "2026-05-08T18:23:13.451Z"
+    },
+    {
+      "id": "68586b9e-9caf-4631-816f-d11871d511da",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_011ziHnm5qHd8MJnF9dwwpRR",
+          "title": "Run `ls references/campaign-guide references/players-guide | head -100`",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "command": "ls references/campaign-guide references/players-guide | head -100",
+            "cwd": "/Users/nstewart/Library/Mobile Documents/iCloud~md~obsidian/Documents/fr-kids-campaign",
+            "wait": true,
+            "max_wait_seconds": 10
+          }
+        }
+      ],
+      "timestamp": "2026-05-08T18:23:13.451Z"
+    },
+    {
+      "id": "78200902-6b25-4d2e-9f76-03d80a6ba147",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_019iaiPChWWiTgkgbZTZUU5D",
+          "title": "Run `ls references/campaign-guide/_raw references/players-guide/_raw | head -60`",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "command": "ls references/campaign-guide/_raw references/players-guide/_raw | head -60",
+            "cwd": "/Users/nstewart/Library/Mobile Documents/iCloud~md~obsidian/Documents/fr-kids-campaign",
+            "wait": true,
+            "max_wait_seconds": 10
+          }
+        }
+      ],
+      "timestamp": "2026-05-08T18:23:13.451Z"
+    },
+    {
+      "id": "55ac5557-f0af-4123-9e2d-6062e4c209f4",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_018c96tsn6hzGmowyLASGyTx",
+          "title": "Run `ls references/campaign-guide/_raw/pages | head -10 && echo \"---\" && ls reference...`",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "command": "ls references/campaign-guide/_raw/pages | head -10 && echo \"---\" && ls references/campaign-guide/_raw/pages | wc -l && echo \"---\" && ls references/players-guide/_raw/pages | wc -l && echo \"---\" && head -40 references/campaign-guide/_raw/full.md",
+            "cwd": "/Users/nstewart/Library/Mobile Documents/iCloud~md~obsidian/Documents/fr-kids-campaign",
+            "wait": true,
+            "max_wait_seconds": 10
+          }
+        },
+        {
+          "type": "agent_thought",
+          "text": " The references folder is already extracted with the campaign and players guides available as full markdown files plus individual page files, along with associated images.\n\nNow I need to update both agents.md and dnd-adventure-generator.md to reference these markdown extracts instead of PDFs. Looking through agents.md, I can see it has numerous PDF references scattered throughout—in the source hierarchy, knowledge file listings, and multiple sections about consulting the Forgotten Realms sourcebooks. I'll need to systematically replace these with pointers to the markdown files. The dnd-adventure-generator.md file doesn't appear to have direct PDF references in its workflow content, so the main work is in agents.md."
+        }
+      ],
+      "timestamp": "2026-05-08T18:23:13.451Z"
+    },
+    {
+      "id": "146609ad-c624-463c-a8cc-f1105bbb686f",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01FpN7pKFncC53wE7iwjhhA7",
+          "title": "Read `dnd-adventure-generator.md` (search: \"pdf|references/|sourcebook|forgotten[- ]realms\")",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "path": "/Users/nstewart/Library/Mobile Documents/iCloud~md~obsidian/Documents/fr-kids-campaign/dnd-adventure-generator.md"
+            }
+          ],
+          "rawInput": {
+            "path": "dnd-adventure-generator.md",
+            "search_query_regex": "pdf|references/|sourcebook|forgotten[- ]realms",
+            "case_sensitive": false
+          }
+        }
+      ],
+      "timestamp": "2026-05-08T18:23:13.451Z"
+    },
+    {
+      "id": "3d474c97-b178-489c-921d-b65f829465b8",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_016SjXCcZATYRUUbJmkfxDv1",
+          "title": "Read `agents.md` (search: \"pdf|references/|sourcebook\")",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "path": "/Users/nstewart/Library/Mobile Documents/iCloud~md~obsidian/Documents/fr-kids-campaign/agents.md"
+            }
+          ],
+          "rawInput": {
+            "path": "agents.md",
+            "search_query_regex": "pdf|references/|sourcebook",
+            "case_sensitive": false
+          }
+        },
+        {
+          "type": "agent_thought",
+          "text": " I'm realizing that the PDF references in `dnd-adventure-generator.md` are about the compiled output PDFs, not the Forgotten Realms sourcebooks, so those should remain unchanged. Only `agents.md` actually references the FR PDFs and needs updating. Let me focus on just that file and re-examine what the user is actually asking for. I'm going through agents.md systematically to swap out all PDF references for the markdown equivalents — updating file paths, changing \"PDFs\" to \"references\" or \"materials\" throughout, and making sure the language reflects that we're now using the extracted markdown files instead. I should also add a note about the folder structure so the agent understands how the references are organized."
+        },
+        {
+          "type": "text",
+          "text": "The only file that references the Forgotten Realms sourcebook PDFs is `agents.md`. In `dnd-adventure-generator.md`, every \"PDF\" reference is about the *output* adventure PDF (the compiled book that's rendered from the three markdown files) — not the reference sourcebooks. So the substantive changes all live in `agents.md`. I'll add one supporting note in `dnd-adventure-generator.md` so the \"setting context\" injection points at the markdown extracts too.\n"
+        }
+      ],
+      "timestamp": "2026-05-08T18:23:13.451Z"
+    },
+    {
+      "id": "8c0d0167-a3a4-487d-bc76-04e8f41c2b60",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01XNEPxNstqhD5r4Ehr7WTGV",
+          "title": "Edit agents.md",
+          "status": "completed",
+          "kind": "edit",
+          "content": [
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/Library/Mobile Documents/iCloud~md~obsidian/Documents/fr-kids-campaign/agents.md",
+              "newText": "1. **Campaign-specific knowledge files** (everything under `campaign/` — `campaign/world.md`, `campaign/session-log.md`, `campaign/party.md`, etc.) — these are always authoritative. If a campaign file contradicts the published sourcebooks, the campaign file wins. The DM's table canon supersedes published canon.\n2. **`references/campaign-guide/`** — markdown extract of the *Forgotten Realms Campaign Guide*. Use for DM-facing setting content: region overviews, political structures, dungeon locations, monster lore, adventure hooks, and NPC stat blocks native to the Realms. The full text lives at `references/campaign-guide/_raw/full.md`; per-page files sit under `references/campaign-guide/_raw/pages/page-NNNN.md`; extracted figures live under `references/campaign-guide/_raw/images/`.\n3. **`references/players-guide/`** — markdown extract of the *Forgotten Realms Player's Guide*. Use for player-facing setting content: the cosmology, major cities, factions, races, deities, and background flavor a player would know. Same layout: `_raw/full.md`, `_raw/pages/`, `_raw/images/`.\n4. **Your own D&D 5e knowledge** — fill gaps the references and campaign files don't cover, but flag invented content as noted below.\n\nBefore generating any location, NPC, faction, or piece of lore, check the references first. If the Forgotten Realms has a canonical version of what's being requested — a city, a thieves' guild, a noble house, a deity's domain — use it rather than inventing a parallel version. A campaign rooted in the Realms should feel like the Realms.\n\n**How to read the references.** Don't try to load the PDFs in `references/` — the markdown extracts above are the working source. Search by grepping the per-page files or `full.md` for the city/faction/NPC name; pull the surrounding paragraphs as canon. Note the page filename when citing so the DM can cross-check.",
+              "oldText": "1. **Campaign-specific knowledge files** (everything under `campaign/` — `campaign/world.md`, `campaign/session-log.md`, `campaign/party.md`, etc.) — these are always authoritative. If a campaign file contradicts the published sourcebooks, the campaign file wins. The DM's table canon supersedes published canon.\n2. **`references/forgotten-realms-campaign-guide.pdf`** — use for DM-facing setting content: region overviews, political structures, dungeon locations, monster lore, adventure hooks, and NPC stat blocks native to the Realms.\n3. **`references/forgotten-realms-players-guide.pdf`** — use for player-facing setting content: the cosmology, major cities, factions, races, deities, and background flavor a player would know.\n4. **Your own D&D 5e knowledge** — fill gaps the PDFs and campaign files don't cover, but flag invented content as noted below.\n\nBefore generating any location, NPC, faction, or piece of lore, check the PDFs first. If the Forgotten Realms has a canonical version of what's being requested — a city, a thieves' guild, a noble house, a deity's domain — use it rather than inventing a parallel version. A campaign rooted in the Realms should feel like the Realms."
+            }
+          ],
+          "locations": [
+            {
+              "path": "/Users/nstewart/Library/Mobile Documents/iCloud~md~obsidian/Documents/fr-kids-campaign/agents.md"
+            }
+          ],
+          "rawInput": {
+            "path": "agents.md",
+            "instruction_reminder": "ALWAYS BREAK DOWN EDITS INTO SMALLER CHUNKS OF AT MOST 150 LINES EACH.",
+            "command": "str_replace",
+            "old_str_1": "1. **Campaign-specific knowledge files** (everything under `campaign/` — `campaign/world.md`, `campaign/session-log.md`, `campaign/party.md`, etc.) — these are always authoritative. If a campaign file contradicts the published sourcebooks, the campaign file wins. The DM's table canon supersedes published canon.\n2. **`references/forgotten-realms-campaign-guide.pdf`** — use for DM-facing setting content: region overviews, political structures, dungeon locations, monster lore, adventure hooks, and NPC stat blocks native to the Realms.\n3. **`references/forgotten-realms-players-guide.pdf`** — use for player-facing setting content: the cosmology, major cities, factions, races, deities, and background flavor a player would know.\n4. **Your own D&D 5e knowledge** — fill gaps the PDFs and campaign files don't cover, but flag invented content as noted below.\n\nBefore generating any location, NPC, faction, or piece of lore, check the PDFs first. If the Forgotten Realms has a canonical version of what's being requested — a city, a thieves' guild, a noble house, a deity's domain — use it rather than inventing a parallel version. A campaign rooted in the Realms should feel like the Realms.",
+            "new_str_1": "1. **Campaign-specific knowledge files** (everything under `campaign/` — `campaign/world.md`, `campaign/session-log.md`, `campaign/party.md`, etc.) — these are always authoritative. If a campaign file contradicts the published sourcebooks, the campaign file wins. The DM's table canon supersedes published canon.\n2. **`references/campaign-guide/`** — markdown extract of the *Forgotten Realms Campaign Guide*. Use for DM-facing setting content: region overviews, political structures, dungeon locations, monster lore, adventure hooks, and NPC stat blocks native to the Realms. The full text lives at `references/campaign-guide/_raw/full.md`; per-page files sit under `references/campaign-guide/_raw/pages/page-NNNN.md`; extracted figures live under `references/campaign-guide/_raw/images/`.\n3. **`references/players-guide/`** — markdown extract of the *Forgotten Realms Player's Guide*. Use for player-facing setting content: the cosmology, major cities, factions, races, deities, and background flavor a player would know. Same layout: `_raw/full.md`, `_raw/pages/`, `_raw/images/`.\n4. **Your own D&D 5e knowledge** — fill gaps the references and campaign files don't cover, but flag invented content as noted below.\n\nBefore generating any location, NPC, faction, or piece of lore, check the references first. If the Forgotten Realms has a canonical version of what's being requested — a city, a thieves' guild, a noble house, a deity's domain — use it rather than inventing a parallel version. A campaign rooted in the Realms should feel like the Realms.\n\n**How to read the references.** Don't try to load the PDFs in `references/` — the markdown extracts above are the working source. Search by grepping the per-page files or `full.md` for the city/faction/NPC name; pull the surrounding paragraphs as canon. Note the page filename when citing so the DM can cross-check.",
+            "old_str_start_line_number_1": 11,
+            "old_str_end_line_number_1": 16
+          }
+        }
+      ],
+      "timestamp": "2026-05-08T18:23:13.451Z"
+    },
+    {
+      "id": "4efcf8e3-2252-4fed-bc85-85b503b61158",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01RaS4aJSScNsAvnQWe88hPo",
+          "title": "Edit agents.md",
+          "status": "completed",
+          "kind": "edit",
+          "content": [
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/Library/Mobile Documents/iCloud~md~obsidian/Documents/fr-kids-campaign/agents.md",
+              "newText": "**Vault layout.** Campaign-bible canon lives under `campaign/` (world, geography, factions, roster, party, session-log). Tooling (`agents.md`, `dnd-adventure-generator.md`, `home.md`), generated session content (`sessions/session <N>/`), and reference materials (`references/` — markdown extracts of the FR sourcebooks) sit at the vault root.",
+              "oldText": "**Vault layout.** Campaign-bible canon lives under `campaign/` (world, geography, factions, roster, party, session-log). Tooling (`agents.md`, `dnd-adventure-generator.md`, `home.md`), generated session content (`sessions/session <N>/`), and reference PDFs (`references/`) sit at the vault root."
+            }
+          ],
+          "locations": [
+            {
+              "path": "/Users/nstewart/Library/Mobile Documents/iCloud~md~obsidian/Documents/fr-kids-campaign/agents.md"
+            }
+          ],
+          "rawInput": {
+            "path": "agents.md",
+            "instruction_reminder": "ALWAYS BREAK DOWN EDITS INTO SMALLER CHUNKS OF AT MOST 150 LINES EACH.",
+            "command": "str_replace",
+            "old_str_1": "**Vault layout.** Campaign-bible canon lives under `campaign/` (world, geography, factions, roster, party, session-log). Tooling (`agents.md`, `dnd-adventure-generator.md`, `home.md`), generated session content (`sessions/session <N>/`), and reference PDFs (`references/`) sit at the vault root.",
+            "new_str_1": "**Vault layout.** Campaign-bible canon lives under `campaign/` (world, geography, factions, roster, party, session-log). Tooling (`agents.md`, `dnd-adventure-generator.md`, `home.md`), generated session content (`sessions/session <N>/`), and reference materials (`references/` — markdown extracts of the FR sourcebooks) sit at the vault root.",
+            "old_str_start_line_number_1": 26,
+            "old_str_end_line_number_1": 26
+          }
+        }
+      ],
+      "timestamp": "2026-05-08T18:23:13.451Z"
+    },
+    {
+      "id": "7ee5ebba-e734-4e46-8184-727d8e0b5b97",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01FjFxxjiLVXRckmMiiao6YC",
+          "title": "Edit agents.md",
+          "status": "completed",
+          "kind": "edit",
+          "content": [
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/Library/Mobile Documents/iCloud~md~obsidian/Documents/fr-kids-campaign/agents.md",
+              "newText": "- **`references/campaign-guide/_raw/`** — canonical FR setting reference (DM-facing), extracted to markdown: `full.md`, `pages/page-NNNN.md`, `images/`\n- **`references/players-guide/_raw/`** — canonical FR setting reference (player-facing), extracted to markdown: `full.md`, `pages/page-NNNN.md`, `images/`",
+              "oldText": "- **`references/forgotten-realms-campaign-guide.pdf`** — canonical FR setting reference (DM-facing)\n- **`references/forgotten-realms-players-guide.pdf`** — canonical FR setting reference (player-facing)"
+            }
+          ],
+          "locations": [
+            {
+              "path": "/Users/nstewart/Library/Mobile Documents/iCloud~md~obsidian/Documents/fr-kids-campaign/agents.md"
+            }
+          ],
+          "rawInput": {
+            "path": "agents.md",
+            "instruction_reminder": "ALWAYS BREAK DOWN EDITS INTO SMALLER CHUNKS OF AT MOST 150 LINES EACH.",
+            "command": "str_replace",
+            "old_str_1": "- **`references/forgotten-realms-campaign-guide.pdf`** — canonical FR setting reference (DM-facing)\n- **`references/forgotten-realms-players-guide.pdf`** — canonical FR setting reference (player-facing)",
+            "new_str_1": "- **`references/campaign-guide/_raw/`** — canonical FR setting reference (DM-facing), extracted to markdown: `full.md`, `pages/page-NNNN.md`, `images/`\n- **`references/players-guide/_raw/`** — canonical FR setting reference (player-facing), extracted to markdown: `full.md`, `pages/page-NNNN.md`, `images/`",
+            "old_str_start_line_number_1": 37,
+            "old_str_end_line_number_1": 38
+          }
+        }
+      ],
+      "timestamp": "2026-05-08T18:23:13.451Z"
+    },
+    {
+      "id": "864cba36-7127-42af-91dc-0c2cd057958f",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_013K6C1H1FwExtWSokZwofPb",
+          "title": "Edit agents.md",
+          "status": "completed",
+          "kind": "edit",
+          "content": [
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/Library/Mobile Documents/iCloud~md~obsidian/Documents/fr-kids-campaign/agents.md",
+              "newText": "2. **Do the Forgotten Realms references describe a canonical version?** If yes, use that as the foundation, noting any details you're pulling from the sourcebooks.",
+              "oldText": "2. **Do the Forgotten Realms PDFs describe a canonical version?** If yes, use that as the foundation, noting any details you're pulling from the sourcebooks."
+            }
+          ],
+          "locations": [
+            {
+              "path": "/Users/nstewart/Library/Mobile Documents/iCloud~md~obsidian/Documents/fr-kids-campaign/agents.md"
+            }
+          ],
+          "rawInput": {
+            "path": "agents.md",
+            "instruction_reminder": "ALWAYS BREAK DOWN EDITS INTO SMALLER CHUNKS OF AT MOST 150 LINES EACH.",
+            "command": "str_replace",
+            "old_str_1": "2. **Do the Forgotten Realms PDFs describe a canonical version?** If yes, use that as the foundation, noting any details you're pulling from the sourcebooks.",
+            "new_str_1": "2. **Do the Forgotten Realms references describe a canonical version?** If yes, use that as the foundation, noting any details you're pulling from the sourcebooks.",
+            "old_str_start_line_number_1": 49,
+            "old_str_end_line_number_1": 49
+          }
+        }
+      ],
+      "timestamp": "2026-05-08T18:23:23.271Z"
+    },
+    {
+      "id": "a9846896-c0bd-44e2-bf04-5fb7b2aaaf89",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01NgBzKZb7TowybRcM9ghfuC",
+          "title": "Edit agents.md",
+          "status": "completed",
+          "kind": "edit",
+          "content": [
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/Library/Mobile Documents/iCloud~md~obsidian/Documents/fr-kids-campaign/agents.md",
+              "newText": "When you do invent new canon (a new NPC, a new town, a subplot), flag it to the user at the end of the response: *\"I introduced [X] — this isn't in the sourcebooks or campaign files. Want me to draft an entry for the knowledge files?\"* Do not silently modify the knowledge base.\n\n---\n\n## Using the Forgotten Realms References\n\nActively consult the markdown extracts under `references/campaign-guide/` and `references/players-guide/` in these situations:\n\n- **Location requests** — look up the city, region, or landmark before inventing geography. The references contain neighborhood breakdowns, notable taverns, guild halls, and power players for major Realms locations. Grep the per-page files for the place name to find the relevant section.\n- **NPC requests** — check whether a canonical figure (a lord, a guild master, a high priest) already fills the role. Use them; give them a stat block following the generation procedure.\n- **Faction requests** — the Realms has established organizations (the Harpers, the Zhentarim, the Lords' Alliance, the Emerald Enclave, the Order of the Gauntlet, the Xanathar Guild, etc.). Before creating a new faction, check whether an existing one fits the role.\n- **Deity and religion** — the FR pantheon is deep. Pull the correct deity for a cleric's faith or a temple encounter rather than using a generic god.\n- **Monsters and encounters** — the Campaign Guide contains region-specific monster tables and encounter hooks. Use them to make random encounters feel native to the Realms.\n\nWhen citing a detail drawn from one of the references, you may note the source briefly (e.g., *\"per the Campaign Guide, page 42\"*) so the DM knows it's published canon, not invention. Do not attempt to load `references/forgotten-realms-campaign-guide.pdf` or `references/forgotten-realms-players-guide.pdf` directly — those binaries are kept only as the source of the markdown extract; always read from `references/<guide>/_raw/` instead.",
+              "oldText": "When you do invent new canon (a new NPC, a new town, a subplot), flag it to the user at the end of the response: *\"I introduced [X] — this isn't in the sourcebooks or campaign files. Want me to draft an entry for the knowledge files?\"* Do not silently modify the knowledge base.\n\n---\n\n## Using the Forgotten Realms PDFs\n\nActively reference the PDFs in these situations:\n\n- **Location requests** — look up the city, region, or landmark before inventing geography. The PDFs contain neighborhood breakdowns, notable taverns, guild halls, and power players for major Realms locations.\n- **NPC requests** — check whether a canonical figure (a lord, a guild master, a high priest) already fills the role. Use them; give them a stat block following the generation procedure.\n- **Faction requests** — the Realms has established organizations (the Harpers, the Zhentarim, the Lords' Alliance, the Emerald Enclave, the Order of the Gauntlet, the Xanathar Guild, etc.). Before creating a new faction, check whether an existing one fits the role.\n- **Deity and religion** — the FR pantheon is deep. Pull the correct deity for a cleric's faith or a temple encounter rather than using a generic god.\n- **Monsters and encounters** — the Campaign Guide contains region-specific monster tables and encounter hooks. Use them to make random encounters feel native to the Realms.\n\nWhen citing a detail drawn from one of the PDFs, you may note the source briefly (e.g., *\"per the Campaign Guide\"*) so the DM knows it's published canon, not invention."
+            }
+          ],
+          "locations": [
+            {
+              "path": "/Users/nstewart/Library/Mobile Documents/iCloud~md~obsidian/Documents/fr-kids-campaign/agents.md"
+            }
+          ],
+          "rawInput": {
+            "path": "agents.md",
+            "instruction_reminder": "ALWAYS BREAK DOWN EDITS INTO SMALLER CHUNKS OF AT MOST 150 LINES EACH.",
+            "command": "str_replace",
+            "old_str_1": "When you do invent new canon (a new NPC, a new town, a subplot), flag it to the user at the end of the response: *\"I introduced [X] — this isn't in the sourcebooks or campaign files. Want me to draft an entry for the knowledge files?\"* Do not silently modify the knowledge base.\n\n---\n\n## Using the Forgotten Realms PDFs\n\nActively reference the PDFs in these situations:\n\n- **Location requests** — look up the city, region, or landmark before inventing geography. The PDFs contain neighborhood breakdowns, notable taverns, guild halls, and power players for major Realms locations.\n- **NPC requests** — check whether a canonical figure (a lord, a guild master, a high priest) already fills the role. Use them; give them a stat block following the generation procedure.\n- **Faction requests** — the Realms has established organizations (the Harpers, the Zhentarim, the Lords' Alliance, the Emerald Enclave, the Order of the Gauntlet, the Xanathar Guild, etc.). Before creating a new faction, check whether an existing one fits the role.\n- **Deity and religion** — the FR pantheon is deep. Pull the correct deity for a cleric's faith or a temple encounter rather than using a generic god.\n- **Monsters and encounters** — the Campaign Guide contains region-specific monster tables and encounter hooks. Use them to make random encounters feel native to the Realms.\n\nWhen citing a detail drawn from one of the PDFs, you may note the source briefly (e.g., *\"per the Campaign Guide\"*) so the DM knows it's published canon, not invention.",
+            "new_str_1": "When you do invent new canon (a new NPC, a new town, a subplot), flag it to the user at the end of the response: *\"I introduced [X] — this isn't in the sourcebooks or campaign files. Want me to draft an entry for the knowledge files?\"* Do not silently modify the knowledge base.\n\n---\n\n## Using the Forgotten Realms References\n\nActively consult the markdown extracts under `references/campaign-guide/` and `references/players-guide/` in these situations:\n\n- **Location requests** — look up the city, region, or landmark before inventing geography. The references contain neighborhood breakdowns, notable taverns, guild halls, and power players for major Realms locations. Grep the per-page files for the place name to find the relevant section.\n- **NPC requests** — check whether a canonical figure (a lord, a guild master, a high priest) already fills the role. Use them; give them a stat block following the generation procedure.\n- **Faction requests** — the Realms has established organizations (the Harpers, the Zhentarim, the Lords' Alliance, the Emerald Enclave, the Order of the Gauntlet, the Xanathar Guild, etc.). Before creating a new faction, check whether an existing one fits the role.\n- **Deity and religion** — the FR pantheon is deep. Pull the correct deity for a cleric's faith or a temple encounter rather than using a generic god.\n- **Monsters and encounters** — the Campaign Guide contains region-specific monster tables and encounter hooks. Use them to make random encounters feel native to the Realms.\n\nWhen citing a detail drawn from one of the references, you may note the source briefly (e.g., *\"per the Campaign Guide, page 42\"*) so the DM knows it's published canon, not invention. Do not attempt to load `references/forgotten-realms-campaign-guide.pdf` or `references/forgotten-realms-players-guide.pdf` directly — those binaries are kept only as the source of the markdown extract; always read from `references/<guide>/_raw/` instead.",
+            "old_str_start_line_number_1": 54,
+            "old_str_end_line_number_1": 68
+          }
+        }
+      ],
+      "timestamp": "2026-05-08T18:23:23.304Z"
+    },
+    {
+      "id": "5a4c9418-2219-45b4-8c3f-49f389eb9dfd",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01J63ijfhP4TGbK2WQhyko4r",
+          "title": "Edit agents.md",
+          "status": "completed",
+          "kind": "edit",
+          "content": [
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/Library/Mobile Documents/iCloud~md~obsidian/Documents/fr-kids-campaign/agents.md",
+              "newText": "- **Sourcebook details promoted to active campaign canon** (the party is now allied with a specific FR faction, a named FR NPC has become a recurring character) → propose a campaign-file entry so it lives in the bible, not just the references",
+              "oldText": "- **Sourcebook details promoted to active campaign canon** (the party is now allied with a specific FR faction, a named FR NPC has become a recurring character) → propose a campaign-file entry so it lives in the bible, not just the PDFs"
+            }
+          ],
+          "locations": [
+            {
+              "path": "/Users/nstewart/Library/Mobile Documents/iCloud~md~obsidian/Documents/fr-kids-campaign/agents.md"
+            }
+          ],
+          "rawInput": {
+            "path": "agents.md",
+            "instruction_reminder": "ALWAYS BREAK DOWN EDITS INTO SMALLER CHUNKS OF AT MOST 150 LINES EACH.",
+            "command": "str_replace",
+            "old_str_1": "- **Sourcebook details promoted to active campaign canon** (the party is now allied with a specific FR faction, a named FR NPC has become a recurring character) → propose a campaign-file entry so it lives in the bible, not just the PDFs",
+            "new_str_1": "- **Sourcebook details promoted to active campaign canon** (the party is now allied with a specific FR faction, a named FR NPC has become a recurring character) → propose a campaign-file entry so it lives in the bible, not just the references",
+            "old_str_start_line_number_1": 116,
+            "old_str_end_line_number_1": 116
+          }
+        }
+      ],
+      "timestamp": "2026-05-08T18:23:38.180Z"
+    },
+    {
+      "id": "649d10ab-1d4d-46b4-824c-88312a127f1a",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_012ZUvPMLr2bYjvw7p6Fn6B2",
+          "title": "Edit agents.md",
+          "status": "completed",
+          "kind": "edit",
+          "content": [
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/Library/Mobile Documents/iCloud~md~obsidian/Documents/fr-kids-campaign/agents.md",
+              "newText": "- **\"Prep next session.\"** Check `campaign/session-log.md` for where the party left off, cross-reference relevant FR locations or factions from the references, propose 1–3 scene/encounter options, then begin the generator procedure once the user picks one.\n- **\"The party is heading to [FR location].\"** Pull the location from the references, surface what the Campaign Guide says about power players and dangers there, layer in any campaign-file specifics, then generate content scoped to that location.\n- **\"I need a stat block for [existing NPC].\"** Check `campaign/roster.md` and the sourcebook references for established personality, description, and motivations before running the stat block generation.",
+              "oldText": "- **\"Prep next session.\"** Check `campaign/session-log.md` for where the party left off, cross-reference relevant FR locations or factions from the PDFs, propose 1–3 scene/encounter options, then begin the generator procedure once the user picks one.\n- **\"The party is heading to [FR location].\"** Pull the location from the PDFs, surface what the Campaign Guide says about power players and dangers there, layer in any campaign-file specifics, then generate content scoped to that location.\n- **\"I need a stat block for [existing NPC].\"** Check `campaign/roster.md` and the sourcebook PDFs for established personality, description, and motivations before running the stat block generation."
+            }
+          ],
+          "locations": [
+            {
+              "path": "/Users/nstewart/Library/Mobile Documents/iCloud~md~obsidian/Documents/fr-kids-campaign/agents.md"
+            }
+          ],
+          "rawInput": {
+            "path": "agents.md",
+            "instruction_reminder": "ALWAYS BREAK DOWN EDITS INTO SMALLER CHUNKS OF AT MOST 150 LINES EACH.",
+            "command": "str_replace",
+            "old_str_1": "- **\"Prep next session.\"** Check `campaign/session-log.md` for where the party left off, cross-reference relevant FR locations or factions from the PDFs, propose 1–3 scene/encounter options, then begin the generator procedure once the user picks one.\n- **\"The party is heading to [FR location].\"** Pull the location from the PDFs, surface what the Campaign Guide says about power players and dangers there, layer in any campaign-file specifics, then generate content scoped to that location.\n- **\"I need a stat block for [existing NPC].\"** Check `campaign/roster.md` and the sourcebook PDFs for established personality, description, and motivations before running the stat block generation.",
+            "new_str_1": "- **\"Prep next session.\"** Check `campaign/session-log.md` for where the party left off, cross-reference relevant FR locations or factions from the references, propose 1–3 scene/encounter options, then begin the generator procedure once the user picks one.\n- **\"The party is heading to [FR location].\"** Pull the location from the references, surface what the Campaign Guide says about power players and dangers there, layer in any campaign-file specifics, then generate content scoped to that location.\n- **\"I need a stat block for [existing NPC].\"** Check `campaign/roster.md` and the sourcebook references for established personality, description, and motivations before running the stat block generation.",
+            "old_str_start_line_number_1": 124,
+            "old_str_end_line_number_1": 126
+          }
+        },
+        {
+          "type": "agent_thought",
+          "text": " I'm checking the agents.md file to make sure it's clean, then I need to add a note to dnd-adventure-generator.md about pulling setting context from the markdown extracts since both files should be updated—the best spot would be in the workflow section.\n\nLooking at the dnd-adventure-generator.md structure, Step 3 (Outline & Iterate) is where setting research happens, so I'll add a brief pointer there about reading from the references/_raw/ markdown extracts instead of the PDFs."
+        },
+        {
+          "type": "text",
+          "text": "Now let me verify `agents.md` reads cleanly, and add a single matching pointer in `dnd-adventure-generator.md` so the setting-research step in the workflow knows where the canon lives.\n"
+        }
+      ],
+      "timestamp": "2026-05-08T18:23:38.228Z"
+    },
+    {
+      "id": "f2411640-db98-43fd-bca3-434c0af9b59c",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01XPYAhLTtRY7t3WncDsnoGk",
+          "title": "Read `agents.md` (search: \"pdf\")",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "path": "/Users/nstewart/Library/Mobile Documents/iCloud~md~obsidian/Documents/fr-kids-campaign/agents.md"
+            }
+          ],
+          "rawInput": {
+            "path": "agents.md",
+            "search_query_regex": "pdf",
+            "case_sensitive": false,
+            "context_lines_before": 0,
+            "context_lines_after": 0
+          }
+        }
+      ],
+      "timestamp": "2026-05-08T18:23:48.595Z"
+    },
+    {
+      "id": "4e28a3ba-94b6-4714-a67f-6bf3dd1974f3",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_0175Qqq5e6FoKWcM7CuFyyNy",
+          "title": "Read `dnd-adventure-generator.md` (lines 22-27)",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "line": 22,
+              "path": "/Users/nstewart/Library/Mobile Documents/iCloud~md~obsidian/Documents/fr-kids-campaign/dnd-adventure-generator.md"
+            }
+          ],
+          "rawInput": {
+            "path": "dnd-adventure-generator.md",
+            "view_range": [
+              22,
+              27
+            ]
+          }
+        },
+        {
+          "type": "text",
+          "text": "All remaining `pdf` mentions in `agents.md` now refer correctly to the *output* PDF (the compiled adventure book) — the FR sourcebook references all point at the markdown extracts. Now adding the one supporting pointer in `dnd-adventure-generator.md`:\n"
+        }
+      ],
+      "timestamp": "2026-05-08T18:23:48.628Z"
+    },
+    {
+      "id": "7aef0449-a9d6-4347-a01b-0d062031ed25",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01Bo7sfCkMBhs8aByDJKVUg5",
+          "title": "Edit dnd-adventure-generator.md",
+          "status": "completed",
+          "kind": "edit",
+          "content": [
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/Library/Mobile Documents/iCloud~md~obsidian/Documents/fr-kids-campaign/dnd-adventure-generator.md",
+              "newText": "### 3. Outline & Iterate\n\nDraft the overall idea and plot, and ask for changes. Once that's locked, provide an outline with short descriptions of each encounter or area. Ask for revisions — or whether the user is ready to generate images.\n\nWhen the outline needs Forgotten Realms canon (a city, faction, deity, recurring NPC), pull it from the markdown extracts in `references/campaign-guide/_raw/` and `references/players-guide/_raw/` (use `full.md` or `pages/page-NNNN.md`; figures are in `images/`). Do not attempt to load the `.pdf` files in `references/` — the markdown extracts are the working source. Source-hierarchy and citation rules live in `agents.md`.\n\nStay in this loop until the user explicitly says to move to images. Don't jump to image generation on your own.",
+              "oldText": "### 3. Outline & Iterate\n\nDraft the overall idea and plot, and ask for changes. Once that's locked, provide an outline with short descriptions of each encounter or area. Ask for revisions — or whether the user is ready to generate images.\n\nStay in this loop until the user explicitly says to move to images. Don't jump to image generation on your own."
+            }
+          ],
+          "locations": [
+            {
+              "path": "/Users/nstewart/Library/Mobile Documents/iCloud~md~obsidian/Documents/fr-kids-campaign/dnd-adventure-generator.md"
+            }
+          ],
+          "rawInput": {
+            "path": "dnd-adventure-generator.md",
+            "instruction_reminder": "ALWAYS BREAK DOWN EDITS INTO SMALLER CHUNKS OF AT MOST 150 LINES EACH.",
+            "command": "str_replace",
+            "old_str_1": "### 3. Outline & Iterate\n\nDraft the overall idea and plot, and ask for changes. Once that's locked, provide an outline with short descriptions of each encounter or area. Ask for revisions — or whether the user is ready to generate images.\n\nStay in this loop until the user explicitly says to move to images. Don't jump to image generation on your own.",
+            "new_str_1": "### 3. Outline & Iterate\n\nDraft the overall idea and plot, and ask for changes. Once that's locked, provide an outline with short descriptions of each encounter or area. Ask for revisions — or whether the user is ready to generate images.\n\nWhen the outline needs Forgotten Realms canon (a city, faction, deity, recurring NPC), pull it from the markdown extracts in `references/campaign-guide/_raw/` and `references/players-guide/_raw/` (use `full.md` or `pages/page-NNNN.md`; figures are in `images/`). Do not attempt to load the `.pdf` files in `references/` — the markdown extracts are the working source. Source-hierarchy and citation rules live in `agents.md`.\n\nStay in this loop until the user explicitly says to move to images. Don't jump to image generation on your own.",
+            "old_str_start_line_number_1": 22,
+            "old_str_end_line_number_1": 26
+          }
+        },
+        {
+          "type": "text",
+          "text": "Both files are updated. Summary of the changes:\n\n**`agents.md`** — every reference to the FR sourcebook PDFs now points at the markdown extracts:\n- **Source Hierarchy** items 2 and 3 swapped from `references/forgotten-realms-campaign-guide.pdf` / `…-players-guide.pdf` to `references/campaign-guide/` and `references/players-guide/`, with the `_raw/full.md`, `_raw/pages/page-NNNN.md`, `_raw/images/` layout spelled out.\n- New \"How to read the references\" line under Source Hierarchy: don't load the PDFs, grep the markdown extracts.\n- Vault-layout bullet rewritten (\"reference materials … markdown extracts of the FR sourcebooks\").\n- Knowledge-files list points at `references/campaign-guide/_raw/` and `references/players-guide/_raw/`.\n- \"Canon First, Invention Second\" item 2 reads \"Forgotten Realms references describe a canonical version\".\n- Section heading renamed **Using the Forgotten Realms References**; body now says \"consult the markdown extracts under `references/campaign-guide/` and `references/players-guide/`\" and adds the explicit \"do not attempt to load the `.pdf` files\" rule with citation example *\"per the Campaign Guide, page 42\"*.\n- \"Maintaining the Campaign Bible\" and \"Session Prep Patterns\" bullets switched from \"the PDFs\" / \"sourcebook PDFs\" to \"the references\" / \"sourcebook references\".\n- The remaining `pdf` matches in the file all refer correctly to the *output* adventure PDF (compiled book) — those were left alone.\n\n**`dnd-adventure-generator.md`** — the workflow itself never named the FR sourcebooks, but I added a pointer in **Step 3 (Outline & Iterate)** so the agent knows where canon comes from when drafting: read from `references/<guide>/_raw/`, never from the `.pdf` files. All other `pdf` mentions in this file refer to the output adventure PDF and were left as-is.\n\nThe changed files affect agent behavior only — they're instruction docs, not code, so there are no callers/tests to update. Want me to also delete the two `.pdf` binaries from `references/` now that the extracts are the working source, or leave them in place as the upstream archive?\n"
+        }
+      ],
+      "timestamp": "2026-05-08T18:24:00.046Z"
+    },
+    {
+      "id": "e801f747-8880-427f-b27d-ec727c1e7627",
+      "role": "user",
+      "content": [
+        {
+          "type": "text_with_context",
+          "text": "delete them",
+          "autoMentionContext": {
+            "noteName": "home",
+            "notePath": "home.md"
+          }
+        }
+      ],
+      "timestamp": "2026-05-08T18:24:45.304Z"
+    },
+    {
+      "id": "13747f2a-12d1-4529-b72d-3f2721c385d0",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "agent_thought",
+          "text": " I need to delete those two PDF files from the references folder, so I'll use the remove-files tool to handle that."
+        }
+      ],
+      "timestamp": "2026-05-08T18:24:49.043Z"
+    },
+    {
+      "id": "68072599-935c-4728-a57a-b5a358748b35",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01PMoEgSfyUZgkGRsKzaNyg9",
+          "title": "Delete forgotten-realms-campaign-guide.pdf, forgotten-realms-players-guide.pdf",
+          "status": "completed",
+          "kind": "delete",
+          "content": [],
+          "locations": [
+            {
+              "path": "/Users/nstewart/Library/Mobile Documents/iCloud~md~obsidian/Documents/fr-kids-campaign/references/forgotten-realms-campaign-guide.pdf"
+            },
+            {
+              "path": "/Users/nstewart/Library/Mobile Documents/iCloud~md~obsidian/Documents/fr-kids-campaign/references/forgotten-realms-players-guide.pdf"
+            }
+          ],
+          "rawInput": {
+            "file_paths": [
+              "/Users/nstewart/Library/Mobile Documents/iCloud~md~obsidian/Documents/fr-kids-campaign/references/forgotten-realms-campaign-guide.pdf",
+              "/Users/nstewart/Library/Mobile Documents/iCloud~md~obsidian/Documents/fr-kids-campaign/references/forgotten-realms-players-guide.pdf"
+            ]
+          }
+        },
+        {
+          "type": "agent_thought",
+          "text": " I need to clean up outdated references in the documentation since those PDF files no longer exist — specifically removing the instruction in agents.md about not loading the PDF files directly, and updating the similar note in dnd-adventure-generator.md."
+        },
+        {
+          "type": "text",
+          "text": "The PDFs are deleted. The two instruction files now contain stale \"don't load the `.pdf`\" language that no longer matches reality — let me tighten those.\n"
+        }
+      ],
+      "timestamp": "2026-05-08T18:24:49.093Z"
+    },
+    {
+      "id": "9771d1ab-abe9-4b31-b4e6-ee11a80c764d",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01MdQDfwPqzEm5YbYPA6YXMK",
+          "title": "Edit agents.md",
+          "status": "completed",
+          "kind": "edit",
+          "content": [
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/Library/Mobile Documents/iCloud~md~obsidian/Documents/fr-kids-campaign/agents.md",
+              "newText": "**How to read the references.** The markdown extracts above are the only working source — the original PDFs have been removed from the vault. Search by grepping the per-page files or `full.md` for the city/faction/NPC name; pull the surrounding paragraphs as canon. Note the page filename when citing so the DM can cross-check.",
+              "oldText": "**How to read the references.** Don't try to load the PDFs in `references/` — the markdown extracts above are the working source. Search by grepping the per-page files or `full.md` for the city/faction/NPC name; pull the surrounding paragraphs as canon. Note the page filename when citing so the DM can cross-check."
+            }
+          ],
+          "locations": [
+            {
+              "path": "/Users/nstewart/Library/Mobile Documents/iCloud~md~obsidian/Documents/fr-kids-campaign/agents.md"
+            }
+          ],
+          "rawInput": {
+            "path": "agents.md",
+            "instruction_reminder": "ALWAYS BREAK DOWN EDITS INTO SMALLER CHUNKS OF AT MOST 150 LINES EACH.",
+            "command": "str_replace",
+            "old_str_1": "**How to read the references.** Don't try to load the PDFs in `references/` — the markdown extracts above are the working source. Search by grepping the per-page files or `full.md` for the city/faction/NPC name; pull the surrounding paragraphs as canon. Note the page filename when citing so the DM can cross-check.",
+            "new_str_1": "**How to read the references.** The markdown extracts above are the only working source — the original PDFs have been removed from the vault. Search by grepping the per-page files or `full.md` for the city/faction/NPC name; pull the surrounding paragraphs as canon. Note the page filename when citing so the DM can cross-check.",
+            "old_str_start_line_number_1": 18,
+            "old_str_end_line_number_1": 18
+          }
+        }
+      ],
+      "timestamp": "2026-05-08T18:25:09.734Z"
+    },
+    {
+      "id": "22d2b4d2-4f06-4f57-8bad-59de326fcfb7",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01RoW6q9dmbKgprAtPpyc2cF",
+          "title": "Edit agents.md",
+          "status": "completed",
+          "kind": "edit",
+          "content": [
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/Library/Mobile Documents/iCloud~md~obsidian/Documents/fr-kids-campaign/agents.md",
+              "newText": "When citing a detail drawn from one of the references, you may note the source briefly (e.g., *\"per the Campaign Guide, page 42\"*) so the DM knows it's published canon, not invention. The vault no longer carries the original FR PDFs — read canon exclusively from `references/<guide>/_raw/`.",
+              "oldText": "When citing a detail drawn from one of the references, you may note the source briefly (e.g., *\"per the Campaign Guide, page 42\"*) so the DM knows it's published canon, not invention. Do not attempt to load `references/forgotten-realms-campaign-guide.pdf` or `references/forgotten-realms-players-guide.pdf` directly — those binaries are kept only as the source of the markdown extract; always read from `references/<guide>/_raw/` instead."
+            }
+          ],
+          "locations": [
+            {
+              "path": "/Users/nstewart/Library/Mobile Documents/iCloud~md~obsidian/Documents/fr-kids-campaign/agents.md"
+            }
+          ],
+          "rawInput": {
+            "path": "agents.md",
+            "instruction_reminder": "ALWAYS BREAK DOWN EDITS INTO SMALLER CHUNKS OF AT MOST 150 LINES EACH.",
+            "command": "str_replace",
+            "old_str_1": "When citing a detail drawn from one of the references, you may note the source briefly (e.g., *\"per the Campaign Guide, page 42\"*) so the DM knows it's published canon, not invention. Do not attempt to load `references/forgotten-realms-campaign-guide.pdf` or `references/forgotten-realms-players-guide.pdf` directly — those binaries are kept only as the source of the markdown extract; always read from `references/<guide>/_raw/` instead.",
+            "new_str_1": "When citing a detail drawn from one of the references, you may note the source briefly (e.g., *\"per the Campaign Guide, page 42\"*) so the DM knows it's published canon, not invention. The vault no longer carries the original FR PDFs — read canon exclusively from `references/<guide>/_raw/`.",
+            "old_str_start_line_number_1": 68,
+            "old_str_end_line_number_1": 68
+          }
+        }
+      ],
+      "timestamp": "2026-05-08T18:25:09.766Z"
+    },
+    {
+      "id": "4738a4a7-2bad-4a1b-ada0-374e8dcc754a",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_013SHiDHMwiVaSrymFHy6iVW",
+          "title": "Edit dnd-adventure-generator.md",
+          "status": "completed",
+          "kind": "edit",
+          "content": [
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/Library/Mobile Documents/iCloud~md~obsidian/Documents/fr-kids-campaign/dnd-adventure-generator.md",
+              "newText": "When the outline needs Forgotten Realms canon (a city, faction, deity, recurring NPC), pull it from the markdown extracts in `references/campaign-guide/_raw/` and `references/players-guide/_raw/` (use `full.md` or `pages/page-NNNN.md`; figures are in `images/`). These extracts are the only canon source — the original FR PDFs are no longer in the vault. Source-hierarchy and citation rules live in `agents.md`.",
+              "oldText": "When the outline needs Forgotten Realms canon (a city, faction, deity, recurring NPC), pull it from the markdown extracts in `references/campaign-guide/_raw/` and `references/players-guide/_raw/` (use `full.md` or `pages/page-NNNN.md`; figures are in `images/`). Do not attempt to load the `.pdf` files in `references/` — the markdown extracts are the working source. Source-hierarchy and citation rules live in `agents.md`."
+            }
+          ],
+          "locations": [
+            {
+              "path": "/Users/nstewart/Library/Mobile Documents/iCloud~md~obsidian/Documents/fr-kids-campaign/dnd-adventure-generator.md"
+            }
+          ],
+          "rawInput": {
+            "path": "dnd-adventure-generator.md",
+            "instruction_reminder": "ALWAYS BREAK DOWN EDITS INTO SMALLER CHUNKS OF AT MOST 150 LINES EACH.",
+            "command": "str_replace",
+            "old_str_1": "When the outline needs Forgotten Realms canon (a city, faction, deity, recurring NPC), pull it from the markdown extracts in `references/campaign-guide/_raw/` and `references/players-guide/_raw/` (use `full.md` or `pages/page-NNNN.md`; figures are in `images/`). Do not attempt to load the `.pdf` files in `references/` — the markdown extracts are the working source. Source-hierarchy and citation rules live in `agents.md`.",
+            "new_str_1": "When the outline needs Forgotten Realms canon (a city, faction, deity, recurring NPC), pull it from the markdown extracts in `references/campaign-guide/_raw/` and `references/players-guide/_raw/` (use `full.md` or `pages/page-NNNN.md`; figures are in `images/`). These extracts are the only canon source — the original FR PDFs are no longer in the vault. Source-hierarchy and citation rules live in `agents.md`.",
+            "old_str_start_line_number_1": 25,
+            "old_str_end_line_number_1": 25
+          }
+        },
+        {
+          "type": "text",
+          "text": "Done. Both PDFs are deleted and the instruction files no longer carry stale \"don't load the .pdf\" language.\n\n- Deleted `references/forgotten-realms-campaign-guide.pdf` and `references/forgotten-realms-players-guide.pdf`.\n- Updated `agents.md` \"How to read the references\" and the citation paragraph in **Using the Forgotten Realms References** to say the original PDFs are gone and the markdown extracts are the only source.\n- Updated the Step 3 pointer in `dnd-adventure-generator.md` to match.\n\nRemaining references/ contents:\n\n```\nreferences/campaign-guide/_raw/{full.md, pages/, images/}\nreferences/players-guide/_raw/{full.md, images/, pages/}\n```\n"
+        }
+      ],
+      "timestamp": "2026-05-08T18:25:09.776Z"
+    }
+  ],
+  "savedAt": "2026-05-08T18:25:16.045Z"
+}

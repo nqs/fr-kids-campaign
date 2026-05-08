@@ -9,11 +9,13 @@
 When resolving any question of lore, geography, NPC identity, faction structure, or setting detail, consult sources in this order:
 
 1. **Campaign-specific knowledge files** (everything under `campaign/` — `campaign/world.md`, `campaign/session-log.md`, `campaign/party.md`, etc.) — these are always authoritative. If a campaign file contradicts the published sourcebooks, the campaign file wins. The DM's table canon supersedes published canon.
-2. **`references/forgotten-realms-campaign-guide.pdf`** — use for DM-facing setting content: region overviews, political structures, dungeon locations, monster lore, adventure hooks, and NPC stat blocks native to the Realms.
-3. **`references/forgotten-realms-players-guide.pdf`** — use for player-facing setting content: the cosmology, major cities, factions, races, deities, and background flavor a player would know.
-4. **Your own D&D 5e knowledge** — fill gaps the PDFs and campaign files don't cover, but flag invented content as noted below.
+2. **`references/campaign-guide/`** — markdown extract of the *Forgotten Realms Campaign Guide*. Use for DM-facing setting content: region overviews, political structures, dungeon locations, monster lore, adventure hooks, and NPC stat blocks native to the Realms. The full text lives at `references/campaign-guide/_raw/full.md`; per-page files sit under `references/campaign-guide/_raw/pages/page-NNNN.md`; extracted figures live under `references/campaign-guide/_raw/images/`.
+3. **`references/players-guide/`** — markdown extract of the *Forgotten Realms Player's Guide*. Use for player-facing setting content: the cosmology, major cities, factions, races, deities, and background flavor a player would know. Same layout: `_raw/full.md`, `_raw/pages/`, `_raw/images/`.
+4. **Your own D&D 5e knowledge** — fill gaps the references and campaign files don't cover, but flag invented content as noted below.
 
-Before generating any location, NPC, faction, or piece of lore, check the PDFs first. If the Forgotten Realms has a canonical version of what's being requested — a city, a thieves' guild, a noble house, a deity's domain — use it rather than inventing a parallel version. A campaign rooted in the Realms should feel like the Realms.
+Before generating any location, NPC, faction, or piece of lore, check the references first. If the Forgotten Realms has a canonical version of what's being requested — a city, a thieves' guild, a noble house, a deity's domain — use it rather than inventing a parallel version. A campaign rooted in the Realms should feel like the Realms.
+
+**How to read the references.** The markdown extracts above are the only working source — the original PDFs have been removed from the vault. Search by grepping the per-page files or `full.md` for the city/faction/NPC name; pull the surrounding paragraphs as canon. Note the page filename when citing so the DM can cross-check.
 
 ---
 
@@ -21,7 +23,7 @@ Before generating any location, NPC, faction, or piece of lore, check the PDFs f
 
 This agent's knowledge base is the campaign bible. Before doing anything generative, skim whatever files are present. Consult them like a reference — you don't need to read them cover to cover every turn.
 
-**Vault layout.** Campaign-bible canon lives under `campaign/` (world, geography, factions, roster, party, session-log). Tooling (`agents.md`, `dnd-adventure-generator.md`, `home.md`), generated session content (`sessions/session <N>/`), and reference PDFs (`references/`) sit at the vault root.
+**Vault layout.** Campaign-bible canon lives under `campaign/` (world, geography, factions, roster, party, session-log). Tooling (`agents.md`, `dnd-adventure-generator.md`, `home.md`), generated session content (`sessions/session <N>/`), and reference materials (`references/` — markdown extracts of the FR sourcebooks) sit at the vault root.
 
 - **`campaign/world.md`** — setting overview, cosmology, timeline, tone
 - **`campaign/geography.md`** — regions, cities, travel distances, climate
@@ -32,8 +34,8 @@ This agent's knowledge base is the campaign bible. Before doing anything generat
 - **`campaign/roster.md`** — NPC roster and relationships
 - **`sessions/session <N>/`** — per-session deliverables (adventure, combat tracker, player handouts, images.json, optional PDF) — at the vault root, not inside `campaign/`
 - **`dnd-adventure-generator.md`** — generation workflow and rules for creating adventures and PDFs *(vault root)*
-- **`references/forgotten-realms-campaign-guide.pdf`** — canonical FR setting reference (DM-facing)
-- **`references/forgotten-realms-players-guide.pdf`** — canonical FR setting reference (player-facing)
+- **`references/campaign-guide/_raw/`** — canonical FR setting reference (DM-facing), extracted to markdown: `full.md`, `pages/page-NNNN.md`, `images/`
+- **`references/players-guide/_raw/`** — canonical FR setting reference (player-facing), extracted to markdown: `full.md`, `pages/page-NNNN.md`, `images/`
 
 If a file you'd expect is missing, don't fabricate its contents — ask the user or proceed without it.
 
@@ -44,7 +46,7 @@ If a file you'd expect is missing, don't fabricate its contents — ask the user
 When the user asks for content, your first move is to check the canon in source-hierarchy order:
 
 1. **Does a campaign knowledge file already establish this NPC, location, or faction?** If yes, use it exactly as written.
-2. **Do the Forgotten Realms PDFs describe a canonical version?** If yes, use that as the foundation, noting any details you're pulling from the sourcebooks.
+2. **Do the Forgotten Realms references describe a canonical version?** If yes, use that as the foundation, noting any details you're pulling from the sourcebooks.
 3. **Does the request touch established plot threads or loose ends from `campaign/session-log.md`?** If yes, weave them in.
 4. **Is the proposed tone, genre, and power level consistent with `campaign/world.md` and the Realms' established feel?** Waterdeep should feel like Waterdeep; the Underdark should feel like the Underdark.
 5. **Only invent new canon when the request genuinely needs it** — and even then, new content should slot coherently into FR geography, its faction landscape, and its cosmology.
@@ -53,17 +55,17 @@ When you do invent new canon (a new NPC, a new town, a subplot), flag it to the 
 
 ---
 
-## Using the Forgotten Realms PDFs
+## Using the Forgotten Realms References
 
-Actively reference the PDFs in these situations:
+Actively consult the markdown extracts under `references/campaign-guide/` and `references/players-guide/` in these situations:
 
-- **Location requests** — look up the city, region, or landmark before inventing geography. The PDFs contain neighborhood breakdowns, notable taverns, guild halls, and power players for major Realms locations.
+- **Location requests** — look up the city, region, or landmark before inventing geography. The references contain neighborhood breakdowns, notable taverns, guild halls, and power players for major Realms locations. Grep the per-page files for the place name to find the relevant section.
 - **NPC requests** — check whether a canonical figure (a lord, a guild master, a high priest) already fills the role. Use them; give them a stat block following the generation procedure.
 - **Faction requests** — the Realms has established organizations (the Harpers, the Zhentarim, the Lords' Alliance, the Emerald Enclave, the Order of the Gauntlet, the Xanathar Guild, etc.). Before creating a new faction, check whether an existing one fits the role.
 - **Deity and religion** — the FR pantheon is deep. Pull the correct deity for a cleric's faith or a temple encounter rather than using a generic god.
 - **Monsters and encounters** — the Campaign Guide contains region-specific monster tables and encounter hooks. Use them to make random encounters feel native to the Realms.
 
-When citing a detail drawn from one of the PDFs, you may note the source briefly (e.g., *"per the Campaign Guide"*) so the DM knows it's published canon, not invention.
+When citing a detail drawn from one of the references, you may note the source briefly (e.g., *"per the Campaign Guide, page 42"*) so the DM knows it's published canon, not invention. The vault no longer carries the original FR PDFs — read canon exclusively from `references/<guide>/_raw/`.
 
 ---
 
@@ -111,7 +113,7 @@ The Post-generation subsection above covers the standard session-prep flow. The 
 - **New locations** → propose an entry for `campaign/geography.md` or a locations file
 - **New factions or plot threads** → propose updates to `campaign/factions.md` or `campaign/session-log.md`
 - **Changes to existing canon** (an NPC dies, a city is sacked) → propose an edit to the existing file
-- **Sourcebook details promoted to active campaign canon** (the party is now allied with a specific FR faction, a named FR NPC has become a recurring character) → propose a campaign-file entry so it lives in the bible, not just the PDFs
+- **Sourcebook details promoted to active campaign canon** (the party is now allied with a specific FR faction, a named FR NPC has become a recurring character) → propose a campaign-file entry so it lives in the bible, not just the references
 
 Produce updates as copy-pasteable markdown when the agent lacks write access; edit directly and summarize when it has access. In either mode, do not pretend the files have been modified if they haven't been, and do not modify them silently.
 
@@ -119,9 +121,9 @@ Produce updates as copy-pasteable markdown when the agent lacks write access; ed
 
 ## Session Prep Patterns
 
-- **"Prep next session."** Check `campaign/session-log.md` for where the party left off, cross-reference relevant FR locations or factions from the PDFs, propose 1–3 scene/encounter options, then begin the generator procedure once the user picks one.
-- **"The party is heading to [FR location]."** Pull the location from the PDFs, surface what the Campaign Guide says about power players and dangers there, layer in any campaign-file specifics, then generate content scoped to that location.
-- **"I need a stat block for [existing NPC]."** Check `campaign/roster.md` and the sourcebook PDFs for established personality, description, and motivations before running the stat block generation.
+- **"Prep next session."** Check `campaign/session-log.md` for where the party left off, cross-reference relevant FR locations or factions from the references, propose 1–3 scene/encounter options, then begin the generator procedure once the user picks one.
+- **"The party is heading to [FR location]."** Pull the location from the references, surface what the Campaign Guide says about power players and dangers there, layer in any campaign-file specifics, then generate content scoped to that location.
+- **"I need a stat block for [existing NPC]."** Check `campaign/roster.md` and the sourcebook references for established personality, description, and motivations before running the stat block generation.
 - **"Give me a random encounter for the road from A to B."** Pull `campaign/geography.md` and the Campaign Guide's regional encounter context, then use `campaign/factions.md` to make threats feel native (Zhentarim outriders in the right corridor, not generic bandits).
 
 ---

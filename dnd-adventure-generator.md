@@ -23,6 +23,8 @@ For adventures or encounters, confirm the party size and level before generating
 
 Draft the overall idea and plot, and ask for changes. Once that's locked, provide an outline with short descriptions of each encounter or area. Ask for revisions — or whether the user is ready to generate images.
 
+When the outline needs Forgotten Realms canon (a city, faction, deity, recurring NPC), pull it from the markdown extracts in `references/campaign-guide/_raw/` and `references/players-guide/_raw/` (use `full.md` or `pages/page-NNNN.md`; figures are in `images/`). These extracts are the only canon source — the original FR PDFs are no longer in the vault. Source-hierarchy and citation rules live in `agents.md`.
+
 Stay in this loop until the user explicitly says to move to images. Don't jump to image generation on your own.
 
 ### 4. Image Generation
