@@ -48,7 +48,8 @@ H4 = ParagraphStyle("H4", parent=_ss["Heading4"], fontName="Times-Bold",
 BODY = ParagraphStyle("Body", parent=_ss["BodyText"], fontName="Times-Roman",
     fontSize=10.5, leading=14, textColor=INK, alignment=TA_JUSTIFY, spaceAfter=6)
 BODY_LEFT = ParagraphStyle("BodyL", parent=BODY, alignment=TA_LEFT)
-BULLET = ParagraphStyle("Bul", parent=BODY, leftIndent=14, bulletIndent=2, spaceAfter=2)
+BULLET = ParagraphStyle("Bul", parent=BODY, leftIndent=30, bulletIndent=20,
+    bulletFontName="Times-Roman", bulletFontSize=10, alignment=TA_LEFT, spaceAfter=2)
 CAPTION = ParagraphStyle("Cap", parent=BODY, fontName="Times-Italic",
     fontSize=9, leading=11, textColor=MUTED, alignment=TA_CENTER,
     spaceBefore=2, spaceAfter=12)
@@ -455,8 +456,10 @@ class BlockRenderer:
                 if html.strip():
                     self.out.append(Paragraph(html, BODY_LEFT))
             return
-        # Default: real bulleted list.
-        items = []
+        # Default: real bulleted list. Render each item as a Paragraph with bulletText
+        # so we can independently control bullet position (bulletIndent) and text
+        # position (leftIndent) — bullet sits just left of its text, both indented
+        # past the heading column.
         for li in children:
             inner_html = []
             for child in li.get("children", []):
@@ -465,11 +468,9 @@ class BlockRenderer:
                 elif child.get("type") == "paragraph":
                     inner_html.append(_inline_to_html(child.get("children", [])))
             html = "<br/>".join(h for h in inner_html if h.strip())
-            items.append(ListItem(Paragraph(html or "&nbsp;", BULLET),
-                                  leftIndent=22, bulletOffsetY=-1))
-        self.out.append(ListFlowable(items, bulletType="bullet", start="•",
-                                     leftIndent=22, bulletFontSize=9,
-                                     bulletOffsetY=-1, spaceBefore=2, spaceAfter=6))
+            p = Paragraph(html or "&nbsp;", BULLET, bulletText="\u2022")
+            self.out.append(p)
+        self.out.append(Spacer(1, 4))
 
     def _h_table(self, node: dict) -> None:
         self._after_stat_label = False
@@ -502,6 +503,7 @@ _SECTION_FROM_FILENAME = {
     "1-adventure": "adventure",
     "2-combat-tracker": "combat-tracker",
     "3-player-handouts": "player-handouts",
+    "4-dm-quick-ref": "dm-quick-ref",
 }
 
 def _infer_section(path: Path, meta: dict) -> str:

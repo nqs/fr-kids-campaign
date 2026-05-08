@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
-"""Build a session adventure PDF from its three markdown files.
+"""Build a session adventure PDF from its markdown files.
 
 Reusable across all sessions. The session folder must contain:
-  <slug>-1-adventure.md
-  <slug>-2-combat-tracker.md
-  <slug>-3-player-handouts.md
+  <slug>-1-adventure.md       (required)
+  <slug>-2-combat-tracker.md  (required)
+  <slug>-3-player-handouts.md (required)
+  <slug>-4-dm-quick-ref.md    (optional — appended when present)
   images.json
 
 Output goes to `<session-folder>/<slug>.pdf`.
@@ -102,6 +103,10 @@ def main() -> int:
     missing = [str(p) for p in md_files if not p.exists()]
     if missing:
         raise SystemExit("missing markdown files: " + ", ".join(missing))
+    # Optional DM quick-ref file (appended when present).
+    quick_ref = folder / f"{slug}-4-dm-quick-ref.md"
+    if quick_ref.exists():
+        md_files.append(quick_ref)
     images_json = folder / "images.json"
     if not images_json.exists():
         raise SystemExit(f"missing {images_json}")

@@ -45,13 +45,14 @@ Rules for this step:
 
 ### 5. Markdown Authoring
 
-Once images are approved, write three markdown files into `sessions/session <N>/` (the next session number after the highest-numbered existing folder). These are the **primary deliverable** — what the user reviews, edits, and reads at the table. PDF compilation is a separate, opt-in step.
+Once images are approved, write four markdown files into `sessions/session <N>/` (the next session number after the highest-numbered existing folder). These are the **primary deliverable** — what the user reviews, edits, and reads at the table. PDF compilation is a separate, opt-in step.
 
 Naming pattern, slugified from the adventure title (e.g., *The Second Cleft* → `the-second-cleft`):
 
 1. `<slug>-1-adventure.md` — main body
 2. `<slug>-2-combat-tracker.md` — DM combat tracker
 3. `<slug>-3-player-handouts.md` — player handout appendix
+4. `<slug>-4-dm-quick-ref.md` — DM quick reference cheat sheet
 
 Each file starts with YAML frontmatter:
 
@@ -60,7 +61,7 @@ Each file starts with YAML frontmatter:
 tags: [campaign/session-<N>, <section-tag>, dnd-5e]
 session: "<NNN>"
 adventure: <Adventure Title>
-section: <main-body|combat-tracker|player-handouts>
+section: <main-body|combat-tracker|player-handouts|dm-quick-ref>
 ---
 ```
 
@@ -72,11 +73,13 @@ The adventure file may add `tier`, `party_level`, and `duration` keys. Inline im
 
 **File 3 — `<slug>-3-player-handouts.md`:** every inline image from File 1 reproduced under its own `##` heading naming the subject (NPC, location, monster, map). One image per section. Maps may be revealed in pieces at GM discretion — note that in the file's preamble.
 
-Present the three file paths to the user. Stop here and wait for review. Once the user approves the markdown as canon, **proceed to Step 6 (Update the Campaign Bible) automatically — do not wait for a separate ask.** Do **not** proceed to Step 7 (PDF compilation) unless the user explicitly asks for it.
+**File 4 — `<slug>-4-dm-quick-ref.md`:** print-and-keep-at-the-table cheat sheet. Tables and short bulleted lists only — no narrative. See the **DM Quick Reference** section below for the contents and structure.
+
+Present the four file paths to the user. Stop here and wait for review. Once the user approves the markdown as canon, **proceed to Step 6 (Update the Campaign Bible) automatically — do not wait for a separate ask.** Do **not** proceed to Step 7 (PDF compilation) unless the user explicitly asks for it.
 
 ### 6. Update the Campaign Bible
 
-Once the three markdown files are approved as canon, the campaign bible must be updated to reflect the new content. **Treat this as a required step in the generation workflow, not an optional follow-up.** Different files update at different points in the session lifecycle — call out the timing distinction explicitly to the user when proposing changes.
+Once the four markdown files are approved as canon, the campaign bible must be updated to reflect the new content. **Treat this as a required step in the generation workflow, not an optional follow-up.** Different files update at different points in the session lifecycle — call out the timing distinction explicitly to the user when proposing changes.
 
 **Update immediately, before the session is played:**
 
@@ -96,16 +99,16 @@ After the bible is updated, present a summary of the diff and stop. Step 7 is op
 
 ### 7. PDF Compilation (on request)
 
-Only run this step when the user explicitly asks for PDFs. The three markdown files from Step 5 are the source of truth; the PDF is rendered **from** them. Never write narrative content into the PDF build that doesn't exist in the markdown — if something needs to change, change the markdown and rebuild.
+Only run this step when the user explicitly asks for PDFs. The four markdown files from Step 5 are the source of truth; the PDF is rendered **from** them. Never write narrative content into the PDF build that doesn't exist in the markdown — if something needs to change, change the markdown and rebuild.
 
 Two acceptable approaches — ask which the user prefers if it isn't already established:
 
 - **Obsidian-native** — the user exports each markdown file via the **Better Export PDF** plugin (configured in `Obsidian Setup.md`, with the `dnd-print.css` snippet enabled). The agent's job is to make sure the markdown renders cleanly. No script work required.
-- **ReportLab build (markdown → PDF renderer)** — for adventures that need rendered checkbox cells, parchment stat-card backgrounds, or a single combined PDF, run the reusable build script at `scripts/build_pdf.py`. It parses the three markdown files in order (`<slug>-1-adventure.md` → `<slug>-2-combat-tracker.md` → `<slug>-3-player-handouts.md`) and emits a single PDF. The script contains no duplicated narrative — narrative lives only in the markdown.
+- **ReportLab build (markdown → PDF renderer)** — for adventures that need rendered checkbox cells, parchment stat-card backgrounds, or a single combined PDF, run the reusable build script at `scripts/build_pdf.py`. It parses the four markdown files in order (`<slug>-1-adventure.md` → `<slug>-2-combat-tracker.md` → `<slug>-3-player-handouts.md` → `<slug>-4-dm-quick-ref.md`) and emits a single PDF. The script contains no duplicated narrative — narrative lives only in the markdown.
 
 The reusable scripts:
 
-- **`scripts/build_pdf.py`** — CLI entry point. Auto-discovers the session folder, slug, three markdown files, `images.json`, and PDF title (from the adventure file's `adventure:` frontmatter key). Do not copy this into the session folder; invoke it from the repo root.
+- **`scripts/build_pdf.py`** — CLI entry point. Auto-discovers the session folder, slug, the markdown files (the three required plus the optional file 4 when present), `images.json`, and PDF title (from the adventure file's `adventure:` frontmatter key). Do not copy this into the session folder; invoke it from the repo root.
 - **`scripts/md_to_pdf.py`** — the markdown→Platypus renderer (page styles, AST walker, checkbox replacement, stat-card and init-table special cases). Imported by `build_pdf.py`. Session-agnostic; do not copy or fork per session.
 
 ReportLab build rules (these describe what `scripts/md_to_pdf.py` already implements; touch the script if any of these need to change, never reimplement per session):
@@ -163,6 +166,7 @@ Each session lives in `sessions/session <N>/` with this file layout:
 - `<adventure-slug>-1-adventure.md` — main adventure body.
 - `<adventure-slug>-2-combat-tracker.md` — per-encounter trackers and stat-block cards.
 - `<adventure-slug>-3-player-handouts.md` — labeled images, one per section.
+- `<adventure-slug>-4-dm-quick-ref.md` — DM quick-reference cheat sheet.
 
 **Image manifest (always written when Step 4 runs):**
 
@@ -170,9 +174,9 @@ Each session lives in `sessions/session <N>/` with this file layout:
 
 **ReportLab PDF artifact (only when the user asks for a scripted PDF — Step 7):**
 
-- `<adventure-slug>.pdf` — the build output. Produced by `scripts/build_pdf.py` from the three markdown files plus `images.json`.
+- `<adventure-slug>.pdf` — the build output. Produced by `scripts/build_pdf.py` from the markdown files plus `images.json`.
 
-The build scripts themselves live at the repo root, not per-session: `scripts/build_pdf.py` (CLI entry point) and `scripts/md_to_pdf.py` (markdown→Platypus renderer). Do not copy them into the session folder. The old per-session `build_pdf_content.py`, `combat_tracker.py`, `combat_stat_blocks.py`, and `combat_render.py` modules are no longer used either. All adventure, encounter, and stat-block content lives in the three markdown files; the renderer parses them.
+The build scripts themselves live at the repo root, not per-session: `scripts/build_pdf.py` (CLI entry point) and `scripts/md_to_pdf.py` (markdown→Platypus renderer). Do not copy them into the session folder. The old per-session `build_pdf_content.py`, `combat_tracker.py`, `combat_stat_blocks.py`, and `combat_render.py` modules are no longer used either. All adventure, encounter, stat-block, and quick-reference content lives in the four markdown files; the renderer parses them.
 
 ## Combat Tracker
 
@@ -262,4 +266,32 @@ These rules are **single-pass and pattern-based** — the renderer recognizes sh
 
 ### Reuse across sessions
 
-The renderer (`scripts/md_to_pdf.py`) and the CLI (`scripts/build_pdf.py`) are session-agnostic and live at the repo root. Reference them in place — do not copy or fork them into session folders. Only the three markdown files and `images.json` are written fresh per session; the PDF is rebuilt from them on demand.
+The renderer (`scripts/md_to_pdf.py`) and the CLI (`scripts/build_pdf.py`) are session-agnostic and live at the repo root. Reference them in place — do not copy or fork them into session folders. Only the four markdown files and `images.json` are written fresh per session; the PDF is rebuilt from them on demand.
+
+## DM Quick Reference
+
+Every adventure must include a **DM quick reference cheat sheet** as `<slug>-4-dm-quick-ref.md`. It is a print-and-keep-at-the-table summary of the at-a-glance information the DM needs mid-session, condensed from File 1. Tables and short bulleted lists only — full prose stays in File 1. If the DM has to re-read the adventure body to find a number, the cheat sheet has failed.
+
+### Required sections
+
+Adapt the section list to the adventure's actual content — don't include sections that don't apply, but don't skip ones that do. The standard set is:
+
+- **Scene Order** — single table: `# | Scene | Key mechanic | DM flag`. One row per scene (cold open through debrief).
+- **Boss / Countdown mechanics** — for any encounter with a ticking timer, ritual, escalation trigger, or named-NPC ability stack: a small table summarizing how to stop it, caveats, and what happens at zero.
+- **NPC behavior priority** — for boss-tier or returning antagonists: a round-by-round action/bonus-action table or a short tactics summary.
+- **Faction priorities & timing** — for multi-faction fights or pressure-valve encounters (e.g., a third faction crashing the boss fight): a bulleted list of trigger conditions, faction priorities, and the resulting major loose ends.
+- **Bargain / negotiation matrix** — for any scene where a fey, devil, hag, or merchant offers boons in exchange for costs: a table of `Boon | Effect | Cost tier`. Include stiffed/threatened/probed-on-secret responses as bullets below.
+- **Endings** — for adventures with branching outcomes: a table of `Ending | How | Reputation | Loose end` with one row per ending plus a `Withdraw without ending` row when relevant.
+- **Debrief payments** — table of `Item | Condition | Payer | Amount`, including the milestone or XP advance.
+- **Who-talks-to-whom branches** — for sessions that fork on which NPC the party reports to first: a short bullet list with the consequence of each choice.
+- **Tone / staging beats** — short bulleted tells the DM should cue at the table (a recurring NPC's posture changes, a one-line read-aloud, a callback to a prior session).
+- **Loose Ends to Flag in Session Log After Play** — a checklist of `- [ ]` items the DM ticks off after the session, which the agent will fold into `campaign/session-log.md` when asked for a post-play update.
+
+### Form
+
+- Frontmatter: `section: dm-quick-ref`, plus the standard `tags`, `session`, `adventure` keys.
+- Title: `# DM Quick Reference — <Adventure Title>` followed by an italic line: `*Session NNN · Print and keep at the table · Full detail in file 1*`.
+- Each section is a level-2 heading separated by `---` thematic breaks.
+- No inline images. No long prose blocks. If a sentence runs more than two lines, it belongs in File 1.
+- Cross-references to File 1 are by scene number / scene name, not by page.
+- Numbers must match File 1 and File 2 exactly. If something changes in the adventure, update the cheat sheet in the same edit.

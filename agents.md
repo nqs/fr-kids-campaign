@@ -32,7 +32,7 @@ This agent's knowledge base is the campaign bible. Before doing anything generat
 - **`campaign/house-rules.md`** — homebrew rules and 5e variants in play *(if present)*
 - **`campaign/session-log.md`** — what's happened so far, loose ends, foreshadowing
 - **`campaign/roster.md`** — NPC roster and relationships
-- **`sessions/session <N>/`** — per-session deliverables (adventure, combat tracker, player handouts, images.json, optional PDF) — at the vault root, not inside `campaign/`
+- **`sessions/session <N>/`** — per-session deliverables (adventure, combat tracker, player handouts, DM quick reference, images.json, optional PDF) — at the vault root, not inside `campaign/`
 - **`dnd-adventure-generator.md`** — generation workflow and rules for creating adventures and PDFs *(vault root)*
 - **`references/campaign-guide/_raw/`** — canonical FR setting reference (DM-facing), extracted to markdown: `full.md`, `pages/page-NNNN.md`, `images/`
 - **`references/players-guide/_raw/`** — canonical FR setting reference (player-facing), extracted to markdown: `full.md`, `pages/page-NNNN.md`, `images/`
@@ -79,19 +79,20 @@ The `dnd-adventure-generator.md` file defines the generation workflow: scope →
 
 Follow the markdown authoring, image generation, and PDF compilation instructions exactly as written in `dnd-adventure-generator.md`, with the added requirements below.
 
-### Output requirements: three markdown files (PDFs on request)
+### Output requirements: four markdown files (PDFs on request)
 
-Every generated adventure produces three Obsidian markdown files in `sessions/session <N>/`, named with the slugified adventure title:
+Every generated adventure produces four Obsidian markdown files in `sessions/session <N>/`, named with the slugified adventure title:
 
 1. **`<slug>-1-adventure.md`** — main body: the adventure narrative with inline images and maps.
 2. **`<slug>-2-combat-tracker.md`** — DM combat tracker: per-encounter tracker sheets plus stat-block cards for every non-PC combatant. The full specification lives in `dnd-adventure-generator.md` under the **Combat Tracker** section.
 3. **`<slug>-3-player-handouts.md`** — player handout appendix: every image that appears inline in File 1 reproduced under its own labeled heading (e.g., "Lord Neverember," "The Yawning Portal, Common Room," "Gnoll War-Chief"). These are meant to be shown to the players at the table as visual handouts.
+4. **`<slug>-4-dm-quick-ref.md`** — DM quick reference: a print-and-keep-at-the-table cheat sheet condensing scene order, key mechanics, countdowns, faction priorities, bargain matrices, ending branches, debrief payments, and post-play loose-end flags. Tables and short bulleted lists only — full prose lives in File 1. The full specification lives in `dnd-adventure-generator.md` under the **DM Quick Reference** section.
 
-The three files are the **primary deliverable** and are always produced together. After authoring them, stop and let the user review. PDF compilation is a separate, opt-in step the agent only runs when the user explicitly asks. When a PDF is built, it mirrors the three markdown files in the same order (main body → combat tracker → player handouts) and never contradicts or omits content from them — the markdown is the source of truth.
+The four files are the **primary deliverable** and are always produced together. After authoring them, stop and let the user review. PDF compilation is a separate, opt-in step the agent only runs when the user explicitly asks. When a PDF is built, it mirrors the four markdown files in the same order (main body → combat tracker → player handouts → DM quick reference) and never contradicts or omits content from them — the markdown is the source of truth.
 
 ### Post-generation: update the campaign bible
 
-Once the three markdown files are authored and the user confirms the content is canonical, **the next step in the workflow is to update the tracking documents.** Do not treat the deliverables as finished work until the bible reflects them. Different files update at different points in the session lifecycle — surface the timing distinction explicitly when proposing changes.
+Once the four markdown files are authored and the user confirms the content is canonical, **the next step in the workflow is to update the tracking documents.** Do not treat the deliverables as finished work until the bible reflects them. Different files update at different points in the session lifecycle — surface the timing distinction explicitly when proposing changes.
 
 **Update immediately, before the session is played:**
 - **`campaign/roster.md`** — full entries for any new recurring NPCs (role, affiliation, location, status, one-line summary, appearance, personality, motivations, party relationship, statline reference pointing to the combat tracker). Add new edges to the NPC Relationship Web. Promote any noteworthy mechanical details (e.g., a recurring NPC's bargain matrix, a vendetta flag) so they live in the roster, not buried in a session file.
@@ -135,11 +136,12 @@ Produce updates as copy-pasteable markdown when the agent lacks write access; ed
 - Do not bypass the `dnd-adventure-generator.md` procedure for generating adventures, encounters, or stat blocks — follow it strictly for the markdown, image, and PDF workflow.
 - Do not modify the knowledge files silently. Always surface proposed changes for the user to accept.
 - Do not treat the Players Guide as a DM-only source — its content represents what the party may plausibly know about the world.
-- Do not skip any of the three markdown deliverables. Every adventure produces a main-body file, a combat tracker file, and a player-handout appendix file — together, in the same session folder.
+- Do not skip any of the four markdown deliverables. Every adventure produces a main-body file, a combat tracker file, a player-handout appendix file, and a DM quick-reference file — together, in the same session folder.
 - Do not jump to PDF compilation on your own. Author the markdown files, present them to the user, and wait for an explicit request before building a PDF.
 - Do not ship a PDF without the DM combat tracker section. Every combat encounter must have a printable tracker sheet and stat-block cards, placed between the main body and the player-handout appendix.
 - Do not ship a PDF without the player-handout appendix. Inline images alone are not sufficient.
-- Do not consider a session "done generating" until the campaign bible has been updated. After the three markdown files are approved, propose `campaign/roster.md` / `campaign/factions.md` / `campaign/geography.md` updates as the next workflow step — not as an optional follow-up.
+- Do not ship a PDF without the DM quick-reference section. The cheat-sheet appendix is part of the standard four-file deliverable; if it exists in the session folder, it must appear in the PDF.
+- Do not consider a session "done generating" until the campaign bible has been updated. After the four markdown files are approved, propose `campaign/roster.md` / `campaign/factions.md` / `campaign/geography.md` updates as the next workflow step — not as an optional follow-up.
 - Do not write `campaign/session-log.md` entries for sessions that have not yet been played. Pre-play canon updates go to roster, factions, and geography only; session-log waits for the actual table outcome.
 
 ---
