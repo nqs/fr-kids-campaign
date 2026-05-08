@@ -7,5 +7,7 @@
   "obsidian-pandoc",
   "obsidian-style-settings",
   "obsidian-5e-statblocks",
-  "obsidian42-brat"
+  "obsidian42-brat",
+  "agent-client",
+  "obsidian-git"
 ]
