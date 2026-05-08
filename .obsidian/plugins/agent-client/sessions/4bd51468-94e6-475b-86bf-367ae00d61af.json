@@ -1708,7 +1708,22 @@
         }
       ],
       "timestamp": "2026-05-08T18:43:06.046Z"
+    },
+    {
+      "id": "1b1d92bf-a0c5-4f5b-b44f-9ffc9052b287",
+      "role": "user",
+      "content": [
+        {
+          "type": "text_with_context",
+          "text": "The generated PDF has bullet points at the front of every line of text.   Update the PDF generator script to remove those.  Only use bulleted lists for lists of things",
+          "autoMentionContext": {
+            "noteName": "home",
+            "notePath": "home.md"
+          }
+        }
+      ],
+      "timestamp": "2026-05-08T18:43:24.205Z"
     }
   ],
-  "savedAt": "2026-05-08T18:43:11.430Z"
+  "savedAt": "2026-05-08T18:55:09.701Z"
 }

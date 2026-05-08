@@ -25,6 +25,7 @@ from reportlab.platypus import (
     Image, KeepTogether, ListFlowable, ListItem, PageBreak, Paragraph,
     SimpleDocTemplate, Spacer, Table, TableStyle,
 )
+from reportlab.platypus.flowables import HRFlowable
 
 # --- colors / styles -------------------------------------------------------
 
@@ -258,6 +259,7 @@ def _render_table(node: dict) -> Table:
 
 _FRONTMATTER_RE = re.compile(r"^---\n.*?\n---\n", re.DOTALL)
 _CHECKBOX_TOKEN_RE = re.compile(r"\u2610\s*([^\u2610·]+?)(?=\s*[\u2610·]|$)")
+_RULED_LINE_RE = re.compile(r"^[\s_]+$")
 
 def strip_frontmatter(text: str) -> tuple[str, dict]:
     m = _FRONTMATTER_RE.match(text)
@@ -279,6 +281,29 @@ def _is_checkbox_strip(text: str) -> bool:
     return text.lstrip().startswith((
         "Round:", "Ritual Countdown", "Portal Anchor object",
     )) and CHECKBOX_GLYPH in text
+
+def _li_plain_text(li: dict) -> str:
+    """Plain text of a list item's first inline children (block_text/paragraph)."""
+    out = []
+    for child in li.get("children", []):
+        if child.get("type") in ("block_text", "paragraph"):
+            out.append(_cell_text(child.get("children", [])))
+    return "".join(out)
+
+def _is_ruled_line_item(li: dict) -> bool:
+    children = li.get("children", [])
+    # Mistune parses `- ___...` as a list item whose only child is a thematic_break
+    # (3+ underscores is a CommonMark horizontal rule).
+    if children and all(c.get("type") == "thematic_break" for c in children):
+        return True
+    text = _li_plain_text(li)
+    return bool(text) and bool(_RULED_LINE_RE.match(text))
+
+def _is_bold_only_paragraph(node: dict) -> bool:
+    """Paragraph whose meaningful content is a single <strong> (e.g. **Actions**)."""
+    children = [c for c in node.get("children", [])
+                if c.get("type") not in ("softbreak", "linebreak")]
+    return len(children) == 1 and children[0].get("type") == "strong"
 
 def _render_checkbox_strip(text: str) -> Table:
     """Render '**Label:** ☐ 1 · ☐ 2 · ...' as label + bordered boxes with numbers."""
@@ -313,6 +338,7 @@ class BlockRenderer:
         self.in_stat_cards = False
         self._h1_seen = False
         self._h2_seen_in_section = False
+        self._after_stat_label = False
         self.out: list = []
 
     def render(self, tokens: list) -> list:
@@ -337,6 +363,7 @@ class BlockRenderer:
         pass
 
     def _h_heading(self, node: dict) -> None:
+        self._after_stat_label = False
         level = node["attrs"]["level"]
         text = _inline_to_html(node.get("children", []))
         plain = _para_plain_text(node)
@@ -369,15 +396,20 @@ class BlockRenderer:
         # Solo image paragraph -> block image with caption.
         if len(children) == 1 and children[0].get("type") == "image":
             self._emit_image(children[0])
+            self._after_stat_label = False
             return
         text = _para_plain_text(node)
         if _is_checkbox_strip(text):
             self.out.append(_render_checkbox_strip(text))
             self.out.append(Spacer(1, 4))
+            self._after_stat_label = False
             return
         html = _inline_to_html(children)
         if html.strip():
             self.out.append(Paragraph(html, BODY))
+        # Track stat-block labels (e.g. **Actions**, **Traits**, **Spellcasting (...)**)
+        # so a list immediately after them renders without bullets.
+        self._after_stat_label = _is_bold_only_paragraph(node)
 
     def _h_block_text(self, node: dict) -> None:
         # Used inside list items.
@@ -386,6 +418,7 @@ class BlockRenderer:
             self.out.append(Paragraph(html, BODY_LEFT))
 
     def _h_block_quote(self, node: dict) -> None:
+        self._after_stat_label = False
         # Collect inner text; detect Obsidian callout `[!quote] Read Aloud`.
         inner_html_parts: list[str] = []
         for child in node.get("children", []):
@@ -399,8 +432,32 @@ class BlockRenderer:
             self.out.append(Paragraph(inner, READ))
 
     def _h_list(self, node: dict) -> None:
+        children = node.get("children", [])
+        after_label = self._after_stat_label
+        self._after_stat_label = False
+        # Write-in slots: every item is just underscores -> plain ruled lines, no bullets.
+        if children and all(_is_ruled_line_item(li) for li in children):
+            for _ in children:
+                self.out.append(Spacer(1, 4))
+                self.out.append(HRFlowable(width="100%", thickness=0.4,
+                                           color=INK, spaceBefore=0, spaceAfter=0))
+            self.out.append(Spacer(1, 4))
+            return
+        # Stat-block content under a bold label (Traits / Actions / Reactions /
+        # Spellcasting): conventional 5e formatting is labeled paragraphs, no bullets.
+        if after_label:
+            for li in children:
+                inner_html = []
+                for child in li.get("children", []):
+                    if child.get("type") in ("block_text", "paragraph"):
+                        inner_html.append(_inline_to_html(child.get("children", [])))
+                html = "<br/>".join(h for h in inner_html if h.strip())
+                if html.strip():
+                    self.out.append(Paragraph(html, BODY_LEFT))
+            return
+        # Default: real bulleted list.
         items = []
-        for li in node.get("children", []):
+        for li in children:
             inner_html = []
             for child in li.get("children", []):
                 if child.get("type") == "block_text":
@@ -415,10 +472,12 @@ class BlockRenderer:
                                      bulletOffsetY=-1, spaceBefore=2, spaceAfter=6))
 
     def _h_table(self, node: dict) -> None:
+        self._after_stat_label = False
         self.out.append(_render_table(node))
         self.out.append(Spacer(1, 6))
 
     def _h_block_code(self, node: dict) -> None:
+        self._after_stat_label = False
         raw = node.get("raw", "")
         self.out.append(Paragraph(f"<font face='Courier'>{_esc(raw)}</font>", BODY_LEFT))
 
