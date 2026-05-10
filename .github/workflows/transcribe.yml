@@ -92,11 +92,11 @@ jobs:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
           SKIP_PYENV: '1'
         run: |
-          chmod +x ./transcribe.sh
+          chmod +x ./scripts/transcribe.sh
           while IFS= read -r f; do
             [ -z "$f" ] && continue
             echo "::group::Transcribing $f"
-            ./transcribe.sh "$f" "$f.txt" || echo "::warning::Failed to transcribe $f"
+            ./scripts/transcribe.sh "$f" "$f.txt" || echo "::warning::Failed to transcribe $f"
             echo "::endgroup::"
           done < audio_files.txt
           rm -f audio_files.txt
