@@ -32,7 +32,7 @@ This agent's knowledge base is the campaign bible. Before doing anything generat
 - **`campaign/house-rules.md`** — homebrew rules and 5e variants in play *(if present)*
 - **`campaign/session-log.md`** — what's happened so far, loose ends, foreshadowing
 - **`campaign/roster.md`** — NPC roster and relationships
-- **`sessions/session <N>/`** — per-session deliverables (adventure, combat tracker, player handouts, DM quick reference, images.json, optional PDF) — at the vault root, not inside `campaign/`
+- **`sessions/session <N>/`** — per-session deliverables (adventure, combat tracker, player handouts, DM quick reference, optional PDF) plus an `images/` subfolder containing `images.json` and one jpg per generated image — at the vault root, not inside `campaign/`
 - **`dnd-adventure-generator.md`** — generation workflow and rules for creating adventures and PDFs *(vault root)*
 - **`references/campaign-guide/_raw/`** — canonical FR setting reference (DM-facing), extracted to markdown: `full.md`, `pages/page-NNNN.md`, `images/`
 - **`references/players-guide/_raw/`** — canonical FR setting reference (player-facing), extracted to markdown: `full.md`, `pages/page-NNNN.md`, `images/`
