@@ -3,12 +3,12 @@ name: Tests
 on:
   push:
     paths:
-      - 'transcribe.sh'
+      - 'scripts/transcribe.sh'
       - 'tests/**'
       - '.github/workflows/test.yml'
   pull_request:
     paths:
-      - 'transcribe.sh'
+      - 'scripts/transcribe.sh'
       - 'tests/**'
       - '.github/workflows/test.yml'
   workflow_dispatch:
