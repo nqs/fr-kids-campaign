@@ -6,7 +6,7 @@ Reusable across all sessions. The session folder must contain:
   <slug>-2-combat-tracker.md  (required)
   <slug>-3-player-handouts.md (required)
   <slug>-4-dm-quick-ref.md    (optional — appended when present)
-  images.json
+  images/images.json
 
 Output goes to `<session-folder>/<slug>.pdf`.
 
@@ -107,7 +107,7 @@ def main() -> int:
     quick_ref = folder / f"{slug}-4-dm-quick-ref.md"
     if quick_ref.exists():
         md_files.append(quick_ref)
-    images_json = folder / "images.json"
+    images_json = folder / "images" / "images.json"
     if not images_json.exists():
         raise SystemExit(f"missing {images_json}")
 

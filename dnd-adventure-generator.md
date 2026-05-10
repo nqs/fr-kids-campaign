@@ -40,7 +40,9 @@ Rules for this step:
 - Never use any other image source. No Pillow, no matplotlib, no SVG drawing, no placeholders, no colored rectangles. Substituting anything else for Gemini is unacceptable.
 - If Gemini fails after a single retry, skip that image and tell the user. Never fall back to a placeholder.
 - Extract the hosted URL from each tool result. Do **not** extract or decode base64 data — Gemini's URLs are valid for 30 days and are the source of truth.
-- Keep a running list of `{description, url, aspect_ratio}` for every image generated. Persist it as `sessions/session <N>/images.json` so the markdown files and the PDF renderer can both reference image sizes without re-querying Gemini. This list is the handoff to Step 5.
+- Before generating the first image, create an `images/` subfolder inside `sessions/session <N>/`.
+- Keep a running list of `{description, url, aspect_ratio}` for every image generated. Persist it as `sessions/session <N>/images/images.json` so the markdown files and the PDF renderer can both reference image sizes without re-querying Gemini. This list is the handoff to Step 5.
+- Save each generated image as a jpg file in `sessions/session <N>/images/` using a slugified form of the description as the filename (e.g., `khelziir-portrait.jpg`). If the tool writes a local file, move it there; otherwise download the image from the URL. Saving images locally ensures they are tracked in the git repo and survive Gemini URL expiry.
 - Present images to the user by referencing the URLs. Ask for regenerations, changes, or approval to author the markdown files.
 
 ### 5. Markdown Authoring
@@ -124,7 +126,7 @@ ReportLab build rules (these describe what `scripts/md_to_pdf.py` already implem
   - `block_code` (fenced) → preformatted Paragraph in a monospace style
   - `block_quote` → indented body Paragraph
 - **Checkbox glyphs.** Whenever a paragraph or table cell contains `☐`, the renderer replaces each glyph with a small empty bordered cell. Times-Roman does not carry `☐` and falls back to a filled square. Do not register a substitute font; replace at render time so the boxes are crisp and consistently sized.
-- **Image sizing.** Step 4 already captures `{description, url, aspect_ratio}` for each image. Persist that list as `images.json` in the session folder so the renderer can size each `Image()` without re-querying Gemini. Lookup is by URL; if a URL isn't found, fall back to a 4:3 default and warn.
+- **Image sizing.** Step 4 already captures `{description, url, aspect_ratio}` for each image. Persist that list as `images/images.json` in the session folder so the renderer can size each `Image()` without re-querying Gemini. Lookup is by URL; if a URL isn't found, fall back to a 4:3 default and warn.
 - **Output:** single PDF at `sessions/session <N>/<adventure-slug>.pdf` (the slug is derived from `<slug>-1-adventure.md`).
 - **Run:** from the repo root, `.venv/bin/python scripts/build_pdf.py [<session-number-or-folder>]`. With no argument it builds the latest session; pass `3` or `"sessions/session 3"` to target a specific one. Optional `--title` and `--out` flags override the auto-detected title and output path. Tell the user the PDF path on completion; the user opens it themselves in Obsidian or Finder.
 - **Dependencies:** `mistune` and `reportlab`, installed into a project venv at `.venv/`. If the venv is missing, create it once with `python3 -m venv .venv && .venv/bin/python -m pip install mistune reportlab`. Do not install into the system Python (Homebrew Python is PEP 668 externally-managed).
@@ -168,13 +170,14 @@ Each session lives in `sessions/session <N>/` with this file layout:
 - `<adventure-slug>-3-player-handouts.md` — labeled images, one per section.
 - `<adventure-slug>-4-dm-quick-ref.md` — DM quick-reference cheat sheet.
 
-**Image manifest (always written when Step 4 runs):**
+**Image assets (always written when Step 4 runs):**
 
-- `images.json` — list of `{description, url, aspect_ratio}` captured during image generation. The renderer uses `aspect_ratio` to size each `Image()`. Always present so the PDF can be built later without re-querying Gemini.
+- `images/images.json` — list of `{description, url, aspect_ratio}` captured during image generation. The renderer uses `aspect_ratio` to size each `Image()`. Always present so the PDF can be built later without re-querying Gemini.
+- `images/<description-slug>.jpg` — one jpg per generated image, named from the description slug. Tracked in git so images survive Gemini URL expiry.
 
 **ReportLab PDF artifact (only when the user asks for a scripted PDF — Step 7):**
 
-- `<adventure-slug>.pdf` — the build output. Produced by `scripts/build_pdf.py` from the markdown files plus `images.json`.
+- `<adventure-slug>.pdf` — the build output. Produced by `scripts/build_pdf.py` from the markdown files plus `images/images.json`.
 
 The build scripts themselves live at the repo root, not per-session: `scripts/build_pdf.py` (CLI entry point) and `scripts/md_to_pdf.py` (markdown→Platypus renderer). Do not copy them into the session folder. The old per-session `build_pdf_content.py`, `combat_tracker.py`, `combat_stat_blocks.py`, and `combat_render.py` modules are no longer used either. All adventure, encounter, stat-block, and quick-reference content lives in the four markdown files; the renderer parses them.
 
