@@ -96,7 +96,7 @@ jobs:
           while IFS= read -r f; do
             [ -z "$f" ] && continue
             echo "::group::Transcribing $f"
-            ./scripts/transcribe.sh "$f" "$f.txt" || echo "::warning::Failed to transcribe $f"
+            ./scripts/transcribe.sh "$f" "$f.md" || echo "::warning::Failed to transcribe $f"
             echo "::endgroup::"
           done < audio_files.txt
           rm -f audio_files.txt
@@ -106,7 +106,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add -A -- ':(glob)**/*.txt'
+          git add -A -- ':(glob)**/*.md'
           if git diff --cached --quiet; then
             echo "No transcript changes to commit."
             exit 0

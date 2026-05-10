@@ -11,7 +11,7 @@ if [ $# -lt 1 ] || [ $# -gt 2 ]; then
 fi
 
 INPUT="$1"
-OUTPUT="${2:-${INPUT}.txt}"
+OUTPUT="${2:-${INPUT}.md}"
 
 if [ ! -f "$INPUT" ]; then
     echo "Error: input file '$INPUT' not found." >&2
@@ -78,4 +78,16 @@ whisperx "$INPUT" \
 
 INPUT_STEM="$(basename "$INPUT")"
 INPUT_STEM="${INPUT_STEM%.*}"
-mv "$WHISPERX_TMPDIR/${INPUT_STEM}.txt" "$OUTPUT"
+
+TRANSCRIPT="$(cat "$WHISPERX_TMPDIR/${INPUT_STEM}.txt")"
+TRANSCRIBED_AT="$(date -u +"%Y-%m-%dT%H:%M:%SZ")"
+
+cat > "$OUTPUT" <<MDEOF
+---
+source: $(basename "$INPUT")
+transcribed: ${TRANSCRIBED_AT}
+model: base.en
+---
+
+${TRANSCRIPT}
+MDEOF
