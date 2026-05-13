@@ -332,15 +332,33 @@ def _render_checkbox_strip(text: str) -> Table:
 class BlockRenderer:
     """Walk a mistune v3 AST and emit Platypus flowables for one .md file."""
 
-    def __init__(self, manifest: dict, section: str, first_h1_pagebreak: bool = False):
+    def __init__(self, manifest: dict, section: str, first_h1_pagebreak: bool = False,
+                 font_scale: float = 1.0):
         self.manifest = manifest
         self.section = section  # 'adventure' | 'combat-tracker' | 'player-handouts'
         self.first_h1_pagebreak = first_h1_pagebreak
+        self.font_scale = font_scale
         self.in_stat_cards = False
         self._h1_seen = False
         self._h2_seen_in_section = False
         self._after_stat_label = False
         self.out: list = []
+        if font_scale == 1.0:
+            self.body = BODY
+            self.body_left = BODY_LEFT
+            self.bullet = BULLET
+            self.read = READ
+        else:
+            s = font_scale
+            self.body = ParagraphStyle("BodyScaled", parent=BODY,
+                fontSize=BODY.fontSize * s, leading=BODY.leading * s)
+            self.body_left = ParagraphStyle("BodyLScaled", parent=BODY_LEFT,
+                fontSize=BODY_LEFT.fontSize * s, leading=BODY_LEFT.leading * s)
+            self.bullet = ParagraphStyle("BulScaled", parent=BULLET,
+                fontSize=BULLET.fontSize * s, leading=BULLET.leading * s,
+                leftIndent=BULLET.leftIndent * s, bulletIndent=BULLET.bulletIndent * s)
+            self.read = ParagraphStyle("ReadScaled", parent=READ,
+                fontSize=READ.fontSize * s, leading=READ.leading * s)
 
     def render(self, tokens: list) -> list:
         for tok in tokens:
@@ -407,7 +425,7 @@ class BlockRenderer:
             return
         html = _inline_to_html(children)
         if html.strip():
-            self.out.append(Paragraph(html, BODY))
+            self.out.append(Paragraph(html, self.body))
         # Track stat-block labels (e.g. **Actions**, **Traits**, **Spellcasting (...)**)
         # so a list immediately after them renders without bullets.
         self._after_stat_label = _is_bold_only_paragraph(node)
@@ -416,7 +434,7 @@ class BlockRenderer:
         # Used inside list items.
         html = _inline_to_html(node.get("children", []))
         if html.strip():
-            self.out.append(Paragraph(html, BODY_LEFT))
+            self.out.append(Paragraph(html, self.body_left))
 
     def _h_block_quote(self, node: dict) -> None:
         self._after_stat_label = False
@@ -430,7 +448,7 @@ class BlockRenderer:
         inner = re.sub(r"^\[!\w+\][^<]*<br/>", "", inner)
         inner = re.sub(r"^\[!\w+\][^<]*", "", inner)
         if inner.strip():
-            self.out.append(Paragraph(inner, READ))
+            self.out.append(Paragraph(inner, self.read))
 
     def _h_list(self, node: dict) -> None:
         children = node.get("children", [])
@@ -454,7 +472,7 @@ class BlockRenderer:
                         inner_html.append(_inline_to_html(child.get("children", [])))
                 html = "<br/>".join(h for h in inner_html if h.strip())
                 if html.strip():
-                    self.out.append(Paragraph(html, BODY_LEFT))
+                    self.out.append(Paragraph(html, self.body_left))
             return
         # Default: real bulleted list. Render each item as a Paragraph with bulletText
         # so we can independently control bullet position (bulletIndent) and text
@@ -468,7 +486,7 @@ class BlockRenderer:
                 elif child.get("type") == "paragraph":
                     inner_html.append(_inline_to_html(child.get("children", [])))
             html = "<br/>".join(h for h in inner_html if h.strip())
-            p = Paragraph(html or "&nbsp;", BULLET, bulletText="\u2022")
+            p = Paragraph(html or "&nbsp;", self.bullet, bulletText="\u2022")
             self.out.append(p)
         self.out.append(Spacer(1, 4))
 
@@ -480,7 +498,7 @@ class BlockRenderer:
     def _h_block_code(self, node: dict) -> None:
         self._after_stat_label = False
         raw = node.get("raw", "")
-        self.out.append(Paragraph(f"<font face='Courier'>{_esc(raw)}</font>", BODY_LEFT))
+        self.out.append(Paragraph(f"<font face='Courier'>{_esc(raw)}</font>", self.body_left))
 
     # -- image emission -----------------------------------------------------
 
@@ -532,9 +550,11 @@ def build_pdf(md_files: list[str | Path], images_json: str | Path,
         text = path.read_text()
         text, meta = strip_frontmatter(text)
         section = _infer_section(path, meta)
+        font_scale = float(meta.get("font_scale", 1.0))
         ast = parser(text)
         renderer = BlockRenderer(manifest, section,
-                                 first_h1_pagebreak=(i > 0))
+                                 first_h1_pagebreak=(i > 0),
+                                 font_scale=font_scale)
         story.extend(renderer.render(ast))
     out = Path(out_path)
     doc = SimpleDocTemplate(
