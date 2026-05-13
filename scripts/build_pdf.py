@@ -6,9 +6,12 @@ Reusable across all sessions. The session folder must contain:
   <slug>-2-combat-tracker.md  (required)
   <slug>-3-player-handouts.md (required)
   <slug>-4-dm-quick-ref.md    (optional — appended when present)
+  *-handout.md                (optional — any number; each built as its own PDF)
   images/images.json
 
-Output goes to `<session-folder>/<slug>.pdf`.
+Output goes to `<session-folder>/<slug>.pdf`. Standalone `*-handout.md` files
+(in-fiction letters, props, etc.) are additionally built to
+`<session-folder>/<handout>.pdf`.
 
 Usage:
   python scripts/build_pdf.py                  # latest session folder
@@ -120,6 +123,25 @@ def main() -> int:
     print(f"out:    {out_path}")
     build_pdf(md_files, images_json, out_path, title=title)
     print(f"wrote {out_path}")
+
+    # Build any standalone *-handout.md files in the folder as separate PDFs.
+    # These are one-off props (e.g. an in-fiction letter) that are not part of
+    # the main adventure/tracker/player-handouts/quick-ref bundle.
+    main_files = {p.name for p in md_files}
+    for handout_md in sorted(folder.glob("*-handout.md")):
+        if handout_md.name in main_files:
+            continue
+        body, _ = strip_frontmatter(handout_md.read_text())
+        h1 = next((line[2:].strip() for line in body.splitlines()
+                   if line.startswith("# ")), "")
+        handout_title = h1 or " ".join(
+            w.capitalize() for w in handout_md.stem.removesuffix("-handout").split("-")
+        )
+        handout_out = handout_md.with_suffix(".pdf")
+        print(f"handout: {handout_md.name} -> {handout_out.name}")
+        build_pdf([handout_md], images_json, handout_out, title=handout_title)
+        print(f"wrote {handout_out}")
+
     return 0
 
 
