@@ -76,12 +76,6 @@ You met him at the briefing in Lady Ulphor's working room before you rode for th
 
 ---
 
-## Tactical Map — Site C, The Shrine-Camp
-
-![Tactical Map — Site C, The Shrine-Camp](https://storage.gemini.mcp.nqs.io/images/c1cfae4b-c9ae-40c7-bf4b-df76d5ff95cb.png)
-
----
-
 ## The Shrine Chamber — Site C Interior
 
 ![The Shrine Chamber — Site C Interior](https://storage.gemini.mcp.nqs.io/images/3f79f172-3d3b-482a-b304-ea376ab93834.png)
