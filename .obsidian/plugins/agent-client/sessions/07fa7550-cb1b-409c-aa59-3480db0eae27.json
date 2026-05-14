@@ -306,7 +306,137 @@
         }
       ],
       "timestamp": "2026-05-14T03:26:15.060Z"
+    },
+    {
+      "id": "86479234-ec82-4210-8e95-4b2f148f0595",
+      "role": "user",
+      "content": [
+        {
+          "type": "text_with_context",
+          "text": "Add the letter handout and recap to the player handout section of the session .",
+          "autoMentionContext": {
+            "noteName": "recap-handout",
+            "notePath": "sessions/session 3/recap-handout.md"
+          }
+        }
+      ],
+      "timestamp": "2026-05-14T03:49:38.506Z"
+    },
+    {
+      "id": "670ce9a3-a60f-477a-a937-c7b458cc33a4",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "agent_thought",
+          "text": " I need to consolidate the two standalone handout files into the main session 3 player handouts document, so I'm going to pull in both files and see how they fit together with the existing content."
+        }
+      ],
+      "timestamp": "2026-05-14T03:49:44.945Z"
+    },
+    {
+      "id": "3e70067a-fa2d-4e00-9b72-0be9ca45e7b6",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_01JQXDKMNB8yUGzUzQhLmmaN",
+          "title": "Read `sessions/session 3/brynns-letter-handout.md`",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 3/brynns-letter-handout.md"
+            }
+          ],
+          "rawInput": {
+            "path": "sessions/session 3/brynns-letter-handout.md"
+          }
+        }
+      ],
+      "timestamp": "2026-05-14T03:49:44.945Z"
+    },
+    {
+      "id": "03ddfdfc-c062-4d0f-b8e2-af13c9335d81",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_01AdpanZHNdJtMyL97pw7SKg",
+          "title": "Read `sessions/session 3/the-half-mask-shrine-3-player-handouts.md`",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 3/the-half-mask-shrine-3-player-handouts.md"
+            }
+          ],
+          "rawInput": {
+            "path": "sessions/session 3/the-half-mask-shrine-3-player-handouts.md"
+          }
+        },
+        {
+          "type": "agent_thought",
+          "text": " I need to prepend the recap content from the handout file as the first page, replacing the standalone \"Cold Camp\" entry, while also keeping that location as its own section later in the document per the spec.\n\nFor Brynn's letter, I should add it right after his existing portrait entry so his image, context, and the letter are grouped together.\n\nThe plan is to insert the recap at the top between the preamble and the thematic break, then add the letter section immediately following Brynn's existing entry. I'll go with the recap as the opening section using that Cold Camp image, then add the Brynn letter after the portrait entry. The recap content includes the scene summary with the image, the key plot points about Site B being destroyed and the drow factions at war, and the forward-looking options for what comes next — I'll strip out the Obsidian export settings since those don't apply when embedding in the handouts file.\n\nFor the letter itself, I'm keeping the in-fiction framing about how it appeared in Loric's pack overnight with the thistle-and-ash seal, then including the \"Where You Know Him From\" section to give players context on Brynn before they read his actual message. That prose about his appearance, his role with Lady Ulphor, and the private revelation about Orvyn being a Harper sets up why this letter matters and why it's addressed to Loric specifically.\n\nNow I need to figure out where to insert these sections into the document — the recap goes right after the opening divider as its own section, and the letter handout goes after Brynn's portrait image, with proper spacing and dividers to keep everything visually organized."
+        },
+        {
+          "type": "text",
+          "text": "I'll fold the recap in at the top and the letter handout right after Brynn's portrait, then ask about cleaning up the standalone files.\n"
+        }
+      ],
+      "timestamp": "2026-05-14T03:49:44.954Z"
+    },
+    {
+      "id": "44ac4415-8f5d-4180-be2c-ca30b45452e4",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_013CsLxjdvCNrcaVu5Sf7hDN",
+          "title": "Insert into sessions/session 3/the-half-mask-shrine-3-player-handouts.md (2 insertions)",
+          "status": "completed",
+          "kind": "edit",
+          "content": [
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 3/the-half-mask-shrine-3-player-handouts.md",
+              "newText": "\n## Where We Left Off\n\n![Cold Camp at the Hawthorn Chimney — dawn over the collapsed cleft](https://storage.gemini.mcp.nqs.io/images/60f5f0e4-f00b-49e2-84b6-5a3071987c6a.png)\n\n**Site B is rubble.**\n\nYou burned a wounded drider and two giant spiders in the chimney shaft and pulled a half-burnt scroll from the fire:\n\n*\"Close the surface mouths. The Vhaeraun is opening.\"* — Lolthite handwriting.\n\nThe cleft itself was sealed by drow magic.\n\n**Two drow factions are at war below your feet** — Lolth's slamming doors shut, Vhaeraun's prying them open.\n\n### What Now?\n\n- **Four hours north** along the granite to **Site C** — the last cleft still open.\n- **Watch for tracks.** Someone else may be moving today.\n\n---\n",
+              "oldText": null
+            },
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 3/the-half-mask-shrine-3-player-handouts.md",
+              "newText": "\n## Brynn's Letter\n\n*Found the morning of the trek to Site C — a folded paper tucked into Loric's pack, sealed with the thistle-and-ash sigil of Shadowdale. No signature. It was not in his pack when he went to sleep. It was in it when he woke.*\n\n### Where You Know Him From\n\nLean man in his early thirties. Ink-stained fingers — he writes everything down. Thistle-and-ash badge pinned at the collar of a clean leather doublet. Speaks for **Lady Ulphor** at the Dales Council in Ashabenford and is currently quartered in Shadowdale.\n\nYou met him at the briefing in Lady Ulphor's working room before you rode for the Hawthorn Chimney. After the meeting broke, he pulled **Loric** aside privately and revealed — quietly, and without Lady Ulphor's blessing — that **Orvyn Tal is a Harper**. He asked the party to bring its findings to him *before* the Harpers, with a vague offer of \"incentivity.\" Loric made no promise.\n\n> [!quote] The Letter\n> Whatever you find at the third site, I want a sketch and a number before Orvyn does.\n>\n> I am not asking you to lie to him.\n>\n> I am asking you to choose the door you knock on first.\n\n---\n",
+              "oldText": null
+            }
+          ],
+          "locations": [
+            {
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 3/the-half-mask-shrine-3-player-handouts.md"
+            }
+          ],
+          "rawInput": {
+            "path": "sessions/session 3/the-half-mask-shrine-3-player-handouts.md",
+            "instruction_reminder": "ALWAYS BREAK DOWN EDITS INTO SMALLER CHUNKS OF AT MOST 150 LINES EACH.",
+            "command": "insert",
+            "insert_line_1": 12,
+            "new_str_1": "\n## Where We Left Off\n\n![Cold Camp at the Hawthorn Chimney — dawn over the collapsed cleft](https://storage.gemini.mcp.nqs.io/images/60f5f0e4-f00b-49e2-84b6-5a3071987c6a.png)\n\n**Site B is rubble.**\n\nYou burned a wounded drider and two giant spiders in the chimney shaft and pulled a half-burnt scroll from the fire:\n\n*\"Close the surface mouths. The Vhaeraun is opening.\"* — Lolthite handwriting.\n\nThe cleft itself was sealed by drow magic.\n\n**Two drow factions are at war below your feet** — Lolth's slamming doors shut, Vhaeraun's prying them open.\n\n### What Now?\n\n- **Four hours north** along the granite to **Site C** — the last cleft still open.\n- **Watch for tracks.** Someone else may be moving today.\n\n---\n",
+            "insert_line_2": 24,
+            "new_str_2": "\n## Brynn's Letter\n\n*Found the morning of the trek to Site C — a folded paper tucked into Loric's pack, sealed with the thistle-and-ash sigil of Shadowdale. No signature. It was not in his pack when he went to sleep. It was in it when he woke.*\n\n### Where You Know Him From\n\nLean man in his early thirties. Ink-stained fingers — he writes everything down. Thistle-and-ash badge pinned at the collar of a clean leather doublet. Speaks for **Lady Ulphor** at the Dales Council in Ashabenford and is currently quartered in Shadowdale.\n\nYou met him at the briefing in Lady Ulphor's working room before you rode for the Hawthorn Chimney. After the meeting broke, he pulled **Loric** aside privately and revealed — quietly, and without Lady Ulphor's blessing — that **Orvyn Tal is a Harper**. He asked the party to bring its findings to him *before* the Harpers, with a vague offer of \"incentivity.\" Loric made no promise.\n\n> [!quote] The Letter\n> Whatever you find at the third site, I want a sketch and a number before Orvyn does.\n>\n> I am not asking you to lie to him.\n>\n> I am asking you to choose the door you knock on first.\n\n---\n"
+          }
+        },
+        {
+          "type": "agent_thought",
+          "text": " The Cold Camp image is appearing twice now—once in the recap section and again as its own labeled entry below it, which matches the spec but looks redundant when they're right next to each other. I should check with the user on whether this is the intended behavior. I'm also noticing some extra blank lines between the recap separator and the Cold Camp heading that might need cleaning up."
+        },
+        {
+          "type": "text",
+          "text": "Both handouts folded into `the-half-mask-shrine-3-player-handouts.md`:\n\n- **Recap page** inserted as the first section after the preamble — same content as `recap-handout.md` (Cold Camp image + brief recap + \"What Now?\" hooks). Dropped the `font_scale: 1.35` frontmatter since it was a per-file Obsidian export setting and doesn't apply when the section is inside the larger handout file.\n- **Brynn's Letter** inserted right after the Brynn portrait section — preserves the in-fiction framing paragraph, the \"Where You Know Him From\" context block, and the quote callout.\n\nA couple of things to flag and confirm before this is fully wrapped:\n\n1. **Duplicate Cold Camp image.** Per the spec I wrote earlier, the recap's location image can also appear as its own labeled handout entry later in the file. Right now that means the Cold Camp dawn image renders twice in immediate succession — once in the recap, once as `## Cold Camp at the Hawthorn Chimney…` directly below. For session 3 it looks redundant since they're adjacent. Want me to delete the standalone Cold Camp entry (lines 36–38), or keep both per spec?\n2. **Standalone files now superseded.** `sessions/session 3/recap-handout.md` and `sessions/session 3/brynns-letter-handout.md` (and the matching `brynns-letter-handout.pdf`) are now duplicates of content that lives in the main handouts file. Want me to delete them, or leave them as standalone print-on-demand pages?\n3. **PDF rebuild.** The session 3 PDF (`the-half-mask-shrine.pdf`) was built before these inserts. It needs a rebuild to pick up the new recap + letter pages — but I'll wait on your go-ahead before invoking `scripts/build_pdf.py`.\n"
+        }
+      ],
+      "timestamp": "2026-05-14T03:50:44.371Z"
     }
   ],
-  "savedAt": "2026-05-14T03:26:28.768Z"
+  "savedAt": "2026-05-14T03:51:02.409Z"
 }
