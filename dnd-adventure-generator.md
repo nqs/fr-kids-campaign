@@ -73,7 +73,7 @@ The adventure file may add `tier`, `party_level`, and `duration` keys. Inline im
 
 **File 2 — `<slug>-2-combat-tracker.md`:** the per-encounter tracker sheets and stat-block cards described in the Combat Tracker section below, expressed as markdown tables. HP boxes, round counters, and spell slots use the `☐` glyph (Obsidian renders it; the PDF font does not — see PDF rules).
 
-**File 3 — `<slug>-3-player-handouts.md`:** every inline image from File 1 reproduced under its own `##` heading naming the subject (NPC, location, monster, map). One image per section. Maps may be revealed in pieces at GM discretion — note that in the file's preamble.
+**File 3 — `<slug>-3-player-handouts.md`:** opens with a **"Where We Left Off" recap page** (see the **Session Recap Page** section below), then every inline image from File 1 reproduced under its own `##` heading naming the subject (NPC, location, monster, map). One image per section. Maps may be revealed in pieces at GM discretion — note that in the file's preamble.
 
 **File 4 — `<slug>-4-dm-quick-ref.md`:** print-and-keep-at-the-table cheat sheet. Tables and short bulleted lists only — no narrative. See the **DM Quick Reference** section below for the contents and structure.
 
@@ -270,6 +270,23 @@ These rules are **single-pass and pattern-based** — the renderer recognizes sh
 ### Reuse across sessions
 
 The renderer (`scripts/md_to_pdf.py`) and the CLI (`scripts/build_pdf.py`) are session-agnostic and live at the repo root. Reference them in place — do not copy or fork them into session folders. Only the four markdown files and `images.json` are written fresh per session; the PDF is rebuilt from them on demand.
+
+## Session Recap Page
+
+Every player-handout file (`<slug>-3-player-handouts.md`) **opens with a one-page recap of the previous session** so the players can re-orient before play begins. It is the first page of the handout appendix — before any NPC/location/monster handouts.
+
+Source the recap from `campaign/session-log.md` (the most recent played-session entry). If the prior session has not yet been logged — e.g., the recap is being authored before the post-play update — pull from the prior session's adventure file (`sessions/session <N-1>/<slug>-1-adventure.md`) and flag the gap to the user. Session 1 has no recap; skip the page and note it in the file's preamble.
+
+### Form
+
+- A level-1 heading: `# Where We Left Off`.
+- **One image** at the top: a scene illustration of the location the PCs are starting this session at. This is usually the same location they ended the previous session at (a cold camp, the doorway of a dungeon they didn't enter, the road outside a town). Generate it in Step 4 like any other location image, with `aspect_ratio="16:9"`, and add it to `images/images.json`. It also gets its own `## <Location Name>` section later in the handout file like any other location image — the recap reuses the URL, it does not duplicate the entry in `images.json`.
+- **Brief recap prose** — 4–8 short sentences or bullet points covering: where the party is now, what they accomplished last session, what they learned, and the immediate decision in front of them. Bold the key facts. No spoilers for the new adventure.
+- Optional **"What Now?"** bulleted list of 1–3 immediate hooks or choices, framed as the party's options at the table.
+- Frontmatter stays the standard player-handouts block (`section: player-handouts`); no separate section tag.
+- Followed by a `---` thematic break, then the rest of the handout entries.
+
+The recap is a player-facing artifact — write it in the second person ("You burned a wounded drider…"), keep the tone tight, and avoid DM-only information (faction maneuvering the party hasn't seen, hidden NPC motivations, future encounter setups).
 
 ## DM Quick Reference
 
