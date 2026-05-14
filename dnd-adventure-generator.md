@@ -41,8 +41,8 @@ Rules for this step:
 - If Gemini fails after a single retry, skip that image and tell the user. Never fall back to a placeholder.
 - Extract the hosted URL from each tool result. Do **not** extract or decode base64 data — Gemini's URLs are valid for 30 days and are the source of truth.
 - Before generating the first image, create an `images/` subfolder inside `sessions/session <N>/`.
-- Keep a running list of `{description, url, aspect_ratio}` for every image generated. Persist it as `sessions/session <N>/images/images.json` so the markdown files and the PDF renderer can both reference image sizes without re-querying Gemini. This list is the handoff to Step 5.
-- Save each generated image as a jpg file in `sessions/session <N>/images/` using a slugified form of the description as the filename (e.g., `khelziir-portrait.jpg`). If the tool writes a local file, move it there; otherwise download the image from the URL. Saving images locally ensures they are tracked in the git repo and survive Gemini URL expiry.
+- Keep a running list of `{description, url, aspect_ratio, local_path}` for every image generated. Persist it as `sessions/session <N>/images/images.json` so the markdown files and the PDF renderer can both reference image sizes without re-querying Gemini. This list is the handoff to Step 5.
+- Save each generated image as a jpg file in `sessions/session <N>/images/` using a slugified form of the description as the filename (e.g., `khelziir-portrait.jpg`). If the tool writes a local file, move it there; otherwise download the image from the URL using the `mcp__63377a74-de20-49ea-a40a-9caa88e6ece5__download_file_content` tool or equivalent. Record the saved filename as `local_path` in `images.json` (relative to the `images/` folder, e.g., `"local_path": "khelziir-portrait.jpg"`). Saving images locally is **required** — the PDF renderer loads from local files and Gemini URLs are not accessible from Python subprocesses.
 - Present images to the user by referencing the URLs. Ask for regenerations, changes, or approval to author the markdown files.
 
 ### 5. Markdown Authoring
@@ -156,7 +156,7 @@ Never use any built-in vector drawing tool or any Python-drawn graphics for adve
 - Lead with a summary block: **Title, Tier, Duration, Setting**.
 - Use clear headers and styled body text via ReportLab Platypus paragraph styles.
 - Place each image immediately after the text section it illustrates, with a caption.
-- Images stream from their Gemini URLs into memory at PDF build time — no local caching required.
+- Images are loaded from local files at PDF build time (`local_path` in `images.json`). Gemini URLs require authentication that is not available to the Python renderer and will 403.
 - Final PDF output goes to `sessions/session <N>/<adventure-slug>.pdf`. The user opens it in Obsidian or Finder; do not attempt to invoke a presentation tool.
 
 ### Session folder layout

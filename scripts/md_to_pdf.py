@@ -68,11 +68,23 @@ CARD_SUB = ParagraphStyle("CardSub", parent=BODY, fontName="Times-Italic",
 
 _bytes_cache: dict[str, bytes] = {}
 
-def _fetch(url: str) -> BytesIO:
-    if url not in _bytes_cache:
-        req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
-        with urllib.request.urlopen(req, timeout=30) as r:
-            _bytes_cache[url] = r.read()
+def _description_slug(description: str) -> str:
+    slug = description.lower()
+    slug = re.sub(r"[^\w\s-]", "", slug)
+    slug = re.sub(r"[\s_]+", "-", slug)
+    return re.sub(r"-+", "-", slug).strip("-")
+
+def _fetch(url: str, local_path: str | None = None) -> BytesIO:
+    if url in _bytes_cache:
+        return BytesIO(_bytes_cache[url])
+    if local_path:
+        p = Path(local_path)
+        if p.exists():
+            _bytes_cache[url] = p.read_bytes()
+            return BytesIO(_bytes_cache[url])
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        _bytes_cache[url] = r.read()
     return BytesIO(_bytes_cache[url])
 
 def _aspect(ratio: str) -> tuple[int, int]:
@@ -80,23 +92,46 @@ def _aspect(ratio: str) -> tuple[int, int]:
     return int(a), int(b)
 
 def load_images(path: str | Path) -> dict[str, dict]:
-    """Return {url: {description, aspect_ratio}} from images.json."""
+    """Return {url: {description, aspect_ratio, local_path?}} from images.json.
+
+    Resolves local_path relative to the images directory. When local_path is
+    absent, scans the directory for a file whose name matches the description
+    slug so that locally-saved images are used automatically.
+    """
+    images_dir = Path(path).parent
     data = json.loads(Path(path).read_text())
-    return {item["url"]: item for item in data}
+    result = {}
+    for item in data:
+        entry = dict(item)
+        lp = entry.get("local_path")
+        if lp:
+            resolved = images_dir / lp if not Path(lp).is_absolute() else Path(lp)
+            entry["local_path"] = str(resolved)
+        else:
+            slug = _description_slug(entry.get("description", ""))
+            for ext in (".jpg", ".jpeg", ".png", ".webp"):
+                candidate = images_dir / (slug + ext)
+                if candidate.exists():
+                    entry["local_path"] = str(candidate)
+                    break
+        result[item["url"]] = entry
+    return result
 
 def sized_image(url: str, manifest: dict, max_w_in: float = 5.5,
                 max_h_in: float | None = None) -> Image:
     info = manifest.get(url)
     if info:
         aw, ah = _aspect(info["aspect_ratio"])
+        local_path = info.get("local_path")
     else:
         aw, ah = 4, 3  # safe default
+        local_path = None
     w = max_w_in * inch
     h = w * ah / aw
     if max_h_in and h > max_h_in * inch:
         h = max_h_in * inch
         w = h * aw / ah
-    return Image(_fetch(url), width=w, height=h)
+    return Image(_fetch(url, local_path), width=w, height=h)
 
 # --- inline rendering ------------------------------------------------------
 
@@ -503,14 +538,19 @@ class BlockRenderer:
     # -- image emission -----------------------------------------------------
 
     def _emit_image(self, img_node: dict) -> None:
+        import sys
         url = img_node.get("attrs", {}).get("url") or img_node.get("url", "")
         alt = _cell_text(img_node.get("children", []))
         if not url:
             return
-        if self.section == "player-handouts":
-            img = sized_image(url, self.manifest, max_w_in=6.5, max_h_in=7.5)
-        else:
-            img = sized_image(url, self.manifest, max_w_in=5.5, max_h_in=4.0)
+        try:
+            if self.section == "player-handouts":
+                img = sized_image(url, self.manifest, max_w_in=6.5, max_h_in=7.5)
+            else:
+                img = sized_image(url, self.manifest, max_w_in=5.5, max_h_in=4.0)
+        except Exception as e:
+            print(f"warning: skipping image ({e}): {url}", file=sys.stderr)
+            return
         img.hAlign = "CENTER"
         self.out.append(KeepTogether([img, Paragraph(_esc(alt), CAPTION)]))
 
