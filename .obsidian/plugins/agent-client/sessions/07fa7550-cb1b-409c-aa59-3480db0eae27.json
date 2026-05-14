@@ -1143,7 +1143,341 @@
         }
       ],
       "timestamp": "2026-05-14T15:52:30.812Z"
+    },
+    {
+      "id": "44ca0c83-a19e-4799-9fc1-41cdc0d5978c",
+      "role": "user",
+      "content": [
+        {
+          "type": "text_with_context",
+          "text": "Yes to both",
+          "autoMentionContext": {
+            "noteName": "dnd-adventure-generator",
+            "notePath": "dnd-adventure-generator.md"
+          }
+        }
+      ],
+      "timestamp": "2026-05-14T19:06:37.435Z"
+    },
+    {
+      "id": "9d92a629-5d1d-4cb7-870f-45ed638332e3",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "agent_thought",
+          "text": " The user wants me to implement two changes: modify the renderer to handle full-page tactical maps with page breaks, and reorganize session 3's tactical map from player handouts into the combat tracker. I'm starting with the renderer change—I'll add a condition in the image emission logic that detects tactical maps by their alt text and wraps them with page breaks to ensure they display at full page width while maintaining proper spacing.\n\nNow I need to examine the current document setup to understand the margin constraints and then locate the specific files to move the tactical map reference."
+        }
+      ],
+      "timestamp": "2026-05-14T19:06:47.809Z"
+    },
+    {
+      "id": "a77894ce-80eb-49e2-8ca9-acb5d40f229e",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_01DobK3dFCS1UB6Jv4WHbVEi",
+          "title": "Read `scripts/md_to_pdf.py` (lines 80-105)",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "line": 80,
+              "path": "/Users/nstewart/code/fr-kids-campaign/scripts/md_to_pdf.py"
+            }
+          ],
+          "rawInput": {
+            "path": "scripts/md_to_pdf.py",
+            "view_range": [
+              80,
+              105
+            ]
+          }
+        }
+      ],
+      "timestamp": "2026-05-14T19:06:49.549Z"
+    },
+    {
+      "id": "2a939f5f-099a-457d-826e-07a782426eb5",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_011XUcyScikdjiz3TGL1WCPy",
+          "title": "Read `scripts/md_to_pdf.py` (lines 540-568)",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "line": 540,
+              "path": "/Users/nstewart/code/fr-kids-campaign/scripts/md_to_pdf.py"
+            }
+          ],
+          "rawInput": {
+            "path": "scripts/md_to_pdf.py",
+            "view_range": [
+              540,
+              568
+            ]
+          }
+        }
+      ],
+      "timestamp": "2026-05-14T19:06:49.590Z"
+    },
+    {
+      "id": "61b09dc0-b537-4fc1-ad27-6339659ef9a9",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_01XqY4crsHg12yuVjLMSv7qP",
+          "title": "Read `sessions/session 3/the-half-mask-shrine-2-combat-tracker.md`",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 3/the-half-mask-shrine-2-combat-tracker.md"
+            }
+          ],
+          "rawInput": {
+            "path": "sessions/session 3/the-half-mask-shrine-2-combat-tracker.md"
+          }
+        }
+      ],
+      "timestamp": "2026-05-14T19:06:49.590Z"
+    },
+    {
+      "id": "a08338c5-cf2d-4565-bcea-d658e27f8187",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_01PUq1qRLxftsvfJvwdLzyVV",
+          "title": "Read `sessions/session 3/the-half-mask-shrine-3-player-handouts.md` (lines 55-75)",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "line": 55,
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 3/the-half-mask-shrine-3-player-handouts.md"
+            }
+          ],
+          "rawInput": {
+            "path": "sessions/session 3/the-half-mask-shrine-3-player-handouts.md",
+            "view_range": [
+              55,
+              75
+            ]
+          }
+        }
+      ],
+      "timestamp": "2026-05-14T19:06:49.590Z"
+    },
+    {
+      "id": "016fef2c-b0ba-46e8-903a-1d6214650fb9",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_014pZvqP3ZopXsbMZqcfgBgR",
+          "title": "Read `sessions/session 3/the-half-mask-shrine-3-player-handouts.md` (lines 75-95)",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "line": 75,
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 3/the-half-mask-shrine-3-player-handouts.md"
+            }
+          ],
+          "rawInput": {
+            "path": "sessions/session 3/the-half-mask-shrine-3-player-handouts.md",
+            "view_range": [
+              75,
+              95
+            ]
+          }
+        }
+      ],
+      "timestamp": "2026-05-14T19:06:53.049Z"
+    },
+    {
+      "id": "4f6a6cfc-2e27-4aa3-b090-a905e8d3ba67",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_01BDEW3tAX9Lwj2YM5YFbdWu",
+          "title": "Read `sessions/session 3/images/images.json` (lines 1-30)",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "line": 1,
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 3/images/images.json"
+            }
+          ],
+          "rawInput": {
+            "path": "sessions/session 3/images/images.json",
+            "view_range": [
+              1,
+              30
+            ]
+          }
+        },
+        {
+          "type": "agent_thought",
+          "text": " I'm noticing a mismatch between the spec and what's actually in the files—there's only one tactical map covering the entire dungeon for session 3, but the combat tracker lists five separate encounters that would each need their own full-page map according to the requirements I just outlined.\n\nThe practical solution is to place that single map under Encounter 2 (The Antechamber), since that's where the dungeon actually begins—Encounter 1 happens outside the dungeon in a tree. The renderer will handle the full-page treatment automatically when it sees the tactical map markdown, so I just need to position it correctly under the right encounter heading.\n\nNow I'm looking at the image emission function to understand how it currently handles images and what changes are needed for the tactical map rendering.\n\nFor tactical maps specifically, I need to intercept early in the function when the alt text starts with \"Tactical Map\" — emit a page break, then render the image at full printable width and height (7.2\" × 9.8\"), then another page break, and skip the caption entirely. The key is that this branch returns before reaching the default caption-wrapping logic, so tactical maps get special treatment while regular images continue through the normal path.\n\nNow I'm planning the session 3 cleanup: remove the tactical map entry from the player-handouts section and insert it under Encounter 2 in the combat tracker instead."
+        },
+        {
+          "type": "text",
+          "text": "Now I have everything. Note: session 3 has a single dungeon-wide tactical map covering Encounters 2–5 (Encounter 1 is outside the dungeon). I'll place it under Encounter 2 — the first encounter inside the dungeon — and flag that to you.\n\nMaking the three edits in parallel: renderer update, player-handouts removal, combat-tracker insertion.\n"
+        }
+      ],
+      "timestamp": "2026-05-14T19:06:53.090Z"
+    },
+    {
+      "id": "2f708393-736c-441f-9134-56aaf866c974",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_019hRkksqnE8Ay784rfVFXr4",
+          "title": "Edit scripts/md_to_pdf.py",
+          "status": "completed",
+          "kind": "edit",
+          "content": [
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/code/fr-kids-campaign/scripts/md_to_pdf.py",
+              "newText": "    def _emit_image(self, img_node: dict) -> None:\n        url = img_node.get(\"attrs\", {}).get(\"url\") or img_node.get(\"url\", \"\")\n        alt = _cell_text(img_node.get(\"children\", []))\n        if not url:\n            return\n        # Tactical maps render full-page on their own page: page break before,\n        # image sized to fill the 7.2\" x 9.8\" printable area while preserving\n        # aspect ratio, page break after, no caption. The encounter heading on\n        # the prior page already names the map. Trigger is alt-text prefix.\n        if alt.startswith(\"Tactical Map\"):\n            img = sized_image(url, self.manifest, max_w_in=7.2, max_h_in=9.8)\n            img.hAlign = \"CENTER\"\n            self.out.append(PageBreak())\n            self.out.append(img)\n            self.out.append(PageBreak())\n            return\n        if self.section == \"player-handouts\":\n            img = sized_image(url, self.manifest, max_w_in=6.5, max_h_in=7.5)\n        else:\n            img = sized_image(url, self.manifest, max_w_in=5.5, max_h_in=4.0)\n        img.hAlign = \"CENTER\"\n        self.out.append(KeepTogether([img, Paragraph(_esc(alt), CAPTION)]))",
+              "oldText": "    def _emit_image(self, img_node: dict) -> None:\n        url = img_node.get(\"attrs\", {}).get(\"url\") or img_node.get(\"url\", \"\")\n        alt = _cell_text(img_node.get(\"children\", []))\n        if not url:\n            return\n        if self.section == \"player-handouts\":\n            img = sized_image(url, self.manifest, max_w_in=6.5, max_h_in=7.5)\n        else:\n            img = sized_image(url, self.manifest, max_w_in=5.5, max_h_in=4.0)\n        img.hAlign = \"CENTER\"\n        self.out.append(KeepTogether([img, Paragraph(_esc(alt), CAPTION)]))"
+            }
+          ],
+          "locations": [
+            {
+              "path": "/Users/nstewart/code/fr-kids-campaign/scripts/md_to_pdf.py"
+            }
+          ],
+          "rawInput": {
+            "path": "scripts/md_to_pdf.py",
+            "instruction_reminder": "ALWAYS BREAK DOWN EDITS INTO SMALLER CHUNKS OF AT MOST 150 LINES EACH.",
+            "command": "str_replace",
+            "old_str_1": "    def _emit_image(self, img_node: dict) -> None:\n        url = img_node.get(\"attrs\", {}).get(\"url\") or img_node.get(\"url\", \"\")\n        alt = _cell_text(img_node.get(\"children\", []))\n        if not url:\n            return\n        if self.section == \"player-handouts\":\n            img = sized_image(url, self.manifest, max_w_in=6.5, max_h_in=7.5)\n        else:\n            img = sized_image(url, self.manifest, max_w_in=5.5, max_h_in=4.0)\n        img.hAlign = \"CENTER\"\n        self.out.append(KeepTogether([img, Paragraph(_esc(alt), CAPTION)]))",
+            "new_str_1": "    def _emit_image(self, img_node: dict) -> None:\n        url = img_node.get(\"attrs\", {}).get(\"url\") or img_node.get(\"url\", \"\")\n        alt = _cell_text(img_node.get(\"children\", []))\n        if not url:\n            return\n        # Tactical maps render full-page on their own page: page break before,\n        # image sized to fill the 7.2\" x 9.8\" printable area while preserving\n        # aspect ratio, page break after, no caption. The encounter heading on\n        # the prior page already names the map. Trigger is alt-text prefix.\n        if alt.startswith(\"Tactical Map\"):\n            img = sized_image(url, self.manifest, max_w_in=7.2, max_h_in=9.8)\n            img.hAlign = \"CENTER\"\n            self.out.append(PageBreak())\n            self.out.append(img)\n            self.out.append(PageBreak())\n            return\n        if self.section == \"player-handouts\":\n            img = sized_image(url, self.manifest, max_w_in=6.5, max_h_in=7.5)\n        else:\n            img = sized_image(url, self.manifest, max_w_in=5.5, max_h_in=4.0)\n        img.hAlign = \"CENTER\"\n        self.out.append(KeepTogether([img, Paragraph(_esc(alt), CAPTION)]))",
+            "old_str_start_line_number_1": 505,
+            "old_str_end_line_number_1": 515
+          }
+        }
+      ],
+      "timestamp": "2026-05-14T19:07:44.689Z"
+    },
+    {
+      "id": "f7e20e6a-a8e5-40c0-ae7f-ae26100b8b94",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_01KK5bA6dHJLx67UJTxNCYRX",
+          "title": "Edit sessions/session 3/the-half-mask-shrine-3-player-handouts.md",
+          "status": "completed",
+          "kind": "edit",
+          "content": [
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 3/the-half-mask-shrine-3-player-handouts.md",
+              "newText": "## The Shrine Chamber — Site C Interior",
+              "oldText": "## Tactical Map — Site C, The Shrine-Camp\n\n![Tactical Map — Site C, The Shrine-Camp](https://storage.gemini.mcp.nqs.io/images/c1cfae4b-c9ae-40c7-bf4b-df76d5ff95cb.png)\n\n---\n\n## The Shrine Chamber — Site C Interior"
+            }
+          ],
+          "locations": [
+            {
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 3/the-half-mask-shrine-3-player-handouts.md"
+            }
+          ],
+          "rawInput": {
+            "path": "sessions/session 3/the-half-mask-shrine-3-player-handouts.md",
+            "instruction_reminder": "ALWAYS BREAK DOWN EDITS INTO SMALLER CHUNKS OF AT MOST 150 LINES EACH.",
+            "command": "str_replace",
+            "old_str_1": "## Tactical Map — Site C, The Shrine-Camp\n\n![Tactical Map — Site C, The Shrine-Camp](https://storage.gemini.mcp.nqs.io/images/c1cfae4b-c9ae-40c7-bf4b-df76d5ff95cb.png)\n\n---\n\n## The Shrine Chamber — Site C Interior",
+            "new_str_1": "## The Shrine Chamber — Site C Interior",
+            "old_str_start_line_number_1": 79,
+            "old_str_end_line_number_1": 85
+          }
+        }
+      ],
+      "timestamp": "2026-05-14T19:07:44.730Z"
+    },
+    {
+      "id": "88c24f3e-4dae-4b90-9306-1510cb24e535",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_01GhAfQAmWL5JUJAWGGvePDv",
+          "title": "Edit sessions/session 3/the-half-mask-shrine-2-combat-tracker.md",
+          "status": "completed",
+          "kind": "edit",
+          "content": [
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 3/the-half-mask-shrine-2-combat-tracker.md",
+              "newText": "## Encounter 2 — The Antechamber\n*Session 003, Scene 4* · **Easy (~200 XP)**\n\n![Tactical Map — Site C, The Shrine-Camp](https://storage.gemini.mcp.nqs.io/images/c1cfae4b-c9ae-40c7-bf4b-df76d5ff95cb.png)\n\n| Field | Detail |\n|---|---|\n| Location | Chamber 1, Site C shrine-camp |",
+              "oldText": "## Encounter 2 — The Antechamber\n*Session 003, Scene 4* · **Easy (~200 XP)**\n\n| Field | Detail |\n|---|---|\n| Location | Chamber 1, Site C shrine-camp |"
+            }
+          ],
+          "locations": [
+            {
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 3/the-half-mask-shrine-2-combat-tracker.md"
+            }
+          ],
+          "rawInput": {
+            "path": "sessions/session 3/the-half-mask-shrine-2-combat-tracker.md",
+            "instruction_reminder": "ALWAYS BREAK DOWN EDITS INTO SMALLER CHUNKS OF AT MOST 150 LINES EACH.",
+            "command": "str_replace",
+            "old_str_1": "## Encounter 2 — The Antechamber\n*Session 003, Scene 4* · **Easy (~200 XP)**\n\n| Field | Detail |\n|---|---|\n| Location | Chamber 1, Site C shrine-camp |",
+            "new_str_1": "## Encounter 2 — The Antechamber\n*Session 003, Scene 4* · **Easy (~200 XP)**\n\n![Tactical Map — Site C, The Shrine-Camp](https://storage.gemini.mcp.nqs.io/images/c1cfae4b-c9ae-40c7-bf4b-df76d5ff95cb.png)\n\n| Field | Detail |\n|---|---|\n| Location | Chamber 1, Site C shrine-camp |",
+            "old_str_start_line_number_1": 63,
+            "old_str_end_line_number_1": 68
+          }
+        },
+        {
+          "type": "text",
+          "text": "All three edits applied. Now rebuild the PDF:\n"
+        }
+      ],
+      "timestamp": "2026-05-14T19:07:44.730Z"
+    },
+    {
+      "id": "10108cf8-ebc9-4029-a242-17f568210fe1",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_015xZzj19WaewuyM7zusJujw",
+          "title": "Run `.venv/bin/python scripts/build_pdf.py 3`",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "command": ".venv/bin/python scripts/build_pdf.py 3",
+            "cwd": "/Users/nstewart/code/fr-kids-campaign",
+            "wait": true,
+            "max_wait_seconds": 180
+          }
+        },
+        {
+          "type": "text",
+          "text": "PDF rebuilt cleanly. Summary of all changes this round:\n\n**Renderer — `scripts/md_to_pdf.py`** (`_emit_image`)\n- New branch at the top of the method: any image whose alt text starts with `Tactical Map` emits `PageBreak() → full-page Image (sized to 7.2\" × 9.8\" printable area, aspect-preserved) → PageBreak()` and skips the caption. The encounter heading on the prior page already names the map.\n\n**Session 3 markdown**\n- `the-half-mask-shrine-3-player-handouts.md`: removed the `## Tactical Map — Site C, The Shrine-Camp` section (heading + image + separator).\n- `the-half-mask-shrine-2-combat-tracker.md`: inserted the same tactical map under `## Encounter 2 — The Antechamber`, immediately above the Location/Light/Terrain table — matching the new spec (\"first content under the encounter heading\").\n\n**PDF — `sessions/session 3/the-half-mask-shrine.pdf`** rebuilt. The tactical map now prints full-page on its own page inside the combat tracker, between the Encounter 2 heading and the tracker sheet, and no longer appears in the player handouts section.\n\n**Worth flagging:**\n- Session 3 has only one tactical map (the dungeon map covers Encounters 2–5 — Encounter 1 is a skill encounter outside the dungeon). I placed it under Encounter 2 only. If you want the same map page reprinted under Encounters 3, 4, and 5 so the DM doesn't flip pages mid-fight (similar to how creature stat-block cards are reprinted), let me know — I'd add three more `![Tactical Map — …](…)` lines and rebuild.\n- The `images.json` entry for the tactical map is unchanged and still loaded — the renderer looks up by URL, not by description, so the manifest doesn't need editing. Verified by the clean rebuild.\n\nOpen the PDF to confirm the tactical map looks right at full-page size.\n"
+        }
+      ],
+      "timestamp": "2026-05-14T19:07:51.209Z"
     }
   ],
-  "savedAt": "2026-05-14T15:52:51.775Z"
+  "savedAt": "2026-05-14T19:08:15.322Z"
 }

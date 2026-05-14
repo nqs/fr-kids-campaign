@@ -63,6 +63,8 @@ Brass signal horn (key item) · Hand crossbow + 10 bolts · Drow poison ×1 · ~
 ## Encounter 2 — The Antechamber
 *Session 003, Scene 4* · **Easy (~200 XP)**
 
+![Tactical Map — Site C, The Shrine-Camp](https://storage.gemini.mcp.nqs.io/images/c1cfae4b-c9ae-40c7-bf4b-df76d5ff95cb.png)
+
 | Field | Detail |
 |---|---|
 | Location | Chamber 1, Site C shrine-camp |
