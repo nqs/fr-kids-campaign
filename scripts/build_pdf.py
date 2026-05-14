@@ -32,7 +32,7 @@ _HERE = Path(__file__).resolve().parent
 if str(_HERE) not in sys.path:
     sys.path.insert(0, str(_HERE))
 
-from md_to_pdf import build_pdf, strip_frontmatter  # noqa: E402
+from md_to_pdf import MissingImagesError, build_pdf, strip_frontmatter  # noqa: E402
 
 REPO_ROOT = _HERE.parent
 SESSIONS_DIR = REPO_ROOT / "sessions"
@@ -121,7 +121,11 @@ def main() -> int:
     print(f"slug:   {slug}")
     print(f"title:  {title}")
     print(f"out:    {out_path}")
-    build_pdf(md_files, images_json, out_path, title=title)
+    try:
+        build_pdf(md_files, images_json, out_path, title=title)
+    except MissingImagesError as e:
+        print(f"\nERROR: {e}", file=sys.stderr)
+        return 1
     print(f"wrote {out_path}")
 
     # Build any standalone *-handout.md files in the folder as separate PDFs.
@@ -139,7 +143,11 @@ def main() -> int:
         )
         handout_out = handout_md.with_suffix(".pdf")
         print(f"handout: {handout_md.name} -> {handout_out.name}")
-        build_pdf([handout_md], images_json, handout_out, title=handout_title)
+        try:
+            build_pdf([handout_md], images_json, handout_out, title=handout_title)
+        except MissingImagesError as e:
+            print(f"\nERROR: {e}", file=sys.stderr)
+            return 1
         print(f"wrote {handout_out}")
 
     return 0

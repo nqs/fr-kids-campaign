@@ -538,19 +538,14 @@ class BlockRenderer:
     # -- image emission -----------------------------------------------------
 
     def _emit_image(self, img_node: dict) -> None:
-        import sys
         url = img_node.get("attrs", {}).get("url") or img_node.get("url", "")
         alt = _cell_text(img_node.get("children", []))
         if not url:
             return
-        try:
-            if self.section == "player-handouts":
-                img = sized_image(url, self.manifest, max_w_in=6.5, max_h_in=7.5)
-            else:
-                img = sized_image(url, self.manifest, max_w_in=5.5, max_h_in=4.0)
-        except Exception as e:
-            print(f"warning: skipping image ({e}): {url}", file=sys.stderr)
-            return
+        if self.section == "player-handouts":
+            img = sized_image(url, self.manifest, max_w_in=6.5, max_h_in=7.5)
+        else:
+            img = sized_image(url, self.manifest, max_w_in=5.5, max_h_in=4.0)
         img.hAlign = "CENTER"
         self.out.append(KeepTogether([img, Paragraph(_esc(alt), CAPTION)]))
 
@@ -579,19 +574,70 @@ def _infer_section(path: Path, meta: dict) -> str:
 def _make_parser():
     return mistune.create_markdown(renderer=None, plugins=["table"])
 
+def _collect_image_urls(ast) -> list[str]:
+    """Walk an AST and return all image URLs referenced."""
+    urls = []
+    if not isinstance(ast, list):
+        return urls
+    for node in ast:
+        if not isinstance(node, dict):
+            continue
+        if node.get("type") == "image":
+            url = node.get("attrs", {}).get("url") or node.get("url", "")
+            if url:
+                urls.append(url)
+        urls.extend(_collect_image_urls(node.get("children", [])))
+    return urls
+
+class MissingImagesError(Exception):
+    """Raised when one or more images referenced in markdown have no local file."""
+    def __init__(self, missing: list[dict]):
+        self.missing = missing  # list of {url, description}
+        descriptions = "\n".join(f"  - {m['description']}" for m in missing)
+        super().__init__(
+            f"{len(missing)} image(s) are missing local files:\n{descriptions}\n"
+            "Regenerate these images via the Gemini MCP tool and save them "
+            "locally before building the PDF."
+        )
+
 def build_pdf(md_files: list[str | Path], images_json: str | Path,
               out_path: str | Path, title: str | None = None) -> Path:
     """Parse the given .md files in order and emit a single PDF at out_path."""
     manifest = load_images(images_json)
     parser = _make_parser()
-    story: list = []
-    for i, md_path in enumerate(md_files):
+
+    # Preflight: collect every image URL the markdown files reference, then
+    # verify each has a local file.  Fail before rendering anything so the
+    # caller gets a full list of what needs to be regenerated.
+    all_asts = []
+    md_texts = []
+    for md_path in md_files:
         path = Path(md_path)
-        text = path.read_text()
-        text, meta = strip_frontmatter(text)
+        text, meta = strip_frontmatter(path.read_text())
+        md_texts.append((path, text, meta))
+        all_asts.append(parser(text))
+
+    referenced_urls = []
+    for ast in all_asts:
+        referenced_urls.extend(_collect_image_urls(ast))
+
+    missing = []
+    seen = set()
+    for url in referenced_urls:
+        if url in seen:
+            continue
+        seen.add(url)
+        info = manifest.get(url, {})
+        lp = info.get("local_path")
+        if not lp or not Path(lp).exists():
+            missing.append({"url": url, "description": info.get("description", url)})
+    if missing:
+        raise MissingImagesError(missing)
+
+    story: list = []
+    for i, ((path, text, meta), ast) in enumerate(zip(md_texts, all_asts)):
         section = _infer_section(path, meta)
         font_scale = float(meta.get("font_scale", 1.0))
-        ast = parser(text)
         renderer = BlockRenderer(manifest, section,
                                  first_h1_pagebreak=(i > 0),
                                  font_scale=font_scale)
