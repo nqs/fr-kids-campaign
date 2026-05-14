@@ -436,7 +436,714 @@
         }
       ],
       "timestamp": "2026-05-14T03:50:44.371Z"
+    },
+    {
+      "id": "afa7048a-fc95-451d-9784-3b86e7b7b459",
+      "role": "user",
+      "content": [
+        {
+          "type": "text_with_context",
+          "text": "1 - delete duplicate\n2 - delete duplicate\n3 - Rebuild",
+          "autoMentionContext": {
+            "noteName": "recap-handout",
+            "notePath": "sessions/session 3/recap-handout.md"
+          }
+        }
+      ],
+      "timestamp": "2026-05-14T04:03:35.375Z"
+    },
+    {
+      "id": "44aabac5-9337-42de-ac4c-499c49937af0",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "agent_thought",
+          "text": " I need to clean up the handouts file by removing the duplicate Cold Camp entry, delete the standalone recap and letter files along with their PDF, then regenerate the session 3 PDF. Let me start by checking the current state of the handouts file to locate the duplicate."
+        }
+      ],
+      "timestamp": "2026-05-14T04:03:41.708Z"
+    },
+    {
+      "id": "714a4b8c-8664-4c99-8182-6199ef454574",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_014c2zJS1J9mpvQLNwXBWFnq",
+          "title": "Read `sessions/session 3/the-half-mask-shrine-3-player-handouts.md` (lines 33-42)",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "line": 33,
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 3/the-half-mask-shrine-3-player-handouts.md"
+            }
+          ],
+          "rawInput": {
+            "path": "sessions/session 3/the-half-mask-shrine-3-player-handouts.md",
+            "view_range": [
+              33,
+              42
+            ]
+          }
+        }
+      ],
+      "timestamp": "2026-05-14T04:03:41.741Z"
+    },
+    {
+      "id": "48b5da15-047d-45bb-9036-9a15769857ec",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_014PJAVUaKryTh9U3SrMzz33",
+          "title": "Edit sessions/session 3/the-half-mask-shrine-3-player-handouts.md",
+          "status": "completed",
+          "kind": "edit",
+          "content": [
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 3/the-half-mask-shrine-3-player-handouts.md",
+              "newText": "---\n\n## Brynn Ashford — Shadowdale's Delegate to the Dales Council",
+              "oldText": "---\n\n\n## Cold Camp at the Hawthorn Chimney — Dawn Over the Collapsed Cleft\n\n![Cold Camp at the Hawthorn Chimney — dawn over the collapsed cleft](https://storage.gemini.mcp.nqs.io/images/60f5f0e4-f00b-49e2-84b6-5a3071987c6a.png)\n\n---\n\n## Brynn Ashford — Shadowdale's Delegate to the Dales Council"
+            }
+          ],
+          "locations": [
+            {
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 3/the-half-mask-shrine-3-player-handouts.md"
+            }
+          ],
+          "rawInput": {
+            "path": "sessions/session 3/the-half-mask-shrine-3-player-handouts.md",
+            "instruction_reminder": "ALWAYS BREAK DOWN EDITS INTO SMALLER CHUNKS OF AT MOST 150 LINES EACH.",
+            "command": "str_replace",
+            "old_str_1": "---\n\n\n## Cold Camp at the Hawthorn Chimney — Dawn Over the Collapsed Cleft\n\n![Cold Camp at the Hawthorn Chimney — dawn over the collapsed cleft](https://storage.gemini.mcp.nqs.io/images/60f5f0e4-f00b-49e2-84b6-5a3071987c6a.png)\n\n---\n\n## Brynn Ashford — Shadowdale's Delegate to the Dales Council",
+            "new_str_1": "---\n\n## Brynn Ashford — Shadowdale's Delegate to the Dales Council",
+            "old_str_start_line_number_1": 33,
+            "old_str_end_line_number_1": 42
+          }
+        },
+        {
+          "type": "text",
+          "text": "Now delete the standalone files and rebuild the PDF in parallel:\n"
+        }
+      ],
+      "timestamp": "2026-05-14T04:03:47.724Z"
+    },
+    {
+      "id": "f070a4ac-e906-486c-a107-d04525fafdd2",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_01XiNrcUpcYcu2kkGtrE8DNe",
+          "title": "Delete recap-handout.md, brynns-letter-handout.md, brynns-letter-handout.pdf",
+          "status": "completed",
+          "kind": "delete",
+          "content": [],
+          "locations": [
+            {
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 3/recap-handout.md"
+            },
+            {
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 3/brynns-letter-handout.md"
+            },
+            {
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 3/brynns-letter-handout.pdf"
+            }
+          ],
+          "rawInput": {
+            "file_paths": [
+              "sessions/session 3/recap-handout.md",
+              "sessions/session 3/brynns-letter-handout.md",
+              "sessions/session 3/brynns-letter-handout.pdf"
+            ]
+          }
+        }
+      ],
+      "timestamp": "2026-05-14T04:03:53.392Z"
+    },
+    {
+      "id": "f2fd8020-429e-488e-ada5-ede9228a361a",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_019wiqJLDyTsJ4mGdWVK58NY",
+          "title": "Run `.venv/bin/python scripts/build_pdf.py 3`",
+          "status": "failed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "command": ".venv/bin/python scripts/build_pdf.py 3",
+            "cwd": "/Users/nstewart/code/fr-kids-campaign",
+            "wait": true,
+            "max_wait_seconds": 180
+          }
+        }
+      ],
+      "timestamp": "2026-05-14T04:03:53.424Z"
+    },
+    {
+      "id": "d2c4fe7c-e82b-434d-8741-c5d0a2b7a908",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_01SSm2nZbduh5a2phhRLRxTb",
+          "title": "Run `ls -la .venv 2>/dev/null && echo \"---\" && ls scripts/`",
+          "status": "failed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "command": "ls -la .venv 2>/dev/null && echo \"---\" && ls scripts/",
+            "cwd": "/Users/nstewart/code/fr-kids-campaign",
+            "wait": true,
+            "max_wait_seconds": 5
+          }
+        }
+      ],
+      "timestamp": "2026-05-14T04:03:57.637Z"
+    },
+    {
+      "id": "8399b2b1-10ce-462c-ab35-b2da36a6eaf0",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_01EfELkk2ehq9W3Jz91KxLv6",
+          "title": "Run `ls -la && echo \"---scripts---\" && ls scripts/ 2>/dev/null && echo \"---python---\"...`",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "command": "ls -la && echo \"---scripts---\" && ls scripts/ 2>/dev/null && echo \"---python---\" && which python3 && python3 --version",
+            "cwd": "/Users/nstewart/code/fr-kids-campaign",
+            "wait": true,
+            "max_wait_seconds": 5
+          }
+        },
+        {
+          "type": "agent_thought",
+          "text": " I need to set up the virtual environment since it's missing, then install the dependencies as outlined in the documentation."
+        },
+        {
+          "type": "text",
+          "text": "The venv is missing. Per the generator spec, I need to create it. Setting up and rebuilding:\n"
+        }
+      ],
+      "timestamp": "2026-05-14T04:04:00.653Z"
+    },
+    {
+      "id": "fab11fab-4d2d-4f40-b9bb-0c9e67c27b87",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_016Q6Hyo9L4QuKtDehxQUoNE",
+          "title": "Run `python3 -m venv .venv && .venv/bin/python -m pip install --quiet mistune reportl...`",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "command": "python3 -m venv .venv && .venv/bin/python -m pip install --quiet mistune reportlab && .venv/bin/python scripts/build_pdf.py 3",
+            "cwd": "/Users/nstewart/code/fr-kids-campaign",
+            "wait": true,
+            "max_wait_seconds": 300
+          }
+        }
+      ],
+      "timestamp": "2026-05-14T04:04:08.028Z"
+    },
+    {
+      "id": "99a7658c-5ec2-4d62-b1dd-aedafe94d847",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_01Q7NevRZ6ihuCUNJD5R1mrR",
+          "title": "Run `ls -la \"sessions/session 3/the-half-mask-shrine.pdf\" && ls \"sessions/session 3/\"...`",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "command": "ls -la \"sessions/session 3/the-half-mask-shrine.pdf\" && ls \"sessions/session 3/\" | grep -E '\\.(md|pdf)$'",
+            "cwd": "/Users/nstewart/code/fr-kids-campaign",
+            "wait": true,
+            "max_wait_seconds": 5
+          }
+        },
+        {
+          "type": "text",
+          "text": "All three steps done:\n\n1. **Duplicate Cold Camp entry deleted** — the standalone `## Cold Camp at the Hawthorn Chimney…` section was removed from `the-half-mask-shrine-3-player-handouts.md` (lines 36–38). The image still appears once, inside the \"Where We Left Off\" recap at the top.\n2. **Standalone files deleted** — removed `recap-handout.md`, `brynns-letter-handout.md`, and the leftover `brynns-letter-handout.pdf`. Session 3 folder is now down to the canonical four markdown deliverables + log + rebuilt PDF.\n3. **PDF rebuilt** — created the missing `.venv/` (one-time, with `mistune` + `reportlab`) and ran `scripts/build_pdf.py 3`. Output: `sessions/session 3/the-half-mask-shrine.pdf` (~11 MB), built clean from the four markdown files in order. The recap page and Brynn's Letter now appear in the player-handouts section of the PDF.\n\nOpen the PDF in Obsidian or Finder to confirm the recap and letter render the way you want them at the table.\n"
+        }
+      ],
+      "timestamp": "2026-05-14T04:04:22.627Z"
+    },
+    {
+      "id": "fe42ad50-fa4f-4f6a-ba65-0e4889136e16",
+      "role": "user",
+      "content": [
+        {
+          "type": "text_with_context",
+          "text": "We need to update the generator.  Tactical maps should always fall into the combat tracker section.  They should be full page on a single page and printable.  They should never appear in the player handouts section.",
+          "autoMentionContext": {
+            "noteName": "dnd-adventure-generator",
+            "notePath": "dnd-adventure-generator.md"
+          }
+        }
+      ],
+      "timestamp": "2026-05-14T15:50:09.890Z"
+    },
+    {
+      "id": "34c0c7d1-9b62-4fe6-945e-880e57ac051f",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "agent_thought",
+          "text": " I need to update the generator spec so tactical maps are always placed in the combat tracker section as full-page printable content, and ensure they're removed from the player handouts section. I'm identifying the key sections that need changes: the combat tracker spec, player handouts spec, image generation rules, and PDF rendering guidelines.\n\nNow I'm checking AGENTS.md to see if there are matching descriptions I should align with, then I'll locate the exact spots in the spec that need updating."
+        }
+      ],
+      "timestamp": "2026-05-14T15:50:19.610Z"
+    },
+    {
+      "id": "2c7ebf84-8e9a-4098-962f-d6209b4837e1",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_018opUhShS1b3Kkf8Y1w7cxL",
+          "title": "Read `dnd-adventure-generator.md` (lines 70-90)",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "line": 70,
+              "path": "/Users/nstewart/code/fr-kids-campaign/dnd-adventure-generator.md"
+            }
+          ],
+          "rawInput": {
+            "path": "dnd-adventure-generator.md",
+            "view_range": [
+              70,
+              90
+            ]
+          }
+        }
+      ],
+      "timestamp": "2026-05-14T15:50:20.671Z"
+    },
+    {
+      "id": "ac25b93b-17e3-4ef8-a90f-2b2df06174ab",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_01FVvVTnqFaT3wauvxvr8bGz",
+          "title": "Read `dnd-adventure-generator.md` (lines 144-270)",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "line": 144,
+              "path": "/Users/nstewart/code/fr-kids-campaign/dnd-adventure-generator.md"
+            }
+          ],
+          "rawInput": {
+            "path": "dnd-adventure-generator.md",
+            "view_range": [
+              144,
+              270
+            ]
+          }
+        }
+      ],
+      "timestamp": "2026-05-14T15:50:20.712Z"
+    },
+    {
+      "id": "1dbad3e3-d0fc-4423-b477-08a16125c73c",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_01Jok22cv77HRL54QX1mBBse",
+          "title": "Read `AGENTS.md` (lines 82-92)",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "line": 82,
+              "path": "/Users/nstewart/code/fr-kids-campaign/AGENTS.md"
+            }
+          ],
+          "rawInput": {
+            "path": "AGENTS.md",
+            "view_range": [
+              82,
+              92
+            ]
+          }
+        },
+        {
+          "type": "agent_thought",
+          "text": " I need to clarify the tactical map placement across the documents—they should be explicitly called out in the combat tracker spec as full-page printable maps for each encounter, explicitly excluded from the player handouts, and the image generation specs should reflect that tactical maps are owned by the combat tracker file.\n\nI'm also considering whether the PDF renderer needs updates to enforce full-page sizing for these maps, but I should ask about that rather than assume it's part of this task, since the core work is updating the spec and markdown rules themselves."
+        }
+      ],
+      "timestamp": "2026-05-14T15:50:20.712Z"
+    },
+    {
+      "id": "c8b4c532-bfc6-498a-9382-790794cc0a93",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_019L8rtccmKpZJeEsimX96v9",
+          "title": "Read `scripts/md_to_pdf.py` (lines 1-50)",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "line": 1,
+              "path": "/Users/nstewart/code/fr-kids-campaign/scripts/md_to_pdf.py"
+            }
+          ],
+          "rawInput": {
+            "path": "scripts/md_to_pdf.py",
+            "view_range": [
+              1,
+              50
+            ]
+          }
+        }
+      ],
+      "timestamp": "2026-05-14T15:50:38.491Z"
+    },
+    {
+      "id": "69723646-c44a-40fc-80c0-83dc93068b51",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_01MJfYTVGQDMi8YwY458Uhby",
+          "title": "Run `grep -nE \"(image|Image|page_break|PageBreak|full.page|tactical)\" scripts/md_to_p...`",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "command": "grep -nE \"(image|Image|page_break|PageBreak|full.page|tactical)\" scripts/md_to_pdf.py | head -40",
+            "cwd": "/Users/nstewart/code/fr-kids-campaign",
+            "wait": true,
+            "max_wait_seconds": 5
+          }
+        },
+        {
+          "type": "agent_thought",
+          "text": " I see the renderer already supports image emission with two size modes, so let me examine the `_emit_image` method to understand how it currently works before I finalize the spec."
+        }
+      ],
+      "timestamp": "2026-05-14T15:50:38.532Z"
+    },
+    {
+      "id": "07851d43-78bd-441d-8f03-fbfacb056c4a",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_0179URs6v7WGfVoXYaog2i8M",
+          "title": "Read `scripts/md_to_pdf.py` (lines 500-545)",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "line": 500,
+              "path": "/Users/nstewart/code/fr-kids-campaign/scripts/md_to_pdf.py"
+            }
+          ],
+          "rawInput": {
+            "path": "scripts/md_to_pdf.py",
+            "view_range": [
+              500,
+              545
+            ]
+          }
+        },
+        {
+          "type": "agent_thought",
+          "text": " I've got a clear picture now. The renderer already handles section-aware sizing, so I'll focus on the spec changes the user asked for and check whether we should update the renderer to enforce full-page tactical maps. I'm planning to update the AGENTS.md file descriptions to clarify where tactical maps live and what should be excluded.\n\nThen I need to revise the dnd-adventure-generator.md specs to note that tactical maps are included in File 2 but excluded from File 3, remove the outdated \"(NPC, location, monster, map)\" reference and the line about revealing maps in pieces, and clarify in the Maps section that tactical/encounter maps are full-page and belong in the combat tracker. I'll also add tactical map requirements to the combat tracker section and update the PDF rendering rules so tactical maps render as full-page with a page break before.\n\nThe user's statement that \"tactical maps should always fall into the combat tracker section\" suggests they currently don't — I'm seeing in session 3 that \"Tactical Map — Site C, The Shrine-Camp\" appears in player-handouts instead, so this is a corrective change. Let me check what the current markdown form for File 2 includes for tactical maps so my new spec stays consistent.\n\nNow I'm drafting the spec updates to AGENTS.md, clarifying that File 2 includes per-encounter tactical maps as full-page printable sheets, and explicitly stating that tactical maps are excluded from File 3 since they belong in the combat tracker. I'm clarifying that tactical maps for encounters belong exclusively in File 2 (the combat tracker) so the DM can keep them hidden from players, while File 3 player handouts contain only scene art, NPCs, and locations—never tactical maps. I'm also updating the image generation specs to emphasize that tactical maps need to be high-resolution and full-page in the combat tracker, with clear labeling that they should never appear in the narrative or player handout files.\n\nNow I'm wondering whether the renderer itself needs updating to actually enforce these full-page tactical map rules, since the current image sizing caps non-handout images at 5.5\"×4.0\"—which wouldn't give tactical maps the full-page treatment they need."
+        },
+        {
+          "type": "text",
+          "text": "I'll update the spec in both files and flag the renderer/cleanup follow-ups. Making the doc edits in parallel:\n"
+        }
+      ],
+      "timestamp": "2026-05-14T15:50:45.311Z"
+    },
+    {
+      "id": "1e30fb62-a7d4-47ac-be49-a692c15a9ed6",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_01AxCdjsVtxYbNvRP9FcCtHf",
+          "title": "Edit AGENTS.md",
+          "status": "completed",
+          "kind": "edit",
+          "content": [
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/code/fr-kids-campaign/AGENTS.md",
+              "newText": "2. **`<slug>-2-combat-tracker.md`** — DM combat tracker: per-encounter **tactical maps (full-page, printable, one map per page)**, tracker sheets, and stat-block cards for every non-PC combatant. The full specification lives in `dnd-adventure-generator.md` under the **Combat Tracker** section.\n3. **`<slug>-3-player-handouts.md`** — player handout appendix: opens with a **\"Where We Left Off\" recap page** — a brief player-facing recap of the prior session anchored by an image of the location the PCs are starting at — followed by every image that appears inline in File 1 reproduced under its own labeled heading (e.g., \"Lord Neverember,\" \"The Yawning Portal, Common Room,\" \"Gnoll War-Chief\"). These are meant to be shown to the players at the table as visual handouts. **Tactical/encounter maps are excluded from this file** — they live in File 2 (combat tracker) so the DM keeps them table-side without showing them to the players. The recap sources from `campaign/session-log.md`; the full specification lives in `dnd-adventure-generator.md` under the **Session Recap Page** section.",
+              "oldText": "2. **`<slug>-2-combat-tracker.md`** — DM combat tracker: per-encounter tracker sheets plus stat-block cards for every non-PC combatant. The full specification lives in `dnd-adventure-generator.md` under the **Combat Tracker** section.\n3. **`<slug>-3-player-handouts.md`** — player handout appendix: opens with a **\"Where We Left Off\" recap page** — a brief player-facing recap of the prior session anchored by an image of the location the PCs are starting at — followed by every image that appears inline in File 1 reproduced under its own labeled heading (e.g., \"Lord Neverember,\" \"The Yawning Portal, Common Room,\" \"Gnoll War-Chief\"). These are meant to be shown to the players at the table as visual handouts. The recap sources from `campaign/session-log.md`; the full specification lives in `dnd-adventure-generator.md` under the **Session Recap Page** section."
+            }
+          ],
+          "locations": [
+            {
+              "path": "/Users/nstewart/code/fr-kids-campaign/AGENTS.md"
+            }
+          ],
+          "rawInput": {
+            "path": "AGENTS.md",
+            "instruction_reminder": "ALWAYS BREAK DOWN EDITS INTO SMALLER CHUNKS OF AT MOST 150 LINES EACH.",
+            "command": "str_replace",
+            "old_str_1": "2. **`<slug>-2-combat-tracker.md`** — DM combat tracker: per-encounter tracker sheets plus stat-block cards for every non-PC combatant. The full specification lives in `dnd-adventure-generator.md` under the **Combat Tracker** section.\n3. **`<slug>-3-player-handouts.md`** — player handout appendix: opens with a **\"Where We Left Off\" recap page** — a brief player-facing recap of the prior session anchored by an image of the location the PCs are starting at — followed by every image that appears inline in File 1 reproduced under its own labeled heading (e.g., \"Lord Neverember,\" \"The Yawning Portal, Common Room,\" \"Gnoll War-Chief\"). These are meant to be shown to the players at the table as visual handouts. The recap sources from `campaign/session-log.md`; the full specification lives in `dnd-adventure-generator.md` under the **Session Recap Page** section.",
+            "new_str_1": "2. **`<slug>-2-combat-tracker.md`** — DM combat tracker: per-encounter **tactical maps (full-page, printable, one map per page)**, tracker sheets, and stat-block cards for every non-PC combatant. The full specification lives in `dnd-adventure-generator.md` under the **Combat Tracker** section.\n3. **`<slug>-3-player-handouts.md`** — player handout appendix: opens with a **\"Where We Left Off\" recap page** — a brief player-facing recap of the prior session anchored by an image of the location the PCs are starting at — followed by every image that appears inline in File 1 reproduced under its own labeled heading (e.g., \"Lord Neverember,\" \"The Yawning Portal, Common Room,\" \"Gnoll War-Chief\"). These are meant to be shown to the players at the table as visual handouts. **Tactical/encounter maps are excluded from this file** — they live in File 2 (combat tracker) so the DM keeps them table-side without showing them to the players. The recap sources from `campaign/session-log.md`; the full specification lives in `dnd-adventure-generator.md` under the **Session Recap Page** section.",
+            "old_str_start_line_number_1": 87,
+            "old_str_end_line_number_1": 88
+          }
+        }
+      ],
+      "timestamp": "2026-05-14T15:51:48.231Z"
+    },
+    {
+      "id": "a8dff5cd-fd75-4194-b6d1-92c2c8f41a06",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_01P6A8mbp6bjQhJWLzUKMPZ7",
+          "title": "Edit dnd-adventure-generator.md",
+          "status": "completed",
+          "kind": "edit",
+          "content": [
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/code/fr-kids-campaign/dnd-adventure-generator.md",
+              "newText": "**File 2 — `<slug>-2-combat-tracker.md`:** the per-encounter **tactical map (full-page, printable)**, tracker sheets, and stat-block cards described in the Combat Tracker section below, expressed as markdown tables. HP boxes, round counters, and spell slots use the `☐` glyph (Obsidian renders it; the PDF font does not — see PDF rules).\n\n**File 3 — `<slug>-3-player-handouts.md`:** opens with a **\"Where We Left Off\" recap page** (see the **Session Recap Page** section below), then every inline image from File 1 reproduced under its own `##` heading naming the subject (NPC, location, monster, scene art). One image per section. **Tactical / encounter maps never appear in this file** — they live in File 2 (combat tracker) so the DM keeps them table-side without revealing the encounter layout to the players.",
+              "oldText": "**File 2 — `<slug>-2-combat-tracker.md`:** the per-encounter tracker sheets and stat-block cards described in the Combat Tracker section below, expressed as markdown tables. HP boxes, round counters, and spell slots use the `☐` glyph (Obsidian renders it; the PDF font does not — see PDF rules).\n\n**File 3 — `<slug>-3-player-handouts.md`:** opens with a **\"Where We Left Off\" recap page** (see the **Session Recap Page** section below), then every inline image from File 1 reproduced under its own `##` heading naming the subject (NPC, location, monster, map). One image per section. Maps may be revealed in pieces at GM discretion — note that in the file's preamble."
+            }
+          ],
+          "locations": [
+            {
+              "path": "/Users/nstewart/code/fr-kids-campaign/dnd-adventure-generator.md"
+            }
+          ],
+          "rawInput": {
+            "path": "dnd-adventure-generator.md",
+            "instruction_reminder": "ALWAYS BREAK DOWN EDITS INTO SMALLER CHUNKS OF AT MOST 150 LINES EACH.",
+            "command": "str_replace",
+            "old_str_1": "**File 2 — `<slug>-2-combat-tracker.md`:** the per-encounter tracker sheets and stat-block cards described in the Combat Tracker section below, expressed as markdown tables. HP boxes, round counters, and spell slots use the `☐` glyph (Obsidian renders it; the PDF font does not — see PDF rules).\n\n**File 3 — `<slug>-3-player-handouts.md`:** opens with a **\"Where We Left Off\" recap page** (see the **Session Recap Page** section below), then every inline image from File 1 reproduced under its own `##` heading naming the subject (NPC, location, monster, map). One image per section. Maps may be revealed in pieces at GM discretion — note that in the file's preamble.",
+            "new_str_1": "**File 2 — `<slug>-2-combat-tracker.md`:** the per-encounter **tactical map (full-page, printable)**, tracker sheets, and stat-block cards described in the Combat Tracker section below, expressed as markdown tables. HP boxes, round counters, and spell slots use the `☐` glyph (Obsidian renders it; the PDF font does not — see PDF rules).\n\n**File 3 — `<slug>-3-player-handouts.md`:** opens with a **\"Where We Left Off\" recap page** (see the **Session Recap Page** section below), then every inline image from File 1 reproduced under its own `##` heading naming the subject (NPC, location, monster, scene art). One image per section. **Tactical / encounter maps never appear in this file** — they live in File 2 (combat tracker) so the DM keeps them table-side without revealing the encounter layout to the players.",
+            "old_str_start_line_number_1": 74,
+            "old_str_end_line_number_1": 76
+          }
+        }
+      ],
+      "timestamp": "2026-05-14T15:51:48.252Z"
+    },
+    {
+      "id": "eec80034-cf43-4f45-9f24-1a95c1363be0",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_01GUYRZ6eDYn976unyN22jw5",
+          "title": "Edit dnd-adventure-generator.md",
+          "status": "completed",
+          "kind": "edit",
+          "content": [
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/code/fr-kids-campaign/dnd-adventure-generator.md",
+              "newText": "- **Tactical / encounter maps**: Top-down, print-optimized (minimal background clutter, high contrast). Include a scale indicator, N-arrow, and room/area labels. Use `aspect_ratio=\"4:3\"` for landscape or `aspect_ratio=\"3:4\"` for portrait. Sized to fill an 8.5\"×11\" page — every tactical map renders as a full page in the combat tracker, so generate them at high enough resolution to print at full size. Tactical maps belong to **File 2 only** (the combat tracker). Never embed them in File 1 (adventure narrative) or File 3 (player handouts) — players should not see the encounter layout.",
+              "oldText": "- **Maps**: Top-down, print-optimized (minimal background clutter, high contrast). Include a scale indicator, N-arrow, and room/area labels. Use `aspect_ratio=\"4:3\"` for landscape or `aspect_ratio=\"3:4\"` for portrait. Size for 8.5\"×11\" pages."
+            }
+          ],
+          "locations": [
+            {
+              "path": "/Users/nstewart/code/fr-kids-campaign/dnd-adventure-generator.md"
+            }
+          ],
+          "rawInput": {
+            "path": "dnd-adventure-generator.md",
+            "instruction_reminder": "ALWAYS BREAK DOWN EDITS INTO SMALLER CHUNKS OF AT MOST 150 LINES EACH.",
+            "command": "str_replace",
+            "old_str_1": "- **Maps**: Top-down, print-optimized (minimal background clutter, high contrast). Include a scale indicator, N-arrow, and room/area labels. Use `aspect_ratio=\"4:3\"` for landscape or `aspect_ratio=\"3:4\"` for portrait. Size for 8.5\"×11\" pages.",
+            "new_str_1": "- **Tactical / encounter maps**: Top-down, print-optimized (minimal background clutter, high contrast). Include a scale indicator, N-arrow, and room/area labels. Use `aspect_ratio=\"4:3\"` for landscape or `aspect_ratio=\"3:4\"` for portrait. Sized to fill an 8.5\"×11\" page — every tactical map renders as a full page in the combat tracker, so generate them at high enough resolution to print at full size. Tactical maps belong to **File 2 only** (the combat tracker). Never embed them in File 1 (adventure narrative) or File 3 (player handouts) — players should not see the encounter layout.",
+            "old_str_start_line_number_1": 148,
+            "old_str_end_line_number_1": 148
+          }
+        },
+        {
+          "type": "text",
+          "text": "Now update the Combat Tracker section: add the tactical map as required per-encounter content, the markdown form rule, and the PDF rendering rule.\n"
+        }
+      ],
+      "timestamp": "2026-05-14T15:51:48.273Z"
+    },
+    {
+      "id": "e8661407-d9b9-4a1c-9dbc-0b64928bb432",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_01HEJNoAXyCpv29QiqcBRCPx",
+          "title": "Edit dnd-adventure-generator.md",
+          "status": "completed",
+          "kind": "edit",
+          "content": [
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/code/fr-kids-campaign/dnd-adventure-generator.md",
+              "newText": "For each combat encounter in the adventure, generate:\n\n**1. Tactical map (one full page per encounter)** — the top-down encounter map generated in Step 4, embedded as the first content under the encounter heading. The renderer page-breaks before and after so the map prints on its own page at full size, ready to lay flat on the table for token placement. Tactical maps are **DM-only**: they live in File 2 alone, never in File 1 (narrative) or File 3 (player handouts). Use `aspect_ratio=\"4:3\"` for landscape encounters or `aspect_ratio=\"3:4\"` for portrait; the renderer fills the printable area while preserving aspect ratio.\n\n**2. Tracker sheet (one page per encounter)** containing:\n- Header strip: encounter name, scene reference, location, difficulty (XP total + threshold), light, terrain.\n- Round counter: 10 tick boxes labeled 1–10.\n- **Initiative & damage table** — NPC rows with **pre-rolled initiative** (averaged from DEX), AC, HP shown as **tick boxes at 5 HP per box** (DM crosses out as damage is dealt), and a notes column. **Blank rows are interleaved with the monsters so the DM can write each PC into the table at the right initiative count after dice are rolled.** See the *Initiative table layout* rules below.\n- Conditions reference strip (5e abbreviations: Bln · Chr · Deaf · Frt · Grp · Inc · Inv · Prl · Pet · Pzn · Prn · Rst · Stn · Uns · Conc).\n- Triggers, countdowns, reinforcement conditions (bulleted) — anything time-sensitive that affects when/how the fight escalates.\n- Concentration / Ongoing Effects write-in box (3 blank lines).\n- Tactics summary line per non-PC combatant.\n- Loot/aftermath note.\n- Notes write-in box (resources spent, persisting conditions, XP awarded).\n\n**3. Stat-block cards** for every unique non-PC combatant in that encounter:",
+              "oldText": "For each combat encounter in the adventure, generate:\n\n**1. Tracker sheet (one page per encounter)** containing:\n- Header strip: encounter name, scene reference, location, difficulty (XP total + threshold), light, terrain.\n- Round counter: 10 tick boxes labeled 1–10.\n- **Initiative & damage table** — NPC rows with **pre-rolled initiative** (averaged from DEX), AC, HP shown as **tick boxes at 5 HP per box** (DM crosses out as damage is dealt), and a notes column. **Blank rows are interleaved with the monsters so the DM can write each PC into the table at the right initiative count after dice are rolled.** See the *Initiative table layout* rules below.\n- Conditions reference strip (5e abbreviations: Bln · Chr · Deaf · Frt · Grp · Inc · Inv · Prl · Pet · Pzn · Prn · Rst · Stn · Uns · Conc).\n- Triggers, countdowns, reinforcement conditions (bulleted) — anything time-sensitive that affects when/how the fight escalates.\n- Concentration / Ongoing Effects write-in box (3 blank lines).\n- Tactics summary line per non-PC combatant.\n- Loot/aftermath note.\n- Notes write-in box (resources spent, persisting conditions, XP awarded).\n\n**2. Stat-block cards** for every unique non-PC combatant in that encounter:"
+            }
+          ],
+          "locations": [
+            {
+              "path": "/Users/nstewart/code/fr-kids-campaign/dnd-adventure-generator.md"
+            }
+          ],
+          "rawInput": {
+            "path": "dnd-adventure-generator.md",
+            "instruction_reminder": "ALWAYS BREAK DOWN EDITS INTO SMALLER CHUNKS OF AT MOST 150 LINES EACH.",
+            "command": "str_replace",
+            "old_str_1": "For each combat encounter in the adventure, generate:\n\n**1. Tracker sheet (one page per encounter)** containing:\n- Header strip: encounter name, scene reference, location, difficulty (XP total + threshold), light, terrain.\n- Round counter: 10 tick boxes labeled 1–10.\n- **Initiative & damage table** — NPC rows with **pre-rolled initiative** (averaged from DEX), AC, HP shown as **tick boxes at 5 HP per box** (DM crosses out as damage is dealt), and a notes column. **Blank rows are interleaved with the monsters so the DM can write each PC into the table at the right initiative count after dice are rolled.** See the *Initiative table layout* rules below.\n- Conditions reference strip (5e abbreviations: Bln · Chr · Deaf · Frt · Grp · Inc · Inv · Prl · Pet · Pzn · Prn · Rst · Stn · Uns · Conc).\n- Triggers, countdowns, reinforcement conditions (bulleted) — anything time-sensitive that affects when/how the fight escalates.\n- Concentration / Ongoing Effects write-in box (3 blank lines).\n- Tactics summary line per non-PC combatant.\n- Loot/aftermath note.\n- Notes write-in box (resources spent, persisting conditions, XP awarded).\n\n**2. Stat-block cards** for every unique non-PC combatant in that encounter:",
+            "new_str_1": "For each combat encounter in the adventure, generate:\n\n**1. Tactical map (one full page per encounter)** — the top-down encounter map generated in Step 4, embedded as the first content under the encounter heading. The renderer page-breaks before and after so the map prints on its own page at full size, ready to lay flat on the table for token placement. Tactical maps are **DM-only**: they live in File 2 alone, never in File 1 (narrative) or File 3 (player handouts). Use `aspect_ratio=\"4:3\"` for landscape encounters or `aspect_ratio=\"3:4\"` for portrait; the renderer fills the printable area while preserving aspect ratio.\n\n**2. Tracker sheet (one page per encounter)** containing:\n- Header strip: encounter name, scene reference, location, difficulty (XP total + threshold), light, terrain.\n- Round counter: 10 tick boxes labeled 1–10.\n- **Initiative & damage table** — NPC rows with **pre-rolled initiative** (averaged from DEX), AC, HP shown as **tick boxes at 5 HP per box** (DM crosses out as damage is dealt), and a notes column. **Blank rows are interleaved with the monsters so the DM can write each PC into the table at the right initiative count after dice are rolled.** See the *Initiative table layout* rules below.\n- Conditions reference strip (5e abbreviations: Bln · Chr · Deaf · Frt · Grp · Inc · Inv · Prl · Pet · Pzn · Prn · Rst · Stn · Uns · Conc).\n- Triggers, countdowns, reinforcement conditions (bulleted) — anything time-sensitive that affects when/how the fight escalates.\n- Concentration / Ongoing Effects write-in box (3 blank lines).\n- Tactics summary line per non-PC combatant.\n- Loot/aftermath note.\n- Notes write-in box (resources spent, persisting conditions, XP awarded).\n\n**3. Stat-block cards** for every unique non-PC combatant in that encounter:",
+            "old_str_start_line_number_1": 190,
+            "old_str_end_line_number_1": 203
+          }
+        }
+      ],
+      "timestamp": "2026-05-14T15:52:30.751Z"
+    },
+    {
+      "id": "a865f986-be15-4b16-905e-34cd76699b60",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_01UPJYxzDciS1aXN28R3PARu",
+          "title": "Edit dnd-adventure-generator.md",
+          "status": "completed",
+          "kind": "edit",
+          "content": [
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/code/fr-kids-campaign/dnd-adventure-generator.md",
+              "newText": "In `<slug>-2-combat-tracker.md`, render each encounter as:\n\n- A level-2 heading (`## Encounter N — <name>`) plus an italic line with scene reference and difficulty.\n- A **tactical map** image immediately under the heading, on its own line: `![Tactical Map — <encounter name>](<url>)`. The alt text **must** start with `Tactical Map` — that prefix is the renderer's signal to render it as a full-page image (page break before and after, sized to fill the printable area).\n- A small key/value table for **Location**, **Light**, **Terrain**.\n- A round strip line: `**Round:** ☐ 1 · ☐ 2 · ☐ 3 · …` through 10.",
+              "oldText": "In `<slug>-2-combat-tracker.md`, render each encounter as:\n\n- A level-2 heading (`## Encounter N — <name>`) plus an italic line with scene reference and difficulty.\n- A small key/value table for **Location**, **Light**, **Terrain**.\n- A round strip line: `**Round:** ☐ 1 · ☐ 2 · ☐ 3 · …` through 10."
+            }
+          ],
+          "locations": [
+            {
+              "path": "/Users/nstewart/code/fr-kids-campaign/dnd-adventure-generator.md"
+            }
+          ],
+          "rawInput": {
+            "path": "dnd-adventure-generator.md",
+            "instruction_reminder": "ALWAYS BREAK DOWN EDITS INTO SMALLER CHUNKS OF AT MOST 150 LINES EACH.",
+            "command": "str_replace",
+            "old_str_1": "In `<slug>-2-combat-tracker.md`, render each encounter as:\n\n- A level-2 heading (`## Encounter N — <name>`) plus an italic line with scene reference and difficulty.\n- A small key/value table for **Location**, **Light**, **Terrain**.\n- A round strip line: `**Round:** ☐ 1 · ☐ 2 · ☐ 3 · …` through 10.",
+            "new_str_1": "In `<slug>-2-combat-tracker.md`, render each encounter as:\n\n- A level-2 heading (`## Encounter N — <name>`) plus an italic line with scene reference and difficulty.\n- A **tactical map** image immediately under the heading, on its own line: `![Tactical Map — <encounter name>](<url>)`. The alt text **must** start with `Tactical Map` — that prefix is the renderer's signal to render it as a full-page image (page break before and after, sized to fill the printable area).\n- A small key/value table for **Location**, **Light**, **Terrain**.\n- A round strip line: `**Round:** ☐ 1 · ☐ 2 · ☐ 3 · …` through 10.",
+            "old_str_start_line_number_1": 218,
+            "old_str_end_line_number_1": 222
+          }
+        }
+      ],
+      "timestamp": "2026-05-14T15:52:30.792Z"
+    },
+    {
+      "id": "1e7dccfa-555a-41c5-ab10-8c9665642d28",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_01MbK2gZ6bETyokxr6VgnNHa",
+          "title": "Edit dnd-adventure-generator.md",
+          "status": "completed",
+          "kind": "edit",
+          "content": [
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/code/fr-kids-campaign/dnd-adventure-generator.md",
+              "newText": "- A level-3 heading naming a creature, followed by a key/value block (`AC`, `HP`, `Speed`, ability scores, traits, actions), becomes a **stat-block card** with parchment background and a thin accent border. If the card text contains a markdown image, it renders as a portrait thumbnail at the top.\n- An image whose alt text begins with `Tactical Map` becomes a **full-page tactical map**: a page break is inserted before, the image is sized to fill the printable area while preserving aspect ratio, and a page break follows. No caption is rendered (the encounter heading above already names it).",
+              "oldText": "- A level-3 heading naming a creature, followed by a key/value block (`AC`, `HP`, `Speed`, ability scores, traits, actions), becomes a **stat-block card** with parchment background and a thin accent border. If the card text contains a markdown image, it renders as a portrait thumbnail at the top."
+            }
+          ],
+          "locations": [
+            {
+              "path": "/Users/nstewart/code/fr-kids-campaign/dnd-adventure-generator.md"
+            }
+          ],
+          "rawInput": {
+            "path": "dnd-adventure-generator.md",
+            "instruction_reminder": "ALWAYS BREAK DOWN EDITS INTO SMALLER CHUNKS OF AT MOST 150 LINES EACH.",
+            "command": "str_replace",
+            "old_str_1": "- A level-3 heading naming a creature, followed by a key/value block (`AC`, `HP`, `Speed`, ability scores, traits, actions), becomes a **stat-block card** with parchment background and a thin accent border. If the card text contains a markdown image, it renders as a portrait thumbnail at the top.",
+            "new_str_1": "- A level-3 heading naming a creature, followed by a key/value block (`AC`, `HP`, `Speed`, ability scores, traits, actions), becomes a **stat-block card** with parchment background and a thin accent border. If the card text contains a markdown image, it renders as a portrait thumbnail at the top.\n- An image whose alt text begins with `Tactical Map` becomes a **full-page tactical map**: a page break is inserted before, the image is sized to fill the printable area while preserving aspect ratio, and a page break follows. No caption is rendered (the encounter heading above already names it).",
+            "old_str_start_line_number_1": 256,
+            "old_str_end_line_number_1": 256
+          }
+        }
+      ],
+      "timestamp": "2026-05-14T15:52:30.792Z"
+    },
+    {
+      "id": "ba1f3a4b-f8c1-45b4-914e-df8375241e53",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_0185nXMB2h8xkvLu5gKpBn6c",
+          "title": "Edit dnd-adventure-generator.md",
+          "status": "completed",
+          "kind": "edit",
+          "content": [
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/code/fr-kids-campaign/dnd-adventure-generator.md",
+              "newText": "- Single-encounter trackers should fit on one page when feasible. Boss-tier encounters with 5+ combatants and multiple triggers may flow to a second page; do not compress to fit.\n- **Tactical maps always print full-page on their own page**, regardless of encounter complexity. They are the first page of each encounter section in the printed tracker and are never resized to share a page with the tracker sheet or stat-block cards.",
+              "oldText": "- Single-encounter trackers should fit on one page when feasible. Boss-tier encounters with 5+ combatants and multiple triggers may flow to a second page; do not compress to fit."
+            }
+          ],
+          "locations": [
+            {
+              "path": "/Users/nstewart/code/fr-kids-campaign/dnd-adventure-generator.md"
+            }
+          ],
+          "rawInput": {
+            "path": "dnd-adventure-generator.md",
+            "instruction_reminder": "ALWAYS BREAK DOWN EDITS INTO SMALLER CHUNKS OF AT MOST 150 LINES EACH.",
+            "command": "str_replace",
+            "old_str_1": "- Single-encounter trackers should fit on one page when feasible. Boss-tier encounters with 5+ combatants and multiple triggers may flow to a second page; do not compress to fit.",
+            "new_str_1": "- Single-encounter trackers should fit on one page when feasible. Boss-tier encounters with 5+ combatants and multiple triggers may flow to a second page; do not compress to fit.\n- **Tactical maps always print full-page on their own page**, regardless of encounter complexity. They are the first page of each encounter section in the printed tracker and are never resized to share a page with the tracker sheet or stat-block cards.",
+            "old_str_start_line_number_1": 271,
+            "old_str_end_line_number_1": 271
+          }
+        },
+        {
+          "type": "text",
+          "text": "All spec edits complete. Summary:\n\n**`AGENTS.md`** (line 87–88, File 2 + File 3 descriptions)\n- File 2 now explicitly includes \"per-encounter tactical maps (full-page, printable, one map per page)\".\n- File 3 now explicitly excludes tactical/encounter maps with the rationale (DM-only, don't reveal layout to players).\n\n**`dnd-adventure-generator.md`** (five edits)\n- **File 2 / File 3 descriptions (lines 74–76):** mirror the AGENTS.md changes; File 3's `(NPC, location, monster, map)` is now `(NPC, location, monster, scene art)` and the \"Maps may be revealed in pieces at GM discretion\" line is replaced with the exclusion rule.\n- **Image Generation Specs > Maps (line 148):** renamed \"Maps\" to \"Tactical / encounter maps\", added \"sized to fill an 8.5\"×11\" page\" and \"belongs to File 2 only — never embed in File 1 or File 3\".\n- **Combat Tracker > Per-encounter contents:** new item **1. Tactical map** added before the tracker sheet; existing items renumbered to 2 (Tracker sheet) and 3 (Stat-block cards).\n- **Combat Tracker > Markdown form:** new bullet requires the tactical map image immediately under the encounter heading with alt text starting `Tactical Map` as the renderer signal.\n- **Combat Tracker > PDF rendering pattern:** new bullet defines the renderer behavior — page break before, fill printable area preserving aspect ratio, page break after, no caption.\n- **Combat Tracker > PDF rendering rules:** new bullet reaffirming \"tactical maps always print full-page on their own page\".\n\n---\n\n**Two follow-ups you should decide on:**\n\n1. **Renderer doesn't yet implement this.** `scripts/md_to_pdf.py` `_emit_image` currently caps non-handout images at 5.5\"×4.0\" with no page-break logic. To make the spec actually take effect, the renderer needs an `alt.startswith(\"Tactical Map\")` branch that emits `PageBreak() → full-bleed Image → PageBreak()`. Want me to implement that and rebuild?\n\n2. **Session 3 is non-conforming.** The session-3 player handouts file currently has `## Tactical Map — Site C, The Shrine-Camp` as a regular entry, and the tactical map is **not** in the combat tracker file. Want me to (a) move the tactical map image reference from `the-half-mask-shrine-3-player-handouts.md` into `the-half-mask-shrine-2-combat-tracker.md` (under the relevant encounter), and (b) rebuild the PDF after the renderer change?\n"
+        }
+      ],
+      "timestamp": "2026-05-14T15:52:30.812Z"
     }
   ],
-  "savedAt": "2026-05-14T03:51:02.409Z"
+  "savedAt": "2026-05-14T15:52:51.775Z"
 }

@@ -32,13 +32,6 @@ The cleft itself was sealed by drow magic.
 
 ---
 
-
-## Cold Camp at the Hawthorn Chimney — Dawn Over the Collapsed Cleft
-
-![Cold Camp at the Hawthorn Chimney — dawn over the collapsed cleft](https://storage.gemini.mcp.nqs.io/images/60f5f0e4-f00b-49e2-84b6-5a3071987c6a.png)
-
----
-
 ## Brynn Ashford — Shadowdale's Delegate to the Dales Council
 
 ![Brynn Ashford — Shadowdale's Delegate to the Dales Council](https://storage.gemini.mcp.nqs.io/images/b9105155-7cff-46a0-899c-1707ae26dfd5.png)
