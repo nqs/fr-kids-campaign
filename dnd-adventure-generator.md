@@ -71,9 +71,9 @@ The adventure file may add `tier`, `party_level`, and `duration` keys. Inline im
 
 **File 1 — `<slug>-1-adventure.md`:** lead with a summary table (**Title, Tier, Duration, Setting, Hook From**), then the adventure narrative — summary, scenes, encounters, NPCs, treasure, loose ends. Embed inline images immediately after the section they illustrate.
 
-**File 2 — `<slug>-2-combat-tracker.md`:** the per-encounter tracker sheets and stat-block cards described in the Combat Tracker section below, expressed as markdown tables. HP boxes, round counters, and spell slots use the `☐` glyph (Obsidian renders it; the PDF font does not — see PDF rules).
+**File 2 — `<slug>-2-combat-tracker.md`:** the per-encounter **tactical map (full-page, printable)**, tracker sheets, and stat-block cards described in the Combat Tracker section below, expressed as markdown tables. HP boxes, round counters, and spell slots use the `☐` glyph (Obsidian renders it; the PDF font does not — see PDF rules).
 
-**File 3 — `<slug>-3-player-handouts.md`:** every inline image from File 1 reproduced under its own `##` heading naming the subject (NPC, location, monster, map). One image per section. Maps may be revealed in pieces at GM discretion — note that in the file's preamble.
+**File 3 — `<slug>-3-player-handouts.md`:** opens with a **"Where We Left Off" recap page** (see the **Session Recap Page** section below), then every inline image from File 1 reproduced under its own `##` heading naming the subject (NPC, location, monster, scene art). One image per section. **Tactical / encounter maps never appear in this file** — they live in File 2 (combat tracker) so the DM keeps them table-side without revealing the encounter layout to the players.
 
 **File 4 — `<slug>-4-dm-quick-ref.md`:** print-and-keep-at-the-table cheat sheet. Tables and short bulleted lists only — no narrative. See the **DM Quick Reference** section below for the contents and structure.
 
@@ -146,7 +146,7 @@ ReportLab build rules (these describe what `scripts/md_to_pdf.py` already implem
 
 All images come from `generate_image_gemini`. Write rich, specific prompts (>15 words) that name the subject, mood, color palette, and style. Always work with the returned URL, never the base64 payload.
 
-- **Maps**: Top-down, print-optimized (minimal background clutter, high contrast). Include a scale indicator, N-arrow, and room/area labels. Use `aspect_ratio="4:3"` for landscape or `aspect_ratio="3:4"` for portrait. Size for 8.5"×11" pages.
+- **Tactical / encounter maps**: Top-down, print-optimized (minimal background clutter, high contrast). Include a scale indicator, N-arrow, and room/area labels. Use `aspect_ratio="4:3"` for landscape or `aspect_ratio="3:4"` for portrait. Sized to fill an 8.5"×11" page — every tactical map renders as a full page in the combat tracker, so generate them at high enough resolution to print at full size. Tactical maps belong to **File 2 only** (the combat tracker). Never embed them in File 1 (adventure narrative) or File 3 (player handouts) — players should not see the encounter layout.
 - **Portraits**: `aspect_ratio="3:4"`, painterly fantasy style, neutral background. Must match the text description exactly — armor, species, distinguishing features, attitude.
 - **Location art**: `aspect_ratio="16:9"` for scene/landscape illustrations.
 
@@ -190,7 +190,9 @@ Every adventure must include a **DM combat tracker** — as the dedicated `<slug
 
 For each combat encounter in the adventure, generate:
 
-**1. Tracker sheet (one page per encounter)** containing:
+**1. Tactical map (one full page per encounter)** — the top-down encounter map generated in Step 4, embedded as the first content under the encounter heading. The renderer page-breaks before and after so the map prints on its own page at full size, ready to lay flat on the table for token placement. Tactical maps are **DM-only**: they live in File 2 alone, never in File 1 (narrative) or File 3 (player handouts). Use `aspect_ratio="4:3"` for landscape encounters or `aspect_ratio="3:4"` for portrait; the renderer fills the printable area while preserving aspect ratio.
+
+**2. Tracker sheet (one page per encounter)** containing:
 - Header strip: encounter name, scene reference, location, difficulty (XP total + threshold), light, terrain.
 - Round counter: 10 tick boxes labeled 1–10.
 - **Initiative & damage table** — NPC rows with **pre-rolled initiative** (averaged from DEX), AC, HP shown as **tick boxes at 5 HP per box** (DM crosses out as damage is dealt), and a notes column. **Blank rows are interleaved with the monsters so the DM can write each PC into the table at the right initiative count after dice are rolled.** See the *Initiative table layout* rules below.
@@ -201,7 +203,7 @@ For each combat encounter in the adventure, generate:
 - Loot/aftermath note.
 - Notes write-in box (resources spent, persisting conditions, XP awarded).
 
-**2. Stat-block cards** for every unique non-PC combatant in that encounter:
+**3. Stat-block cards** for every unique non-PC combatant in that encounter:
 - Portrait thumbnail when one exists in the inline image set; omit cleanly when none.
 - Title + type/alignment line + CR (XP).
 - AC / HP / Speed; ability scores; saves, skills, senses, languages.
@@ -218,6 +220,7 @@ If a creature type appears in multiple encounters, **reprint** its card under ea
 In `<slug>-2-combat-tracker.md`, render each encounter as:
 
 - A level-2 heading (`## Encounter N — <name>`) plus an italic line with scene reference and difficulty.
+- A **tactical map** image immediately under the heading, on its own line: `![Tactical Map — <encounter name>](<url>)`. The alt text **must** start with `Tactical Map` — that prefix is the renderer's signal to render it as a full-page image (page break before and after, sized to fill the printable area).
 - A small key/value table for **Location**, **Light**, **Terrain**.
 - A round strip line: `**Round:** ☐ 1 · ☐ 2 · ☐ 3 · …` through 10.
 - An **Initiative & Damage** markdown table with pre-filled NPC rows interleaved with blank PC rows (`__` / `_________________`) per the *Initiative table layout* rules below. Render HP as `<total>: ☐☐☐☐☐ ☐☐☐☐☐ …` (5 HP per box, ceiling-rounded).
@@ -253,6 +256,7 @@ The combat tracker section of the PDF is rendered by `md_to_pdf.py` directly fro
 - A markdown table whose header row is `Init | Combatant | AC | HP | Notes` becomes the **initiative table**: alternating row shading, fixed column widths. Each HP cell text matching `<n>: <runs of ☐>` is split — the integer is left-aligned as a label (`HP 78`), and the `☐` runs are replaced with bordered tick boxes (5 HP per box).
 - A paragraph beginning `**Round:**` followed by `☐ N · ☐ N …` becomes the **round strip**: a row of bordered numbered tick boxes, one per round 1–10.
 - A level-3 heading naming a creature, followed by a key/value block (`AC`, `HP`, `Speed`, ability scores, traits, actions), becomes a **stat-block card** with parchment background and a thin accent border. If the card text contains a markdown image, it renders as a portrait thumbnail at the top.
+- An image whose alt text begins with `Tactical Map` becomes a **full-page tactical map**: a page break is inserted before, the image is sized to fill the printable area while preserving aspect ratio, and a page break follows. No caption is rendered (the encounter heading above already names it).
 - A line of `☐` glyphs inside a Spellcasting block (e.g., `1st: ☐ ☐ ☐`) becomes a row of spell-slot tick boxes, one per slot.
 - A `### Notes` or `### Concentration / Ongoing Effects` section whose body is a sequence of underscore lines (`______`) renders as a bordered write-in box with the right number of blank lines.
 
@@ -267,10 +271,28 @@ These rules are **single-pass and pattern-based** — the renderer recognizes sh
 - Stat-block cards use a parchment background and a thin accent border to distinguish them visually from narrative content.
 - Initiative tables alternate row shading lightly to keep rows scannable.
 - Single-encounter trackers should fit on one page when feasible. Boss-tier encounters with 5+ combatants and multiple triggers may flow to a second page; do not compress to fit.
+- **Tactical maps always print full-page on their own page**, regardless of encounter complexity. They are the first page of each encounter section in the printed tracker and are never resized to share a page with the tracker sheet or stat-block cards.
 
 ### Reuse across sessions
 
 The renderer (`scripts/md_to_pdf.py`) and the CLI (`scripts/build_pdf.py`) are session-agnostic and live at the repo root. Reference them in place — do not copy or fork them into session folders. Only the four markdown files and `images.json` are written fresh per session; the PDF is rebuilt from them on demand.
+
+## Session Recap Page
+
+Every player-handout file (`<slug>-3-player-handouts.md`) **opens with a one-page recap of the previous session** so the players can re-orient before play begins. It is the first page of the handout appendix — before any NPC/location/monster handouts.
+
+Source the recap from `campaign/session-log.md` (the most recent played-session entry). If the prior session has not yet been logged — e.g., the recap is being authored before the post-play update — pull from the prior session's adventure file (`sessions/session <N-1>/<slug>-1-adventure.md`) and flag the gap to the user. Session 1 has no recap; skip the page and note it in the file's preamble.
+
+### Form
+
+- A level-1 heading: `# Where We Left Off`.
+- **One image** at the top: a scene illustration of the location the PCs are starting this session at. This is usually the same location they ended the previous session at (a cold camp, the doorway of a dungeon they didn't enter, the road outside a town). Generate it in Step 4 like any other location image, with `aspect_ratio="16:9"`, and add it to `images/images.json`. It also gets its own `## <Location Name>` section later in the handout file like any other location image — the recap reuses the URL, it does not duplicate the entry in `images.json`.
+- **Brief recap prose** — 4–8 short sentences or bullet points covering: where the party is now, what they accomplished last session, what they learned, and the immediate decision in front of them. Bold the key facts. No spoilers for the new adventure.
+- Optional **"What Now?"** bulleted list of 1–3 immediate hooks or choices, framed as the party's options at the table.
+- Frontmatter stays the standard player-handouts block (`section: player-handouts`); no separate section tag.
+- Followed by a `---` thematic break, then the rest of the handout entries.
+
+The recap is a player-facing artifact — write it in the second person ("You burned a wounded drider…"), keep the tone tight, and avoid DM-only information (faction maneuvering the party hasn't seen, hidden NPC motivations, future encounter setups).
 
 ## DM Quick Reference
 
