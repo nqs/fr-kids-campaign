@@ -1,8 +1,12 @@
 {
+  "sandbox": {
+    "network": {
+      "allowedDomains": ["*.nqs.io"]
+    }
+  },
   "permissions": {
     "allow": [
       "WebFetch",
-      // ...
     ]
   }
 }
