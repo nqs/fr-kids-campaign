@@ -1,12 +1,12 @@
 {
   "sandbox": {
     "network": {
-      "allowedDomains": ["*.nqs.io"]
+      "allowedDomains": ["*.nqs.io", "storage.gemini.mcp.nqs.io"]
     }
   },
   "permissions": {
     "allow": [
-      "WebFetch",
+      "WebFetch"
     ]
   }
 }
