@@ -1,2 +1,0 @@
-[SPEAKER_00]: This is a test.
-[SPEAKER_00]: Try to turn this into text.
