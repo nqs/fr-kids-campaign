@@ -23,12 +23,6 @@ tags:
 - **Scroll recovered from the fireplace** read aloud: *"Close the surface mouths. The Vhaeraun is opening."* — signed in **Lolthite** script. Loric's Religion check (17+) confirmed the writers were **Lolthites**, distinct from the **Vhaeraunians** whose map the party recovered last session.
 - Inspection of the cleft itself: the gap had been deliberately **collapsed**. Yinu's Arcana check confirmed **drow magic** was used to seal it. A Lolthite raiding party purged this Vhaeraunian camp the night before and shut the underdark connection here behind them. **Site C remains open and unscouted.** Session ended at the cleft, with the party preparing to travel to Site C.
 
-> [!read-aloud] Approaching the Hawthorn Chimney
-> The hawthorn closes overhead in a low arch — pale berries, black thorns. Beneath the boughs, a fire pit lies cold under a film of ash, three bedrolls splayed around it like petals torn from a flower. One has a long dark stain along its length. The chimney mouth is a dark wound in the rock, and from inside, very faintly, comes the sound of something dragging itself upward.
-
-> [!boss] The Chimney Drider — Lolthite Enforcer
-> Wounded survivor of last night's purge. Climbed up to silence the witnesses. Dropped before she could retreat down the shaft.
-
 ### Key Decisions & Consequences
 - **Loric did not commit to Brynn's "first call" arrangement.** The Council/Harper wedge is now an active, unanswered thread.
 - **Nalith's eavesdropping was clean** — Brynn doesn't know the rest of the party heard the exchange.
