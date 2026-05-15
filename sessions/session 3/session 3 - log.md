@@ -16,7 +16,7 @@ tags:
 
 ### What Happened
 
-- **Scene 1 (Cold Camp):** Abbreviated. DM asked "what are you doing?" and the party immediately chose to push ahead to Site C rather than return to town. No inventory beat, no letter found. Loric is absent so Brynn's letter was never discovered or mentioned.
+- **Scene 1 (Cold Camp):** Abbreviated. DM asked "what are you doing?" and the party immediately chose to push ahead to Site C rather than return to town. No inventory beat. Loric is absent — **Kto is carrying Brynn's letter but chose not to share it with anyone.**
 - **Scene 2 (Northern Traverse):** Sev (Yinu) made the pathfinding check — rolled a "dirty 20" on Nature. **Success.** Party arrives at Site C in early afternoon. Kto noticed three distinct sets of prints on the granite (DC 14 Survival, rolled 15) — Lolthite forewarning spotted but not acted on.
 - **Scene 3 (Watcher Above / Quillip):** Sev and Piper spotted the watcher before the horn was blown (Piper: 18, Sev: 21). Kto shot the watcher with her longbow from ~190 ft — hit, killed before any alarm. Quillip Burr-and-Whistle then emerged from a knothole in the same tree. The party made a bargain: Fiorn performed an original, never-before-sung song ("The Ballad of Bringle Groft") as payment. Quillip received it and gave full intel: spider alarm (silk curtain trip-wire shriek), cave layout, and anchor/ritual context. She confirmed this was the last remaining site.
 - **Scene 4 (Antechamber):** Party climbed the cliff face using Nalith's Spider Walk (cast on herself) and dropped through a ceiling gap into the antechamber. **Full surprise round.** One scout sleeping, one fletching arrows. Fox killed his target in the surprise round (25 to-hit, 21+ damage). Both scouts dead before either acted. No alarm reached the Shrine.
@@ -37,7 +37,7 @@ tags:
 
 ### Key Decisions & Consequences
 
-- **Brynn's letter:** Never came up. Lilly absent; no one found or roleplayed the letter. Carry to Session 4 if Lilly returns.
+- **Brynn's letter:** Kto is carrying the letter but chose not to share it with the party. The rest of the party doesn't know it exists. Whether Kto acts on it — and when — is an open character question heading into Session 4.
 - **Who reported first?** N/A — no debrief happened. Defer to Session 4 opening.
 - **Which ending chosen?** Not yet. Anchor is still in the shrine chamber; Session 4 opens here.
 - **Lolthite Crash:** Did not trigger. Fight was over before Round 4. The Lolthites do not know the party exists.
@@ -87,7 +87,7 @@ tags:
 > - **Vhaeraunian retaliation clock** — begins once the ending is chosen. 2–3 weeks in-world; form TBD.
 > - **Lolthite enclave awareness** — Crash did not trigger. Lolthites found dead Vhaeraunians later (or did they?). Party almost certainly unknown to them. Do not flag escalation.
 > - **Quillip's bargain** — treat as paid (the original song). No secondary cost established. She may reappear as an asset in future Old Skull missions.
-> - **Brynn's letter** — still undiscovered. Will surface if Lilly returns in Session 4.
+> - **Brynn's letter** — **Kto has it and has told no one.** The rest of the party is unaware the letter exists. Watch for when (or if) Kto chooses to reveal it, and whether Brynn's first-call arrangement becomes an active tension point.
 > - **Brynn vs. Orvyn first-call** — unanswered; depends on who the party contacts first in Session 4 debrief.
 > - **Nema's in-fiction arrival** — Lilli joined the session at the table but Nema was never formally introduced in-world. Either retcon her as having been at the cold camp all along, or open Session 4 with a brief "how did she get here?" beat.
 > - **Sela Wyndmere's consultations** — still unresolved. S004 candidate.
