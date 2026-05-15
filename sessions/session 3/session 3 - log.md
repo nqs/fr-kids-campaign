@@ -10,7 +10,8 @@ tags:
 ## Session 003 — The Half-Mask Shrine
 **Date played:**
 **Location in-world:** Shadowdale — Old Skull's northern flank (Site B cold camp, the Northern Traverse, Site C shrine-camp: antechamber, Spider Pen, the Shrine), Ashaba House (debrief)
-**Players present:** Kaitlyn (Kto), Fox (Fiorn), Sev (Yinu), Lily (Loric T.), Piper (Nalith)
+**Players present:** Caitlin (Kto), Fox (Fiorn), Sev (Yuna), Lilli (Nema — new character), Piper (Nalith)
+**Absent:** Lilly (Loric T.)
 
 ### What Happened
 *(Fill in after the session is played.)*

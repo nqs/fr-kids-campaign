@@ -1,1 +1,3135 @@
-He is closed. Shut the fuck up. Oh, you shut up. Is this what your character sounds like? No, it isn't. We sound like... Sound like Brad from my college. Okay, but yeah, there was a like a fay behind the tree and I think because like the the portal was closed and stuff, but they're going back to it. And like, Like, yeah, that stuff's happening. You sound like a cobalt on math. You look like one too. I think, I think that she sounds, I think, I think that Nobody asked. We're going school. You don't raise your hand. She doesn't race in the bathroom? Why are you? She doesn't talk at class. What does he mean, nope. Yeah, Fox is being mean. The lily. Did he see what she was just doing? I said she looked it and sounded like a cobalt on that. I heard. That's it. It's not fine. Keep the table badger appropriate, and I am hurting. This is all getting recorded. Oh, it's... Don't Google it. Don't go to shopping. But... I would rather stab 5 or... than listen to you say. Don't bring up... That hurts again. What? What song do you want me to sing, box? You guys, we play N words in Paris. No. Can you help people solve the track? Yeah. Okay, cool. So you've woken up, you looked at your belongings, you packed them up, you're ready to go do something. Who, what are we doing? Head back to town. We need to do that. So you know that the town is 8 hours away by foot, and the next site is 4 hours further ahead. So if you were to head back in town, you wouldn't be able to make it to the 2nd place without coming here again. So I guess we do, but... Second sight, guys. Yeah, can we have 2nd side? and then I do your coat, we're out of here. Um, I like fly. Because lucky I can do that. I... I don't... I still wipe Lily down from the sky. Did I stop her? with my flute, by the way. And then I was flying the flute. I start, I start, um, speaking in tongues and, um, You are traveling over land, on foot through the woodlands, up to Old Skull. Oh, over the river and turn the... Oh, we go. with me? Okay. So, you, it, and as you go up it, if the altitude increases, the trees become less. Great. So you're walking around, like boulders with like small bushes. Boulder. Oh, that works. Get prisoner block. Yeah, I've got to spell that chocolate side, but I'll give you a pencil pencil because you're special. How about, what, what, what? Okay, no, it's too much. Oh, is that the guy? Who is leading the hype? Really? Definitely not me. Maybe I need a fighter. Well, there's actually a baby this is. Okay, wait on, we're gonna do this a little bit more formally. When I'm talking, stop talking. Because no one else can hear me. Um, you would take, and I don't care, but you would typically pick the character who's most good at going through the woods or navigating. So that would usually be your druid or your ranger. Sometimes it drove or... And usually they have a good nature or survival check. It doesn't have to be that way. My animal handling is good. I said might have a good nature of survival trip. Hybro is a terrible nature, Joe. Okay, I'm good at animal handling. I can handle that. I'm also good and normal handling. I think that's like my whole thing, guys. Nature is. I'm a drama, I have a plus six. Okay, I should also talk about game terms, out of game by saying I have a plus whatever in nature or survival. What's going to happen is I'm going to ask for a skill check from only the lead characters, so you want it to be somebody who knows who they are. Okay, pick stuff. Some of us is a +5. Uh. Wait, what are you off? Uh, plus for nature. Mm. Why do I have so shitty nature? You're druid, but then. No. You got? No. Yeah, it's strange. Like, for next session, he shows acrobatics. Oh my. Yeah, you only get so many skills, so you... Okay. So did you guys talk about numbers? like who's doing that? you're going? Sav's gone. Yeah. He was leading? Okay, you need to make a, either nature or survival fit? Nature, that's my high, that's the higher one. Okay. Uh, twa, dirty twa, exactly dirty 20. Nice. All right. You were able to navigate your way to the other cleft based on the intelligence you were given by the, um, the Shadowdale guard successfully. Um, Actually, I execute the quality, so I want you to go along. Is she a really good director? Is it? It's mermaid. Oh, no, no, no, no, no. So as you know, leave you, Someone else. If they want to. and be observant along the way. I'm going to up. This is a survival check. You're looking at the science of nature. Oh, uh, what's your survival? Plus three. Oh, okay. You want to go? I have six. I've been... When we talk, do we have the plastics? We did have a punishment right there after. That's one, negative one in survival. Oh my bad. Okay, Piper's doing it. Wait, what do you got? A plus two. You have a plus basically. I am going. Jesus. I have a one. I mean... Oh, Iron Man. If anything requires intimidation or persuasion, I can do it. I can make Odin do it. I can make Lily do it. Or religion. I've got a religion. Religion like my whole thing. I'm gonna act about it. Yes, I got a 15. Lily, what's your persuade? That's me too. What's your temptation? Oh. Wait, wait, wait, wait. Yep. Fiber. As you are approaching in the pavement, as you know, we do, the ward camera, you can see the 10 foot wide, 30 foot rend in the side hole in the side of the mountain. But it's way up there, like 100s of 100s of people, this, like, steep, uh, it would be called Surrey. It's like new stones and um, like small like bushes. You miss these step to get up there. It actually only, that only gets you like 60 feet old damage. I'm gonna use it. I was gonna say, I'm gonna use it twice, but I only... I use acrobatics. I use acro. Well, actually, I had a whole point that doesn't make you guys not wanting to walk uphill. You could just also walk up the hill. But, um, So you can see the the hole up there. Um, Now with, No. Lily. Lily. I'm sorry you can't, I can't talk to you. Um, Louis, excuse me? She's... on the side of, like, the rocks on the ledge. 2 pigeons, snuffs, as it. Somebody was walking up here before you. It was me, guys. And you see what you think are 3 distinct sets of difference. Because you have, what, 15% or 16? 15? That's enough. You think there are 3 stinks that's roughly up there? Who? Okay, the press don't tell me that. They didn't write the name. Oh, kind of? Okay, so we're getting up to whole. Okay, guys. Okay, see if I can just somehow use an arconda skill check to get up there. You're welcome. Can I persuade the mountain to... Yeah, I'm running. to let me go up quickly. I know. Oh, why are you running like a robot? I use a firebolt as like a rocket to rocket myself up. Is there anything you guys in game as you walk up there that doesn't involve not one? like carry myself like a me up there. How's the weather up here, guys? It's about sexy, there's so many. My character has never... Oh, I... Wait, who? Nobody. Not Xenia Ida. Ah. Hi, Ioda. That is a character. Hi baby. I'll tell you to be. No, it's not, my heart, Damien. Which one? Me, either. Nobody knows what that is. If nobody knows who that is, why do they know who it is? This is our apartment, same thing as we walk. He's the weird drug guy. As you walk up there, it is very cool. It is early afternoon. You're very grateful that you was able to meet your gear so effectively, conscribing at night. Oh, I still would have found a further 5 fry frightful night. Everybody roll with percent. First, Oh my god. Don't watch out a little bit. Whoever thinks they have the highest. Okay, nope, not me. No, I don't... 21? Dirty's 21. Okay, well, that's it. I got a not one. You see nothing. What's your what's your foot? It's literally seen nothing. You don't even see the rocks around you. 17, 18. Okay. New spots. Don't touch me. On one of The straggly pines. Perched out of the side of the rock face, above the cave model. To just are able to pick out a figure. Actually, I forgot the 18 also season. Oh, me. Okay. Me? Me? Okay, now one. Yeah, I got that one. Fox, not even the Roxy's around him. 17. He doesn't even see the, see, he doesn't he doesn't even see odds. Besides, they don't mount it. The 1st the 1st the figure is burst up here somewhere or one of those. That's me. Oh, is it the? So. Oh. Now I see it. Then any shorter that that is probably some kind of scalp? They have not yet spotted you. Oh, you know that you now have about 5 seconds until... I should have crossed about them. This is... You are. Okay. About 200 CUA. And I use bi-, can can I use like Maychand on them or something? Okay. All can I questions about spells have to be answered, but looking at the spell you're talking about, I don't have enough. I shit it with my short, but I don't know. Be beyond your cards or in the experience. I'm also, if you could fit in the show for somebody... Actually, no, I show it with my crossbad. Yep. Never mind, ask me. Oh, at the very most 30 feet away. No, no, no, it has to be my short belt. I don't I can't see the range of my crossbow. Magic missiles. Can I roll for hit? No, I mean, everybody gets one action. I don't have the magic missile spell card. I'm probably gonna use my wallet. Yeah, okay. Well, wait, maybe I... This should be the details of the brain that's about the sheet. Okay, I had 24. Okay, roll damage. Okay. I fire a match of missile at it. 120 feet. It's 120? Yes, I check the steak. Wait, it is 200 feet away, so that will reach. Oh. What if I use, what if I use they like, 3rd levels bow slot? Or 2nd or 2nd level 12? minimum range. There's look that, look out. So here's how you do this as a castle. You look down at the fell list and see what they reach to your feet with. Maybe something like... Step for thrift strike? Is that just like an extra attack? Unfortunately, nothing, none of my things can. Oh, you can give it to me if you don't like a woman. Yeah, because I don't really understand what that says. That's one. Okay, uh, 17. Hold on How far is it? Oh, wait, 20. 30 feet. What? What? No, not 30 feet. 200 feet. 200 feet. Stop putting words in my mouth. Oh, never mind. There's not many, there's not many spells you can get from that. So what that let you do? It's make an attack roll. Okay. that uses your spell casting ability modifier instead of your strength or decks. So, for example, with your bow. Your dexterity is +2. That's essentially what's the reason for the rest. Um, because your next day are already supposed to. In your career, that's +3. So it can actually give you a net, instead of making a +70, +8. I could say it's 28. Like very long, though. Long check beds. Also, if you switch it to, um, It also just switched to it. I totally did not use it. There's certain things to be, yeah. Ramon wouldn't last the day. It's a campfire. Yeah, you didn't choose to use that adults money damage to the game. Okay, not fireball it. I'm going to collect damage at the end after everybody feels over there. Firebolt can't reach him. Okay, they can. far is it? 20 feet. To 100, bro. It's like 30 or something. I think it's a 100, 120. 120, I was it up. Can I hit it with my longbow? Yes, long boast can reach. Okay. Can I one up there? No. Why? It's about to catch us. Oh. Yeah, it's 200 feet away. You can climb up there. With my long, I hit with the, what's it called? 28? With my long bow. Longbow. My long bow, I got. Wait, the attack on this is like... Oh, things have a mess. I'm gonna tell your mom. Okay. I love you. can't worry. I didn't tell you. She'll off mix her tagging. She's gonna. Ironically, the spell, oh, mine, that goes far, this is fireball. Yeah, how far would Bill? 150 feet. Most of us go 150. What's the price I want? Put a 20 feet explosion, hit him. The 40 foot explosion hit him. Um, If the spell... It will not. And it's like 20 foot wide exploding, will that hit even a bit? Nope, I will redo 70. Gosh darn it. Yeah, I know it down. This is pissing me off. You guys are lucky you have archers. You've got some good ones. Are you rolling? Uh, yeah. Can tell, do you have a... Do you have a like bow or something? I have a long bow. Yeah, that would be what you do here. If you want to... Wait, is the attack bonus, like, what you add? They tried to toss some rock at it. Can I just? Yeah, throw throw ups at 30 feet. You probably can't do anything. As a bonus action, can I speak really small? So, can't see me, you can put that work. How would you shrink? How small can I go? She can shift. But it, small enough, then we actually use a big botus to, like, being able to hide. The thing is, you have, do you have a bell? Yeah, yeah, they have a long bow. for themselves? Sleddings. You know, edge wine. No. You know that as a bonus action, I give Piper my... Okay, I'm just... We're just resolving... Yeah, I know. You can't take botus actors as part of Friday. Oh, okay. I need to go back. You're done, done, so just jump. I need to go to the bathroom. Bro, I got 20. 18. All right. How long will it take me to find up there? Yeah, I shot it and it got 20. All right. You shot it and got 20. You got 22 hit or are you 20 damaged? Another hit. Wait a hit. That does hit. Your arrow thugs into it. Oh, damn it. I really hope that just knocks him off his his perch. Wait, if he's young, then tumbling down the mountain. If you jump, wouldn't he take bowling? How long will it take me for climb up there? I want fox to jump. What? What? What? Yeah, what? What? What is your speed? 12? 12? Did you roll 12 already? No, because you have to have a DA. Oh, in hours. This is a DA. Roll it. Not too. Um, +4. So that's a six. She got a six. What's damage? Yeah. Um, can I get those on myself in quite a month there? What did you get? What a seven. I wrote that. Good. How long will it have me? Oh, wait, wait, wait, 67. Then you make a full speed, and you can double move. Which means that bash. I got sick and she got 7, so 6, 7. 200 bucks. I'm so... My drink keeps platting my... making six, 7 jokes. You want to go to cafe? You need 6 points damage, and you did 7 points. Okay. Box of 20 foot. Well, I'm not... He's a rogue. He does sneak attack damage. People don't know who's there. why he did some. I don't like politics. Is he dead? I hope I can't cast 2 smells I want. No, it's smelling it, not drinking it. You see his corpse tumbling down the mountain? Yes. So, but Piper, that spell you just showed me, considering where you are in the mountains with all the rocks and all the other like lift faces and everything. Did you notice the duration on that spell? The configuration. Yeah, an hour. So now. So you could just cast that right now so you don't have to waste around their combat and then we can combat, you can like scurry to the roof. They just hang off the ceiling and should be doing. Yay. Oh, because I have hands free. My hands are free while I do it. Yeah. Yeah, because you just like walk up walls. With my hint for the man. I'll do that. Okay, cool. And the funny thing is, man. does whatever a spider can. All right. Um, yeah, that's a good option for you. Oh, there, Fox. Box you, one... I one shot them? Yeah, because you're a rogue. That's why you play his name. His corpse tumbles down the mountain. Yes. You watch the arrow from Bjorn and the 2 arrows from means. Ark across the sky, in thuddy Noom 3. He doesn't even make a sound. He just almost lifelessly. Oh, you're out of the ball? Oh, lie. He tumbles down the mountain for the wildlife to feed Stone. The box, guess what? I bought 6 and she had seven. Thanks, Evan. Okay, that'll always be good. She did that on purpose. Caitlin. You should fall off the mountain now. Okay, so, You, uh, the drow is dead. Piper, you cast your stuff. Yeah. For anybody else do anything. Gotta go get a popsicle. Sorry, you mean the real world. Yes. I was like, uh, you got popticles? I guess. You need money. He grabs the snow and rocks and... Ruining my emergence, Seth. I make out with this one. just pulls and pops or go out of nowhere. Oh, my gosh. Wasn't too weird shit. No, I'm not going to... in my pocket and pull it out. Yes, you can. I run over to the corpse. I throw I throw the balloon at that one. Because... I got you because I'm very dexterant and I'm hurt. Uh, no. Hi, Barb. Sorry, guys. What are you trying to make a point on? Did it stick in your little dog? All right, you run over to, Did you make popsicles? Sorry, this is on your mom's block, you know? This one's kind of candy flavored. We have America flavored, rainbow flavored, and cun candy flavored. Oh my god, American gay? You want Nigerian? Yeah. You can be like, right, flavored. Can y'all give me one? Yeah, I want French. Okay, you want French? Oh, because it's black. But they're filling. Why did they buy you that pillow? It's dirty. Yeah, and and finch. Like... Like, he was trying to make your finch room. I love my French flag hello. Yeah, I hate the French. Everybody hates the French. Even the French. Not me. I think tub. I like the way they sound. And I don't know, just piss me off to learn that they don't like it when you speak to them with their language. Like they don't find it. Like they hate it. You hang out with the Spanish, the Mexicans, because they fucking love it. Yes. Right, I haven't too much. Oh, it's not French flavored, it's America. It did say it was American. See, actually, miracle, like, excesses America, not, like, it's not just colored that way. It's just cherry flavor. Tastes like freedom. Under foot, though. Read up, don't know how to taste like cherries. Not good. It's like... Enough fun for not really... Pepper. Freedom. Well, it's gay. Jay Popsicle. Look, it's weird. I don't like how this is shaped. Like, I don't like the pattern around it. Oh, I can eat it. No allergy. Shut up. I in here. Okay. Do not fear. What are you doing, Odin? give you the popsicle. Object only time. Alrighty. I go over to the corpse. First thing I say is that's the exact same area where I shot my mother. Can I look in the, I wouldn't expect any laugh. I like scourge at the, like, Can I look at its things? Sergeant, mean? Yes, sir. Oh, by the way, I shot him in the balls. I don't tell any that would that do 20 damage to anyone. I killed my mom too. Remember dad? What? Can you tell her to stop? Yeah, stop. Stop with what? Inappropriate commentary. You can play the game without being annoying. All right. So you search the body? Give me one second. Your, the body, my shirt is the body, hand crossbow? I want 10 bolts. It's actually used to be valuable. I don't know if it's. Wait, what was like the corpse? What does it look like? Like, what? It's brown. What's the hand cross, by that? female drought? All in black, white hair. Um, ooh, ooh. Black skin. Not like African scandal, like black skin. Like the color the color of the DM board thing. If only if only she wasn't able. Okay, can you tell her not? Yeah. So, yeah, let's let's let's make some data. Stop being such a narc. have 3 table rules I'd like enough to try to purposely circumvent the box you listen. Yeah, okay. No drugs. No drug conversations. No joking about drugs. Okay? Ale and drinking is part of D&D, but we're not going to do it to extent. Okay? Alcoholism is serious disease, like... Don't interrupt. All right. Number three. No more heavy-handed sexual commentary, okay? lets just keep it PG 13. That I agree to that? Does that sound good? I want to make a more fun experience, sort of. Yeah, what's your question? No brain rot. Okay. Yeah, and we'll keep that to a minimum, but that's, you find that actually really upsetting? I find it very annoying. Okay, so we're going to minimize that too. Can we all redo the table rules? Yes. Is that good? everybody? All right. No, no, no reference to drugs, no ref, no, no whole referencing alcohol in a positive way. And nope. No postsexual comments and no brain rocks. There it is. Wait, does that mean like I can't rid of like random? A little bit of funny stuff like that is fine. Let's not make it gross or weird. But what about mine? Did that did that count as over the top? No, just let's okay, we'll put here. use an old political phrase. I'll know it when I see it and when I call you on it, just turn it off. Okay? Easy. Not a full little core phrase? Cool. I was wondering why this warrant wasn't... I'll know when I see it is from a is from an old Supreme Court. play that later. I was wondering why he wasn't ruling pirate in the leg. The entire saying is a... Well, and then I relate the question of D 20 Yeah, okay. So really briefly, the 1980s, there was a photographic magazine that was brought before, bring port for loop, for 1st Amendment violation because they were trying to publish something in the, They were being prosecuted for it and they were playing the 1st amendment defense. And the judge famously said, Everybody knows what pornography is. We know it when we see it. Because it's different than like, Michelangelo, David, which is a new figure, right? And that's where that saying comes from. And so I know it. So, rizzing things up and joking with the NPCs is funny. Some of the less appropriate comments are not. We don't need to make an objective part of the class role. I just tell you, and they're just like, what is there? Are you in teapot? Or I'm just going to say every perfect, or is that table reminds my character of someone they knew at college. I already said what Lily's character reminds mine of. Back in the game. You are UCAS fighter walk, yes? Me? Oh, yeah. You did, totally. Ben, I forgot. Spider-Man, what? Spider-Man? So, well, well, Fjorn is losing the drought body, yes, yard. Did you write that what you got or decide, would you write down what you guys got? You're still letting me get again? One hand crossbow. I got a hand crossbow? Yes. In one vial of drought poison. right The hand crossbow goes to Fox, I assume. Well, it's kind of in the party. What's the stats on the hand crossbow? Give up, look up. All right, it's sand weapon in PHD. Already. Piper. After, uh, Will of cast, Spiderwalk. What's other fun? You notice a glowing Bot. Why do I notice it? What do I notice it? Because you do. Why? Are we good? Okay. Like, why? You came mentally? Stop asking dumb questions. Yeah, dude, just play it again. Damn. I'm telling you, we'll prepare your cheese. Like, so you pass the spell? And when you're uncasting the spell, your feet feel like they're sticking to the ground and you can like walk harder. You like that, can it not? Can I just feel like very light? Yeah. Okay. And you see a light on the side of the tree. The old dawn of light. Okay. And then you see, by the way, this is... I don't want to... dude face, you guys snaked out of the trees. Dude face? You know his voice. He's perfect. He's just browsing. A drought. Not these bald Fs, alps again. I'm taking a picture of that, making it a sticker. I'm making that sticker. I can't laugh properly because of my voice, because my voice died temporarily. That amount of a tree, a hole in the tree, but just been around. I heard some weight. It flies down. I pick up the hand cross, but I just pulled out of his body. She like buzzes around you one or 2 times. Did you guys? Oh, where'd you from? A little bit of magic you got there? I get really scared of my hair. They like, lives up your hair and look really uncomfortably, like, sniffs the nape of your neck. I know. He was not like good magic. Can I hear her? Do I see that? You know exactly what. What? This is, um, This is a Faye, and she is obviously sees you, passing for magic. Well, imagine you're very familiar with them as a drill, because they're all for the woods around. So what's she doing? Why? Why? You thought you would have to interact with it. Cannot. Oh, that's right. If they fucked up, like, could be touched? Okay. Kind of slap it, no. Your friend shot the big ugly one out of the tree. Thank you, Brad. You hear this. I start speaking in Fey to it. You say okay? Yeah. Oh, sure. All right. Move high school. Should be. No, he doesn't. No, that's under common, right? No. Undercommon is the Drowse language. The Drowse language? Yeah, you speak the drowel of their own language. No. Um, I started speaking in orc to it. Do you let her face, like, screws up with that? Because your friends do terrible things. Don't worry. Don't worry. He's just, he's just, he's just fucking with you. Whoa, that was on PG 13. I'm... That's not what I meant. By the way, I am only cursing out with her right now. I have a question. Would you speak? Do you? Oh, this out of care? Okay, you could be in game or a game? Where'd she speak Drulik? Good, if you, like, root. So, that's fine, but, like, here, instead of asking questions like that, you can say, I ask her in Druidic. You know who to speak through it? Okay, I'm not doing that. No, why? I don't need to know. You know what I speak. It's actually really good. So, I'm suggesting you do that. No. I'm so naughty. Do you know if Germany gets a secret language? Really? Yes. Only the Faye injury. So, I don't know, I can't be trying to. You can't you can't go to school to learn duet. You can only become a druid speaker. So that's why I meant that's a good deal. Also, like he speaks Steve's hair. Steve Scan is another secret language. that only other rogues have. every classroom has their own secret language. Miligernate. No, wizards literally go to school to get their magic. I only have three. Anyway, I only have common Wolvers and Elvis. It's it's racing background that determined languages, most of the time. Oh, you can learn one now in a skill, if you want. We can talk about it. Anyway. So, what do you do? Me? Yes, you. What? What does this? Does, um, will it say anything? Individual? Oh, what are you doing around these sports? What are you doing around? Okay. Cheers. Oh, well, everyone else decided to leave. So I thought I'd stay. And then all those terrible, terrible drought show now. And I thought I actually was left too. But I couldn't. Because if I left my hole, Big ugly, when it shot me. So, I waited. didn't you all showed up? No, you're welcome. And you're terrible orc friend killed them. We were careless or... I turned I turned into an orc. See? He's a little weird. Wait, wait. And then, during to a draw and starts speaking in the under... I made it a sticker. Oh, what was that? And I don't like it. No, that's... Monsters, like, she would just size, wouldn't she? like, don't exist in this world. But she's not stupid, right? Like, she can see... And so she's just like choosing to ignore his antics. Like, we haven't just being popular. They honestly don't know what she is. I don't know that he does either. What's up? I saw a fe over by... Whoever? By site B, if you know where that is, it's like... Yada, yada, yada. You could also say the other bowl. The other hole. Ah, what's keep on? Um, another Fay. And do you know like anything about that? Nope, they all less than the holes opened up. So the hole was there and another thing was there. Maybe it's somebody like me who just didn't want to leave. The whole... No, the holes club. Maybe that day was returning. Oh probably, yes. I started climbing up the trade to get a closer view of her. She's on the ground. on the ground next to him. Oh, okay. Fucking loser. Sorry. Are you okay? Wait, I need those on that. 1st one, the 1st one you guys closed in the 1st session, the 2nd one you closed, the last session, it looks at the 3rd one. All right. Which is only there, so we have one more of those posts? right. Do you know where the other hole might be? It's literally inside of us. Oh, that's right. Why did you ask such a stupid question? We were literally heading there. No, no, don't. Uh, I, I asked the, I asked the ferry. Uh, fairy, what would you know about the, uh, the, it's a fairy specifically. raisin pipe. I'm a Fay too. These are actually... Okay, it's better mission. Okay. Yeah, let's make a trade. Oh, I love trade. I'll trade it for you. What do you What exactly are you offering? I know. Lots of useful things since I've been sitting here since they each other. Okay, so, what do you want? You have. Um, money. We've got one weird. Not that one. No, no, we don't. The thing, so, Everybody will make your check. Anybody that gets over at that, raise your hand. 13. I also got a 13? That's 20. These kids stop rolling dice. You guys know. that Faye are famous for, um, making deals, they keep their deals. But they don't give a shit about physical possessions. Unless there's something like really weird. Like, The pendant your father gave you the full sassets or something like that. Well, most of them are not dead, but I haven't done it. I persuaded her to allow me to do a performance for her. You should sing a song that has never been heard. Come play, Lucy. Oh, boy. Did I play some?.. I do have a song. Yeah, I roll performance. I'll also role performance. Do the lammy lam, bog. Gravity Falls. No. It's too late, you're doing the lambly lamb song. I got a 21. I rolled in that 20. You holy shit. You two performed an amazing song. What song do you perform? Uh... The Ballad of Gringle Crop. That's not here. Enter Sandman by Metallica. Let me rephrase Mike. Remember the prostitute game? No. What did she give me? I just yelled at you. A song that one never has never been played before. So what do you think she's putting value on? Uh, creativity. Creativity. Yeah. Loser. I play a song that I've made myself, but have never performed yet. Excellent. Clap your hands long to the melody. You guys pull in the base. Everybody in the party. It's just like some of the best music you've ever heard. Thank you, guys. performed in real life. Thank you. Can I start like grunting like an orangutan? I have them? Sure. And then you, um, just like Brad. Who's Brad? I literally compared, my character literally compared your character to him whenever you 1st spoke. What about Gundam style? Whoa, whoa, whoa, whoa. Also, she looks like you. She goes. inside. They have chained up a giant swipe. The spider is not tame. It is not their friend. But if anything touches the silk curtain in front of its chamber, it shrieks. Let me tell you. Woke me up so many times as they bumbled about in the middle of the night trying to go to bed. Oh, 2 or 3 times. I think that's TMI, low-key. Do you not go to the bathroom? No. Wow. Um, uh, I've heard that. Gonna die. She's a mom. That's what you mean. I'm an awesome here. Is it? Nobody knows what those are. You're an ass. What do you think is an Asimir? You're an elf. Oh, I'm your mom. Don't say that. I'm gonna die. I'm I'm your mom's husband. Oh, okay, leave. That wider Passimir up. Show me out of the game. I am a high up with the with the vine blood. Yeah. I like how early has the 2nd word, right, that of all of us. in this world. You can be an Asimiro paper, but you are just a, you know, that fits into the rest of the world. Yeah. Well, one of my options. What are you? What's your raise? Changeling. The party doesn't know what to win. wouldn't that make sense? Your, okay, so because Olympic portraits are, whatever, I'm just going to say the control looks that stay where they are, but you're, you've been wrong tents and purposes that has an adoppelganger in your life, all right? So, like 12 generations. You're a double ganger, is? Uh, they're they're the monster that uh, reanimates. No, sh Shapeships, yeah. But like way more perfectly than you. Like, the actual documentators. Can I start glowing? Um, may I say something real quick? The party doesn't know that my character is the, The party doesn't know what type of alpha my character is, and that's because my character, her doesn't want to be seen as a xenophobe. Because like I said, my character said, Elf is known for being really xenophobic. Fear of other cops. Fair of other what? Oh. Oh. Oh, can I use some vegetation to make it? Look like she's on fire? But why? Okay, can I make it early burnt toast? All right. So, you before we go, pull it, pull it, the rest of you, after telling you that, instead of... Oh, yes, you go. We pointed on him. Because I did the most of that. What are you doing? I got a 920, I have a plus nine. So I thought. Boxing, 3 books. Is there anything else I could do to help you? I really would like them milk. Okay. Um, maybe... Uh, wait, what was the name of the city again? Oh, Shadowdale. Maybe if you see any, you could podcast walk. Maybe you'll perhaps, like, go to Shep. I don't they don't warn us if we are there, or at least try to find us to warn us if you see anymore? Absolutely. All right. If anyone else has any suggestions, how, how this kindly can help. Uh, I assume they, they'd be greatly appreciated, I assume. Did you find a magic artifact with minor illusion? You want to join like Cole? No. May. I'm going back a bit. If we, if he died, did he fall off the thing or did we have to climb up there to get to him? He fell, he fell, he was a personal treat. You're standing over the floor. Wait. Then how was he 200 feet in the air? He wasn't, no. he was 60 feet up the tree. You guys were, like, a 100 feet away from the tree. So we were 160 away from him. No. That's not 200. Oh, you want a mask? No, no, no. you're right. You're right. It's not. We weren't doing it or something? You know how to do it. Yeah, okay. Do it right now. He's doing trigonometry. I'll right back. I don't want to do chicken noggy. We ever get homework again, I'm making you do it. Nope. I don't like under the pack of things, you're my... All people? Yeah. I'm hungry. Okay, that's great. See me. Does it have to be human? Feed me. Oh, I'm going to get enough. I am going to get another popsicle. You're addicted to this. It was. It tastes good. They do. Okay, it was 60 feet in the air and then across it would have been 190.78. So that's not 200. That's not 200. That's 200. piece of garlic bread. Garlic bread? A straight shot would have been 200 feet. I could have ran... Wait, and I didn't need to climb to him. Why would he say that? There would have been more things I could have done if he would have just said that. What? Okay. No, he was 200 feet away. Was the garlic? No, because then it would be like, you would only do 100 because the angle we were at, if I had ran closer to your, I don't want garlic. Like there even 3 people get me closer and I'm gonna take from September. would have seen them. We had 5 seconds. Okay, okay. Really, really quickly. for everybody who's been mildly interested. Drown a tree. You're going to buy the market. Right. It's a, it was a lot. Why did you use green on green? I didn't see nothing then. So behind you in that blue basket is a bag of markers. If you were 60 feet in a year, then it would have been 190 feet. off. Or you use a smart earn? Yes, it is. Give it to me. Thank you, sir. Have to be. Thank you for the math. That's 60 times sexy is 30,600. 20 times 20 is 40,000. 3,600. So I'm actually getting 2nd 40, it's 200 is. 130. Keep thinking that. 6.6,000. Okay, here we go. Drown in tree. Okay. Here is the party. That's great, Lily. Down here, do the words. Here's Lilith on the ground. You know that the drought is 60 feet up the tree. Yeah. And you also know that you are 200 feet away from the drought. This is the ground. I got the basicle. Rounded, it would be 100. I love for my goals. Wait This is a right angle. I think it's 90 degrees. Just remember when you're young. The question you want, why? No. I said you were 200 feet from the drought because it means how to attack the drought. So for said, to shoot his magic missile from here to here, it's 200 feet. Okay, you can view this way too much when you said it. But I can't get... Yes, he did. No, no, no, because if this were 200 feet, you run 200 feet from the base of the tree. You're 200 feet from the draw. Because that's the line aside for your bow or your magic missile or whatever else, right? This is geometry, or this is triggeometry. So the Pythagorean theorem is A squared, plus V squared, and you can see. This is 190.8 something. I want to kill Pythagoras. This is a B. Love you, Seth. This is C. So, you also know, here, we're just gonna do some math. I love Angles. Plus, So this is 60 squared, equals 200 squared. And we know that this is 3600 and we know this is 40,000, 40,000. you. You taking? He's faster at that than I am. Everything like aesthetic? 3,640. Four, 3, 6.400. times. So I don't have to get them all one, three, A squared, and then A is equal to what? 190. What? Yeah. By the way, I need to. I mean, we've been wrong by your. I initially thought I would get like these. What's 100? Hey Siri. What is the square root of 36,400? Hey Siri, what is the square root of 36400? Oh, there's 190. Yeah. So this is 190 feet. You are off by 10 feet. That's No, he was right by it. He was wrong. It was a straight shot. Too long, right? I could still run. I thought we were climbing. Why did you say climb? Because I acted like a good closer dude. Wouldn't I be running and not climbing? Because then you were like, no, because you're walking people, you cut it off. No, no, no, no, no. Okay, no, she's right though. I actually understand her point now. But if you get to the base of the tree, you're still 60 feet away. Okay, but guess what? That's even that's close enough for me to hit something. Okay, we have, we had, that would have been useful. No, no, she's got you guys. She's got me. No, no, no. Now here's, you said we had a snake accent, which we did. We did. Well, yeah, yeah, yeah. So you're getting into the round math, which is that you can't make it that far that fast without doing something weird. He's right about that. But you're right. You're right. In the future, though, that's the geometry for somebody up the tree. Thank you. Sorry for misunderstanding your question. I'm gonna need that later in life. Well, my teacher made me do something like this. She made me do the star movie. Bro. Bayorick? Yes, Baylor? Real stacks, papers on Piper's list. Oh, bad. What? She, like, gives me, I suppose she gave me the frag, and she taught me it, and she was like, yeah, you're gonna do this because I know you're smart. We'll just give you extra check to do. Yes. It's what you would be learning in the normal class next year. And even then, you'd still be learning an algebra class for the PSSAS. Why do we need to? I'm doing the high school equivalent of the PSSA, the east coast. Yeah, Darren, uh, it's a part of June. I don't do the PSSAs. Yeah, you're a broad school. Theater is all right. I'm sorry. I wish I didn't have to do the key. Why you not great, which is also technically a private school? No, well, like, what touches she did? Doesn't do it. Private schools don't have to do tests. No, I don't want to. If your school's making you do them, they don't have to. God, doubt it. If I if I do good on the keystones this year, do I have to take them next year? Yeah. How about extra? I'm in the pools. I don't want to take the keys. All right. So I have to take them every year you are in high school. Up to 11th grade. if you ask me math questions, I will geek you out and answer math, please. Actually, you didn't, because you said my answer was wrong. I didn't think you had, I honestly didn't think that that could be 190, that'd be like 140 or 50, like 100 times 100 is 10,000, which means 30,000 would be... Okay. You are, and always have been better at that quick mental math than I am, and I just couldn't give that back. By the way, I'm honestly glad I wasn't able to use firewall because I did not want to kill her. I wanted to. The bald fairy. That's really good point. Yeah, if you would fireball the tree, you would have killed Quillet. By the way, still... Oh, I mean, they didn't know if it was in there, though. Yeah, I, but it wouldn't, she still would have blown up the trees so she would have been dead. I go back to my formal adjustment. So, Sam, you asked them to tell you in the future when you're back in town to see them brow around the world. That's what your ass work? Yeah. And she gave you the intel about the spider inside the cave that screams was uncouches itself. Yes Yes. Okay. Oh, starts spearing. And he also, anybody wants to ask? Um, no. Uh... Wait, actually, I will. I asked them just a random question about fate. Imagine confirm a theory I had. The theory was that fame, Hagic is like a direct, high from wild magic. Some way. Can I ask her where to get 50000000 bananas? And you know what it is? Okay. Sorry, you mean Lily? Why is she bold? That's my question. Why are you here? Today I asked them that. You said I have hair. 50000000 bananas. And he said he... Immediately, a friend of you, um, like the literal man. Radiation poison in my banana. I helped the man with she. All right. You guys need to take a break or do you want to play? I go back into my regular phone, by the way. Yeah, I'm kind of hungry too. I'm only cookies. They're, they made, like, some, I don't know if they turned out very good, but they're, because she said there was something messed up with them, but there are some no big cookies in there somewhere. They said they turned out bad. I went back. I watch baked cookies. Well, it's still a lump of chocolate peanut butter in like turkey sauce. I went to yes bake cookies. Oh. By the way, before I change back, my character says, I don't feel comfortable in this couple. This type of skin does not suit me. Brace it up. My character doesn't have a race. You guys don't like them. All right. My character can be racist at anything. you want to go somewhere? Yeah, I'm gonna go somewhere. Yeah. Okay. Yeah, yeah. I'm taking aesthetic pictures of dice, so I can make a, um, wallpaper or D&D. No, it really does look like she's awesome. Oh, I'm so sad. I'm so sorry. I was in the, I didn't look tragic, like, I don't know. You're on the, but on the microwave, you know? No, I don't, why do we have? what is this study? Math, math, math. What porn? Well, that does have to mean me. A map. I mean, you could ask her, but. Hey, can somebody get to the oven? Huh? Can you get the other off, please? What is it wrong? Nikki's making, um, uh, stuffed peppers and they're done. I saw. Yeah. Thanks. You're welcome. Oh, we can make no bakes after D&D if you don't want. We don't have any Instagram. Oh, we don't know. What happened? Can we buy some so we can make no big? You can walk down to the ID. Not tonight. Yeah, this will work there anyway, but... All right. Willing, willing, sir. Applied at my skin in order to take out the wires underneath it, but all I saw was flash. Oh, where is that good? Some's on the room. Sam, are you in the green couch room? So. So. What? He said, we don't know if you just disappear like that, bud. You gotta let us know. All right, okay. I feel like most of us are him. I didn't know. I'm ready when you guys are. Sorry, this is... I like that one. I hate you You lie. You lie. You can make chocolate jet cookies. Like right now? Not right now. We have to finish everything. What time of India? All right. All right, going back to the picture. All right. So, you go to the cave mouth? Yes, no, something else. Game out. Good miles. You notice because, oh, and only because Philip's, uh, world. Here, I'll get some. They're Walmarts, in threads of spinach, so dangle them down. You touch it. Okay. I'm going to start actually having your therapy in your life. What? You what? What did Philip tell you? Do not touch it because he screams. Maybe she's lying. Okay. No, she wouldn't lie. I'm going to just have your character do whatever it is you say. Okay. And if it bumps everything off, then it's like, Consider that your water leg. Anyway, I kill it. That's... Spader. Or, I think the spider, are we playing drum? I, uh, could I roll this the, uh, do I have to roll an order to, uh, get through the strang? So, there are a bunch, a dozen, little play thin spider silk red dangling over the doorway. You have to find a way around that. Wait, all the way down or they're like a gap? Talk about yourselves. So what the plan? Can I intimidate them? All of them. No. Okay, well, I can acrobatics to open them. I could too. You could use your flow. But that's a chance. Uh, you don't think you could acrobats, right? They're like, let me just. Could you burn them? Wait, could I use light? You do know spider? You there's not a lot? It's not good, yeah. I don't know if it works. You just know that regular funny symptoms. Do we know there's like a, if there's another gap somewhere or is this the only gap? I mean, you don't know for sure. actually. Could you, you, kind of, look for another... I know the perfect way to see if the spider will burn. Burn it. Uh, could I, could I use fast hands? So I have hand? Make it a dexterity slide of hand check to pick a lock or disarm a trap with thieves stole? You think that you might be able to do that? You also think that you could also do scouts if you want to. You actually have spider water. What if I cut them off with my great sword? I know, well... So we have to, we have to go in sequels. No, you're good. So, first, um, Willip goes, walks up the side of the mountain. You want to travel happens? I walk up the side of the mountain with my big trusty feet. Oh, sorry, Ray. I'm completely sideways on this mountain. Spider-Man. Thanks, Spider-Man. So you walk it off. Oh. Roll a perception. Oh, perception. Both did. No shot, man. What's my perception? Okay, you got that one. Okay, technically I've got a three. Oh, I'm sorry, you didn't need to roll that. You use athletics check, but you don't need to look into the, uh, I spell active. You walk up to the top. And you see that there is a small gap in the rock above the cavebell. Okay. It drops down into a chamber below. Okay. Can I hoist my friends up? No. How far is it? You can use, they need to make an athletics check to climb up there. You can give them advantage by like pushing them. Okay, I go down, not... Well, tell me this song? Oh, yes, guys, opening up, go. I have, I'm so worried they didn't need to do an athletics. My aerodics is negative one. Here's the parameters. DC 15 athletes. You get advantage, it will, it helps. If you fall, you take damage and you try again. But I do acrobatics instead. Okay Wow. I'd rather disarm the child. Why? 11 +6. 23. Can I be up for bad? No, I'm trying. -23. Yeah, but I have a +0 on a. Can I get off with that with acrobatics? I am ironically better than... just asked this question. No, you cannot. Someone's 23. Twitter? Because of everything. And you're almost off the evils. That's a plus four. Yeah, the answer is no. What about 19? I plus four. I thought she said -20. No. You need the better of the two. I just got 23. Like, how do you get? 14? 14. 14 is not quite good enough to fall. It's eight. By the way, uh, Was that what the major? What? Did you play with their band? No, I don't. Okay, you wrote with the dead, you've said your old best. Yeah, the higher one was 14. I have a -1 in athletics. Well, you take 2 points of damage. Okay. Good. Oh, I got 23 from my, yeah. You were rolling, you were doing it. Yeah, I do, uh, the side of hand. 14? There's no coming, not trying. Well, actually, there it is. Okay, I'm gonna give you a +one because you failed the 1st time and you did an act better so you succeed, everybody succeeds so far, except. That means I'm actually 16, it's +one. Cut this on chap. What happened? Yes, you did. What? Understand that you're, pedal that's a fooling, is you set off the trap and all that. Just try to climb mountain with, well, health. And you fail, you take like 2 or 3 points damage, you try again. See, good enough. Yeah, you could do that game theory yourself and decide what you want to do. You say you wanted some traps, I'll do the roll of some traps, unless you're paying yourself. It'll be in his sleep and drag his ass up the middle. Okay. Bye. Wait, no, I think I have something for that. Try me, and if you fail, I'm immediately going to set the crap. All you can talk about right now is whether you're going to walk up that mountain or you're going to talk... going to roll side of hand. Okay. They know, you guys get... Wait, wait, wait, wait, wait, wait. I slap him. Can I use guidance? Can I use guidance? Not near me. You know he's gonna help you out this damn house. Well, you touch a willing creature and choose a skill and until the spell, all of you guys, I rolled a 20. To any ability. Yeah, you can do that. I rolled 20. Okay, well I don't do that. It doesn't work in this, that's off the top anyway. Where's the dog? Right there. It's a working. On the diet. What's your? Yes, technically that's funny. Oh, yeah, okay. You didn't even need me to touch you. Also, to be clear, she was of the mountain already, so she couldn't use guidance on me. Well, I mean... But anyway, yeah, fair enough. Okay. You're all in the antechamber. It is a 30 foot, like 30 foot natural cavern. There are 2 bed roll piles. A cook fire, smoldering in the center, then a weapon rack against the east wall, holding 3 hand crossbones, and, like a stool. Yeah, did you see that stuff? We take the hand crossbows. That one. My phone pocket. Yeah, wake them up. Um, As you drop in from the ceiling, You startle 2 additional drown. One is sleeping and the other is making arrows. Uh, they are surprised. By beat apart, because... Um, Wait, are they the bad draw or good draw? They are 10 feet apart. I'm not going to lay the battle match out and what's going to be like entertained. Um, no. That's right. Let's see. Over here. So they can room on that lamp. Got my whizard ready. That's hard. Squids are. How goes am I to them? You're gonna make a plan? How was my mom? I know, said it. One, three, four, five, six. Three, four, five, six. Okay. Oh. Why do I have to still be the same person? That's the fire. Um, This is the cave mouth. Not a baseball? Bjorn is right here in this square. Where's my? Where am I at? The ceiling. Yeah, so those are the figures that came, I don't know who's who. I'd be standing on the ceiling. I am I am this guy. Here's what I'll ask you to do. Put a dice underneath your character. No, you're not on the ground. Okay. Like my character. Where's my character? It's still the dog, right? Shut up next one, okay? I'm still, by the way. Or pick a dice. Who need a dice? I mean, where my character be at? Is it the tower? Oh, that's fun. I'm so confused. those you that entered from your ceiling hole, which is everybody except Bjorn, can be anywhere in these squares. I'm going to put down my. Wait, what is it wasn't here when we picked up? people. I am here. So that takes 80 points of fire. I'm not just kidding. fun is here? A fire pit. That's a burning fire right there. Never mind. I hope you burn. Who is the tower? Um, I think it was, um, Lorak, Lorak. So, It's fine. We have enough veggies. Okay, so do you like that, dude? Okay. That is? I don't want to do that. I'm not a good woman. Caitlin, it's a big year. Yeah, just wait, I can fly. Oh, this? Oh man? fly speed. Like, because you can't apply speed. What? You can't have flash speed. Okay. Well, how do I remove that? Do I just like cross it off? My mom wants to know when they're saying this. Oh, is it from the, is it from the, um, What is it, Pacific? I need to go to the room. That's applying. My mom wants to know when this ends. 67. It's past eight. I should have a clock moron. I'm not talking to you. Well, we just got into battle, so. Were you looking at your clock when you said it's six, seven? I was looking at hers. So, okay, okay, and you can fly, but only, if you read this, only once for long rest. So, I haven't flown before. No, that's true. So you could do it in for one minute, you'll have wings and the ability to fly. How long is one minute? 10 rounds. But like, but after that, what can they do again when you respirate hours? Okay. So that's the trade off. This is like the intro fight, so I don't know if I burned that here, but that's okay. There's another fight? No shit. It was like the, it was like the chamber of the beginning of the dungeon. We not going to get through it all night, all of them. That's okay. You think? What time are we, what time does D&D end? I don't know if you like stop. You can stop after these combat. There is no cookies. Sure. Oh, by the way, you know, The entire room gets smoked, right? No. Can you make him not do that? I'm going to light up the entire room. So here's how, okay, I'll give you guys some buds. Party convenience. If my only does that, well, she can't. You can afterwards say, hey, Fjord, Please don't do that again. Because I can't see through it. They don't know it was me. No, we do, we do, chilling with you forever. We know your tricks. That's fair. That's fair. That's a fair point. That's fair point. So, why don't you guys have that conversation earlier? You could also say, hey, we talked about this, please don't do that. But Mm-hmm. What do I do about it? Well initiative. The room gets smoked screen. Actually, all of you, I'm sorry. All of you actually get A's, you get one surprise round. going to kill these guys. unless you do something wrong. Just roll. Everybody take one action. Uh, I shoot it with my crossbow. Okay, I don't really have, like, a one that will be, like, 20. How good are we all together? Would I be able to do? Okay, I had. right? Well, what does each square equal? I, I, I, I think square. Uh, but I had 25. Uh, let's just say I hit the one that nobody else is targeting. Everybody target the one that I'm not. 16. Yeah, we're all people. a DA. Oh, sorry. Wait, are you using the version? One and one. Everybody go with backwards. Okay. It's a deep one, 8 attack. What do you bet? 21? 86. No, I hit damage already. The orange, you already get to pick the one you shot and take it off the board. Um, I don't 12 games. Free and five. I killed one of them guys. Relax, 8 plus. And I just like, bear on attack them. I know that's not me, but like, okay, I haven't... Oh, you're so right. You keep forgetting about your wild. I got home. Oh, can I become a dog and bite them? Oh, I thought you said that in Roma. I was like, You need to look up what you can turn into, figure out the game status for. I don't know. Like character starts laughing like this, just you can put in like droid, thick-level little butt. I got nine. Nine to get for damage. Oh, damage. Okay, between, between, um, What's your character's name like? Uh, Nama. Nama. Between Nala and Kito, you guys kill the other one. They both die. Okay, challenge rating up to... Nonexistent? Oh, they, uh, wait, what's your, uh, what's your, what is it? Druid. What's your substile ass? What's the subclass? A subclass is, um, It's your subclass. It literally just says, it's a subportion of your class, Piper. Where do you find it for? Look at it, then, gang, grandpa. It's your character. You should know your subclass. I keep saying battle to my mom. Well, can I become a Darwolf? It says I can on the Google. On the Google, Google says I can become a dire wolf. at what level? Yeah, what's your American? Great question. All right. Um, so you've killed the 2 Drow Scouts that are around the fire in the anchamber. There are two. I think they're Benjamin. I want to go back up. You are the circle of dreams. Wait, I'm looking. I told my mom, we're probably finishing after this battle. Okay. Ari? I have. Piper, this entire time you've had a heal ability. Oh, I do? You have a 120 feet radius heal a bill. Oh, they built my entire character to be a healer for nothing. Yeah, apparently she has one ability. Well, I have like 20. Wow. Oh, she can do this every turn as a bonus action. What? Oh, wait, what's it called? Oh, you have an energy pull. Okay. Can I tell you guys some things? Yeah. Whatever. Get some food. decision. Okay, Piper, as a bonus action, you can use up. So you have 5 D6 and as a bonus action, every turn, you can use one of those D6 to heal up to one grager. You can heal, that creature also gains one temporary hit. I have cure wounds. I don't know how to find those. Move to a sort of a pie. Oh. So we actually only won combat left. Do you want to benefit? Yeah. Yeah. What's that? of one. Well, actually, depends and helps. As a dog. Oh, dad, by the way, um, my character starts laughing like a trouser goblin from Diablo 3 whenever he kills the woman. Smith left the fridge. Or in the last set by you. Okay. I sorry. Can we scooch? What? You can be terrible. There is... Oh, bar. It's fun. all its abilities. Yes. I'll look at it, it's not done. Mm, 7 for each day. Yeah, very intelligent. Drury dogs, wild chick, badass. There are 2 eggs out of this room. What exit to the east is covered in Ah, spider soap. The other exit is a stone archway. You are sure that the spider silk curtain is holding the giant spider that Quilleth mentioned to you. It's basically a giant alarm system. You can go that way? Or you can go through the so archway. Subcast fireball into that room. There is a... Four. Hold on. So, Rinstone Archway. is a, um, Before you go through the 3rd way, you can see in, um, The bed rolls. Somebody said they started to run, right? Okay. You find a, Swollen there, written in under collar. You speak Santa. Me. I don't. I hear it, Tim. He tells you that the, uh, It's a German. It's Jeral's German. Dry? He journals every day. Well, they tell me. It's true that the captain of the drowel that you killed in the very you attacked. Remember the guy who ran away? Yeah, that Catone knocked down? Good job. He's alive. And he's been demoted because of this deal. But he's here as a lieutenant to a priestess. who is helping this, um, this party, former ritual to blow the side of the mountain so wide open that it will not be able. Ooh, we've had to stop that. I talked to her about religion. No, no. Let's say another one. Wow. She's a drow priestess. Okay Badly. It's a bad thing. Our religion's way different than yours. It's there a way it could probably like shoot firewall, but there's a giant spider goddess. Oh my god. I love it. The word with Lily. L-L-O-T-A. Yeah, my characters are tackling like a treasure goblin from the other. Wait, I'm Lola. I want to slap that thing. My slot hurt more than you. Yeah, it's nice. I could slap you with a snake deck. I will bite you right in that box. What? I'm gonna start glowing and you're gonna, your eyes are gonna explode. That's not a straight line. What? It's almost as straight as you. Exactly. Okay. Hold on. What is 4 daggers? Wait, what? I have 4 daggers. Good. Look up. Yeah. Well, the word. How do you afford daggers? I just have a bunch of daggers, too. How bullet is the room? Can I, can I, can I, can I light? Oh, yeah. Please, okay. okay Uh, the brow has perfect art vision. They never use lights. Okay, okay. All the lights they use are ultraviolet, okay. Wait. Everything's dark silver. No, I have. So we can basically all see. Who? Who's human? Anyone? I'm technically a human, as you said. But you said you had you were changing something. Wealthy, wealthy. No, he doesn't. Yes, dark vision for his doppelgang or ancestor. That's right. No, he doesn't. So we're just going to wreck on the name. Okay. Why do you keep recomming stuff in? Because it's fun. A lot of things. Which one? Oh, I didn't know it was a lot of things. Good answer. Totally convinced. Thank you. You haven't reconed anything in yet. Thank you. I still like dinner. I'm aware. Can I just cast light? Yeah, you can just cancel it. Why would you do that? No, easy. All right. No, because, like, now... Oh we've got some on my car. No, no. Oh, never mind. You know what? I'm a stupid Chad, Piper. Yeah we're not surprised. You're always a judge in real life and in game. Oh, do you want these pieces back? I'm just kidding. You're so no. What is this? How does it feel that I come to your school for one year and I already made a raffling team win? For the 1st time in like 10 years. Nothing. Because, I don't know. How does it feel? How does it feel? You should be ashamed of your school. All right, high school too. Okay. I'm going to lie a bad choice. Okay. Not Lily. Let's charger doesn't stand anymore. Huh? Guten's character doesn't think... What? This wasn't me. It was, this is literally Hawk glue. What, what? What? You ripped, it's like, when your legs don't work like they used to. In the letter you were reading from the Drowds Federal. Yeah. He mentions that the performing a ritual. The ritual is to create what's called the anchor. The anchor is a thing that's going to blow the side of the mountain open, anchor the under dark to the upper world. Can they not? That's what we're here to do now. Yeah. When you enter this room, I'm going to talk about the anchor, the anchor is circled in the middle of the room. It looks a black hole. I understand it. Sure, dude. So it's a circle of black energy in the center of the room. At the far end of the room is a black altar that is a black cube that has a bunch of like silver spider figures on it and it's glowing with purple gold. They used to spell magic on the anchor? You can do all kinds of things, but you have to go initiate first. I'm just giving you some, like, details for what we start here. Where are we all at? Oh, I think those weights are actually slightly slightly weighted. So everybody roll this? The face was that? 22, 18. 10. 10? Do you need your initiative? You went 22? Me. All right. I think Chev did with 18. I think that's 70, dude. 12? Well, this well? Me? Well, what did you have? Okay, but what do you want? 16? Uh, yeah. don't believe you. What do you mean? I have no prefer it. And Piper, you were 15? 16 because I wrote a porch beater, and then I brought up plus two. You rolled a plus too. I have plus two. You rolled it? No, I didn't roll it. I had +2. my bad How do you roll a plus 2 buddy? What's your initiative for this or what's your weight? 15. You're very seeing this comment. Uh, eight, you mean initially? I mean, you're easy. Eleven. What's an AC? armor class. Oh, I have 15. Uh, Caitlin, was yours? 17. Oh What does it say? I'm going to ask that every time I've got that. What is wrong with that say? All right, so what's the other thing on your honor? Armor class. What? Oh, no, it has to spell every time they make... Like every after every long rest, I cast a spell that makes my armor glass higher. Okay. Permanently not. Uh, until. I I know. All right, here we go. The chamber opens into a volume... Sorry. Got the furtive thoughts. In terms of, like, when audience were going, just did... Jager opens into a hole, pulled black stone at the back, and all they're polished basalt. And standing at it, a slim drawl and robes, the color of dried blood. And so, I have masked. Catching the, the purple candle flame, as it turns. He was right, scarred across the cheek, a familiar face, Zeldraz, thence the growl move for a session. Receives you and smiles, so the man who has been waiting. Sup, motherfucker? No, no, no. Cash Cream Slay, girlie, pop. What? The anchor is magical, correct? Oh, yes. All right, then, this spell magic can work on it. I mean, the mechanics are better complex. We'll see what you're trying to do. Or we'll get to it when it is your turn. You know, Yeah, returned. That is the that is the new guy you've not seen before. This is the guy that has returned. I just realized I wasted such a perfect opportunity. I could have shapeshifted into one of the 2 people we just killed. I'm taking the clothes. Oh, you can go. Wait, we killed those 2 round? Yeah, I, me and Caitlin. Oh, yeah. I one shot of the other one. I didn't mean the one on the on the tree. No, not that one. I killed another one and one another ball. You did all that. So the very 1st thing. Um, Seth, roll and pony check. That you want to sit? No, see, there, everything I shoots in. It's 22. Remember, I have an 11 in arcana and I got 10. It was really good. But did you tell that the ritual that is being performed at the altar is the thing that is keeping the, that is opening the anchor, the anchor is swirling full. It is entered to this guy. Um, you get the impression that he is the one running the ritual. You mean that? Two, guy. The priest? You pointed at the... Got like a new guy. I don't think, not virtually guy. So we have to kill this guy. I've never seen this guy before in my life. Kill the priest. You shoot him. I'm going to focus on the other one. You have to play knew the ball. Your turn. Is this the face of that? Yes, that at the Bruce. Bro, I'm a genius. Does a 22 hit? I'm hitting the non-price guy. God damn it. Zeldraz. This is with my crossbow, by the way. I think it purposely fucking over the party. I'm purposely killing the Warrior 1st because the Warriors are more annoying. Well, if you kill the pre East firsthand, the explosion won't happen. I'm most worried about the explosion. And more so the guy that's going to kill us. Only more like guacamole. I'm not worried about the midge, because, like, may just automatically hit either way. Warriors feel like a fuck ton of damage. The explosion will kill everyone. I don't care. Wale molek, guacamole. 19 damage. What did you roll? Okay. I had toy 2. Oh, okay, nice. I really need an update, so my ADHD bills. I don't take any details anymore. Be orange. Think green. I'm orange. What? Such a waste. Can he just spell magic on him? The priest? Uh, what are you trying to do? trying to spell magic on him. To get rid of the ankle. to spell magic. You're trying to get rid of the anchor itself. By dispelling the magic on him. So the spell magic has a specific description. You have to look at. I don't have the card. Wait, do I have the card? No, I don't. Look it up. I will physically go insane if I don't stop talking. So basically it allows you to peel the spells off of somebody that is like buffed on them or any bunch of press. Like this is this is actually a use for impact, but like it's a little complex, sort of up to. Oh, man. Choose one creature, object, or magical effective than rain, and you spell a 3rd level or lower, automatically it's ended. Let's call the 4th level or higher, make an ability check using your smoke, not seeability. So it's 10, but it spells level. A successful check, the spell it. Um. This is a ritual. So you roll a straight check, which is 10 plus you roll a 20 and you add Your spell casting ability, if it's your. What does he have to roll? Actually. I'm not going to tell you that. Yeah, but he can try. Um, what is the mage actually attuned to? 18. You stop it. Dang, great God. 8 wings out of the distance. The anchor is gone. It saved everyone. I am a hero We just love. We do. The drought priest's eyes narrow and he glares effectively. I just have a smug smile on my face. Oh, this is exactly why I didn't target the priest. So there's like a non-face guy in the face. That's it. By the way, my character didn't know that that's a real good point. It's just like parallel. this spell spell because Fox's character wouldn't uh wouldn't shoot the freeze. So we don't need that. So I jumped ahead. What? I do not have. We need to rely on people down. This is the priest. Oh, wait, I could paralyze them so like they wouldn't move. He has one help. Oh, ah, ping, bang. I thought we said no brainlock. brain rot. Yeah, it is. This is the point. the, uh, the Zeldraz, the guy from last time, is somewhat a human. There's no square dice here. Yeah, cool. What? Yes, good. Yeah, it's just a good thing. It's just the 2 of them right now. Okay, just that 2 of us. We can make it if we try. All right, Jen. All right, bring your next up. I'm good. We're all away to these people. Oh, yeah, put yourselves in. door is there. Walk into that door. You must be within 5 feet of the door. I am in 3 squares of the door. No, no, you have to do within one square. Oh. I don't think that's possible. You can also be in the hallway outside. You just mean it couldn't fit. I'm at the door. Wait, we don't have the one way outside. We're going to spell. You can still see it. Spell's gotta arrange me. I can do whole person and just like paralyze goes, who is this? That's me. No, don't put me there. Like, they're going here or here. You can't do that. Not too far. He thought a win. Bucks, Owen. you don't stop. You're going to fireball, you point away. I keep your ass up. I don't know if Fox had ever made. Me? Yeah. Yeah, it's Owen. Uh, Fox Owen Stewart. Did you say you didn't know his box's real name? Middle name. I didn't know. I didn't know Fox caught a middle name. I actually always figure people would think that he's got a chosen name, but... I've had I've had a lot of people think that I have a chosen name. Mine has actually gone to a fight with somebody. My mother name is named after an author. He kept calling me a furry and would like, like being all like, I don't know, like annoying about it. Moment, let me give you the middle name that I wanted to give you. What was it? was Owen, but it was spelled the Irish way. I'm so glad. Is that mean? Okay, we'll go for my mom. even Cs and stuff. You're in shading on my birth certificate. God. Oh, can... I'll piece up a bed. All in... Are we continuing? Oh my, is there garlic bread left? No, yes. No, I have no idea. I am a I am hungry. So I ate all of it. Bro. There was like 3 on the trail. I love how they're... the greed in this... The queen in this one. Oh, that's the area. Yeah, the stupid G's and like H. I can put that in there. Your picture film was great and I need you to move. The kids are told, what? Your kids are filled with fiber and I need fiber. That's your dad. Technically, I am not... Technically, I am not, technically, I'm not a kid, technically. I know, legally, but technically. You guys have, like, a telecommunication thing going on because, like, I don't understand how you got that from that, but all right. You didn't realize that was what she was talking about? Oh, they say people speak to each other, so. I'm not autistic. I know. why nobody listens to you. I mean, it's all, it only happened whenever there are like close friends. Wait, you're not autistic? I'm not Are you sure? I got tested for autism and ADHD. They both came out negative. You weren't tested brought this. radiation, though. How does he know that? That means he could have off him. No, I don't have the autism. But apparently he doesn't have autism. He's like, I'm out here. Yeah. I wonder what happened if I mixed fifth, it makes the 3 popsicle flavors together. Might be weird. Maybe, but I've had weird... Let's do this combat. Let's go. I've had weirder than an amalgamation of frozen juice. Like, like, I, like, like pizza on cake on pizza. Cake on pizza is very interesting. You know what else? It's also tasty. No, what else is interrupting? What Brian does with his fricking Dr. Pepper from Masonic. What does he do? Put pickles on it. Like full pickles, not pickled juice. Did I ever mention that to you? Disgusting. They like deeply upsets me when he does. But fact, if I like something that, if I like things separate, I'm likely to like them together. If I like things separate, I'm likely. I didn't really like chocolate milk and ravioli. Specifically, the school raviolis and chocolate milk. I like I like ravioli. I don't like those 2 things together. See, I like them together. I don't know. Making a soup out of ravioli, tomato sauce, and chocolate milk is pretty gross. How many hot dogs did you eat on like the hot dog day? Yes, like yesterday. Then. You didn't eat a single one. Hacked. I watched I watched one of the guys at my table put 3 on one bun. Piper and Lily, you guys coming to know what's going on? He claims not to be. Piper's middle, like, there's a giant allegation going, though, because he just broke up with one of somebody else in our wishing grade, who, apparently, who's claiming... he had texted her that he would allow her to put a strap on on. I heard it. See, look, I can tell you what I can call it. What? Back to the appropriate. Stop it. I I'm surprised I know what a strap on is. I'm not. Yeah, see, this is what I mean. Anyway, what what is y'all's favorite D&D monster? There we go. I like the Tarask. I was about to say something, but I'm not gonna finish that. That's like saying you like, that's like, hey, you like Pokemon. They're all, they're... They're so I... Made a Christmas tree. They have like things they know the monster you don't have. Yeah, dragon. I made a Christmas. That we watched that movie today in Russian class. What the romance story about a dude being a dragon who kidnaps this woman, that woman falls in love with? What did you watch? I made a tree. Yeah, I'm Earth. I am Earth. It's a it's a Russian movie. I have a rock. Sorry, I have a toy knife. No, no, I'm right here. You're slow. You couldn't move the paper out of the way, too. Let it let her pass. No, I can get low enough. I can get low enough. I can get real low. How low can you go? Jordan Piper. Okay, and my thing was, you know, 2 travel the room bucks, put an arrow in Zeldraz, the warrior for the 1st session. Freaks is on unhit. And Seth has collapsed the portal. We're no lug. Oh my god. I assume the anchor took them years to do. It's going to take them another 4 years to remake. silence right now. Okay, I'm gonna buy the other Not the priest, the other guy. You know, bites him? Yeah, I'm gonna bite him. I'm fucking... a wolf. You're a wolf? It's wild. Oh, he's a wolf. She's a wolf. She doesn't do it. I became a wolf. Well, I thought why I was standing behind you like that, though? Do you name a dire wolf? Oh, can I do it with? What are you doing? It says, if an ally is within 5 feet on me, I can do it with a vintage. Oh yeah. Is there an ally within 5 people? You can strategize this. You can say you're going to delay your turn until somebody else goes. Wait until one of your other, either a toe or um, willy. It's better a game, I'm sorry. You sure do that? Mama. Mama. Namaste. No, don't even. Tokato or not might get close. Hey, you're listening? Yeah, but I'm thinking now, and then I could do a 2nd time with man curious next time. So I just need to do it now. What are you doing? Thank you, sir. My parents are getting a paycheck. 21 parents or my parents. One that's, Okay. They're not stupid losers. Wait, I need to have work at school. 6s and what's all? What's a decent? I'm gonna be home alone tomorrow? Give me your monopoly diet. Thanks. Woman rustling your dad, yeah? Threw dad in school day. you know that? What? Oh, yeah, don't come in. Oh, my father needs to stay away from my school. Yeah. So now I only have one person begging me to go. That's cool? Yes, come to school with me. Yes, you're not in my school. leave me alone. Wait, why do you plan on not going to school? That was my name. Because I have no one to bring. Which one? Doesn't mean I don't have a dad. I have a dad. But, okay, I was going to say, there's a lot of kids that are called. Got it. A lot of lie. Um a lot. Treymar doesn't. He snarls at Quitel. No? Charges directly at her. Where are you? Which one are you? Doe. Uh, she's that. Honestly, sorry. Run straight up. Put her put him right in front of her. Right? Like Caddy Porter. Bella Priest? No, the word. Like how I look. Why am I face planted on the ground? I broke it. Wait, who's doing that? Warrior. Why? Because he's the one who killed him and almost killed him in the 1st format. Really? Yes. Stop. Okay, wait, do I... Do I hit one of my weapons? Uh, uh, I've, handcuffs can be you without knitting a bell sodum. I'm gonna use light on the priest's eye to blind them. Wow. Why is my either your turn? short swords go whipping around. The 1st one misses you. The 2nd one, the... So you need to make a constitution saving room. I would technically have triple in there. I would be the right time with your gum. I know. Should I use my grades word? You're doing a con saving go. So roll this +4. That if I wanted to, that guy. Okay. 16 plus hour. 20. 20. 20. 20. So, you take, you take, uh, yeah, 9 points of damage from the sword snapping in. I can touch you. I'm going to do a bunch of numbers here, so just hold on. 9 points damage from the source saving. Then you, you do 6 points damage from the 1st poison, we're on another constitution time again. I hate myself. Lord save you. 8 more points of damage, as you are now poisoned for one minute, so every round you have to roll another sand, or take 2 to 6 points of damage. Okay. You want to see it? Okay. So it's odd. These short swords are like losing ripping, green venom. And after he sticks to the sword, he pulls it out. And usually with poisoned weapons, the poison comes off the weapon, but you can watch it like he means about... And you know that every time it sticks you, it's gonna happen again. Okay, 23 games. So is there a stack boys? Oh, you can't stack it, but it's viable to go to somebody else. Not triple advantage on them. Yeah, you take 20. Um, yeah. Just probably just a... So it's like, So it's like, I probably got the property of drought poison. Dad, dad. I have 3 ways I could get it that ends on them. Bye. Vax? My teammates near him? What are you using? And, uh... No, you're like, Like what? Oh. Great sword, because I'm gonna blow this. Yeah 9. I bet you in line doesn't want it. It's a 14. Yeah, for a little again. I think it's AC's 13. Oh, that's 16. Shakespeare. The last time we burst him. Sixteen. Sixteen. All right, wrong. Uh, roll 2 D 8, 36. Sorry. I want those blades when we kill them. Why is it counting? I give him a more. Yeah. Fuck, hand me this. I still up for him. What damage? That's why it's not possible. He knew where about that? 4 plus. 4 leather. Great, sorry. Great sort. It's 2 D 6. What? Yeah, +one, plus, yeah, +one, yeah. A CD6 plus one. That's your huge. I think that was. Because of the strength attack. She has 17 of them. Should I just herlize them? Like, you put this back. How wise do you do this guy? Like, what do you think is most of going to be? That guy. What does some potion of healing do about that guy? Oh, you're not 18. He's a priest. Magic users are normally wisdom. Um, Depending on their class. I've always done. Liberty, not bone. Warlock, right? Yeah. Bibbity, bobbity, boobity, bob. Oh, I love it. Imagine having a charisma stat and then having the same charisma as a robe. Alright, cool. I got it. Oh, mine was so bad. All right. Uh... I think you should have gone with the... With himself instead of the great. Not doing. So he's surrounded by these, like, shrieking, like, faces of, um... Like, so... And they deal damage vehicles, too. I think is Piper right next to him or something, is somebody right next to him? The freeze. No, no, I am. Oh, technically I definitely I should be because I did run up there. Yeah, you need to put yourself. Oh, I'm not eating eggs. The text thing I am right next to him. And think the anchor took years to prepare? Okay. Better than 2 years. We don't need the anchor. In a couple of days, it recapsing this film. Oh, so. You post that? Girl. I have the emoji following here. Um, okay. He calls forth spirits to protect himself. They flit around him this in 15 feet. Uh, they are in dish in nature and they swirl all about him. Any creature in the area, speed is halved. Anyway, engineers. We can bet the other guy. Never mind. I should be over there. No, no, you were standing. Before he ran away. Yes. If you're standing there, you must make a wisdom saving throw, a failed save, you take 3, 8 points of damage, unsuccessful, we'll save, you take half as much. So, you do that on your turn down. Already. So, That's what he knows. Caitlin, no, just... It's my turn. Lily's turn. All right. So, there's a spell. hold person. Um, she's too humanoids that you can see within range. Um, the target's not, the target must succeed on a wisdom saving throw or have the paralyzed condition for the duration. Um, At the end of each turn, at the end of its turns, the target repeats the save ending, the spell, on itself as a six. Or do that. Um. Is that 60 feet? Like, Yeah. Okay. The whole room's like 40 by 50, I think. Oh okay. So, what do I roll for that? Uh-oh. You really? I know. Who are you talking? Oh, fuck that. Uh, choose to humorously, you can see with the language. I just need, bless you. You should watch me. Did you say you're casting? Not you smiling. Stop smiling. Where's your mom? Where's your mom? Um... Was your mom, is that you? And what is the DC? Uh huh. That's amazing. I'm sorry. Yeah, there's a couple of things you missed on this, actually. What? Not yet. Oh, okay. First of all, when you miss with the great sword attack, you deal damage, you go to stability modifier to it. Another thing you have action surge, you can take an additional action. Is she? It's different with the ninth Danes, too. 14 +one. This is give a lot of 2nd wind ability. But it's a... It's because, yeah, 3 grand. So, It's 14 plus the falls of the whole person, 2nd. So it's too. Okay. Okay. Um, They both fail. Nice. So you have ensourceled both of them? Neither one of them. Their incapacitated? Um, I don't think you can actually queue a girl in, which means you can't just, like, murder them tree out, although they need to kind of, they do what to do. God damn it. I can learn a lot. So I just like, they just can't move. You automatically can make sneak attacks against the moon. All right, good. Both monsters. Both monsters. They'll drop. But then, a couple things frozen things. Oh, where? They're like action figures. Don't have a question. That is. What? Yes. Oh, hmm? No, you. Me? Oh, I have a thing called encouraging song. I can play a musical instrument, which I have professionals here. And I give 3 of my alets, you hear the song broke inspiration. I don't know what that is. You can give a row against inspiration on non-bar. That's amazing. do you have that? Because it's that. So, that's actually an utterly insane ability. Okay, it's a feat. It's a feat. Oh, okay. But you should use a... I don't know what that is. Scott, it's... It. You can hit prehable with it, right? It gives the ability to reroll, basically gives you advantage on any attempt, check, save, or damage. Oh. So like, The toe rolled like bad for damage. You could just be like, inspired. What's it feel? It's like a special ability you pick up. Instead of a nobility score modify. Oh, okay, so I can just do that. Yeah, that's baking. After a short or long rest? Once after short, once for every shorter long. Short rests are like we take 15 minutes for a breather. You should basically always be using that, holy shit. That's like almost OP. Okay, so... How do you do that now? For what? Uh, but who do you want to make? Let No, she has three. So let me see it. I don't know. the girl we... The I don't know how I used to ask you because I saw it and then it was a little better. Kurok is the Bart's best, you know. Oh, you're just, yeah, okay. So that means that for last time, every time you rest, you can pick 3 allies to give that to and then they can... Hey, you can designate which of the 3 do you want to get through? You should give it to me. Sam is probably the worst choice because he fell, sorry, you actually are, because that smells just. So one, two, three. Yeah. Okay, really? I'm the bachelor. Neither is he to drop the fireball. I'm very obviously good. You guys haven't been a threat yet. What other things would I be using for? My flu, obviously. Playing my food. I know, my food is amazing. I want to run up to the freak, Ethan, quench like fireball. hold up, hold up, hold up. spot to turn 1st and so. So you, that's good that you said that, keep that in mind. ahead. Okay. Caitlin's character, I read a couple of her abilities. She has a lot to do with 2nd one, but also, when she makes an attack with the great sword and misses, she deals damage equal to her um, ability score modifier. Um, also. Her 2nd wind ability, when she uses it, she can use, she can move up to 15 feet without having opportunity of tag done on her. She can also use 2nd win instead to do one d 10 and add it to one of her roles. Um, is it my turn to attack? I'm gonna shoot the guy that I don't like. The fighter guy? The fighter. Why do you have beef with them? I don't. I don't like them. I like him. His face annoys me. Okay, he's ugly. I imagine you are really humiliated and demoted by some adventurers. Then whenever you face them again, they got rid of what you're, but you've been planning for days and this, and the, and that insult to injuries, he wanted them runs off, he just incinerates the one you're supposed to work for. So, They, uh, hold on. You get attached get advantaged to attack them. You automatically critical if you're within 5 feet of them. Oh, I'm critical? If you buy people... There's just a bunch of... Okay, I'm not XML. Yep. I like I like jester up down. Oh, by the way, I set up all the bombs in their backpacks. The smoke bombs. So it's all smoky now. Okay. Are we affected? There's just a small bunch of quirky out everywhere. He's a gester. Yeah. Um, I'm gonna hit him with my dagger. There are 4 daggers. Is it a guaranteed hit? Because I'm critical already? Advantage? You'd have to begin with Jimmy. Oh, I handed. Next, I'm 58. I have like 4 stocks of it there. Holy shit. So, hold on. Let me, three, three. So I have Vex. One of my teammates is next to him, and then the thing that you just meant. That's different from sneaky. You shouldn't be getting advantage. No, seek attack is when you get advantage on an opponent. Yeah, anytime yes. Anytime you have advantage, you can sneak it back. Dex gives me advantage if I hit an opponent the next time I attack, I have advantage. Then study aim is what I use on my 1st term most of the time, which just gives me advantage, but I can move, but I'm not using that now because I already had it. Then, um, if one of my teammates is next to one of my opponents within 5 feet, then I get advantage. Once you just said, gives me advantage. Roll it up. Oh, shit. Do I only roll one twice? Do you want me to roll 3? Does max life? max damage. You'll roll it all. Oh, I do max damage. We're not doing a double roll. Oh, it's right, you're right. I'm sorry, it's double diced. It's double dice. I don't know if that includes snake attack. It does? Does not. Does not. Okay. So, well, I want to, I want to, I want him to see me incinerate his boss. Piper, you're up to set. He's bad, right? 27 damage. I'm bling off my car. People like that. He's he's a little almost dead. Who? No, I don't, I don't, so much. All right. I done 45. I'm gonna go incinerate his boss. So, it is now... dead, sir? Yeah, they got Move up to him as a for like a bonus action. You can just walk up through his remove action. You can try to do. I'm going to move up to him, then point blank fireball. The fireball explodes in 20 foot ratings. Don't do that. You need a better tax belt environment. Fire, fire, fault. Well, do you have, do you have scorching, right? No. Wait. Write down, squirt. I get an extra, I get one extra spell. While level spell is it? It's second level. Look at you. This is exactly what I'm talking about. When you let him do that thing and now you're letting him have that smell he doesn't have. We'll play the games. Blank scorching ray. Shut up. I didn't understand. So terrible. You can read this first, maybe, and then hit it. excuse me. 2D6 fire damage? You know, how many rains, though? Oh, really? Will you? Mega, you can greet. When you process value, do you spell thought? You should figure it an additional, right? So it'd be 3 d 6. Oh, for each right, it's Utah. So it's 66. 46. No, you get 3 rings. Like 2 weeks each. Holy shit. how does he get three? He's up to 3rd level spouse lot. Third levels too, Rays. Oh, the 2 rays? Okay, so it's 40. So you get 2 rays, the limelight, each ray, there's DV6 plus an M. You can hit the same creature with both. Oh, never mind. He can do up to 8 d 6. The main character. How's that? The 2nd level creates 3 rays. Holy shit. Do I have to roll the hits? You do. That's this advantage, but these guys are frozen in place because of lilies. Me? Yeah, so you get advantage. Oh, it's the same amount of damage as fireball, but it's more focused. Good thing I have advances if you like, I'm not one on my 1st role. Not 20. You got 20. pretty cool touchdowns. So that means you get double dice. Oh, okay. So, how many dice? So on one attack, you get... Wait, we're so close to being bucky. Yeah, not yet. How many, how many, what levels spell socks do you do? Uh, 2nd level. Second level, you get it. Six. No, sorry. You had 66 for one of the things and the credit card makes it 12 VX. I'm gonna do 2 rays. Hold up. I already have like a lot out for no, apparently, then one, two, three, four, 5, 6, 7, 8, 9, I have 9 out. I already have the 1st day. is one of the best low level attackers in the game than you were finding out. Should I help him with the audition too? If you want some. All right, so... Two, six, so 12 B 6. Holy shit, there's a lot. It's up to, uh, 72 diamond, up till. Um, here, do you want me to do that for you? Yeah. Okay, so 4 +4 +4, 12, 12, 17, 2021. Uh, 27, 32, 33. Uh, those sick, that's 6 uh, 39 damage. That all of it? Yep. That's a lot. Does that kill? Doesn't kill, but it does bloody him basically blew a half inch space off. That's 12nd level. Imagine being this guy that's being frozen time and forced to see he, your boss get nearly incinerated. Yeah, I can really see it because 12nd... Yeah. But he's still not his... He's paralyzing. He's probably terrified about it. Probably my terrified about to be somehow survives. All right. I'm like, you have to really have to be bad space, like. Yeah, I'm just drinking this. Oh, my award. Should we remove a 2nd level phone from this thing? I'm still old to take off and castle. Oh, oh, no, okay, we have wizards, you're a wizard, aren't you? Yeah, so when's that book? They can actually have as many spells as in one. They can actually pick them up. Like, they can do treasure. Like, I can just give them skulls. Let's say our last one gave them a scroll. Yeah, lying. You found it in the drowse. Yeah, yeah. I thought he was holding on to Scorching to a thing of scorching ray for the priest. There you go. Good plan. What priest it was, however, I caught my hands on it. If you want after it, there's a, there's a class I feel like will suit you better called the Moonlight Ruin. Don't give her circle to men. Why not? Well, it looks more powerful. Yeah, that's the werewolf one. That's like where you can do it. Circle of the mirror. CR and Grace are like five. like wear bears. Spaces off. Yes, do it. Do it. Let me do that. You should let me do that. You can do that. You gave her such an awful subclass. any of this bullshit. Nobody ever housed me pick my characters. Druid of the Dream. We'll learned this one. Nobody helped me. You can Dana sat down and helped me with one of my DND characters. Actually, they want to help. Actually, I kind of haven't abandoned because Damon helped me. I didn't get help. Oh, no. No. Okay, I'm gonna call, call lightning, um, Foration is 10 minutes. How long is that? Uh, okay. 10 minutes is a long fucking time. Call lightning is a real good spell. Yeah. It basically means you can call this 40-12 points damage of lightning. That's it. Three, four. You have to do one every round. I think it's a bonus action. You know it's an action. It's one action. You've known the priests for finishing the thing. Every subsequent round, you can call... Okay, that's even more bust than scorching right. It was not a third. third? third? third? one of the best periods. Use the Thunder thing. 10 minutes is up. 100 rounds. Okay. You stunk north and ruined. Kill this fucker. The classic example of that is the druid on the rock in a big field battle. with like all of these battles going around them and they're just fully able to lightning out of the sky, down onto people. Yeah. Piper, kill the druid. Me and Mom were used to... Okay, I'm doing that. Meanwhile, I just put my staff up to who the priest's robe and cast gorgeous gray. There's might also hit so. It doesn't matter. Is it a rage? I'll just heal. 5 feet? Moderation up to 100. It's ranges 100. Oh, yeah, it's 100. 100 foot range, that's good, but this is not an area effect. Bye. Deep from the point if it's... I think that means it's what, right? Okay, yeah, that's that would be one turn. Uh, shape of a cylinder that is 10 feet tall with a 60 foot radius. Wait, what? centered on a point, you can see 100 feet directly above you. Each creature within 5 feet of the point. Oh, each guy, so that is. Tell your mom. Yeah, you can do in that case. So this is Sev, right? Yeah. Let me see this. Okay. Instead of dropping it here, it would hit you faster, would you know? I was going to hang on, right, I'll top it. But you don't need to. drop it here. And then that just catches him. Okay. Okay. Tell you all about your future move, but it's not to injury, it hits the, it hits the altar. So it's 3D 10, by the way. People to stop speaking. I need one voice. In this room. Okay. D 10, right? This is a D 10. Okay. Oh, like, what are you talking? I don't know where I'm moving. It looks like... Thank you, Fox. You're so useful. You can. Here, here's the details. Fiber, fiber, fiber. I'm getting a rep go in water. Great, p water. Good. You're not back to the top of your ship. I need another one. That's a detail. So that's fine. Okay, you in your role of dexterity saving through. The police does. You see what? What? You see, what's the type of matter, I think? I just put the... You got a 10 on the 00. Huh? You roll a 10 on one of those? Yeah. Yeah, that's what the 00 is. 13, 13. 13. Damn it. Yes. What's the DC of your role? He just said he failed it. I wish you wouldn't. Got it? Most barely. Wouldn't you put that card? That's DC 13, so... Whenever I, I mean, whenever I'm able to, I'm getting conjure minor elementals. What's DC 13? DC 13? That was the saving. Oh, wait, no, wrong. No, yeah, that was the bite, and it was a no bonus. That's her wolf attack. Yeah, you're looking at the wrong thing. Well, they saving for that point. I, I, I, I found that. Oh, but one of my, hold on, buddy. sorry. Can you give me your sheet real quickly? What? I don't know where to play it, but I can find it. On the card? You know. I'm 14 14? No, it's not. It is. It says that. That's the base. That's 10 plus or 100 plus the spelling. 10 plus the level plus this phone level. Is that how it goes? Wouldn't that be something? Um... That's the level plus... And plus that. No, that wouldn't be how it goes because it would have been 15 on those. Oh, uh, you're right. I'm sorry. Is it a wisdom saving throw, Piper? No, it's 14? That's so... Okay, I still fail. Yeah. Does she come up with the priest? He takes good. Are you done? Yes, that was it. You injured it. He loved his last life. Caitlin. Hi. Sorry. What spelled in gas, Lily? Um... Whole person's service. That's. It will hot gardening for my saving bros. So both big bads throws in plates. She can affect 2 people. Well, we're gonna kill these big bats before they have the chance to become actual threats. How long? One minute, they get a similar from every round on their turn. And I found the next one, but you guys, you're a bad condo because your damage outfit's huge. So it's his. Yeah, exactly. You're you're a controller class. Yeah. You and you're you're basically damn jumplet because you're a fighter, you know, and Piper's... I am deaf. What does that mean? This Warrior of Drought. No, I could have just done, like, a thing where I, like, put something on the square and, like, I can't believe it. So watching about Marvel comics. Guys. Not much. I know I know the characters and the fact that Stanley's gone. So you think he was gone? One of my friends claims that the void from the Marvel comics could be all above one. this guy. Which is almost definitely untrue. All above one, true, right? I would great sword. Yeah. This guy, that's a he's a Yeah, that's the thing. fiction, power level. Yeah. Which one do I roll for that? D 20. All of, one above all is tier 0 bowless, and the void is... She got on that funny. critical day. So it's then again, then you can go together, go to who with. So it's not really that's really accurate. And you get 2 attack balls, too. roll, after this roll, do attack. Uh, Sev and Piper. Whenever Caitlin's turn is over, you're going to need to make a savings problem. We're saving though? Okay. That was a great question. And the worst that one, right? Oh, wait, we're at the cough drops go. I ate that right there. right there. Oh, yeah, I think so. I just took them up. Subscribe is 17 and plus 2 is, what's 17 plus 2? 90. 19. Arching damage? Yeah. Pretty cool. So. So there's Zeldraz, who's Ben? Bob said. Good job. No, you killed him. You were the one that he was here to kill because you killed him the 1st time and now you killed him a second. Damaged heavily. Both times. He didn't even deal on the must damn. Deaded. All right. Uh, Seven Piper, me, uh, wisdom savings. Okay. Thank God. Why? My highest saving third. Very in the spirit, but I'm... When you summit all those little demon faces, it's a little under them. Oh, 14. You need that. Better. Do I have advantage? Okay, eight. Oh, you're amazing. Thank you. How much damage? 10 points a day, sir. So now I'm at 17 health. Wait, where'd my pencil go? A pencil. The pencil grabbed at the beginning of this. I never saw a pencil at your thing. Why is the orange pencil that I took from you? My pencil was in my... Are you kidding me? No. I'm just too late to be another Hansel. I can destroy your drought. Um, well, I'm me freezer of everyone. that photo of you. What? Fuck. What photo? Whoa, guys, I was making a bunch of goofy vases at me during the one of them and I kept taking pictures in her. Oh, I understand, thanks, cool. Huh? No, during GMG session. If you get caught with a phone during school, it couldn't even give you a dead suspension. I've seen them do dumb things like that before. If you got caught with the phone during school, you get all the habits of your phone gets confiscated until the end of the day. You get like expelled, bro. They take your phones at the beginning of the school day. and lock them away in a box. That's kind of what article does. I'm waiting for something to load. hold on. Can it look faster? You know, my friend Vaughn. King Von. King Von? Okay, continue on. It's my turn. The priest is going, but... sorry. Okay. Oh, is he on frozen? Uh, no. No, Elsa. was the right question. I love that me... So I need to roll for that. He's on frozen, isn't he? I like these diabol. He is unfrozen, but only the beginning of his next turn. So it actually passes now to... They're joke. I'm gonna show your mom both of those tales. So, wait, so that one's dead? Yes. Imagine being frozen, time being getting struck, lightening and burnt alive. But for that fun, yeah. All right, so I'm gonna tack with my longbow. I like these dinosaurs. I kind of touching your doors. Um... Oh, yeah. Oh, doesn't it? It's what you meant. Um. How dirty Martin, Caitlin. What? Yeah, clock. Make a bunch of beeping, blah, blah, sounds. Yeah. No, that's gone. He dies. Imagine all the other droughts walk in here and see the, see the, See, he appraised the guy meant to protect him dead. Right. With the preceding, I'm taking the most damage. They probably think like the guards failed at his job. Because the priest took the most visible damage. What happens now? I lose the priest's body. I look the guard's body. They'll eat guy. I killed it. What the hell? I get 1st time on once the guard, they'll eat, guys, body because I don't the most damage. My father is here. I'm just gonna put everything I find on the priest's body into the group party. See, I'm not the only person I call you. Since I think both Gitlin will be happily. Yeah I have to. We're gonna wrap up next, okay? I'm, my bed is over. and everything else next time. Okay? Okay. I'm go find us. Thank you. Bye needless. Did I put out anything else? By the way, Bob, I want to make a custom double fruit. You gotta watch all of one piece and make one. God damn it. No, I'm just saying. If you read the comics of the part of egghead, which is only like 50 chapters. That's where most of the info on devil birds come from. That's what I'm thinking of, but like, turned apart. What is my mom on? Then into, like, a living cartoon. Check. He's fixed. Hashtag. I actually have this idea before Gear Applies came around. The 4 year five. Oh yeah. Well, I think probably my phone in my fake pockets. Barry, this one, one like, looks like you guys, one game 2 more, that's powerboard gear live. Really? would give you general to enforce it. Yeah, but gear 5 is the only bird that gives you partial resistance. Better than Nick. To uh, the sea. I didn't like Nick. That's great. This is a personal tactic. I heard you. Nicholas Cohen Stewart. Nice. Do you enjoy...? No, they, you didn't. They aren't very active. We just completely humiliated the drought. This is this is an easy, These are easy fights. They are. I'm gonna crank the difficulty a little bit next time. Your AI is going to expect a different money for you. Yeah, but it does that in conjunction with me. Yeah, that's true. And so, so I've actually custom built this. Yeah, I know. Yeah. Like, I have been training it and like working with it and it like asks me questions. Is it sentient? No, it's not sentient. I like made my characters as higher. Are you on the many people that got access to an early 1st version of, of, of mythos? I didn't know I did an early version of Mythos, although that was marketing mostly. It's on like more kick-ass than like regular plot, basically. Darn it. But like, yeah, I don't worries, guys. Thanks for coming. Um, I basically built this tool chain that, like, lets me, it asked me questions. It's like, where do you want this to be? and that to be. and I have a, I have a repo. That knows everything you guys did. And everything that was planned. And then it creates like plot based on that. That's why I'm recording this because I'm gonna feed it back.
+---
+source: Session3.m4a
+transcribed: 2026-05-15T04:40:10Z
+model: base.en
+speakers:
+  DM: DM
+  Piper: Piper (Nalith) — note: auto-diarization may have merged some of Caitlin (Kto)'s lines here
+  Fox: Fox (Fiorn)
+  Sev: Sev (Yuna)
+  Lilli: Lilli (Nema, new character)
+absent: Lilly (Loric)
+---
+
+[Piper]: I need a clothes.
+[Fox]: Shut the fuck up!
+[Piper]: Oh, you shut up!
+[Piper]: Is this for your parents or something?
+[Piper]: No, it's not for my college.
+[Sev]: It's not for my college.
+[Piper]: Okay, but yeah, there was a, like, a baby behind the tree, and I think because, like, the portal is closed and stuff, like, they're going back to it.
+[Piper]: And, like, like, yeah, that's just happening.
+[Fox]: You sound like a cobalt on math.
+[Fox]: You look like one, too.
+[Sev]: I think that she sounds like...
+[Sev]: I think that she... Nobody asked.
+[Sev]: What?
+[Sev]: You're going to school.
+[Piper]: You don't forget your hair.
+[Piper]: She doesn't talk at class.
+[Piper]: Yeah, fox is being mean.
+[Fox]: It's a Lily.
+[Fox]: Did you see what she was just doing?
+[Fox]: I said she looked at it and sounded like a cobalt on math.
+[Fox]: I heard.
+[Fox]: That's it.
+[Piper]: It's not fine.
+[DM]: Keep the people that are appropriate.
+[Piper]: And I am hurting.
+[Piper]: This is all getting recorded.
+[Piper]: Don't Google it.
+[DM]: Don't go to shopping.
+[Fox]: I would rather stab five o'er than listen to you saying.
+[Fox]: Don't bring up the staff.
+[Piper]: We're talking to you on me to sing quarks.
+[Fox]: Yes, we played in words in Paris.
+[Fox]: No.
+[DM]: Can you help keep us all fresh?
+[DM]: Yeah.
+[DM]: So you've opened up, you looked at your belongings, you packed them up, you're ready to go do something.
+[DM]: What are we doing?
+[DM]: Head back to town.
+[DM]: We need to do that.
+[DM]: So you know that the town is eight hours away by foot.
+[DM]: And the next site is four hours further ahead.
+[DM]: So if you were to head back to town, we'll be able to make it to the second site about coming here again.
+[Piper]: Um, let me tell you what I guess we do.
+[Piper]: But second site guy.
+[DM]: Yeah.
+[Piper]: Second site.
+[Piper]: And then I do a call.
+[Piper]: We are out of here.
+[Piper]: Um, I like fly.
+[Piper]: because lucky I can do that.
+[Piper]: I see the white really down from the sky.
+[Sev]: And I didn't have her with my flute by the way.
+[Sev]: And then I find the flute.
+[Piper]: I start I start speaking in tongues and you are
+[DM]: traveling over land on foot through the woodlands up to Old Skull.
+[Piper]: Over to the river in terms of the old house we go on.
+[Piper]: Okay.
+[DM]: So as you go up it, if the altitude increases, the trees become less of us.
+[DM]: So you're walking around like boulders with like small bushes.
+[DM]: It was not the guy who was leading the height.
+[Piper]: I am a fighter.
+[Piper]: Well, there's actually a lot of this.
+[DM]: We're going to do this a little bit more formally.
+[DM]: When I'm talking, stop talking.
+[DM]: You know what else we're hearing?
+[DM]: I don't care, but you would typically pick the character who's most good.
+[DM]: The woods are navigating.
+[DM]: So that would usually be your druid or your ranger, sometimes the road or something.
+[DM]: And usually they have a good nature or survivorship.
+[DM]: It doesn't have to be that way.
+[Piper]: My animal handling is good.
+[DM]: So said might have a good nature survival check.
+[DM]: I'm a hybrid as a terrible nature job.
+[Piper]: Okay.
+[Piper]: I like the animal handling.
+[Piper]: I can handle that thing.
+[Piper]: I'm also good and no more handling.
+[Piper]: I think that's the whole thing, guys.
+[Sev]: Nature is.
+[Piper]: I'm going to have a plus six.
+[DM]: That's what I'm going to talk about game terms out of game by saying I have a plus whatever in nature or survival.
+[DM]: I was going to happen is I'm going to ask for a skill check from overly character.
+[DM]: So you want it to be somebody who knows who that I can pick stuff.
+[Fox]: Seven of us is a plus five.
+[Piper]: Wait, what do you have?
+[Piper]: A plus three for nature.
+[Piper]: Why do I have so shitty nature?
+[Piper]: You're really ugly.
+[Piper]: No.
+[Piper]: Yeah, it's me.
+[Piper]: No.
+[DM]: Like, it protects that human being.
+[DM]: It's just acrobatics.
+[Piper]: So why?
+[DM]: Yeah, you only get so many skills.
+[DM]: Okay.
+[DM]: So, did you guys talk about numbers?
+[DM]: Excuse me.
+[DM]: Is that, you know, you need really?
+[DM]: Savesgown.
+[DM]: Yeah.
+[DM]: You need reading.
+[DM]: Okay.
+[DM]: You need to make an either nature or survival death.
+[Sev]: Nature.
+[Sev]: That's my height.
+[Sev]: That's the higher one.
+[Sev]: Okay.
+[Sev]: What dirty flat?
+[Sev]: Exactly.
+[Sev]: Dirty 20.
+[Sev]: Nice.
+[DM]: All right.
+[DM]: You are able to navigate your way to the other cleft based on the intelligence you are given by the Shadowdale Guard successfully.
+[DM]: Actually, I'm going to execute the quality.
+[Piper]: Is she really good director?
+[Piper]: Is it?
+[Piper]: It's mermaid.
+[Piper]: Oh, my God.
+[DM]: So as you know, lead you, someone else, if they want to, I mean, he observed it a long way.
+[DM]: I'm going to opt.
+[DM]: This is a survival check.
+[DM]: You're looking at the signs of nature.
+[Piper]: Oh, uh, what's your shoe on?
+[Piper]: Plus three.
+[Piper]: Oh, yeah.
+[DM]: There's six of them.
+[Piper]: Plus three.
+[Piper]: We thought we had the plus six.
+[Piper]: We could have a positive.
+[Fox]: That's one negative one in survival.
+[Piper]: Oh, my bad.
+[Piper]: I thought it's up with.
+[Piper]: I was doing it.
+[Piper]: Wait, what do you got?
+[Piper]: Plus two.
+[Piper]: You have a plus three.
+[Piper]: So go.
+[Piper]: I am though.
+[DM]: I have a water shield.
+[Piper]: Oh, hi again.
+[Piper]: If anything requires intimidation or persuasion, I can do it.
+[Piper]: I can make Odin do this.
+[Piper]: I can make Lily do it.
+[Piper]: Or religion.
+[Piper]: I've got a religion.
+[Piper]: Religion like my whole thing.
+[Piper]: I'm going to act about it.
+[Piper]: Yes, I got a 15.
+[Fox]: Lily, what's your persuasion?
+[Fox]: Okay.
+[Fox]: That's me too.
+[Piper]: What's your intonation?
+[DM]: Oh, wait, wait, wait.
+[DM]: fiber.
+[DM]: As you are approaching in the pavement, as you do the worn-out pavement, you can see the 10-foot wide, 30-foot wind in the side, hole in the side of the mountain.
+[DM]: But it's way up there, like hundreds and hundreds of feet off this steep, it equals three, that's like loose zones, and like small, like, bushes.
+[Sev]: Do you miss these steps to get up there?
+[DM]: Which, I don't know, it only gets you like 60 feet off average.
+[Sev]: I'm going to use it.
+[Sev]: Oh, I've got to say I'm going to use it twice, but I only use it.
+[Sev]: I use it.
+[Sev]: I use it.
+[Sev]: I use it.
+[DM]: Actually, I had a whole point that this guy is not going to walk up here.
+[DM]: You could just also walk up the hill.
+[DM]: So you can see the hole up there.
+[DM]: Um, now.
+[DM]: Lilla.
+[Piper]: Lilla.
+[Piper]: I'm sorry.
+[Piper]: You cannot be here.
+[Piper]: Good work.
+[DM]: Um, Lily, she's on the side of the rocks on the leg.
+[DM]: It's not as if somebody was walking up here in the border.
+[Piper]: You don't mean us.
+[DM]: And you see what you think are three distinct sets of prints.
+[DM]: Because you have one, 15 sets or 16.
+[DM]: That's enough.
+[DM]: You think there are three distinct sets of prints walking up there?
+[Lilli]: No.
+[DM]: Okay, the prints look like they didn't write the name.
+[Piper]: Oh, kind of.
+[Piper]: Okay, so we're getting up through a hole.
+[Sev]: Okay, guys, can I see you right into somehow using our conist go check to get up there?
+[Piper]: Can I personally demand to let me go?
+[Sev]: Why are you running like a robot?
+[Sev]: I use a player who does like a rocket to market myself up.
+[DM]: Is there anything you guys want to talk about in-game as you walk up there that doesn't involve not one of us?
+[Sev]: I use a madman to like carry myself like a me up there.
+[Piper]: How's the weather up here guys?
+[Fox]: It's actually about sex either.
+[Sev]: I can't say it has never been funny.
+[Piper]: Oh, wait, who?
+[Piper]: Oh, but I'm saying you eat up.
+[Lilli]: Ah.
+[Piper]: Hi.
+[Piper]: Hi, Hoda.
+[Piper]: Hi, baby.
+[Piper]: What are you doing with my hair today?
+[Piper]: I don't know what I'm saying.
+[DM]: What's wrong?
+[Piper]: I'm going to eat up.
+[Piper]: I'm going to eat up.
+[DM]: I'm going to eat up.
+[Piper]: I'm going to eat up.
+[Piper]: I'm going to eat up.
+[Piper]: It looks lots of red.
+[Sev]: If nobody knows what it is, why did they know who it is?
+[Sev]: Ms. Harper said he's the weirdest guy.
+[DM]: As you walk up the hill, it is very cool.
+[DM]: When you burn, it is really afternoon.
+[DM]: You're very grateful that he was able to believe that you're so effectively describing a night.
+[Piper]: Oh, I said what if I'm the further five-frightful night?
+[DM]: Everybody roll a percent.
+[Piper]: Oh my god.
+[DM]: Don't watch out a little bit.
+[DM]: They say the highest thing.
+[DM]: Okay.
+[DM]: Nope.
+[DM]: Not me.
+[DM]: No, I don't.
+[Piper]: 18.
+[Sev]: It's 21.
+[Sev]: There are each 21.
+[Piper]: Okay.
+[Piper]: Well, that's it.
+[Sev]: I got a not one.
+[Sev]: You see nothing.
+[Piper]: What's your what's your book?
+[Sev]: No, you don't even see the rocks around you.
+[Piper]: I don't see anything.
+[Piper]: I don't know.
+[DM]: Okay.
+[DM]: News possibly.
+[DM]: Don't catch me on one of the scraggly times perch out of the side of the rock phase above the cave now.
+[DM]: You just are able to pick out a figure.
+[DM]: Actually, I forgot the 18 also.
+[Piper]: Oh, me.
+[DM]: OK, me?
+[DM]: OK, now one.
+[DM]: Yeah, I got that one.
+[Sev]: Bossed on the same thing, not even the rocks he's around him.
+[Sev]: He doesn't even see us.
+[Sev]: The figure is first up here somewhere.
+[Sev]: That's me.
+[Sev]: Oh, is it the?
+[Piper]: Oh, now I see it.
+[DM]: Well, that is probably some kind of scout.
+[DM]: They have not yet spotted you.
+[DM]: Oh, you know, that you now have about five seconds in total.
+[DM]: I should have crossed by them.
+[DM]: This is the cancel.
+[DM]: You are about 200 feet away.
+[Sev]: Can I use like, can I use like, mage hand on them or something?
+[DM]: Okay.
+[DM]: All can I questions about spells have to be answered by looking at the skill you're talking about.
+[DM]: I should with my short.
+[DM]: I should know I should with my crossbow.
+[DM]: Yeah.
+[DM]: Never mind.
+[DM]: I have to be sure that the very most dirty way.
+[Fox]: No, no, no, it has to be my short bell.
+[Fox]: I don't I can't see the rain in my closet.
+[Fox]: Can I roll for hit?
+[Sev]: I don't think it's one action.
+[Sev]: I don't have the magic missile spell card.
+[Piper]: I'm proud.
+[Piper]: Look at this.
+[Piper]: My walk.
+[Sev]: Yeah.
+[Sev]: Okay.
+[Sev]: Well, wait, maybe I know the details of the game.
+[DM]: Okay.
+[DM]: I had 24.
+[DM]: Okay.
+[DM]: Roll damage.
+[DM]: Okay.
+[Sev]: I fire maximum missile added.
+[Sev]: 120 feet.
+[DM]: There's 120?
+[Sev]: Yes, I checked the thing.
+[DM]: Wait, it is 200 feet away, so that will reach.
+[Sev]: What if I use, what if I use a, like, throw that one spell slot or a second, or second level spell slot?
+[DM]: The bottom range.
+[DM]: So here's how you do this as a caster.
+[DM]: You look down the spell list and see what the reach to your favorite way.
+[DM]: Maybe something else.
+[Piper]: So if it's a good strike, is that just like an extra attack?
+[Sev]: Unfortunately, nothing.
+[Sev]: All my things can.
+[Sev]: Yeah, I don't really understand what that says.
+[Sev]: Yeah, uh, 17.
+[DM]: How far is it?
+[DM]: Oh, wait, 20.
+[DM]: 30 feet.
+[Piper]: What?
+[Piper]: No, not 30 feet.
+[Piper]: 200 feet.
+[Piper]: 200 feet.
+[Piper]: Oh, I said it.
+[DM]: Still putting words in my mouth.
+[DM]: Oh, nevermind.
+[Fox]: There's a lot of money, there's a lot of money suppose you can go to the level.
+[Fox]: So what that lets you do is make an attack roll.
+[DM]: Okay.
+[DM]: That uses your spell casting ability modifier instead of your strength or dex.
+[DM]: So for example, with your bow, your dexterity is plus two, essentially, because your dexterity is plus two, and your chromosome is plus three.
+[DM]: So if it actually gives you a net, instead of a kind of plus seven attack, you're plus eight.
+[Piper]: I go to 28.
+[Piper]: What?
+[Piper]: Long live.
+[Piper]: Long live.
+[Piper]: Long live.
+[DM]: And also just wish to be there.
+[Piper]: I totally did not use it.
+[DM]: I'm going to choose to use that adults wanting damage.
+[DM]: Okay.
+[Piper]: I'm going to collect damage at the end.
+[Piper]: There's a fire.
+[DM]: Firebolt can't reach him.
+[DM]: Yes, they can.
+[Piper]: How far is it?
+[DM]: 30 to 100.
+[Sev]: It's available now, it's like 30 or something.
+[Sev]: I think it's 100.
+[Sev]: 100, funny.
+[Piper]: 120.
+[Piper]: Can I hit it with my lumba?
+[Fox]: Yes, lumba's English.
+[Piper]: Okay.
+[Piper]: Can I quite love there?
+[DM]: No.
+[Piper]: Why?
+[DM]: It's about to catch us.
+[DM]: Oh.
+[DM]: Yeah, it's 200 feet away.
+[DM]: You can quite love there.
+[Piper]: With my lumba.
+[Piper]: What's it called?
+[Piper]: 28.
+[Piper]: With my lumba.
+[Piper]: Yeah, lumba.
+[Piper]: My long bow, I got it.
+[Piper]: Wait, the attack bonus is like...
+[Piper]: I'm gonna tell your mom.
+[Piper]: I'm okay.
+[Piper]: I love you.
+[Piper]: You can't worry.
+[Piper]: I didn't tell your mom.
+[Piper]: Chew up.
+[Piper]: I love Mr. tagging.
+[Piper]: What the fuck?
+[Piper]: What the fuck?
+[Sev]: I want to be the spouse.
+[Sev]: Oh my god, this is fireball.
+[Sev]: Yeah, how long ago?
+[Sev]: 150 feet.
+[Sev]: Yeah.
+[Piper]: Most of us go 150 feet.
+[Sev]: We're going to put a 20 feet explosion hit him.
+[DM]: We're going to put an explosion hit him.
+[DM]: If the so, and we're already taking you and have your 20 foot wide, we're going to hit you.
+[DM]: Nope, I will read you 70.
+[DM]: gosh darn it's yeah i'm going down this is busy y'all guys are lucky you have archers you've got some good ones are you rolling uh yeah so you have a old archer do you have a like bow or something i have a long bow yeah i don't know what you do here if you want if you want to wait is the attack bonus like what you add i tried to toss the rock at it guys this is six yeah bro bro bro bro is at 30 feet you probably can't do anything there's a bonus action can i shoot really small
+[Piper]: Okay, I see.
+[Sev]: How would you shrink?
+[Piper]: How small can I go?
+[Piper]: She can share.
+[DM]: But it's all enough that we actually need a bonus to be able to hide the thing is you have a bell.
+[Piper]: Yeah, I have a long bow.
+[Piper]: I get a roll for those weddings.
+[Piper]: Oh, you know, it's nice.
+[Fox]: You know, the bonus action, I give Piper my.
+[Piper]: Okay, I'm just saying that.
+[DM]: We're just resolving system that yeah, I know this you can't take those act as a part of Oh, okay.
+[Fox]: I need to go you're done done.
+[Fox]: So just chill.
+[Fox]: All right, I need to go to the bathroom.
+[Piper]: I got twenty one T8.
+[Piper]: All right, how long will it take?
+[Piper]: Yeah, I shot it and it got 20.
+[DM]: I You shot it and got 20 you got 22 hit or you put it in it Wait a minute.
+[DM]: That does hit your arrows clubs into it.
+[DM]: Oh damn it
+[Sev]: I really hope to just not see him off his, his perch.
+[Sev]: Wait, is he humbling down the mountain?
+[Piper]: If he jump, wouldn't he take volume?
+[Piper]: How long will it take me to climb up there?
+[Piper]: I want fox to jump.
+[Piper]: What?
+[DM]: What?
+[DM]: What?
+[DM]: Yeah, what do you have?
+[DM]: What?
+[DM]: What did you see?
+[DM]: Well, did you root?
+[Piper]: Where are you?
+[Piper]: No, because I have a tea.
+[Piper]: You have to have a tea in it.
+[Piper]: Oh, this is a D.A.
+[Piper]: Two plus four so that's a six.
+[Piper]: She got a six.
+[Lilli]: What's damage?
+[Piper]: Yeah And I got those on myself in my mother.
+[Piper]: What did you get?
+[Piper]: Seven I was that's good.
+[Piper]: Why are you?
+[Piper]: That's me.
+[Piper]: Wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait, wait
+[DM]: I'm so confused.
+[Piper]: My drink is plastic.
+[Sev]: I need to go as making six, seven jokes.
+[Piper]: Well, he's wrong.
+[Piper]: He's wrong.
+[Piper]: He's speaking.
+[DM]: People don't know.
+[DM]: That's why he did so.
+[DM]: I don't like holidays.
+[Piper]: Is he dead?
+[Piper]: I hope.
+[DM]: I've tried to test two smells.
+[DM]: I want to help.
+[Piper]: Hey, how is it real?
+[Piper]: You're not smelling it, not drinking it.
+[Sev]: You see his corpse tumbling down the mountain.
+[DM]: Yes, so but Piper, that spell you just showed me considering where you are in the mountains and all the rocks and all the other like with faces and everything.
+[DM]: You notice the duration of that spell?
+[DM]: Look at the duration.
+[Piper]: Yeah, but now it's an hour.
+[DM]: So you could just cast that right now.
+[DM]: So you don't have to waste around it on that.
+[DM]: And then when I love that, you can look sorry to the roof.
+[Piper]: It's clean.
+[DM]: It just came off the ceiling.
+[DM]: It should be good.
+[Piper]: Yeah.
+[Piper]: Oh, because I had the hands free.
+[Piper]: My hands are providing you it.
+[Piper]: Yeah.
+[DM]: Yeah, because you just like walk up walls.
+[Piper]: With my shins for the man.
+[Piper]: Yes.
+[Sev]: Okay, it's better.
+[Piper]: I'll do that.
+[Piper]: Okay.
+[Sev]: I had a man.
+[Sev]: I had a man.
+[Sev]: Does it have us fight again?
+[Sev]: Quite a big.
+[Piper]: All right.
+[DM]: Um, yeah.
+[DM]: That's a good option.
+[DM]: Throw their box box.
+[DM]: You're really scary.
+[DM]: I want you on them.
+[DM]: Yeah, he's your bro.
+[DM]: That's why he's playing his name.
+[Sev]: It's course.
+[Sev]: Humbles down the mountain.
+[DM]: Yes.
+[DM]: Sucks.
+[DM]: That's what you watch the arrow from Jordan and the two arrows from the yard.
+[DM]: Mark across the sky and so do three.
+[DM]: He doesn't even make a sound.
+[DM]: He just almost like this.
+[DM]: Oh, yeah.
+[Sev]: He tumbles down the mountains for a while.
+[Sev]: Let's be strong.
+[Piper]: The box.
+[Piper]: Guess what?
+[Piper]: I got six and seven.
+[Piper]: Six.
+[Sev]: Okay, you should fall off the mountain now.
+[DM]: Okay, so you the drow is dead Piper, you have your spell.
+[Sev]: I'm gonna go get a popsicle.
+[Sev]: Sorry, you mean the real world.
+[Sev]: Yes.
+[Lilli]: Oh my gosh.
+[Lilli]: Oh my gosh.
+[DM]: Oh my gosh.
+[DM]: Oh my gosh.
+[DM]: Oh my gosh.
+[DM]: Oh my gosh.
+[Piper]: I know, I don't know about that, because...
+[Fox]: I gotcha, because I've buried Xterrin and I'm hurt.
+[Piper]: Uh, don't you hear that?
+[Piper]: I'm hurt.
+[Piper]: Sorry, guys.
+[Piper]: What are you trying to make a point in?
+[Piper]: Did you sit in your hotel door?
+[DM]: All right, you run over to...
+[DM]: Did you make popsicles?
+[DM]: For as well as your alcohol.
+[Sev]: You know, once in a month, this one's got candy flavored.
+[Sev]: You have America flavored, rainbow flavored, and cotton candy flavored.
+[Piper]: Oh my god, American day.
+[DM]: You want to add your flavored?
+[Sev]: Yeah.
+[Piper]: You can be like red flavored.
+[Piper]: Can y'all get me one?
+[Piper]: Yeah, I'm a French.
+[Piper]: Okay, you want French?
+[DM]: Oh, this is black.
+[DM]: But your pillow.
+[DM]: Why do you think that's a little dirty?
+[Piper]: Yeah, I didn't say bitch.
+[DM]: I love my French flag to move.
+[Fox]: I hate the French.
+[Fox]: I like the way they sound.
+[Fox]: I don't know.
+[Fox]: It's because we have to learn that they don't like it when you speak to them with their language and they don't find it.
+[Fox]: Like they hate it.
+[DM]: You hang out with this fan, the Mexicans, they probably love it.
+[Piper]: Yes.
+[Piper]: It's not French labor, it's America.
+[Sev]: It did say it was America.
+[Piper]: It says it's America, it says it's America, not America, it's not just or it's actually...
+[DM]: This is cherry flavor.
+[DM]: It tastes like freedom.
+[DM]: Oh, it's hot though.
+[Piper]: It tastes like cherries.
+[Piper]: It's like enough time, it's not really... Never.
+[Lilli]: Freedom, it's like...
+[Piper]: What is that?
+[Lilli]: Jay Popsicle.
+[Lilli]: Look at it.
+[Lilli]: It's weird.
+[Piper]: I don't like how this is shaped.
+[Piper]: Wait, I don't like the pattern on it.
+[Piper]: Oh, I can eat it.
+[DM]: No, I'll do it.
+[DM]: Shut up.
+[DM]: What are you in here?
+[Piper]: OK. Do you know here?
+[Sev]: You're probably not doing Odin.
+[Sev]: I'm not going to give you the popsicle.
+[Fox]: I go over to the course.
+[Fox]: The first thing I say is that's the exact same area where I shot my mother.
+[Piper]: Oh.
+[Piper]: Can I look in the?
+[Piper]: I would expect any less.
+[Piper]: I like scourge at the like.
+[Piper]: Can I look at it?
+[Piper]: It's things.
+[Fox]: So did me?
+[Piper]: Yes, that's.
+[Fox]: Oh, by the way, I shot him in the balls.
+[Sev]: No, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no,
+What?
+[Piper]: Can you tell her to stop?
+[Piper]: Yeah, stop.
+[DM]: Stop with what?
+[DM]: You can't forget how to do it.
+[DM]: You can play the game without being able to.
+[DM]: All right.
+[DM]: So you search the body.
+[DM]: Give me one second.
+[Piper]: The body.
+[Piper]: You guys search the body.
+[Piper]: Hand process.
+[DM]: I want 10 volts.
+[DM]: It's actually used to be valuable.
+[Piper]: Wait, what?
+[Piper]: What was like the corpse?
+[Piper]: What does it look like?
+[Piper]: Oh, it's brown.
+[DM]: What's the hand cross?
+[DM]: The female drought.
+[DM]: All in black, white hair.
+[Lilli]: Um, ooh, ooh.
+[DM]: Black skin, not like African skin, but like black skin.
+[DM]: Like the color, the color of the DM board thing.
+[Piper]: Like only if only she was an evil.
+[DM]: Okay.
+[DM]: So yeah, let's, let's make some videos.
+[DM]: Stop being such an art.
+[DM]: I'm going to have three, I'm going to have three cable rolls.
+[DM]: I like enough to try to purposely circumvent the box.
+[DM]: You listen.
+[DM]: Yeah.
+[DM]: Okay.
+[DM]: No drugs.
+[DM]: No drug conversations.
+[DM]: No, no thinking about drugs.
+[DM]: Okay.
+[DM]: Ale and drinking is part of D&D, but we're not going to do it for instance.
+[DM]: Okay.
+[DM]: Alcoholism with serious disease.
+[DM]: Don't interrupt.
+[DM]: All right.
+[DM]: Number three.
+[DM]: No more heavy-handed sexual commentary.
+[DM]: Okay.
+[DM]: Let's just keep it PG-13.
+[Sev]: Did everybody agree to that?
+[Sev]: Does that sound good?
+[DM]: Man, I don't think we're a fun experience.
+[Sev]: Okay.
+[Sev]: No brain rot.
+[DM]: Okay.
+[DM]: Yeah.
+[DM]: And we'll keep that to a minimum, but that's
+[DM]: if you find that actually really upsetting.
+[Sev]: I find it very annoying.
+[Sev]: Okay, so we're going to minimize that too.
+[DM]: Can we all read those table rules?
+[DM]: Yes.
+[DM]: Is that good?
+[DM]: All right.
+[Sev]: No, no, no, no, no, drugs, no, no, no whole revenue.
+[Sev]: I'll call it in a positive way.
+[Sev]: And enough.
+[Sev]: Post sexual comments and no brain rocks.
+[Sev]: There it is.
+[Piper]: Wait, does that mean like I can't rid of it?
+[Fox]: A little bit of funny stuff like that is fine.
+[Fox]: Also make it gross or weird.
+[Fox]: No, what am I?
+[Fox]: Did I do that count as over the top?
+[Fox]: Okay, we'll put here.
+[DM]: I'm gonna use a old Political phrase.
+[DM]: I'll know it when I see it and when I call you more than it just turn it off.
+[DM]: Okay, easy.
+[DM]: That's a political phrase.
+[DM]: Cool.
+[Piper]: I was wondering why this warrant wasn't worthy of you.
+[DM]: Although when I see it is from an old Supreme Court, I was wondering why this wasn't willing to hire the leg.
+[Piper]: The entire saying is... Well, and then I read more than the D20s.
+[DM]: Yeah, okay.
+[DM]: So really briefly, in the 1980s, there was a pornographic magazine that was brought to the Supreme Court for Luke for First Amendment violation because they were trying to publish something and they were being prosecuted for it, and they were claiming First Amendment defense.
+[DM]: And the judge famously said, everybody knows what pornography is.
+[DM]: We know it when we see it, because it's different than like Michelangelo David, which is a new figure, right?
+[DM]: And that's what I'm saying.
+[DM]: I'm struggling.
+[DM]: So I know.
+[DM]: So this is raising things up and joking with the NPCs is funny.
+[DM]: Some of the less appropriate comments are not.
+[DM]: We don't need to make an objective on the classroom.
+[DM]: I'll just tell you, and then stop.
+[Piper]: Are you going to see what?
+[Sev]: I'm just going to say, every person at the table reminds my character of someone they knew at college.
+[Sev]: I already said what Littie's character reminds me of.
+[Sev]: Back in the game.
+[DM]: You are, you can't swipe the wall.
+[DM]: Yes?
+[Piper]: Me?
+[Piper]: Oh, yeah.
+[DM]: You did.
+[DM]: I forgot.
+[Piper]: And I forgot.
+[DM]: And what?
+[DM]: So, well, while Bjorn is leaving the Drow body.
+[DM]: Yes, Bjorn, huh?
+[DM]: Did you write down what you got or decide to do right now what you guys got?
+[DM]: You're so glad we got again.
+[DM]: One hand crossbow?
+[DM]: I got a hand crossbow?
+[DM]: Yes.
+[DM]: In one vial of Drow poison.
+[Sev]: All right.
+[Sev]: The hand crossbow goes to Fox, I assume.
+[DM]: Well, it's kind of in the party.
+[DM]: What's the status of the hand crossbow?
+[DM]: You get a book look up.
+[DM]: All right.
+[DM]: It's sand weapon in the future.
+[Lilli]: All right.
+[Lilli]: After Lilith casts spider walk.
+[DM]: You notice a glowing box.
+[Piper]: Why do I notice it?
+[Piper]: Why do I notice it?
+[Piper]: Why are we going to?
+[Lilli]: You're like, why?
+[DM]: You came mentally?
+[DM]: Yeah, yeah.
+[Piper]: Stop asking dumbness.
+[DM]: Yeah, you're just living.
+[Piper]: I'm telling you, like, do you pass the spell?
+[DM]: When you're on passing the spell, your feet feel like they're sticking to the ground.
+[DM]: You feel like walking around you.
+[Piper]: You like that.
+[Piper]: Can I knock?
+[Piper]: Can I just feel very light?
+[Piper]: Yeah.
+[Piper]: Okay.
+[DM]: So you see a light on the side of the tree, a little daughter's light.
+[DM]: Okay.
+[DM]: And then you see, by the way, with this.
+[DM]: I don't want to give him a food face and get a snaked out of the tree.
+[DM]: Do you face?
+[DM]: No, he isn't.
+[Lilli]: He's perfect.
+[DM]: He's just droughts now.
+[DM]: A droughts.
+[Piper]: Not these molds as I was again.
+[Piper]: I'm taking a picture of my making a sticker.
+[Piper]: I'm making that sticker.
+[Sev]: I can't laugh properly because my voice is because my voice is tied temporarily.
+[DM]: That's the mouth of the tree, a hole of the tree that's been around.
+[DM]: It flies out.
+[DM]: I pick up the hand crossbar just hold out of his body like buzzes around you one or two times.
+[DM]: Did you guess?
+[Piper]: I'm getting really scared.
+[Piper]: Like really uncomfortable.
+[Piper]: Sniffs the name of your dad.
+[Piper]: No, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no,
+[Piper]: Can I hear her?
+[Piper]: Do I say that?
+[DM]: You know exactly what this is.
+[DM]: Um, this is a thing and she obviously sees you as a dramatic magic.
+[DM]: Well, imagine you're very familiar with the messenger because they're all for the woods around.
+[Piper]: Okay.
+[Piper]: So what's she doing?
+[Piper]: Why?
+[DM]: You thought you were happy to react to them and not.
+[Piper]: Oh, okay.
+[Piper]: Okay.
+[Piper]: Test slappin.
+[Piper]: No, you're right.
+[Lilli]: You're right, Sean.
+[DM]: The big other one out of the tree.
+[DM]: Thank you, Brad.
+[Fox]: You hear this.
+[Fox]: I start speaking in fey to it.
+[Fox]: You say fey?
+[Fox]: Yeah.
+[Fox]: All right.
+[Piper]: He's in high school.
+[Fox]: He's okay.
+[Fox]: Under.
+[Fox]: No, he doesn't.
+[DM]: No, that's under common, right?
+[DM]: No, under calling is the drows language.
+[DM]: The drows language.
+[DM]: Yeah, you speak the drows language.
+[DM]: No.
+[Fox]: Um, I start speaking an ork to it.
+[DM]: Goo goo goo.
+[DM]: Do you let her face look screws up with that in June?
+[DM]: Because your friends do terrible things.
+[Sev]: Don't worry.
+[Sev]: Don't worry.
+[Sev]: He's just, he's just fucking with you.
+[Piper]: Whoa, that was off.
+[Piper]: You did 13.
+[Piper]: I love it.
+[Piper]: I love it.
+[DM]: Oh, slowly.
+[DM]: That's all I meant.
+[DM]: By the way, I am only cursing out.
+[DM]: I have a question.
+[Piper]: Yes.
+[Piper]: What do you think?
+[Piper]: Oh, get it out again.
+[Piper]: Okay.
+[DM]: You could be a gamer.
+[Piper]: Where does she see Jurek?
+[DM]: Is she like rude?
+[DM]: That's fine, but like here, instead of asking questions like that, you can say, I asked her in Jurek.
+[DM]: Do you want me to speak Jurek?
+[Piper]: Okay, I'm not doing that.
+[Piper]: No, I don't need to know.
+[Piper]: No, I speak.
+[DM]: It's actually really good.
+[DM]: No, it's just me.
+[DM]: Do you know?
+[Piper]: No.
+[Piper]: I'm talking about me.
+[Piper]: Do you know Jurek is a secret language?
+[Piper]: Really?
+[Piper]: Yes.
+[DM]: Only to pay in her.
+[DM]: So you can't go to school to learn your way.
+[DM]: You can only become a druid and speak.
+[DM]: So that's why that's a good thing.
+[DM]: Also, but he's the excuse that he's got is another secret language that only other roads have.
+[Sev]: This is supposed to be every class without their own secret language.
+[Piper]: No, it's not.
+[Piper]: No, wizards literally go to school.
+[Sev]: I only have three.
+[Sev]: Anyway, I only have a common walrus and elvish.
+[Fox]: It's it's racing back on that determined language.
+[Fox]: Oh, you can learn one down over the scale.
+[DM]: We can talk about it.
+[DM]: Anyway, so what do you do?
+[Piper]: Me?
+[DM]: Yes, you.
+[Piper]: With what?
+[DM]: What does this does, um, well, it's same thing.
+[Piper]: Oh, what are you doing around these parts sitting on?
+[Piper]: What are you doing around?
+[Piper]: Okay.
+[DM]: Just.
+[DM]: Oh, well, everyone else decided to leave, so I thought I said.
+[DM]: And then all this terrible, terrible drought showed up.
+[DM]: But I thought I should have left too.
+[DM]: But I couldn't because if I left my hole, big ugly, blue shot me.
+[DM]: So, I waited.
+[DM]: Didn't you all showed up?
+[DM]: Now you're welcome.
+[DM]: And your terrible work friend killed him.
+[DM]: Weird hairless.
+[Piper]: I turned into an orc.
+[Piper]: He's a little weird.
+[Piper]: Wait, wait.
+[Fox]: And then turn into a jaw and start speaking around it.
+[Piper]: I made it a sticker.
+[Fox]: I don't like it.
+[Fox]: I don't like it.
+[Piper]: No, that's...
+[Piper]: Mom says that you're super just shy.
+[Fox]: She's like, don't exist in this one.
+[DM]: But she's not stupid, right?
+[DM]: Like she can see it and take it out in front of her.
+[DM]: And so she's just like choosing to ignore his antics.
+[DM]: We just need to pop her.
+[DM]: We honestly don't know what she is.
+[DM]: I don't know if he does either.
+[DM]: What's up?
+[Piper]: I saw a thing over by whoever by site B.
+[Piper]: If you know what it is, it's like yada yada yada.
+[DM]: You can also see the other hole.
+[Piper]: The other hole.
+[DM]: What's the key point?
+[Piper]: Um, another thing.
+[Piper]: And do you know like anything about that?
+[DM]: Like, nope, they all left when the holes opened up.
+[DM]: So the hole was there and the thing was there.
+[DM]: Maybe it's somebody like me who just didn't want to leave.
+[Piper]: Oh, the hole flows.
+[DM]: No, the whole club.
+[Sev]: Maybe maybe that's able to turning.
+[Fox]: I'm sure climbing up the tree to get a closer view of her.
+[Fox]: I can't.
+[Fox]: She's on the ground.
+[Fox]: She's on the ground next to.
+[DM]: Oh, OK. Fucking loser.
+[DM]: Sorry.
+[Piper]: Oh, OK.
+[DM]: The first one, the first one you got to close in the first session, the second one you close the last session.
+[DM]: All right.
+[Piper]: We should only do so we have one of these posts.
+[DM]: That's right.
+[Piper]: Do you know where the other home might be?
+[Piper]: It's literally in front of us.
+[DM]: Oh, that's really nice.
+[DM]: If I do ask, why do you ask us?
+[Sev]: This is a stupid question.
+[Sev]: We're really heading there.
+[Sev]: No, no, no, no.
+[Fox]: I asked the fairy fairy.
+[Fox]: What would you know about the, uh, the, it's a fairy specifically.
+[Fox]: The reason why I'm a fairy too.
+[Piper]: These are actually
+[Piper]: Okay, it's better, yes.
+What happened?
+[Piper]: Yep.
+[Piper]: Let's make a trade.
+[Piper]: Oh, I love trade.
+[DM]: I'll get in for you.
+[DM]: What do you, what exactly are you offering?
+[DM]: Oh, no.
+[DM]: What's useful thing since I've been sitting here since they show.
+[Piper]: Okay, so what do you want?
+[Piper]: Do you have money to leave that one here?
+[Lilli]: Okay, so everybody will need to check.
+[Lilli]: Anybody who gets over that, bring your hand.
+[DM]: 13.
+[Lilli]: I also got a 13.
+[DM]: That's 20.
+[DM]: You guys know that Faye are famous for making deals.
+[DM]: They keep their deals, but they don't give a shit about physical possessions.
+[DM]: Unless there's something that can be
+[Fox]: I first swayed her to allow me to do a performance for her.
+[DM]: You should sing a song that has never been heard.
+[Piper]: Can I play?
+[Piper]: Can I play?
+[Fox]: I do have a song.
+[Fox]: Can I roll performance?
+[Piper]: I also roll performance for gravity falls.
+[Sev]: It's too late.
+[Sev]: You're doing the Lamy Lam song.
+[Piper]: I got a tiny one.
+[Fox]: I'm holding that to want to shit.
+[DM]: I'm always shit.
+[DM]: You've performed in an amazing song.
+[DM]: What song do you perform?
+[Fox]: Uh, the Ballad of Bringle Groft.
+[Fox]: Enter Sandman by, uh, by Metallica.
+[DM]: Remember the prostate.
+[Fox]: No.
+[Fox]: What did she give me?
+[Fox]: I just yelled at you.
+[Fox]: A song that will never, has never been played before.
+[Fox]: So, what do you think she's putting down?
+[Piper]: Creativity.
+[Fox]: Creativity.
+[Fox]: Yeah.
+[Fox]: Luther.
+[Fox]: Um, I play a song that I've made myself, but have never performed yet.
+[Fox]: Excellent.
+[DM]: Claps of hands, long ago.
+[DM]: You guys, everybody in the party, this is like some of the best music you've ever heard.
+[Piper]: Thank you guys.
+[DM]: Thank you.
+[Piper]: Nice early grunting like an orangutan.
+[Piper]: Can I have none?
+[DM]: Sure.
+[DM]: And then... Oh my god.
+[DM]: Just like Brad.
+[Piper]: Who's Brad?
+[Sev]: I literally compare...
+[Sev]: I can't really compare your chore character to him whenever you first spoke.
+[DM]: So she goes inside.
+[DM]: They have chained up a giant body.
+[DM]: The slider is not tamed.
+[DM]: It is not their friend.
+[DM]: But if anything touches the silk curtain in front of its chamber, it shrieks.
+[DM]: Let me tell you.
+[DM]: woke me up so many crimes as they bumbled about them for the most of the night trying to go to the bathroom.
+[Piper]: Oh, but do yourself.
+[Piper]: I think that's TMI, Loki.
+[Piper]: Do you not go in the bathroom?
+[Piper]: No.
+[Piper]: Right.
+[Piper]: Oh, I probably don't.
+[Piper]: I'm gonna die.
+[Fox]: She's a male.
+[Piper]: I'm gonna ask of you.
+[Lilli]: Is it?
+[Lilli]: Nobody knows what those are.
+[Lilli]: You're an ass.
+[Piper]: What do you think is an assamir?
+[Piper]: You're an owl.
+[Piper]: I'm your mom.
+[Piper]: Don't say that.
+[Piper]: I'm gonna die.
+[Piper]: I'm your mom's husband.
+[Piper]: Oh, okay.
+[Sev]: That's why I'm an assamir.
+[Sev]: In the game, I am a high up with the vine blood.
+[DM]: I like how early had the second day of all of us.
+[DM]: You would be an ass mirror paper, but you are just a urinal that fits into the rest of the world.
+[DM]: What am I on?
+[DM]: What are you?
+[DM]: What are you?
+[Sev]: What are you doing?
+[Sev]: The party doesn't know what's going on.
+[Piper]: When does that make sense?
+[Piper]: You're okay.
+[DM]: So because I let you put your general number on, we're just going to say that you can't look back, stay where they are, but you're even at all kinds of purposes that hasn't adopted anger in the private conference, like 12 generations.
+[Fox]: Do you know who that anger is?
+[Fox]: uh that they're they're the monster that we're uh reanimated no shape shapes on shape shapes yeah but it's way more perfectly like the actual model there's yeah can i start glowing oh may i say something real quick the party doesn't know that my character is the
+[Sev]: The party doesn't know what type of outfit my character is, and that's because my character ever doesn't want to be seen as a xenophobe.
+[Sev]: Because like I said, my character's outfit is known for being really xenophobic.
+[DM]: Here are the other couple of people.
+[DM]: Here are the what?
+[Piper]: Oh, look at the invitation to make it look like she's on fire.
+[Lilli]: But why?
+[Piper]: Okay, can I pick it for any bird toes?
+[DM]: Alright, so you have to tell me that because I did the most to that.
+[DM]: I got a 9.20.
+[Piper]: I have a plus mine.
+[DM]: So I thought I could do to help you.
+[Piper]: I don't even like the move.
+[Piper]: Okay, maybe
+[Sev]: Uh, wait, what was the city getting there?
+[Sev]: Oh, I'm trying to deal.
+[Sev]: Maybe if you're going to see any of these photographs walk, maybe you can perhaps like go to check how they'll warn us if we are there, or at least try to find us to warn us if you can see any more.
+[Sev]: Absolutely.
+[Sev]: All right.
+[Sev]: If anyone else has any suggestions for how this kindly could help, uh, I assume that they'll be greatly appreciated, I assume.
+[Fox]: If you find a magic artifact with minor illusion,
+[Piper]: You want to join my cole?
+[Piper]: No.
+You may use.
+[Piper]: I'm going back a bit.
+[Piper]: If we, if he died, did he fall off the thing?
+[Piper]: Or do we have to find up there to get to him?
+[Piper]: He fell off.
+[Piper]: He fell off.
+[Piper]: He fell off.
+[Piper]: He fell off.
+[Piper]: He fell off.
+[Piper]: He fell off.
+[Piper]: He fell off.
+[Piper]: He fell off.
+[Piper]: He fell off.
+[Piper]: He fell off.
+[DM]: He fell off.
+[DM]: He fell off.
+[DM]: He fell off.
+[DM]: He fell off.
+[DM]: He fell off.
+[DM]: He fell off.
+[DM]: He fell off.
+[DM]: He fell off.
+[DM]: He fell off.
+[DM]: He fell off.
+[DM]: He fell off.
+[DM]: He fell off.
+[Piper]: He fell off.
+[Piper]: He fell off.
+[Piper]: He fell off.
+[Piper]: He fell off.
+[Piper]: He fell off.
+[Piper]: He fell off.
+[Piper]: He fell off.
+[DM]: He fell off.
+[DM]: He fell off.
+[DM]: He fell off.
+[DM]: He fell off.
+[DM]: He fell off.
+[DM]: He fell off.
+[DM]: He fell off.
+[DM]: He fell off.
+[DM]: He fell off.
+[DM]: He fell off.
+[DM]: He fell off.
+[DM]: He fell off.
+[DM]: He fell off.
+[DM]: He fell off.
+[DM]: He fell off.
+[Piper]: So we were 160 away from me?
+[DM]: No.
+[Piper]: That's not 200.
+[DM]: Oh, no, no, no.
+[DM]: You're right.
+[DM]: You're right.
+[DM]: It's not.
+[DM]: We weren't doing it.
+[DM]: You know how to do it.
+[DM]: Yeah.
+[DM]: Okay.
+[Piper]: Do it right now.
+[DM]: He's doing 300 on the tree.
+[DM]: I'm going to go pee.
+[DM]: I'll break back.
+[Piper]: I want to do it.
+[Sev]: If I ever get homework again, I'm making you do it.
+[Sev]: Nope.
+[Sev]: I don't want to do this.
+[Piper]: I'm going to do this.
+[Piper]: I'm going to do this.
+[Piper]: I'm hungry.
+[Piper]: Okay.
+[Piper]: That's great.
+[DM]: Feed me.
+[Piper]: Does it have to be human?
+[Piper]: Feed me.
+[Sev]: I'm going to get enough.
+[Sev]: I am going to get another popsicle.
+[Piper]: You're a victim to those.
+[Piper]: It was.
+[Piper]: They do.
+[Fox]: Okay.
+[Fox]: It was 60 feet in the air and then across it would have been 190.78.
+[Piper]: Still that's not 200.
+[Piper]: I'm not 200.
+[Fox]: That's two hundred and another piece of garlic bread.
+[Fox]: A straight shot would have been 200 feet.
+[Piper]: I kind of ran.
+[Piper]: Wait, I didn't need a crime plan.
+[Piper]: Why would he say that?
+[Piper]: There would have been more things I could have done if he would have just said that.
+[DM]: What?
+[DM]: Okay.
+[DM]: No, he was 200 feet away.
+[Piper]: Was the girl?
+[Piper]: No, because then it would be like
+[Piper]: We only knew how to be with the angle.
+[Piper]: If I had ran closer, even three people get me closer enough.
+[Piper]: You would have seen them.
+[DM]: We had five seconds.
+[DM]: Okay.
+[DM]: Okay.
+[DM]: Really, really quickly.
+[DM]: For everybody who's even mildly interested.
+[DM]: Drowned a tree.
+[Piper]: Right.
+[DM]: Right.
+[Piper]: It's, uh, it was, uh, why did you do green on green?
+[Piper]: I didn't see nothing, man.
+[DM]: So how did you have blue basket as a bag of markers?
+[Fox]: If you, if you were six and a year, then he would have been a hundred and ninety feet off.
+[Piper]: Or he is smarter.
+[Fox]: Yes, it is.
+[Fox]: Thank you.
+[Fox]: Thank you.
+[Fox]: Sure.
+[Piper]: Thank you.
+[Piper]: Thank you for the math.
+[Fox]: That's actually not sexy.
+[Fox]: It is 30,600.
+[Fox]: Point times 20 is 40,000.
+[Fox]: Now I'm going to minimize 30,600.
+[Fox]: So I'm actually getting 30.
+[Fox]: It's 200.
+[DM]: It's 200.
+[DM]: It's 130.
+[DM]: Keep thinking that.
+[DM]: 6.6,000.
+[DM]: Here we go.
+[DM]: Drow the tree.
+[Lilli]: OK.
+[DM]: Here is the party.
+[DM]: That's very low.
+[DM]: Down here.
+[DM]: Here's the words.
+[DM]: Here's Lilith on the ground.
+[DM]: You know that the drow is 60 feet up the tree.
+[DM]: Yeah.
+[DM]: And you also know that you are 200 feet away from the drow.
+[DM]: This is the ground.
+[DM]: Are you off the bicycle?
+[Piper]: No, no.
+[DM]: Rounded it would be 100.
+[Piper]: I love some angles.
+[DM]: OK.
+[DM]: Wait.
+[DM]: This is a right angle.
+[DM]: I think it's 90 degrees.
+[Piper]: This number.
+[DM]: The question you want.
+[DM]: Now, I said you were 200 feet from the drow because it means how to attack the drow.
+[DM]: So for said, to shoot his magic missile from here to here, it's 200 feet.
+[Piper]: OK, you can use this way too much when you said it.
+[Piper]: Oh, I can't get it.
+[Piper]: Yes, he did.
+[DM]: No, no, because if this were 200 feet, you rock 200 feet from the base of the tree, you're 200 feet from the drow.
+[DM]: because that's the line of sight for your bow or your magic missile or whatever else, right?
+[DM]: This is geometry or this is trigonometry.
+[DM]: So the Pythagorean theorem is a squared plus beta squared.
+[DM]: This is 190.8.
+[DM]: So it's called Pythagoras.
+[DM]: This is a b.
+[DM]: Love you, sir.
+[DM]: This is c. So you also know here, we're just going to do some math.
+[Piper]: I love angles.
+[DM]: So this is 60 squared equals 200 squared.
+[DM]: And we know that this is 3,600.
+[DM]: And we know this is 40,000.
+[DM]: Thank you.
+[Piper]: You're taking?
+[Piper]: He's faster at that than I am.
+[Piper]: 3,600.
+[Piper]: 3,600.
+[Piper]: OK. 3,36.400 times.
+[DM]: So I don't have to get the whole one wrong.
+[DM]: And then a is equal to what?
+[DM]: 190.
+[DM]: What?
+[DM]: Yeah.
+[DM]: By the way, I usually thought I got like these now that what's 100.
+[DM]: Hey Siri, what is the square root of three 36,400?
+[DM]: Hey Siri, what is the square root of 36,400?
+[DM]: Oh, there's under 90.
+[DM]: Yeah.
+[DM]: So this is 190 feet.
+[Sev]: You are off by 10 feet.
+[Fox]: That's now he was right by you.
+[Fox]: It was a strange shot to 100.
+[Piper]: I could still run.
+[Piper]: I thought we were climbing.
+[Piper]: Why did you say crime?
+[Piper]: Because after I could get closer to him, wouldn't I be running enough climbing?
+[Piper]: Because then you were like, no, you're walking away.
+[DM]: No, no, no, no, no.
+[DM]: OK, that's just right though.
+[DM]: I actually understand your point now.
+[DM]: But if you get to the base of the tree, you're still 60 feet away.
+[Piper]: Okay, but guess what?
+[Piper]: That's, that's close enough for me to hit something.
+[DM]: Okay, we have, we have been useful.
+[Piper]: No, no, no.
+[DM]: She's got you guys.
+[DM]: She's got me.
+[DM]: No, no, no.
+[Fox]: Now, here's, you said we had a snake accident, which we did.
+[DM]: Well, well, yeah, you're getting into the round map, which is that you can't make it that far that fast.
+[DM]: He's right about that.
+[DM]: But you're right.
+[DM]: You're right.
+[DM]: In the future, though, that's the geometry for somebody of the three.
+[Piper]: Thank you.
+[DM]: Sorry for understanding your question.
+[Piper]: I'm going to need that later on.
+[Piper]: You know, my teacher made me do something like this.
+[Piper]: She made me do that.
+[Piper]: I mean, bro.
+[DM]: Bayoric.
+[Piper]: Miss Bayoric.
+[DM]: Yeah.
+[Piper]: Skate.
+[Piper]: Where's all that?
+[Piper]: What?
+[Piper]: See, like, give me the prize.
+[Piper]: You saw me.
+[Piper]: And she was like, yeah, you're going to do it because I know you're smart.
+[DM]: We'll just give you extra check.
+[Piper]: Yeah.
+[Fox]: It's, uh, it's what you would be learning in the normal class next year.
+[Fox]: And even then you'd still be learning in an algebra class for the PSS.
+[Fox]: Why do we need?
+[Sev]: I'm doing the high school code of the PSSA.
+[Fox]: It's a part of doing it.
+[Piper]: I don't do the PSSA's.
+[Piper]: Yeah, you're right.
+[Piper]: You're sorry.
+[Piper]: I'm sorry.
+[Sev]: I wish I didn't have to do the key.
+[Piper]: Which is also a problem.
+[Piper]: Well, like what has to do with it.
+[DM]: Doesn't do anything.
+[DM]: I've got to do stuff.
+[DM]: So I don't want to do it.
+[DM]: If your school's making you do the middle house.
+[Fox]: If I do good on the keystones this year, do I have to take them next year?
+[Fox]: Yeah.
+[Fox]: Other than extra.
+[Fox]: I don't know.
+[Fox]: I don't want to take the keys.
+[Sev]: All right.
+[Sev]: So I have to take them every year you are in high school.
+[DM]: I'll draw 11th grade.
+[DM]: If you ask me math questions, I will geek out and answer my questions.
+[Fox]: Actually, you don't because you said my answer was wrong.
+[DM]: I honestly didn't think that that could be 190.
+[DM]: That would be like 40 or 50.
+[Fox]: 100 times 100 is 10,000, which means 30,000 would be the answer.
+[DM]: You are and always have been better at that quick mental gap than I am.
+[DM]: And I just didn't think that.
+[Sev]: I'm honestly glad I wasn't able to use firewall because I did not want to kill her.
+[DM]: I wanted to.
+[DM]: The bold fairy.
+[DM]: That's a really good point.
+[DM]: Yeah, if you acquired a bald tree, you would have killed it.
+[DM]: By the way, you killed your neighbor.
+[DM]: Oh, no.
+[Piper]: Me, they ain't gone from his end there, though.
+[DM]: Yeah, but he wouldn't.
+[DM]: He still has blown up the tree.
+[DM]: He's so she was in bed.
+[DM]: I go back to my farm.
+[DM]: So said, you asked them to tell you in the future when you're back in Maryland, to see the growl around the world.
+[DM]: That's what you asked for.
+[Lilli]: Yeah.
+[DM]: If you gave you the intel about the square inside the cave, the screens was running out of itself.
+[DM]: Yes.
+[DM]: Yes.
+[DM]: Any else?
+[DM]: Anybody want to ask me?
+[Lilli]: No.
+[Sev]: Well, actually, I will.
+[Sev]: I asked just a random question about the imagine of her with theory I had.
+[Sev]: The theory was that the magic is like a direct crime from a wild magic some way.
+[Piper]: Can I ask her where to get 50 million bananas?
+[DM]: Okay.
+[DM]: Sorry.
+[Piper]: I mean, but they're for my she mobile.
+[Piper]: That's my question.
+[DM]: Why are you here?
+[Piper]: Today, I asked them that said I haven't 50 million, but he said she said you want to do that.
+[Piper]: I mean, we are kind of, um, like the enrollment radiation.
+[Piper]: Excuse me.
+[Sev]: I helped the man with she.
+[Piper]: All right.
+[Sev]: You guys need to take a break or do you want to?
+[DM]: I go back into my regular phone by the way.
+[Piper]: Yeah, I'm kind of hungry too.
+[Piper]: I want my cookies.
+[DM]: They're making me like so.
+[DM]: They're all different, I'll forgive, but they're because she said there's something messed up with them, but there are so no baked cookies in there so much.
+[Piper]: You said they turned out bad.
+[DM]: I want to bake cookies.
+[DM]: So I do.
+[DM]: It's still a lot of chocolate peanut butter and white cookie sauce.
+[Sev]: I want to yes, baked cookies.
+[Fox]: Oh, by the way, before I change back, my character says, I don't feel comfortable in this color of skin.
+[DM]: This type of skin does not suit me.
+[DM]: Race is up.
+[Fox]: My character doesn't have a race.
+[Fox]: All right.
+[DM]: My character can be racist to anything.
+[DM]: You want to go somewhere?
+[DM]: Yeah, I'm going to go somewhere.
+Yeah.
+[Lilli]: Are you feeling it?
+[Piper]: I'm taking less static pictures of dice so I can make a, um, no paper for Dandy.
+[Piper]: Not it really does look like she's awesome.
+[DM]: Oh, I'm so sorry.
+[DM]: I didn't.
+[DM]: I don't know.
+[Piper]: I don't know.
+[DM]: So why do we have, what is this study?
+[DM]: Map, map, map, map, map, map, map, map, map, map, does that really mean you?
+[Piper]: Yes.
+[Fox]: A map, do you mean you could ask her both?
+[Piper]: Hey, can somebody fill the oven?
+[DM]: Can you do it through the oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven
+[Piper]: We're welcome.
+[Lilli]: However, we can make no bigs after the end.
+[DM]: We don't have an incident.
+[DM]: We don't know.
+[DM]: What happened?
+[Piper]: We can buy some so we can make no bigs.
+[DM]: We can walk down to the item.
+[Lilli]: Yeah, let's walk down to the item.
+[DM]: blew it, blew it inside.
+[Fox]: I applied at my skin in order to take out the wires underneath it, but all I saw was flash.
+[DM]: Oh, for a second.
+[DM]: So I was on the room.
+[Lilli]: Sam, are you in the greenhouse room?
+[Lilli]: No.
+[Lilli]: What?
+[Lilli]: He said, we don't know if you just disappear like that, but you gotta let us know.
+[Lilli]: All right.
+[DM]: It's OK.
+[Piper]: I can, like, most of us saw him.
+[Piper]: I hate you.
+[Piper]: You lie.
+[Piper]: You lie.
+[Fox]: You can make chocolate chip cookies.
+[Piper]: Like right now.
+[Fox]: Not right now.
+[Fox]: We have to finish it.
+[Piper]: We're not waiting to.
+[DM]: All right.
+[DM]: All right.
+[DM]: Come back to the picture.
+[DM]: All right.
+[DM]: So you go to the game now?
+[DM]: Yes, Rov, what else?
+[DM]: Game out.
+[DM]: Game out.
+[DM]: Game out.
+[DM]: You notice, because, oh, and only because, well, it's, well, it's, well, it's, well, it's, well, it's, well, it's, well, it's, well, it's, well, it's, well, it's, well, it's, well, it's, well, it's, well, it's, well, it's, well, it's, well, it's, well, it's, well, it's, well, it's, well, it's.
+[Piper]: Do not touch it because it shouldn't.
+[Piper]: Maybe she's buying.
+[DM]: Okay.
+[DM]: No, it's not in the future.
+[DM]: I'm going to just have your character do whatever it is you say.
+[Piper]: Okay.
+[DM]: And if it pops everything off, then I'm going to consider that your water is blue.
+[Piper]: Anyway, I kill it.
+[Piper]: I think this is better.
+[Piper]: Are we buying this?
+[Piper]: Are we buying this?
+[Fox]: Can I roll this?
+[Fox]: Do I have to roll the mortar to get through the string?
+[DM]: So there are a bunch of dozen little tiny things that spider so thread dangling over the doorway.
+[DM]: You have to find a way around that.
+[Piper]: And they can run.
+[Piper]: Wait, all the way down or they're like, yeah, talk about yourself some of the 20 minutes.
+[DM]: No.
+[Piper]: Oh, okay.
+[Piper]: Well, I can acrobatics open them.
+[Fox]: I can tell.
+[Piper]: You could use your flow.
+[Fox]: But that's a chance.
+[Fox]: You don't think you could acrobatics.
+[Fox]: Can you burn them?
+[Piper]: Wait, could I use light?
+[DM]: You do know the spider symbol.
+[DM]: There's no one.
+[DM]: It's not.
+[DM]: It's not even worse.
+[DM]: You just know that.
+[Piper]: You mean, no, there's like if there's another gap somewhere or is this the only gap?
+[DM]: I mean, you don't know for sure.
+[Piper]: Actually, could you use how which one another when something?
+[Sev]: I know it a perfect way to give a spider will burn.
+[Fox]: Burn it.
+[Fox]: Could I could I use fast hands?
+[Fox]: Slide of hand.
+[Fox]: Make a dexterity slide of hand chart to pick a walk or disarm a trap with the install.
+[DM]: You think that you might be able to do that?
+[DM]: You also think that you could also do scouts.
+[DM]: You actually have to tie your walk.
+[Piper]: Or if I put them off with my green sword at home, I'm glad it's here.
+[DM]: OK, so we have to go and see both of those.
+[DM]: I'm sorry.
+[DM]: No, you're good.
+[DM]: So first, Lilith goes and walks up the side of the mountain.
+[DM]: You want to try one?
+[Piper]: I walk up the side of the mountain with my big, trusty feet.
+[Piper]: Oh, sorry.
+[Piper]: I'm completely sideways on this mountain.
+[DM]: Yeah, looks better then.
+[DM]: So you walk up.
+[DM]: Oh, roll of perception.
+[Piper]: Oh, perception.
+[Piper]: No shot, man.
+[Piper]: What's my perception?
+[Fox]: Okay, you've got an out one.
+[Piper]: Okay.
+[Piper]: Technically, I've got a three.
+[DM]: Oh, Hector, I'm sorry, you need a little bit.
+[DM]: It was athletic, but you want me to watch the, uh, I'll spell like it.
+[DM]: You walk up to the top and you see there is a small gap involved.
+[DM]: The cave bell dropped down to the chamber below.
+[Piper]: Can I hoist my friends up?
+[DM]: No.
+[Piper]: How far is it?
+[Piper]: You can.
+[DM]: use, they need to make an athletics check, the climb of their hands, you can give an advantage by like pushing them.
+[Piper]: Okay, I got that.
+[Piper]: And that's all.
+[DM]: Oh, yeah, guys, opening up, go.
+[Piper]: That's what I do.
+[Piper]: I have, I'm so worried they need to do athletics.
+[Piper]: Negative one.
+[Piper]: All right.
+[Piper]: Here's the parameters.
+[Piper]: You get advantage.
+[Piper]: If you follow, you take damage and try that.
+[DM]: Do I do acrobatics instead?
+[Piper]: Okay.
+[Fox]: I'd rather this on the chat.
+[Piper]: Why?
+[Piper]: Plus six.
+[Piper]: Maybe I'm trying.
+[Piper]: Minus twenty three.
+[Fox]: Yeah, I have a plus zero.
+[Sev]: Can I get off with that with acrobatics?
+[Sev]: I am ironically.
+[Sev]: No, you can.
+[DM]: Do you think this is what I asked?
+[DM]: Is it every finger?
+[DM]: Almost up 80.
+[Piper]: That's a plus four.
+[DM]: Um, yeah, I'll answer that.
+[Piper]: Do you have a whole day?
+[Piper]: I plus four.
+[Piper]: Oh, that's just a negative 20.
+[DM]: No, the better.
+[Piper]: I just got maybe three.
+[Piper]: Like, how do you get 14?
+[Piper]: 14.
+[DM]: 14.
+[DM]: 14 is not quite good enough.
+[DM]: You fall.
+[DM]: It's a good medical way.
+[Piper]: Uh, was that what the vision?
+[Sev]: What?
+[Piper]: Did you go in the survey?
+[Sev]: No, I don't.
+[DM]: Okay, you roll with the data, do you accept your old question?
+[Sev]: Yeah, higher one was 14.
+[Sev]: I have a minus one and a minus.
+[DM]: You follow, you take two points of damage.
+[DM]: Okay.
+[Piper]: Well, I've got twenty three.
+[Fox]: You were only ready to do this.
+[Fox]: The side of hand 14.
+[Sev]: There's no.
+[Sev]: I mean, I'll try.
+[Sev]: Okay.
+[DM]: I'm going to give you a plus one because you feel the first time that you have at better.
+[DM]: So you succeed.
+[DM]: Everybody succeeds so far.
+[Lilli]: It's actually 16 plus one.
+[Lilli]: Try this on the job.
+[DM]: What happened?
+[DM]: Yes.
+[DM]: What?
+[DM]: I understand that you're.
+[DM]: as you set off the traffic, don't match it.
+[DM]: If you try to climb the mountain with low self and fail, you take like two or three points in and you try again.
+[DM]: So you get up.
+[DM]: You could do that game theory yourself inside of you.
+[DM]: You say you wanted some traps, or you could go on a trap, unless you're paying to your client.
+[Lilli]: You don't mean to sleep and track his ass at the mountain.
+[Piper]: OK, fine.
+[Piper]: Wait, no, I think guys don't think for that.
+[Fox]: Try me.
+[DM]: And if you fail, I'm really going to set the guy up.
+[DM]: I'm going to roll side of hand.
+[Fox]: You guys get.
+[Piper]: Wait, wait, wait, wait, wait, wait, wait.
+[Piper]: I slap him.
+[Piper]: Can I use diet?
+[Piper]: Can I use diet?
+[Fox]: You're not near me.
+[Piper]: You're not near me.
+[Piper]: I'm not going to help you out the demo.
+[Piper]: Well, you touch a willing creature and she has a skill until the spell hooks.
+[Piper]: All of your guys are going to 20 to any ability.
+[DM]: Yeah, you can do that.
+[DM]: Guys.
+[DM]: I rolled 20.
+[Piper]: Okay, well, it doesn't work.
+[Piper]: And they said something tough anyway.
+[Fox]: Where's the guy right there?
+[Piper]: It's a porcupine on the guy.
+[Fox]: What's that?
+[Fox]: What's that?
+[Fox]: What's that?
+[Piper]: What's your?
+[Piper]: Yes.
+[Piper]: That's how you make my money.
+[Piper]: Oh, yeah.
+[Piper]: Okay.
+[Piper]: You didn't even need me to touch you.
+[Fox]: Also, she was of the mountain already.
+[Fox]: So she couldn't use guidance.
+[Fox]: Okay.
+[Lilli]: Well, I thought you would.
+[DM]: I didn't really pass a lift.
+[DM]: But anyway, yes.
+[DM]: Fair enough.
+[DM]: Okay.
+[DM]: You're all in the empty chamber.
+[DM]: It is a 30 foot, like a 30 foot natural tavern.
+[DM]: There are two bedroll piles of hook fires smoldering in the center and a weapon rack against the east wall, holding three hand crossbows and like a stool.
+[DM]: We take the hand crossbows.
+[DM]: As you drop in from the ceiling,
+[DM]: You startle to additional drown.
+[DM]: One is sleeping and the other is making errors.
+[DM]: They are surprised.
+[Sev]: I see the park as a night.
+[Piper]: They are 10 feet apart.
+[DM]: I'm not going to lay the bottom after I'm going to be able to get into.
+[Piper]: Um, no, that's good.
+[DM]: Let's see.
+[DM]: I'll be here.
+[Lilli]: So they can remove that left.
+[Sev]: Got my wizard ready.
+[DM]: I'll go to my to them.
+[DM]: I was my mom.
+[DM]: Oh, second.
+[DM]: Okay.
+[Piper]: Oh, why do I have to still be the same person?
+[Lilli]: That's the fire.
+[DM]: Um, this is the cave mouth.
+[Piper]: I'm not a peaceful.
+[DM]: Bjorn is right here in this square.
+[Piper]: Where am I at?
+[Piper]: The ceiling.
+[DM]: Yeah, so those are the figures that came.
+[DM]: I don't know who's who.
+[Piper]: I'd be standing on the ceiling.
+[Sev]: I am.
+[Sev]: I am this guy.
+[DM]: You're going to ask me to put a dice underneath your character.
+[DM]: You know, you're not on the ground.
+Okay.
+[Piper]: It's like my character.
+[DM]: Where's my character?
+[DM]: Okay.
+[DM]: There's no accent, okay?
+[DM]: Tom Stellies, by the way.
+[DM]: We'll pick advice, please.
+[Piper]: Queen, where my character be at?
+[Piper]: Is it the tower?
+[Lilli]: I'm so confused.
+[DM]: Those of you that entered from your ceiling hole, which is everybody except Jorn, can be anywhere in means squares.
+[DM]: I'm going to put that one.
+[Piper]: The only one is it wasn't here when we picked one.
+[Piper]: I fell on 20 people.
+[Piper]: I'm here.
+[Fox]: South takes 80 points of fire.
+[Fox]: I know it's okay.
+[Fox]: What is here?
+[Piper]: A fire hit.
+[Piper]: Oh, that's a burning fire right there.
+[Sev]: Never mind.
+[Piper]: I hope you burn.
+[Sev]: Who is the power?
+[Piper]: Um, I think it was, um, Laura, Laura.
+[Piper]: So.
+[Fox]: It's fine.
+[Fox]: We have enough.
+[Piper]: Hey, you like that, dude?
+[Piper]: Okay.
+[Piper]: Okay.
+[Piper]: Let me have the figure.
+[Piper]: Yeah.
+[Piper]: Just wait.
+[Piper]: I can fly.
+[DM]: Oh, this is a man.
+[DM]: I don't know.
+[DM]: It's like, because you can have a flat speed.
+[Piper]: What?
+[Piper]: Okay, well, how do I remember that?
+[Piper]: But I just like crossed it off.
+[Piper]: My mom wants to know when this ends.
+[DM]: Oh, is it from me?
+[DM]: Um, what is it?
+[DM]: I need to go through.
+[Piper]: That's applying.
+[Piper]: My mom wants to know when this ends.
+[Piper]: Six seven.
+[Lilli]: It's past eight.
+[Fox]: I shouldn't have a clock, Moron.
+[Fox]: I'm not talking to you.
+[Piper]: Oh, he just got into that also.
+[Fox]: Were you looking at your clock when you said it's 6 a.m.
+[Piper]: I was looking at house.
+[Fox]: Oh, please.
+[DM]: So, okay.
+[DM]: You can't fly, but only if you read this only once for long rest.
+[Piper]: So I haven't flown before.
+[DM]: No, that's true.
+[DM]: So you could do it.
+[DM]: And for one minute, you'll have wings need only to fly.
+[Lilli]: How long is that many?
+[DM]: 10 rounds.
+[DM]: But like, but after that, what can we do again?
+[DM]: We need respirators.
+Oh, okay.
+[DM]: So that's the job.
+[DM]: This is like the intro fight.
+[DM]: So I don't know if I burned that here, but that's okay.
+[Piper]: There's another fight.
+[Piper]: Oh, shit.
+[DM]: It's like that.
+[DM]: It's like the chamber of the beginning of the anime.
+[DM]: We're not going to get through it all night.
+[DM]: Oh, that's okay.
+[Piper]: Y'all think?
+[DM]: What time?
+[DM]: What time does Dandy owned?
+[DM]: There isn't time.
+[DM]: I don't know what he's talking about.
+[Piper]: Well, cookies.
+[Fox]: You can stop after this comment.
+[Piper]: There is no cookies.
+[Fox]: Oh, by the way, y'all.
+[Fox]: The entire room gets smoked, friend.
+[Piper]: No.
+[Piper]: Can you make him not do that?
+[Piper]: I'm going to lay up the entire room.
+[DM]: So here's how, okay, I'll give you guys some fun.
+[DM]: If somebody does that, well, she can.
+[DM]: You can afterwards say, hey, Bjorn, please don't do that again.
+[DM]: I said, I can't see for it.
+[DM]: They don't know it was me.
+[Piper]: That's what you mean.
+[Piper]: She'll be with you forever.
+[Piper]: We know your tricks.
+[DM]: That's fair.
+[DM]: That's fair.
+[DM]: That's a fair point.
+[DM]: That's a fair point.
+[DM]: So why don't you guys have that conversation?
+[DM]: You can also say, hey, we're talking about this, please.
+[DM]: Oh, initiative.
+[DM]: The room gets more experience.
+[DM]: Actually, all of you, I'm sorry.
+[DM]: All of you actually get a, you get one surprise round.
+[DM]: You're going to kill these guys.
+[DM]: Let's use it in the problem.
+[DM]: Just roll.
+[DM]: Everybody take one action.
+[Fox]: I shoot it with my crossbow.
+[Piper]: I don't really have like a one.
+[Piper]: That's will be the pointy.
+[DM]: Oh, see how good were we all together?
+[Piper]: Would I be able to do?
+[Fox]: Okay, I hit.
+[Piper]: Right.
+[Piper]: So, well, what does each query go?
+[Fox]: But I hit 25.
+[Fox]: Let's just say I hit the one that nobody else is targeting.
+[Fox]: Everybody target the one that I'm not 16.
+[Piper]: Yeah, we're all people.
+[Piper]: It's a DA.
+[Piper]: Oh, sorry.
+[Piper]: Wait, are you using it?
+[Fox]: Well, hold on.
+[Fox]: Everybody go back.
+[Fox]: Okay.
+[Fox]: You had 21 damage already.
+[Piper]: And you're orange.
+[DM]: Jordan has to pick the one you shot and take it out.
+[Piper]: I don't hold down three and five.
+[Fox]: I killed one of them guys.
+[Piper]: Can I just like bear on a document?
+[Piper]: I know that's not me, but like, I haven't
+[Piper]: You can watch.
+[Piper]: You're so right.
+[DM]: You keep forgetting about the wall.
+[Piper]: Can I become a dog and bite them?
+[Piper]: Oh, I thought you said Daniel.
+[DM]: Well, I was like, you need to look up what you can turn into.
+[DM]: Figure out the game stats points.
+[DM]: I don't know.
+[DM]: Like a character starts laughing like this.
+[DM]: You can put in like drag level.
+[DM]: I got nine.
+[Piper]: I'm the damage.
+[DM]: Okay.
+[DM]: Between the little between.
+[DM]: What's your character doing?
+[DM]: Nama between Nama and Hito, you guys told the other one about that.
+[Piper]: Okay, challenge rating up to.
+[DM]: Oh, wait, what's your, uh, what's your, uh, what's your, uh, what's your software?
+[Piper]: What's a subclass?
+[Fox]: A subclass is, um, it's your subclass.
+[Fox]: It's literally just as if the sub portion of your class, Viper.
+[Piper]: Where do you find your subclass?
+[Piper]: Look at it.
+[Fox]: It's your character.
+[Fox]: You should know your son's class.
+[Piper]: I keep saying battle to my mom.
+[Piper]: Well, can I become a daraboo?
+[Piper]: It says I can't.
+[Piper]: I'm not on the Google.
+[Piper]: On the Google Google says I can become a daraboo.
+[DM]: At what level?
+[DM]: Yeah.
+[DM]: And what's your America?
+[Piper]: Um, um, where are questions?
+[DM]: All right.
+[DM]: Um, so you've killed two draw scouts around the fire in the entertainment.
+[DM]: There are two.
+[DM]: I think they are.
+[Piper]: I want to go back up.
+[Fox]: You are the circle of dreams.
+[Piper]: Wait, I'm looking darwa.
+[Piper]: I told my mom, um, we're probably finishing after this battle.
+[Fox]: Okay.
+[Piper]: Are we?
+[Fox]: I have this entire time you've had a heal ability.
+[Piper]: Oh, I do.
+[Fox]: You have a 120 feet radius heal.
+[Piper]: Oh, thank you.
+[Piper]: My entire character to be a healer for nothing.
+[Piper]: Yeah.
+[Fox]: One ability.
+[Fox]: It's, uh, we'll live like 20.
+[Fox]: Oh, she can do this every turn as a bonus action.
+[Piper]: What?
+[Piper]: Oh, wait, what's it called?
+[Fox]: Oh, you have an energy pool.
+[Fox]: Okay.
+[DM]: Okay.
+[DM]: Can I tell you guys some things?
+[DM]: Yeah.
+[DM]: Whatever.
+[DM]: Okay.
+[Fox]: Piper, as a bonus action, you can use up.
+[Fox]: So you have five D six and as a bonus action every turn, you can use one of those D six to heal up to one creature.
+[Fox]: You can heal that creature also gives one temporary hit.
+[Piper]: I have cure wounds.
+[Piper]: I don't know how to find next.
+[DM]: So you actually only one combat left.
+[DM]: You want to finish it?
+[Piper]: Yeah.
+[DM]: Yeah.
+[DM]: What's that?
+[Piper]: It says a line.
+[Piper]: Well, it actually depends on how that's the dog.
+[Fox]: Oh, dad, by the way, um, my character starts laughing like a treasure dog, one from Diablo three, wherever he kills the one.
+[DM]: He left the fridge over the last step by you.
+[DM]: Okay.
+[Fox]: I'm sorry.
+[Lilli]: Can we scooch?
+[Lilli]: What?
+[Lilli]: You can be terrible.
+[DM]: There he is.
+[Piper]: Fire.
+[Piper]: It's gone.
+[Piper]: All its ability.
+[Piper]: Yes.
+[Piper]: I'll look at it.
+[Piper]: It's not done.
+[Piper]: Ooh, seven to two stone.
+[DM]: Yeah, three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three and three
+[DM]: is holding the giant slider that pull up the mention to you.
+[DM]: They're basically a giant alarm system.
+[DM]: You can go that way before you go through the server.
+[DM]: So I've cast fireball into that room.
+[DM]: There is a for hold on.
+[DM]: So Greenstone Archway is a, um, before you go through the third way, you can see in, um, the bed rolls.
+[DM]: Somebody said they're sure, right?
+[DM]: You find a
+[DM]: troll in there, written in under office.
+[DM]: It tells you that the, uh, it's a German.
+[DM]: It's a giraffe's journal, a dryer.
+[DM]: Well, it's only, it's only that the captain of the drow that you killed in the very early attacks.
+[DM]: Remember the guy who ran away?
+[DM]: Yeah, there are, that could tell him not down, but he's alive.
+[DM]: And he's been demoted because of his failure.
+[DM]: But he's here as an attendant to a priestess who is helping this, um, this party, for example, former ritual to blow the side of the mountain so wide open that it will not be able to lose.
+[Fox]: Ooh, we'd have to stop that.
+[Piper]: I talk for about religion.
+[Fox]: No, let's say a little bit.
+[Fox]: Wow.
+[Fox]: She's a draw priestess.
+[Fox]: Bad thing.
+[Fox]: Her religion's way different than yours.
+[DM]: Is there a way I could probably like shoot firewalls?
+[DM]: But it's actually a giant spider goddess.
+[Piper]: Oh my god!
+[Piper]: I love it!
+[DM]: It works, it's not it.
+[Fox]: Yeah, my characters are tackling like a treasure goblin from the island.
+[Piper]: I love it.
+[Piper]: I want to slap that thing.
+[Fox]: My slap hurts more than you.
+[Fox]: I could slap you with a sneak attack.
+[Piper]: I can bite you right now, boss.
+[Piper]: What?
+[Piper]: I'm gonna start blowing and you're gonna, you're either gonna explode.
+[Piper]: That's not a straight line.
+[Piper]: What?
+[Piper]: It's almost as great as you.
+[Piper]: Exactly.
+[Piper]: Okay.
+[DM]: Hold on.
+[DM]: What are four daggers?
+[Lilli]: Wait, what?
+[DM]: I have four daggers.
+[Piper]: We'll go.
+[Piper]: We'll go.
+[Piper]: We'll go.
+[Fox]: How do you have four daggers?
+[Fox]: I just have a bunch of daggers.
+[Piper]: How old is the room?
+[Piper]: Can I look?
+[Piper]: Can I?
+[Piper]: Can I light?
+[Piper]: Please?
+[DM]: Okay.
+[DM]: The brow have perfect dark vision.
+[DM]: They never use lights.
+[DM]: Okay.
+[DM]: I really like the user ultraviolet.
+[Piper]: Okay.
+[Piper]: We have these dark.
+[Piper]: No, I have.
+[Piper]: So we can basically all see who?
+[DM]: Who's human?
+[DM]: Anyone?
+[DM]: I'm technically a human to do something.
+[DM]: But you said you had your changes.
+[Piper]: Healthy, wealthy.
+[Piper]: How?
+[Piper]: No, he doesn't.
+[Sev]: Yes, our biggest double gang or ancestor.
+[Sev]: That's right.
+[Piper]: No, he doesn't.
+[DM]: So we're just going to recommend it.
+[Piper]: OK. Why do you keep recommending stuff in?
+[Piper]: Because it's a lot of them.
+[Piper]: Oh, I didn't know it was a lot of things.
+[DM]: Good answer.
+[DM]: Totally convinced.
+[DM]: Thank you.
+[DM]: Thank you.
+[DM]: You haven't read on anything anymore.
+[Piper]: Thank you.
+[Piper]: I'm aware.
+[Piper]: Can I just ask light?
+[DM]: Yeah, you can just ask light.
+[DM]: Why would you?
+[DM]: No, it's easy.
+[DM]: All right.
+[Lilli]: No, because, like, I'm a stupid chud, Piper.
+[Piper]: No, we're not surprised.
+[Piper]: You're always a judge in real life and in game.
+[Piper]: Oh, do you want to eat this dog?
+[Piper]: I'm just kidding.
+[Fox]: I feel that I come to your school for one year and I already made a wrestling team win for the first time in like 10 years.
+[Piper]: Nothing.
+[Piper]: It is out of the field.
+[Fox]: How does it feel?
+[Fox]: You should be ashamed of your school.
+[Fox]: All right.
+[Fox]: Well, too.
+[Piper]: Whoa, why a bad choice of her name.
+[Piper]: Let me see her.
+[Piper]: No, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no,
+[DM]: He mentions that they're performing a ritual.
+[DM]: The ritual is to create what's in the fall of the anchor.
+[DM]: The anchor is a thing going to blow inside the mountain open and anchor the undergark to the upper world.
+[Piper]: Can they not?
+[DM]: That's what we're here to do now.
+[DM]: When you enter this room, I'm going to talk about the anchor.
+[DM]: The anchor is circled in the middle of the room.
+[DM]: Looks like a black hole.
+[Piper]: I just got it.
+[DM]: So it's a circle of black energy in the center of the room.
+[DM]: On the far end of the room is a black altar.
+[DM]: It is a black cube that has a bunch of like solar, spider, figures, and it's glowing with purple wool.
+[Sev]: Can you use this foam magic on the anchor?
+[DM]: If you do all kinds of things, we have to roll this to first.
+[DM]: I'm just going to use some like details for when we start here.
+[Piper]: Where are we all at?
+[Sev]: Well, I think this was actually slightly, slightly weighted.
+[Sev]: So are we rolling this?
+[Piper]: 22, 18, 22, 22, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23,
+[Fox]: Well, what did you have?
+[Piper]: What do you say?
+[Fox]: 16.
+[Fox]: 16.
+[Piper]: Yeah, I believe you.
+[Piper]: I have no preference.
+[Piper]: And Piper, you were 16 16 because I wrote a course begin and then I rolled a plus two.
+[Fox]: You didn't roll a plus two plus two.
+[Fox]: You rolled it.
+[Piper]: No, I didn't rule it.
+[Fox]: I had a plus two.
+[Fox]: My bad.
+[Piper]: Your way.
+[Sev]: Oh, you mean initiative?
+[Sev]: I mean, you're AC.
+[Sev]: 11.
+[Piper]: What's an AC?
+[Piper]: One more class.
+[Piper]: Oh, I have 15.
+[DM]: Uh, Caitlyn was here.
+[DM]: 17.
+[DM]: 17.
+[DM]: Oh, 17.
+[Fox]: What does it say?
+[Fox]: I'm going to ask that every time I've got the ones where I'm going to say, everything's going to go.
+[DM]: What's the other thing on here on this?
+[Piper]: Armor class.
+[DM]: What?
+[Piper]: Oh, no, I pass a spell every time that I go.
+[Piper]: Like, after every long rest, I pass a spell that makes my armor class higher.
+[Fox]: Okay.
+[DM]: Pardon me now.
+[Piper]: Uh, Intel.
+[DM]: I know.
+[DM]: All right, here we go.
+[DM]: The chamber opens into a ball and roll.
+[Lilli]: Sorry.
+[DM]: Here's a pause.
+[DM]: And turn to the light when I start going.
+[DM]: Just a little bit.
+[DM]: The chamber opens and will hold the whole black stone at the back and hold her a polished basalt in standing at a slitting drowel in the robes, the color of dried wood.
+[DM]: And so I'm going to ask, catching the purple candle flame as it turns.
+[DM]: He was right, scarred across the sheet of familiar face.
+[DM]: Zell Draz, dense drowel from the first session, perceives you as swine.
+[DM]: So the man who has been waiting.
+[DM]: Shut motherfucker.
+[DM]: The anchor is magical, correct?
+[Piper]: All right, then this is all magic.
+[Sev]: You can work on it.
+[DM]: I mean, the mechanics of that are complex.
+[DM]: We'll see what we're trying to do.
+[DM]: We'll get to it when it is your turn.
+[Sev]: Yeah, we've learned.
+[Fox]: That is the that is the new guy you've not seen before.
+[Fox]: This is the guy that has returned.
+[Fox]: I just realized I've wasted such a perfect opportunity.
+[Fox]: I could have shaped it into one of the two people we just killed.
+[Fox]: I'm taking my clothes.
+[Piper]: Oh, you have.
+[Sev]: Wait, we killed those two droughts?
+[Piper]: Yeah, I mean, I'm going to die.
+[Fox]: I want shot at the other one.
+[Fox]: I didn't mean the one on the on the tree.
+[Fox]: No, not that one.
+[Piper]: I told another one and one.
+[DM]: So the very first thing.
+[DM]: Um, set role and project.
+[Fox]: You want to sit?
+[Fox]: No, I think everything I should do this.
+[Sev]: Twenty two.
+[Sev]: Remember, I have an 11 hour kana and I got 10.
+[Sev]: It's really good.
+[DM]: You can tell that the ritual that is being performed at the altars is the thing that is keeping me, that is opening the anchor, the anchor is swirling full.
+[DM]: It is entered to the sky.
+[DM]: You can get the impression that he is the one running the ritual.
+[Piper]: Who?
+[DM]: The priest.
+[DM]: You pointed at the guy who knew that.
+[Piper]: So we have to kill this guy.
+[Piper]: I've never seen this guy before in my life.
+[DM]: Kill the priest.
+[DM]: You shoot him.
+[DM]: You hurt her.
+[DM]: Is this the priest?
+[DM]: Yes.
+[Piper]: I'm a genius.
+[Piper]: Does a 22 hit?
+[Piper]: Yes.
+[Fox]: I'm hitting the non-porese guy.
+[Fox]: God damn it!
+[Piper]: Zelda ads?
+[Fox]: Uh, this is with my crossbow, by the way.
+[Fox]: I think I'm purposely fucking over the party.
+[Fox]: I'm purposely killing the warrior first, because the warriors are more annoying.
+[Sev]: But if you kill the first and the explosion will happen.
+[Sev]: I'm most worried about the explosion.
+[Piper]: I'm more so than I that's going to kill us I'm most worried about the mage because like made is automatically hit either way Warriors feel like a fuck ton of damage the explosion will kill everyone.
+[Piper]: Oh care 19 damage What did you go?
+[Piper]: I really need an update on my ADHD pills.
+[Sev]: I don't take any of these details anymore.
+[Piper]: The orange, think green.
+[Piper]: I'm orange.
+[Sev]: Such a way.
+[Sev]: This is so magic on him.
+[Sev]: The priest.
+[Sev]: What are you going to do?
+[Sev]: Find a spell magic on him.
+[Sev]: I don't have the card.
+[DM]: Wait, do I have the card?
+[DM]: No, I don't.
+[Piper]: Look at, oh, I will physically go insane if I don't stop talking.
+[DM]: So it basically allows you to fuel the spells off of somebody that is like buffed on them or any types of quests.
+[DM]: Like this is this is actually a use for it, but like it's a little complex sort of up to.
+[DM]: Choose one creature object or magical affected in rain.
+[DM]: It's called third level or lower automatically extended.
+[DM]: It's called the fourth level or higher, make an ability check using your spell can I see the ability?
+[DM]: So it's 10, 12, 12, 12, but accessible check is felt.
+[Lilli]: This is a ritual.
+[DM]: So you roll a straight check, which is N plus B roll B 20 and you add your spell casting ability, which is your notes.
+[Lilli]: What do you have to roll?
+[Lilli]: Actually, I'm not going to throw you.
+[Lilli]: Yeah, because you can try.
+[Piper]: What is the mage actually a team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team
+[Sev]: Do I have a smug smile on my face?
+[Fox]: Oh, this isn't exactly why I didn't target the face.
+[Piper]: So there's like a non-face pattern with face.
+[Piper]: That's it.
+[Sev]: My checker didn't know that.
+[Sev]: That's a real good point.
+[DM]: It's just like...
+[Sev]: I can't use this spell spell because Fox's character wouldn't, uh, wouldn't shoot the priest.
+[DM]: So we don't need that.
+[DM]: Don't.
+[Sev]: So I got the head.
+[DM]: Why?
+[Sev]: You don't have.
+[DM]: We need to go out and put people down.
+[DM]: This is the priest.
+[Piper]: I can paralyze them so like they wouldn't move.
+[DM]: There's one hell.
+[DM]: I thought we said no brain rot.
+[DM]: This is, that's the Zellbrass, the guy from last time.
+[Piper]: There's a square dice here.
+[DM]: Yeah, let's go.
+[DM]: What?
+[DM]: Yes.
+[DM]: It's just the two of them right now.
+[DM]: Okay.
+[Sev]: That's the two of us.
+[DM]: We can make it.
+[DM]: We try.
+[DM]: All right.
+[DM]: Yeah.
+[DM]: You're next up.
+[Piper]: We're all away to these people.
+[Sev]: Oh, yeah.
+[Sev]: Put yourselves in.
+[Sev]: The door is there.
+[Sev]: You must be within five feet of the door.
+[Sev]: I am in three squares of the door.
+[DM]: So I know you have to do it in one square.
+[DM]: I don't think that's possible.
+[DM]: You can also be in the hallway outside.
+[DM]: I'm at the door.
+[DM]: I can't do a whole person and just like paralyzed, but who is this?
+[DM]: That's me.
+[DM]: No, I'm not being there.
+[DM]: Why are you going here?
+[DM]: You can't do that.
+[Piper]: That's too far.
+[Piper]: He thought of when.
+[Sev]: I actually always think that he's got a chosen name, but my middle
+[Fox]: I've had a lot of people think that I have a chosen name.
+[Fox]: I've actually gone to a fight with someone.
+[Fox]: My other name is named after an author.
+[Fox]: He kept calling me a furry and would like, like being all like, I don't know, like annoying about it.
+[Fox]: No, but let me give you the middle name I wanted to give you.
+[Fox]: What was it?
+[Fox]: Oh, but it was spelled the Irish way.
+[Piper]: I'm so glad to be here.
+[Fox]: Okay, we'll go with my mom.
+[Fox]: You didn't change me or my birth certificate, God.
+[Fox]: I'll be such a boy.
+[Piper]: Are we continuing?
+[Piper]: Oh no, is there garlic bread left?
+[Piper]: No.
+[Piper]: Oh, yes.
+[Sev]: No, I have no idea.
+[Sev]: I am a, I am hungry.
+[Sev]: So I ate all of it.
+[Fox]: There's like three on the tray.
+[Piper]: I love that.
+[Piper]: The greed in this.
+[Fox]: Oh, he's in this.
+[Fox]: Oh, oh, yeah.
+[Piper]: Yeah, the stupid cheese.
+[Piper]: I can put that in there.
+[Piper]: Your picture felt was great and I need you to move.
+[DM]: The kids are cool.
+[DM]: What?
+[Piper]: Your kids are filled with flavor, and I need flavor.
+[Piper]: That's your dad.
+[Sev]: Technically, I am not kidding.
+[Sev]: Technically, I am not kidding.
+[Sev]: Technically, I'm not kidding.
+[Sev]: Technically, I'm not kidding.
+[Sev]: I know, legally, but technically.
+[Sev]: Technically, I'm not kidding.
+[Sev]: Technically, I'm not kidding.
+[Sev]: Technically, I'm not kidding.
+[Piper]: Technically, I'm not kidding.
+[Sev]: Technically, I'm not kidding.
+[Sev]: Technically, I'm not kidding.
+[DM]: Technically, I'm not kidding.
+[DM]: Technically, I'm not kidding.
+[DM]: Technically, I'm not kidding.
+[DM]: Technically, I'm not kidding.
+[DM]: Technically, I'm not kidding.
+[DM]: Technically, I'm not kidding.
+[DM]: Technically, I'm not kidding.
+[DM]: Technically, I'm not kidding.
+[DM]: Technically, I'm not kidding.
+[DM]: Technically, I'm not kidding.
+[DM]: Technically, I'm not kidding.
+[DM]: Technically, I'm not kidding.
+[DM]: Technically, I'm not kidding.
+[DM]: Technically, I'm not kidding.
+[DM]: Technically, I'm not kidding
+[Sev]: I mean, it only happens whenever they're like close friends.
+[Sev]: Wait, you're not a statistic?
+[Sev]: I'm not.
+[Lilli]: Are you sure?
+[Fox]: I got tested for autism and ADHD.
+[Fox]: They both came on negative.
+[Fox]: You weren't tested for autism.
+[Sev]: How does he know that?
+[Sev]: That means he could have autism.
+[DM]: No, I don't have autism.
+[Sev]: Well, I apparently don't have autism.
+[Piper]: It looks like I'm not here.
+[Lilli]: Yeah, I wonder what happened if I mixed it every makes the three possible flavors together.
+[Sev]: Maybe, but I had to be nice.
+[DM]: Let's do this combat.
+[DM]: Let's do.
+[Sev]: I've had weirder than an amalgamation of frozen juice.
+[Sev]: Like, like, like pizza on, like cake on pizza.
+[Sev]: I think pizza is very interesting.
+[Fox]: You know what else is interesting?
+[Fox]: What Brian does with his frickin' Dr. Pepper from Masonic.
+[Fox]: What does he do?
+[Fox]: Put pickles on it.
+[Fox]: Like full pickled, not pickled juice.
+[Fox]: Would I ever mention that to you?
+[Fox]: It's disgusting.
+[Fox]: It like deeply upsets me when he does.
+[Sev]: One fact, if I like something separate, I'm likely to like them together.
+[Fox]: If I like being separate, I'm likely...
+[Fox]: I didn't really like chocolate milk and ravioli.
+[Fox]: Specifically, the school raviolis and chocolate milk.
+[Fox]: I like ravioli.
+[Fox]: I don't like those two things together.
+[Fox]: Say, I like them together.
+[Fox]: I don't know.
+[Fox]: Making a soup out of rye only tomato sauce and chocolate milk is pretty gross.
+[Fox]: How many hot dogs did he eat on the hot dog day yesterday?
+[Fox]: One.
+[DM]: We didn't eat a single one.
+[Fox]: Cats.
+[Fox]: I watched one of the guys at my table put three on one bun.
+[DM]: Piper and Lily, you guys coming to what's going on?
+[Fox]: He claims not to be even though, like, there's a giant allegation going on, because he just broke up with, uh, one of somebody else in our grade who apparent who's claiming he had texted her that he would allow her to put a strap on on.
+[DM]: I heard it.
+[DM]: See, look, I can tell you what I can call it.
+[DM]: What?
+[DM]: Back to the burglary.
+[DM]: Stop it.
+[DM]: Yeah.
+[Sev]: I'm surprised I know what a strap on is.
+[DM]: I'm not.
+[DM]: Yeah.
+[DM]: See, that's what I mean.
+[DM]: We're not.
+[Sev]: Anyway, what is your favorite D&D monster?
+[Sev]: Here we go.
+[Sev]: I like the Terask.
+[Fox]: I was about to say something, but I'm not.
+[Sev]: That's like saying you like, that's like saying you like Pokemon.
+[Sev]: Yeah, I go and miss something.
+[DM]: They're all that they're so like history.
+[Fox]: They have like things going on.
+[Fox]: Yeah, they're like long.
+[Fox]: I need a Christian dragon that we watch that movie today in Russian class.
+[Fox]: What a Roman story about it do being a dragon who kidnaps this woman, that woman falls in love with.
+[Fox]: Why watch?
+[Piper]: I made a tree.
+[Fox]: Yeah, I'm Earth.
+[Piper]: I'm Earth.
+[Fox]: It's a Russian movie.
+[Fox]: I have a box.
+[Fox]: Sorry, I have a point.
+[Fox]: Water.
+[Piper]: No, no, no, no, no.
+[Piper]: I'm right here.
+[Fox]: You're slow.
+[Piper]: Couldn't move the paper out of the way.
+[Fox]: No, I can get low enough.
+[Piper]: I can get low enough.
+[Piper]: I can get real low.
+[Fox]: How low can you go?
+[DM]: Your dirt paper.
+[DM]: OK, and my thing was there are two drawable room box, put an arrow in Zondra as the warrior of the first session.
+[DM]: The priest is on hit.
+[DM]: And said this collapse.
+[Sev]: Yeah, it's okay.
+[Sev]: No longer.
+[Sev]: I assume the anchor took them years to do.
+[Sev]: It's gonna take them another four years to remake.
+[Piper]: So I need silence right now.
+[Piper]: Okay, I'm gonna buy the other.
+[Piper]: Not the priest, the other guy.
+[Sev]: You're gonna bite him.
+[Piper]: Yeah, I'm gonna bite him.
+[Piper]: I'm fucking.
+[Piper]: I'm a what?
+[Sev]: You're a wolf.
+[Piper]: She's a wolf.
+[DM]: She's a wolf.
+[Piper]: You're a wolf.
+[Sev]: You're a wolf.
+[Sev]: You're a wolf.
+[Sev]: You're a wolf.
+[Sev]: You're a wolf.
+[Piper]: You're a wolf.
+[Piper]: You're a wolf.
+[Piper]: You're a wolf.
+[Sev]: You're a wolf.
+[Sev]: You're a wolf.
+[Piper]: You're a wolf.
+[Piper]: You're a wolf.
+[Lilli]: You're a wolf.
+[Sev]: You're a wolf.
+[Piper]: You're a wolf.
+[Piper]: You're a wolf.
+[Piper]: You're a wolf.
+[Piper]: You're a wolf.
+[Piper]: You're a wolf.
+[DM]: You're a wolf.
+[DM]: You're a wolf.
+[DM]: You're a wolf.
+[DM]: You're a wolf.
+[Piper]: You're a wolf.
+[DM]: You can strategize this.
+[DM]: You can say you're going to delay your turn until somebody else goes.
+[DM]: Wait until one of your other, either Hito or Willie.
+[DM]: I'm sorry.
+[DM]: No, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no,
+[Piper]: My parents are getting in pain today.
+[Piper]: 21 parents are must have been one of those guys.
+[Piper]: Okay.
+[Piper]: They're not stupid losers.
+[Piper]: I need to have work at school to be sixes.
+[Piper]: And what's it?
+[Piper]: I'm going to be home alone tomorrow.
+[Piper]: Give me your monopoly.
+[Piper]: Thanks.
+[DM]: Well, I'm going to bring your dad to you.
+[DM]: What?
+[DM]: Oh, my father needs to stay away from my school.
+[Piper]: Yeah!
+[Piper]: So now I only have one person begging me to go.
+[DM]: Is this school?
+[Piper]: I'm just going to school with me!
+[Piper]: Yes.
+[Piper]: You're not in my school.
+[Piper]: Leave me alone.
+[Fox]: Wait, why do you pull?
+[Fox]: I'm not going to school.
+[Piper]: Because I have no one to bring.
+[Piper]: Which one?
+[Piper]: Doesn't mean I don't have a dad, I have a dad.
+[Piper]: But...
+[Fox]: Okay, I was not funny.
+[Fox]: I don't have a kid, so I should call it.
+[Piper]: Got it.
+[Piper]: That's a lot of... A lot.
+[Piper]: I don't have a lot.
+[Fox]: Kramar doesn't.
+[DM]: He snorms, actually, though.
+[DM]: Right!
+[DM]: In charge of his directly after.
+[DM]: Where are you?
+[DM]: Where are you?
+[DM]: She could tell.
+[Lilli]: Uh, she's the... You know what I'm talking about?
+[Piper]: I'm gonna say, sorry.
+[DM]: Run straight up.
+[DM]: Put her right in front of her.
+[DM]: Right.
+[DM]: Like, how do I look?
+[Piper]: Why am I face planted on the ground?
+[Piper]: I broke it up.
+[Fox]: Who's doing that?
+[DM]: Why?
+[DM]: He's the one who killed him and almost killed him in the first one.
+[DM]: Really?
+[DM]: Yes.
+[Lilli]: Okay, wait.
+[Piper]: Everyone, I have an idea.
+[Piper]: Do I hit one of my weapons?
+[Sev]: I can't trust going to use without needing a spell slot.
+[Sev]: I'm going to use light on the pieces eye to blind them.
+[Piper]: Wow.
+[DM]: Can I use my under your turn?
+[DM]: This sort of tool whipping around.
+[DM]: The first one misses you.
+[DM]: The second one.
+[DM]: Should I?
+[DM]: So you need to make a constitution saving.
+[DM]: I would technically have to put it there.
+[DM]: I know.
+[Piper]: Should I use my grades, or you're doing a content in the role that's possible?
+[Fox]: That if I wanted to, that guy?
+[Piper]: Okay, well, I'll stop right now.
+[Piper]: Oh, yeah.
+[DM]: 16 plus 4.
+[DM]: 20.
+[DM]: 20?
+[DM]: So you take 9 points of damage from the sort of second.
+[Piper]: I can have you.
+[DM]: I'm going to do a budget number here, so hold on.
+[DM]: 9 points of damage from the sort of second.
+[DM]: Then you do 6 points of damage from the first poison for another constitution target.
+[Piper]: I hate myself over and save you.
+[DM]: Eight more points of damage as you are now poisoned for one minute.
+[DM]: So every round you have to roll another save or take two music points damage.
+[Piper]: Okay.
+[DM]: You want to see the points?
+[DM]: Okay.
+[DM]: So these short-sores are like using ripping with a green venom.
+[DM]: And after he sticks out the sword, he pulls out.
+[DM]: And usually, of course, in weapons, of course, it comes off the weapon, but you can block it.
+[DM]: You know that every time it sticks, it's sort of happening.
+[DM]: So it's going to stack voids.
+[DM]: I can't stack it, but it's viable to get somebody left.
+[DM]: It's not triple advantage on them.
+[DM]: Yeah.
+[Piper]: This probably does.
+[Sev]: So it's like, so it's like that probably got the property of drought poison.
+[Fox]: Dad, Dad, I have three ways I could get that and run them.
+[Piper]: Five.
+[Fox]: Vax, my teammates here.
+[Piper]: How are you using?
+[Fox]: And, uh, 2020?
+[Piper]: No, you're like, what?
+[Piper]: Um, great sword.
+[Piper]: Cause I'm going to lose this.
+[Piper]: Yeah, nine.
+[Piper]: I bet you in nine, doesn't want to hit it.
+[Fox]: You can go ahead.
+[Fox]: Sorry.
+[Fox]: It's a fourth name.
+[Piper]: Yeah, put it all down.
+[Fox]: I think it says he's 13.
+[Piper]: Oh, that's 16.
+[Fox]: The last time we burst him.
+[Fox]: 16, 16.
+[Piper]: All right, roll to the game.
+[Piper]: Give me six, sorry.
+[Fox]: I want those blades when we kill them.
+[Lilli]: Why is it counting?
+[Piper]: I fucked him, he was dead.
+[Piper]: Nice job, 14.
+[Piper]: 14.
+[Piper]: That's why I fucked him.
+[Piper]: He didn't worry more than that.
+[Piper]: Four and five.
+[DM]: Four and five.
+[DM]: Four and five.
+[DM]: Three and five.
+[DM]: Three and five.
+[DM]: Three and five.
+[DM]: Three and five.
+[DM]: Three and five.
+[DM]: Three and five.
+[DM]: Three and five.
+[DM]: Three and five.
+[DM]: Three and five.
+[DM]: Three and five.
+[DM]: Three and five.
+[Piper]: Three and five.
+[Piper]: Three and five.
+[Piper]: Three and five.
+[DM]: Three and five.
+[DM]: Three and five.
+[DM]: Three and five.
+[DM]: Three and five.
+[Piper]: Three and five.
+[DM]: Three and five.
+[DM]: Three and five.
+[Piper]: Three and five.
+[Piper]: Three and five.
+[Piper]: Three and five.
+[Piper]: Three and five.
+[Piper]: Three and five.
+[Piper]: Three and five.
+[Piper]: Three and five.
+[Piper]: Three and five.
+[Fox]: Three and five.
+[Fox]: Three and five.
+[Fox]: Three and five.
+[Piper]: Three and five.
+[Fox]: Three and five.
+[Fox]: Three and five.
+[Fox]: Three and five.
+[Fox]: Three and five.
+[Fox]: Three and five.
+[Fox]: Three and five.
+[Piper]: Three and five.
+[Piper]: Three and five.
+[Piper]: Three and five.
+[Piper]: Three and five.
+[Piper]: Three and five.
+[Piper]: Three and five.
+[Piper]: Three and
+[Piper]: How wise do you think he's supposed to be?
+[Lilli]: I got him.
+[Piper]: What does a person of healing do?
+[Lilli]: 18.
+[DM]: He's a priest.
+[Fox]: Magic users are normally wisdom.
+[Fox]: Um, depending on their class.
+[Piper]: I always don't.
+[Fox]: Yeah, you're always going to fall or walk, right?
+[Piper]: Yeah.
+[Lilli]: I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like,
+[DM]: Okay.
+[DM]: I think you should have gone with a fear guardian.
+[DM]: So instead of regret.
+[DM]: So he's surrounded by these like shrieking like faces.
+[DM]: I see her.
+[DM]: And they give damage.
+[DM]: I think it's hyper right next to him or something.
+[Fox]: No, no, I am.
+[Piper]: Oh, because I did run up there.
+[Piper]: Oh, I'm not.
+[Piper]: I am right next to him.
+[Sev]: And who the anchor took years to prepare?
+[Sev]: Okay.
+[Piper]: We don't need the anchor.
+[DM]: We don't need the anchor.
+[DM]: Oh, so you post that question.
+[Piper]: Girl, when I have the emoji hole on you.
+[DM]: He calls for the spheres to protect himself.
+[DM]: They put around him this 15 feet.
+[DM]: Uh, they are in addition nature and they scroll all about him.
+[DM]: Any creature in the area that speed is halved.
+[DM]: Anyway, and you can hear me.
+[Piper]: The other guy, never mind.
+[Piper]: I should be over here.
+[DM]: No, no, you were standing for 41.
+[Piper]: Yes.
+[DM]: If you're standing there, you must make a wisdom saving throw or a failed save.
+[DM]: You take three to eight points of damage, but an accessible save.
+[DM]: You take half as much.
+[DM]: So you do that on your turn.
+[DM]: Already.
+[Lilli]: So, that's the details.
+[Lilli]: Caitlin, I want you to...
+[Piper]: It's my turn.
+[Lilli]: Blue is my turn.
+[Piper]: Okay.
+[Piper]: So, there's a spell I wanted to hold person.
+[Piper]: Choose two humanoids that you can see within range.
+[Piper]: The target must succeed on a wisdom saving throw or have the paralyzed condition for the duration.
+[Piper]: At the end of each turn,
+[Piper]: At the end of its turns, the target repeats the same ending in the spell on itself as a sequence.
+[Lilli]: I don't do that.
+[Piper]: Is that 60 feet?
+[Piper]: Yeah.
+[Lilli]: OK. OK. What do I do?
+[DM]: No, you don't want anything.
+[Piper]: No, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no,
+[DM]: I'm sorry.
+[Fox]: Yeah, there's a couple of things you missed on this, actually.
+[Piper]: What?
+[Fox]: Not you.
+[Fox]: First of all, when you miss with the great toy attack, you deal damage, you go with their ability.
+[Fox]: Another thing you have action turns, you can take an additional action.
+[Fox]: Is she?
+[DM]: It's a bit with the nine things, too.
+[DM]: 14 plus one.
+[Fox]: This is the luck second one ability.
+[DM]: but it's um so it's 14 plus also the whole person 7 13 so it's okay um they both fail yes so you have in source all the both of them neither one of them
+[DM]: They're incapacitated.
+[DM]: Um, I don't think you've been actually cutie girl and the kids in case, like, you were very, very straight out.
+[DM]: Although we need to come up and do what we can do.
+[Sev]: God damn it.
+[Piper]: I can't learn a lot.
+[Piper]: So I just like, they just can't learn.
+[DM]: You automatically can make significant facts against the middle.
+[DM]: I aren't good.
+It's fine.
+[DM]: Don't flossers.
+[DM]: Don't flossers.
+[DM]: Don't drop.
+[DM]: The whole thing.
+[DM]: Oh, they're like action figures.
+[DM]: They're like,
+[DM]: I have a question.
+[Piper]: I have a thing called encouraging song.
+[Piper]: I can play a musical instrument, which I have proficiency in, and give three of my alleys who hear the song for Roke inspiration.
+[Piper]: I don't know what that is.
+[Fox]: You can give a Roke inspiration on non-binary.
+[DM]: Isn't that amazing?
+[DM]: Why do you have that?
+[DM]: That's Brad's actually in order to insane ability.
+[DM]: Okay, it's a feed.
+[DM]: It's a feed.
+[DM]: But you can hit free given order, right?
+[DM]: It gives the ability to reroll basically gives you advantage on any attempt check, save or damage.
+[DM]: Oh, so like the total role like bad for damage, you can just go like.
+[DM]: And roll.
+[DM]: It's like a special will do it.
+[DM]: You think of it instead of a nobody's going by the file.
+[Piper]: Oh, okay, so I can just do that.
+[DM]: How's that today?
+[Piper]: After a short or long rest?
+[DM]: Once after short.
+[DM]: You once for every short or long rest for rest are like, we take 15 minutes for a breather.
+[DM]: You should basically always be in that.
+[DM]: Holy shit, that's like a most okay.
+[DM]: Um, so how do you right now?
+[DM]: Uh, but who do you want to reduce?
+[DM]: I don't know.
+[DM]: I don't know.
+[DM]: I don't know.
+[DM]: I don't know.
+[DM]: I don't know.
+[DM]: I don't know.
+[DM]: I don't know.
+[Piper]: I don't know.
+[Piper]: I don't know.
+[Piper]: I don't know.
+[Piper]: I don't know.
+[Piper]: I don't know.
+[Piper]: I don't know.
+[Piper]: I don't know.
+[Piper]: I don't know.
+[Piper]: I don't know.
+[Piper]: I don't know.
+[Piper]: I don't know.
+[Piper]: I don't know.
+[Fox]: I don't know.
+[Fox]: I don't know.
+[Fox]: I don't know.
+[Fox]: I don't know.
+[DM]: I don't know.
+[Fox]: I don't know.
+[DM]: I don't know.
+[DM]: You should give it to me.
+[Fox]: Sam is probably the worst choice because you actually are.
+[Fox]: Because you have stones.
+[DM]: So one, two, three.
+[DM]: Yeah.
+[DM]: I'm the best.
+[DM]: I need to drop the fireball.
+[Piper]: So I'm very obviously.
+[Piper]: You guys haven't.
+[Piper]: What other things would I be using for?
+[Piper]: Obviously.
+[Piper]: playing my food.
+[Piper]: I know exactly what it is.
+[Sev]: I want to run up to the free Ethan points like Fireball.
+[Sev]: Hold up.
+[DM]: Hold up.
+[DM]: Hold up.
+[DM]: Stop.
+[DM]: Stop.
+[DM]: Just turn first.
+[DM]: That's good.
+[DM]: You said that.
+[DM]: Keep that in mind.
+[DM]: Go ahead.
+[Fox]: OK, Caitlin's character.
+[Fox]: I read a couple of her abilities.
+[Fox]: She has a lot to do with that one.
+[Fox]: But also, when she makes that attack with the Great Sword and misses, she deals damage equal to her ability score modifier.
+[Fox]: Um, also.
+[Fox]: Her second win ability, once she uses it, she can use, she can move up to 15 feet without having opportunity attack down on her.
+[Fox]: She can also use second win instead to do 1d10 and add it to one of her roles.
+[Fox]: Is it my turn to attack?
+[Fox]: I'm going to shoot the guy that I don't like.
+[DM]: The fighter guy?
+[DM]: The fighter.
+[Piper]: Why do you appear to them?
+[Fox]: You don't.
+[Fox]: I just don't like them.
+[Piper]: I like them.
+[Fox]: His face annoys me.
+[Piper]: Okay, he's ugly.
+[Sev]: Imagine you're really humiliated and demoted by some adventurers.
+[Sev]: Then whenever you face them again, they go over to your even plan for days and the insult to injuries.
+[Sev]: Even one of them runs off and just incinerates the one you're supposed to work for.
+[DM]: Hold on, you get attached to the advantage to attack them.
+[DM]: You're automatically critical if you're in 5 feet of it.
+[Piper]: Oh, I'm critical.
+[Piper]: If you're in 5 feet of it.
+OK, I'm next to him now.
+[Fox]: Yep.
+[Fox]: I like Jester up to him.
+[Fox]: Oh, by the way, I set up all the bombs in their backpacks, the smoked bombs.
+[Fox]: So it's all smokey now.
+[Sev]: OK. Are we affected?
+[Fox]: I'm gonna hit him with my dagger four daggers.
+[Fox]: Is it a guaranteed hit because I'm critical already?
+[Sev]: Yeah.
+[Fox]: Advantage.
+[Fox]: You can't be same with Jimmy.
+[Fox]: Oh, I heard him.
+[Fox]: Next them five feet.
+[Fox]: I have like four stacks of events.
+[Fox]: Holy shit.
+[Fox]: Well, so hold up.
+[Fox]: Let me know three, three.
+[Fox]: So I have Vax, one of my teammates is next to him, and then the thing that you just meant.
+[DM]: That's different from Sneaky.
+[DM]: You shouldn't be getting a vantage moment.
+[Fox]: No, Sneaky Attack is when you get advantage on an opponent.
+[Fox]: Yeah, any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time
+[DM]: Coach, do I only roll one twice?
+[DM]: Do you want me to roll twice?
+[DM]: That's max, max, max damage.
+[Fox]: Oh, I do a max damage.
+[Fox]: We're not doing a double roll.
+[Fox]: Oh, it's right here.
+[Fox]: I'm sorry.
+[DM]: It's double nice.
+[Fox]: It's double dice.
+[Fox]: I don't know if that includes sneak attack.
+[Fox]: It does.
+[Fox]: That's not OK.
+[Sev]: So I want to I want to I want him to see me incinerated boss.
+[DM]: Piper, you're off the set.
+[DM]: He's bad, right?
+[DM]: 27 damage.
+[Fox]: He's a little almost dead.
+[Fox]: No, no, I don't.
+[Fox]: I don't.
+[Fox]: All right.
+[DM]: I've done 40 now.
+[DM]: I'm going to go incinerate his boss.
+[DM]: Get him up.
+[DM]: So, is now... That's her?
+[Sev]: Yeah.
+[Sev]: You like to move up to him as a for like a bonus action?
+[DM]: You can just walk up him as a move action and try to...
+[Sev]: I'm going to move up to him then.
+[Sev]: Point blank fireball.
+[DM]: The fireball explodes in point the rings.
+[Piper]: Don't do that.
+[DM]: You need a better attack spell than fire.
+[DM]: Firefire bolt.
+[DM]: Fire bolt.
+[DM]: Well, you have like you a soldier, right?
+[Lilli]: No.
+[DM]: Wait.
+[DM]: Write those questions.
+[Sev]: Again, I get one extra spell.
+[Sev]: What level spell is it?
+[Sev]: It's second level.
+[Piper]: Look at you.
+[Piper]: This is exactly what I'm talking about.
+[Piper]: When you do that thing and now you're letting him have that song, he doesn't know.
+[Sev]: It makes me want to play the game.
+[Sev]: Point place, scorching ray.
+[Piper]: Shut up.
+[DM]: So terrible.
+[DM]: You could read this verse maybe.
+[Fox]: I read this to the sex bar damage.
+[Fox]: You know, probably right.
+[Lilli]: Really?
+[Lilli]: Who you make?
+[Fox]: Oh, you can read when you cast as well.
+[Fox]: You're doing a spell of thought.
+[DM]: It should be good and additional, right?
+[DM]: So I'd be 36.
+[DM]: Oh, for each, right?
+[DM]: So it's 66.
+[DM]: 46.
+[DM]: No, it's right.
+[DM]: Like that's each.
+[DM]: Holy shit!
+[Fox]: Wait, how does he get three?
+[Fox]: He's up to third level spell slots.
+[Fox]: Third level is two rays.
+[DM]: Oh, the two rays?
+[DM]: Okay, so it's 40.
+[DM]: So you get two rays, so find my each ray.
+[DM]: There's 2d6 points in.
+[DM]: You can hit the same creature with both.
+[Fox]: Oh, never mind.
+[Fox]: He can do up to 8d6.
+[Fox]: How's that?
+[Fox]: The second level creates three rays.
+[Sev]: Holy shit!
+[Sev]: So, you guys are off the heads?
+[DM]: You do.
+[DM]: That's a disadvantage.
+[DM]: But these guys are frozen in place because of Lily.
+[DM]: So, me?
+[DM]: Yeah, so you get the damage.
+[Fox]: Oh, it's the same amount of damage as fireball, but it's more focused.
+[Sev]: You'll say I have advantage of being like, I'm not one of my first role.
+[DM]: Not 20.
+[Sev]: You got 20.
+[DM]: That's not as well.
+[DM]: You're pretty cool touchdogs.
+[DM]: That means you get doubled up.
+[DM]: So, how many times?
+[DM]: So, what was that?
+[Piper]: We're supplicing bucket deck.
+[Fox]: How many, how many levels fell so I don't know.
+[Fox]: Seconds level.
+[Fox]: Second level, you get six.
+[Fox]: No, sorry.
+[Fox]: You get 66 for one of the things, and the principle means it's probably six.
+[Fox]: I'm going to do two rays.
+[Fox]: Hold up.
+[Fox]: I already have like a lot out for no apparently than one, two, three, four, budget, so may I have nine out already have the first three rays of the best load of the attack.
+[Fox]: So should I help him with the addition to?
+[Sev]: If he wants to.
+[Sev]: All right, so two.
+[Sev]: So 12 B six, all these shit.
+[Fox]: It's up to a.
+[Fox]: How many damage uphill?
+[Fox]: Um, do you want me to do that for you?
+[Lilli]: Yeah.
+[Fox]: Okay, so four plus four plus four, 12, 12, 17, 20, 21, 27, 32, 33, uh, those six, uh, 39 damage.
+[Fox]: Don't hold it.
+[Fox]: Yep.
+[Sev]: That's a lot.
+[Sev]: Does that kill?
+[DM]: It doesn't kill, but it does.
+[DM]: The money has basically blew half its face off.
+[DM]: That's a one second level.
+[Sev]: Imagine being this guy is being frozen.
+[Sev]: Time is forced to see your boss get nearly incinerated.
+[Piper]: You don't really see it because it's one second.
+[Piper]: Yeah.
+[Piper]: What do you feel about this?
+[Piper]: Very good.
+[Sev]: He's a, he's probably terrified about it, but probably might be verified about it.
+[Sev]: He somehow survives.
+[Piper]: All right.
+[DM]: I'm going to have to think that's facing me.
+[DM]: I'm just dreaming.
+[Fox]: Should we remember a second, what was wrong for my saying?
+[DM]: I was going to take off the password.
+[DM]: Oh, no.
+[DM]: Yeah.
+[DM]: When you're a wizard, aren't you?
+[DM]: They can actually have as many snails as you want.
+[DM]: They can actually pick them up.
+[DM]: Like they can be preserved.
+[DM]: Like I can just give them souls.
+[DM]: Let's say our last one gave them a scroll.
+[DM]: We found it in the drowels.
+[DM]: We found it in the drowels.
+[Sev]: We found it in the drowels.
+[Sev]: We found it in the drowels.
+[Sev]: We found it in the drowels.
+[Sev]: We found it in the drowels.
+[Sev]: We found it in the drowels.
+[Sev]: We found it in the drowels.
+[Sev]: We found it in the drowels.
+[Fox]: If you want after it, there's a there's a class I feel like will suit you better call the moonlight ruin.
+[Fox]: Don't give her a circle, the man.
+[DM]: Why not?
+[DM]: More powerful.
+[Fox]: It's like we're using the circle of the matter.
+[Fox]: The R and graces are like bonds.
+[Fox]: Yes, do it.
+[Fox]: Do it.
+[Fox]: You get her such an awful subclass.
+[Piper]: I don't know.
+[Piper]: I don't know anyone but nobody ever helps me make my characters.
+[DM]: Drew it of the dream.
+[DM]: No, we're in this movie.
+[DM]: Nobody helped me.
+[DM]: Yeah, that's not going to help me.
+[DM]: There's no choice.
+[Sev]: Actually, I kind of have an advantage because they wouldn't help me.
+[Sev]: I didn't get help.
+[Piper]: Oh, no.
+[Piper]: Sorry.
+[Piper]: OK, I'm going to call Paul, but in duration is 10 minutes.
+[Piper]: How long is
+[DM]: Okay, ten minutes of long fucking time call lightning is a real good stone added It basically means you can call this forty twelve points the image of lightning You know it's an action.
+[Fox]: It's one action.
+[DM]: You know the free for finishing if we can crawl every subsequent round Okay, that's even more bust than scorching rain
+[Fox]: It was not third.
+[Piper]: It was third.
+[Piper]: It was third.
+[Piper]: It was third.
+[Piper]: It was third.
+[Piper]: It was third.
+[Piper]: It was third.
+[Fox]: It was third.
+[Fox]: It was third.
+[Fox]: It was third.
+[Fox]: It was third.
+[Fox]: It was third.
+[Fox]: It was third.
+[Fox]: It was third.
+[Fox]: It was third.
+[Fox]: It was third.
+[Fox]: It was third.
+[Fox]: It was third.
+[Fox]: It was third.
+[Piper]: It was third.
+[Piper]: It was third.
+[DM]: It was third.
+[DM]: It was third.
+[Piper]: It was third.
+[Piper]: It was third.
+[DM]: It was third.
+[DM]: It was third.
+[DM]: It was third.
+[DM]: It was third.
+[DM]: It was third.
+[DM]: It was third.
+[DM]: It was third.
+[DM]: It was third.
+[DM]: It was third.
+[DM]: It was third.
+[DM]: It was third.
+[DM]: It was third.
+[DM]: It was third.
+[DM]: It was third.
+[DM]: It was third.
+[DM]: It was third.
+[DM]: It was third.
+[DM]: It was third.
+[DM]: It was third.
+[DM]: It was third.
+[DM]: It was third.
+[DM]: It was third.
+[DM]: It was third.
+[DM]: It was third.
+[DM]: It was third.
+[DM]: It was third.
+[DM]: It was third.
+[DM]: It was third.
+[DM]: It was third.
+[DM]: It was third.
+[Sev]: It was third
+[Sev]: Fiber and kill the druid.
+[Sev]: Me and Mal will be some reason.
+[Piper]: Okay, you're doing that.
+[Sev]: Me and Mal, I just put all my staff up to who the priest Robin cast Gordon Ray.
+[Piper]: This might also hit so.
+[Piper]: It's not.
+[Piper]: Is it a rage?
+[Piper]: I'll just heal.
+[Piper]: A 5B?
+[Fox]: No, duration up to 100.
+[Fox]: It's ranges 100.
+[Piper]: Oh, yeah, it's 100.
+[DM]: So it's 100 foot range.
+[DM]: That's good.
+[DM]: But this time, I know you're finished.
+[Piper]: five feet from the point eight.
+[Fox]: I think that means that that would be one toward shape of a cylinder that is 10 feet tall with a 60 foot radius centered on a point you can see a hundred feet directly above you.
+[Fox]: Each creature within five feet of the point.
+[DM]: It's so this is separate.
+[DM]: Yeah.
+[DM]: Okay.
+[DM]: Instead of dropping it here, it would hit your pastor, which you don't know, but you don't need to drop it here.
+[DM]: And then that just catches him.
+[DM]: Okay.
+[DM]: And we don't talk to entry.
+[DM]: It hits the, it hits the altar.
+[DM]: So it's for reading.
+[Sev]: People to stop speaking.
+[Sev]: I need one voice in this room.
+[Sev]: Okay.
+[Piper]: D time, right?
+[DM]: This is a detail.
+[Piper]: Oh, that's a D. A.
+[Piper]: Thank you box.
+[Piper]: You're so useful.
+[Fox]: Here, here are the details.
+[Fox]: Actually, five or five or five are this little data.
+[Sev]: I'm getting a repo on water.
+[DM]: Three fold in order.
+[DM]: You know, back to the top of the ship.
+[Piper]: Are you another one?
+[Lilli]: That's a detail.
+[Piper]: Okay, you need to roll a dexterity thing through.
+[Piper]: The piece says.
+[DM]: You see what?
+[DM]: What?
+[DM]: You see what?
+[Piper]: I just flipped a little bit.
+[Fox]: You got a ten on the zero zero.
+[Piper]: Huh?
+[Fox]: You rolled a ten on one of those.
+[Piper]: Yeah?
+[Fox]: Yeah, that's what the zero zero is.
+[Piper]: Thirteen?
+[Piper]: Thirteen.
+[Fox]: Thirteen damage?
+[Fox]: Yes.
+[Piper]: That's your?
+[Piper]: Yes.
+[DM]: What's the DC of your vault?
+[Piper]: You just thought you failed it.
+[Piper]: I wish you enjoyed it.
+[DM]: It was fairly...
+[DM]: That's DC 13.
+[Sev]: So when I'm right, I'm able to, I'm getting conjure minor elementals.
+[Piper]: What's DC 13?
+[Fox]: DC 13, that was the saving.
+[Fox]: Oh, wait, no problem.
+[Fox]: No, yeah, that was the bite.
+[Fox]: And it was a nope bonus.
+[Fox]: And that's her where we'll attack.
+[Fox]: Yeah.
+[Piper]: You're not the wrong thing.
+[DM]: Yeah.
+[DM]: The silver version.
+[DM]: I used to hate your eyes.
+[DM]: All about one of my... Can you give me your sheet of 15?
+[DM]: I don't know what to play, but I can play it on the card.
+[DM]: You know, I'm working in 14.
+[DM]: No, it's not.
+[DM]: It is.
+[DM]: It says that.
+[DM]: That's the base.
+[DM]: That's 10 plus or rather, plus it's going to be 10 plus the level plus this level.
+[DM]: Hey, is that how it goes?
+[Piper]: When did that be said?
+[Piper]: Um, that's the level plus the spell level.
+[Fox]: And plus, no, that wouldn't be how it goes because there would have been 15 on that.
+[Fox]: Oh, uh, you're right.
+[DM]: I'm sorry.
+[Fox]: Is it a wisdom saving throw, Piper?
+[Piper]: No, it's the next day.
+[DM]: It was 14.
+[DM]: Yes.
+[DM]: Okay, I still fail.
+[DM]: Does she come up with the priest?
+[DM]: Who takes a guy?
+[DM]: Are you done?
+[Piper]: Yes, that was it.
+[DM]: You majored in.
+[DM]: Hi.
+[DM]: Sorry.
+[DM]: What's spelled in gas early?
+[Piper]: Um, well, uh, whole person's hopes.
+[DM]: A whole lot of government for my saving drugs.
+[DM]: So, those big bads, problems, and things, keeping the fact that you people.
+[Sev]: Well, we're going to kill these big bads.
+[Sev]: I'm more than they have the chance to become actual threats.
+[Sev]: For how long?
+[DM]: For a minute, but they get too much on every round of measures.
+[Fox]: And I fell in the next one.
+[DM]: You guys, you're a bad combo because your damage outputs huge associates.
+[Lilli]: Yeah.
+[DM]: You're you're a controller class.
+[DM]: You and you're you're basically a young player.
+[DM]: You know, and I have death.
+[DM]: This is for your drow.
+[Piper]: Well, I could have just done like a thing where I like put
+[Piper]: something on a square and like a character.
+[Sev]: So how much do you know about Marvel Comics guys?
+[Sev]: Not much.
+[Sev]: I know I know the characters and in the fact that he's gone.
+[Fox]: One of my friends claims that the void from the Marvel comics could be all about one.
+[Fox]: which is almost definitely untrue.
+[Fox]: Oh, well, why would you do that?
+[Fox]: Right?
+[Fox]: I would great sort in.
+[DM]: Yeah, he's a yeah, that's, you know, the fan fiction power.
+[Fox]: Yeah.
+[Piper]: with the tears.
+[Fox]: One of all is tears zero boundless.
+[Fox]: The void is not funny.
+[Piper]: She got on that funny critical.
+[Sev]: So it's a yes.
+[Sev]: And then you go to two with so it's not really that's really accurate.
+[DM]: And you get to attack those two after this role.
+[DM]: Seven and hyper.
+[DM]: Me.
+[DM]: Whenever Caitlin's turn is over, you're going to make a saving throw.
+[DM]: Great question.
+[DM]: I said, well, right?
+[Piper]: Oh, I think I got the cough drops go.
+[Piper]: I ate that right there.
+[Piper]: Oh, yeah, I do.
+[Piper]: So I 12.
+[Fox]: I just took them.
+[Fox]: I'll describe is seven.
+[Piper]: Plus two is what 17 plus two?
+[Piper]: 19 19.
+[Piper]: 19 damage.
+[Piper]: Yeah.
+[Piper]: So.
+[DM]: So you were the one that he was here to kill, because you killed him the first time, and now you killed him a second.
+[DM]: I mean, you were going to kill him.
+[DM]: Yeah, which heavily.
+[Fox]: Both times, you didn't even kill them.
+[DM]: That didn't.
+[DM]: All right.
+[DM]: Uh, seven Piper, me, uh, wisdom savings are okay.
+[Piper]: Thank God.
+[DM]: Why?
+[Piper]: My eye is saving.
+[DM]: They're in the spirit of this thing, right?
+[DM]: When you summon all those little demon faces, it's one of them.
+[Piper]: Oh, 14.
+[Sev]: That's better.
+[Sev]: Do I have advantage?
+[Sev]: No.
+[Piper]: Okay, eight.
+[Sev]: How much damage?
+[Sev]: 10 was in.
+[Sev]: So now I'm at 17 health.
+[Piper]: Wait, where's my pencil though?
+[Fox]: What pencil?
+[Piper]: The pencil I grabbed at the beginning of this.
+[Fox]: I never saw a pencil like your thing.
+[Piper]: Why is this the orange pencil that I took from you?
+[Piper]: My pencil was in my.
+[Piper]: No.
+[Piper]: I'm just too late to get another Hansel.
+[Sev]: I didn't get this for your drought.
+[Piper]: Um, well, I'm mean.
+[Sev]: Everyone's that photo of you.
+[Sev]: What?
+[Sev]: What photo?
+[Fox]: Well, guys, I've been making a bunch of goofy faces at me during one of them.
+[Fox]: And I kept taking pictures of her.
+[Fox]: You don't even start in school.
+[Fox]: Huh?
+[Sev]: No, during GFB session.
+[Fox]: If you get caught with a fundering school, I couldn't even give you a suspension.
+[Fox]: I've seen him do a done thing like that before.
+[Sev]: If you got caught with a fundering school, you get all the habit of your phone gets confiscated until the end of the day.
+[Piper]: You get like expelled, bro.
+[Piper]: They take your phones at the beginning of the school day and lock them away in a box.
+[Piper]: That's kind of what our school does.
+[Piper]: Can it load faster?
+[Fox]: You know my friend, Vaughn?
+[Fox]: King Bon.
+[Fox]: King Bon Bon Bon Bon.
+[Piper]: Okay, continue on.
+[DM]: It's my turn outside.
+[DM]: Priest is going by...
+[DM]: I saw...
+[DM]: He's the right question.
+[Piper]: He's the right question.
+[DM]: So, how do you go?
+[Piper]: He's amazing.
+[Piper]: I like these diagonals.
+[DM]: He is an person, but only the beginning of his next turn.
+[DM]: So it actually passes now to...
+[DM]: There you go.
+[DM]: Oh, didn't you?
+[DM]: I'm going to show your mom.
+[DM]: He is an person.
+[Piper]: Wait, so that one's done?
+[Sev]: Yes.
+[Sev]: Imagine being frozen, timing things from one, heightening and burnt alive.
+[Piper]: Alright, so I'm going to talk about long now.
+[Piper]: I like these diasporters.
+[Piper]: I'm kind of touching your nose.
+[DM]: Um, the fluff.
+[DM]: Oh, no.
+[Piper]: Oh, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no.
+[Lilli]: Imagine all the other trout squawking him see the see the
+[Sev]: See he a prison died meant to protect him dead with the free seeing them taking the most damage They probably think like the guards failed at his job Because the priest took them up most visit the visible damage Now I lose the priest body.
+[Fox]: I lose the guard body I killed it
+[Fox]: I get first came on once the guard Billy guys body because I'd help the most damage.
+[Piper]: My father is here.
+[Sev]: I'm just going to find everything I find on the priest body into the group party.
+[Piper]: Yeah, I have to.
+[DM]: We're going to wrap up next.
+[DM]: Okay.
+[DM]: I need this.
+[DM]: Did I put out anything else?
+[Sev]: By the way, Bob, I want to make a custom W proof.
+[Fox]: And we got to watch all of one piece of night one.
+[Fox]: Goddamn it.
+[Fox]: No, I'm okay.
+[Fox]: If you read the comics, the part of egghead, which is over like the two chapters, that's where most of the info on double footage comes from.
+[Sev]: That's what I was singing up with, like, her and the part.
+[Piper]: Right, my whole life.
+[Sev]: And it's like living cartoon.
+[Sev]: I actually have this idea before Gear 5 came around.
+[Sev]: It was more Gear 5.
+[Sev]: Oh, yeah.
+[Piper]: Well, I keep going with my phone and my fake pockets.
+[Sev]: Maybe this one, one, one, one, so you guys, one, two, one, two, two, four.
+[Sev]: That's how forth Gear 5 would give you general to enforce it.
+[Fox]: Gear 5 is the only proof that gives you partial resistance to the C. I didn't like Nick.
+[Fox]: That's great.
+[Piper]: This is a personal attack.
+[Sev]: I heard you.
+[Sev]: Nicholas Cohen, a steward.
+[Sev]: We just completely humiliated the drow.
+[Piper]: This is an easy fight.
+[DM]: They are I'm going to I'm going to frankly difficult a little bit next time.
+[DM]: Yeah, it's so so I've actually custom built this.
+[DM]: Yeah, I know.
+[Lilli]: Yeah.
+[DM]: Like I have been trading it is like working with it and it asks me questions.
+[DM]: No, it's not sent you.
+[Sev]: I like made my characters in the hierarchy of the packing.
+[Sev]: Are you all the many people that got active in early version of, of, of, I didn't know I didn't really versus the mythos, although that was marketing, mostly.
+[DM]: It's on the, like, more kick-ass thing, like regular blog, basically.
+[DM]: But, like, yeah, don't worry, guys, thanks for coming.
+[DM]: Um, I basically built this tool chain that's, like, let's mean, it asks me questions.
+[DM]: It's like where you want this to be and that to be.
+[DM]: And I have an, I have a repo.
+[DM]: that knows everything you guys did and everything that was planned and then it creates like plot based on that.
+[DM]: That's why I'm recording this because I'm going to feed it back.
