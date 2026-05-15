@@ -5,15 +5,15 @@ model: base.en
 ---
 
 [Kaitlyn/Kto]: I need a clothes.
-[Fox/Fiorn]: Shut the fuck up!
+[Lilli/Nema]: Shut the fuck up!
 [Kaitlyn/Kto]: Oh, you shut up!
 [Kaitlyn/Kto]: Is this for your parents or something?
 [Kaitlyn/Kto]: No, it's not for my college.
 [Sev/Yinu]: It's not for my college.
 [Kaitlyn/Kto]: Okay, but yeah, there was a, like, a baby behind the tree, and I think because, like, the portal is closed and stuff, like, they're going back to it.
 [Kaitlyn/Kto]: And, like, like, yeah, that's just happening.
-[Fox/Fiorn]: You sound like a cobalt on math.
-[Fox/Fiorn]: You look like one, too.
+[Lilli/Nema]: You sound like a cobalt on math.
+[Lilli/Nema]: You look like one, too.
 [Sev/Yinu]: I think that she sounds like...
 [Sev/Yinu]: I think that she... Nobody asked.
 [Sev/Yinu]: What?
@@ -21,22 +21,22 @@ model: base.en
 [Kaitlyn/Kto]: You don't forget your hair.
 [Kaitlyn/Kto]: She doesn't talk at class.
 [Kaitlyn/Kto]: Yeah, fox is being mean.
-[Fox/Fiorn]: It's a Lily.
-[Fox/Fiorn]: Did you see what she was just doing?
-[Fox/Fiorn]: I said she looked at it and sounded like a cobalt on math.
-[Fox/Fiorn]: I heard.
-[Fox/Fiorn]: That's it.
+[Lilli/Nema]: It's a Lily.
+[Lilli/Nema]: Did you see what she was just doing?
+[Lilli/Nema]: I said she looked at it and sounded like a cobalt on math.
+[Lilli/Nema]: I heard.
+[Lilli/Nema]: That's it.
 [Kaitlyn/Kto]: It's not fine.
 [DM]: Keep the people that are appropriate.
 [Kaitlyn/Kto]: And I am hurting.
 [Kaitlyn/Kto]: This is all getting recorded.
 [Kaitlyn/Kto]: Don't Google it.
 [DM]: Don't go to shopping.
-[Fox/Fiorn]: I would rather stab five o'er than listen to you saying.
-[Fox/Fiorn]: Don't bring up the staff.
+[Lilli/Nema]: I would rather stab five o'er than listen to you saying.
+[Lilli/Nema]: Don't bring up the staff.
 [Kaitlyn/Kto]: We're talking to you on me to sing quarks.
-[Fox/Fiorn]: Yes, we played in words in Paris.
-[Fox/Fiorn]: No.
+[Lilli/Nema]: Yes, we played in words in Paris.
+[Lilli/Nema]: No.
 [DM]: Can you help keep us all fresh?
 [DM]: Yeah.
 [DM]: So you've opened up, you looked at your belongings, you packed them up, you're ready to go do something.
@@ -87,7 +87,7 @@ model: base.en
 [DM]: That's what I'm going to talk about game terms out of game by saying I have a plus whatever in nature or survival.
 [DM]: I was going to happen is I'm going to ask for a skill check from overly character.
 [DM]: So you want it to be somebody who knows who that I can pick stuff.
-[Fox/Fiorn]: Seven of us is a plus five.
+[Lilli/Nema]: Seven of us is a plus five.
 [Kaitlyn/Kto]: Wait, what do you have?
 [Kaitlyn/Kto]: A plus three for nature.
 [Kaitlyn/Kto]: Why do I have so shitty nature?
@@ -134,7 +134,7 @@ model: base.en
 [Kaitlyn/Kto]: Plus three.
 [Kaitlyn/Kto]: We thought we had the plus six.
 [Kaitlyn/Kto]: We could have a positive.
-[Fox/Fiorn]: That's one negative one in survival.
+[Lilli/Nema]: That's one negative one in survival.
 [Kaitlyn/Kto]: Oh, my bad.
 [Kaitlyn/Kto]: I thought it's up with.
 [Kaitlyn/Kto]: I was doing it.
@@ -153,9 +153,9 @@ model: base.en
 [Kaitlyn/Kto]: Religion like my whole thing.
 [Kaitlyn/Kto]: I'm going to act about it.
 [Kaitlyn/Kto]: Yes, I got a 15.
-[Fox/Fiorn]: Lily, what's your persuasion?
-[Fox/Fiorn]: Okay.
-[Fox/Fiorn]: That's me too.
+[Lilli/Nema]: Lily, what's your persuasion?
+[Lilli/Nema]: Okay.
+[Lilli/Nema]: That's me too.
 [Kaitlyn/Kto]: What's your intonation?
 [DM]: Oh, wait, wait, wait.
 [DM]: fiber.
@@ -184,7 +184,7 @@ model: base.en
 [DM]: Because you have one, 15 sets or 16.
 [DM]: That's enough.
 [DM]: You think there are three distinct sets of prints walking up there?
-[Lilli/Nema]: No.
+[Fox/Fiorn]: No.
 [DM]: Okay, the prints look like they didn't write the name.
 [Kaitlyn/Kto]: Oh, kind of.
 [Kaitlyn/Kto]: Okay, so we're getting up through a hole.
@@ -195,11 +195,11 @@ model: base.en
 [DM]: Is there anything you guys want to talk about in-game as you walk up there that doesn't involve not one of us?
 [Sev/Yinu]: I use a madman to like carry myself like a me up there.
 [Kaitlyn/Kto]: How's the weather up here guys?
-[Fox/Fiorn]: It's actually about sex either.
+[Lilli/Nema]: It's actually about sex either.
 [Sev/Yinu]: I can't say it has never been funny.
 [Kaitlyn/Kto]: Oh, wait, who?
 [Kaitlyn/Kto]: Oh, but I'm saying you eat up.
-[Lilli/Nema]: Ah.
+[Fox/Fiorn]: Ah.
 [Kaitlyn/Kto]: Hi.
 [Kaitlyn/Kto]: Hi, Hoda.
 [Kaitlyn/Kto]: Hi, baby.
@@ -266,9 +266,9 @@ model: base.en
 [DM]: Yeah.
 [DM]: Never mind.
 [DM]: I have to be sure that the very most dirty way.
-[Fox/Fiorn]: No, no, no, it has to be my short bell.
-[Fox/Fiorn]: I don't I can't see the rain in my closet.
-[Fox/Fiorn]: Can I roll for hit?
+[Lilli/Nema]: No, no, no, it has to be my short bell.
+[Lilli/Nema]: I don't I can't see the rain in my closet.
+[Lilli/Nema]: Can I roll for hit?
 [Sev/Yinu]: I don't think it's one action.
 [Sev/Yinu]: I don't have the magic missile spell card.
 [Kaitlyn/Kto]: I'm proud.
@@ -307,8 +307,8 @@ model: base.en
 [Kaitlyn/Kto]: Oh, I said it.
 [DM]: Still putting words in my mouth.
 [DM]: Oh, nevermind.
-[Fox/Fiorn]: There's a lot of money, there's a lot of money suppose you can go to the level.
-[Fox/Fiorn]: So what that lets you do is make an attack roll.
+[Lilli/Nema]: There's a lot of money, there's a lot of money suppose you can go to the level.
+[Lilli/Nema]: So what that lets you do is make an attack roll.
 [DM]: Okay.
 [DM]: That uses your spell casting ability modifier instead of your strength or dex.
 [DM]: So for example, with your bow, your dexterity is plus two, essentially, because your dexterity is plus two, and your chromosome is plus three.
@@ -333,7 +333,7 @@ model: base.en
 [Sev/Yinu]: 100, funny.
 [Kaitlyn/Kto]: 120.
 [Kaitlyn/Kto]: Can I hit it with my lumba?
-[Fox/Fiorn]: Yes, lumba's English.
+[Lilli/Nema]: Yes, lumba's English.
 [Kaitlyn/Kto]: Okay.
 [Kaitlyn/Kto]: Can I quite love there?
 [DM]: No.
@@ -377,12 +377,12 @@ model: base.en
 [Kaitlyn/Kto]: Yeah, I have a long bow.
 [Kaitlyn/Kto]: I get a roll for those weddings.
 [Kaitlyn/Kto]: Oh, you know, it's nice.
-[Fox/Fiorn]: You know, the bonus action, I give Piper my.
+[Lilli/Nema]: You know, the bonus action, I give Piper my.
 [Kaitlyn/Kto]: Okay, I'm just saying that.
 [DM]: We're just resolving system that yeah, I know this you can't take those act as a part of Oh, okay.
-[Fox/Fiorn]: I need to go you're done done.
-[Fox/Fiorn]: So just chill.
-[Fox/Fiorn]: All right, I need to go to the bathroom.
+[Lilli/Nema]: I need to go you're done done.
+[Lilli/Nema]: So just chill.
+[Lilli/Nema]: All right, I need to go to the bathroom.
 [Kaitlyn/Kto]: I got twenty one T8.
 [Kaitlyn/Kto]: All right, how long will it take?
 [Kaitlyn/Kto]: Yeah, I shot it and it got 20.
@@ -407,7 +407,7 @@ model: base.en
 [Kaitlyn/Kto]: Oh, this is a D.A.
 [Kaitlyn/Kto]: Two plus four so that's a six.
 [Kaitlyn/Kto]: She got a six.
-[Lilli/Nema]: What's damage?
+[Fox/Fiorn]: What's damage?
 [Kaitlyn/Kto]: Yeah And I got those on myself in my mother.
 [Kaitlyn/Kto]: What did you get?
 [Kaitlyn/Kto]: Seven I was that's good.
@@ -482,14 +482,14 @@ model: base.en
 [Sev/Yinu]: I'm gonna go get a popsicle.
 [Sev/Yinu]: Sorry, you mean the real world.
 [Sev/Yinu]: Yes.
-[Lilli/Nema]: Oh my gosh.
-[Lilli/Nema]: Oh my gosh.
+[Fox/Fiorn]: Oh my gosh.
+[Fox/Fiorn]: Oh my gosh.
 [DM]: Oh my gosh.
 [DM]: Oh my gosh.
 [DM]: Oh my gosh.
 [DM]: Oh my gosh.
 [Kaitlyn/Kto]: I know, I don't know about that, because...
-[Fox/Fiorn]: I gotcha, because I've buried Xterrin and I'm hurt.
+[Lilli/Nema]: I gotcha, because I've buried Xterrin and I'm hurt.
 [Kaitlyn/Kto]: Uh, don't you hear that?
 [Kaitlyn/Kto]: I'm hurt.
 [Kaitlyn/Kto]: Sorry, guys.
@@ -512,11 +512,11 @@ model: base.en
 [DM]: Why do you think that's a little dirty?
 [Kaitlyn/Kto]: Yeah, I didn't say bitch.
 [DM]: I love my French flag to move.
-[Fox/Fiorn]: I hate the French.
-[Fox/Fiorn]: I like the way they sound.
-[Fox/Fiorn]: I don't know.
-[Fox/Fiorn]: It's because we have to learn that they don't like it when you speak to them with their language and they don't find it.
-[Fox/Fiorn]: Like they hate it.
+[Lilli/Nema]: I hate the French.
+[Lilli/Nema]: I like the way they sound.
+[Lilli/Nema]: I don't know.
+[Lilli/Nema]: It's because we have to learn that they don't like it when you speak to them with their language and they don't find it.
+[Lilli/Nema]: Like they hate it.
 [DM]: You hang out with this fan, the Mexicans, they probably love it.
 [Kaitlyn/Kto]: Yes.
 [Kaitlyn/Kto]: It's not French labor, it's America.
@@ -527,11 +527,11 @@ model: base.en
 [DM]: Oh, it's hot though.
 [Kaitlyn/Kto]: It tastes like cherries.
 [Kaitlyn/Kto]: It's like enough time, it's not really... Never.
-[Lilli/Nema]: Freedom, it's like...
+[Fox/Fiorn]: Freedom, it's like...
 [Kaitlyn/Kto]: What is that?
-[Lilli/Nema]: Jay Popsicle.
-[Lilli/Nema]: Look at it.
-[Lilli/Nema]: It's weird.
+[Fox/Fiorn]: Jay Popsicle.
+[Fox/Fiorn]: Look at it.
+[Fox/Fiorn]: It's weird.
 [Kaitlyn/Kto]: I don't like how this is shaped.
 [Kaitlyn/Kto]: Wait, I don't like the pattern on it.
 [Kaitlyn/Kto]: Oh, I can eat it.
@@ -541,17 +541,17 @@ model: base.en
 [Kaitlyn/Kto]: OK. Do you know here?
 [Sev/Yinu]: You're probably not doing Odin.
 [Sev/Yinu]: I'm not going to give you the popsicle.
-[Fox/Fiorn]: I go over to the course.
-[Fox/Fiorn]: The first thing I say is that's the exact same area where I shot my mother.
+[Lilli/Nema]: I go over to the course.
+[Lilli/Nema]: The first thing I say is that's the exact same area where I shot my mother.
 [Kaitlyn/Kto]: Oh.
 [Kaitlyn/Kto]: Can I look in the?
 [Kaitlyn/Kto]: I would expect any less.
 [Kaitlyn/Kto]: I like scourge at the like.
 [Kaitlyn/Kto]: Can I look at it?
 [Kaitlyn/Kto]: It's things.
-[Fox/Fiorn]: So did me?
+[Lilli/Nema]: So did me?
 [Kaitlyn/Kto]: Yes, that's.
-[Fox/Fiorn]: Oh, by the way, I shot him in the balls.
+[Lilli/Nema]: Oh, by the way, I shot him in the balls.
 [Sev/Yinu]: No, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no,
 What?
 [Kaitlyn/Kto]: Can you tell her to stop?
@@ -574,7 +574,7 @@ What?
 [DM]: What's the hand cross?
 [DM]: The female drought.
 [DM]: All in black, white hair.
-[Lilli/Nema]: Um, ooh, ooh.
+[Fox/Fiorn]: Um, ooh, ooh.
 [DM]: Black skin, not like African skin, but like black skin.
 [DM]: Like the color, the color of the DM board thing.
 [Kaitlyn/Kto]: Like only if only she was an evil.
@@ -620,11 +620,11 @@ What?
 [Sev/Yinu]: Post sexual comments and no brain rocks.
 [Sev/Yinu]: There it is.
 [Kaitlyn/Kto]: Wait, does that mean like I can't rid of it?
-[Fox/Fiorn]: A little bit of funny stuff like that is fine.
-[Fox/Fiorn]: Also make it gross or weird.
-[Fox/Fiorn]: No, what am I?
-[Fox/Fiorn]: Did I do that count as over the top?
-[Fox/Fiorn]: Okay, we'll put here.
+[Lilli/Nema]: A little bit of funny stuff like that is fine.
+[Lilli/Nema]: Also make it gross or weird.
+[Lilli/Nema]: No, what am I?
+[Lilli/Nema]: Did I do that count as over the top?
+[Lilli/Nema]: Okay, we'll put here.
 [DM]: I'm gonna use a old Political phrase.
 [DM]: I'll know it when I see it and when I call you more than it just turn it off.
 [DM]: Okay, easy.
@@ -671,13 +671,13 @@ What?
 [DM]: You get a book look up.
 [DM]: All right.
 [DM]: It's sand weapon in the future.
-[Lilli/Nema]: All right.
-[Lilli/Nema]: After Lilith casts spider walk.
+[Fox/Fiorn]: All right.
+[Fox/Fiorn]: After Lilith casts spider walk.
 [DM]: You notice a glowing box.
 [Kaitlyn/Kto]: Why do I notice it?
 [Kaitlyn/Kto]: Why do I notice it?
 [Kaitlyn/Kto]: Why are we going to?
-[Lilli/Nema]: You're like, why?
+[Fox/Fiorn]: You're like, why?
 [DM]: You came mentally?
 [DM]: Yeah, yeah.
 [Kaitlyn/Kto]: Stop asking dumbness.
@@ -696,7 +696,7 @@ What?
 [DM]: I don't want to give him a food face and get a snaked out of the tree.
 [DM]: Do you face?
 [DM]: No, he isn't.
-[Lilli/Nema]: He's perfect.
+[Fox/Fiorn]: He's perfect.
 [DM]: He's just droughts now.
 [DM]: A droughts.
 [Kaitlyn/Kto]: Not these molds as I was again.
@@ -724,24 +724,24 @@ What?
 [Kaitlyn/Kto]: Okay.
 [Kaitlyn/Kto]: Test slappin.
 [Kaitlyn/Kto]: No, you're right.
-[Lilli/Nema]: You're right, Sean.
+[Fox/Fiorn]: You're right, Sean.
 [DM]: The big other one out of the tree.
 [DM]: Thank you, Brad.
-[Fox/Fiorn]: You hear this.
-[Fox/Fiorn]: I start speaking in fey to it.
-[Fox/Fiorn]: You say fey?
-[Fox/Fiorn]: Yeah.
-[Fox/Fiorn]: All right.
+[Lilli/Nema]: You hear this.
+[Lilli/Nema]: I start speaking in fey to it.
+[Lilli/Nema]: You say fey?
+[Lilli/Nema]: Yeah.
+[Lilli/Nema]: All right.
 [Kaitlyn/Kto]: He's in high school.
-[Fox/Fiorn]: He's okay.
-[Fox/Fiorn]: Under.
-[Fox/Fiorn]: No, he doesn't.
+[Lilli/Nema]: He's okay.
+[Lilli/Nema]: Under.
+[Lilli/Nema]: No, he doesn't.
 [DM]: No, that's under common, right?
 [DM]: No, under calling is the drows language.
 [DM]: The drows language.
 [DM]: Yeah, you speak the drows language.
 [DM]: No.
-[Fox/Fiorn]: Um, I start speaking an ork to it.
+[Lilli/Nema]: Um, I start speaking an ork to it.
 [DM]: Goo goo goo.
 [DM]: Do you let her face look screws up with that in June?
 [DM]: Because your friends do terrible things.
@@ -786,8 +786,8 @@ What?
 [Kaitlyn/Kto]: No, wizards literally go to school.
 [Sev/Yinu]: I only have three.
 [Sev/Yinu]: Anyway, I only have a common walrus and elvish.
-[Fox/Fiorn]: It's it's racing back on that determined language.
-[Fox/Fiorn]: Oh, you can learn one down over the scale.
+[Lilli/Nema]: It's it's racing back on that determined language.
+[Lilli/Nema]: Oh, you can learn one down over the scale.
 [DM]: We can talk about it.
 [DM]: Anyway, so what do you do?
 [Kaitlyn/Kto]: Me?
@@ -810,13 +810,13 @@ What?
 [Kaitlyn/Kto]: I turned into an orc.
 [Kaitlyn/Kto]: He's a little weird.
 [Kaitlyn/Kto]: Wait, wait.
-[Fox/Fiorn]: And then turn into a jaw and start speaking around it.
+[Lilli/Nema]: And then turn into a jaw and start speaking around it.
 [Kaitlyn/Kto]: I made it a sticker.
-[Fox/Fiorn]: I don't like it.
-[Fox/Fiorn]: I don't like it.
+[Lilli/Nema]: I don't like it.
+[Lilli/Nema]: I don't like it.
 [Kaitlyn/Kto]: No, that's...
 [Kaitlyn/Kto]: Mom says that you're super just shy.
-[Fox/Fiorn]: She's like, don't exist in this one.
+[Lilli/Nema]: She's like, don't exist in this one.
 [DM]: But she's not stupid, right?
 [DM]: Like she can see it and take it out in front of her.
 [DM]: And so she's just like choosing to ignore his antics.
@@ -837,10 +837,10 @@ What?
 [Kaitlyn/Kto]: Oh, the hole flows.
 [DM]: No, the whole club.
 [Sev/Yinu]: Maybe maybe that's able to turning.
-[Fox/Fiorn]: I'm sure climbing up the tree to get a closer view of her.
-[Fox/Fiorn]: I can't.
-[Fox/Fiorn]: She's on the ground.
-[Fox/Fiorn]: She's on the ground next to.
+[Lilli/Nema]: I'm sure climbing up the tree to get a closer view of her.
+[Lilli/Nema]: I can't.
+[Lilli/Nema]: She's on the ground.
+[Lilli/Nema]: She's on the ground next to.
 [DM]: Oh, OK. Fucking loser.
 [DM]: Sorry.
 [Kaitlyn/Kto]: Oh, OK.
@@ -855,9 +855,9 @@ What?
 [Sev/Yinu]: This is a stupid question.
 [Sev/Yinu]: We're really heading there.
 [Sev/Yinu]: No, no, no, no.
-[Fox/Fiorn]: I asked the fairy fairy.
-[Fox/Fiorn]: What would you know about the, uh, the, it's a fairy specifically.
-[Fox/Fiorn]: The reason why I'm a fairy too.
+[Lilli/Nema]: I asked the fairy fairy.
+[Lilli/Nema]: What would you know about the, uh, the, it's a fairy specifically.
+[Lilli/Nema]: The reason why I'm a fairy too.
 [Kaitlyn/Kto]: These are actually
 [Kaitlyn/Kto]: Okay, it's better, yes.
 What happened?
@@ -870,42 +870,42 @@ What happened?
 [DM]: What's useful thing since I've been sitting here since they show.
 [Kaitlyn/Kto]: Okay, so what do you want?
 [Kaitlyn/Kto]: Do you have money to leave that one here?
-[Lilli/Nema]: Okay, so everybody will need to check.
-[Lilli/Nema]: Anybody who gets over that, bring your hand.
+[Fox/Fiorn]: Okay, so everybody will need to check.
+[Fox/Fiorn]: Anybody who gets over that, bring your hand.
 [DM]: 13.
-[Lilli/Nema]: I also got a 13.
+[Fox/Fiorn]: I also got a 13.
 [DM]: That's 20.
 [DM]: You guys know that Faye are famous for making deals.
 [DM]: They keep their deals, but they don't give a shit about physical possessions.
 [DM]: Unless there's something that can be
-[Fox/Fiorn]: I first swayed her to allow me to do a performance for her.
+[Lilli/Nema]: I first swayed her to allow me to do a performance for her.
 [DM]: You should sing a song that has never been heard.
 [Kaitlyn/Kto]: Can I play?
 [Kaitlyn/Kto]: Can I play?
-[Fox/Fiorn]: I do have a song.
-[Fox/Fiorn]: Can I roll performance?
+[Lilli/Nema]: I do have a song.
+[Lilli/Nema]: Can I roll performance?
 [Kaitlyn/Kto]: I also roll performance for gravity falls.
 [Sev/Yinu]: It's too late.
 [Sev/Yinu]: You're doing the Lamy Lam song.
 [Kaitlyn/Kto]: I got a tiny one.
-[Fox/Fiorn]: I'm holding that to want to shit.
+[Lilli/Nema]: I'm holding that to want to shit.
 [DM]: I'm always shit.
 [DM]: You've performed in an amazing song.
 [DM]: What song do you perform?
-[Fox/Fiorn]: Uh, the Ballad of Bringle Groft.
-[Fox/Fiorn]: Enter Sandman by, uh, by Metallica.
+[Lilli/Nema]: Uh, the Ballad of Bringle Groft.
+[Lilli/Nema]: Enter Sandman by, uh, by Metallica.
 [DM]: Remember the prostate.
-[Fox/Fiorn]: No.
-[Fox/Fiorn]: What did she give me?
-[Fox/Fiorn]: I just yelled at you.
-[Fox/Fiorn]: A song that will never, has never been played before.
-[Fox/Fiorn]: So, what do you think she's putting down?
+[Lilli/Nema]: No.
+[Lilli/Nema]: What did she give me?
+[Lilli/Nema]: I just yelled at you.
+[Lilli/Nema]: A song that will never, has never been played before.
+[Lilli/Nema]: So, what do you think she's putting down?
 [Kaitlyn/Kto]: Creativity.
-[Fox/Fiorn]: Creativity.
-[Fox/Fiorn]: Yeah.
-[Fox/Fiorn]: Luther.
-[Fox/Fiorn]: Um, I play a song that I've made myself, but have never performed yet.
-[Fox/Fiorn]: Excellent.
+[Lilli/Nema]: Creativity.
+[Lilli/Nema]: Yeah.
+[Lilli/Nema]: Luther.
+[Lilli/Nema]: Um, I play a song that I've made myself, but have never performed yet.
+[Lilli/Nema]: Excellent.
 [DM]: Claps of hands, long ago.
 [DM]: You guys, everybody in the party, this is like some of the best music you've ever heard.
 [Kaitlyn/Kto]: Thank you guys.
@@ -932,11 +932,11 @@ What happened?
 [Kaitlyn/Kto]: Right.
 [Kaitlyn/Kto]: Oh, I probably don't.
 [Kaitlyn/Kto]: I'm gonna die.
-[Fox/Fiorn]: She's a male.
+[Lilli/Nema]: She's a male.
 [Kaitlyn/Kto]: I'm gonna ask of you.
-[Lilli/Nema]: Is it?
-[Lilli/Nema]: Nobody knows what those are.
-[Lilli/Nema]: You're an ass.
+[Fox/Fiorn]: Is it?
+[Fox/Fiorn]: Nobody knows what those are.
+[Fox/Fiorn]: You're an ass.
 [Kaitlyn/Kto]: What do you think is an assamir?
 [Kaitlyn/Kto]: You're an owl.
 [Kaitlyn/Kto]: I'm your mom.
@@ -956,14 +956,14 @@ What happened?
 [Kaitlyn/Kto]: When does that make sense?
 [Kaitlyn/Kto]: You're okay.
 [DM]: So because I let you put your general number on, we're just going to say that you can't look back, stay where they are, but you're even at all kinds of purposes that hasn't adopted anger in the private conference, like 12 generations.
-[Fox/Fiorn]: Do you know who that anger is?
-[Fox/Fiorn]: uh that they're they're the monster that we're uh reanimated no shape shapes on shape shapes yeah but it's way more perfectly like the actual model there's yeah can i start glowing oh may i say something real quick the party doesn't know that my character is the
+[Lilli/Nema]: Do you know who that anger is?
+[Lilli/Nema]: uh that they're they're the monster that we're uh reanimated no shape shapes on shape shapes yeah but it's way more perfectly like the actual model there's yeah can i start glowing oh may i say something real quick the party doesn't know that my character is the
 [Sev/Yinu]: The party doesn't know what type of outfit my character is, and that's because my character ever doesn't want to be seen as a xenophobe.
 [Sev/Yinu]: Because like I said, my character's outfit is known for being really xenophobic.
 [DM]: Here are the other couple of people.
 [DM]: Here are the what?
 [Kaitlyn/Kto]: Oh, look at the invitation to make it look like she's on fire.
-[Lilli/Nema]: But why?
+[Fox/Fiorn]: But why?
 [Kaitlyn/Kto]: Okay, can I pick it for any bird toes?
 [DM]: Alright, so you have to tell me that because I did the most to that.
 [DM]: I got a 9.20.
@@ -977,7 +977,7 @@ What happened?
 [Sev/Yinu]: Absolutely.
 [Sev/Yinu]: All right.
 [Sev/Yinu]: If anyone else has any suggestions for how this kindly could help, uh, I assume that they'll be greatly appreciated, I assume.
-[Fox/Fiorn]: If you find a magic artifact with minor illusion,
+[Lilli/Nema]: If you find a magic artifact with minor illusion,
 [Kaitlyn/Kto]: You want to join my cole?
 [Kaitlyn/Kto]: No.
 You may use.
@@ -1060,12 +1060,12 @@ You may use.
 [Kaitlyn/Kto]: You're a victim to those.
 [Kaitlyn/Kto]: It was.
 [Kaitlyn/Kto]: They do.
-[Fox/Fiorn]: Okay.
-[Fox/Fiorn]: It was 60 feet in the air and then across it would have been 190.78.
+[Lilli/Nema]: Okay.
+[Lilli/Nema]: It was 60 feet in the air and then across it would have been 190.78.
 [Kaitlyn/Kto]: Still that's not 200.
 [Kaitlyn/Kto]: I'm not 200.
-[Fox/Fiorn]: That's two hundred and another piece of garlic bread.
-[Fox/Fiorn]: A straight shot would have been 200 feet.
+[Lilli/Nema]: That's two hundred and another piece of garlic bread.
+[Lilli/Nema]: A straight shot would have been 200 feet.
 [Kaitlyn/Kto]: I kind of ran.
 [Kaitlyn/Kto]: Wait, I didn't need a crime plan.
 [Kaitlyn/Kto]: Why would he say that?
@@ -1089,27 +1089,27 @@ You may use.
 [Kaitlyn/Kto]: It's, uh, it was, uh, why did you do green on green?
 [Kaitlyn/Kto]: I didn't see nothing, man.
 [DM]: So how did you have blue basket as a bag of markers?
-[Fox/Fiorn]: If you, if you were six and a year, then he would have been a hundred and ninety feet off.
+[Lilli/Nema]: If you, if you were six and a year, then he would have been a hundred and ninety feet off.
 [Kaitlyn/Kto]: Or he is smarter.
-[Fox/Fiorn]: Yes, it is.
-[Fox/Fiorn]: Thank you.
-[Fox/Fiorn]: Thank you.
-[Fox/Fiorn]: Sure.
+[Lilli/Nema]: Yes, it is.
+[Lilli/Nema]: Thank you.
+[Lilli/Nema]: Thank you.
+[Lilli/Nema]: Sure.
 [Kaitlyn/Kto]: Thank you.
 [Kaitlyn/Kto]: Thank you for the math.
-[Fox/Fiorn]: That's actually not sexy.
-[Fox/Fiorn]: It is 30,600.
-[Fox/Fiorn]: Point times 20 is 40,000.
-[Fox/Fiorn]: Now I'm going to minimize 30,600.
-[Fox/Fiorn]: So I'm actually getting 30.
-[Fox/Fiorn]: It's 200.
+[Lilli/Nema]: That's actually not sexy.
+[Lilli/Nema]: It is 30,600.
+[Lilli/Nema]: Point times 20 is 40,000.
+[Lilli/Nema]: Now I'm going to minimize 30,600.
+[Lilli/Nema]: So I'm actually getting 30.
+[Lilli/Nema]: It's 200.
 [DM]: It's 200.
 [DM]: It's 130.
 [DM]: Keep thinking that.
 [DM]: 6.6,000.
 [DM]: Here we go.
 [DM]: Drow the tree.
-[Lilli/Nema]: OK.
+[Fox/Fiorn]: OK.
 [DM]: Here is the party.
 [DM]: That's very low.
 [DM]: Down here.
@@ -1165,8 +1165,8 @@ You may use.
 [DM]: Yeah.
 [DM]: So this is 190 feet.
 [Sev/Yinu]: You are off by 10 feet.
-[Fox/Fiorn]: That's now he was right by you.
-[Fox/Fiorn]: It was a strange shot to 100.
+[Lilli/Nema]: That's now he was right by you.
+[Lilli/Nema]: It was a strange shot to 100.
 [Kaitlyn/Kto]: I could still run.
 [Kaitlyn/Kto]: I thought we were climbing.
 [Kaitlyn/Kto]: Why did you say crime?
@@ -1183,7 +1183,7 @@ You may use.
 [DM]: She's got you guys.
 [DM]: She's got me.
 [DM]: No, no, no.
-[Fox/Fiorn]: Now, here's, you said we had a snake accident, which we did.
+[Lilli/Nema]: Now, here's, you said we had a snake accident, which we did.
 [DM]: Well, well, yeah, you're getting into the round map, which is that you can't make it that far that fast.
 [DM]: He's right about that.
 [DM]: But you're right.
@@ -1206,11 +1206,11 @@ You may use.
 [Kaitlyn/Kto]: And she was like, yeah, you're going to do it because I know you're smart.
 [DM]: We'll just give you extra check.
 [Kaitlyn/Kto]: Yeah.
-[Fox/Fiorn]: It's, uh, it's what you would be learning in the normal class next year.
-[Fox/Fiorn]: And even then you'd still be learning in an algebra class for the PSS.
-[Fox/Fiorn]: Why do we need?
+[Lilli/Nema]: It's, uh, it's what you would be learning in the normal class next year.
+[Lilli/Nema]: And even then you'd still be learning in an algebra class for the PSS.
+[Lilli/Nema]: Why do we need?
 [Sev/Yinu]: I'm doing the high school code of the PSSA.
-[Fox/Fiorn]: It's a part of doing it.
+[Lilli/Nema]: It's a part of doing it.
 [Kaitlyn/Kto]: I don't do the PSSA's.
 [Kaitlyn/Kto]: Yeah, you're right.
 [Kaitlyn/Kto]: You're sorry.
@@ -1222,19 +1222,19 @@ You may use.
 [DM]: I've got to do stuff.
 [DM]: So I don't want to do it.
 [DM]: If your school's making you do the middle house.
-[Fox/Fiorn]: If I do good on the keystones this year, do I have to take them next year?
-[Fox/Fiorn]: Yeah.
-[Fox/Fiorn]: Other than extra.
-[Fox/Fiorn]: I don't know.
-[Fox/Fiorn]: I don't want to take the keys.
+[Lilli/Nema]: If I do good on the keystones this year, do I have to take them next year?
+[Lilli/Nema]: Yeah.
+[Lilli/Nema]: Other than extra.
+[Lilli/Nema]: I don't know.
+[Lilli/Nema]: I don't want to take the keys.
 [Sev/Yinu]: All right.
 [Sev/Yinu]: So I have to take them every year you are in high school.
 [DM]: I'll draw 11th grade.
 [DM]: If you ask me math questions, I will geek out and answer my questions.
-[Fox/Fiorn]: Actually, you don't because you said my answer was wrong.
+[Lilli/Nema]: Actually, you don't because you said my answer was wrong.
 [DM]: I honestly didn't think that that could be 190.
 [DM]: That would be like 40 or 50.
-[Fox/Fiorn]: 100 times 100 is 10,000, which means 30,000 would be the answer.
+[Lilli/Nema]: 100 times 100 is 10,000, which means 30,000 would be the answer.
 [DM]: You are and always have been better at that quick mental gap than I am.
 [DM]: And I just didn't think that.
 [Sev/Yinu]: I'm honestly glad I wasn't able to use firewall because I did not want to kill her.
@@ -1251,13 +1251,13 @@ You may use.
 [DM]: I go back to my farm.
 [DM]: So said, you asked them to tell you in the future when you're back in Maryland, to see the growl around the world.
 [DM]: That's what you asked for.
-[Lilli/Nema]: Yeah.
+[Fox/Fiorn]: Yeah.
 [DM]: If you gave you the intel about the square inside the cave, the screens was running out of itself.
 [DM]: Yes.
 [DM]: Yes.
 [DM]: Any else?
 [DM]: Anybody want to ask me?
-[Lilli/Nema]: No.
+[Fox/Fiorn]: No.
 [Sev/Yinu]: Well, actually, I will.
 [Sev/Yinu]: I asked just a random question about the imagine of her with theory I had.
 [Sev/Yinu]: The theory was that the magic is like a direct crime from a wild magic some way.
@@ -1283,16 +1283,16 @@ You may use.
 [DM]: So I do.
 [DM]: It's still a lot of chocolate peanut butter and white cookie sauce.
 [Sev/Yinu]: I want to yes, baked cookies.
-[Fox/Fiorn]: Oh, by the way, before I change back, my character says, I don't feel comfortable in this color of skin.
+[Lilli/Nema]: Oh, by the way, before I change back, my character says, I don't feel comfortable in this color of skin.
 [DM]: This type of skin does not suit me.
 [DM]: Race is up.
-[Fox/Fiorn]: My character doesn't have a race.
-[Fox/Fiorn]: All right.
+[Lilli/Nema]: My character doesn't have a race.
+[Lilli/Nema]: All right.
 [DM]: My character can be racist to anything.
 [DM]: You want to go somewhere?
 [DM]: Yeah, I'm going to go somewhere.
 Yeah.
-[Lilli/Nema]: Are you feeling it?
+[Fox/Fiorn]: Are you feeling it?
 [Kaitlyn/Kto]: I'm taking less static pictures of dice so I can make a, um, no paper for Dandy.
 [Kaitlyn/Kto]: Not it really does look like she's awesome.
 [DM]: Oh, I'm so sorry.
@@ -1302,35 +1302,35 @@ Yeah.
 [DM]: So why do we have, what is this study?
 [DM]: Map, map, map, map, map, map, map, map, map, map, does that really mean you?
 [Kaitlyn/Kto]: Yes.
-[Fox/Fiorn]: A map, do you mean you could ask her both?
+[Lilli/Nema]: A map, do you mean you could ask her both?
 [Kaitlyn/Kto]: Hey, can somebody fill the oven?
 [DM]: Can you do it through the oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven
 [Kaitlyn/Kto]: We're welcome.
-[Lilli/Nema]: However, we can make no bigs after the end.
+[Fox/Fiorn]: However, we can make no bigs after the end.
 [DM]: We don't have an incident.
 [DM]: We don't know.
 [DM]: What happened?
 [Kaitlyn/Kto]: We can buy some so we can make no bigs.
 [DM]: We can walk down to the item.
-[Lilli/Nema]: Yeah, let's walk down to the item.
+[Fox/Fiorn]: Yeah, let's walk down to the item.
 [DM]: blew it, blew it inside.
-[Fox/Fiorn]: I applied at my skin in order to take out the wires underneath it, but all I saw was flash.
+[Lilli/Nema]: I applied at my skin in order to take out the wires underneath it, but all I saw was flash.
 [DM]: Oh, for a second.
 [DM]: So I was on the room.
-[Lilli/Nema]: Sam, are you in the greenhouse room?
-[Lilli/Nema]: No.
-[Lilli/Nema]: What?
-[Lilli/Nema]: He said, we don't know if you just disappear like that, but you gotta let us know.
-[Lilli/Nema]: All right.
+[Fox/Fiorn]: Sam, are you in the greenhouse room?
+[Fox/Fiorn]: No.
+[Fox/Fiorn]: What?
+[Fox/Fiorn]: He said, we don't know if you just disappear like that, but you gotta let us know.
+[Fox/Fiorn]: All right.
 [DM]: It's OK.
 [Kaitlyn/Kto]: I can, like, most of us saw him.
 [Kaitlyn/Kto]: I hate you.
 [Kaitlyn/Kto]: You lie.
 [Kaitlyn/Kto]: You lie.
-[Fox/Fiorn]: You can make chocolate chip cookies.
+[Lilli/Nema]: You can make chocolate chip cookies.
 [Kaitlyn/Kto]: Like right now.
-[Fox/Fiorn]: Not right now.
-[Fox/Fiorn]: We have to finish it.
+[Lilli/Nema]: Not right now.
+[Lilli/Nema]: We have to finish it.
 [Kaitlyn/Kto]: We're not waiting to.
 [DM]: All right.
 [DM]: All right.
@@ -1353,8 +1353,8 @@ Yeah.
 [Kaitlyn/Kto]: I think this is better.
 [Kaitlyn/Kto]: Are we buying this?
 [Kaitlyn/Kto]: Are we buying this?
-[Fox/Fiorn]: Can I roll this?
-[Fox/Fiorn]: Do I have to roll the mortar to get through the string?
+[Lilli/Nema]: Can I roll this?
+[Lilli/Nema]: Do I have to roll the mortar to get through the string?
 [DM]: So there are a bunch of dozen little tiny things that spider so thread dangling over the doorway.
 [DM]: You have to find a way around that.
 [Kaitlyn/Kto]: And they can run.
@@ -1362,11 +1362,11 @@ Yeah.
 [DM]: No.
 [Kaitlyn/Kto]: Oh, okay.
 [Kaitlyn/Kto]: Well, I can acrobatics open them.
-[Fox/Fiorn]: I can tell.
+[Lilli/Nema]: I can tell.
 [Kaitlyn/Kto]: You could use your flow.
-[Fox/Fiorn]: But that's a chance.
-[Fox/Fiorn]: You don't think you could acrobatics.
-[Fox/Fiorn]: Can you burn them?
+[Lilli/Nema]: But that's a chance.
+[Lilli/Nema]: You don't think you could acrobatics.
+[Lilli/Nema]: Can you burn them?
 [Kaitlyn/Kto]: Wait, could I use light?
 [DM]: You do know the spider symbol.
 [DM]: There's no one.
@@ -1377,10 +1377,10 @@ Yeah.
 [DM]: I mean, you don't know for sure.
 [Kaitlyn/Kto]: Actually, could you use how which one another when something?
 [Sev/Yinu]: I know it a perfect way to give a spider will burn.
-[Fox/Fiorn]: Burn it.
-[Fox/Fiorn]: Could I could I use fast hands?
-[Fox/Fiorn]: Slide of hand.
-[Fox/Fiorn]: Make a dexterity slide of hand chart to pick a walk or disarm a trap with the install.
+[Lilli/Nema]: Burn it.
+[Lilli/Nema]: Could I could I use fast hands?
+[Lilli/Nema]: Slide of hand.
+[Lilli/Nema]: Make a dexterity slide of hand chart to pick a walk or disarm a trap with the install.
 [DM]: You think that you might be able to do that?
 [DM]: You also think that you could also do scouts.
 [DM]: You actually have to tie your walk.
@@ -1399,7 +1399,7 @@ Yeah.
 [Kaitlyn/Kto]: Oh, perception.
 [Kaitlyn/Kto]: No shot, man.
 [Kaitlyn/Kto]: What's my perception?
-[Fox/Fiorn]: Okay, you've got an out one.
+[Lilli/Nema]: Okay, you've got an out one.
 [Kaitlyn/Kto]: Okay.
 [Kaitlyn/Kto]: Technically, I've got a three.
 [DM]: Oh, Hector, I'm sorry, you need a little bit.
@@ -1423,12 +1423,12 @@ Yeah.
 [Kaitlyn/Kto]: If you follow, you take damage and try that.
 [DM]: Do I do acrobatics instead?
 [Kaitlyn/Kto]: Okay.
-[Fox/Fiorn]: I'd rather this on the chat.
+[Lilli/Nema]: I'd rather this on the chat.
 [Kaitlyn/Kto]: Why?
 [Kaitlyn/Kto]: Plus six.
 [Kaitlyn/Kto]: Maybe I'm trying.
 [Kaitlyn/Kto]: Minus twenty three.
-[Fox/Fiorn]: Yeah, I have a plus zero.
+[Lilli/Nema]: Yeah, I have a plus zero.
 [Sev/Yinu]: Can I get off with that with acrobatics?
 [Sev/Yinu]: I am ironically.
 [Sev/Yinu]: No, you can.
@@ -1458,16 +1458,16 @@ Yeah.
 [DM]: You follow, you take two points of damage.
 [DM]: Okay.
 [Kaitlyn/Kto]: Well, I've got twenty three.
-[Fox/Fiorn]: You were only ready to do this.
-[Fox/Fiorn]: The side of hand 14.
+[Lilli/Nema]: You were only ready to do this.
+[Lilli/Nema]: The side of hand 14.
 [Sev/Yinu]: There's no.
 [Sev/Yinu]: I mean, I'll try.
 [Sev/Yinu]: Okay.
 [DM]: I'm going to give you a plus one because you feel the first time that you have at better.
 [DM]: So you succeed.
 [DM]: Everybody succeeds so far.
-[Lilli/Nema]: It's actually 16 plus one.
-[Lilli/Nema]: Try this on the job.
+[Fox/Fiorn]: It's actually 16 plus one.
+[Fox/Fiorn]: Try this on the job.
 [DM]: What happened?
 [DM]: Yes.
 [DM]: What?
@@ -1477,18 +1477,18 @@ Yeah.
 [DM]: So you get up.
 [DM]: You could do that game theory yourself inside of you.
 [DM]: You say you wanted some traps, or you could go on a trap, unless you're paying to your client.
-[Lilli/Nema]: You don't mean to sleep and track his ass at the mountain.
+[Fox/Fiorn]: You don't mean to sleep and track his ass at the mountain.
 [Kaitlyn/Kto]: OK, fine.
 [Kaitlyn/Kto]: Wait, no, I think guys don't think for that.
-[Fox/Fiorn]: Try me.
+[Lilli/Nema]: Try me.
 [DM]: And if you fail, I'm really going to set the guy up.
 [DM]: I'm going to roll side of hand.
-[Fox/Fiorn]: You guys get.
+[Lilli/Nema]: You guys get.
 [Kaitlyn/Kto]: Wait, wait, wait, wait, wait, wait, wait.
 [Kaitlyn/Kto]: I slap him.
 [Kaitlyn/Kto]: Can I use diet?
 [Kaitlyn/Kto]: Can I use diet?
-[Fox/Fiorn]: You're not near me.
+[Lilli/Nema]: You're not near me.
 [Kaitlyn/Kto]: You're not near me.
 [Kaitlyn/Kto]: I'm not going to help you out the demo.
 [Kaitlyn/Kto]: Well, you touch a willing creature and she has a skill until the spell hooks.
@@ -1498,21 +1498,21 @@ Yeah.
 [DM]: I rolled 20.
 [Kaitlyn/Kto]: Okay, well, it doesn't work.
 [Kaitlyn/Kto]: And they said something tough anyway.
-[Fox/Fiorn]: Where's the guy right there?
+[Lilli/Nema]: Where's the guy right there?
 [Kaitlyn/Kto]: It's a porcupine on the guy.
-[Fox/Fiorn]: What's that?
-[Fox/Fiorn]: What's that?
-[Fox/Fiorn]: What's that?
+[Lilli/Nema]: What's that?
+[Lilli/Nema]: What's that?
+[Lilli/Nema]: What's that?
 [Kaitlyn/Kto]: What's your?
 [Kaitlyn/Kto]: Yes.
 [Kaitlyn/Kto]: That's how you make my money.
 [Kaitlyn/Kto]: Oh, yeah.
 [Kaitlyn/Kto]: Okay.
 [Kaitlyn/Kto]: You didn't even need me to touch you.
-[Fox/Fiorn]: Also, she was of the mountain already.
-[Fox/Fiorn]: So she couldn't use guidance.
-[Fox/Fiorn]: Okay.
-[Lilli/Nema]: Well, I thought you would.
+[Lilli/Nema]: Also, she was of the mountain already.
+[Lilli/Nema]: So she couldn't use guidance.
+[Lilli/Nema]: Okay.
+[Fox/Fiorn]: Well, I thought you would.
 [DM]: I didn't really pass a lift.
 [DM]: But anyway, yes.
 [DM]: Fair enough.
@@ -1531,14 +1531,14 @@ Yeah.
 [Kaitlyn/Kto]: Um, no, that's good.
 [DM]: Let's see.
 [DM]: I'll be here.
-[Lilli/Nema]: So they can remove that left.
+[Fox/Fiorn]: So they can remove that left.
 [Sev/Yinu]: Got my wizard ready.
 [DM]: I'll go to my to them.
 [DM]: I was my mom.
 [DM]: Oh, second.
 [DM]: Okay.
 [Kaitlyn/Kto]: Oh, why do I have to still be the same person?
-[Lilli/Nema]: That's the fire.
+[Fox/Fiorn]: That's the fire.
 [DM]: Um, this is the cave mouth.
 [Kaitlyn/Kto]: I'm not a peaceful.
 [DM]: Bjorn is right here in this square.
@@ -1560,15 +1560,15 @@ Okay.
 [DM]: We'll pick advice, please.
 [Kaitlyn/Kto]: Queen, where my character be at?
 [Kaitlyn/Kto]: Is it the tower?
-[Lilli/Nema]: I'm so confused.
+[Fox/Fiorn]: I'm so confused.
 [DM]: Those of you that entered from your ceiling hole, which is everybody except Jorn, can be anywhere in means squares.
 [DM]: I'm going to put that one.
 [Kaitlyn/Kto]: The only one is it wasn't here when we picked one.
 [Kaitlyn/Kto]: I fell on 20 people.
 [Kaitlyn/Kto]: I'm here.
-[Fox/Fiorn]: South takes 80 points of fire.
-[Fox/Fiorn]: I know it's okay.
-[Fox/Fiorn]: What is here?
+[Lilli/Nema]: South takes 80 points of fire.
+[Lilli/Nema]: I know it's okay.
+[Lilli/Nema]: What is here?
 [Kaitlyn/Kto]: A fire hit.
 [Kaitlyn/Kto]: Oh, that's a burning fire right there.
 [Sev/Yinu]: Never mind.
@@ -1576,8 +1576,8 @@ Okay.
 [Sev/Yinu]: Who is the power?
 [Kaitlyn/Kto]: Um, I think it was, um, Laura, Laura.
 [Kaitlyn/Kto]: So.
-[Fox/Fiorn]: It's fine.
-[Fox/Fiorn]: We have enough.
+[Lilli/Nema]: It's fine.
+[Lilli/Nema]: We have enough.
 [Kaitlyn/Kto]: Hey, you like that, dude?
 [Kaitlyn/Kto]: Okay.
 [Kaitlyn/Kto]: Okay.
@@ -1598,20 +1598,20 @@ Okay.
 [Kaitlyn/Kto]: That's applying.
 [Kaitlyn/Kto]: My mom wants to know when this ends.
 [Kaitlyn/Kto]: Six seven.
-[Lilli/Nema]: It's past eight.
-[Fox/Fiorn]: I shouldn't have a clock, Moron.
-[Fox/Fiorn]: I'm not talking to you.
+[Fox/Fiorn]: It's past eight.
+[Lilli/Nema]: I shouldn't have a clock, Moron.
+[Lilli/Nema]: I'm not talking to you.
 [Kaitlyn/Kto]: Oh, he just got into that also.
-[Fox/Fiorn]: Were you looking at your clock when you said it's 6 a.m.
+[Lilli/Nema]: Were you looking at your clock when you said it's 6 a.m.
 [Kaitlyn/Kto]: I was looking at house.
-[Fox/Fiorn]: Oh, please.
+[Lilli/Nema]: Oh, please.
 [DM]: So, okay.
 [DM]: You can't fly, but only if you read this only once for long rest.
 [Kaitlyn/Kto]: So I haven't flown before.
 [DM]: No, that's true.
 [DM]: So you could do it.
 [DM]: And for one minute, you'll have wings need only to fly.
-[Lilli/Nema]: How long is that many?
+[Fox/Fiorn]: How long is that many?
 [DM]: 10 rounds.
 [DM]: But like, but after that, what can we do again?
 [DM]: We need respirators.
@@ -1631,10 +1631,10 @@ Oh, okay.
 [DM]: There isn't time.
 [DM]: I don't know what he's talking about.
 [Kaitlyn/Kto]: Well, cookies.
-[Fox/Fiorn]: You can stop after this comment.
+[Lilli/Nema]: You can stop after this comment.
 [Kaitlyn/Kto]: There is no cookies.
-[Fox/Fiorn]: Oh, by the way, y'all.
-[Fox/Fiorn]: The entire room gets smoked, friend.
+[Lilli/Nema]: Oh, by the way, y'all.
+[Lilli/Nema]: The entire room gets smoked, friend.
 [Kaitlyn/Kto]: No.
 [Kaitlyn/Kto]: Can you make him not do that?
 [Kaitlyn/Kto]: I'm going to lay up the entire room.
@@ -1660,29 +1660,29 @@ Oh, okay.
 [DM]: Let's use it in the problem.
 [DM]: Just roll.
 [DM]: Everybody take one action.
-[Fox/Fiorn]: I shoot it with my crossbow.
+[Lilli/Nema]: I shoot it with my crossbow.
 [Kaitlyn/Kto]: I don't really have like a one.
 [Kaitlyn/Kto]: That's will be the pointy.
 [DM]: Oh, see how good were we all together?
 [Kaitlyn/Kto]: Would I be able to do?
-[Fox/Fiorn]: Okay, I hit.
+[Lilli/Nema]: Okay, I hit.
 [Kaitlyn/Kto]: Right.
 [Kaitlyn/Kto]: So, well, what does each query go?
-[Fox/Fiorn]: But I hit 25.
-[Fox/Fiorn]: Let's just say I hit the one that nobody else is targeting.
-[Fox/Fiorn]: Everybody target the one that I'm not 16.
+[Lilli/Nema]: But I hit 25.
+[Lilli/Nema]: Let's just say I hit the one that nobody else is targeting.
+[Lilli/Nema]: Everybody target the one that I'm not 16.
 [Kaitlyn/Kto]: Yeah, we're all people.
 [Kaitlyn/Kto]: It's a DA.
 [Kaitlyn/Kto]: Oh, sorry.
 [Kaitlyn/Kto]: Wait, are you using it?
-[Fox/Fiorn]: Well, hold on.
-[Fox/Fiorn]: Everybody go back.
-[Fox/Fiorn]: Okay.
-[Fox/Fiorn]: You had 21 damage already.
+[Lilli/Nema]: Well, hold on.
+[Lilli/Nema]: Everybody go back.
+[Lilli/Nema]: Okay.
+[Lilli/Nema]: You had 21 damage already.
 [Kaitlyn/Kto]: And you're orange.
 [DM]: Jordan has to pick the one you shot and take it out.
 [Kaitlyn/Kto]: I don't hold down three and five.
-[Fox/Fiorn]: I killed one of them guys.
+[Lilli/Nema]: I killed one of them guys.
 [Kaitlyn/Kto]: Can I just like bear on a document?
 [Kaitlyn/Kto]: I know that's not me, but like, I haven't
 [Kaitlyn/Kto]: You can watch.
@@ -1704,12 +1704,12 @@ Oh, okay.
 [Kaitlyn/Kto]: Okay, challenge rating up to.
 [DM]: Oh, wait, what's your, uh, what's your, uh, what's your, uh, what's your software?
 [Kaitlyn/Kto]: What's a subclass?
-[Fox/Fiorn]: A subclass is, um, it's your subclass.
-[Fox/Fiorn]: It's literally just as if the sub portion of your class, Viper.
+[Lilli/Nema]: A subclass is, um, it's your subclass.
+[Lilli/Nema]: It's literally just as if the sub portion of your class, Viper.
 [Kaitlyn/Kto]: Where do you find your subclass?
 [Kaitlyn/Kto]: Look at it.
-[Fox/Fiorn]: It's your character.
-[Fox/Fiorn]: You should know your son's class.
+[Lilli/Nema]: It's your character.
+[Lilli/Nema]: You should know your son's class.
 [Kaitlyn/Kto]: I keep saying battle to my mom.
 [Kaitlyn/Kto]: Well, can I become a daraboo?
 [Kaitlyn/Kto]: It says I can't.
@@ -1724,32 +1724,32 @@ Oh, okay.
 [DM]: There are two.
 [DM]: I think they are.
 [Kaitlyn/Kto]: I want to go back up.
-[Fox/Fiorn]: You are the circle of dreams.
+[Lilli/Nema]: You are the circle of dreams.
 [Kaitlyn/Kto]: Wait, I'm looking darwa.
 [Kaitlyn/Kto]: I told my mom, um, we're probably finishing after this battle.
-[Fox/Fiorn]: Okay.
+[Lilli/Nema]: Okay.
 [Kaitlyn/Kto]: Are we?
-[Fox/Fiorn]: I have this entire time you've had a heal ability.
+[Lilli/Nema]: I have this entire time you've had a heal ability.
 [Kaitlyn/Kto]: Oh, I do.
-[Fox/Fiorn]: You have a 120 feet radius heal.
+[Lilli/Nema]: You have a 120 feet radius heal.
 [Kaitlyn/Kto]: Oh, thank you.
 [Kaitlyn/Kto]: My entire character to be a healer for nothing.
 [Kaitlyn/Kto]: Yeah.
-[Fox/Fiorn]: One ability.
-[Fox/Fiorn]: It's, uh, we'll live like 20.
-[Fox/Fiorn]: Oh, she can do this every turn as a bonus action.
+[Lilli/Nema]: One ability.
+[Lilli/Nema]: It's, uh, we'll live like 20.
+[Lilli/Nema]: Oh, she can do this every turn as a bonus action.
 [Kaitlyn/Kto]: What?
 [Kaitlyn/Kto]: Oh, wait, what's it called?
-[Fox/Fiorn]: Oh, you have an energy pool.
-[Fox/Fiorn]: Okay.
+[Lilli/Nema]: Oh, you have an energy pool.
+[Lilli/Nema]: Okay.
 [DM]: Okay.
 [DM]: Can I tell you guys some things?
 [DM]: Yeah.
 [DM]: Whatever.
 [DM]: Okay.
-[Fox/Fiorn]: Piper, as a bonus action, you can use up.
-[Fox/Fiorn]: So you have five D six and as a bonus action every turn, you can use one of those D six to heal up to one creature.
-[Fox/Fiorn]: You can heal that creature also gives one temporary hit.
+[Lilli/Nema]: Piper, as a bonus action, you can use up.
+[Lilli/Nema]: So you have five D six and as a bonus action every turn, you can use one of those D six to heal up to one creature.
+[Lilli/Nema]: You can heal that creature also gives one temporary hit.
 [Kaitlyn/Kto]: I have cure wounds.
 [Kaitlyn/Kto]: I don't know how to find next.
 [DM]: So you actually only one combat left.
@@ -1759,13 +1759,13 @@ Oh, okay.
 [DM]: What's that?
 [Kaitlyn/Kto]: It says a line.
 [Kaitlyn/Kto]: Well, it actually depends on how that's the dog.
-[Fox/Fiorn]: Oh, dad, by the way, um, my character starts laughing like a treasure dog, one from Diablo three, wherever he kills the one.
+[Lilli/Nema]: Oh, dad, by the way, um, my character starts laughing like a treasure dog, one from Diablo three, wherever he kills the one.
 [DM]: He left the fridge over the last step by you.
 [DM]: Okay.
-[Fox/Fiorn]: I'm sorry.
-[Lilli/Nema]: Can we scooch?
-[Lilli/Nema]: What?
-[Lilli/Nema]: You can be terrible.
+[Lilli/Nema]: I'm sorry.
+[Fox/Fiorn]: Can we scooch?
+[Fox/Fiorn]: What?
+[Fox/Fiorn]: You can be terrible.
 [DM]: There he is.
 [Kaitlyn/Kto]: Fire.
 [Kaitlyn/Kto]: It's gone.
@@ -1791,23 +1791,23 @@ Oh, okay.
 [DM]: Yeah, there are, that could tell him not down, but he's alive.
 [DM]: And he's been demoted because of his failure.
 [DM]: But he's here as an attendant to a priestess who is helping this, um, this party, for example, former ritual to blow the side of the mountain so wide open that it will not be able to lose.
-[Fox/Fiorn]: Ooh, we'd have to stop that.
+[Lilli/Nema]: Ooh, we'd have to stop that.
 [Kaitlyn/Kto]: I talk for about religion.
-[Fox/Fiorn]: No, let's say a little bit.
-[Fox/Fiorn]: Wow.
-[Fox/Fiorn]: She's a draw priestess.
-[Fox/Fiorn]: Bad thing.
-[Fox/Fiorn]: Her religion's way different than yours.
+[Lilli/Nema]: No, let's say a little bit.
+[Lilli/Nema]: Wow.
+[Lilli/Nema]: She's a draw priestess.
+[Lilli/Nema]: Bad thing.
+[Lilli/Nema]: Her religion's way different than yours.
 [DM]: Is there a way I could probably like shoot firewalls?
 [DM]: But it's actually a giant spider goddess.
 [Kaitlyn/Kto]: Oh my god!
 [Kaitlyn/Kto]: I love it!
 [DM]: It works, it's not it.
-[Fox/Fiorn]: Yeah, my characters are tackling like a treasure goblin from the island.
+[Lilli/Nema]: Yeah, my characters are tackling like a treasure goblin from the island.
 [Kaitlyn/Kto]: I love it.
 [Kaitlyn/Kto]: I want to slap that thing.
-[Fox/Fiorn]: My slap hurts more than you.
-[Fox/Fiorn]: I could slap you with a sneak attack.
+[Lilli/Nema]: My slap hurts more than you.
+[Lilli/Nema]: I could slap you with a sneak attack.
 [Kaitlyn/Kto]: I can bite you right now, boss.
 [Kaitlyn/Kto]: What?
 [Kaitlyn/Kto]: I'm gonna start blowing and you're gonna, you're either gonna explode.
@@ -1818,13 +1818,13 @@ Oh, okay.
 [Kaitlyn/Kto]: Okay.
 [DM]: Hold on.
 [DM]: What are four daggers?
-[Lilli/Nema]: Wait, what?
+[Fox/Fiorn]: Wait, what?
 [DM]: I have four daggers.
 [Kaitlyn/Kto]: We'll go.
 [Kaitlyn/Kto]: We'll go.
 [Kaitlyn/Kto]: We'll go.
-[Fox/Fiorn]: How do you have four daggers?
-[Fox/Fiorn]: I just have a bunch of daggers.
+[Lilli/Nema]: How do you have four daggers?
+[Lilli/Nema]: I just have a bunch of daggers.
 [Kaitlyn/Kto]: How old is the room?
 [Kaitlyn/Kto]: Can I look?
 [Kaitlyn/Kto]: Can I?
@@ -1865,18 +1865,18 @@ Oh, okay.
 [DM]: Why would you?
 [DM]: No, it's easy.
 [DM]: All right.
-[Lilli/Nema]: No, because, like, I'm a stupid chud, Piper.
+[Fox/Fiorn]: No, because, like, I'm a stupid chud, Piper.
 [Kaitlyn/Kto]: No, we're not surprised.
 [Kaitlyn/Kto]: You're always a judge in real life and in game.
 [Kaitlyn/Kto]: Oh, do you want to eat this dog?
 [Kaitlyn/Kto]: I'm just kidding.
-[Fox/Fiorn]: I feel that I come to your school for one year and I already made a wrestling team win for the first time in like 10 years.
+[Lilli/Nema]: I feel that I come to your school for one year and I already made a wrestling team win for the first time in like 10 years.
 [Kaitlyn/Kto]: Nothing.
 [Kaitlyn/Kto]: It is out of the field.
-[Fox/Fiorn]: How does it feel?
-[Fox/Fiorn]: You should be ashamed of your school.
-[Fox/Fiorn]: All right.
-[Fox/Fiorn]: Well, too.
+[Lilli/Nema]: How does it feel?
+[Lilli/Nema]: You should be ashamed of your school.
+[Lilli/Nema]: All right.
+[Lilli/Nema]: Well, too.
 [Kaitlyn/Kto]: Whoa, why a bad choice of her name.
 [Kaitlyn/Kto]: Let me see her.
 [Kaitlyn/Kto]: No, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no,
@@ -1899,18 +1899,18 @@ Oh, okay.
 [Sev/Yinu]: Well, I think this was actually slightly, slightly weighted.
 [Sev/Yinu]: So are we rolling this?
 [Kaitlyn/Kto]: 22, 18, 22, 22, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23, 23,
-[Fox/Fiorn]: Well, what did you have?
+[Lilli/Nema]: Well, what did you have?
 [Kaitlyn/Kto]: What do you say?
-[Fox/Fiorn]: 16.
-[Fox/Fiorn]: 16.
+[Lilli/Nema]: 16.
+[Lilli/Nema]: 16.
 [Kaitlyn/Kto]: Yeah, I believe you.
 [Kaitlyn/Kto]: I have no preference.
 [Kaitlyn/Kto]: And Piper, you were 16 16 because I wrote a course begin and then I rolled a plus two.
-[Fox/Fiorn]: You didn't roll a plus two plus two.
-[Fox/Fiorn]: You rolled it.
+[Lilli/Nema]: You didn't roll a plus two plus two.
+[Lilli/Nema]: You rolled it.
 [Kaitlyn/Kto]: No, I didn't rule it.
-[Fox/Fiorn]: I had a plus two.
-[Fox/Fiorn]: My bad.
+[Lilli/Nema]: I had a plus two.
+[Lilli/Nema]: My bad.
 [Kaitlyn/Kto]: Your way.
 [Sev/Yinu]: Oh, you mean initiative?
 [Sev/Yinu]: I mean, you're AC.
@@ -1922,20 +1922,20 @@ Oh, okay.
 [DM]: 17.
 [DM]: 17.
 [DM]: Oh, 17.
-[Fox/Fiorn]: What does it say?
-[Fox/Fiorn]: I'm going to ask that every time I've got the ones where I'm going to say, everything's going to go.
+[Lilli/Nema]: What does it say?
+[Lilli/Nema]: I'm going to ask that every time I've got the ones where I'm going to say, everything's going to go.
 [DM]: What's the other thing on here on this?
 [Kaitlyn/Kto]: Armor class.
 [DM]: What?
 [Kaitlyn/Kto]: Oh, no, I pass a spell every time that I go.
 [Kaitlyn/Kto]: Like, after every long rest, I pass a spell that makes my armor class higher.
-[Fox/Fiorn]: Okay.
+[Lilli/Nema]: Okay.
 [DM]: Pardon me now.
 [Kaitlyn/Kto]: Uh, Intel.
 [DM]: I know.
 [DM]: All right, here we go.
 [DM]: The chamber opens into a ball and roll.
-[Lilli/Nema]: Sorry.
+[Fox/Fiorn]: Sorry.
 [DM]: Here's a pause.
 [DM]: And turn to the light when I start going.
 [DM]: Just a little bit.
@@ -1952,22 +1952,22 @@ Oh, okay.
 [DM]: We'll see what we're trying to do.
 [DM]: We'll get to it when it is your turn.
 [Sev/Yinu]: Yeah, we've learned.
-[Fox/Fiorn]: That is the that is the new guy you've not seen before.
-[Fox/Fiorn]: This is the guy that has returned.
-[Fox/Fiorn]: I just realized I've wasted such a perfect opportunity.
-[Fox/Fiorn]: I could have shaped it into one of the two people we just killed.
-[Fox/Fiorn]: I'm taking my clothes.
+[Lilli/Nema]: That is the that is the new guy you've not seen before.
+[Lilli/Nema]: This is the guy that has returned.
+[Lilli/Nema]: I just realized I've wasted such a perfect opportunity.
+[Lilli/Nema]: I could have shaped it into one of the two people we just killed.
+[Lilli/Nema]: I'm taking my clothes.
 [Kaitlyn/Kto]: Oh, you have.
 [Sev/Yinu]: Wait, we killed those two droughts?
 [Kaitlyn/Kto]: Yeah, I mean, I'm going to die.
-[Fox/Fiorn]: I want shot at the other one.
-[Fox/Fiorn]: I didn't mean the one on the on the tree.
-[Fox/Fiorn]: No, not that one.
+[Lilli/Nema]: I want shot at the other one.
+[Lilli/Nema]: I didn't mean the one on the on the tree.
+[Lilli/Nema]: No, not that one.
 [Kaitlyn/Kto]: I told another one and one.
 [DM]: So the very first thing.
 [DM]: Um, set role and project.
-[Fox/Fiorn]: You want to sit?
-[Fox/Fiorn]: No, I think everything I should do this.
+[Lilli/Nema]: You want to sit?
+[Lilli/Nema]: No, I think everything I should do this.
 [Sev/Yinu]: Twenty two.
 [Sev/Yinu]: Remember, I have an 11 hour kana and I got 10.
 [Sev/Yinu]: It's really good.
@@ -1987,12 +1987,12 @@ Oh, okay.
 [Kaitlyn/Kto]: I'm a genius.
 [Kaitlyn/Kto]: Does a 22 hit?
 [Kaitlyn/Kto]: Yes.
-[Fox/Fiorn]: I'm hitting the non-porese guy.
-[Fox/Fiorn]: God damn it!
+[Lilli/Nema]: I'm hitting the non-porese guy.
+[Lilli/Nema]: God damn it!
 [Kaitlyn/Kto]: Zelda ads?
-[Fox/Fiorn]: Uh, this is with my crossbow, by the way.
-[Fox/Fiorn]: I think I'm purposely fucking over the party.
-[Fox/Fiorn]: I'm purposely killing the warrior first, because the warriors are more annoying.
+[Lilli/Nema]: Uh, this is with my crossbow, by the way.
+[Lilli/Nema]: I think I'm purposely fucking over the party.
+[Lilli/Nema]: I'm purposely killing the warrior first, because the warriors are more annoying.
 [Sev/Yinu]: But if you kill the first and the explosion will happen.
 [Sev/Yinu]: I'm most worried about the explosion.
 [Kaitlyn/Kto]: I'm more so than I that's going to kill us I'm most worried about the mage because like made is automatically hit either way Warriors feel like a fuck ton of damage the explosion will kill everyone.
@@ -2016,14 +2016,14 @@ Oh, okay.
 [DM]: It's called third level or lower automatically extended.
 [DM]: It's called the fourth level or higher, make an ability check using your spell can I see the ability?
 [DM]: So it's 10, 12, 12, 12, but accessible check is felt.
-[Lilli/Nema]: This is a ritual.
+[Fox/Fiorn]: This is a ritual.
 [DM]: So you roll a straight check, which is N plus B roll B 20 and you add your spell casting ability, which is your notes.
-[Lilli/Nema]: What do you have to roll?
-[Lilli/Nema]: Actually, I'm not going to throw you.
-[Lilli/Nema]: Yeah, because you can try.
+[Fox/Fiorn]: What do you have to roll?
+[Fox/Fiorn]: Actually, I'm not going to throw you.
+[Fox/Fiorn]: Yeah, because you can try.
 [Kaitlyn/Kto]: What is the mage actually a team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team
 [Sev/Yinu]: Do I have a smug smile on my face?
-[Fox/Fiorn]: Oh, this isn't exactly why I didn't target the face.
+[Lilli/Nema]: Oh, this isn't exactly why I didn't target the face.
 [Kaitlyn/Kto]: So there's like a non-face pattern with face.
 [Kaitlyn/Kto]: That's it.
 [Sev/Yinu]: My checker didn't know that.
@@ -2071,17 +2071,17 @@ Oh, okay.
 [Kaitlyn/Kto]: That's too far.
 [Kaitlyn/Kto]: He thought of when.
 [Sev/Yinu]: I actually always think that he's got a chosen name, but my middle
-[Fox/Fiorn]: I've had a lot of people think that I have a chosen name.
-[Fox/Fiorn]: I've actually gone to a fight with someone.
-[Fox/Fiorn]: My other name is named after an author.
-[Fox/Fiorn]: He kept calling me a furry and would like, like being all like, I don't know, like annoying about it.
-[Fox/Fiorn]: No, but let me give you the middle name I wanted to give you.
-[Fox/Fiorn]: What was it?
-[Fox/Fiorn]: Oh, but it was spelled the Irish way.
+[Lilli/Nema]: I've had a lot of people think that I have a chosen name.
+[Lilli/Nema]: I've actually gone to a fight with someone.
+[Lilli/Nema]: My other name is named after an author.
+[Lilli/Nema]: He kept calling me a furry and would like, like being all like, I don't know, like annoying about it.
+[Lilli/Nema]: No, but let me give you the middle name I wanted to give you.
+[Lilli/Nema]: What was it?
+[Lilli/Nema]: Oh, but it was spelled the Irish way.
 [Kaitlyn/Kto]: I'm so glad to be here.
-[Fox/Fiorn]: Okay, we'll go with my mom.
-[Fox/Fiorn]: You didn't change me or my birth certificate, God.
-[Fox/Fiorn]: I'll be such a boy.
+[Lilli/Nema]: Okay, we'll go with my mom.
+[Lilli/Nema]: You didn't change me or my birth certificate, God.
+[Lilli/Nema]: I'll be such a boy.
 [Kaitlyn/Kto]: Are we continuing?
 [Kaitlyn/Kto]: Oh no, is there garlic bread left?
 [Kaitlyn/Kto]: No.
@@ -2089,11 +2089,11 @@ Oh, okay.
 [Sev/Yinu]: No, I have no idea.
 [Sev/Yinu]: I am a, I am hungry.
 [Sev/Yinu]: So I ate all of it.
-[Fox/Fiorn]: There's like three on the tray.
+[Lilli/Nema]: There's like three on the tray.
 [Kaitlyn/Kto]: I love that.
 [Kaitlyn/Kto]: The greed in this.
-[Fox/Fiorn]: Oh, he's in this.
-[Fox/Fiorn]: Oh, oh, yeah.
+[Lilli/Nema]: Oh, he's in this.
+[Lilli/Nema]: Oh, oh, yeah.
 [Kaitlyn/Kto]: Yeah, the stupid cheese.
 [Kaitlyn/Kto]: I can put that in there.
 [Kaitlyn/Kto]: Your picture felt was great and I need you to move.
@@ -2130,46 +2130,46 @@ Oh, okay.
 [Sev/Yinu]: I mean, it only happens whenever they're like close friends.
 [Sev/Yinu]: Wait, you're not a statistic?
 [Sev/Yinu]: I'm not.
-[Lilli/Nema]: Are you sure?
-[Fox/Fiorn]: I got tested for autism and ADHD.
-[Fox/Fiorn]: They both came on negative.
-[Fox/Fiorn]: You weren't tested for autism.
+[Fox/Fiorn]: Are you sure?
+[Lilli/Nema]: I got tested for autism and ADHD.
+[Lilli/Nema]: They both came on negative.
+[Lilli/Nema]: You weren't tested for autism.
 [Sev/Yinu]: How does he know that?
 [Sev/Yinu]: That means he could have autism.
 [DM]: No, I don't have autism.
 [Sev/Yinu]: Well, I apparently don't have autism.
 [Kaitlyn/Kto]: It looks like I'm not here.
-[Lilli/Nema]: Yeah, I wonder what happened if I mixed it every makes the three possible flavors together.
+[Fox/Fiorn]: Yeah, I wonder what happened if I mixed it every makes the three possible flavors together.
 [Sev/Yinu]: Maybe, but I had to be nice.
 [DM]: Let's do this combat.
 [DM]: Let's do.
 [Sev/Yinu]: I've had weirder than an amalgamation of frozen juice.
 [Sev/Yinu]: Like, like, like pizza on, like cake on pizza.
 [Sev/Yinu]: I think pizza is very interesting.
-[Fox/Fiorn]: You know what else is interesting?
-[Fox/Fiorn]: What Brian does with his frickin' Dr. Pepper from Masonic.
-[Fox/Fiorn]: What does he do?
-[Fox/Fiorn]: Put pickles on it.
-[Fox/Fiorn]: Like full pickled, not pickled juice.
-[Fox/Fiorn]: Would I ever mention that to you?
-[Fox/Fiorn]: It's disgusting.
-[Fox/Fiorn]: It like deeply upsets me when he does.
+[Lilli/Nema]: You know what else is interesting?
+[Lilli/Nema]: What Brian does with his frickin' Dr. Pepper from Masonic.
+[Lilli/Nema]: What does he do?
+[Lilli/Nema]: Put pickles on it.
+[Lilli/Nema]: Like full pickled, not pickled juice.
+[Lilli/Nema]: Would I ever mention that to you?
+[Lilli/Nema]: It's disgusting.
+[Lilli/Nema]: It like deeply upsets me when he does.
 [Sev/Yinu]: One fact, if I like something separate, I'm likely to like them together.
-[Fox/Fiorn]: If I like being separate, I'm likely...
-[Fox/Fiorn]: I didn't really like chocolate milk and ravioli.
-[Fox/Fiorn]: Specifically, the school raviolis and chocolate milk.
-[Fox/Fiorn]: I like ravioli.
-[Fox/Fiorn]: I don't like those two things together.
-[Fox/Fiorn]: Say, I like them together.
-[Fox/Fiorn]: I don't know.
-[Fox/Fiorn]: Making a soup out of rye only tomato sauce and chocolate milk is pretty gross.
-[Fox/Fiorn]: How many hot dogs did he eat on the hot dog day yesterday?
-[Fox/Fiorn]: One.
+[Lilli/Nema]: If I like being separate, I'm likely...
+[Lilli/Nema]: I didn't really like chocolate milk and ravioli.
+[Lilli/Nema]: Specifically, the school raviolis and chocolate milk.
+[Lilli/Nema]: I like ravioli.
+[Lilli/Nema]: I don't like those two things together.
+[Lilli/Nema]: Say, I like them together.
+[Lilli/Nema]: I don't know.
+[Lilli/Nema]: Making a soup out of rye only tomato sauce and chocolate milk is pretty gross.
+[Lilli/Nema]: How many hot dogs did he eat on the hot dog day yesterday?
+[Lilli/Nema]: One.
 [DM]: We didn't eat a single one.
-[Fox/Fiorn]: Cats.
-[Fox/Fiorn]: I watched one of the guys at my table put three on one bun.
+[Lilli/Nema]: Cats.
+[Lilli/Nema]: I watched one of the guys at my table put three on one bun.
 [DM]: Piper and Lily, you guys coming to what's going on?
-[Fox/Fiorn]: He claims not to be even though, like, there's a giant allegation going on, because he just broke up with, uh, one of somebody else in our grade who apparent who's claiming he had texted her that he would allow her to put a strap on on.
+[Lilli/Nema]: He claims not to be even though, like, there's a giant allegation going on, because he just broke up with, uh, one of somebody else in our grade who apparent who's claiming he had texted her that he would allow her to put a strap on on.
 [DM]: I heard it.
 [DM]: See, look, I can tell you what I can call it.
 [DM]: What?
@@ -2184,30 +2184,30 @@ Oh, okay.
 [Sev/Yinu]: Anyway, what is your favorite D&D monster?
 [Sev/Yinu]: Here we go.
 [Sev/Yinu]: I like the Terask.
-[Fox/Fiorn]: I was about to say something, but I'm not.
+[Lilli/Nema]: I was about to say something, but I'm not.
 [Sev/Yinu]: That's like saying you like, that's like saying you like Pokemon.
 [Sev/Yinu]: Yeah, I go and miss something.
 [DM]: They're all that they're so like history.
-[Fox/Fiorn]: They have like things going on.
-[Fox/Fiorn]: Yeah, they're like long.
-[Fox/Fiorn]: I need a Christian dragon that we watch that movie today in Russian class.
-[Fox/Fiorn]: What a Roman story about it do being a dragon who kidnaps this woman, that woman falls in love with.
-[Fox/Fiorn]: Why watch?
+[Lilli/Nema]: They have like things going on.
+[Lilli/Nema]: Yeah, they're like long.
+[Lilli/Nema]: I need a Christian dragon that we watch that movie today in Russian class.
+[Lilli/Nema]: What a Roman story about it do being a dragon who kidnaps this woman, that woman falls in love with.
+[Lilli/Nema]: Why watch?
 [Kaitlyn/Kto]: I made a tree.
-[Fox/Fiorn]: Yeah, I'm Earth.
+[Lilli/Nema]: Yeah, I'm Earth.
 [Kaitlyn/Kto]: I'm Earth.
-[Fox/Fiorn]: It's a Russian movie.
-[Fox/Fiorn]: I have a box.
-[Fox/Fiorn]: Sorry, I have a point.
-[Fox/Fiorn]: Water.
+[Lilli/Nema]: It's a Russian movie.
+[Lilli/Nema]: I have a box.
+[Lilli/Nema]: Sorry, I have a point.
+[Lilli/Nema]: Water.
 [Kaitlyn/Kto]: No, no, no, no, no.
 [Kaitlyn/Kto]: I'm right here.
-[Fox/Fiorn]: You're slow.
+[Lilli/Nema]: You're slow.
 [Kaitlyn/Kto]: Couldn't move the paper out of the way.
-[Fox/Fiorn]: No, I can get low enough.
+[Lilli/Nema]: No, I can get low enough.
 [Kaitlyn/Kto]: I can get low enough.
 [Kaitlyn/Kto]: I can get real low.
-[Fox/Fiorn]: How low can you go?
+[Lilli/Nema]: How low can you go?
 [DM]: Your dirt paper.
 [DM]: OK, and my thing was there are two drawable room box, put an arrow in Zondra as the warrior of the first session.
 [DM]: The priest is on hit.
@@ -2238,7 +2238,7 @@ Oh, okay.
 [Sev/Yinu]: You're a wolf.
 [Kaitlyn/Kto]: You're a wolf.
 [Kaitlyn/Kto]: You're a wolf.
-[Lilli/Nema]: You're a wolf.
+[Fox/Fiorn]: You're a wolf.
 [Sev/Yinu]: You're a wolf.
 [Kaitlyn/Kto]: You're a wolf.
 [Kaitlyn/Kto]: You're a wolf.
@@ -2274,25 +2274,25 @@ Oh, okay.
 [Kaitlyn/Kto]: Yes.
 [Kaitlyn/Kto]: You're not in my school.
 [Kaitlyn/Kto]: Leave me alone.
-[Fox/Fiorn]: Wait, why do you pull?
-[Fox/Fiorn]: I'm not going to school.
+[Lilli/Nema]: Wait, why do you pull?
+[Lilli/Nema]: I'm not going to school.
 [Kaitlyn/Kto]: Because I have no one to bring.
 [Kaitlyn/Kto]: Which one?
 [Kaitlyn/Kto]: Doesn't mean I don't have a dad, I have a dad.
 [Kaitlyn/Kto]: But...
-[Fox/Fiorn]: Okay, I was not funny.
-[Fox/Fiorn]: I don't have a kid, so I should call it.
+[Lilli/Nema]: Okay, I was not funny.
+[Lilli/Nema]: I don't have a kid, so I should call it.
 [Kaitlyn/Kto]: Got it.
 [Kaitlyn/Kto]: That's a lot of... A lot.
 [Kaitlyn/Kto]: I don't have a lot.
-[Fox/Fiorn]: Kramar doesn't.
+[Lilli/Nema]: Kramar doesn't.
 [DM]: He snorms, actually, though.
 [DM]: Right!
 [DM]: In charge of his directly after.
 [DM]: Where are you?
 [DM]: Where are you?
 [DM]: She could tell.
-[Lilli/Nema]: Uh, she's the... You know what I'm talking about?
+[Fox/Fiorn]: Uh, she's the... You know what I'm talking about?
 [Kaitlyn/Kto]: I'm gonna say, sorry.
 [DM]: Run straight up.
 [DM]: Put her right in front of her.
@@ -2300,12 +2300,12 @@ Oh, okay.
 [DM]: Like, how do I look?
 [Kaitlyn/Kto]: Why am I face planted on the ground?
 [Kaitlyn/Kto]: I broke it up.
-[Fox/Fiorn]: Who's doing that?
+[Lilli/Nema]: Who's doing that?
 [DM]: Why?
 [DM]: He's the one who killed him and almost killed him in the first one.
 [DM]: Really?
 [DM]: Yes.
-[Lilli/Nema]: Okay, wait.
+[Fox/Fiorn]: Okay, wait.
 [Kaitlyn/Kto]: Everyone, I have an idea.
 [Kaitlyn/Kto]: Do I hit one of my weapons?
 [Sev/Yinu]: I can't trust going to use without needing a spell slot.
@@ -2320,7 +2320,7 @@ Oh, okay.
 [DM]: I would technically have to put it there.
 [DM]: I know.
 [Kaitlyn/Kto]: Should I use my grades, or you're doing a content in the role that's possible?
-[Fox/Fiorn]: That if I wanted to, that guy?
+[Lilli/Nema]: That if I wanted to, that guy?
 [Kaitlyn/Kto]: Okay, well, I'll stop right now.
 [Kaitlyn/Kto]: Oh, yeah.
 [DM]: 16 plus 4.
@@ -2347,28 +2347,28 @@ Oh, okay.
 [DM]: Yeah.
 [Kaitlyn/Kto]: This probably does.
 [Sev/Yinu]: So it's like, so it's like that probably got the property of drought poison.
-[Fox/Fiorn]: Dad, Dad, I have three ways I could get that and run them.
+[Lilli/Nema]: Dad, Dad, I have three ways I could get that and run them.
 [Kaitlyn/Kto]: Five.
-[Fox/Fiorn]: Vax, my teammates here.
+[Lilli/Nema]: Vax, my teammates here.
 [Kaitlyn/Kto]: How are you using?
-[Fox/Fiorn]: And, uh, 2020?
+[Lilli/Nema]: And, uh, 2020?
 [Kaitlyn/Kto]: No, you're like, what?
 [Kaitlyn/Kto]: Um, great sword.
 [Kaitlyn/Kto]: Cause I'm going to lose this.
 [Kaitlyn/Kto]: Yeah, nine.
 [Kaitlyn/Kto]: I bet you in nine, doesn't want to hit it.
-[Fox/Fiorn]: You can go ahead.
-[Fox/Fiorn]: Sorry.
-[Fox/Fiorn]: It's a fourth name.
+[Lilli/Nema]: You can go ahead.
+[Lilli/Nema]: Sorry.
+[Lilli/Nema]: It's a fourth name.
 [Kaitlyn/Kto]: Yeah, put it all down.
-[Fox/Fiorn]: I think it says he's 13.
+[Lilli/Nema]: I think it says he's 13.
 [Kaitlyn/Kto]: Oh, that's 16.
-[Fox/Fiorn]: The last time we burst him.
-[Fox/Fiorn]: 16, 16.
+[Lilli/Nema]: The last time we burst him.
+[Lilli/Nema]: 16, 16.
 [Kaitlyn/Kto]: All right, roll to the game.
 [Kaitlyn/Kto]: Give me six, sorry.
-[Fox/Fiorn]: I want those blades when we kill them.
-[Lilli/Nema]: Why is it counting?
+[Lilli/Nema]: I want those blades when we kill them.
+[Fox/Fiorn]: Why is it counting?
 [Kaitlyn/Kto]: I fucked him, he was dead.
 [Kaitlyn/Kto]: Nice job, 14.
 [Kaitlyn/Kto]: 14.
@@ -2406,16 +2406,16 @@ Oh, okay.
 [Kaitlyn/Kto]: Three and five.
 [Kaitlyn/Kto]: Three and five.
 [Kaitlyn/Kto]: Three and five.
-[Fox/Fiorn]: Three and five.
-[Fox/Fiorn]: Three and five.
-[Fox/Fiorn]: Three and five.
+[Lilli/Nema]: Three and five.
+[Lilli/Nema]: Three and five.
+[Lilli/Nema]: Three and five.
 [Kaitlyn/Kto]: Three and five.
-[Fox/Fiorn]: Three and five.
-[Fox/Fiorn]: Three and five.
-[Fox/Fiorn]: Three and five.
-[Fox/Fiorn]: Three and five.
-[Fox/Fiorn]: Three and five.
-[Fox/Fiorn]: Three and five.
+[Lilli/Nema]: Three and five.
+[Lilli/Nema]: Three and five.
+[Lilli/Nema]: Three and five.
+[Lilli/Nema]: Three and five.
+[Lilli/Nema]: Three and five.
+[Lilli/Nema]: Three and five.
 [Kaitlyn/Kto]: Three and five.
 [Kaitlyn/Kto]: Three and five.
 [Kaitlyn/Kto]: Three and five.
@@ -2424,16 +2424,16 @@ Oh, okay.
 [Kaitlyn/Kto]: Three and five.
 [Kaitlyn/Kto]: Three and
 [Kaitlyn/Kto]: How wise do you think he's supposed to be?
-[Lilli/Nema]: I got him.
+[Fox/Fiorn]: I got him.
 [Kaitlyn/Kto]: What does a person of healing do?
-[Lilli/Nema]: 18.
+[Fox/Fiorn]: 18.
 [DM]: He's a priest.
-[Fox/Fiorn]: Magic users are normally wisdom.
-[Fox/Fiorn]: Um, depending on their class.
+[Lilli/Nema]: Magic users are normally wisdom.
+[Lilli/Nema]: Um, depending on their class.
 [Kaitlyn/Kto]: I always don't.
-[Fox/Fiorn]: Yeah, you're always going to fall or walk, right?
+[Lilli/Nema]: Yeah, you're always going to fall or walk, right?
 [Kaitlyn/Kto]: Yeah.
-[Lilli/Nema]: I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like,
+[Fox/Fiorn]: I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like,
 [DM]: Okay.
 [DM]: I think you should have gone with a fear guardian.
 [DM]: So instead of regret.
@@ -2441,7 +2441,7 @@ Oh, okay.
 [DM]: I see her.
 [DM]: And they give damage.
 [DM]: I think it's hyper right next to him or something.
-[Fox/Fiorn]: No, no, I am.
+[Lilli/Nema]: No, no, I am.
 [Kaitlyn/Kto]: Oh, because I did run up there.
 [Kaitlyn/Kto]: Oh, I'm not.
 [Kaitlyn/Kto]: I am right next to him.
@@ -2465,32 +2465,32 @@ Oh, okay.
 [DM]: You take half as much.
 [DM]: So you do that on your turn.
 [DM]: Already.
-[Lilli/Nema]: So, that's the details.
-[Lilli/Nema]: Caitlin, I want you to...
+[Fox/Fiorn]: So, that's the details.
+[Fox/Fiorn]: Caitlin, I want you to...
 [Kaitlyn/Kto]: It's my turn.
-[Lilli/Nema]: Blue is my turn.
+[Fox/Fiorn]: Blue is my turn.
 [Kaitlyn/Kto]: Okay.
 [Kaitlyn/Kto]: So, there's a spell I wanted to hold person.
 [Kaitlyn/Kto]: Choose two humanoids that you can see within range.
 [Kaitlyn/Kto]: The target must succeed on a wisdom saving throw or have the paralyzed condition for the duration.
 [Kaitlyn/Kto]: At the end of each turn,
 [Kaitlyn/Kto]: At the end of its turns, the target repeats the same ending in the spell on itself as a sequence.
-[Lilli/Nema]: I don't do that.
+[Fox/Fiorn]: I don't do that.
 [Kaitlyn/Kto]: Is that 60 feet?
 [Kaitlyn/Kto]: Yeah.
-[Lilli/Nema]: OK. OK. What do I do?
+[Fox/Fiorn]: OK. OK. What do I do?
 [DM]: No, you don't want anything.
 [Kaitlyn/Kto]: No, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no,
 [DM]: I'm sorry.
-[Fox/Fiorn]: Yeah, there's a couple of things you missed on this, actually.
+[Lilli/Nema]: Yeah, there's a couple of things you missed on this, actually.
 [Kaitlyn/Kto]: What?
-[Fox/Fiorn]: Not you.
-[Fox/Fiorn]: First of all, when you miss with the great toy attack, you deal damage, you go with their ability.
-[Fox/Fiorn]: Another thing you have action turns, you can take an additional action.
-[Fox/Fiorn]: Is she?
+[Lilli/Nema]: Not you.
+[Lilli/Nema]: First of all, when you miss with the great toy attack, you deal damage, you go with their ability.
+[Lilli/Nema]: Another thing you have action turns, you can take an additional action.
+[Lilli/Nema]: Is she?
 [DM]: It's a bit with the nine things, too.
 [DM]: 14 plus one.
-[Fox/Fiorn]: This is the luck second one ability.
+[Lilli/Nema]: This is the luck second one ability.
 [DM]: but it's um so it's 14 plus also the whole person 7 13 so it's okay um they both fail yes so you have in source all the both of them neither one of them
 [DM]: They're incapacitated.
 [DM]: Um, I don't think you've been actually cutie girl and the kids in case, like, you were very, very straight out.
@@ -2511,7 +2511,7 @@ It's fine.
 [Kaitlyn/Kto]: I have a thing called encouraging song.
 [Kaitlyn/Kto]: I can play a musical instrument, which I have proficiency in, and give three of my alleys who hear the song for Roke inspiration.
 [Kaitlyn/Kto]: I don't know what that is.
-[Fox/Fiorn]: You can give a Roke inspiration on non-binary.
+[Lilli/Nema]: You can give a Roke inspiration on non-binary.
 [DM]: Isn't that amazing?
 [DM]: Why do you have that?
 [DM]: That's Brad's actually in order to insane ability.
@@ -2551,16 +2551,16 @@ It's fine.
 [Kaitlyn/Kto]: I don't know.
 [Kaitlyn/Kto]: I don't know.
 [Kaitlyn/Kto]: I don't know.
-[Fox/Fiorn]: I don't know.
-[Fox/Fiorn]: I don't know.
-[Fox/Fiorn]: I don't know.
-[Fox/Fiorn]: I don't know.
+[Lilli/Nema]: I don't know.
+[Lilli/Nema]: I don't know.
+[Lilli/Nema]: I don't know.
+[Lilli/Nema]: I don't know.
 [DM]: I don't know.
-[Fox/Fiorn]: I don't know.
+[Lilli/Nema]: I don't know.
 [DM]: I don't know.
 [DM]: You should give it to me.
-[Fox/Fiorn]: Sam is probably the worst choice because you actually are.
-[Fox/Fiorn]: Because you have stones.
+[Lilli/Nema]: Sam is probably the worst choice because you actually are.
+[Lilli/Nema]: Because you have stones.
 [DM]: So one, two, three.
 [DM]: Yeah.
 [DM]: I'm the best.
@@ -2582,22 +2582,22 @@ It's fine.
 [DM]: You said that.
 [DM]: Keep that in mind.
 [DM]: Go ahead.
-[Fox/Fiorn]: OK, Caitlin's character.
-[Fox/Fiorn]: I read a couple of her abilities.
-[Fox/Fiorn]: She has a lot to do with that one.
-[Fox/Fiorn]: But also, when she makes that attack with the Great Sword and misses, she deals damage equal to her ability score modifier.
-[Fox/Fiorn]: Um, also.
-[Fox/Fiorn]: Her second win ability, once she uses it, she can use, she can move up to 15 feet without having opportunity attack down on her.
-[Fox/Fiorn]: She can also use second win instead to do 1d10 and add it to one of her roles.
-[Fox/Fiorn]: Is it my turn to attack?
-[Fox/Fiorn]: I'm going to shoot the guy that I don't like.
+[Lilli/Nema]: OK, Caitlin's character.
+[Lilli/Nema]: I read a couple of her abilities.
+[Lilli/Nema]: She has a lot to do with that one.
+[Lilli/Nema]: But also, when she makes that attack with the Great Sword and misses, she deals damage equal to her ability score modifier.
+[Lilli/Nema]: Um, also.
+[Lilli/Nema]: Her second win ability, once she uses it, she can use, she can move up to 15 feet without having opportunity attack down on her.
+[Lilli/Nema]: She can also use second win instead to do 1d10 and add it to one of her roles.
+[Lilli/Nema]: Is it my turn to attack?
+[Lilli/Nema]: I'm going to shoot the guy that I don't like.
 [DM]: The fighter guy?
 [DM]: The fighter.
 [Kaitlyn/Kto]: Why do you appear to them?
-[Fox/Fiorn]: You don't.
-[Fox/Fiorn]: I just don't like them.
+[Lilli/Nema]: You don't.
+[Lilli/Nema]: I just don't like them.
 [Kaitlyn/Kto]: I like them.
-[Fox/Fiorn]: His face annoys me.
+[Lilli/Nema]: His face annoys me.
 [Kaitlyn/Kto]: Okay, he's ugly.
 [Sev/Yinu]: Imagine you're really humiliated and demoted by some adventurers.
 [Sev/Yinu]: Then whenever you face them again, they go over to your even plan for days and the insult to injuries.
@@ -2607,47 +2607,47 @@ It's fine.
 [Kaitlyn/Kto]: Oh, I'm critical.
 [Kaitlyn/Kto]: If you're in 5 feet of it.
 OK, I'm next to him now.
-[Fox/Fiorn]: Yep.
-[Fox/Fiorn]: I like Jester up to him.
-[Fox/Fiorn]: Oh, by the way, I set up all the bombs in their backpacks, the smoked bombs.
-[Fox/Fiorn]: So it's all smokey now.
+[Lilli/Nema]: Yep.
+[Lilli/Nema]: I like Jester up to him.
+[Lilli/Nema]: Oh, by the way, I set up all the bombs in their backpacks, the smoked bombs.
+[Lilli/Nema]: So it's all smokey now.
 [Sev/Yinu]: OK. Are we affected?
-[Fox/Fiorn]: I'm gonna hit him with my dagger four daggers.
-[Fox/Fiorn]: Is it a guaranteed hit because I'm critical already?
+[Lilli/Nema]: I'm gonna hit him with my dagger four daggers.
+[Lilli/Nema]: Is it a guaranteed hit because I'm critical already?
 [Sev/Yinu]: Yeah.
-[Fox/Fiorn]: Advantage.
-[Fox/Fiorn]: You can't be same with Jimmy.
-[Fox/Fiorn]: Oh, I heard him.
-[Fox/Fiorn]: Next them five feet.
-[Fox/Fiorn]: I have like four stacks of events.
-[Fox/Fiorn]: Holy shit.
-[Fox/Fiorn]: Well, so hold up.
-[Fox/Fiorn]: Let me know three, three.
-[Fox/Fiorn]: So I have Vax, one of my teammates is next to him, and then the thing that you just meant.
+[Lilli/Nema]: Advantage.
+[Lilli/Nema]: You can't be same with Jimmy.
+[Lilli/Nema]: Oh, I heard him.
+[Lilli/Nema]: Next them five feet.
+[Lilli/Nema]: I have like four stacks of events.
+[Lilli/Nema]: Holy shit.
+[Lilli/Nema]: Well, so hold up.
+[Lilli/Nema]: Let me know three, three.
+[Lilli/Nema]: So I have Vax, one of my teammates is next to him, and then the thing that you just meant.
 [DM]: That's different from Sneaky.
 [DM]: You shouldn't be getting a vantage moment.
-[Fox/Fiorn]: No, Sneaky Attack is when you get advantage on an opponent.
-[Fox/Fiorn]: Yeah, any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time
+[Lilli/Nema]: No, Sneaky Attack is when you get advantage on an opponent.
+[Lilli/Nema]: Yeah, any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time you have any time
 [DM]: Coach, do I only roll one twice?
 [DM]: Do you want me to roll twice?
 [DM]: That's max, max, max damage.
-[Fox/Fiorn]: Oh, I do a max damage.
-[Fox/Fiorn]: We're not doing a double roll.
-[Fox/Fiorn]: Oh, it's right here.
-[Fox/Fiorn]: I'm sorry.
+[Lilli/Nema]: Oh, I do a max damage.
+[Lilli/Nema]: We're not doing a double roll.
+[Lilli/Nema]: Oh, it's right here.
+[Lilli/Nema]: I'm sorry.
 [DM]: It's double nice.
-[Fox/Fiorn]: It's double dice.
-[Fox/Fiorn]: I don't know if that includes sneak attack.
-[Fox/Fiorn]: It does.
-[Fox/Fiorn]: That's not OK.
+[Lilli/Nema]: It's double dice.
+[Lilli/Nema]: I don't know if that includes sneak attack.
+[Lilli/Nema]: It does.
+[Lilli/Nema]: That's not OK.
 [Sev/Yinu]: So I want to I want to I want him to see me incinerated boss.
 [DM]: Piper, you're off the set.
 [DM]: He's bad, right?
 [DM]: 27 damage.
-[Fox/Fiorn]: He's a little almost dead.
-[Fox/Fiorn]: No, no, I don't.
-[Fox/Fiorn]: I don't.
-[Fox/Fiorn]: All right.
+[Lilli/Nema]: He's a little almost dead.
+[Lilli/Nema]: No, no, I don't.
+[Lilli/Nema]: I don't.
+[Lilli/Nema]: All right.
 [DM]: I've done 40 now.
 [DM]: I'm going to go incinerate his boss.
 [DM]: Get him up.
@@ -2663,7 +2663,7 @@ OK, I'm next to him now.
 [DM]: Firefire bolt.
 [DM]: Fire bolt.
 [DM]: Well, you have like you a soldier, right?
-[Lilli/Nema]: No.
+[Fox/Fiorn]: No.
 [DM]: Wait.
 [DM]: Write those questions.
 [Sev/Yinu]: Again, I get one extra spell.
@@ -2677,12 +2677,12 @@ OK, I'm next to him now.
 [Kaitlyn/Kto]: Shut up.
 [DM]: So terrible.
 [DM]: You could read this verse maybe.
-[Fox/Fiorn]: I read this to the sex bar damage.
-[Fox/Fiorn]: You know, probably right.
-[Lilli/Nema]: Really?
-[Lilli/Nema]: Who you make?
-[Fox/Fiorn]: Oh, you can read when you cast as well.
-[Fox/Fiorn]: You're doing a spell of thought.
+[Lilli/Nema]: I read this to the sex bar damage.
+[Lilli/Nema]: You know, probably right.
+[Fox/Fiorn]: Really?
+[Fox/Fiorn]: Who you make?
+[Lilli/Nema]: Oh, you can read when you cast as well.
+[Lilli/Nema]: You're doing a spell of thought.
 [DM]: It should be good and additional, right?
 [DM]: So I'd be 36.
 [DM]: Oh, for each, right?
@@ -2691,18 +2691,18 @@ OK, I'm next to him now.
 [DM]: No, it's right.
 [DM]: Like that's each.
 [DM]: Holy shit!
-[Fox/Fiorn]: Wait, how does he get three?
-[Fox/Fiorn]: He's up to third level spell slots.
-[Fox/Fiorn]: Third level is two rays.
+[Lilli/Nema]: Wait, how does he get three?
+[Lilli/Nema]: He's up to third level spell slots.
+[Lilli/Nema]: Third level is two rays.
 [DM]: Oh, the two rays?
 [DM]: Okay, so it's 40.
 [DM]: So you get two rays, so find my each ray.
 [DM]: There's 2d6 points in.
 [DM]: You can hit the same creature with both.
-[Fox/Fiorn]: Oh, never mind.
-[Fox/Fiorn]: He can do up to 8d6.
-[Fox/Fiorn]: How's that?
-[Fox/Fiorn]: The second level creates three rays.
+[Lilli/Nema]: Oh, never mind.
+[Lilli/Nema]: He can do up to 8d6.
+[Lilli/Nema]: How's that?
+[Lilli/Nema]: The second level creates three rays.
 [Sev/Yinu]: Holy shit!
 [Sev/Yinu]: So, you guys are off the heads?
 [DM]: You do.
@@ -2710,7 +2710,7 @@ OK, I'm next to him now.
 [DM]: But these guys are frozen in place because of Lily.
 [DM]: So, me?
 [DM]: Yeah, so you get the damage.
-[Fox/Fiorn]: Oh, it's the same amount of damage as fireball, but it's more focused.
+[Lilli/Nema]: Oh, it's the same amount of damage as fireball, but it's more focused.
 [Sev/Yinu]: You'll say I have advantage of being like, I'm not one of my first role.
 [DM]: Not 20.
 [Sev/Yinu]: You got 20.
@@ -2720,25 +2720,25 @@ OK, I'm next to him now.
 [DM]: So, how many times?
 [DM]: So, what was that?
 [Kaitlyn/Kto]: We're supplicing bucket deck.
-[Fox/Fiorn]: How many, how many levels fell so I don't know.
-[Fox/Fiorn]: Seconds level.
-[Fox/Fiorn]: Second level, you get six.
-[Fox/Fiorn]: No, sorry.
-[Fox/Fiorn]: You get 66 for one of the things, and the principle means it's probably six.
-[Fox/Fiorn]: I'm going to do two rays.
-[Fox/Fiorn]: Hold up.
-[Fox/Fiorn]: I already have like a lot out for no apparently than one, two, three, four, budget, so may I have nine out already have the first three rays of the best load of the attack.
-[Fox/Fiorn]: So should I help him with the addition to?
+[Lilli/Nema]: How many, how many levels fell so I don't know.
+[Lilli/Nema]: Seconds level.
+[Lilli/Nema]: Second level, you get six.
+[Lilli/Nema]: No, sorry.
+[Lilli/Nema]: You get 66 for one of the things, and the principle means it's probably six.
+[Lilli/Nema]: I'm going to do two rays.
+[Lilli/Nema]: Hold up.
+[Lilli/Nema]: I already have like a lot out for no apparently than one, two, three, four, budget, so may I have nine out already have the first three rays of the best load of the attack.
+[Lilli/Nema]: So should I help him with the addition to?
 [Sev/Yinu]: If he wants to.
 [Sev/Yinu]: All right, so two.
 [Sev/Yinu]: So 12 B six, all these shit.
-[Fox/Fiorn]: It's up to a.
-[Fox/Fiorn]: How many damage uphill?
-[Fox/Fiorn]: Um, do you want me to do that for you?
-[Lilli/Nema]: Yeah.
-[Fox/Fiorn]: Okay, so four plus four plus four, 12, 12, 17, 20, 21, 27, 32, 33, uh, those six, uh, 39 damage.
-[Fox/Fiorn]: Don't hold it.
-[Fox/Fiorn]: Yep.
+[Lilli/Nema]: It's up to a.
+[Lilli/Nema]: How many damage uphill?
+[Lilli/Nema]: Um, do you want me to do that for you?
+[Fox/Fiorn]: Yeah.
+[Lilli/Nema]: Okay, so four plus four plus four, 12, 12, 17, 20, 21, 27, 32, 33, uh, those six, uh, 39 damage.
+[Lilli/Nema]: Don't hold it.
+[Lilli/Nema]: Yep.
 [Sev/Yinu]: That's a lot.
 [Sev/Yinu]: Does that kill?
 [DM]: It doesn't kill, but it does.
@@ -2755,7 +2755,7 @@ OK, I'm next to him now.
 [Kaitlyn/Kto]: All right.
 [DM]: I'm going to have to think that's facing me.
 [DM]: I'm just dreaming.
-[Fox/Fiorn]: Should we remember a second, what was wrong for my saying?
+[Lilli/Nema]: Should we remember a second, what was wrong for my saying?
 [DM]: I was going to take off the password.
 [DM]: Oh, no.
 [DM]: Yeah.
@@ -2774,15 +2774,15 @@ OK, I'm next to him now.
 [Sev/Yinu]: We found it in the drowels.
 [Sev/Yinu]: We found it in the drowels.
 [Sev/Yinu]: We found it in the drowels.
-[Fox/Fiorn]: If you want after it, there's a there's a class I feel like will suit you better call the moonlight ruin.
-[Fox/Fiorn]: Don't give her a circle, the man.
+[Lilli/Nema]: If you want after it, there's a there's a class I feel like will suit you better call the moonlight ruin.
+[Lilli/Nema]: Don't give her a circle, the man.
 [DM]: Why not?
 [DM]: More powerful.
-[Fox/Fiorn]: It's like we're using the circle of the matter.
-[Fox/Fiorn]: The R and graces are like bonds.
-[Fox/Fiorn]: Yes, do it.
-[Fox/Fiorn]: Do it.
-[Fox/Fiorn]: You get her such an awful subclass.
+[Lilli/Nema]: It's like we're using the circle of the matter.
+[Lilli/Nema]: The R and graces are like bonds.
+[Lilli/Nema]: Yes, do it.
+[Lilli/Nema]: Do it.
+[Lilli/Nema]: You get her such an awful subclass.
 [Kaitlyn/Kto]: I don't know.
 [Kaitlyn/Kto]: I don't know anyone but nobody ever helps me make my characters.
 [DM]: Drew it of the dream.
@@ -2797,27 +2797,27 @@ OK, I'm next to him now.
 [Kaitlyn/Kto]: OK, I'm going to call Paul, but in duration is 10 minutes.
 [Kaitlyn/Kto]: How long is
 [DM]: Okay, ten minutes of long fucking time call lightning is a real good stone added It basically means you can call this forty twelve points the image of lightning You know it's an action.
-[Fox/Fiorn]: It's one action.
+[Lilli/Nema]: It's one action.
 [DM]: You know the free for finishing if we can crawl every subsequent round Okay, that's even more bust than scorching rain
-[Fox/Fiorn]: It was not third.
+[Lilli/Nema]: It was not third.
 [Kaitlyn/Kto]: It was third.
 [Kaitlyn/Kto]: It was third.
 [Kaitlyn/Kto]: It was third.
 [Kaitlyn/Kto]: It was third.
 [Kaitlyn/Kto]: It was third.
 [Kaitlyn/Kto]: It was third.
-[Fox/Fiorn]: It was third.
-[Fox/Fiorn]: It was third.
-[Fox/Fiorn]: It was third.
-[Fox/Fiorn]: It was third.
-[Fox/Fiorn]: It was third.
-[Fox/Fiorn]: It was third.
-[Fox/Fiorn]: It was third.
-[Fox/Fiorn]: It was third.
-[Fox/Fiorn]: It was third.
-[Fox/Fiorn]: It was third.
-[Fox/Fiorn]: It was third.
-[Fox/Fiorn]: It was third.
+[Lilli/Nema]: It was third.
+[Lilli/Nema]: It was third.
+[Lilli/Nema]: It was third.
+[Lilli/Nema]: It was third.
+[Lilli/Nema]: It was third.
+[Lilli/Nema]: It was third.
+[Lilli/Nema]: It was third.
+[Lilli/Nema]: It was third.
+[Lilli/Nema]: It was third.
+[Lilli/Nema]: It was third.
+[Lilli/Nema]: It was third.
+[Lilli/Nema]: It was third.
 [Kaitlyn/Kto]: It was third.
 [Kaitlyn/Kto]: It was third.
 [DM]: It was third.
@@ -2864,15 +2864,15 @@ OK, I'm next to him now.
 [Kaitlyn/Kto]: Is it a rage?
 [Kaitlyn/Kto]: I'll just heal.
 [Kaitlyn/Kto]: A 5B?
-[Fox/Fiorn]: No, duration up to 100.
-[Fox/Fiorn]: It's ranges 100.
+[Lilli/Nema]: No, duration up to 100.
+[Lilli/Nema]: It's ranges 100.
 [Kaitlyn/Kto]: Oh, yeah, it's 100.
 [DM]: So it's 100 foot range.
 [DM]: That's good.
 [DM]: But this time, I know you're finished.
 [Kaitlyn/Kto]: five feet from the point eight.
-[Fox/Fiorn]: I think that means that that would be one toward shape of a cylinder that is 10 feet tall with a 60 foot radius centered on a point you can see a hundred feet directly above you.
-[Fox/Fiorn]: Each creature within five feet of the point.
+[Lilli/Nema]: I think that means that that would be one toward shape of a cylinder that is 10 feet tall with a 60 foot radius centered on a point you can see a hundred feet directly above you.
+[Lilli/Nema]: Each creature within five feet of the point.
 [DM]: It's so this is separate.
 [DM]: Yeah.
 [DM]: Okay.
@@ -2890,28 +2890,28 @@ OK, I'm next to him now.
 [Kaitlyn/Kto]: Oh, that's a D. A.
 [Kaitlyn/Kto]: Thank you box.
 [Kaitlyn/Kto]: You're so useful.
-[Fox/Fiorn]: Here, here are the details.
-[Fox/Fiorn]: Actually, five or five or five are this little data.
+[Lilli/Nema]: Here, here are the details.
+[Lilli/Nema]: Actually, five or five or five are this little data.
 [Sev/Yinu]: I'm getting a repo on water.
 [DM]: Three fold in order.
 [DM]: You know, back to the top of the ship.
 [Kaitlyn/Kto]: Are you another one?
-[Lilli/Nema]: That's a detail.
+[Fox/Fiorn]: That's a detail.
 [Kaitlyn/Kto]: Okay, you need to roll a dexterity thing through.
 [Kaitlyn/Kto]: The piece says.
 [DM]: You see what?
 [DM]: What?
 [DM]: You see what?
 [Kaitlyn/Kto]: I just flipped a little bit.
-[Fox/Fiorn]: You got a ten on the zero zero.
+[Lilli/Nema]: You got a ten on the zero zero.
 [Kaitlyn/Kto]: Huh?
-[Fox/Fiorn]: You rolled a ten on one of those.
+[Lilli/Nema]: You rolled a ten on one of those.
 [Kaitlyn/Kto]: Yeah?
-[Fox/Fiorn]: Yeah, that's what the zero zero is.
+[Lilli/Nema]: Yeah, that's what the zero zero is.
 [Kaitlyn/Kto]: Thirteen?
 [Kaitlyn/Kto]: Thirteen.
-[Fox/Fiorn]: Thirteen damage?
-[Fox/Fiorn]: Yes.
+[Lilli/Nema]: Thirteen damage?
+[Lilli/Nema]: Yes.
 [Kaitlyn/Kto]: That's your?
 [Kaitlyn/Kto]: Yes.
 [DM]: What's the DC of your vault?
@@ -2921,12 +2921,12 @@ OK, I'm next to him now.
 [DM]: That's DC 13.
 [Sev/Yinu]: So when I'm right, I'm able to, I'm getting conjure minor elementals.
 [Kaitlyn/Kto]: What's DC 13?
-[Fox/Fiorn]: DC 13, that was the saving.
-[Fox/Fiorn]: Oh, wait, no problem.
-[Fox/Fiorn]: No, yeah, that was the bite.
-[Fox/Fiorn]: And it was a nope bonus.
-[Fox/Fiorn]: And that's her where we'll attack.
-[Fox/Fiorn]: Yeah.
+[Lilli/Nema]: DC 13, that was the saving.
+[Lilli/Nema]: Oh, wait, no problem.
+[Lilli/Nema]: No, yeah, that was the bite.
+[Lilli/Nema]: And it was a nope bonus.
+[Lilli/Nema]: And that's her where we'll attack.
+[Lilli/Nema]: Yeah.
 [Kaitlyn/Kto]: You're not the wrong thing.
 [DM]: Yeah.
 [DM]: The silver version.
@@ -2942,10 +2942,10 @@ OK, I'm next to him now.
 [DM]: Hey, is that how it goes?
 [Kaitlyn/Kto]: When did that be said?
 [Kaitlyn/Kto]: Um, that's the level plus the spell level.
-[Fox/Fiorn]: And plus, no, that wouldn't be how it goes because there would have been 15 on that.
-[Fox/Fiorn]: Oh, uh, you're right.
+[Lilli/Nema]: And plus, no, that wouldn't be how it goes because there would have been 15 on that.
+[Lilli/Nema]: Oh, uh, you're right.
 [DM]: I'm sorry.
-[Fox/Fiorn]: Is it a wisdom saving throw, Piper?
+[Lilli/Nema]: Is it a wisdom saving throw, Piper?
 [Kaitlyn/Kto]: No, it's the next day.
 [DM]: It was 14.
 [DM]: Yes.
@@ -2965,9 +2965,9 @@ OK, I'm next to him now.
 [Sev/Yinu]: I'm more than they have the chance to become actual threats.
 [Sev/Yinu]: For how long?
 [DM]: For a minute, but they get too much on every round of measures.
-[Fox/Fiorn]: And I fell in the next one.
+[Lilli/Nema]: And I fell in the next one.
 [DM]: You guys, you're a bad combo because your damage outputs huge associates.
-[Lilli/Nema]: Yeah.
+[Fox/Fiorn]: Yeah.
 [DM]: You're you're a controller class.
 [DM]: You and you're you're basically a young player.
 [DM]: You know, and I have death.
@@ -2977,16 +2977,16 @@ OK, I'm next to him now.
 [Sev/Yinu]: So how much do you know about Marvel Comics guys?
 [Sev/Yinu]: Not much.
 [Sev/Yinu]: I know I know the characters and in the fact that he's gone.
-[Fox/Fiorn]: One of my friends claims that the void from the Marvel comics could be all about one.
-[Fox/Fiorn]: which is almost definitely untrue.
-[Fox/Fiorn]: Oh, well, why would you do that?
-[Fox/Fiorn]: Right?
-[Fox/Fiorn]: I would great sort in.
+[Lilli/Nema]: One of my friends claims that the void from the Marvel comics could be all about one.
+[Lilli/Nema]: which is almost definitely untrue.
+[Lilli/Nema]: Oh, well, why would you do that?
+[Lilli/Nema]: Right?
+[Lilli/Nema]: I would great sort in.
 [DM]: Yeah, he's a yeah, that's, you know, the fan fiction power.
-[Fox/Fiorn]: Yeah.
+[Lilli/Nema]: Yeah.
 [Kaitlyn/Kto]: with the tears.
-[Fox/Fiorn]: One of all is tears zero boundless.
-[Fox/Fiorn]: The void is not funny.
+[Lilli/Nema]: One of all is tears zero boundless.
+[Lilli/Nema]: The void is not funny.
 [Kaitlyn/Kto]: She got on that funny critical.
 [Sev/Yinu]: So it's a yes.
 [Sev/Yinu]: And then you go to two with so it's not really that's really accurate.
@@ -3000,8 +3000,8 @@ OK, I'm next to him now.
 [Kaitlyn/Kto]: I ate that right there.
 [Kaitlyn/Kto]: Oh, yeah, I do.
 [Kaitlyn/Kto]: So I 12.
-[Fox/Fiorn]: I just took them.
-[Fox/Fiorn]: I'll describe is seven.
+[Lilli/Nema]: I just took them.
+[Lilli/Nema]: I'll describe is seven.
 [Kaitlyn/Kto]: Plus two is what 17 plus two?
 [Kaitlyn/Kto]: 19 19.
 [Kaitlyn/Kto]: 19 damage.
@@ -3010,7 +3010,7 @@ OK, I'm next to him now.
 [DM]: So you were the one that he was here to kill, because you killed him the first time, and now you killed him a second.
 [DM]: I mean, you were going to kill him.
 [DM]: Yeah, which heavily.
-[Fox/Fiorn]: Both times, you didn't even kill them.
+[Lilli/Nema]: Both times, you didn't even kill them.
 [DM]: That didn't.
 [DM]: All right.
 [DM]: Uh, seven Piper, me, uh, wisdom savings are okay.
@@ -3028,9 +3028,9 @@ OK, I'm next to him now.
 [Sev/Yinu]: 10 was in.
 [Sev/Yinu]: So now I'm at 17 health.
 [Kaitlyn/Kto]: Wait, where's my pencil though?
-[Fox/Fiorn]: What pencil?
+[Lilli/Nema]: What pencil?
 [Kaitlyn/Kto]: The pencil I grabbed at the beginning of this.
-[Fox/Fiorn]: I never saw a pencil like your thing.
+[Lilli/Nema]: I never saw a pencil like your thing.
 [Kaitlyn/Kto]: Why is this the orange pencil that I took from you?
 [Kaitlyn/Kto]: My pencil was in my.
 [Kaitlyn/Kto]: No.
@@ -3040,21 +3040,21 @@ OK, I'm next to him now.
 [Sev/Yinu]: Everyone's that photo of you.
 [Sev/Yinu]: What?
 [Sev/Yinu]: What photo?
-[Fox/Fiorn]: Well, guys, I've been making a bunch of goofy faces at me during one of them.
-[Fox/Fiorn]: And I kept taking pictures of her.
-[Fox/Fiorn]: You don't even start in school.
-[Fox/Fiorn]: Huh?
+[Lilli/Nema]: Well, guys, I've been making a bunch of goofy faces at me during one of them.
+[Lilli/Nema]: And I kept taking pictures of her.
+[Lilli/Nema]: You don't even start in school.
+[Lilli/Nema]: Huh?
 [Sev/Yinu]: No, during GFB session.
-[Fox/Fiorn]: If you get caught with a fundering school, I couldn't even give you a suspension.
-[Fox/Fiorn]: I've seen him do a done thing like that before.
+[Lilli/Nema]: If you get caught with a fundering school, I couldn't even give you a suspension.
+[Lilli/Nema]: I've seen him do a done thing like that before.
 [Sev/Yinu]: If you got caught with a fundering school, you get all the habit of your phone gets confiscated until the end of the day.
 [Kaitlyn/Kto]: You get like expelled, bro.
 [Kaitlyn/Kto]: They take your phones at the beginning of the school day and lock them away in a box.
 [Kaitlyn/Kto]: That's kind of what our school does.
 [Kaitlyn/Kto]: Can it load faster?
-[Fox/Fiorn]: You know my friend, Vaughn?
-[Fox/Fiorn]: King Bon.
-[Fox/Fiorn]: King Bon Bon Bon Bon.
+[Lilli/Nema]: You know my friend, Vaughn?
+[Lilli/Nema]: King Bon.
+[Lilli/Nema]: King Bon Bon Bon Bon.
 [Kaitlyn/Kto]: Okay, continue on.
 [DM]: It's my turn outside.
 [DM]: Priest is going by...
@@ -3079,10 +3079,10 @@ OK, I'm next to him now.
 [DM]: Um, the fluff.
 [DM]: Oh, no.
 [Kaitlyn/Kto]: Oh, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no.
-[Lilli/Nema]: Imagine all the other trout squawking him see the see the
+[Fox/Fiorn]: Imagine all the other trout squawking him see the see the
 [Sev/Yinu]: See he a prison died meant to protect him dead with the free seeing them taking the most damage They probably think like the guards failed at his job Because the priest took them up most visit the visible damage Now I lose the priest body.
-[Fox/Fiorn]: I lose the guard body I killed it
-[Fox/Fiorn]: I get first came on once the guard Billy guys body because I'd help the most damage.
+[Lilli/Nema]: I lose the guard body I killed it
+[Lilli/Nema]: I get first came on once the guard Billy guys body because I'd help the most damage.
 [Kaitlyn/Kto]: My father is here.
 [Sev/Yinu]: I'm just going to find everything I find on the priest body into the group party.
 [Kaitlyn/Kto]: Yeah, I have to.
@@ -3091,10 +3091,10 @@ OK, I'm next to him now.
 [DM]: I need this.
 [DM]: Did I put out anything else?
 [Sev/Yinu]: By the way, Bob, I want to make a custom W proof.
-[Fox/Fiorn]: And we got to watch all of one piece of night one.
-[Fox/Fiorn]: Goddamn it.
-[Fox/Fiorn]: No, I'm okay.
-[Fox/Fiorn]: If you read the comics, the part of egghead, which is over like the two chapters, that's where most of the info on double footage comes from.
+[Lilli/Nema]: And we got to watch all of one piece of night one.
+[Lilli/Nema]: Goddamn it.
+[Lilli/Nema]: No, I'm okay.
+[Lilli/Nema]: If you read the comics, the part of egghead, which is over like the two chapters, that's where most of the info on double footage comes from.
 [Sev/Yinu]: That's what I was singing up with, like, her and the part.
 [Kaitlyn/Kto]: Right, my whole life.
 [Sev/Yinu]: And it's like living cartoon.
@@ -3104,8 +3104,8 @@ OK, I'm next to him now.
 [Kaitlyn/Kto]: Well, I keep going with my phone and my fake pockets.
 [Sev/Yinu]: Maybe this one, one, one, one, so you guys, one, two, one, two, two, four.
 [Sev/Yinu]: That's how forth Gear 5 would give you general to enforce it.
-[Fox/Fiorn]: Gear 5 is the only proof that gives you partial resistance to the C. I didn't like Nick.
-[Fox/Fiorn]: That's great.
+[Lilli/Nema]: Gear 5 is the only proof that gives you partial resistance to the C. I didn't like Nick.
+[Lilli/Nema]: That's great.
 [Kaitlyn/Kto]: This is a personal attack.
 [Sev/Yinu]: I heard you.
 [Sev/Yinu]: Nicholas Cohen, a steward.
@@ -3114,7 +3114,7 @@ OK, I'm next to him now.
 [DM]: They are I'm going to I'm going to frankly difficult a little bit next time.
 [DM]: Yeah, it's so so I've actually custom built this.
 [DM]: Yeah, I know.
-[Lilli/Nema]: Yeah.
+[Fox/Fiorn]: Yeah.
 [DM]: Like I have been trading it is like working with it and it asks me questions.
 [DM]: No, it's not sent you.
 [Sev/Yinu]: I like made my characters in the hierarchy of the packing.
