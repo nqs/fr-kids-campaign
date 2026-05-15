@@ -184,7 +184,7 @@ model: base.en
 [DM]: Because you have one, 15 sets or 16.
 [DM]: That's enough.
 [DM]: You think there are three distinct sets of prints walking up there?
-[Piper/Nalith]: No.
+[Lilli/Nema]: No.
 [DM]: Okay, the prints look like they didn't write the name.
 [Kaitlyn/Kto]: Oh, kind of.
 [Kaitlyn/Kto]: Okay, so we're getting up through a hole.
@@ -199,7 +199,7 @@ model: base.en
 [Sev/Yinu]: I can't say it has never been funny.
 [Kaitlyn/Kto]: Oh, wait, who?
 [Kaitlyn/Kto]: Oh, but I'm saying you eat up.
-[Piper/Nalith]: Ah.
+[Lilli/Nema]: Ah.
 [Kaitlyn/Kto]: Hi.
 [Kaitlyn/Kto]: Hi, Hoda.
 [Kaitlyn/Kto]: Hi, baby.
@@ -407,7 +407,7 @@ model: base.en
 [Kaitlyn/Kto]: Oh, this is a D.A.
 [Kaitlyn/Kto]: Two plus four so that's a six.
 [Kaitlyn/Kto]: She got a six.
-[Piper/Nalith]: What's damage?
+[Lilli/Nema]: What's damage?
 [Kaitlyn/Kto]: Yeah And I got those on myself in my mother.
 [Kaitlyn/Kto]: What did you get?
 [Kaitlyn/Kto]: Seven I was that's good.
@@ -482,8 +482,8 @@ model: base.en
 [Sev/Yinu]: I'm gonna go get a popsicle.
 [Sev/Yinu]: Sorry, you mean the real world.
 [Sev/Yinu]: Yes.
-[Piper/Nalith]: Oh my gosh.
-[Piper/Nalith]: Oh my gosh.
+[Lilli/Nema]: Oh my gosh.
+[Lilli/Nema]: Oh my gosh.
 [DM]: Oh my gosh.
 [DM]: Oh my gosh.
 [DM]: Oh my gosh.
@@ -527,11 +527,11 @@ model: base.en
 [DM]: Oh, it's hot though.
 [Kaitlyn/Kto]: It tastes like cherries.
 [Kaitlyn/Kto]: It's like enough time, it's not really... Never.
-[Piper/Nalith]: Freedom, it's like...
+[Lilli/Nema]: Freedom, it's like...
 [Kaitlyn/Kto]: What is that?
-[Piper/Nalith]: Jay Popsicle.
-[Piper/Nalith]: Look at it.
-[Piper/Nalith]: It's weird.
+[Lilli/Nema]: Jay Popsicle.
+[Lilli/Nema]: Look at it.
+[Lilli/Nema]: It's weird.
 [Kaitlyn/Kto]: I don't like how this is shaped.
 [Kaitlyn/Kto]: Wait, I don't like the pattern on it.
 [Kaitlyn/Kto]: Oh, I can eat it.
@@ -574,7 +574,7 @@ What?
 [DM]: What's the hand cross?
 [DM]: The female drought.
 [DM]: All in black, white hair.
-[Piper/Nalith]: Um, ooh, ooh.
+[Lilli/Nema]: Um, ooh, ooh.
 [DM]: Black skin, not like African skin, but like black skin.
 [DM]: Like the color, the color of the DM board thing.
 [Kaitlyn/Kto]: Like only if only she was an evil.
@@ -671,13 +671,13 @@ What?
 [DM]: You get a book look up.
 [DM]: All right.
 [DM]: It's sand weapon in the future.
-[Piper/Nalith]: All right.
-[Piper/Nalith]: After Lilith casts spider walk.
+[Lilli/Nema]: All right.
+[Lilli/Nema]: After Lilith casts spider walk.
 [DM]: You notice a glowing box.
 [Kaitlyn/Kto]: Why do I notice it?
 [Kaitlyn/Kto]: Why do I notice it?
 [Kaitlyn/Kto]: Why are we going to?
-[Piper/Nalith]: You're like, why?
+[Lilli/Nema]: You're like, why?
 [DM]: You came mentally?
 [DM]: Yeah, yeah.
 [Kaitlyn/Kto]: Stop asking dumbness.
@@ -696,7 +696,7 @@ What?
 [DM]: I don't want to give him a food face and get a snaked out of the tree.
 [DM]: Do you face?
 [DM]: No, he isn't.
-[Piper/Nalith]: He's perfect.
+[Lilli/Nema]: He's perfect.
 [DM]: He's just droughts now.
 [DM]: A droughts.
 [Kaitlyn/Kto]: Not these molds as I was again.
@@ -724,7 +724,7 @@ What?
 [Kaitlyn/Kto]: Okay.
 [Kaitlyn/Kto]: Test slappin.
 [Kaitlyn/Kto]: No, you're right.
-[Piper/Nalith]: You're right, Sean.
+[Lilli/Nema]: You're right, Sean.
 [DM]: The big other one out of the tree.
 [DM]: Thank you, Brad.
 [Fox/Fiorn]: You hear this.
@@ -870,10 +870,10 @@ What happened?
 [DM]: What's useful thing since I've been sitting here since they show.
 [Kaitlyn/Kto]: Okay, so what do you want?
 [Kaitlyn/Kto]: Do you have money to leave that one here?
-[Piper/Nalith]: Okay, so everybody will need to check.
-[Piper/Nalith]: Anybody who gets over that, bring your hand.
+[Lilli/Nema]: Okay, so everybody will need to check.
+[Lilli/Nema]: Anybody who gets over that, bring your hand.
 [DM]: 13.
-[Piper/Nalith]: I also got a 13.
+[Lilli/Nema]: I also got a 13.
 [DM]: That's 20.
 [DM]: You guys know that Faye are famous for making deals.
 [DM]: They keep their deals, but they don't give a shit about physical possessions.
@@ -934,9 +934,9 @@ What happened?
 [Kaitlyn/Kto]: I'm gonna die.
 [Fox/Fiorn]: She's a male.
 [Kaitlyn/Kto]: I'm gonna ask of you.
-[Piper/Nalith]: Is it?
-[Piper/Nalith]: Nobody knows what those are.
-[Piper/Nalith]: You're an ass.
+[Lilli/Nema]: Is it?
+[Lilli/Nema]: Nobody knows what those are.
+[Lilli/Nema]: You're an ass.
 [Kaitlyn/Kto]: What do you think is an assamir?
 [Kaitlyn/Kto]: You're an owl.
 [Kaitlyn/Kto]: I'm your mom.
@@ -963,7 +963,7 @@ What happened?
 [DM]: Here are the other couple of people.
 [DM]: Here are the what?
 [Kaitlyn/Kto]: Oh, look at the invitation to make it look like she's on fire.
-[Piper/Nalith]: But why?
+[Lilli/Nema]: But why?
 [Kaitlyn/Kto]: Okay, can I pick it for any bird toes?
 [DM]: Alright, so you have to tell me that because I did the most to that.
 [DM]: I got a 9.20.
@@ -1109,7 +1109,7 @@ You may use.
 [DM]: 6.6,000.
 [DM]: Here we go.
 [DM]: Drow the tree.
-[Piper/Nalith]: OK.
+[Lilli/Nema]: OK.
 [DM]: Here is the party.
 [DM]: That's very low.
 [DM]: Down here.
@@ -1251,13 +1251,13 @@ You may use.
 [DM]: I go back to my farm.
 [DM]: So said, you asked them to tell you in the future when you're back in Maryland, to see the growl around the world.
 [DM]: That's what you asked for.
-[Piper/Nalith]: Yeah.
+[Lilli/Nema]: Yeah.
 [DM]: If you gave you the intel about the square inside the cave, the screens was running out of itself.
 [DM]: Yes.
 [DM]: Yes.
 [DM]: Any else?
 [DM]: Anybody want to ask me?
-[Piper/Nalith]: No.
+[Lilli/Nema]: No.
 [Sev/Yinu]: Well, actually, I will.
 [Sev/Yinu]: I asked just a random question about the imagine of her with theory I had.
 [Sev/Yinu]: The theory was that the magic is like a direct crime from a wild magic some way.
@@ -1292,7 +1292,7 @@ You may use.
 [DM]: You want to go somewhere?
 [DM]: Yeah, I'm going to go somewhere.
 Yeah.
-[Piper/Nalith]: Are you feeling it?
+[Lilli/Nema]: Are you feeling it?
 [Kaitlyn/Kto]: I'm taking less static pictures of dice so I can make a, um, no paper for Dandy.
 [Kaitlyn/Kto]: Not it really does look like she's awesome.
 [DM]: Oh, I'm so sorry.
@@ -1306,22 +1306,22 @@ Yeah.
 [Kaitlyn/Kto]: Hey, can somebody fill the oven?
 [DM]: Can you do it through the oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven oven
 [Kaitlyn/Kto]: We're welcome.
-[Piper/Nalith]: However, we can make no bigs after the end.
+[Lilli/Nema]: However, we can make no bigs after the end.
 [DM]: We don't have an incident.
 [DM]: We don't know.
 [DM]: What happened?
 [Kaitlyn/Kto]: We can buy some so we can make no bigs.
 [DM]: We can walk down to the item.
-[Piper/Nalith]: Yeah, let's walk down to the item.
+[Lilli/Nema]: Yeah, let's walk down to the item.
 [DM]: blew it, blew it inside.
 [Fox/Fiorn]: I applied at my skin in order to take out the wires underneath it, but all I saw was flash.
 [DM]: Oh, for a second.
 [DM]: So I was on the room.
-[Piper/Nalith]: Sam, are you in the greenhouse room?
-[Piper/Nalith]: No.
-[Piper/Nalith]: What?
-[Piper/Nalith]: He said, we don't know if you just disappear like that, but you gotta let us know.
-[Piper/Nalith]: All right.
+[Lilli/Nema]: Sam, are you in the greenhouse room?
+[Lilli/Nema]: No.
+[Lilli/Nema]: What?
+[Lilli/Nema]: He said, we don't know if you just disappear like that, but you gotta let us know.
+[Lilli/Nema]: All right.
 [DM]: It's OK.
 [Kaitlyn/Kto]: I can, like, most of us saw him.
 [Kaitlyn/Kto]: I hate you.
@@ -1466,8 +1466,8 @@ Yeah.
 [DM]: I'm going to give you a plus one because you feel the first time that you have at better.
 [DM]: So you succeed.
 [DM]: Everybody succeeds so far.
-[Piper/Nalith]: It's actually 16 plus one.
-[Piper/Nalith]: Try this on the job.
+[Lilli/Nema]: It's actually 16 plus one.
+[Lilli/Nema]: Try this on the job.
 [DM]: What happened?
 [DM]: Yes.
 [DM]: What?
@@ -1477,7 +1477,7 @@ Yeah.
 [DM]: So you get up.
 [DM]: You could do that game theory yourself inside of you.
 [DM]: You say you wanted some traps, or you could go on a trap, unless you're paying to your client.
-[Piper/Nalith]: You don't mean to sleep and track his ass at the mountain.
+[Lilli/Nema]: You don't mean to sleep and track his ass at the mountain.
 [Kaitlyn/Kto]: OK, fine.
 [Kaitlyn/Kto]: Wait, no, I think guys don't think for that.
 [Fox/Fiorn]: Try me.
@@ -1512,7 +1512,7 @@ Yeah.
 [Fox/Fiorn]: Also, she was of the mountain already.
 [Fox/Fiorn]: So she couldn't use guidance.
 [Fox/Fiorn]: Okay.
-[Piper/Nalith]: Well, I thought you would.
+[Lilli/Nema]: Well, I thought you would.
 [DM]: I didn't really pass a lift.
 [DM]: But anyway, yes.
 [DM]: Fair enough.
@@ -1531,14 +1531,14 @@ Yeah.
 [Kaitlyn/Kto]: Um, no, that's good.
 [DM]: Let's see.
 [DM]: I'll be here.
-[Piper/Nalith]: So they can remove that left.
+[Lilli/Nema]: So they can remove that left.
 [Sev/Yinu]: Got my wizard ready.
 [DM]: I'll go to my to them.
 [DM]: I was my mom.
 [DM]: Oh, second.
 [DM]: Okay.
 [Kaitlyn/Kto]: Oh, why do I have to still be the same person?
-[Piper/Nalith]: That's the fire.
+[Lilli/Nema]: That's the fire.
 [DM]: Um, this is the cave mouth.
 [Kaitlyn/Kto]: I'm not a peaceful.
 [DM]: Bjorn is right here in this square.
@@ -1560,7 +1560,7 @@ Okay.
 [DM]: We'll pick advice, please.
 [Kaitlyn/Kto]: Queen, where my character be at?
 [Kaitlyn/Kto]: Is it the tower?
-[Piper/Nalith]: I'm so confused.
+[Lilli/Nema]: I'm so confused.
 [DM]: Those of you that entered from your ceiling hole, which is everybody except Jorn, can be anywhere in means squares.
 [DM]: I'm going to put that one.
 [Kaitlyn/Kto]: The only one is it wasn't here when we picked one.
@@ -1598,7 +1598,7 @@ Okay.
 [Kaitlyn/Kto]: That's applying.
 [Kaitlyn/Kto]: My mom wants to know when this ends.
 [Kaitlyn/Kto]: Six seven.
-[Piper/Nalith]: It's past eight.
+[Lilli/Nema]: It's past eight.
 [Fox/Fiorn]: I shouldn't have a clock, Moron.
 [Fox/Fiorn]: I'm not talking to you.
 [Kaitlyn/Kto]: Oh, he just got into that also.
@@ -1611,7 +1611,7 @@ Okay.
 [DM]: No, that's true.
 [DM]: So you could do it.
 [DM]: And for one minute, you'll have wings need only to fly.
-[Piper/Nalith]: How long is that many?
+[Lilli/Nema]: How long is that many?
 [DM]: 10 rounds.
 [DM]: But like, but after that, what can we do again?
 [DM]: We need respirators.
@@ -1763,9 +1763,9 @@ Oh, okay.
 [DM]: He left the fridge over the last step by you.
 [DM]: Okay.
 [Fox/Fiorn]: I'm sorry.
-[Piper/Nalith]: Can we scooch?
-[Piper/Nalith]: What?
-[Piper/Nalith]: You can be terrible.
+[Lilli/Nema]: Can we scooch?
+[Lilli/Nema]: What?
+[Lilli/Nema]: You can be terrible.
 [DM]: There he is.
 [Kaitlyn/Kto]: Fire.
 [Kaitlyn/Kto]: It's gone.
@@ -1818,7 +1818,7 @@ Oh, okay.
 [Kaitlyn/Kto]: Okay.
 [DM]: Hold on.
 [DM]: What are four daggers?
-[Piper/Nalith]: Wait, what?
+[Lilli/Nema]: Wait, what?
 [DM]: I have four daggers.
 [Kaitlyn/Kto]: We'll go.
 [Kaitlyn/Kto]: We'll go.
@@ -1865,7 +1865,7 @@ Oh, okay.
 [DM]: Why would you?
 [DM]: No, it's easy.
 [DM]: All right.
-[Piper/Nalith]: No, because, like, I'm a stupid chud, Piper.
+[Lilli/Nema]: No, because, like, I'm a stupid chud, Piper.
 [Kaitlyn/Kto]: No, we're not surprised.
 [Kaitlyn/Kto]: You're always a judge in real life and in game.
 [Kaitlyn/Kto]: Oh, do you want to eat this dog?
@@ -1935,7 +1935,7 @@ Oh, okay.
 [DM]: I know.
 [DM]: All right, here we go.
 [DM]: The chamber opens into a ball and roll.
-[Piper/Nalith]: Sorry.
+[Lilli/Nema]: Sorry.
 [DM]: Here's a pause.
 [DM]: And turn to the light when I start going.
 [DM]: Just a little bit.
@@ -2016,11 +2016,11 @@ Oh, okay.
 [DM]: It's called third level or lower automatically extended.
 [DM]: It's called the fourth level or higher, make an ability check using your spell can I see the ability?
 [DM]: So it's 10, 12, 12, 12, but accessible check is felt.
-[Piper/Nalith]: This is a ritual.
+[Lilli/Nema]: This is a ritual.
 [DM]: So you roll a straight check, which is N plus B roll B 20 and you add your spell casting ability, which is your notes.
-[Piper/Nalith]: What do you have to roll?
-[Piper/Nalith]: Actually, I'm not going to throw you.
-[Piper/Nalith]: Yeah, because you can try.
+[Lilli/Nema]: What do you have to roll?
+[Lilli/Nema]: Actually, I'm not going to throw you.
+[Lilli/Nema]: Yeah, because you can try.
 [Kaitlyn/Kto]: What is the mage actually a team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team team
 [Sev/Yinu]: Do I have a smug smile on my face?
 [Fox/Fiorn]: Oh, this isn't exactly why I didn't target the face.
@@ -2130,7 +2130,7 @@ Oh, okay.
 [Sev/Yinu]: I mean, it only happens whenever they're like close friends.
 [Sev/Yinu]: Wait, you're not a statistic?
 [Sev/Yinu]: I'm not.
-[Piper/Nalith]: Are you sure?
+[Lilli/Nema]: Are you sure?
 [Fox/Fiorn]: I got tested for autism and ADHD.
 [Fox/Fiorn]: They both came on negative.
 [Fox/Fiorn]: You weren't tested for autism.
@@ -2139,7 +2139,7 @@ Oh, okay.
 [DM]: No, I don't have autism.
 [Sev/Yinu]: Well, I apparently don't have autism.
 [Kaitlyn/Kto]: It looks like I'm not here.
-[Piper/Nalith]: Yeah, I wonder what happened if I mixed it every makes the three possible flavors together.
+[Lilli/Nema]: Yeah, I wonder what happened if I mixed it every makes the three possible flavors together.
 [Sev/Yinu]: Maybe, but I had to be nice.
 [DM]: Let's do this combat.
 [DM]: Let's do.
@@ -2238,7 +2238,7 @@ Oh, okay.
 [Sev/Yinu]: You're a wolf.
 [Kaitlyn/Kto]: You're a wolf.
 [Kaitlyn/Kto]: You're a wolf.
-[Piper/Nalith]: You're a wolf.
+[Lilli/Nema]: You're a wolf.
 [Sev/Yinu]: You're a wolf.
 [Kaitlyn/Kto]: You're a wolf.
 [Kaitlyn/Kto]: You're a wolf.
@@ -2292,7 +2292,7 @@ Oh, okay.
 [DM]: Where are you?
 [DM]: Where are you?
 [DM]: She could tell.
-[Piper/Nalith]: Uh, she's the... You know what I'm talking about?
+[Lilli/Nema]: Uh, she's the... You know what I'm talking about?
 [Kaitlyn/Kto]: I'm gonna say, sorry.
 [DM]: Run straight up.
 [DM]: Put her right in front of her.
@@ -2305,7 +2305,7 @@ Oh, okay.
 [DM]: He's the one who killed him and almost killed him in the first one.
 [DM]: Really?
 [DM]: Yes.
-[Piper/Nalith]: Okay, wait.
+[Lilli/Nema]: Okay, wait.
 [Kaitlyn/Kto]: Everyone, I have an idea.
 [Kaitlyn/Kto]: Do I hit one of my weapons?
 [Sev/Yinu]: I can't trust going to use without needing a spell slot.
@@ -2368,7 +2368,7 @@ Oh, okay.
 [Kaitlyn/Kto]: All right, roll to the game.
 [Kaitlyn/Kto]: Give me six, sorry.
 [Fox/Fiorn]: I want those blades when we kill them.
-[Piper/Nalith]: Why is it counting?
+[Lilli/Nema]: Why is it counting?
 [Kaitlyn/Kto]: I fucked him, he was dead.
 [Kaitlyn/Kto]: Nice job, 14.
 [Kaitlyn/Kto]: 14.
@@ -2424,16 +2424,16 @@ Oh, okay.
 [Kaitlyn/Kto]: Three and five.
 [Kaitlyn/Kto]: Three and
 [Kaitlyn/Kto]: How wise do you think he's supposed to be?
-[Piper/Nalith]: I got him.
+[Lilli/Nema]: I got him.
 [Kaitlyn/Kto]: What does a person of healing do?
-[Piper/Nalith]: 18.
+[Lilli/Nema]: 18.
 [DM]: He's a priest.
 [Fox/Fiorn]: Magic users are normally wisdom.
 [Fox/Fiorn]: Um, depending on their class.
 [Kaitlyn/Kto]: I always don't.
 [Fox/Fiorn]: Yeah, you're always going to fall or walk, right?
 [Kaitlyn/Kto]: Yeah.
-[Piper/Nalith]: I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like,
+[Lilli/Nema]: I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like, I'm like,
 [DM]: Okay.
 [DM]: I think you should have gone with a fear guardian.
 [DM]: So instead of regret.
@@ -2465,20 +2465,20 @@ Oh, okay.
 [DM]: You take half as much.
 [DM]: So you do that on your turn.
 [DM]: Already.
-[Piper/Nalith]: So, that's the details.
-[Piper/Nalith]: Caitlin, I want you to...
+[Lilli/Nema]: So, that's the details.
+[Lilli/Nema]: Caitlin, I want you to...
 [Kaitlyn/Kto]: It's my turn.
-[Piper/Nalith]: Blue is my turn.
+[Lilli/Nema]: Blue is my turn.
 [Kaitlyn/Kto]: Okay.
 [Kaitlyn/Kto]: So, there's a spell I wanted to hold person.
 [Kaitlyn/Kto]: Choose two humanoids that you can see within range.
 [Kaitlyn/Kto]: The target must succeed on a wisdom saving throw or have the paralyzed condition for the duration.
 [Kaitlyn/Kto]: At the end of each turn,
 [Kaitlyn/Kto]: At the end of its turns, the target repeats the same ending in the spell on itself as a sequence.
-[Piper/Nalith]: I don't do that.
+[Lilli/Nema]: I don't do that.
 [Kaitlyn/Kto]: Is that 60 feet?
 [Kaitlyn/Kto]: Yeah.
-[Piper/Nalith]: OK. OK. What do I do?
+[Lilli/Nema]: OK. OK. What do I do?
 [DM]: No, you don't want anything.
 [Kaitlyn/Kto]: No, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no,
 [DM]: I'm sorry.
@@ -2663,7 +2663,7 @@ OK, I'm next to him now.
 [DM]: Firefire bolt.
 [DM]: Fire bolt.
 [DM]: Well, you have like you a soldier, right?
-[Piper/Nalith]: No.
+[Lilli/Nema]: No.
 [DM]: Wait.
 [DM]: Write those questions.
 [Sev/Yinu]: Again, I get one extra spell.
@@ -2679,8 +2679,8 @@ OK, I'm next to him now.
 [DM]: You could read this verse maybe.
 [Fox/Fiorn]: I read this to the sex bar damage.
 [Fox/Fiorn]: You know, probably right.
-[Piper/Nalith]: Really?
-[Piper/Nalith]: Who you make?
+[Lilli/Nema]: Really?
+[Lilli/Nema]: Who you make?
 [Fox/Fiorn]: Oh, you can read when you cast as well.
 [Fox/Fiorn]: You're doing a spell of thought.
 [DM]: It should be good and additional, right?
@@ -2735,7 +2735,7 @@ OK, I'm next to him now.
 [Fox/Fiorn]: It's up to a.
 [Fox/Fiorn]: How many damage uphill?
 [Fox/Fiorn]: Um, do you want me to do that for you?
-[Piper/Nalith]: Yeah.
+[Lilli/Nema]: Yeah.
 [Fox/Fiorn]: Okay, so four plus four plus four, 12, 12, 17, 20, 21, 27, 32, 33, uh, those six, uh, 39 damage.
 [Fox/Fiorn]: Don't hold it.
 [Fox/Fiorn]: Yep.
@@ -2896,7 +2896,7 @@ OK, I'm next to him now.
 [DM]: Three fold in order.
 [DM]: You know, back to the top of the ship.
 [Kaitlyn/Kto]: Are you another one?
-[Piper/Nalith]: That's a detail.
+[Lilli/Nema]: That's a detail.
 [Kaitlyn/Kto]: Okay, you need to roll a dexterity thing through.
 [Kaitlyn/Kto]: The piece says.
 [DM]: You see what?
@@ -2967,7 +2967,7 @@ OK, I'm next to him now.
 [DM]: For a minute, but they get too much on every round of measures.
 [Fox/Fiorn]: And I fell in the next one.
 [DM]: You guys, you're a bad combo because your damage outputs huge associates.
-[Piper/Nalith]: Yeah.
+[Lilli/Nema]: Yeah.
 [DM]: You're you're a controller class.
 [DM]: You and you're you're basically a young player.
 [DM]: You know, and I have death.
@@ -3079,7 +3079,7 @@ OK, I'm next to him now.
 [DM]: Um, the fluff.
 [DM]: Oh, no.
 [Kaitlyn/Kto]: Oh, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no, no.
-[Piper/Nalith]: Imagine all the other trout squawking him see the see the
+[Lilli/Nema]: Imagine all the other trout squawking him see the see the
 [Sev/Yinu]: See he a prison died meant to protect him dead with the free seeing them taking the most damage They probably think like the guards failed at his job Because the priest took them up most visit the visible damage Now I lose the priest body.
 [Fox/Fiorn]: I lose the guard body I killed it
 [Fox/Fiorn]: I get first came on once the guard Billy guys body because I'd help the most damage.
@@ -3114,7 +3114,7 @@ OK, I'm next to him now.
 [DM]: They are I'm going to I'm going to frankly difficult a little bit next time.
 [DM]: Yeah, it's so so I've actually custom built this.
 [DM]: Yeah, I know.
-[Piper/Nalith]: Yeah.
+[Lilli/Nema]: Yeah.
 [DM]: Like I have been trading it is like working with it and it asks me questions.
 [DM]: No, it's not sent you.
 [Sev/Yinu]: I like made my characters in the hierarchy of the packing.
