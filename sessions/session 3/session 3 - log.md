@@ -26,15 +26,6 @@ tags:
 - **Scene 8 (Ending):** Not reached. Session ended with the party standing over Khelziir's body. Anchor disposition (Smash / Steal / Feed / Withdraw) not yet decided — opens Session 4.
 - **Scene 9 (Debrief):** Not reached. No return to Shadowdale, no NPC contact, no payments.
 
-> [!read-aloud] The Shrine Chamber
-> The chamber opens into a vault of cold black stone. At the back, an altar of polished basalt, and standing at it, a slim drow in robes the color of dried blood, his silver half-mask catching the green candle-flame as he turns. To his right, scarred across the cheek, a familiar face — Zeldrazz T'orrl, who sees you, and smiles like a man who has been waiting.
-
-> [!boss] Khelziir Aun'velve — Drow Priest of Vhaeraun (CR 6)
-> Mid-ritual, 2-round countdown to portal activation. Will not leave the altar.
-
-> [!boss] Zeldrazz T'orrl — Drow Elite Warrior (CR 5)
-> Returning antagonist. Targets Kto on sight. Protective of Khelziir.
-
 ### Key Decisions & Consequences
 
 - **Brynn's letter:** Kto is carrying the letter but chose not to share it with the party. The rest of the party doesn't know it exists. Whether Kto acts on it — and when — is an open character question heading into Session 4.
