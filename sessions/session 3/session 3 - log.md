@@ -41,14 +41,14 @@ tags:
 - **Who reported first?** N/A — no debrief happened. Defer to Session 4 opening.
 - **Which ending chosen?** Not yet. Anchor is still in the shrine chamber; Session 4 opens here.
 - **Lolthite Crash:** Did not trigger. Fight was over before Round 4. The Lolthites do not know the party exists.
-- **Zeldrazz:** Status unresolved — most likely fled or at near-zero HP at session cut-off. Third encounter remains open; **confirmed nemesis arc for Kto is still on the board.**
+- **Zeldrazz:** **Killed by Kto.** Second and final encounter — Kto finished him with her greatsword while he was paralyzed. The nemesis arc ends here.
 - **Quillip's bargain:** Paid with Fiorn's original song. The DM accepted it without specifying a future cost. Treat as paid — but monitor whether any fey obligation surfaces.
 
 ### NPC Interactions
 
 - **Quillip Burr-and-Whistle** — First encounter. Female pixie-type fey; got stuck at Site C when the drow arrived (the watcher would have shot her if she left her knothole). Grateful the party killed the watcher. Bargain struck: Fiorn performed an original song never sung before. In return she provided: the silk curtain alarm, spider behavior, cave layout, confirmation this is the last site, and context on the ritual anchor. No binding secondary cost mentioned. **Mark as recurring NPC — she clearly knows the Old Skull area and the drow's movements.**
 - **Khelziir Aun'velve** — Appeared in the Shrine, cast Spirit Guardians before being paralyzed by Kto's Hold Person. **Killed** by Sev's Scorching Ray (auto-crit, paralyzed). Looted by Sev. No notable dialogue.
-- **Zeldrazz T'orrl** — Second encounter. Targeted Kto on sight. Got at least one round of melee attacks on Kto: 9 damage (sword) + poison condition (Constitution save failed) + 8 more damage from poison (total ~17 HP + ongoing). Was then paralyzed by Hold Person alongside Khelziir. Took 19 damage from Kto's greatsword. **Fate unresolved — likely fled again.** If so, add to long-term villain pool; next encounter is the cap fight.
+- **Zeldrazz T'orrl** — Second encounter. Targeted Kto on sight. Got at least one round of melee attacks on Kto: 9 damage (sword) + poison condition (Constitution save failed) + 8 more damage from poison (total ~17 HP + ongoing). Was then paralyzed by Hold Person alongside Khelziir. **Killed by Kto** with greatsword attacks while paralyzed. The man who came back to finish the job got finished instead.
 - **Lady Addee Ulphor / Brynn Ashford / Orvyn Tal** — None encountered. Deferred.
 
 ### Combat & Encounters
@@ -61,7 +61,7 @@ tags:
   - Khelziir cast Spirit Guardians (15 ft aura, halves speed, WIS save or 3–8 damage each turn).
   - **Kto used Hold Person on both bosses simultaneously — both failed. Both paralyzed.**
   - Sev's Scorching Ray (2nd level, 3 rays) against the paralyzed Khelziir = all auto-crits: ~39 damage. Khelziir killed.
-  - Kto's greatsword attacks on paralyzed Zeldrazz: 19 damage. Fate unresolved at end of session.
+  - Kto's greatsword attacks on paralyzed Zeldrazz: 19 damage. **Zeldrazz killed by Kto.**
   - Fox deployed smoke bombs mid-fight. Nalith Wild Shaped into a wolf at some point.
   - Portal countdown stopped by Hold Person. No reinforcements.
 - **Lolthite Crash:** Did not trigger.
@@ -73,7 +73,7 @@ tags:
 - 3× hand crossbows + bolts (antechamber weapon rack)
 - Undercommon journal — Zeldrazz's demoted-captain's log; reveals ritual purpose (worth 50–100 gp to Harpers or Ulphor)
 - Khelziir's body (Sev claims) — silver half-mask (200 gp Orvyn / 100 gp Ulphor), Spell Scroll of *Silence*, Potion of Greater Healing ×2 per the adventure baseline; not itemized aloud in session
-- Zeldrazz's body (Fox claims) — drow poison vials per plan; fate unresolved so full loot unclear
+- Zeldrazz's body (Fox claims) — drow poison vials per adventure plan
 
 **Deferred to Session 4 (pending ending choice + debrief):**
 - 300 gp scouting payment
@@ -83,7 +83,7 @@ tags:
 
 > [!hook] Loose Ends & Hooks
 > - **Anchor unresolved** — party must still choose Smash / Steal / Feed / Withdraw at the top of Session 4. Start there.
-> - **Zeldrazz fate** — likely fled; if so, add to villain pool as a confirmed nemesis for Kto. Note his condition (heavily wounded, poisoned Kto).
+> - **Zeldrazz fate** — **Dead.** Killed by Kto. Remove from villain pool. No third encounter.
 > - **Vhaeraunian retaliation clock** — begins once the ending is chosen. 2–3 weeks in-world; form TBD.
 > - **Lolthite enclave awareness** — Crash did not trigger. Lolthites found dead Vhaeraunians later (or did they?). Party almost certainly unknown to them. Do not flag escalation.
 > - **Quillip's bargain** — treat as paid (the original song). No secondary cost established. She may reappear as an asset in future Old Skull missions.
@@ -93,7 +93,7 @@ tags:
 > - **Sela Wyndmere's consultations** — still unresolved. S004 candidate.
 
 > [!dm] DM Notes
-> - **Hold Person on two targets simultaneously** was the session's decisive moment — Kto locked both bosses in Round 1 or 2, turning a Hard/Deadly encounter into a cleanup. DM flagged wanting to increase difficulty next time.
+> - **Hold Person on two targets simultaneously** was the session's decisive moment — Kto locked both bosses in Round 1 or 2, turning a Hard/Deadly encounter into a cleanup. Kto then killed Zeldrazz with greatsword attacks while paralyzed. DM flagged wanting to increase difficulty next time.
 > - **Khelziir's spirit guardians** landed on Kto and dealt real damage + poison condition before Hold Person landed — good pressure, but the fight resolved very fast overall.
 > - **Quillip improvised well** — she emerged naturally from the watcher encounter. The "fey don't value possessions, they value experiences" framing worked. Fox's original-song payment was clean. She should become a recurring presence near Old Skull.
 > - **Zeldrazz's fate** needs a ruling before Session 4: if he fled (likely), add to long-term villain pool and decide what condition he escaped in.
