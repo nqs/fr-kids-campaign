@@ -20,12 +20,6 @@ tags:
 - Returned Tessar to Shadowdale. Lady Ulphor received them privately, paid the balance, accepted the map fragment and Vhaeraun mask pendant with composed dread, and extended her private goodwill. Warned them to keep it quiet; said Captain Helm would be "managed."
 - That evening at the Old Skull Inn, Orvyn Tal — a bookseller — sat down uninvited and slid a Dalelands map across the table. Asked, mildly, whether they'd seen anything interesting on their walk. The Harpers are now on the board.
 
-> [!read-aloud] Approaching the Cleft
-> The pines thin into a stand of black oaks whose roots clutch the granite like fingers. Beyond them, a fissure splits the northern flank of Old Skull — a slanted black wound in the rock, taller than a man, breathing out cold air that smells of wet stone and something older. From inside, you hear a low, careful voice — not a language any of you speak — and the dry click of chitin against stone.
-
-> [!boss] Zeldrazz T'orrl — Drow Elite Warrior
-> Vhaeraunian field officer. Iron half-mask, twin scimitars, expects to win.
-
 ### Key Decisions & Consequences
 - Party went directly to Lady Ulphor rather than approaching Corwick Helm — consistent with Torval's setup and her private instruction.
 - Successfully achieved surprise in the skill challenge; the combat did not involve Tessar being used as a hostage.
