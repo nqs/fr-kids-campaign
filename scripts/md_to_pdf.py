@@ -347,7 +347,10 @@ class BlockRenderer:
         self._h1_seen = False
         self._h2_seen_in_section = False
         self._after_stat_label = False
-        self.out: list = []
+        # Pre-seed with a PageBreak so the first H1 of a non-first file lands
+        # on a fresh page. _append_pagebreak() short-circuits on an empty list,
+        # so we inject the break here rather than waiting for the H1 handler.
+        self.out: list = [PageBreak()] if first_h1_pagebreak else []
         if font_scale == 1.0:
             self.body = BODY
             self.body_left = BODY_LEFT
