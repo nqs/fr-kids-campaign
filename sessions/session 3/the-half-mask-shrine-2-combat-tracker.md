@@ -325,7 +325,7 @@ Skills Stealth +7 · Senses blindsight 10 ft., darkvision 60 ft., passive Percep
 ## Khelziir Aun'velve — Drow Priest of Vhaeraun
 *Medium humanoid (drow), neutral evil · CR 6 (2,300 XP)*
 
-![Khelziir Aun'velve portrait](https://storage.gemini.mcp.nqs.io/images/c5e6d783-0e6b-4c49-b337-3341e387b92f.png)
+![Khelziir Aun'velve portrait](https://storage.gemini.mcp.nqs.io/images/991cd6ed-5d37-45ea-9107-21374d1c6503.png)
 
 | AC | HP | Speed |
 |---|---|---|

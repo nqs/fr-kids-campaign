@@ -159,7 +159,7 @@ A 40 × 50 ft. chamber. A black basalt slab altar at the back, draped with a Vha
 
 ### The Boss Encounter
 
-![Khelziir Aun'velve — Drow Priest of Vhaeraun](https://storage.gemini.mcp.nqs.io/images/c5e6d783-0e6b-4c49-b337-3341e387b92f.png)
+![Khelziir Aun'velve — Drow Priest of Vhaeraun](https://storage.gemini.mcp.nqs.io/images/991cd6ed-5d37-45ea-9107-21374d1c6503.png)
 
 **Khelziir Aun'velve — Drow Priest of Vhaeraun.** Full statline on the combat tracker. He will not break formation from the altar — finishing the ritual matters more than his own survival. **R1:** *spirit guardians* + bonus-action *shield of faith*. **R2:** *silence* on the loudest caster (likely Yinu or Loric). **R3:** *spiritual weapon* (a black blade) and continues consecrating.
 

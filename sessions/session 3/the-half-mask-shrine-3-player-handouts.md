@@ -84,7 +84,7 @@ You met him at the briefing in Lady Ulphor's working room before you rode for th
 
 ## Khelziir Aun'velve — Drow Priest of Vhaeraun
 
-![Khelziir Aun'velve — Drow Priest of Vhaeraun](https://storage.gemini.mcp.nqs.io/images/c5e6d783-0e6b-4c49-b337-3341e387b92f.png)
+![Khelziir Aun'velve — Drow Priest of Vhaeraun](https://storage.gemini.mcp.nqs.io/images/991cd6ed-5d37-45ea-9107-21374d1c6503.png)
 
 ---
 
