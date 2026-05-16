@@ -16,6 +16,10 @@ Printable per-encounter sheets and stat-block cards. HP boxes = 5 HP each (cross
 ## Encounter 1 — The Watcher Above
 *Session 003, Scene 3* · **Trivial (skill encounter — DC 17 group Stealth, optional Quillip bargain)**
 
+![Tactical Map — Encounter 1, The Watcher's Pine](https://storage.gemini.mcp.nqs.io/images/e6656f2d-30bf-476a-b3f8-c5279560f4b1.png)
+
+---
+
 | Field | Detail |
 |---|---|
 | Location | Wind-stunted pine 60 ft. above the cleft mouth, Site C |
@@ -63,7 +67,9 @@ Brass signal horn (key item) · Hand crossbow + 10 bolts · Drow poison ×1 · ~
 ## Encounter 2 — The Antechamber
 *Session 003, Scene 4* · **Easy (~200 XP)**
 
-![Tactical Map — Site C, The Shrine-Camp](https://storage.gemini.mcp.nqs.io/images/c1cfae4b-c9ae-40c7-bf4b-df76d5ff95cb.png)
+![Tactical Map — Encounter 2, The Antechamber](https://storage.gemini.mcp.nqs.io/images/c1cfae4b-c9ae-40c7-bf4b-df76d5ff95cb.png)
+
+---
 
 | Field | Detail |
 |---|---|
@@ -110,9 +116,12 @@ Brass signal horn (key item) · Hand crossbow + 10 bolts · Drow poison ×1 · ~
 
 ---
 
-
 ## Encounter 3 — The Spider Pen
 *Session 003, Scene 5* · **Easy (~200 XP). Optional — only if silk curtain disturbed or chain cut**
+
+![Tactical Map — Encounter 3, The Spider Pen](https://storage.gemini.mcp.nqs.io/images/c2a055a3-1eae-421b-9047-7260b8f6dc8f.png)
+
+---
 
 | Field | Detail |
 |---|---|
@@ -158,6 +167,10 @@ Brass signal horn (key item) · Hand crossbow + 10 bolts · Drow poison ×1 · ~
 
 ## Encounter 4 — The Shrine — Khelziir's Last Ritual
 *Session 003, Scene 6* · **Hard for 5×L5 (~4,400 XP). Becomes Deadly if the portal opens.**
+
+![Tactical Map — Encounter 4, The Shrine](https://storage.gemini.mcp.nqs.io/images/651dac47-b067-4942-a4b5-0a08582294a0.png)
+
+---
 
 | Field | Detail |
 |---|---|
@@ -216,6 +229,10 @@ Khelziir's silver half-mask (Orvyn 200 gp / Ulphor 100 gp) · Spell scroll of *S
 
 ## Encounter 5 — The Lolthite Crash
 *Session 003, Scene 7* · **~600 XP (pressure-valve, not a fresh encounter)**
+
+![Tactical Map — Encounter 5, The Lolthite Crash](https://storage.gemini.mcp.nqs.io/images/9ae3a6ca-0941-4174-ac20-a00ec9c4ebd7.png)
+
+---
 
 | Field | Detail |
 |---|---|
