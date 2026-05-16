@@ -574,28 +574,20 @@ class BlockRenderer:
         if not url:
             return
 
-        # Tactical maps in the combat tracker always get their own dedicated
-        # full page — never bound to a heading via KeepTogether. A PageBreak
-        # is inserted before the image to start a fresh page, and the ---
-        # immediately following the image (handled by _h_thematic_break) adds
-        # the closing PageBreak that separates the map page from the tracker.
         alt = (img_node.get("attrs", {}).get("alt", "")
                or _cell_text(img_node.get("children", [])))
-        if self.section == "combat-tracker" and alt.startswith("Tactical Map"):
-            self._append_pagebreak()
-            img = sized_image(url, self.manifest, max_w_in=7.2, max_h_in=9.8)
-            img.hAlign = "CENTER"
-            self.out.append(img)
-            self._last_was_map = True
-            return
-
-        self._last_was_map = False
+        is_tactical_map = (self.section == "combat-tracker"
+                           and alt.startswith("Tactical Map"))
 
         # Look back, skipping trailing decorative flowables, for a heading
         # (optionally with one short intro paragraph between heading and
         # image). If found, bind the heading and image into a `KeepTogether`
         # so ReportLab keeps them on the same page — preventing orphaned
-        # headings on otherwise-empty pages.
+        # headings on otherwise-empty pages. Tactical maps follow this same
+        # path; their encounter heading + italic line are bound with the map
+        # image (max 7.2"×8.5"), and the `---` that follows the image
+        # (handled by _h_thematic_break) adds the PageBreak that separates
+        # the map+header page from the tracker sheet.
         end = len(self.out) - 1
         while end >= 0 and isinstance(self.out[end], (Spacer, HRFlowable)):
             end -= 1
@@ -611,17 +603,13 @@ class BlockRenderer:
                 heading_idx = prev
 
         if heading_idx is not None:
-            # Pull the heading (and anything between it and the image) into a
-            # KeepTogether group with the image. Image sized to leave room for
-            # the heading (and any intro paragraph that may wrap) at the top
-            # of the page — max 7.2"×8.5" leaves ~1.3" for heading content,
-            # comfortably under the 9.8" printable height.
             bound = list(self.out[heading_idx:])
             del self.out[heading_idx:]
             img = sized_image(url, self.manifest, max_w_in=7.2, max_h_in=8.5)
             img.hAlign = "CENTER"
             bound.extend([Spacer(1, 4), img])
             self.out.append(KeepTogether(bound))
+            self._last_was_map = is_tactical_map
             return
 
         # No pairing — image flows naturally. ReportLab page-breaks before
@@ -632,6 +620,7 @@ class BlockRenderer:
         img = sized_image(url, self.manifest, max_w_in=7.2, max_h_in=9.8)
         img.hAlign = "CENTER"
         self.out.append(img)
+        self._last_was_map = is_tactical_map
 
 
 # --- public API ------------------------------------------------------------
