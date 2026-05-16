@@ -388,7 +388,7 @@ class BlockRenderer:
         plain = _para_plain_text(node)
         if level == 1:
             if self.first_h1_pagebreak or self._h1_seen:
-                self.out.append(PageBreak())
+                self._append_pagebreak()
             self._h1_seen = True
             self._h2_seen_in_section = False
             if plain.strip().lower().startswith("stat cards"):
@@ -397,7 +397,7 @@ class BlockRenderer:
         elif level == 2:
             wants_break = self.section in ("combat-tracker", "player-handouts")
             if wants_break and self._h2_seen_in_section:
-                self.out.append(PageBreak())
+                self._append_pagebreak()
             self._h2_seen_in_section = True
             self.out.append(Paragraph(text, H2))
         elif level == 3:
@@ -502,19 +502,62 @@ class BlockRenderer:
 
     # -- image emission -----------------------------------------------------
 
+    def _append_pagebreak(self) -> None:
+        """Append a PageBreak unless the previous flowable is already one.
+        Avoids double-break blank pages and leading blank pages."""
+        if not self.out:
+            return
+        if isinstance(self.out[-1], PageBreak):
+            return
+        self.out.append(PageBreak())
+
     def _emit_image(self, img_node: dict) -> None:
         url = img_node.get("attrs", {}).get("url") or img_node.get("url", "")
         if not url:
             return
-        # Every image renders full-page on its own 8.5"x11" sheet: page break
-        # before, image sized to fill the 7.2" x 9.8" printable area while
-        # preserving aspect ratio, page break after, no caption. The
-        # surrounding heading already names the subject.
+        # If the only content emitted since the last PageBreak is a heading
+        # (optionally followed by one short intro paragraph — e.g. the italic
+        # scene-reference line under a combat-tracker H2), pair the heading
+        # with this image on the same page so the heading isn't orphaned on a
+        # near-empty page. Otherwise the image takes a full page on its own.
+        last_break = None
+        for i in range(len(self.out) - 1, -1, -1):
+            if isinstance(self.out[i], PageBreak):
+                last_break = i
+                break
+        recent_start = (last_break + 1) if last_break is not None else 0
+        recent = list(self.out[recent_start:])
+        while recent and isinstance(recent[-1], (Spacer, HRFlowable)):
+            recent.pop()
+
+        def _is_heading(flow):
+            return (isinstance(flow, Paragraph)
+                    and getattr(flow.style, "name", "")
+                    in {"H1", "H2", "H3", "H4"})
+
+        pair_with_heading = (
+            len(recent) in (1, 2)
+            and _is_heading(recent[0])
+            and (len(recent) == 1 or isinstance(recent[1], Paragraph))
+        )
+
+        if pair_with_heading:
+            # Heading at the top of a fresh page, image filling the rest.
+            if last_break is None:
+                self.out.insert(0, PageBreak())
+            img = sized_image(url, self.manifest, max_w_in=7.2, max_h_in=9.0)
+            img.hAlign = "CENTER"
+            self.out.append(Spacer(1, 4))
+            self.out.append(img)
+            self._append_pagebreak()
+            return
+
+        # Default: image gets its own full page.
         img = sized_image(url, self.manifest, max_w_in=7.2, max_h_in=9.8)
         img.hAlign = "CENTER"
-        self.out.append(PageBreak())
+        self._append_pagebreak()
         self.out.append(img)
-        self.out.append(PageBreak())
+        self._append_pagebreak()
 
 
 # --- public API ------------------------------------------------------------
