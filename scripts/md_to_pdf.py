@@ -504,26 +504,17 @@ class BlockRenderer:
 
     def _emit_image(self, img_node: dict) -> None:
         url = img_node.get("attrs", {}).get("url") or img_node.get("url", "")
-        alt = _cell_text(img_node.get("children", []))
         if not url:
             return
-        # Tactical maps render full-page on their own page: page break before,
-        # image sized to fill the 7.2" x 9.8" printable area while preserving
-        # aspect ratio, page break after, no caption. The encounter heading on
-        # the prior page already names the map. Trigger is alt-text prefix.
-        if alt.startswith("Tactical Map"):
-            img = sized_image(url, self.manifest, max_w_in=7.2, max_h_in=9.8)
-            img.hAlign = "CENTER"
-            self.out.append(PageBreak())
-            self.out.append(img)
-            self.out.append(PageBreak())
-            return
-        if self.section == "player-handouts":
-            img = sized_image(url, self.manifest, max_w_in=6.5, max_h_in=7.5)
-        else:
-            img = sized_image(url, self.manifest, max_w_in=5.5, max_h_in=4.0)
+        # Every image renders full-page on its own 8.5"x11" sheet: page break
+        # before, image sized to fill the 7.2" x 9.8" printable area while
+        # preserving aspect ratio, page break after, no caption. The
+        # surrounding heading already names the subject.
+        img = sized_image(url, self.manifest, max_w_in=7.2, max_h_in=9.8)
         img.hAlign = "CENTER"
-        self.out.append(KeepTogether([img, Paragraph(_esc(alt), CAPTION)]))
+        self.out.append(PageBreak())
+        self.out.append(img)
+        self.out.append(PageBreak())
 
 
 # --- public API ------------------------------------------------------------

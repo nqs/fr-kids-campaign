@@ -122,11 +122,11 @@ ReportLab build rules (these describe what `scripts/md_to_pdf.py` already implem
   - `paragraph` → body Paragraph (preserve inline `em` / `strong` / `code`)
   - `list` → `ListFlowable` of bullet or numbered items
   - `table` → ReportLab `Table` with the standard grid style; tables matching tracker patterns get the special styling described in the Combat Tracker section
-  - `image` (`![alt](url)`) → stream the URL into a `BytesIO` with `urllib` or `requests` and emit `Image()` sized from the captured aspect ratio (see `images.json` below). No PIL/Pillow.
+  - `image` (`![alt](url)`) → stream the URL into a `BytesIO` with `urllib` or `requests` and emit a **full-page** `Image()` — a page break before and after, sized to fill the printable area of an 8.5"×11" page while preserving the captured aspect ratio (see `images.json` below). No PIL/Pillow. **Every image renders full-page** — portraits, monster art, location scenes, and tactical maps alike. There is no inline / thumbnail variant.
   - `block_code` (fenced) → preformatted Paragraph in a monospace style
   - `block_quote` → indented body Paragraph
 - **Checkbox glyphs.** Whenever a paragraph or table cell contains `☐`, the renderer replaces each glyph with a small empty bordered cell. Times-Roman does not carry `☐` and falls back to a filled square. Do not register a substitute font; replace at render time so the boxes are crisp and consistently sized.
-- **Image sizing.** Step 4 already captures `{description, url, aspect_ratio}` for each image. Persist that list as `images/images.json` in the session folder so the renderer can size each `Image()` without re-querying Gemini. Lookup is by URL; if a URL isn't found, fall back to a 4:3 default and warn.
+- **Image sizing.** Every image renders **full-page on an 8.5"×11" sheet** — page break before, page break after, sized to fill the printable area while preserving aspect ratio. This applies uniformly to portraits, monster art, location scenes, and tactical maps. Step 4 captures `{description, url, aspect_ratio}` for each image; persist that list as `images/images.json` in the session folder so the renderer can letterbox correctly without re-querying Gemini. Lookup is by URL; if a URL isn't found, fall back to a 4:3 default and warn. Generate every image at high enough resolution to print at full 8.5"×11" size — portraits and scene art at the same resolution tier as tactical maps.
 - **Output:** single PDF at `sessions/session <N>/<adventure-slug>.pdf` (the slug is derived from `<slug>-1-adventure.md`).
 - **Run:** from the repo root, `.venv/bin/python scripts/build_pdf.py [<session-number-or-folder>]`. With no argument it builds the latest session; pass `3` or `"sessions/session 3"` to target a specific one. Optional `--title` and `--out` flags override the auto-detected title and output path. Tell the user the PDF path on completion; the user opens it themselves in Obsidian or Finder.
 - **Dependencies:** `mistune` and `reportlab`, installed into a project venv at `.venv/`. If the venv is missing, create it once with `python3 -m venv .venv && .venv/bin/python -m pip install mistune reportlab`. Do not install into the system Python (Homebrew Python is PEP 668 externally-managed).
@@ -145,9 +145,9 @@ ReportLab build rules (these describe what `scripts/md_to_pdf.py` already implem
 
 All images come from `generate_image_gemini`. Write rich, specific prompts (>15 words) that name the subject, mood, color palette, and style. Always work with the returned URL, never the base64 payload.
 
-- **Tactical / encounter maps**: Top-down, print-optimized (minimal background clutter, high contrast). Include a scale indicator, N-arrow, and room/area labels. Use `aspect_ratio="4:3"` for landscape or `aspect_ratio="3:4"` for portrait. Sized to fill an 8.5"×11" page — every tactical map renders as a full page in the combat tracker, so generate them at high enough resolution to print at full size. Tactical maps belong to **File 2 only** (the combat tracker). Never embed them in File 1 (adventure narrative) or File 3 (player handouts) — players should not see the encounter layout.
-- **Portraits**: `aspect_ratio="3:4"`, painterly fantasy style, neutral background. Must match the text description exactly — armor, species, distinguishing features, attitude.
-- **Location art**: `aspect_ratio="16:9"` for scene/landscape illustrations.
+- **Tactical / encounter maps**: Top-down, print-optimized (minimal background clutter, high contrast). Include a scale indicator, N-arrow, and room/area labels. Use `aspect_ratio="4:3"` for landscape or `aspect_ratio="3:4"` for portrait. Like every image, the map renders full-page on an 8.5"×11" sheet — generate at print-grade resolution. Tactical maps belong to **File 2 only** (the combat tracker). Never embed them in File 1 (adventure narrative) or File 3 (player handouts) — players should not see the encounter layout.
+- **Portraits**: `aspect_ratio="3:4"`, painterly fantasy style, neutral background. Must match the text description exactly — armor, species, distinguishing features, attitude. Generated at full-page resolution — every portrait prints on its own 8.5"×11" page in the handout appendix.
+- **Location art**: `aspect_ratio="16:9"` for scene/landscape illustrations. Generated at full-page resolution — every location scene prints on its own 8.5"×11" page (letterboxed top/bottom to preserve aspect).
 
 Never use any built-in vector drawing tool or any Python-drawn graphics for adventure art. Maps, portraits, and scene art come from Gemini only.
 
@@ -156,6 +156,7 @@ Never use any built-in vector drawing tool or any Python-drawn graphics for adve
 - Lead with a summary block: **Title, Tier, Duration, Setting**.
 - Use clear headers and styled body text via ReportLab Platypus paragraph styles.
 - Images flow through naturally from the markdown — the renderer does not insert images that aren't already in the source files. File 1 carries at most one establishing location illustration; every other portrait, monster, and scene image renders inside the handout appendix (File 3) where each appears under its own subheading. Tactical maps render full-page from File 2 only.
+- **Every image renders full-page (8.5"×11").** The renderer page-breaks before and after each `![alt](url)` and sizes the image to fill the printable area while preserving its aspect ratio. There is no inline / shrunken variant — portraits, monster art, location scenes, and tactical maps all print at full-page size.
 - Images stream from their Gemini URLs into memory at PDF build time — no local caching required.
 - Final PDF output goes to `sessions/session <N>/<adventure-slug>.pdf`. The user opens it in Obsidian or Finder; do not attempt to invoke a presentation tool.
 
@@ -203,8 +204,7 @@ For each combat encounter in the adventure, generate:
 - Notes write-in box (resources spent, persisting conditions, XP awarded).
 
 **3. Stat-block cards** for every unique non-PC combatant in that encounter:
-- Portrait thumbnail when one exists in the inline image set; omit cleanly when none.
-- Title + type/alignment line + CR (XP).
+- Title + type/alignment line + CR (XP). (No portrait on the card itself — every portrait renders on its own full page in the handout appendix, and stat-block cards stay compact for table use.)
 - AC / HP / Speed; ability scores; saves, skills, senses, languages.
 - Traits — write innate spellcasting as `1× spell · 1× spell · 1× spell` so the DM strikes uses inline rather than relying on a checkbox glyph.
 - Spellcasting block with **slot tick boxes per spell level** (1st/2nd/3rd…), DC, attack modifier.
@@ -219,7 +219,7 @@ If a creature type appears in multiple encounters, **reprint** its card under ea
 In `<slug>-2-combat-tracker.md`, render each encounter as:
 
 - A level-2 heading (`## Encounter N — <name>`) plus an italic line with scene reference and difficulty.
-- A **tactical map** image immediately under the heading, on its own line: `![Tactical Map — <encounter name>](<url>)`. The alt text **must** start with `Tactical Map` — that prefix is the renderer's signal to render it as a full-page image (page break before and after, sized to fill the printable area).
+- A **tactical map** image immediately under the heading, on its own line: `![Tactical Map — <encounter name>](<url>)`. The alt text starts with `Tactical Map` so the encounter section is self-labeling; the renderer prints it full-page like every other image (page break before and after, sized to fill the printable area).
 - A small key/value table for **Location**, **Light**, **Terrain**.
 - A round strip line: `**Round:** ☐ 1 · ☐ 2 · ☐ 3 · …` through 10.
 - An **Initiative & Damage** markdown table with pre-filled NPC rows interleaved with blank PC rows (`__` / `_________________`) per the *Initiative table layout* rules below. Render HP as `<total>: ☐☐☐☐☐ ☐☐☐☐☐ …` (5 HP per box, ceiling-rounded).
@@ -254,8 +254,8 @@ The combat tracker section of the PDF is rendered by `md_to_pdf.py` directly fro
 
 - A markdown table whose header row is `Init | Combatant | AC | HP | Notes` becomes the **initiative table**: alternating row shading, fixed column widths. Each HP cell text matching `<n>: <runs of ☐>` is split — the integer is left-aligned as a label (`HP 78`), and the `☐` runs are replaced with bordered tick boxes (5 HP per box).
 - A paragraph beginning `**Round:**` followed by `☐ N · ☐ N …` becomes the **round strip**: a row of bordered numbered tick boxes, one per round 1–10.
-- A level-3 heading naming a creature, followed by a key/value block (`AC`, `HP`, `Speed`, ability scores, traits, actions), becomes a **stat-block card** with parchment background and a thin accent border. If the card text contains a markdown image, it renders as a portrait thumbnail at the top.
-- An image whose alt text begins with `Tactical Map` becomes a **full-page tactical map**: a page break is inserted before, the image is sized to fill the printable area while preserving aspect ratio, and a page break follows. No caption is rendered (the encounter heading above already names it).
+- A level-3 heading naming a creature, followed by a key/value block (`AC`, `HP`, `Speed`, ability scores, traits, actions), becomes a **stat-block card** with parchment background and a thin accent border. Stat-block cards never embed images — portraits print on their own full pages in the handout appendix.
+- **Every `![alt](url)` image renders full-page**, including tactical maps: a page break is inserted before, the image is sized to fill the printable area while preserving aspect ratio, and a page break follows. No caption is rendered (the surrounding heading already names it).
 - A line of `☐` glyphs inside a Spellcasting block (e.g., `1st: ☐ ☐ ☐`) becomes a row of spell-slot tick boxes, one per slot.
 - A `### Notes` or `### Concentration / Ongoing Effects` section whose body is a sequence of underscore lines (`______`) renders as a bordered write-in box with the right number of blank lines.
 
@@ -270,7 +270,7 @@ These rules are **single-pass and pattern-based** — the renderer recognizes sh
 - Stat-block cards use a parchment background and a thin accent border to distinguish them visually from narrative content.
 - Initiative tables alternate row shading lightly to keep rows scannable.
 - Single-encounter trackers should fit on one page when feasible. Boss-tier encounters with 5+ combatants and multiple triggers may flow to a second page; do not compress to fit.
-- **Tactical maps always print full-page on their own page**, regardless of encounter complexity. They are the first page of each encounter section in the printed tracker and are never resized to share a page with the tracker sheet or stat-block cards.
+- **Every image — tactical maps, portraits, monster art, location scenes — prints full-page on its own 8.5"×11" sheet**, regardless of context. Images are never resized to share a page with text, tables, or other images. The renderer inserts a page break before and after each `![alt](url)` automatically.
 
 ### Reuse across sessions
 
