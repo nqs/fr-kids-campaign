@@ -347,6 +347,7 @@ class BlockRenderer:
         self._h1_seen = False
         self._h2_seen_in_section = False
         self._after_stat_label = False
+        self._last_was_map = False  # True after a tactical map image; cleared on next ---
         self.out: list = []
         if font_scale == 1.0:
             self.body = BODY
@@ -416,9 +417,13 @@ class BlockRenderer:
             self.out.append(Paragraph(text, H4))
 
     def _h_thematic_break(self, node: dict) -> None:
-        # Used as a separator. Tracker between encounters/cards already gets
-        # PageBreak from H2 handling, so a thin spacer is enough here.
-        self.out.append(Spacer(1, 6))
+        if self._last_was_map:
+            # The --- immediately after a tactical map is the hard page break
+            # separating the map's dedicated page from the tracker sheet.
+            self._append_pagebreak()
+            self._last_was_map = False
+        else:
+            self.out.append(Spacer(1, 6))
 
     def _h_paragraph(self, node: dict) -> None:
         children = node.get("children", [])
@@ -427,6 +432,7 @@ class BlockRenderer:
             self._emit_image(children[0])
             self._after_stat_label = False
             return
+        self._last_was_map = False
         text = _para_plain_text(node)
         if _is_checkbox_strip(text):
             self.out.append(_render_checkbox_strip(text))
@@ -568,6 +574,23 @@ class BlockRenderer:
         if not url:
             return
 
+        # Tactical maps in the combat tracker always get their own dedicated
+        # full page — never bound to a heading via KeepTogether. A PageBreak
+        # is inserted before the image to start a fresh page, and the ---
+        # immediately following the image (handled by _h_thematic_break) adds
+        # the closing PageBreak that separates the map page from the tracker.
+        alt = (img_node.get("attrs", {}).get("alt", "")
+               or _cell_text(img_node.get("children", [])))
+        if self.section == "combat-tracker" and alt.startswith("Tactical Map"):
+            self._append_pagebreak()
+            img = sized_image(url, self.manifest, max_w_in=7.2, max_h_in=9.8)
+            img.hAlign = "CENTER"
+            self.out.append(img)
+            self._last_was_map = True
+            return
+
+        self._last_was_map = False
+
         # Look back, skipping trailing decorative flowables, for a heading
         # (optionally with one short intro paragraph between heading and
         # image). If found, bind the heading and image into a `KeepTogether`
@@ -649,8 +672,10 @@ def build_pdf(md_files: list[str | Path], images_json: str | Path,
         font_scale = float(meta.get("font_scale", 1.0))
         ast = parser(text)
         renderer = BlockRenderer(manifest, section,
-                                 first_h1_pagebreak=(i > 0),
+                                 first_h1_pagebreak=False,
                                  font_scale=font_scale)
+        if i > 0 and story:
+            story.append(PageBreak())
         story.extend(renderer.render(ast))
     out = Path(out_path)
     doc = SimpleDocTemplate(
