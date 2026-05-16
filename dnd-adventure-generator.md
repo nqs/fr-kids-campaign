@@ -30,6 +30,7 @@ Stay in this loop until the user explicitly says to move to images. Don't jump t
 ### 4. Image Generation
 
 Once the user approves moving to images, plan what's needed:
+- A **title page illustration** of the adventure's primary setting (required — one per adventure)
 - A portrait for each major NPC or monster
 - A top-down map for **every combat encounter** (required — do not skip any)
 - A scene/landscape illustration for each major location
@@ -69,11 +70,19 @@ section: <main-body|combat-tracker|player-handouts|dm-quick-ref>
 
 The adventure file may add `tier`, `party_level`, and `duration` keys. Inline images use standard markdown `![Caption](https://…)` referencing the Gemini URLs from Step 4 — never download or rehost. Use vanilla Obsidian markdown (tables, headers, lists, fenced code). Do not use Fantasy Statblocks or Admonition syntax unless the user has explicitly asked for them; the print/export pipelines assume plain markdown.
 
-**File 1 — `<slug>-1-adventure.md`:** lead with a summary table (**Title, Tier, Duration, Setting, Hook From**), then the adventure narrative — summary, scenes, encounters, NPCs, treasure, loose ends. **File 1 contains no images.** Do not embed any inline images anywhere in this file — no portraits, no monster art, no scene illustrations, no maps. All imagery lives in File 2 (maps) or File 3 (everything else).
+**File 1 — `<slug>-1-adventure.md`:** opens with a **full-page title page**, then the adventure narrative — summary, scenes, encounters, NPCs, treasure, loose ends.
+
+The title page is the **only image in File 1**. Structure it as:
+1. A level-1 heading with the adventure title (`# <Title>`).
+2. A compact summary table with two columns (label / value) covering **Tier**, **Party Level**, **Duration**, **Setting**, and **Hook From**.
+3. The title page illustration on its own line: `![Title Page — <Adventure Title>](<url>)`. Use the `3:4` portrait-orientation setting illustration generated in Step 4 — it fills an 8.5"×11" portrait page cleanly. The renderer places the heading + summary table on the page, then the image fills the next full page, producing a two-page title spread.
+4. A `---` thematic break after the image to signal the end of the title page before the narrative begins.
+
+No other images appear anywhere else in File 1 — no portraits, no monster art, no scene illustrations, no additional maps. The title page illustration URL is reused in File 3 under its location section; the `images.json` entry is not duplicated. All other imagery lives in File 2 (maps) or File 3 (everything else).
 
 **File 2 — `<slug>-2-combat-tracker.md`:** for every combat encounter: a **dedicated full-page tactical map** followed by a hard page break, then the tracker sheet and stat-block cards described in the Combat Tracker section below. A tactical map is **required** for every combat encounter — do not author a combat encounter entry without one. Tracker sheets and stat-block cards are expressed as markdown tables. HP boxes, round counters, and spell slots use the `☐` glyph (Obsidian renders it; the PDF font does not — see PDF rules).
 
-**File 3 — `<slug>-3-player-handouts.md`:** opens with a **"Where We Left Off" recap page** (see the **Session Recap Page** section below), then **every non-tactical image generated in Step 4** — NPC portraits, monster art, location scenes — each under its own `##` heading naming the subject. One image per section. This file is the **sole home** for adventure imagery: because File 1 carries no images, every portrait, monster, and location illustration the players ever see is here. **Tactical / encounter maps never appear in this file** — they live in File 2 (combat tracker) so the DM keeps them table-side without revealing the encounter layout to the players.
+**File 3 — `<slug>-3-player-handouts.md`:** opens with a **"Where We Left Off" recap page** (see the **Session Recap Page** section below), then **every non-tactical image generated in Step 4** — NPC portraits, monster art, location scenes — each under its own `##` heading naming the subject. One image per section. This file is the **sole home** for player-facing adventure imagery: the title page illustration URL is reused here under its location section (File 1 holds the only other copy), and every portrait, monster, and location illustration the players ever see is here. **Tactical / encounter maps never appear in this file** — they live in File 2 (combat tracker) so the DM keeps them table-side without revealing the encounter layout to the players.
 
 **File 4 — `<slug>-4-dm-quick-ref.md`:** print-and-keep-at-the-table cheat sheet. Tables and short bulleted lists only — no narrative. See the **DM Quick Reference** section below for the contents and structure.
 
@@ -146,6 +155,7 @@ ReportLab build rules (these describe what `scripts/md_to_pdf.py` already implem
 
 All images come from `generate_image_gemini`. Write rich, specific prompts (>15 words) that name the subject, mood, color palette, and style. Always work with the returned URL, never the base64 payload.
 
+- **Title page illustration**: `aspect_ratio="3:4"` — a portrait-orientation establishing shot of the adventure's primary setting (dungeon entrance, city skyline, wilderness expanse, etc.). Generated at full-page resolution so it fills one 8.5"×11" page cleanly. This is the **only image placed in File 1**; the same URL is reused in File 3 under the matching location section (not duplicated in `images.json`). Generate this first, before any other images.
 - **Tactical / encounter maps**: Top-down, print-optimized (minimal background clutter, high contrast). Include a scale indicator, N-arrow, and room/area labels. Use `aspect_ratio="4:3"` for landscape or `aspect_ratio="3:4"` for portrait. **Always generate at full-page resolution** — every map prints at full 8.5"×11" size, one map per page, with no surrounding content crowding it. A map is **required for every combat encounter** — generate it in Step 4 before authoring File 2. Tactical maps belong to **File 2 only** (the combat tracker). Never embed them in File 1 (adventure narrative) or File 3 (player handouts) — players should not see the encounter layout.
 - **Portraits**: `aspect_ratio="3:4"`, painterly fantasy style, neutral background. Must match the text description exactly — armor, species, distinguishing features, attitude. Generated at full-page resolution — every portrait renders at full-page size in the handout appendix.
 - **Location art**: `aspect_ratio="16:9"` for scene/landscape illustrations. Generated at full-page resolution — every location scene renders at full-page width; following content flows into the space below.
@@ -156,7 +166,7 @@ Never use any built-in vector drawing tool or any Python-drawn graphics for adve
 
 - Lead with a summary block: **Title, Tier, Duration, Setting**.
 - Use clear headers and styled body text via ReportLab Platypus paragraph styles.
-- Images flow through from the markdown only — the renderer does not insert images that aren't already in the source files. File 1 carries no images. Every portrait, monster art, and scene illustration renders inside the handout appendix (File 3), each under its own subheading. Tactical maps render full-page from File 2 only, each on its own dedicated page followed by a hard page break before the tracker sheet.
+- Images flow through from the markdown only — the renderer does not insert images that aren't already in the source files. File 1 carries exactly one image: the title page illustration, which renders full-page immediately after the title heading and summary table, followed by a `---` page break before the narrative begins. Every portrait, monster art, and remaining scene illustration renders inside the handout appendix (File 3), each under its own subheading. Tactical maps render full-page from File 2 only, each on its own dedicated page followed by a hard page break before the tracker sheet.
 - **Every image renders full-page (8.5"×11").** The renderer page-breaks before and after each `![alt](url)` and sizes the image to fill the printable area while preserving its aspect ratio. There is no inline / shrunken variant — portraits, monster art, location scenes, and tactical maps all print at full-page size.
 - Images stream from their Gemini URLs into memory at PDF build time — no local caching required.
 - Final PDF output goes to `sessions/session <N>/<adventure-slug>.pdf`. The user opens it in Obsidian or Finder; do not attempt to invoke a presentation tool.
