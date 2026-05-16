@@ -46,7 +46,8 @@ H3 = ParagraphStyle("H3", parent=_ss["Heading3"], fontName="Times-BoldItalic",
 H4 = ParagraphStyle("H4", parent=_ss["Heading4"], fontName="Times-Bold",
     fontSize=11, leading=14, textColor=INK, spaceBefore=4, spaceAfter=2)
 BODY = ParagraphStyle("Body", parent=_ss["BodyText"], fontName="Times-Roman",
-    fontSize=10.5, leading=14, textColor=INK, alignment=TA_JUSTIFY, spaceAfter=6)
+    fontSize=10.5, leading=14, textColor=INK, alignment=TA_JUSTIFY, spaceAfter=6,
+    allowWidows=0, allowOrphans=0)
 BODY_LEFT = ParagraphStyle("BodyL", parent=BODY, alignment=TA_LEFT)
 BULLET = ParagraphStyle("Bul", parent=BODY, leftIndent=30, bulletIndent=20,
     bulletFontName="Times-Roman", bulletFontSize=10, alignment=TA_LEFT, spaceAfter=2)
@@ -395,8 +396,13 @@ class BlockRenderer:
                 self.in_stat_cards = True
             self.out.append(Paragraph(text, H1))
         elif level == 2:
-            wants_break = self.section in ("combat-tracker", "player-handouts")
-            if wants_break and self._h2_seen_in_section:
+            # Combat-tracker encounters carry a full tracker sheet under each
+            # H2 — force each onto its own page boundary. Adventure and
+            # player-handouts let H2 sections flow naturally so short
+            # entries (e.g., a landscape-image handout followed by another
+            # landscape-image handout) can share a page rather than leaving
+            # half-empty bottoms.
+            if self.section == "combat-tracker" and self._h2_seen_in_section:
                 self._append_pagebreak()
             self._h2_seen_in_section = True
             self.out.append(Paragraph(text, H2))
@@ -503,61 +509,89 @@ class BlockRenderer:
     # -- image emission -----------------------------------------------------
 
     def _append_pagebreak(self) -> None:
-        """Append a PageBreak unless the previous flowable is already one.
-        Avoids double-break blank pages and leading blank pages."""
+        """Append a PageBreak unless one is already effective at this point.
+
+        Skips when the last flowable is a PageBreak *or* when only decorative
+        flowables (Spacer / HRFlowable) sit between us and the previous
+        PageBreak — those don't add page content, so another break would
+        produce a blank page. Also skips on an empty `out` to avoid a leading
+        blank page."""
         if not self.out:
             return
-        if isinstance(self.out[-1], PageBreak):
-            return
+        for f in reversed(self.out):
+            if isinstance(f, PageBreak):
+                return
+            if isinstance(f, (Spacer, HRFlowable)):
+                continue
+            break
         self.out.append(PageBreak())
+
+    @staticmethod
+    def _is_heading_flow(flow) -> bool:
+        return (isinstance(flow, Paragraph)
+                and getattr(flow.style, "name", "")
+                in {"H1", "H2", "H3", "H4"})
+
+    @staticmethod
+    def _is_short_intro_flow(flow) -> bool:
+        """A short body paragraph that likely belongs to the preceding heading
+        (e.g. the italic scene-reference line under a combat-tracker H2)."""
+        if not isinstance(flow, Paragraph):
+            return False
+        if getattr(flow.style, "name", "") in {"H1", "H2", "H3", "H4"}:
+            return False
+        try:
+            text = flow.getPlainText()
+        except Exception:
+            return False
+        return len(text) <= 300
 
     def _emit_image(self, img_node: dict) -> None:
         url = img_node.get("attrs", {}).get("url") or img_node.get("url", "")
         if not url:
             return
-        # If the only content emitted since the last PageBreak is a heading
-        # (optionally followed by one short intro paragraph — e.g. the italic
-        # scene-reference line under a combat-tracker H2), pair the heading
-        # with this image on the same page so the heading isn't orphaned on a
-        # near-empty page. Otherwise the image takes a full page on its own.
-        last_break = None
-        for i in range(len(self.out) - 1, -1, -1):
-            if isinstance(self.out[i], PageBreak):
-                last_break = i
-                break
-        recent_start = (last_break + 1) if last_break is not None else 0
-        recent = list(self.out[recent_start:])
-        while recent and isinstance(recent[-1], (Spacer, HRFlowable)):
-            recent.pop()
 
-        def _is_heading(flow):
-            return (isinstance(flow, Paragraph)
-                    and getattr(flow.style, "name", "")
-                    in {"H1", "H2", "H3", "H4"})
+        # Look back, skipping trailing decorative flowables, for a heading
+        # (optionally with one short intro paragraph between heading and
+        # image). If found, bind the heading and image into a `KeepTogether`
+        # so ReportLab keeps them on the same page — preventing orphaned
+        # headings on otherwise-empty pages.
+        end = len(self.out) - 1
+        while end >= 0 and isinstance(self.out[end], (Spacer, HRFlowable)):
+            end -= 1
 
-        pair_with_heading = (
-            len(recent) in (1, 2)
-            and _is_heading(recent[0])
-            and (len(recent) == 1 or isinstance(recent[1], Paragraph))
-        )
+        heading_idx = None
+        if end >= 0 and self._is_heading_flow(self.out[end]):
+            heading_idx = end
+        elif end >= 0 and self._is_short_intro_flow(self.out[end]):
+            prev = end - 1
+            while prev >= 0 and isinstance(self.out[prev], (Spacer, HRFlowable)):
+                prev -= 1
+            if prev >= 0 and self._is_heading_flow(self.out[prev]):
+                heading_idx = prev
 
-        if pair_with_heading:
-            # Heading at the top of a fresh page, image filling the rest.
-            if last_break is None:
-                self.out.insert(0, PageBreak())
-            img = sized_image(url, self.manifest, max_w_in=7.2, max_h_in=9.0)
+        if heading_idx is not None:
+            # Pull the heading (and anything between it and the image) into a
+            # KeepTogether group with the image. Image sized to leave room for
+            # the heading (and any intro paragraph that may wrap) at the top
+            # of the page — max 7.2"×8.5" leaves ~1.3" for heading content,
+            # comfortably under the 9.8" printable height.
+            bound = list(self.out[heading_idx:])
+            del self.out[heading_idx:]
+            img = sized_image(url, self.manifest, max_w_in=7.2, max_h_in=8.5)
             img.hAlign = "CENTER"
-            self.out.append(Spacer(1, 4))
-            self.out.append(img)
-            self._append_pagebreak()
+            bound.extend([Spacer(1, 4), img])
+            self.out.append(KeepTogether(bound))
             return
 
-        # Default: image gets its own full page.
+        # No pairing — image flows naturally. ReportLab page-breaks before
+        # it if the image doesn't fit in the remaining space (a portrait
+        # image won't squeeze into a couple of inches at the bottom of a
+        # text page), but a landscape image that does fit will render below
+        # preceding text instead of forcing a near-empty page.
         img = sized_image(url, self.manifest, max_w_in=7.2, max_h_in=9.8)
         img.hAlign = "CENTER"
-        self._append_pagebreak()
         self.out.append(img)
-        self._append_pagebreak()
 
 
 # --- public API ------------------------------------------------------------
