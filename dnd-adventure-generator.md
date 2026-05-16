@@ -69,11 +69,11 @@ section: <main-body|combat-tracker|player-handouts|dm-quick-ref>
 
 The adventure file may add `tier`, `party_level`, and `duration` keys. Inline images use standard markdown `![Caption](https://…)` referencing the Gemini URLs from Step 4 — never download or rehost. Use vanilla Obsidian markdown (tables, headers, lists, fenced code). Do not use Fantasy Statblocks or Admonition syntax unless the user has explicitly asked for them; the print/export pipelines assume plain markdown.
 
-**File 1 — `<slug>-1-adventure.md`:** lead with a summary table (**Title, Tier, Duration, Setting, Hook From**), then the adventure narrative — summary, scenes, encounters, NPCs, treasure, loose ends. Embed inline images immediately after the section they illustrate.
+**File 1 — `<slug>-1-adventure.md`:** lead with a summary table (**Title, Tier, Duration, Setting, Hook From**), then the adventure narrative — summary, scenes, encounters, NPCs, treasure, loose ends. **Do not embed inline images in the narrative** — portraits, monster art, and scene illustrations live exclusively in File 3 (the handout appendix). The single exception is **one establishing scene illustration at the top of the first major location section** to set the visual tone for the adventure. Pick the most evocative main location, place its `16:9` scene image immediately under that location's heading, and stop — no other inline images anywhere in File 1. The same image is also reproduced in File 3 under its location section; the URL is reused, the `images.json` entry is not duplicated.
 
 **File 2 — `<slug>-2-combat-tracker.md`:** the per-encounter **tactical map (full-page, printable)**, tracker sheets, and stat-block cards described in the Combat Tracker section below, expressed as markdown tables. HP boxes, round counters, and spell slots use the `☐` glyph (Obsidian renders it; the PDF font does not — see PDF rules).
 
-**File 3 — `<slug>-3-player-handouts.md`:** opens with a **"Where We Left Off" recap page** (see the **Session Recap Page** section below), then every inline image from File 1 reproduced under its own `##` heading naming the subject (NPC, location, monster, scene art). One image per section. **Tactical / encounter maps never appear in this file** — they live in File 2 (combat tracker) so the DM keeps them table-side without revealing the encounter layout to the players.
+**File 3 — `<slug>-3-player-handouts.md`:** opens with a **"Where We Left Off" recap page** (see the **Session Recap Page** section below), then **every non-tactical image generated in Step 4** — NPC portraits, monster art, location scenes — each under its own `##` heading naming the subject. One image per section. This file is the **sole home** for adventure imagery: because File 1 carries at most one establishing location image, every portrait, monster, and location illustration the players ever see is here. **Tactical / encounter maps never appear in this file** — they live in File 2 (combat tracker) so the DM keeps them table-side without revealing the encounter layout to the players.
 
 **File 4 — `<slug>-4-dm-quick-ref.md`:** print-and-keep-at-the-table cheat sheet. Tables and short bulleted lists only — no narrative. See the **DM Quick Reference** section below for the contents and structure.
 
@@ -155,7 +155,7 @@ Never use any built-in vector drawing tool or any Python-drawn graphics for adve
 
 - Lead with a summary block: **Title, Tier, Duration, Setting**.
 - Use clear headers and styled body text via ReportLab Platypus paragraph styles.
-- Place each image immediately after the text section it illustrates, with a caption.
+- Images flow through naturally from the markdown — the renderer does not insert images that aren't already in the source files. File 1 carries at most one establishing location illustration; every other portrait, monster, and scene image renders inside the handout appendix (File 3) where each appears under its own subheading. Tactical maps render full-page from File 2 only.
 - Images stream from their Gemini URLs into memory at PDF build time — no local caching required.
 - Final PDF output goes to `sessions/session <N>/<adventure-slug>.pdf`. The user opens it in Obsidian or Finder; do not attempt to invoke a presentation tool.
 
