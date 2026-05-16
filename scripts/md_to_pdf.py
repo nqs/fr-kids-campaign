@@ -46,7 +46,8 @@ H3 = ParagraphStyle("H3", parent=_ss["Heading3"], fontName="Times-BoldItalic",
 H4 = ParagraphStyle("H4", parent=_ss["Heading4"], fontName="Times-Bold",
     fontSize=11, leading=14, textColor=INK, spaceBefore=4, spaceAfter=2)
 BODY = ParagraphStyle("Body", parent=_ss["BodyText"], fontName="Times-Roman",
-    fontSize=10.5, leading=14, textColor=INK, alignment=TA_JUSTIFY, spaceAfter=6)
+    fontSize=10.5, leading=14, textColor=INK, alignment=TA_JUSTIFY, spaceAfter=6,
+    allowWidows=0, allowOrphans=0)
 BODY_LEFT = ParagraphStyle("BodyL", parent=BODY, alignment=TA_LEFT)
 BULLET = ParagraphStyle("Bul", parent=BODY, leftIndent=30, bulletIndent=20,
     bulletFontName="Times-Roman", bulletFontSize=10, alignment=TA_LEFT, spaceAfter=2)
@@ -388,16 +389,21 @@ class BlockRenderer:
         plain = _para_plain_text(node)
         if level == 1:
             if self.first_h1_pagebreak or self._h1_seen:
-                self.out.append(PageBreak())
+                self._append_pagebreak()
             self._h1_seen = True
             self._h2_seen_in_section = False
             if plain.strip().lower().startswith("stat cards"):
                 self.in_stat_cards = True
             self.out.append(Paragraph(text, H1))
         elif level == 2:
-            wants_break = self.section in ("combat-tracker", "player-handouts")
-            if wants_break and self._h2_seen_in_section:
-                self.out.append(PageBreak())
+            # Combat-tracker encounters carry a full tracker sheet under each
+            # H2 — force each onto its own page boundary. Adventure and
+            # player-handouts let H2 sections flow naturally so short
+            # entries (e.g., a landscape-image handout followed by another
+            # landscape-image handout) can share a page rather than leaving
+            # half-empty bottoms.
+            if self.section == "combat-tracker" and self._h2_seen_in_section:
+                self._append_pagebreak()
             self._h2_seen_in_section = True
             self.out.append(Paragraph(text, H2))
         elif level == 3:
@@ -502,28 +508,90 @@ class BlockRenderer:
 
     # -- image emission -----------------------------------------------------
 
+    def _append_pagebreak(self) -> None:
+        """Append a PageBreak unless one is already effective at this point.
+
+        Skips when the last flowable is a PageBreak *or* when only decorative
+        flowables (Spacer / HRFlowable) sit between us and the previous
+        PageBreak — those don't add page content, so another break would
+        produce a blank page. Also skips on an empty `out` to avoid a leading
+        blank page."""
+        if not self.out:
+            return
+        for f in reversed(self.out):
+            if isinstance(f, PageBreak):
+                return
+            if isinstance(f, (Spacer, HRFlowable)):
+                continue
+            break
+        self.out.append(PageBreak())
+
+    @staticmethod
+    def _is_heading_flow(flow) -> bool:
+        return (isinstance(flow, Paragraph)
+                and getattr(flow.style, "name", "")
+                in {"H1", "H2", "H3", "H4"})
+
+    @staticmethod
+    def _is_short_intro_flow(flow) -> bool:
+        """A short body paragraph that likely belongs to the preceding heading
+        (e.g. the italic scene-reference line under a combat-tracker H2)."""
+        if not isinstance(flow, Paragraph):
+            return False
+        if getattr(flow.style, "name", "") in {"H1", "H2", "H3", "H4"}:
+            return False
+        try:
+            text = flow.getPlainText()
+        except Exception:
+            return False
+        return len(text) <= 300
+
     def _emit_image(self, img_node: dict) -> None:
         url = img_node.get("attrs", {}).get("url") or img_node.get("url", "")
-        alt = _cell_text(img_node.get("children", []))
         if not url:
             return
-        # Tactical maps render full-page on their own page: page break before,
-        # image sized to fill the 7.2" x 9.8" printable area while preserving
-        # aspect ratio, page break after, no caption. The encounter heading on
-        # the prior page already names the map. Trigger is alt-text prefix.
-        if alt.startswith("Tactical Map"):
-            img = sized_image(url, self.manifest, max_w_in=7.2, max_h_in=9.8)
+
+        # Look back, skipping trailing decorative flowables, for a heading
+        # (optionally with one short intro paragraph between heading and
+        # image). If found, bind the heading and image into a `KeepTogether`
+        # so ReportLab keeps them on the same page — preventing orphaned
+        # headings on otherwise-empty pages.
+        end = len(self.out) - 1
+        while end >= 0 and isinstance(self.out[end], (Spacer, HRFlowable)):
+            end -= 1
+
+        heading_idx = None
+        if end >= 0 and self._is_heading_flow(self.out[end]):
+            heading_idx = end
+        elif end >= 0 and self._is_short_intro_flow(self.out[end]):
+            prev = end - 1
+            while prev >= 0 and isinstance(self.out[prev], (Spacer, HRFlowable)):
+                prev -= 1
+            if prev >= 0 and self._is_heading_flow(self.out[prev]):
+                heading_idx = prev
+
+        if heading_idx is not None:
+            # Pull the heading (and anything between it and the image) into a
+            # KeepTogether group with the image. Image sized to leave room for
+            # the heading (and any intro paragraph that may wrap) at the top
+            # of the page — max 7.2"×8.5" leaves ~1.3" for heading content,
+            # comfortably under the 9.8" printable height.
+            bound = list(self.out[heading_idx:])
+            del self.out[heading_idx:]
+            img = sized_image(url, self.manifest, max_w_in=7.2, max_h_in=8.5)
             img.hAlign = "CENTER"
-            self.out.append(PageBreak())
-            self.out.append(img)
-            self.out.append(PageBreak())
+            bound.extend([Spacer(1, 4), img])
+            self.out.append(KeepTogether(bound))
             return
-        if self.section == "player-handouts":
-            img = sized_image(url, self.manifest, max_w_in=6.5, max_h_in=7.5)
-        else:
-            img = sized_image(url, self.manifest, max_w_in=5.5, max_h_in=4.0)
+
+        # No pairing — image flows naturally. ReportLab page-breaks before
+        # it if the image doesn't fit in the remaining space (a portrait
+        # image won't squeeze into a couple of inches at the bottom of a
+        # text page), but a landscape image that does fit will render below
+        # preceding text instead of forcing a near-empty page.
+        img = sized_image(url, self.manifest, max_w_in=7.2, max_h_in=9.8)
         img.hAlign = "CENTER"
-        self.out.append(KeepTogether([img, Paragraph(_esc(alt), CAPTION)]))
+        self.out.append(img)
 
 
 # --- public API ------------------------------------------------------------
