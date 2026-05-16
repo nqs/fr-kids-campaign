@@ -38,13 +38,17 @@ ROW_ALT = HexColor("#f7f1e1")
 
 _ss = getSampleStyleSheet()
 H1 = ParagraphStyle("H1", parent=_ss["Heading1"], fontName="Times-Bold",
-    fontSize=18, leading=22, textColor=ACCENT, spaceBefore=14, spaceAfter=8)
+    fontSize=18, leading=22, textColor=ACCENT, spaceBefore=14, spaceAfter=8,
+    keepWithNext=1)
 H2 = ParagraphStyle("H2", parent=_ss["Heading2"], fontName="Times-Bold",
-    fontSize=14, leading=18, textColor=INK, spaceBefore=10, spaceAfter=4)
+    fontSize=14, leading=18, textColor=INK, spaceBefore=10, spaceAfter=4,
+    keepWithNext=1)
 H3 = ParagraphStyle("H3", parent=_ss["Heading3"], fontName="Times-BoldItalic",
-    fontSize=12, leading=15, textColor=ACCENT, spaceBefore=6, spaceAfter=3)
+    fontSize=12, leading=15, textColor=ACCENT, spaceBefore=6, spaceAfter=3,
+    keepWithNext=1)
 H4 = ParagraphStyle("H4", parent=_ss["Heading4"], fontName="Times-Bold",
-    fontSize=11, leading=14, textColor=INK, spaceBefore=4, spaceAfter=2)
+    fontSize=11, leading=14, textColor=INK, spaceBefore=4, spaceAfter=2,
+    keepWithNext=1)
 BODY = ParagraphStyle("Body", parent=_ss["BodyText"], fontName="Times-Roman",
     fontSize=10.5, leading=14, textColor=INK, alignment=TA_JUSTIFY, spaceAfter=6,
     allowWidows=0, allowOrphans=0)
@@ -462,11 +466,24 @@ class BlockRenderer:
         self._after_stat_label = False
         # Write-in slots: every item is just underscores -> plain ruled lines, no bullets.
         if children and all(_is_ruled_line_item(li) for li in children):
+            box: list = []
             for _ in children:
-                self.out.append(Spacer(1, 4))
-                self.out.append(HRFlowable(width="100%", thickness=0.4,
-                                           color=INK, spaceBefore=0, spaceAfter=0))
-            self.out.append(Spacer(1, 4))
+                box.append(Spacer(1, 4))
+                box.append(HRFlowable(width="100%", thickness=0.4,
+                                      color=INK, spaceBefore=0, spaceAfter=0))
+            box.append(Spacer(1, 4))
+            # If the immediately preceding flowable is a heading, bind it with
+            # the write-in box so the box can't drift away from its heading.
+            # The box is short and predictable, so this is always safe.
+            end = len(self.out) - 1
+            while end >= 0 and isinstance(self.out[end], (Spacer, HRFlowable)):
+                end -= 1
+            if end >= 0 and self._is_heading_flow(self.out[end]):
+                bound = list(self.out[end:]) + box
+                del self.out[end:]
+                self.out.append(KeepTogether(bound))
+            else:
+                self.out.extend(box)
             return
         # Stat-block content under a bold label (Traits / Actions / Reactions /
         # Spellcasting): conventional 5e formatting is labeled paragraphs, no bullets.
