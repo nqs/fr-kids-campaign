@@ -5,30 +5,33 @@ adventure: The Half-Mask Shrine
 section: player-handouts
 ---
 
-# Player Handouts — The Half-Mask Shrine
-
-One image per entry. Show these at the table when the party encounters the person, monster, or location depicted. Maps may be revealed in sections at GM discretion.
-
----
-
-## Where We Left Off
+# Where We Left Off
 
 ![Cold Camp at the Hawthorn Chimney — dawn over the collapsed cleft](https://storage.gemini.mcp.nqs.io/images/60f5f0e4-f00b-49e2-84b6-5a3071987c6a.png)
 
-**Site B is rubble.**
+**Site B is rubble.** You burned a wounded drider and two giant spiders in the chimney shaft and pulled a half-burnt scroll from the fire — *"Close the surface mouths. The Vhaeraun is opening."* — Lolthite handwriting. The cleft itself was sealed by drow magic.
 
-You burned a wounded drider and two giant spiders in the chimney shaft and pulled a half-burnt scroll from the fire:
+**Two drow factions are at war below your feet** — Lolth's people slamming doors shut, Vhaeraun's prying them open. You slept in the wreckage of someone else's purge, and nobody came looking. **Site C is still open.** It's four hours north along the granite shoulder, and you are the only ones who know exactly where it is.
 
-*"Close the surface mouths. The Vhaeraun is opening."* — Lolthite handwriting.
-
-The cleft itself was sealed by drow magic.
-
-**Two drow factions are at war below your feet** — Lolth's slamming doors shut, Vhaeraun's prying them open.
+This morning, **Loric found a folded letter in his pack** — sealed with the thistle-and-ash sigil of Shadowdale, in Brynn Ashford's hand. He doesn't remember it being there when he went to sleep.
 
 ### What Now?
 
-- **Four hours north** along the granite to **Site C** — the last cleft still open.
-- **Watch for tracks.** Someone else may be moving today.
+- **Four hours north** along the granite shoulder to **Site C** — the last open cleft.
+- **Watch for tracks.** Three sets of boot-scuffs in the lichen, moving uphill toward Site C from a different angle than yours. Someone else may be moving today.
+- **The letter is Loric's to share, sit on, or burn.**
+
+---
+
+## Cold Camp at the Hawthorn Chimney
+
+![Cold Camp at the Hawthorn Chimney — dawn over the collapsed cleft](https://storage.gemini.mcp.nqs.io/images/60f5f0e4-f00b-49e2-84b6-5a3071987c6a.png)
+
+---
+
+## The Half-Mask Shrine — Vhaeraunian Altar, Site C
+
+![Title Page — The Half-Mask Shrine](https://storage.gemini.mcp.nqs.io/images/84a68908-190d-468d-9d44-02d89a6fff77.png)
 
 ---
 
@@ -42,13 +45,12 @@ The cleft itself was sealed by drow magic.
 
 *Found the morning of the trek to Site C — a folded paper tucked into Loric's pack, sealed with the thistle-and-ash sigil of Shadowdale. No signature. It was not in his pack when he went to sleep. It was in it when he woke.*
 
-### Where You Know Him From
+**Where You Know Him From**
 
 Lean man in his early thirties. Ink-stained fingers — he writes everything down. Thistle-and-ash badge pinned at the collar of a clean leather doublet. Speaks for **Lady Ulphor** at the Dales Council in Ashabenford and is currently quartered in Shadowdale.
 
 You met him at the briefing in Lady Ulphor's working room before you rode for the Hawthorn Chimney. After the meeting broke, he pulled **Loric** aside privately and revealed — quietly, and without Lady Ulphor's blessing — that **Orvyn Tal is a Harper**. He asked the party to bring its findings to him *before* the Harpers, with a vague offer of "incentivity." Loric made no promise.
 
-> [!quote] The Letter
 > Whatever you find at the third site, I want a sketch and a number before Orvyn does.
 >
 > I am not asking you to lie to him.
@@ -56,7 +58,6 @@ You met him at the briefing in Lady Ulphor's working room before you rode for th
 > I am asking you to choose the door you knock on first.
 
 ---
-
 
 ## The Watcher Above — Drow Scout in the Pine, Quillip's Knothole Below
 
