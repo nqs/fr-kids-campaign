@@ -1,5 +1,5 @@
 ---
-tags: [campaign/session-3, adventure, dnd-5e, shadowdale]
+tags: [campaign/session-3, main-body, dnd-5e]
 session: "003"
 adventure: The Half-Mask Shrine
 section: main-body
@@ -9,15 +9,18 @@ duration: "~3.5–4 hours"
 ---
 
 # The Half-Mask Shrine
-*Session 003 — A Shadowdale Adventure*
 
 | | |
 |---|---|
-| **Title** | The Half-Mask Shrine |
-| **Tier / Level** | Tier 2 — 5 PCs at Level 5 (advance to 6 on completion) |
+| **Tier** | Tier 2 |
+| **Party Level** | 5 PCs at Level 5 (advance to 6 on completion) |
 | **Duration** | ~3.5–4 hours of play |
 | **Setting** | Old Skull's northern flank — Hawthorn Chimney (collapsed) → the granite shoulder → Site C |
 | **Hook From** | Session 002 — *The Second Cleft* (Site B closed; Site C still open) |
+
+![Title Page — The Half-Mask Shrine](https://storage.gemini.mcp.nqs.io/images/84a68908-190d-468d-9d44-02d89a6fff77.png)
+
+---
 
 ## Adventure Summary
 
@@ -138,8 +141,6 @@ A 20 × 40 ft. side chamber separated from the antechamber by a curtain of spide
 ---
 
 ## Scene 6 — The Shrine
-
-![The Shrine Chamber — Site C Interior](https://storage.gemini.mcp.nqs.io/images/3f79f172-3d3b-482a-b304-ea376ab93834.png)
 
 ### Chamber 3 — The Shrine
 A 40 × 50 ft. chamber. A black basalt slab altar at the back, draped with a Vhaeraunian half-mask banner. A **partially-consecrated portal anchor** sits at the chamber's center: a circle of obsidian shards 8 ft. across, half-inscribed with Undercommon glyphs in luminescent silver ink. Khelziir stands at the altar, mid-ritual; Zeldrazz flanks him. Black candles burn on the altar with greenish flames.
