@@ -31,8 +31,6 @@ The session ends with the portal anchor either smashed, stolen for study, or —
 
 ## Scene 1 — Cold Camp at the Hawthorn Chimney
 
-![Cold Camp at the Hawthorn Chimney — dawn over the collapsed cleft](https://storage.gemini.mcp.nqs.io/images/60f5f0e4-f00b-49e2-84b6-5a3071987c6a.png)
-
 ### Setup
 Dawn. Pale light through the hawthorn boughs at Site B. The cleft is collapsed (the drider's death-throes from last session, plus the Lolthite charges that purged the camp), and a film of mist clings to the granite. The party slept here on the assumption that nobody would come looking for them in the wreckage of someone else's purge. They were right. Now it's morning.
 
@@ -72,19 +70,13 @@ Anyone who *additionally* takes a **DC 14 Survival** check on the way up may not
 
 ## Scene 3 — The Watcher Above & The Knothole
 
-![The Watcher Above — Drow scout in the pine, Quillip's knothole below](https://storage.gemini.mcp.nqs.io/images/5c42680f-426d-4760-84d5-eacf8998ca89.png)
-
 ### The Cleft Mouth
 The same cleft mouth from last session's intelligence. A vertical fissure 6 ft. wide and 10 ft. tall in the granite shoulder, breathing cold spider-musk air. Spider-silk threads still cross the opening at ankle and chest height — Khelziir's tripwire chime.
-
-![The Cleft Mouth — Site C Entrance](https://storage.gemini.mcp.nqs.io/images/220830ea-d538-499e-a694-33d49b3d8ae9.png)
 
 ### Encounter — The Watcher
 A single **Drow Scout** is perched in a wind-stunted pine sixty feet above the cleft mouth, brass signal horn slung at her belt. **DC 17 Perception** to spot her before she spots the party. If she sees them first, she **blows the horn before being killed** — Khelziir's cell goes to alert and the antechamber loses its surprise round.
 
 ### The Pixie in the Knothole
-
-![Quillip Burr-and-Whistle — Pixie ally at the Watcher Above](https://storage.gemini.mcp.nqs.io/images/f0be0843-81b5-4ed2-851d-a66dca504923.png)
 
 Lower on the same pine, in a knothole the size of a thumb-tip, **Quillip Burr-and-Whistle** has been hiding for two days, taking pinecone-stack notes on Khelziir's cell. She is invisible by default. She **reveals herself the moment a PC says or does something interesting** — Druidic spoken aloud (Nalith), a shapechange (Fiorn), a true name, a fragment of a real song, an honest greeting addressed to the empty pine.
 
@@ -120,8 +112,6 @@ Once visible, Quillip introduces herself in rhyming couplets and offers a deal. 
 ---
 
 ## Scene 4 — The Antechamber
-
-![Tactical Map — Site C, The Shrine-Camp](https://storage.gemini.mcp.nqs.io/images/c1cfae4b-c9ae-40c7-bf4b-df76d5ff95cb.png)
 
 ### Chamber 1 — The Antechamber
 A 30 × 30 ft. natural cavern with two bedroll piles, a cookfire smoldering in the center, and a weapon rack against the east wall holding three hand crossbows and a sheaf of bolts. **2× Drow Scouts** are on watch — one fletching, one dozing.
@@ -159,11 +149,7 @@ A 40 × 50 ft. chamber. A black basalt slab altar at the back, draped with a Vha
 
 ### The Boss Encounter
 
-![Khelziir Aun'velve — Drow Priest of Vhaeraun](https://storage.gemini.mcp.nqs.io/images/c5e6d783-0e6b-4c49-b337-3341e387b92f.png)
-
 **Khelziir Aun'velve — Drow Priest of Vhaeraun.** Full statline on the combat tracker. He will not break formation from the altar — finishing the ritual matters more than his own survival. **R1:** *spirit guardians* + bonus-action *shield of faith*. **R2:** *silence* on the loudest caster (likely Yinu or Loric). **R3:** *spiritual weapon* (a black blade) and continues consecrating.
-
-![Zeldrazz T'orrl — Drow Elite Warrior, Demoted](https://storage.gemini.mcp.nqs.io/images/c84c4f76-99f8-4d46-8dd0-a1ba14348fff.png)
 
 **Zeldrazz T'orrl — Returning Antagonist.** Drow Elite Warrior reskin. **He has personally targeted Kto** (the PC who delivered the killing-attempt blow last session, confirmed in S1) and will open with poisoned attacks against her. He is protective of Khelziir and will interpose if the priest is engaged in melee.
 
@@ -192,15 +178,11 @@ The party can stop the countdown by:
 
 ## Scene 7 — The Lolthite Crash
 
-![The Lolthite Crash — three raiders erupting into the antechamber](https://storage.gemini.mcp.nqs.io/images/cc584d0a-c649-4a37-98f5-6ecde26833dd.png)
-
 ### Trigger
 **Round 4 of the Shrine fight, OR if the party stalls at the cleft for more than two rounds without engaging.** Use whichever comes first. If the party blocked the crawl-tunnel in the Spider Pen, delay one round.
 
 ### What Happens
 **3× Lolthite Drow Raiders** burst up out of the crawl-tunnel into the Spider Pen and from there into the antechamber. Spider-emblem shields, webbed cloaks, two curved blades each. They are not subtle. They are here to close another surface mouth.
-
-![Lolthite Drow — Elite raider of Lolth](https://storage.gemini.mcp.nqs.io/images/84451266-55a6-43b4-b7b1-34134653c8c8.png)
 
 ### Faction Behavior
 - **The Vhaeraunians prioritize the Lolthites over the party.** Khelziir will break ritual to *bane* or *spirit guardians* the Lolthites; Zeldrazz interposes between the Lolthite line and the altar. Any Vhaeraunian reinforcements that have already stepped through the portal turn on the Lolthites first.
@@ -251,8 +233,6 @@ If the party flees mid-fight, the Shrine continues consecrating overnight and th
 
 ## Scene 9 — Debrief at the Ashaba House
 
-![Lady Ulphor — Keeper of the Pendant of Ashaba](https://storage.gemini.mcp.nqs.io/images/6524d4aa-86f4-46ab-9b81-7c05bfce1fed.png)
-
 ### Setup
 Late afternoon, the day after the cleft. Lady Ulphor's working room. Brynn Ashford is present and taking notes; Orvyn Tal arrives later, summoned or not depending on the party's earlier choice.
 
@@ -262,8 +242,6 @@ Late afternoon, the day after the cleft. Lady Ulphor's working room. Brynn Ashfo
 - **If the party reported only to Lady Ulphor:** both Brynn and Orvyn will follow up privately within the week. The party can defer the choice — but Brynn's letter does not get easier the longer it sits.
 
 ### The Corwick Reconciliation
-
-![Brynn Ashford — Shadowdale's Delegate to the Dales Council](https://storage.gemini.mcp.nqs.io/images/b9105155-7cff-46a0-899c-1707ae26dfd5.png)
 
 Lady Ulphor mentions, almost in passing, that **Captain Helm came to her two nights ago**. They spoke for an hour. He has accepted a private apology from Fiorn (which Fiorn did not actually offer — Lady Ulphor brokered it) and will continue as militia captain. He is **less hostile now**, but the party should understand: *"This cost me something to arrange. I would prefer not to have to do it again."*
 

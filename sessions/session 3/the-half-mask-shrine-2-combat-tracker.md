@@ -325,8 +325,6 @@ Skills Stealth +7 · Senses blindsight 10 ft., darkvision 60 ft., passive Percep
 ## Khelziir Aun'velve — Drow Priest of Vhaeraun
 *Medium humanoid (drow), neutral evil · CR 6 (2,300 XP)*
 
-![Khelziir Aun'velve portrait](https://storage.gemini.mcp.nqs.io/images/c5e6d783-0e6b-4c49-b337-3341e387b92f.png)
-
 | AC | HP | Speed |
 |---|---|---|
 | 16 (chain shirt + shield of faith) | 78 (12d8+24) | 30 ft. |
@@ -360,8 +358,6 @@ Saves WIS +6, CHA +5 · Skills Perception +6, Religion +4, Stealth +5 · Senses 
 
 ## Zeldrazz T'orrl — Drow Elite Warrior (reskinned)
 *Medium humanoid (drow), neutral evil · CR 5 (1,800 XP)*
-
-![Zeldrazz T'orrl portrait](https://storage.gemini.mcp.nqs.io/images/c84c4f76-99f8-4d46-8dd0-a1ba14348fff.png)
 
 | AC | HP | Speed |
 |---|---|---|
@@ -415,8 +411,6 @@ Skills Perception +2, Stealth +4 · Senses darkvision 120 ft., passive Perceptio
 
 ## Lolthite Drow Raider
 *Medium humanoid (elf), chaotic evil · CR 1 (200 XP)*
-
-![Lolthite Drow portrait](https://storage.gemini.mcp.nqs.io/images/84451266-55a6-43b4-b7b1-34134653c8c8.png)
 
 | AC | HP | Speed |
 |---|---|---|
