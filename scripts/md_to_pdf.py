@@ -621,6 +621,8 @@ class BlockRenderer:
             img.hAlign = "CENTER"
             bound.extend([Spacer(1, 4), img])
             self.out.append(KeepTogether(bound))
+            if has_table:
+                self.out.append(PageBreak())
             self._last_was_map = is_tactical_map
             return
 
