@@ -601,11 +601,23 @@ class BlockRenderer:
                 prev -= 1
             if prev >= 0 and self._is_heading_flow(self.out[prev]):
                 heading_idx = prev
+        elif end >= 0 and isinstance(self.out[end], Table):
+            # Cover-page pattern: heading → info table → image.
+            # Look back past the table to bind all three on the same page.
+            prev = end - 1
+            while prev >= 0 and isinstance(self.out[prev], (Spacer, HRFlowable)):
+                prev -= 1
+            if prev >= 0 and self._is_heading_flow(self.out[prev]):
+                heading_idx = prev
 
         if heading_idx is not None:
             bound = list(self.out[heading_idx:])
             del self.out[heading_idx:]
-            img = sized_image(url, self.manifest, max_w_in=7.2, max_h_in=8.5)
+            # When an intro table is included in the bound block, constrain
+            # the image height so the full cover block fits on one page.
+            has_table = any(isinstance(f, Table) for f in bound)
+            img = sized_image(url, self.manifest, max_w_in=7.2,
+                              max_h_in=5.5 if has_table else 8.5)
             img.hAlign = "CENTER"
             bound.extend([Spacer(1, 4), img])
             self.out.append(KeepTogether(bound))
