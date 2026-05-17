@@ -59,7 +59,7 @@ jobs:
       - uses: actions/cache@v5
         with:
           path: ~/.cache/huggingface
-          key: hf-${{ runner.os }}-whisperx-base.en
+          key: hf-${{ runner.os }}-whisperx-large-v2
 
       - name: Find audio files to transcribe
         id: find
@@ -90,6 +90,7 @@ jobs:
         if: steps.find.outputs.count != '0'
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           SKIP_PYENV: '1'
         run: |
           chmod +x ./scripts/transcribe.sh
