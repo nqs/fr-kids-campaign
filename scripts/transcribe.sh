@@ -69,25 +69,35 @@ fi
 WHISPERX_TMPDIR="$(mktemp -d)"
 trap 'rm -rf "$WHISPERX_TMPDIR"' EXIT
 
+MODEL="${WHISPERX_MODEL:-large-v2}"
+
 whisperx "$INPUT" \
-    --model base.en \
+    --model "$MODEL" \
     --diarize \
+    --min_speakers 4 \
+    --max_speakers 7 \
     --hf_token "$HF_TOKEN_VALUE" \
-    --output_format txt \
+    --compute_type int8 \
+    --output_format json \
     --output_dir "$WHISPERX_TMPDIR"
 
 INPUT_STEM="$(basename "$INPUT")"
 INPUT_STEM="${INPUT_STEM%.*}"
 
-TRANSCRIPT="$(cat "$WHISPERX_TMPDIR/${INPUT_STEM}.txt")"
-TRANSCRIBED_AT="$(date -u +"%Y-%m-%dT%H:%M:%SZ")"
+# Discover an optional speaker mapping file next to the audio.
+AUDIO_DIR="$(dirname "$INPUT")"
+if [ -f "${AUDIO_DIR}/speakers.json" ]; then
+    SPEAKERS_ARG="--speakers ${AUDIO_DIR}/speakers.json"
+elif [ -f "${AUDIO_DIR}/speakers.yaml" ]; then
+    SPEAKERS_ARG="--speakers ${AUDIO_DIR}/speakers.yaml"
+else
+    SPEAKERS_ARG=""
+fi
 
-cat > "$OUTPUT" <<MDEOF
----
-source: $(basename "$INPUT")
-transcribed: ${TRANSCRIBED_AT}
-model: base.en
----
-
-${TRANSCRIPT}
-MDEOF
+# shellcheck disable=SC2086
+python "$(dirname "$0")/format_transcript.py" \
+    "$WHISPERX_TMPDIR/${INPUT_STEM}.json" \
+    "$OUTPUT" \
+    --source "$(basename "$INPUT")" \
+    --model "$MODEL" \
+    $SPEAKERS_ARG
