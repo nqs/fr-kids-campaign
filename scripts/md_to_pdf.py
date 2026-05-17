@@ -38,13 +38,17 @@ ROW_ALT = HexColor("#f7f1e1")
 
 _ss = getSampleStyleSheet()
 H1 = ParagraphStyle("H1", parent=_ss["Heading1"], fontName="Times-Bold",
-    fontSize=18, leading=22, textColor=ACCENT, spaceBefore=14, spaceAfter=8)
+    fontSize=18, leading=22, textColor=ACCENT, spaceBefore=14, spaceAfter=8,
+    keepWithNext=1)
 H2 = ParagraphStyle("H2", parent=_ss["Heading2"], fontName="Times-Bold",
-    fontSize=14, leading=18, textColor=INK, spaceBefore=10, spaceAfter=4)
+    fontSize=14, leading=18, textColor=INK, spaceBefore=10, spaceAfter=4,
+    keepWithNext=1)
 H3 = ParagraphStyle("H3", parent=_ss["Heading3"], fontName="Times-BoldItalic",
-    fontSize=12, leading=15, textColor=ACCENT, spaceBefore=6, spaceAfter=3)
+    fontSize=12, leading=15, textColor=ACCENT, spaceBefore=6, spaceAfter=3,
+    keepWithNext=1)
 H4 = ParagraphStyle("H4", parent=_ss["Heading4"], fontName="Times-Bold",
-    fontSize=11, leading=14, textColor=INK, spaceBefore=4, spaceAfter=2)
+    fontSize=11, leading=14, textColor=INK, spaceBefore=4, spaceAfter=2,
+    keepWithNext=1)
 BODY = ParagraphStyle("Body", parent=_ss["BodyText"], fontName="Times-Roman",
     fontSize=10.5, leading=14, textColor=INK, alignment=TA_JUSTIFY, spaceAfter=6,
     allowWidows=0, allowOrphans=0)
@@ -343,6 +347,7 @@ class BlockRenderer:
         self._h1_seen = False
         self._h2_seen_in_section = False
         self._after_stat_label = False
+        self._last_was_map = False  # True after a tactical map image; cleared on next ---
         self.out: list = []
         if font_scale == 1.0:
             self.body = BODY
@@ -412,9 +417,13 @@ class BlockRenderer:
             self.out.append(Paragraph(text, H4))
 
     def _h_thematic_break(self, node: dict) -> None:
-        # Used as a separator. Tracker between encounters/cards already gets
-        # PageBreak from H2 handling, so a thin spacer is enough here.
-        self.out.append(Spacer(1, 6))
+        if self._last_was_map:
+            # The --- immediately after a tactical map is the hard page break
+            # separating the map's dedicated page from the tracker sheet.
+            self._append_pagebreak()
+            self._last_was_map = False
+        else:
+            self.out.append(Spacer(1, 6))
 
     def _h_paragraph(self, node: dict) -> None:
         children = node.get("children", [])
@@ -423,6 +432,7 @@ class BlockRenderer:
             self._emit_image(children[0])
             self._after_stat_label = False
             return
+        self._last_was_map = False
         text = _para_plain_text(node)
         if _is_checkbox_strip(text):
             self.out.append(_render_checkbox_strip(text))
@@ -462,11 +472,24 @@ class BlockRenderer:
         self._after_stat_label = False
         # Write-in slots: every item is just underscores -> plain ruled lines, no bullets.
         if children and all(_is_ruled_line_item(li) for li in children):
+            box: list = []
             for _ in children:
-                self.out.append(Spacer(1, 4))
-                self.out.append(HRFlowable(width="100%", thickness=0.4,
-                                           color=INK, spaceBefore=0, spaceAfter=0))
-            self.out.append(Spacer(1, 4))
+                box.append(Spacer(1, 4))
+                box.append(HRFlowable(width="100%", thickness=0.4,
+                                      color=INK, spaceBefore=0, spaceAfter=0))
+            box.append(Spacer(1, 4))
+            # If the immediately preceding flowable is a heading, bind it with
+            # the write-in box so the box can't drift away from its heading.
+            # The box is short and predictable, so this is always safe.
+            end = len(self.out) - 1
+            while end >= 0 and isinstance(self.out[end], (Spacer, HRFlowable)):
+                end -= 1
+            if end >= 0 and self._is_heading_flow(self.out[end]):
+                bound = list(self.out[end:]) + box
+                del self.out[end:]
+                self.out.append(KeepTogether(bound))
+            else:
+                self.out.extend(box)
             return
         # Stat-block content under a bold label (Traits / Actions / Reactions /
         # Spellcasting): conventional 5e formatting is labeled paragraphs, no bullets.
@@ -551,11 +574,20 @@ class BlockRenderer:
         if not url:
             return
 
+        alt = (img_node.get("attrs", {}).get("alt", "")
+               or _cell_text(img_node.get("children", [])))
+        is_tactical_map = (self.section == "combat-tracker"
+                           and alt.startswith("Tactical Map"))
+
         # Look back, skipping trailing decorative flowables, for a heading
         # (optionally with one short intro paragraph between heading and
         # image). If found, bind the heading and image into a `KeepTogether`
         # so ReportLab keeps them on the same page — preventing orphaned
-        # headings on otherwise-empty pages.
+        # headings on otherwise-empty pages. Tactical maps follow this same
+        # path; their encounter heading + italic line are bound with the map
+        # image (max 7.2"×8.5"), and the `---` that follows the image
+        # (handled by _h_thematic_break) adds the PageBreak that separates
+        # the map+header page from the tracker sheet.
         end = len(self.out) - 1
         while end >= 0 and isinstance(self.out[end], (Spacer, HRFlowable)):
             end -= 1
@@ -569,19 +601,29 @@ class BlockRenderer:
                 prev -= 1
             if prev >= 0 and self._is_heading_flow(self.out[prev]):
                 heading_idx = prev
+        elif end >= 0 and isinstance(self.out[end], Table):
+            # Cover-page pattern: heading → info table → image.
+            # Look back past the table to bind all three on the same page.
+            prev = end - 1
+            while prev >= 0 and isinstance(self.out[prev], (Spacer, HRFlowable)):
+                prev -= 1
+            if prev >= 0 and self._is_heading_flow(self.out[prev]):
+                heading_idx = prev
 
         if heading_idx is not None:
-            # Pull the heading (and anything between it and the image) into a
-            # KeepTogether group with the image. Image sized to leave room for
-            # the heading (and any intro paragraph that may wrap) at the top
-            # of the page — max 7.2"×8.5" leaves ~1.3" for heading content,
-            # comfortably under the 9.8" printable height.
             bound = list(self.out[heading_idx:])
             del self.out[heading_idx:]
-            img = sized_image(url, self.manifest, max_w_in=7.2, max_h_in=8.5)
+            # When an intro table is included in the bound block, constrain
+            # the image height so the full cover block fits on one page.
+            has_table = any(isinstance(f, Table) for f in bound)
+            img = sized_image(url, self.manifest, max_w_in=7.2,
+                              max_h_in=5.5 if has_table else 8.5)
             img.hAlign = "CENTER"
             bound.extend([Spacer(1, 4), img])
             self.out.append(KeepTogether(bound))
+            if has_table:
+                self.out.append(PageBreak())
+            self._last_was_map = is_tactical_map
             return
 
         # No pairing — image flows naturally. ReportLab page-breaks before
@@ -592,6 +634,7 @@ class BlockRenderer:
         img = sized_image(url, self.manifest, max_w_in=7.2, max_h_in=9.8)
         img.hAlign = "CENTER"
         self.out.append(img)
+        self._last_was_map = is_tactical_map
 
 
 # --- public API ------------------------------------------------------------
@@ -632,8 +675,10 @@ def build_pdf(md_files: list[str | Path], images_json: str | Path,
         font_scale = float(meta.get("font_scale", 1.0))
         ast = parser(text)
         renderer = BlockRenderer(manifest, section,
-                                 first_h1_pagebreak=(i > 0),
+                                 first_h1_pagebreak=False,
                                  font_scale=font_scale)
+        if i > 0 and story:
+            story.append(PageBreak())
         story.extend(renderer.render(ast))
     out = Path(out_path)
     doc = SimpleDocTemplate(

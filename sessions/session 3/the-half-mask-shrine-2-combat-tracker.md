@@ -16,6 +16,10 @@ Printable per-encounter sheets and stat-block cards. HP boxes = 5 HP each (cross
 ## Encounter 1 — The Watcher Above
 *Session 003, Scene 3* · **Trivial (skill encounter — DC 17 group Stealth, optional Quillip bargain)**
 
+![Tactical Map — Encounter 1, The Watcher's Pine](https://storage.gemini.mcp.nqs.io/images/b26f7511-e4d8-4b0a-8f73-0c6e8da9fa8c.png)
+
+---
+
 | Field | Detail |
 |---|---|
 | Location | Wind-stunted pine 60 ft. above the cleft mouth, Site C |
@@ -63,7 +67,9 @@ Brass signal horn (key item) · Hand crossbow + 10 bolts · Drow poison ×1 · ~
 ## Encounter 2 — The Antechamber
 *Session 003, Scene 4* · **Easy (~200 XP)**
 
-![Tactical Map — Site C, The Shrine-Camp](https://storage.gemini.mcp.nqs.io/images/c1cfae4b-c9ae-40c7-bf4b-df76d5ff95cb.png)
+![Tactical Map — Encounter 2, The Antechamber](https://storage.gemini.mcp.nqs.io/images/d09e5710-e6f1-4518-b4eb-3b64f50f18ad.png)
+
+---
 
 | Field | Detail |
 |---|---|
@@ -110,9 +116,12 @@ Brass signal horn (key item) · Hand crossbow + 10 bolts · Drow poison ×1 · ~
 
 ---
 
-
 ## Encounter 3 — The Spider Pen
 *Session 003, Scene 5* · **Easy (~200 XP). Optional — only if silk curtain disturbed or chain cut**
+
+![Tactical Map — Encounter 3, The Spider Pen](https://storage.gemini.mcp.nqs.io/images/d36e1cda-178e-46ef-8f59-f84be0cf4d34.png)
+
+---
 
 | Field | Detail |
 |---|---|
@@ -158,6 +167,10 @@ Brass signal horn (key item) · Hand crossbow + 10 bolts · Drow poison ×1 · ~
 
 ## Encounter 4 — The Shrine — Khelziir's Last Ritual
 *Session 003, Scene 6* · **Hard for 5×L5 (~4,400 XP). Becomes Deadly if the portal opens.**
+
+![Tactical Map — Encounter 4, The Shrine](https://storage.gemini.mcp.nqs.io/images/49cba751-e2e4-4f25-a58f-4d81225a3b01.png)
+
+---
 
 | Field | Detail |
 |---|---|
@@ -216,6 +229,10 @@ Khelziir's silver half-mask (Orvyn 200 gp / Ulphor 100 gp) · Spell scroll of *S
 
 ## Encounter 5 — The Lolthite Crash
 *Session 003, Scene 7* · **~600 XP (pressure-valve, not a fresh encounter)**
+
+![Tactical Map — Encounter 5, The Lolthite Crash](https://storage.gemini.mcp.nqs.io/images/55ed9f44-f3a2-4412-a390-a4c2a5c3c673.png)
+
+---
 
 | Field | Detail |
 |---|---|
@@ -325,8 +342,6 @@ Skills Stealth +7 · Senses blindsight 10 ft., darkvision 60 ft., passive Percep
 ## Khelziir Aun'velve — Drow Priest of Vhaeraun
 *Medium humanoid (drow), neutral evil · CR 6 (2,300 XP)*
 
-![Khelziir Aun'velve portrait](https://storage.gemini.mcp.nqs.io/images/c5e6d783-0e6b-4c49-b337-3341e387b92f.png)
-
 | AC | HP | Speed |
 |---|---|---|
 | 16 (chain shirt + shield of faith) | 78 (12d8+24) | 30 ft. |
@@ -360,8 +375,6 @@ Saves WIS +6, CHA +5 · Skills Perception +6, Religion +4, Stealth +5 · Senses 
 
 ## Zeldrazz T'orrl — Drow Elite Warrior (reskinned)
 *Medium humanoid (drow), neutral evil · CR 5 (1,800 XP)*
-
-![Zeldrazz T'orrl portrait](https://storage.gemini.mcp.nqs.io/images/c84c4f76-99f8-4d46-8dd0-a1ba14348fff.png)
 
 | AC | HP | Speed |
 |---|---|---|
@@ -415,8 +428,6 @@ Skills Perception +2, Stealth +4 · Senses darkvision 120 ft., passive Perceptio
 
 ## Lolthite Drow Raider
 *Medium humanoid (elf), chaotic evil · CR 1 (200 XP)*
-
-![Lolthite Drow portrait](https://storage.gemini.mcp.nqs.io/images/84451266-55a6-43b4-b7b1-34134653c8c8.png)
 
 | AC | HP | Speed |
 |---|---|---|
