@@ -53,7 +53,7 @@ source whisper-env/bin/activate
 if ! command -v whisperx >/dev/null 2>&1; then
     echo "whisperx not found in whisper-env; installing..."
     pip install --upgrade pip
-    pip install whisperx
+    pip install whisperx anthropic
 fi
 
 if [ -n "${HF_TOKEN:-}" ]; then
@@ -92,6 +92,18 @@ elif [ -f "${AUDIO_DIR}/speakers.yaml" ]; then
     SPEAKERS_ARG="--speakers ${AUDIO_DIR}/speakers.yaml"
 else
     SPEAKERS_ARG=""
+fi
+
+# Auto-detect speaker names from a roll-call intro if no mapping file exists.
+if [ -z "$SPEAKERS_ARG" ] && [ -n "${ANTHROPIC_API_KEY:-}" ]; then
+    echo "No speakers.json found; attempting auto-detection from intro..."
+    python "$(dirname "$0")/detect_speakers.py" \
+        "$WHISPERX_TMPDIR/${INPUT_STEM}.json" \
+        "$INPUT" || true
+    if [ -f "${AUDIO_DIR}/speakers.json" ]; then
+        SPEAKERS_ARG="--speakers ${AUDIO_DIR}/speakers.json"
+        echo "Auto-detected speaker mapping written to ${AUDIO_DIR}/speakers.json"
+    fi
 fi
 
 # shellcheck disable=SC2086
