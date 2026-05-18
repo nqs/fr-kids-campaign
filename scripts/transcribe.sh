@@ -113,3 +113,14 @@ python "$(dirname "$0")/format_transcript.py" \
     --source "$(basename "$INPUT")" \
     --model "$MODEL" \
     $SPEAKERS_ARG
+
+# Generate a session log from the transcript if ANTHROPIC_API_KEY is available.
+if [ -n "${ANTHROPIC_API_KEY:-}" ]; then
+    SCRIPTS_DIR="$(dirname "$0")"
+    REPO_ROOT="$(cd "$SCRIPTS_DIR/.." && pwd)"
+    python "$SCRIPTS_DIR/update_session_log.py" \
+        "$OUTPUT" \
+        "$INPUT" \
+        --campaign-dir "$REPO_ROOT/campaign" \
+        --sessions-dir "$REPO_ROOT/sessions" || true
+fi
