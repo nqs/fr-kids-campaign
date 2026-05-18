@@ -98,9 +98,11 @@ fi
 # Auto-detect speaker names from a roll-call intro if no mapping file exists.
 if [ -z "$SPEAKERS_ARG" ] && [ -n "${ANTHROPIC_API_KEY:-}" ]; then
     echo "No speakers.json found; attempting auto-detection from intro..."
+    REPO_ROOT="$(cd "$SCRIPTS_DIR/.." && pwd)"
     python "$SCRIPTS_DIR/detect_speakers.py" \
         "$WHISPERX_TMPDIR/${INPUT_STEM}.json" \
-        "$INPUT" || true
+        "$INPUT" \
+        --campaign-dir "$REPO_ROOT/campaign" || true
     if [ -f "${AUDIO_DIR}/speakers.json" ]; then
         SPEAKERS_ARG="--speakers ${AUDIO_DIR}/speakers.json"
         echo "Auto-detected speaker mapping written to ${AUDIO_DIR}/speakers.json"
