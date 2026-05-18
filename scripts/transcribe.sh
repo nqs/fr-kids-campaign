@@ -22,8 +22,9 @@ fi
 INPUT="$(cd "$(dirname "$INPUT")" && pwd)/$(basename "$INPUT")"
 OUTPUT_DIR="$(cd "$(dirname "$OUTPUT")" && pwd)"
 OUTPUT="${OUTPUT_DIR}/$(basename "$OUTPUT")"
+SCRIPTS_DIR="$(cd "$(dirname "$0")" && pwd)"
 
-cd "$(dirname "$0")"
+cd "$SCRIPTS_DIR"
 
 if [ "${SKIP_PYENV:-0}" != "1" ]; then
     if ! command -v pyenv >/dev/null 2>&1; then
@@ -97,9 +98,11 @@ fi
 # Auto-detect speaker names from a roll-call intro if no mapping file exists.
 if [ -z "$SPEAKERS_ARG" ] && [ -n "${ANTHROPIC_API_KEY:-}" ]; then
     echo "No speakers.json found; attempting auto-detection from intro..."
-    python "$(dirname "$0")/detect_speakers.py" \
+    REPO_ROOT="$(cd "$SCRIPTS_DIR/.." && pwd)"
+    python "$SCRIPTS_DIR/detect_speakers.py" \
         "$WHISPERX_TMPDIR/${INPUT_STEM}.json" \
-        "$INPUT" || true
+        "$INPUT" \
+        --campaign-dir "$REPO_ROOT/campaign" || true
     if [ -f "${AUDIO_DIR}/speakers.json" ]; then
         SPEAKERS_ARG="--speakers ${AUDIO_DIR}/speakers.json"
         echo "Auto-detected speaker mapping written to ${AUDIO_DIR}/speakers.json"
@@ -107,7 +110,7 @@ if [ -z "$SPEAKERS_ARG" ] && [ -n "${ANTHROPIC_API_KEY:-}" ]; then
 fi
 
 # shellcheck disable=SC2086
-python "$(dirname "$0")/format_transcript.py" \
+python "$SCRIPTS_DIR/format_transcript.py" \
     "$WHISPERX_TMPDIR/${INPUT_STEM}.json" \
     "$OUTPUT" \
     --source "$(basename "$INPUT")" \
@@ -116,7 +119,6 @@ python "$(dirname "$0")/format_transcript.py" \
 
 # Generate a session log from the transcript if ANTHROPIC_API_KEY is available.
 if [ -n "${ANTHROPIC_API_KEY:-}" ]; then
-    SCRIPTS_DIR="$(dirname "$0")"
     REPO_ROOT="$(cd "$SCRIPTS_DIR/.." && pwd)"
     python "$SCRIPTS_DIR/update_session_log.py" \
         "$OUTPUT" \
