@@ -10,7 +10,7 @@ tags:
 ## Session 003 — The Half-Mask Shrine
 **Date played:**
 **Location in-world:** Shadowdale — Old Skull's northern flank (Site B cold camp, the Northern Traverse, Site C shrine-camp: antechamber, Spider Pen, the Shrine)
-**Players present:** Caitlin (Kto), Fox (Fiorn), Sev (Yuna), Lilli (Nema — new character), Piper (Nalith)
+**Players present:** Caitlin (Kto), Fox (Fiorn), Sev (Yinu), Lilli (Nema — new character), Piper (Nalith)
 **Absent:** Lilly (Loric T.)
 **Session ended at:** Scene 6 (The Shrine) — Scenes 7–9 deferred to Session 4
 
@@ -21,7 +21,7 @@ tags:
 - **Scene 3 (Watcher Above / Quillip):** Sev and Piper spotted the watcher before the horn was blown (Piper: 18, Sev: 21). Kto shot the watcher with her longbow from ~190 ft — hit, killed before any alarm. Quillip Burr-and-Whistle then emerged from a knothole in the same tree. The party made a bargain: Fiorn performed an original, never-before-sung song ("The Ballad of Bringle Groft") as payment. Quillip received it and gave full intel: spider alarm (silk curtain trip-wire shriek), cave layout, and anchor/ritual context. She confirmed this was the last remaining site.
 - **Scene 4 (Antechamber):** Party climbed the cliff face using Nalith's Spider Walk (cast on herself) and dropped through a ceiling gap into the antechamber. **Full surprise round.** One scout sleeping, one fletching arrows. Fox killed his target in the surprise round (25 to-hit, 21+ damage). Both scouts dead before either acted. No alarm reached the Shrine.
 - **Scene 5 (Spider Pen):** Bypassed entirely. The party entered the antechamber via the ceiling gap and moved directly into the Shrine without going near the silk curtain. No alarm shriek. Giant spider not encountered. Crawl-tunnel in the far wall not discovered or blocked.
-- **Scene 6 (The Shrine):** DM read the full read-aloud. Combat began. Kto used Hold Person targeting both Khelziir and Zeldrazz — **both failed their Wisdom saves**, paralyzing them. With both bosses locked down, Sev's Scorching Ray (2nd level, auto-crits on paralyzed targets) dealt ~39 damage to Khelziir. Kto attacked Zeldrazz with her greatsword. **Khelziir confirmed dead** (Sev loots the body). **Zeldrazz's fate unresolved** — heavily damaged but Fox's comment suggests he survived again; session ended before his fate was settled. Portal did not open; ritual countdown was stopped by Hold Person.
+- **Scene 6 (The Shrine):** DM read the full read-aloud. Combat began. Nalith used Hold Person targeting both Khelziir and Zeldrazz — **both failed their Wisdom saves**, paralyzing them. With both bosses locked down, Sev's Scorching Ray (2nd level, auto-crits on paralyzed targets) dealt ~39 damage to Khelziir. Kto attacked Zeldrazz with her greatsword. **Khelziir confirmed dead** (Sev loots the body). **Zeldrazz's fate unresolved** — heavily damaged but Fox's comment suggests he survived again; session ended before his fate was settled. Portal did not open; ritual countdown was stopped by Hold Person.
 - **Scene 7 (Lolthite Crash):** Did not trigger. Fight resolved before Round 4. Lolthites did not encounter the party.
 - **Scene 8 (Ending):** Not reached. Session ended with the party standing over Khelziir's body. Anchor disposition (Smash / Steal / Feed / Withdraw) not yet decided — opens Session 4.
 - **Scene 9 (Debrief):** Not reached. No return to Shadowdale, no NPC contact, no payments.
@@ -38,7 +38,7 @@ tags:
 ### NPC Interactions
 
 - **Quillip Burr-and-Whistle** — First encounter. Female pixie-type fey; got stuck at Site C when the drow arrived (the watcher would have shot her if she left her knothole). Grateful the party killed the watcher. Bargain struck: Fiorn performed an original song never sung before. In return she provided: the silk curtain alarm, spider behavior, cave layout, confirmation this is the last site, and context on the ritual anchor. No binding secondary cost mentioned. **Mark as recurring NPC — she clearly knows the Old Skull area and the drow's movements.**
-- **Khelziir Aun'velve** — Appeared in the Shrine, cast Spirit Guardians before being paralyzed by Kto's Hold Person. **Killed** by Sev's Scorching Ray (auto-crit, paralyzed). Looted by Sev. No notable dialogue.
+- **Khelziir Aun'velve** — Appeared in the Shrine, cast Spirit Guardians before being paralyzed by Nalith's Hold Person. **Killed** by Sev's Scorching Ray (auto-crit, paralyzed). Looted by Sev. No notable dialogue.
 - **Zeldrazz T'orrl** — Second encounter. Targeted Kto on sight. Got at least one round of melee attacks on Kto: 9 damage (sword) + poison condition (Constitution save failed) + 8 more damage from poison (total ~17 HP + ongoing). Was then paralyzed by Hold Person alongside Khelziir. **Killed by Kto** with greatsword attacks while paralyzed. The man who came back to finish the job got finished instead.
 - **Lady Addee Ulphor / Brynn Ashford / Orvyn Tal** — None encountered. Deferred.
 
@@ -50,7 +50,7 @@ tags:
 - **The Shrine:** Khelziir (CR 6) + Zeldrazz (CR 5). No Vhaeraunian reinforcements (portal didn't open). Fight highlights:
   - Zeldrazz targeted Kto on Round 1, landed two hits, poisoned her (~17 HP lost + poison condition for 1 min).
   - Khelziir cast Spirit Guardians (15 ft aura, halves speed, WIS save or 3–8 damage each turn).
-  - **Kto used Hold Person on both bosses simultaneously — both failed. Both paralyzed.**
+  - **Nalith used Hold Person on both bosses simultaneously — both failed. Both paralyzed.**
   - Sev's Scorching Ray (2nd level, 3 rays) against the paralyzed Khelziir = all auto-crits: ~39 damage. Khelziir killed.
   - Kto's greatsword attacks on paralyzed Zeldrazz: 19 damage. **Zeldrazz killed by Kto.**
   - Fox deployed smoke bombs mid-fight. Nalith Wild Shaped into a wolf at some point.
@@ -84,7 +84,7 @@ tags:
 > - **Sela Wyndmere's consultations** — still unresolved. S004 candidate.
 
 > [!dm] DM Notes
-> - **Hold Person on two targets simultaneously** was the session's decisive moment — Kto locked both bosses in Round 1 or 2, turning a Hard/Deadly encounter into a cleanup. Kto then killed Zeldrazz with greatsword attacks while paralyzed. DM flagged wanting to increase difficulty next time.
+> - **Hold Person on two targets simultaneously** was the session's decisive moment — Nalith locked both bosses in Round 1 or 2, turning a Hard/Deadly encounter into a cleanup. Kto then killed Zeldrazz with greatsword attacks while paralyzed. DM flagged wanting to increase difficulty next time.
 > - **Khelziir's spirit guardians** landed on Kto and dealt real damage + poison condition before Hold Person landed — good pressure, but the fight resolved very fast overall.
 > - **Quillip improvised well** — she emerged naturally from the watcher encounter. The "fey don't value possessions, they value experiences" framing worked. Fox's original-song payment was clean. She should become a recurring presence near Old Skull.
 > - **Zeldrazz's fate** needs a ruling before Session 4: if he fled (likely), add to long-term villain pool and decide what condition he escaped in.

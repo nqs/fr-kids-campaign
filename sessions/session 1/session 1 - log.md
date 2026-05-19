@@ -10,7 +10,7 @@ tags:
 ## Session 001 — The Missing Scout
 **Date played:**
 **Location in-world:** Shadowdale — the Old Skull Inn, the Ashaba House, the Living Wood, Old Skull's northern flank
-**Players present:** Kaitlyn (Kto), Fox (Fiorn), Sev (Yinu), Lily (Loric T.), Piper (Nalith)
+**Players present:** Caitlin (Kto), Fox (Fiorn), Sev (Yinu), Lily (Loric T.), Piper (Nalith)
 
 ### What Happened
 - Party arrived in Shadowdale and settled in at the Old Skull Inn; Torval Dunmore flagged them as capable and pitched the hook: militia scout Rellan Tessar overdue four days, Captain Helm calling it desertion, Torval not buying it.
