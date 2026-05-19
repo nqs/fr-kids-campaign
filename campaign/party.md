@@ -16,7 +16,7 @@ tags:
 ---
 
 ## Kto
-**Player:** Kaitlyn
+**Player:** Caitlin
 **Class/Level:** Fighter 5 (Champion)
 **Species:** Elf (High Elf lineage)
 **Background:** Farmer
@@ -304,7 +304,7 @@ Backstory, personality, ideals, bonds, and flaws fields were blank on the sheet.
 
 | Character | Player | Class | Level | Species | Role |
 |-----------|--------|-------|-------|---------|------|
-| Kto | Kaitlyn | Fighter (Champion) | 5 | High Elf | Front-line melee / ranged striker |
+| Kto | Caitlin | Fighter (Champion) | 5 | High Elf | Front-line melee / ranged striker |
 | Fiorn (The Jester) | Fox | Rogue (Thief) | 5 | Changeling | Skill/infiltration/social |
 | Yinu | Sev | Wizard (Scribes) | 5 | Aasimar | Arcane blaster/controller |
 | Loric T. | Lily | Sorcerer (Draconic) | 5 | Tiefling | Arcane blaster/metamagic |
