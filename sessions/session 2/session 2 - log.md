@@ -10,7 +10,7 @@ tags:
 ## Session 002 — The Hawthorn Chimney
 **Date played:**
 **Location in-world:** Shadowdale — Ashaba House, the Living Wood (southwestern flank of Old Skull), Site B (the Hawthorn Chimney)
-**Players present:** Kaitlyn (Kto), Fox (Fiorn), Sev (Yinu), Lily (Loric T.), Piper (Nalith)
+**Players present:** Caitlin (Kto), Fox (Fiorn), Sev (Yinu), Lily (Loric T.), Piper (Nalith)
 
 ### What Happened
 - Party recalled to Ashaba House. Lady Ulphor reported that the militia watchers she'd posted on the two remaining map sites had returned mixed news: the **Site B** pair had stopped reporting in the day before, and the **Site C** pair had been forced back by fey withdrawing a quarter-mile around the cleft.
