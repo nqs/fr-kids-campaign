@@ -317,7 +317,7 @@ Dusk. The procession reforms at the river-stones. Lady Ulphor stands on the lift
 > **`the-greengrass-greengage-2-combat-tracker.md`**.
 >
 > Print-and-keep tactical at-the-table cheat sheet is in
-> **`the-greengrass-greengage-3-dm-quick-ref.md`**.
+> **`the-greengrass-greengage-4-dm-quick-ref.md`**.
 
 ### Setup
 

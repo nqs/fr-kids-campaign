@@ -28,5 +28,30 @@
     "description": "Sprite Outriders on fey-touched giant owls — circling the village green at dusk",
     "url": "https://storage.gemini.mcp.nqs.io/images/0a8a1646-979f-475b-875b-73fda652afe6.png",
     "aspect_ratio": "16:9"
+  },
+  {
+    "description": "Sela Wyndmere — Shadowdale healer and unwilling fey courier",
+    "url": "https://storage.gemini.mcp.nqs.io/images/db2dc54c-e594-4a2c-986f-03262373b20b.png",
+    "aspect_ratio": "3:4"
+  },
+  {
+    "description": "Captain Corwick Helm — Captain of the Shadowdale Militia",
+    "url": "https://storage.gemini.mcp.nqs.io/images/d739d400-6c1c-4d52-87d8-240dec5fafbe.png",
+    "aspect_ratio": "3:4"
+  },
+  {
+    "description": "Orvyn Tal — Shadowdale bookseller and Harper agent",
+    "url": "https://storage.gemini.mcp.nqs.io/images/05c137d1-d384-4348-b9c8-f09ce41832f5.png",
+    "aspect_ratio": "3:4"
+  },
+  {
+    "description": "Brynn Ashford — Shadowdale's Delegate to the Dales Council (reused from session 3)",
+    "url": "https://storage.gemini.mcp.nqs.io/images/b9105155-7cff-46a0-899c-1707ae26dfd5.png",
+    "aspect_ratio": "3:4"
+  },
+  {
+    "description": "Lady Ulphor — Keeper of the Pendant of Ashaba (reused from session 3)",
+    "url": "https://storage.gemini.mcp.nqs.io/images/6524d4aa-86f4-46ab-9b81-7c05bfce1fed.png",
+    "aspect_ratio": "3:4"
   }
 ]
