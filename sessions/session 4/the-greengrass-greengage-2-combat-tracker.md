@@ -67,6 +67,8 @@ PCs slot in. If a PC rolls higher than 22, they get the drop on the entire oppos
 
 ## Lorindar Greenmantle, the Antlered Herald
 
+![Lorindar Greenmantle, the Antlered Herald — fey emissary of the Bright Court Beneath](https://storage.gemini.mcp.nqs.io/images/b7db5a83-2e57-4aa6-b858-12c3a397d03f.png)
+
 > Tall, slender fey, green-skinned and antler-crowned. He rides a stag the size of a draft horse. He bears the standard of the Bright Court Beneath — a white branch crowned in iron antler, hung with three ribbons of green, white, and bone. His voice is courteous. He has not raised it once. He is also visibly armed — a long fey-iron glaive across his saddle.
 
 **Fey, Chaotic Neutral · CR 5 (1,800 XP)**
@@ -131,6 +133,8 @@ Statted as a riding horse with **Pass Without Trace** active on Lorindar (the st
 ---
 
 ## Sprite Outrider (×2)
+
+![Sprite Outriders on fey-touched giant owls — circling the village green at dusk](https://storage.gemini.mcp.nqs.io/images/0a8a1646-979f-475b-875b-73fda652afe6.png)
 
 > Small fey, two of them, mounted on fey-touched giant owls — pale gray feathers and starlight in the pupils. The sprites carry tiny longbows that read as toys until you watch them shoot.
 
