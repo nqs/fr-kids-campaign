@@ -10,8 +10,6 @@ duration: "~3.5–4 hours"
 
 # The Greengrass Greengage Affair
 
-![Title Page — The Greengrass Greengage Affair](https://storage.gemini.mcp.nqs.io/images/43198d6d-e1d7-46c9-b12e-3195c0c463bf.png)
-
 | | |
 |---|---|
 | **Tier** | Tier 2 |
@@ -20,6 +18,8 @@ duration: "~3.5–4 hours"
 | **Setting** | The Shrine antechamber → Northern Traverse → Shadowdale (Ashaba House, the village green, the Old Skull Inn, the Living Wood edge, the riverbank) |
 | **Hook From** | Session 003 — *The Half-Mask Shrine* (Khelziir and Zeldrazz dead; anchor still standing) |
 | **Plot chosen** | Plot A — Greengrass with **The Antlered Herald** as the Crash antagonist |
+
+![Title Page — The Greengrass Greengage Affair](https://storage.gemini.mcp.nqs.io/images/43198d6d-e1d7-46c9-b12e-3195c0c463bf.png)
 
 ---
 
