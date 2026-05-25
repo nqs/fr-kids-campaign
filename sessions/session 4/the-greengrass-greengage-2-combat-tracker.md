@@ -25,23 +25,9 @@ section: combat-tracker
 
 ---
 
-## Tactical Map (sketch)
+## Tactical Map
 
-```
-                              LIVING WOOD edge
-                                   ↑
-                                   |  (Lorindar enters here, exits here)
-                                   |
-        riverbank trees   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ riverbank trees
-                          river-stones · river-stones · river-stones
-       OPEN ↑↑↑ STAG GROUND (5x5 ft squares, 40 ft × 60 ft) ↑↑↑
-              · militia screen (Helm + 4 reservists + Rellan) ·
-       ───────────────────────────────────────────────────────────
-                          dais (Lady Ulphor, bonfire)
-                          ribbon-pole-pole-pole
-                          ←  PC starting positions  →
-                          village green (civilians, BEHIND militia)
-```
+![Tactical Map — The Greengrass Bonfire Confrontation](https://storage.gemini.mcp.nqs.io/images/bc111ea7-8e07-4e3a-bee0-2fa628746316.png)
 
 - Lorindar enters at the Living Wood treeline, ~120 ft from PCs.
 - The river-stones between the wood and the dais are difficult terrain for anyone Medium-sized (Lorindar's stag does not care).
