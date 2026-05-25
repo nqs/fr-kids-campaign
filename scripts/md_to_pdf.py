@@ -26,6 +26,7 @@ from reportlab.platypus import (
     SimpleDocTemplate, Spacer, Table, TableStyle,
 )
 from reportlab.platypus.flowables import HRFlowable
+from reportlab.pdfgen import canvas as _rl_canvas
 
 # --- colors / styles -------------------------------------------------------
 
@@ -40,6 +41,8 @@ _ss = getSampleStyleSheet()
 H1 = ParagraphStyle("H1", parent=_ss["Heading1"], fontName="Times-Bold",
     fontSize=18, leading=22, textColor=ACCENT, spaceBefore=14, spaceAfter=8,
     keepWithNext=1)
+H1_COVER = ParagraphStyle("H1Cover", parent=H1, alignment=TA_CENTER,
+    fontSize=24, leading=30, spaceBefore=0, spaceAfter=14, keepWithNext=1)
 H2 = ParagraphStyle("H2", parent=_ss["Heading2"], fontName="Times-Bold",
     fontSize=14, leading=18, textColor=INK, spaceBefore=10, spaceAfter=4,
     keepWithNext=1)
@@ -395,11 +398,15 @@ class BlockRenderer:
         if level == 1:
             if self.first_h1_pagebreak or self._h1_seen:
                 self._append_pagebreak()
+            # Use a centered, larger style for the very first H1 in the
+            # adventure section — this is the cover-page title.
+            is_cover_title = (not self._h1_seen
+                              and self.section == "adventure")
             self._h1_seen = True
             self._h2_seen_in_section = False
             if plain.strip().lower().startswith("stat cards"):
                 self.in_stat_cards = True
-            self.out.append(Paragraph(text, H1))
+            self.out.append(Paragraph(text, H1_COVER if is_cover_title else H1))
         elif level == 2:
             # Combat-tracker encounters carry a full tracker sheet under each
             # H2 — force each onto its own page boundary. Adventure and
@@ -553,7 +560,7 @@ class BlockRenderer:
     def _is_heading_flow(flow) -> bool:
         return (isinstance(flow, Paragraph)
                 and getattr(flow.style, "name", "")
-                in {"H1", "H2", "H3", "H4"})
+                in {"H1", "H1Cover", "H2", "H3", "H4"})
 
     @staticmethod
     def _is_short_intro_flow(flow) -> bool:
@@ -613,16 +620,47 @@ class BlockRenderer:
         if heading_idx is not None:
             bound = list(self.out[heading_idx:])
             del self.out[heading_idx:]
-            # When an intro table is included in the bound block, constrain
-            # the image height so the full cover block fits on one page.
             has_table = any(isinstance(f, Table) for f in bound)
-            img = sized_image(url, self.manifest, max_w_in=7.2,
-                              max_h_in=5.5 if has_table else 8.5)
-            img.hAlign = "CENTER"
-            bound.extend([Spacer(1, 4), img])
-            self.out.append(KeepTogether(bound))
             if has_table:
-                self.out.append(PageBreak())
+                # Cover-page pattern (title → table → image). Emit each
+                # flowable individually rather than as KeepTogether; the
+                # combined block is too tall for KeepTogether to guarantee
+                # single-page placement on Letter.
+                #
+                # Dynamically compute how much vertical space the bound
+                # flowables consume so the image gets exactly the remainder
+                # of the first page. SimpleDocTemplate adds 6 pt of internal
+                # padding to each edge of its frame, so the actual content
+                # height is PAGE_H − 2×topMargin − 2×FRAME_PAD.
+                _FRAME_PAD = 6  # pt — SimpleDocTemplate default frame pad
+                _PAGE_W, _PAGE_H = LETTER
+                _frame_h = _PAGE_H - 2 * 0.6 * inch - 2 * _FRAME_PAD
+                _frame_w = _PAGE_W - 2 * 0.65 * inch - 2 * _FRAME_PAD
+                _tmp_buf = BytesIO()
+                _tmp_c = _rl_canvas.Canvas(_tmp_buf, pagesize=LETTER)
+                _bound_h: float = 0.0
+                for _f in bound:
+                    if isinstance(_f, Spacer):
+                        _bound_h += _f.height
+                    else:
+                        _, _fh = _f.wrapOn(_tmp_c, _frame_w, _frame_h)
+                        _sb = getattr(getattr(_f, "style", None), "spaceBefore", 0) or 0
+                        _sa = getattr(getattr(_f, "style", None), "spaceAfter",  0) or 0
+                        _bound_h += _fh + _sb + _sa
+                _spacer_h = 4  # pt — Spacer(1, 4) inserted before image
+                _avail_h = _frame_h - _bound_h - _spacer_h
+                _max_h_in = max(1.0, (_avail_h / inch) * 0.99)  # 1 % safety margin
+                img = sized_image(url, self.manifest, max_w_in=7.2,
+                                  max_h_in=_max_h_in)
+                img.hAlign = "CENTER"
+                self.out.extend(bound)
+                self.out.extend([Spacer(1, _spacer_h), img, PageBreak()])
+            else:
+                img = sized_image(url, self.manifest, max_w_in=7.2,
+                                  max_h_in=8.5)
+                img.hAlign = "CENTER"
+                bound.extend([Spacer(1, 4), img])
+                self.out.append(KeepTogether(bound))
             self._last_was_map = is_tactical_map
             return
 
