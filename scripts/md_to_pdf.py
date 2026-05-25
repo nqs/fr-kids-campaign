@@ -106,6 +106,37 @@ def sized_image(url: str, manifest: dict, max_w_in: float = 5.5,
         w = h * aw / ah
     return Image(_fetch(url), width=w, height=h)
 
+# --- page geometry ---------------------------------------------------------
+
+# Page margins (kept in sync with the SimpleDocTemplate built in build_pdf).
+MARGIN_H = 0.65 * inch
+MARGIN_V = 0.6 * inch
+# SimpleDocTemplate gives its default frame 6 pt of internal padding on every
+# edge, so the usable content box is smaller than page − margins.
+FRAME_PAD = 6
+
+def _frame_content_dims() -> tuple[float, float]:
+    """(width, height) in points of the usable frame content box on Letter."""
+    page_w, page_h = LETTER
+    return (page_w - 2 * MARGIN_H - 2 * FRAME_PAD,
+            page_h - 2 * MARGIN_V - 2 * FRAME_PAD)
+
+def _flow_height(flow, avail_w: float, avail_h: float) -> float:
+    """Lay a flowable out against a scratch canvas and return its height,
+    including paragraph spaceBefore/spaceAfter so totals match frame layout."""
+    if isinstance(flow, Spacer):
+        return float(getattr(flow, "height", 0) or 0)
+    if isinstance(flow, PageBreak):
+        return 0.0
+    try:
+        _c = _rl_canvas.Canvas(BytesIO(), pagesize=LETTER)
+        _, h = flow.wrapOn(_c, avail_w, avail_h)
+    except Exception:
+        return 0.0
+    sb = getattr(getattr(flow, "style", None), "spaceBefore", 0) or 0
+    sa = getattr(getattr(flow, "style", None), "spaceAfter", 0) or 0
+    return h + sb + sa
+
 # --- inline rendering ------------------------------------------------------
 
 # Substitute ☐ glyph (Times-Roman lacks it) with a tiny inline checkbox built
@@ -372,6 +403,8 @@ class BlockRenderer:
     def render(self, tokens: list) -> list:
         for tok in tokens:
             self._handle(tok)
+        if self.section == "player-handouts":
+            self._finalize_player_handouts()
         return self.out
 
     # -- dispatch -----------------------------------------------------------
@@ -586,6 +619,16 @@ class BlockRenderer:
         is_tactical_map = (self.section == "combat-tracker"
                            and alt.startswith("Tactical Map"))
 
+        # Player-handout pages are composed one-per-page in
+        # _finalize_player_handouts (title → image → text). Emit the image at
+        # natural full width here; the finalizer resizes it to fill whatever
+        # vertical space the title and description leave on the page.
+        if self.section == "player-handouts":
+            img = sized_image(url, self.manifest, max_w_in=7.2)
+            img.hAlign = "CENTER"
+            self.out.append(img)
+            return
+
         # Look back, skipping trailing decorative flowables, for a heading
         # (optionally with one short intro paragraph between heading and
         # image). If found, bind the heading and image into a `KeepTogether`
@@ -647,24 +690,10 @@ class BlockRenderer:
                 #
                 # Dynamically compute how much vertical space the bound
                 # flowables consume so the image gets exactly the remainder
-                # of the first page. SimpleDocTemplate adds 6 pt of internal
-                # padding to each edge of its frame, so the actual content
-                # height is PAGE_H − 2×topMargin − 2×FRAME_PAD.
-                _FRAME_PAD = 6  # pt — SimpleDocTemplate default frame pad
-                _PAGE_W, _PAGE_H = LETTER
-                _frame_h = _PAGE_H - 2 * 0.6 * inch - 2 * _FRAME_PAD
-                _frame_w = _PAGE_W - 2 * 0.65 * inch - 2 * _FRAME_PAD
-                _tmp_buf = BytesIO()
-                _tmp_c = _rl_canvas.Canvas(_tmp_buf, pagesize=LETTER)
-                _bound_h: float = 0.0
-                for _f in bound:
-                    if isinstance(_f, Spacer):
-                        _bound_h += _f.height
-                    else:
-                        _, _fh = _f.wrapOn(_tmp_c, _frame_w, _frame_h)
-                        _sb = getattr(getattr(_f, "style", None), "spaceBefore", 0) or 0
-                        _sa = getattr(getattr(_f, "style", None), "spaceAfter",  0) or 0
-                        _bound_h += _fh + _sb + _sa
+                # of the first page.
+                _frame_w, _frame_h = _frame_content_dims()
+                _bound_h = sum(_flow_height(_f, _frame_w, _frame_h)
+                               for _f in bound)
                 _spacer_h = 4  # pt — Spacer(1, 4) inserted before image
                 _avail_h = _frame_h - _bound_h - _spacer_h
                 _max_h_in = max(1.0, (_avail_h / inch) * 0.99)  # 1 % safety margin
@@ -691,6 +720,82 @@ class BlockRenderer:
         img.hAlign = "CENTER"
         self.out.append(img)
         self._last_was_map = is_tactical_map
+
+    # -- player-handout page composition ------------------------------------
+
+    @staticmethod
+    def _is_top_heading(flow) -> bool:
+        """A heading that opens a new handout page (H1 or H2)."""
+        return (isinstance(flow, Paragraph)
+                and getattr(flow.style, "name", "") in {"H1", "H1Cover", "H2"})
+
+    def _finalize_player_handouts(self) -> None:
+        """Re-lay the player-handout appendix as one entry per page.
+
+        Each top-level heading (H1/H2) starts a fresh page. Entries that carry
+        an image are composed as: title → image (sized to fill the page's
+        remaining height) → descriptive text, all kept together on one page.
+        Entries without an image (e.g. a bulleted list, a quoted prop) simply
+        get their own page and flow normally."""
+        flows = self.out
+        starts = [i for i, f in enumerate(flows) if self._is_top_heading(f)]
+        if not starts:
+            return
+        bounds: list[tuple[int, int]] = []
+        if starts[0] > 0:
+            bounds.append((0, starts[0]))  # any preamble before first heading
+        for j, s in enumerate(starts):
+            e = starts[j + 1] if j + 1 < len(starts) else len(flows)
+            bounds.append((s, e))
+
+        frame_w, frame_h = _frame_content_dims()
+        new_out: list = []
+        for s, e in bounds:
+            seg = list(flows[s:e])
+            if not seg:
+                continue
+            if new_out and not isinstance(new_out[-1], PageBreak):
+                new_out.append(PageBreak())
+            img_pos = next((k for k, f in enumerate(seg)
+                            if isinstance(f, Image)), None)
+            if self._is_top_heading(seg[0]) and img_pos is not None:
+                new_out.append(
+                    self._compose_handout_page(seg, img_pos, frame_w, frame_h))
+            else:
+                new_out.extend(seg)
+        self.out = new_out
+
+    @staticmethod
+    def _compose_handout_page(seg: list, img_pos: int,
+                              frame_w: float, frame_h: float):
+        """Build a single-page KeepTogether: title, then a page-filling image,
+        then the descriptive text. The image is scaled (aspect preserved) to
+        consume whatever vertical space the title and text leave free."""
+        heading = seg[0]
+        img = seg[img_pos]
+        text_flows = seg[img_pos + 1:]
+        # Drop spacers that would otherwise sit directly under the image.
+        while text_flows and isinstance(text_flows[0], Spacer):
+            text_flows = text_flows[1:]
+
+        SP_TITLE, SP_TEXT = 6, 10  # gaps above and below the image
+        title_h = _flow_height(heading, frame_w, frame_h)
+        text_h = sum(_flow_height(f, frame_w, frame_h) for f in text_flows)
+        avail = (frame_h - title_h - text_h - SP_TITLE - SP_TEXT) * 0.97
+        avail = max(avail, 1.2 * inch)  # never collapse the image entirely
+
+        ratio = (img.drawWidth / img.drawHeight) if img.drawHeight else 0.75
+        target_h = avail
+        target_w = target_h * ratio
+        if target_w > frame_w:
+            target_w = frame_w
+            target_h = target_w / ratio
+        img.drawWidth, img.drawHeight = target_w, target_h
+        img.hAlign = "CENTER"
+
+        page = [heading, Spacer(1, SP_TITLE), img, Spacer(1, SP_TEXT)]
+        page.extend(text_flows)
+        return KeepTogether(page)
 
 
 # --- public API ------------------------------------------------------------
@@ -739,8 +844,8 @@ def build_pdf(md_files: list[str | Path], images_json: str | Path,
     out = Path(out_path)
     doc = SimpleDocTemplate(
         str(out), pagesize=LETTER,
-        leftMargin=0.65*inch, rightMargin=0.65*inch,
-        topMargin=0.6*inch, bottomMargin=0.6*inch,
+        leftMargin=MARGIN_H, rightMargin=MARGIN_H,
+        topMargin=MARGIN_V, bottomMargin=MARGIN_V,
         title=title or out.stem,
     )
     doc.build(story)
