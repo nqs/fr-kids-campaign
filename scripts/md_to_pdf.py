@@ -617,6 +617,24 @@ class BlockRenderer:
             if prev >= 0 and self._is_heading_flow(self.out[prev]):
                 heading_idx = prev
 
+        # Image inclusion policy: images render only in the combat tracker
+        # (statblock portraits, tactical maps) and the player-handout
+        # appendix. The adventure section keeps just its cover/title-page
+        # image — the one bound with the session info table — and the
+        # DM quick-ref (and any other section) carries none. Suppressed
+        # images leave their bound heading in place; only the picture drops.
+        _has_table = (heading_idx is not None
+                      and any(isinstance(f, Table)
+                              for f in self.out[heading_idx:]))
+        if self.section == "adventure":
+            keep = _has_table  # cover/title page only
+        elif self.section in ("combat-tracker", "player-handouts"):
+            keep = True
+        else:
+            keep = False
+        if not keep:
+            return
+
         if heading_idx is not None:
             bound = list(self.out[heading_idx:])
             del self.out[heading_idx:]
