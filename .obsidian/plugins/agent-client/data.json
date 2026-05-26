@@ -66,6 +66,14 @@
   },
   "savedSessions": [
     {
+      "sessionId": "042e5326-63c6-4fc3-8dab-bb7f935e0623",
+      "agentId": "Auggie",
+      "cwd": "/Users/nstewart/code/fr-kids-campaign",
+      "title": "UPdate the generator and agents.md, when generatin...",
+      "createdAt": "2026-05-26T20:48:02.424Z",
+      "updatedAt": "2026-05-26T20:48:02.424Z"
+    },
+    {
       "sessionId": "4bd51468-94e6-475b-86bf-367ae00d61af",
       "agentId": "Auggie",
       "cwd": "/Users/nstewart/Library/Mobile Documents/iCloud~md~obsidian/Documents/fr-kids-campaign",
