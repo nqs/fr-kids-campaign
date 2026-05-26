@@ -1,0 +1,482 @@
+{
+  "version": 1,
+  "sessionId": "042e5326-63c6-4fc3-8dab-bb7f935e0623",
+  "agentId": "Auggie",
+  "messages": [
+    {
+      "id": "abc638d3-f6ff-4b36-8391-f4bcda8c7b88",
+      "role": "user",
+      "content": [
+        {
+          "type": "text_with_context",
+          "text": "UPdate the generator and agents.md, when generating the combat tracker section, the following rules MUST be followed:\n\n- combat maps should always be full page, and they should be included in the combat tracker area only.  They are never included anywhere else.  \n\n- For each combat, the format should be (1) Combat Title, (2) Subtitle, (3) Encounter Summary table, (4) Initiative Table with blanks rows as currently defined, (5) Stats blocks and actions per round for all participants in that combat that are not PCs, (6) a new page with a full page combat map \n\n- NPC portraits are only ever included in the player handout area.  they are NEVER included in the combat tracker.",
+          "autoMentionContext": {
+            "noteName": "dnd-adventure-generator",
+            "notePath": "dnd-adventure-generator.md"
+          }
+        }
+      ],
+      "timestamp": "2026-05-26T20:44:57.344Z"
+    },
+    {
+      "id": "d3eb06db-4534-4e07-88db-ccde5a2ddfe6",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "agent_thought",
+          "text": " I need to check both the dnd-adventure-generator.md and AGENTS.md files to see what's currently there, then apply the combat tracker rules the user wants to add."
+        }
+      ],
+      "timestamp": "2026-05-26T20:45:01.535Z"
+    },
+    {
+      "id": "a8c31615-96b0-47ad-8668-31eafc84cce2",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01Pa3iBamhgDc9Yy4MPgHNXz",
+          "title": "Read `dnd-adventure-generator.md`",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "path": "/Users/nstewart/code/fr-kids-campaign/dnd-adventure-generator.md"
+            }
+          ],
+          "rawInput": {
+            "path": "dnd-adventure-generator.md"
+          }
+        }
+      ],
+      "timestamp": "2026-05-26T20:45:01.634Z"
+    },
+    {
+      "id": "92659102-780c-4ca7-9d0c-520d683bbfa1",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_012hDCGUxqKpkjkt2wF1p2rM",
+          "title": "Read `AGENTS.md`",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "path": "/Users/nstewart/code/fr-kids-campaign/AGENTS.md"
+            }
+          ],
+          "rawInput": {
+            "path": "AGENTS.md"
+          }
+        },
+        {
+          "type": "agent_thought",
+          "text": " I'm seeing the key structural requirements now: combat maps must always be full-page and only appear in the combat tracker section, each combat needs a specific format starting with title and subtitle, followed by encounter and initiative tables, then stat blocks for NPCs, and finally the map on a new page. NPC portraits are...\n\nI need to flip the order throughout the documentation—the map currently comes first but should come last after the stat blocks. This affects multiple sections in both files: the File 2 description, image specifications, PDF formatting rules, the per-encounter contents ordering, markdown form structure, and the PDF rendering pattern. I should also strengthen the rule that portraits never appear in the combat tracker itself.\n\nFor the per-encounter structure, the user wants: combat title, subtitle with scene reference, encounter summary table, initiative table with blanks, stat blocks with per-round actions, then a new page with the full-page map. The tracker sheet elements like round strip, triggers, concentration, and notes likely nest within or alongside the initiative table section rather than as separate items.\n\nI should also reinforce that NPC portraits stay only in player handouts, never in the combat tracker, and that tactical maps belong exclusively in the combat tracker—never in the adventure narrative or player handouts."
+        },
+        {
+          "type": "text",
+          "text": "I'll update both files to enforce the new combat tracker rules. The key changes:\n1. Reorder per-encounter contents: map moves to **last** (on its own page), after stat blocks.\n2. Strengthen rule: tactical maps only ever in File 2 (combat tracker).\n3. Strengthen rule: NPC portraits only in File 3 (player handouts), never in File 2.\n\nLet me start with `dnd-adventure-generator.md`:\n"
+        }
+      ],
+      "timestamp": "2026-05-26T20:45:01.874Z"
+    },
+    {
+      "id": "4582eb95-f8e1-4fc1-854d-55ec529b702e",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01DTXvaMzKpPeLf7oMmbxuNi",
+          "title": "Edit dnd-adventure-generator.md",
+          "status": "completed",
+          "kind": "edit",
+          "content": [
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/code/fr-kids-campaign/dnd-adventure-generator.md",
+              "newText": "**File 2 — `<slug>-2-combat-tracker.md`:** for every combat encounter, content is rendered in this **strict order**: (1) combat title heading, (2) italic subtitle line, (3) encounter summary table, (4) initiative table + tracker sheet sections, (5) stat-block cards for every non-PC combatant with round-by-round actions, (6) a **hard page break followed by a full-page tactical map on its own page**. See the Combat Tracker section below for the full specification. A tactical map is **required** for every combat encounter — do not author a combat encounter entry without one. Tactical maps live in File 2 **only** — never in File 1 or File 3. NPC portraits live in File 3 **only** — never in File 2. Tracker sheets and stat-block cards are expressed as markdown tables. HP boxes, round counters, and spell slots use the `☐` glyph (Obsidian renders it; the PDF font does not — see PDF rules).",
+              "oldText": "**File 2 — `<slug>-2-combat-tracker.md`:** for every combat encounter: a **dedicated full-page tactical map** followed by a hard page break, then the tracker sheet and stat-block cards described in the Combat Tracker section below. A tactical map is **required** for every combat encounter — do not author a combat encounter entry without one. Tracker sheets and stat-block cards are expressed as markdown tables. HP boxes, round counters, and spell slots use the `☐` glyph (Obsidian renders it; the PDF font does not — see PDF rules)."
+            }
+          ],
+          "locations": [
+            {
+              "path": "/Users/nstewart/code/fr-kids-campaign/dnd-adventure-generator.md"
+            }
+          ],
+          "rawInput": {
+            "path": "dnd-adventure-generator.md",
+            "instruction_reminder": "ALWAYS BREAK DOWN EDITS INTO SMALLER CHUNKS OF AT MOST 150 LINES EACH.",
+            "command": "str_replace",
+            "old_str_1": "**File 2 — `<slug>-2-combat-tracker.md`:** for every combat encounter: a **dedicated full-page tactical map** followed by a hard page break, then the tracker sheet and stat-block cards described in the Combat Tracker section below. A tactical map is **required** for every combat encounter — do not author a combat encounter entry without one. Tracker sheets and stat-block cards are expressed as markdown tables. HP boxes, round counters, and spell slots use the `☐` glyph (Obsidian renders it; the PDF font does not — see PDF rules).",
+            "new_str_1": "**File 2 — `<slug>-2-combat-tracker.md`:** for every combat encounter, content is rendered in this **strict order**: (1) combat title heading, (2) italic subtitle line, (3) encounter summary table, (4) initiative table + tracker sheet sections, (5) stat-block cards for every non-PC combatant with round-by-round actions, (6) a **hard page break followed by a full-page tactical map on its own page**. See the Combat Tracker section below for the full specification. A tactical map is **required** for every combat encounter — do not author a combat encounter entry without one. Tactical maps live in File 2 **only** — never in File 1 or File 3. NPC portraits live in File 3 **only** — never in File 2. Tracker sheets and stat-block cards are expressed as markdown tables. HP boxes, round counters, and spell slots use the `☐` glyph (Obsidian renders it; the PDF font does not — see PDF rules).",
+            "old_str_start_line_number_1": 83,
+            "old_str_end_line_number_1": 83
+          }
+        }
+      ],
+      "timestamp": "2026-05-26T20:45:36.916Z"
+    },
+    {
+      "id": "f98752db-2df5-41e1-9e49-6d1037f05a6f",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_014x4FYg4pxMiDmLYPTxyefZ",
+          "title": "Edit dnd-adventure-generator.md",
+          "status": "completed",
+          "kind": "edit",
+          "content": [
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/code/fr-kids-campaign/dnd-adventure-generator.md",
+              "newText": "- **Tactical / encounter maps**: Top-down, print-optimized (minimal background clutter, high contrast). Include a scale indicator, N-arrow, and room/area labels. Use `aspect_ratio=\"3:4\"` (portrait) for all standard encounter maps — portrait orientation fills the printable area cleanly. **Always generate at full-page resolution** — the map always renders **full-page on its own page**, placed at the **end** of the encounter's combat-tracker section after the stat-block cards. A map is **required for every combat encounter** — generate it in Step 4 before authoring File 2. Tactical maps belong to **File 2 only** (the combat tracker). Never embed them in File 1 (adventure narrative) or File 3 (player handouts) — players should not see the encounter layout.",
+              "oldText": "- **Tactical / encounter maps**: Top-down, print-optimized (minimal background clutter, high contrast). Include a scale indicator, N-arrow, and room/area labels. Use `aspect_ratio=\"3:4\"` (portrait) for all standard encounter maps — portrait orientation fills more of the page vertically and presents a clean layout alongside the encounter heading. **Always generate at full-page resolution** — the map appears on the same page as its encounter heading and italic reference line, with the tracker sheet on the page that follows. A map is **required for every combat encounter** — generate it in Step 4 before authoring File 2. Tactical maps belong to **File 2 only** (the combat tracker). Never embed them in File 1 (adventure narrative) or File 3 (player handouts) — players should not see the encounter layout."
+            }
+          ],
+          "locations": [
+            {
+              "path": "/Users/nstewart/code/fr-kids-campaign/dnd-adventure-generator.md"
+            }
+          ],
+          "rawInput": {
+            "path": "dnd-adventure-generator.md",
+            "instruction_reminder": "ALWAYS BREAK DOWN EDITS INTO SMALLER CHUNKS OF AT MOST 150 LINES EACH.",
+            "command": "str_replace",
+            "old_str_1": "- **Tactical / encounter maps**: Top-down, print-optimized (minimal background clutter, high contrast). Include a scale indicator, N-arrow, and room/area labels. Use `aspect_ratio=\"3:4\"` (portrait) for all standard encounter maps — portrait orientation fills more of the page vertically and presents a clean layout alongside the encounter heading. **Always generate at full-page resolution** — the map appears on the same page as its encounter heading and italic reference line, with the tracker sheet on the page that follows. A map is **required for every combat encounter** — generate it in Step 4 before authoring File 2. Tactical maps belong to **File 2 only** (the combat tracker). Never embed them in File 1 (adventure narrative) or File 3 (player handouts) — players should not see the encounter layout.",
+            "new_str_1": "- **Tactical / encounter maps**: Top-down, print-optimized (minimal background clutter, high contrast). Include a scale indicator, N-arrow, and room/area labels. Use `aspect_ratio=\"3:4\"` (portrait) for all standard encounter maps — portrait orientation fills the printable area cleanly. **Always generate at full-page resolution** — the map always renders **full-page on its own page**, placed at the **end** of the encounter's combat-tracker section after the stat-block cards. A map is **required for every combat encounter** — generate it in Step 4 before authoring File 2. Tactical maps belong to **File 2 only** (the combat tracker). Never embed them in File 1 (adventure narrative) or File 3 (player handouts) — players should not see the encounter layout.",
+            "old_str_start_line_number_1": 159,
+            "old_str_end_line_number_1": 159
+          }
+        }
+      ],
+      "timestamp": "2026-05-26T20:45:50.455Z"
+    },
+    {
+      "id": "b5bf651a-e346-443c-b99c-dc6327d3405c",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01TFrSkv92G43a2BpdbRCnr1",
+          "title": "Edit dnd-adventure-generator.md",
+          "status": "completed",
+          "kind": "edit",
+          "content": [
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/code/fr-kids-campaign/dnd-adventure-generator.md",
+              "newText": "- Images flow through from the markdown only — the renderer does not insert images that aren't already in the source files. File 1 carries exactly one image: the title page illustration, which renders full-page immediately after the title heading and summary table, followed by a `---` page break before the narrative begins. Every portrait, monster art, and remaining scene illustration renders inside the handout appendix (File 3), each under its own subheading. Tactical maps render from File 2 **only**, and always **last in their encounter section** — after the tracker sheet and all stat-block cards — on their **own full page**, preceded by a hard page break (`---`). NPC and monster portraits **never** appear in File 2; stat-block cards in the combat tracker are text-only.",
+              "oldText": "- Images flow through from the markdown only — the renderer does not insert images that aren't already in the source files. File 1 carries exactly one image: the title page illustration, which renders full-page immediately after the title heading and summary table, followed by a `---` page break before the narrative begins. Every portrait, monster art, and remaining scene illustration renders inside the handout appendix (File 3), each under its own subheading. Tactical maps render from File 2 only, bound to their encounter heading on the same page via `KeepTogether`, followed by a hard page break before the tracker sheet. The tracker sheet for each encounter is on its own page."
+            }
+          ],
+          "locations": [
+            {
+              "path": "/Users/nstewart/code/fr-kids-campaign/dnd-adventure-generator.md"
+            }
+          ],
+          "rawInput": {
+            "path": "dnd-adventure-generator.md",
+            "instruction_reminder": "ALWAYS BREAK DOWN EDITS INTO SMALLER CHUNKS OF AT MOST 150 LINES EACH.",
+            "command": "str_replace",
+            "old_str_1": "- Images flow through from the markdown only — the renderer does not insert images that aren't already in the source files. File 1 carries exactly one image: the title page illustration, which renders full-page immediately after the title heading and summary table, followed by a `---` page break before the narrative begins. Every portrait, monster art, and remaining scene illustration renders inside the handout appendix (File 3), each under its own subheading. Tactical maps render from File 2 only, bound to their encounter heading on the same page via `KeepTogether`, followed by a hard page break before the tracker sheet. The tracker sheet for each encounter is on its own page.",
+            "new_str_1": "- Images flow through from the markdown only — the renderer does not insert images that aren't already in the source files. File 1 carries exactly one image: the title page illustration, which renders full-page immediately after the title heading and summary table, followed by a `---` page break before the narrative begins. Every portrait, monster art, and remaining scene illustration renders inside the handout appendix (File 3), each under its own subheading. Tactical maps render from File 2 **only**, and always **last in their encounter section** — after the tracker sheet and all stat-block cards — on their **own full page**, preceded by a hard page break (`---`). NPC and monster portraits **never** appear in File 2; stat-block cards in the combat tracker are text-only.",
+            "old_str_start_line_number_1": 169,
+            "old_str_end_line_number_1": 169
+          }
+        },
+        {
+          "type": "text",
+          "text": "Now the core Combat Tracker section — this is the big one. Replace the per-encounter contents and markdown form to enforce the new strict order:\n"
+        }
+      ],
+      "timestamp": "2026-05-26T20:46:00.114Z"
+    },
+    {
+      "id": "69e7eda1-bc37-4233-a1ac-e8d047a16900",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01ALiLSu9jYabp9E1xunbU3u",
+          "title": "Edit dnd-adventure-generator.md",
+          "status": "completed",
+          "kind": "edit",
+          "content": [
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/code/fr-kids-campaign/dnd-adventure-generator.md",
+              "newText": "### Per-encounter contents\n\nEach combat encounter is rendered in this **strict six-part order**. Do not vary the order, do not interleave sections, and do not duplicate parts in other files.\n\n**1. Combat Title** — a level-2 heading: `## Encounter N — <name>`.\n\n**2. Subtitle** — an italic line immediately under the heading naming the scene reference and difficulty (XP total + threshold), e.g., `*Scene 3 · Hard (1,200 XP / Hard threshold 1,100)*`.\n\n**3. Encounter Summary table** — a small key/value markdown table covering **Location**, **Light**, **Terrain**, and any other at-a-glance flags the DM needs at fight start (cover, hazards, reinforcement triggers). Two columns: label / value.\n\n**4. Initiative Table & tracker sheet** — the working surface for the fight. Contains:\n- A round strip line: `**Round:** ☐ 1 · ☐ 2 · ☐ 3 · …` through 10.\n- The **Initiative & Damage** markdown table with pre-filled NPC rows (pre-rolled initiative averaged from DEX, AC, HP shown as `<total>: ☐☐☐☐☐ ☐☐☐☐☐ …` at 5 HP per box, ceiling-rounded, plus a notes column) interleaved with blank rows so the DM can write each PC in at the right initiative count after dice are rolled. Blank-row format and counts follow the *Initiative table layout* rules below.\n- A conditions reference strip (5e abbreviations: Bln · Chr · Deaf · Frt · Grp · Inc · Inv · Prl · Pet · Pzn · Prn · Rst · Stn · Uns · Conc).\n- `### Triggers & Countdowns` — bulleted, time-sensitive escalation/reinforcement conditions.\n- `### Concentration / Ongoing Effects` — 3-blank-line write-in box.\n- `### Tactics Summary` — one line per non-PC combatant.\n- `### Loot / Aftermath` — short bulleted note.\n- `### Notes` — write-in box for resources spent, persisting conditions, XP awarded.\n\n**5. Stat-block cards** — one level-3 section per **unique non-PC combatant** in the encounter, with full round-by-round actions. Each card contains:\n- Title + type/alignment line + CR (XP). **No portrait. Stat-block cards are text-only.** Portraits live in File 3 (player handouts) and never appear in File 2.\n- AC / HP / Speed; ability scores; saves, skills, senses, languages.\n- Traits — write innate spellcasting inline as `1× spell · 1× spell · 1× spell`.\n- Spellcasting block with **slot tick boxes per spell level** (1st/2nd/3rd…), DC, attack modifier.\n- Actions, Reactions, Legendary Actions where applicable.\n- **Round-by-round tactics paragraph** — what the creature does on round 1, round 2, round 3+, plus bonus-action priorities and reaction triggers.\n- On-defeat loot.\n\nIf a creature type appears in multiple encounters, **reprint** its card under each encounter rather than referencing back. The DM should not need to flip pages mid-fight.\n\n**6. Tactical map — full-page, on its own page, at the end of the encounter section.** A `---` thematic break (rendered as a hard page break) precedes the map so it lands alone on a fresh page. The map is then a single line: `![Tactical Map — <encounter name>](<url>)`. The alt text starts with `Tactical Map` so the page is self-labeling. The image renders at full-page size on an 8.5\"×11\" sheet. Use `aspect_ratio=\"3:4\"` (portrait) for all standard encounter maps. **Tactical maps live in File 2 only — never in File 1 or File 3 — and always as part 6 of an encounter's combat-tracker section, never anywhere else in File 2 either** (no map at the top of an encounter, no map between stat-block cards). Required for every combat encounter — do not author a combat encounter entry without one.\n\n### Markdown form\n\nIn `<slug>-2-combat-tracker.md`, render each encounter in the strict order from **Per-encounter contents** above:\n\n1. `## Encounter N — <name>`\n2. Italic subtitle: `*Scene <ref> · <difficulty>*`\n3. Encounter Summary key/value table (Location / Light / Terrain / …)\n4. `**Round:** ☐ 1 · ☐ 2 · …` strip, then the **Initiative & Damage** table (blank-row layout per the rules below), then `### Triggers & Countdowns`, `### Concentration / Ongoing Effects`, `### Tactics Summary`, `### Loot / Aftermath`, and `### Notes` sections.\n5. Stat-block cards as level-3 sections (`### <Creature Name>`), one per unique non-PC combatant, reprinted in full when a creature recurs across encounters. **No images inside or adjacent to a stat-block card.**\n6. A `---` thematic break, then the tactical map on its own line: `![Tactical Map — <encounter name>](<url>)`. The map is the last content in the encounter section; the next encounter (if any) begins with its own `## Encounter N — <name>` heading on the page after the map.",
+              "oldText": "### Per-encounter contents\n\nFor each combat encounter in the adventure, generate:\n\n**1. Tactical map** — **required for every combat encounter.** Do not write a combat encounter entry without one. The map appears on the same page as the encounter heading and italic reference line — the renderer binds them via `KeepTogether` so they are always co-located. A hard page break (`---`) follows the image to keep the map page and the tracker sheet on separate pages so the DM can lay them side-by-side at the table. Tactical maps are **DM-only**: they live in File 2 alone, never in File 1 (narrative) or File 3 (player handouts). Use `aspect_ratio=\"3:4\"` (portrait) for all standard encounter maps; the renderer sizes the map to fill the printable area while preserving aspect ratio.\n\n**2. Tracker sheet (one page per encounter)** containing:\n- Header strip: encounter name, scene reference, location, difficulty (XP total + threshold), light, terrain.\n- Round counter: 10 tick boxes labeled 1–10.\n- **Initiative & damage table** — NPC rows with **pre-rolled initiative** (averaged from DEX), AC, HP shown as **tick boxes at 5 HP per box** (DM crosses out as damage is dealt), and a notes column. **Blank rows are interleaved with the monsters so the DM can write each PC into the table at the right initiative count after dice are rolled.** See the *Initiative table layout* rules below.\n- Conditions reference strip (5e abbreviations: Bln · Chr · Deaf · Frt · Grp · Inc · Inv · Prl · Pet · Pzn · Prn · Rst · Stn · Uns · Conc).\n- Triggers, countdowns, reinforcement conditions (bulleted) — anything time-sensitive that affects when/how the fight escalates.\n- Concentration / Ongoing Effects write-in box (3 blank lines).\n- Tactics summary line per non-PC combatant.\n- Loot/aftermath note.\n- Notes write-in box (resources spent, persisting conditions, XP awarded).\n\n**3. Stat-block cards** for every unique non-PC combatant in that encounter:\n- Title + type/alignment line + CR (XP). (No portrait on the card itself — portraits live in the handout appendix; stat-block cards stay compact for table use.)\n- AC / HP / Speed; ability scores; saves, skills, senses, languages.\n- Traits — write innate spellcasting as `1× spell · 1× spell · 1× spell` so the DM strikes uses inline rather than relying on a checkbox glyph.\n- Spellcasting block with **slot tick boxes per spell level** (1st/2nd/3rd…), DC, attack modifier.\n- Actions, Reactions, Legendary Actions where applicable.\n- Tactics paragraph (round-by-round if the creature has a defined opener).\n- On-defeat loot.\n\nIf a creature type appears in multiple encounters, **reprint** its card under each encounter rather than referencing back. The DM should not need to flip pages mid-fight.\n\n### Markdown form\n\nIn `<slug>-2-combat-tracker.md`, render each encounter as:\n\n- A level-2 heading (`## Encounter N — <name>`) plus an italic line with scene reference and difficulty.\n- A **tactical map** image on its own line immediately under the heading: `![Tactical Map — <encounter name>](<url>)`. The alt text starts with `Tactical Map` so the encounter section is self-labeling. The renderer binds the heading + italic line + map via `KeepTogether` so they appear on the same page. A `---` thematic break (rendered as a page break) follows the image to separate the map page from the tracker sheet.\n- A small key/value table for **Location**, **Light**, **Terrain**.\n- A round strip line: `**Round:** ☐ 1 · ☐ 2 · ☐ 3 · …` through 10.\n- An **Initiative & Damage** markdown table with pre-filled NPC rows interleaved with blank PC rows (`__` / `_________________`) per the *Initiative table layout* rules below. Render HP as `<total>: ☐☐☐☐☐ ☐☐☐☐☐ …` (5 HP per box, ceiling-rounded).\n- `### Triggers & Countdowns`, `### Concentration / Ongoing Effects`, `### Tactics Summary`, `### Loot / Aftermath`, and `### Notes` sections.\n\nStat-block cards follow as level-3 sections under each encounter, reprinted in full when a creature appears in multiple encounters."
+            }
+          ],
+          "locations": [
+            {
+              "path": "/Users/nstewart/code/fr-kids-campaign/dnd-adventure-generator.md"
+            }
+          ],
+          "rawInput": {
+            "path": "dnd-adventure-generator.md",
+            "instruction_reminder": "ALWAYS BREAK DOWN EDITS INTO SMALLER CHUNKS OF AT MOST 150 LINES EACH.",
+            "command": "str_replace",
+            "old_str_1": "### Per-encounter contents\n\nFor each combat encounter in the adventure, generate:\n\n**1. Tactical map** — **required for every combat encounter.** Do not write a combat encounter entry without one. The map appears on the same page as the encounter heading and italic reference line — the renderer binds them via `KeepTogether` so they are always co-located. A hard page break (`---`) follows the image to keep the map page and the tracker sheet on separate pages so the DM can lay them side-by-side at the table. Tactical maps are **DM-only**: they live in File 2 alone, never in File 1 (narrative) or File 3 (player handouts). Use `aspect_ratio=\"3:4\"` (portrait) for all standard encounter maps; the renderer sizes the map to fill the printable area while preserving aspect ratio.\n\n**2. Tracker sheet (one page per encounter)** containing:\n- Header strip: encounter name, scene reference, location, difficulty (XP total + threshold), light, terrain.\n- Round counter: 10 tick boxes labeled 1–10.\n- **Initiative & damage table** — NPC rows with **pre-rolled initiative** (averaged from DEX), AC, HP shown as **tick boxes at 5 HP per box** (DM crosses out as damage is dealt), and a notes column. **Blank rows are interleaved with the monsters so the DM can write each PC into the table at the right initiative count after dice are rolled.** See the *Initiative table layout* rules below.\n- Conditions reference strip (5e abbreviations: Bln · Chr · Deaf · Frt · Grp · Inc · Inv · Prl · Pet · Pzn · Prn · Rst · Stn · Uns · Conc).\n- Triggers, countdowns, reinforcement conditions (bulleted) — anything time-sensitive that affects when/how the fight escalates.\n- Concentration / Ongoing Effects write-in box (3 blank lines).\n- Tactics summary line per non-PC combatant.\n- Loot/aftermath note.\n- Notes write-in box (resources spent, persisting conditions, XP awarded).\n\n**3. Stat-block cards** for every unique non-PC combatant in that encounter:\n- Title + type/alignment line + CR (XP). (No portrait on the card itself — portraits live in the handout appendix; stat-block cards stay compact for table use.)\n- AC / HP / Speed; ability scores; saves, skills, senses, languages.\n- Traits — write innate spellcasting as `1× spell · 1× spell · 1× spell` so the DM strikes uses inline rather than relying on a checkbox glyph.\n- Spellcasting block with **slot tick boxes per spell level** (1st/2nd/3rd…), DC, attack modifier.\n- Actions, Reactions, Legendary Actions where applicable.\n- Tactics paragraph (round-by-round if the creature has a defined opener).\n- On-defeat loot.\n\nIf a creature type appears in multiple encounters, **reprint** its card under each encounter rather than referencing back. The DM should not need to flip pages mid-fight.\n\n### Markdown form\n\nIn `<slug>-2-combat-tracker.md`, render each encounter as:\n\n- A level-2 heading (`## Encounter N — <name>`) plus an italic line with scene reference and difficulty.\n- A **tactical map** image on its own line immediately under the heading: `![Tactical Map — <encounter name>](<url>)`. The alt text starts with `Tactical Map` so the encounter section is self-labeling. The renderer binds the heading + italic line + map via `KeepTogether` so they appear on the same page. A `---` thematic break (rendered as a page break) follows the image to separate the map page from the tracker sheet.\n- A small key/value table for **Location**, **Light**, **Terrain**.\n- A round strip line: `**Round:** ☐ 1 · ☐ 2 · ☐ 3 · …` through 10.\n- An **Initiative & Damage** markdown table with pre-filled NPC rows interleaved with blank PC rows (`__` / `_________________`) per the *Initiative table layout* rules below. Render HP as `<total>: ☐☐☐☐☐ ☐☐☐☐☐ …` (5 HP per box, ceiling-rounded).\n- `### Triggers & Countdowns`, `### Concentration / Ongoing Effects`, `### Tactics Summary`, `### Loot / Aftermath`, and `### Notes` sections.\n\nStat-block cards follow as level-3 sections under each encounter, reprinted in full when a creature appears in multiple encounters.",
+            "new_str_1": "### Per-encounter contents\n\nEach combat encounter is rendered in this **strict six-part order**. Do not vary the order, do not interleave sections, and do not duplicate parts in other files.\n\n**1. Combat Title** — a level-2 heading: `## Encounter N — <name>`.\n\n**2. Subtitle** — an italic line immediately under the heading naming the scene reference and difficulty (XP total + threshold), e.g., `*Scene 3 · Hard (1,200 XP / Hard threshold 1,100)*`.\n\n**3. Encounter Summary table** — a small key/value markdown table covering **Location**, **Light**, **Terrain**, and any other at-a-glance flags the DM needs at fight start (cover, hazards, reinforcement triggers). Two columns: label / value.\n\n**4. Initiative Table & tracker sheet** — the working surface for the fight. Contains:\n- A round strip line: `**Round:** ☐ 1 · ☐ 2 · ☐ 3 · …` through 10.\n- The **Initiative & Damage** markdown table with pre-filled NPC rows (pre-rolled initiative averaged from DEX, AC, HP shown as `<total>: ☐☐☐☐☐ ☐☐☐☐☐ …` at 5 HP per box, ceiling-rounded, plus a notes column) interleaved with blank rows so the DM can write each PC in at the right initiative count after dice are rolled. Blank-row format and counts follow the *Initiative table layout* rules below.\n- A conditions reference strip (5e abbreviations: Bln · Chr · Deaf · Frt · Grp · Inc · Inv · Prl · Pet · Pzn · Prn · Rst · Stn · Uns · Conc).\n- `### Triggers & Countdowns` — bulleted, time-sensitive escalation/reinforcement conditions.\n- `### Concentration / Ongoing Effects` — 3-blank-line write-in box.\n- `### Tactics Summary` — one line per non-PC combatant.\n- `### Loot / Aftermath` — short bulleted note.\n- `### Notes` — write-in box for resources spent, persisting conditions, XP awarded.\n\n**5. Stat-block cards** — one level-3 section per **unique non-PC combatant** in the encounter, with full round-by-round actions. Each card contains:\n- Title + type/alignment line + CR (XP). **No portrait. Stat-block cards are text-only.** Portraits live in File 3 (player handouts) and never appear in File 2.\n- AC / HP / Speed; ability scores; saves, skills, senses, languages.\n- Traits — write innate spellcasting inline as `1× spell · 1× spell · 1× spell`.\n- Spellcasting block with **slot tick boxes per spell level** (1st/2nd/3rd…), DC, attack modifier.\n- Actions, Reactions, Legendary Actions where applicable.\n- **Round-by-round tactics paragraph** — what the creature does on round 1, round 2, round 3+, plus bonus-action priorities and reaction triggers.\n- On-defeat loot.\n\nIf a creature type appears in multiple encounters, **reprint** its card under each encounter rather than referencing back. The DM should not need to flip pages mid-fight.\n\n**6. Tactical map — full-page, on its own page, at the end of the encounter section.** A `---` thematic break (rendered as a hard page break) precedes the map so it lands alone on a fresh page. The map is then a single line: `![Tactical Map — <encounter name>](<url>)`. The alt text starts with `Tactical Map` so the page is self-labeling. The image renders at full-page size on an 8.5\"×11\" sheet. Use `aspect_ratio=\"3:4\"` (portrait) for all standard encounter maps. **Tactical maps live in File 2 only — never in File 1 or File 3 — and always as part 6 of an encounter's combat-tracker section, never anywhere else in File 2 either** (no map at the top of an encounter, no map between stat-block cards). Required for every combat encounter — do not author a combat encounter entry without one.\n\n### Markdown form\n\nIn `<slug>-2-combat-tracker.md`, render each encounter in the strict order from **Per-encounter contents** above:\n\n1. `## Encounter N — <name>`\n2. Italic subtitle: `*Scene <ref> · <difficulty>*`\n3. Encounter Summary key/value table (Location / Light / Terrain / …)\n4. `**Round:** ☐ 1 · ☐ 2 · …` strip, then the **Initiative & Damage** table (blank-row layout per the rules below), then `### Triggers & Countdowns`, `### Concentration / Ongoing Effects`, `### Tactics Summary`, `### Loot / Aftermath`, and `### Notes` sections.\n5. Stat-block cards as level-3 sections (`### <Creature Name>`), one per unique non-PC combatant, reprinted in full when a creature recurs across encounters. **No images inside or adjacent to a stat-block card.**\n6. A `---` thematic break, then the tactical map on its own line: `![Tactical Map — <encounter name>](<url>)`. The map is the last content in the encounter section; the next encounter (if any) begins with its own `## Encounter N — <name>` heading on the page after the map.",
+            "old_str_start_line_number_1": 200,
+            "old_str_end_line_number_1": 239
+          }
+        },
+        {
+          "type": "text",
+          "text": "Now update the PDF rendering pattern section to reflect the new map-last ordering:\n"
+        }
+      ],
+      "timestamp": "2026-05-26T20:46:47.814Z"
+    },
+    {
+      "id": "d72ecefc-09f5-42aa-8fee-21d14fad34a8",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01LZcZpBHkttjvSn9XNtu8eg",
+          "title": "Read `dnd-adventure-generator.md` (lines 265-290)",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "line": 265,
+              "path": "/Users/nstewart/code/fr-kids-campaign/dnd-adventure-generator.md"
+            }
+          ],
+          "rawInput": {
+            "path": "dnd-adventure-generator.md",
+            "view_range": [
+              265,
+              290
+            ]
+          }
+        }
+      ],
+      "timestamp": "2026-05-26T20:46:51.119Z"
+    },
+    {
+      "id": "ea43b85e-cac4-4037-a330-912c1629a184",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01E2qeRDWdwELF2ynehLmxTV",
+          "title": "Edit dnd-adventure-generator.md",
+          "status": "completed",
+          "kind": "edit",
+          "content": [
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/code/fr-kids-campaign/dnd-adventure-generator.md",
+              "newText": "- A level-3 heading naming a creature, followed by a key/value block (`AC`, `HP`, `Speed`, ability scores, traits, actions), becomes a **stat-block card** with parchment background and a thin accent border. **Stat-block cards never embed images — no portraits, no monster art, no icons. Portraits live exclusively in File 3 (the handout appendix).**\n- **Every `![alt](url)` image renders full-page**, including tactical maps. A tactical map (alt text begins `Tactical Map`) is always the **last flowable in its encounter section**, preceded by a `---` thematic break that the renderer treats as a hard page break — so the map lands alone on a fresh page, after the tracker sheet and all stat-block cards. The map is not bound to its encounter heading and is not co-located with the tracker sheet. No caption is rendered (the alt text on the page is sufficient).",
+              "oldText": "- A level-3 heading naming a creature, followed by a key/value block (`AC`, `HP`, `Speed`, ability scores, traits, actions), becomes a **stat-block card** with parchment background and a thin accent border. Stat-block cards never embed images — portraits live in the handout appendix.\n- **Every `![alt](url)` image renders full-page**, including tactical maps. Tactical maps are bound to their encounter heading + italic line via `KeepTogether` (max 7.2\"×8.5\" to leave room for the heading) so they share the same page. A `---` thematic break immediately after a tactical map image is rendered as a page break, ensuring the map page and the tracker sheet always land on separate pages. No caption is rendered (the surrounding heading already names it)."
+            }
+          ],
+          "locations": [
+            {
+              "path": "/Users/nstewart/code/fr-kids-campaign/dnd-adventure-generator.md"
+            }
+          ],
+          "rawInput": {
+            "path": "dnd-adventure-generator.md",
+            "instruction_reminder": "ALWAYS BREAK DOWN EDITS INTO SMALLER CHUNKS OF AT MOST 150 LINES EACH.",
+            "command": "str_replace",
+            "old_str_1": "- A level-3 heading naming a creature, followed by a key/value block (`AC`, `HP`, `Speed`, ability scores, traits, actions), becomes a **stat-block card** with parchment background and a thin accent border. Stat-block cards never embed images — portraits live in the handout appendix.\n- **Every `![alt](url)` image renders full-page**, including tactical maps. Tactical maps are bound to their encounter heading + italic line via `KeepTogether` (max 7.2\"×8.5\" to leave room for the heading) so they share the same page. A `---` thematic break immediately after a tactical map image is rendered as a page break, ensuring the map page and the tracker sheet always land on separate pages. No caption is rendered (the surrounding heading already names it).",
+            "new_str_1": "- A level-3 heading naming a creature, followed by a key/value block (`AC`, `HP`, `Speed`, ability scores, traits, actions), becomes a **stat-block card** with parchment background and a thin accent border. **Stat-block cards never embed images — no portraits, no monster art, no icons. Portraits live exclusively in File 3 (the handout appendix).**\n- **Every `![alt](url)` image renders full-page**, including tactical maps. A tactical map (alt text begins `Tactical Map`) is always the **last flowable in its encounter section**, preceded by a `---` thematic break that the renderer treats as a hard page break — so the map lands alone on a fresh page, after the tracker sheet and all stat-block cards. The map is not bound to its encounter heading and is not co-located with the tracker sheet. No caption is rendered (the alt text on the page is sufficient).",
+            "old_str_start_line_number_1": 271,
+            "old_str_end_line_number_1": 272
+          }
+        },
+        {
+          "type": "text",
+          "text": "Now AGENTS.md — update the File 2 description and add explicit rules to the \"What Not to Do\" section:\n"
+        }
+      ],
+      "timestamp": "2026-05-26T20:47:01.676Z"
+    },
+    {
+      "id": "5b92be1a-75bf-47bf-87e2-468d1da85322",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01PmCcN2WfQQogKBBKyQu59R",
+          "title": "Edit AGENTS.md",
+          "status": "completed",
+          "kind": "edit",
+          "content": [
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/code/fr-kids-campaign/AGENTS.md",
+              "newText": "2. **`<slug>-2-combat-tracker.md`** — DM combat tracker. Each combat encounter is rendered in this **strict six-part order**: (1) combat title heading, (2) italic subtitle (scene reference + difficulty), (3) encounter summary key/value table, (4) initiative table (with blank PC rows) plus round strip, triggers, concentration, tactics summary, loot, and notes sections, (5) text-only stat-block cards for every non-PC combatant with round-by-round actions, (6) a hard page break and then a **full-page tactical map on its own page**. Tactical maps appear **only** in this file and **only** as part 6 of an encounter — never anywhere else. NPC portraits **never** appear in this file. The full specification lives in `dnd-adventure-generator.md` under the **Combat Tracker** section.",
+              "oldText": "2. **`<slug>-2-combat-tracker.md`** — DM combat tracker: per-encounter **tactical maps (full-page, printable, one map per page)**, tracker sheets, and stat-block cards for every non-PC combatant. The full specification lives in `dnd-adventure-generator.md` under the **Combat Tracker** section."
+            }
+          ],
+          "locations": [
+            {
+              "path": "/Users/nstewart/code/fr-kids-campaign/AGENTS.md"
+            }
+          ],
+          "rawInput": {
+            "path": "AGENTS.md",
+            "instruction_reminder": "ALWAYS BREAK DOWN EDITS INTO SMALLER CHUNKS OF AT MOST 150 LINES EACH.",
+            "command": "str_replace",
+            "old_str_1": "2. **`<slug>-2-combat-tracker.md`** — DM combat tracker: per-encounter **tactical maps (full-page, printable, one map per page)**, tracker sheets, and stat-block cards for every non-PC combatant. The full specification lives in `dnd-adventure-generator.md` under the **Combat Tracker** section.",
+            "new_str_1": "2. **`<slug>-2-combat-tracker.md`** — DM combat tracker. Each combat encounter is rendered in this **strict six-part order**: (1) combat title heading, (2) italic subtitle (scene reference + difficulty), (3) encounter summary key/value table, (4) initiative table (with blank PC rows) plus round strip, triggers, concentration, tactics summary, loot, and notes sections, (5) text-only stat-block cards for every non-PC combatant with round-by-round actions, (6) a hard page break and then a **full-page tactical map on its own page**. Tactical maps appear **only** in this file and **only** as part 6 of an encounter — never anywhere else. NPC portraits **never** appear in this file. The full specification lives in `dnd-adventure-generator.md` under the **Combat Tracker** section.",
+            "old_str_start_line_number_1": 87,
+            "old_str_end_line_number_1": 87
+          }
+        }
+      ],
+      "timestamp": "2026-05-26T20:47:15.417Z"
+    },
+    {
+      "id": "46683ff1-9685-49ab-9fb9-69431a487924",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_019cWyQ7tEeeB2M6EDu2oKeZ",
+          "title": "Edit AGENTS.md",
+          "status": "completed",
+          "kind": "edit",
+          "content": [
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/code/fr-kids-campaign/AGENTS.md",
+              "newText": "- Do not ship a PDF without the DM combat tracker section. Every combat encounter must have a printable tracker sheet and stat-block cards, placed between the main body and the player-handout appendix.\n- Do not deviate from the strict six-part combat-encounter order in File 2: (1) combat title, (2) italic subtitle, (3) encounter summary table, (4) initiative table + tracker sheet sections, (5) stat-block cards with round-by-round actions, (6) full-page tactical map on its own page. The map is always **last** in the encounter section — never above the tracker sheet, never beside the stat blocks.\n- Do not place tactical / encounter maps anywhere other than File 2 part 6. They never appear in File 1 (adventure narrative), File 3 (player handouts), or File 4 (DM quick reference), and they never appear inside File 2 outside of an encounter's part-6 slot.\n- Do not place NPC, monster, or creature portraits anywhere in File 2. Portraits live exclusively in File 3 (player handouts). Stat-block cards in the combat tracker are text-only.",
+              "oldText": "- Do not ship a PDF without the DM combat tracker section. Every combat encounter must have a printable tracker sheet and stat-block cards, placed between the main body and the player-handout appendix."
+            }
+          ],
+          "locations": [
+            {
+              "path": "/Users/nstewart/code/fr-kids-campaign/AGENTS.md"
+            }
+          ],
+          "rawInput": {
+            "path": "AGENTS.md",
+            "instruction_reminder": "ALWAYS BREAK DOWN EDITS INTO SMALLER CHUNKS OF AT MOST 150 LINES EACH.",
+            "command": "str_replace",
+            "old_str_1": "- Do not ship a PDF without the DM combat tracker section. Every combat encounter must have a printable tracker sheet and stat-block cards, placed between the main body and the player-handout appendix.",
+            "new_str_1": "- Do not ship a PDF without the DM combat tracker section. Every combat encounter must have a printable tracker sheet and stat-block cards, placed between the main body and the player-handout appendix.\n- Do not deviate from the strict six-part combat-encounter order in File 2: (1) combat title, (2) italic subtitle, (3) encounter summary table, (4) initiative table + tracker sheet sections, (5) stat-block cards with round-by-round actions, (6) full-page tactical map on its own page. The map is always **last** in the encounter section — never above the tracker sheet, never beside the stat blocks.\n- Do not place tactical / encounter maps anywhere other than File 2 part 6. They never appear in File 1 (adventure narrative), File 3 (player handouts), or File 4 (DM quick reference), and they never appear inside File 2 outside of an encounter's part-6 slot.\n- Do not place NPC, monster, or creature portraits anywhere in File 2. Portraits live exclusively in File 3 (player handouts). Stat-block cards in the combat tracker are text-only.",
+            "old_str_start_line_number_1": 141,
+            "old_str_end_line_number_1": 141
+          }
+        },
+        {
+          "type": "agent_thought",
+          "text": " I'm checking whether the existing PDF renderer will handle the reordered markdown correctly—specifically, the tactical map now flows at the end of the section after a page break instead of being bound to the encounter heading, which is a different layout than what the renderer currently expects. I should flag this discrepancy to the user — the generator spec now has the `---` before the map as a page break, but the existing renderer's special-case logic might be looking for `---` after the map instead. I'll need to check the script to see if it treats thematic breaks uniformly as page breaks regardless of position, or if it specifically requires them after the map."
+        },
+        {
+          "type": "text",
+          "text": "Both documents are updated. Let me verify the renderer script will still produce the right output with the new ordering, since the spec previously expected the `---` page break **after** the map but now expects it **before**:\n"
+        }
+      ],
+      "timestamp": "2026-05-26T20:47:25.135Z"
+    },
+    {
+      "id": "caff4f3e-e75b-4756-bc9b-973033ebca14",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01AQMCtsTGLwXfazeCGWAT1f",
+          "title": "Read `scripts/md_to_pdf.py` (lines 1-50)",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "line": 1,
+              "path": "/Users/nstewart/code/fr-kids-campaign/scripts/md_to_pdf.py"
+            }
+          ],
+          "rawInput": {
+            "path": "scripts/md_to_pdf.py",
+            "view_range": [
+              1,
+              50
+            ]
+          }
+        }
+      ],
+      "timestamp": "2026-05-26T20:47:41.836Z"
+    },
+    {
+      "id": "0cacb667-1608-4842-928f-3f1988a42cb1",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01Sc7yzXeqUFRCu5CuEmrcZL",
+          "title": "Read `scripts/md_to_pdf.py` (search: \"thematic_break|tactical|KeepTogether|Tactical Map\")",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "path": "/Users/nstewart/code/fr-kids-campaign/scripts/md_to_pdf.py"
+            }
+          ],
+          "rawInput": {
+            "path": "scripts/md_to_pdf.py",
+            "search_query_regex": "thematic_break|tactical|KeepTogether|Tactical Map",
+            "context_lines_before": 3,
+            "context_lines_after": 8
+          }
+        },
+        {
+          "type": "agent_thought",
+          "text": " I'm noticing a conflict between what the user asked for and what the renderer actually does. The tactical map handling in the renderer directly contradicts the new layout rules — it's currently keeping the map bound to the encounter heading, and treating the separator as a page break that comes after the map instead of before it. The renderer will need updates to match the new structure, but the user only requested changes to the generator and agents.md, so I should flag this discrepancy for them."
+        },
+        {
+          "type": "text",
+          "text": "Edits done. Quick verification of the updated combat tracker section:\n"
+        }
+      ],
+      "timestamp": "2026-05-26T20:47:41.857Z"
+    },
+    {
+      "id": "af7c9bb1-b0dd-486e-bd39-a9a87438aab8",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_013P8nUmma9t5JCJ8ztAeiLR",
+          "title": "Read `dnd-adventure-generator.md` (lines 196-245)",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "line": 196,
+              "path": "/Users/nstewart/code/fr-kids-campaign/dnd-adventure-generator.md"
+            }
+          ],
+          "rawInput": {
+            "path": "dnd-adventure-generator.md",
+            "view_range": [
+              196,
+              245
+            ]
+          }
+        },
+        {
+          "type": "text",
+          "text": "Both files are now updated. Summary of changes:\n\n**`dnd-adventure-generator.md`:**\n- File 2 description (Step 5): rewritten to declare the strict six-part order and the file-locality rules (maps File 2 only; portraits File 3 only).\n- Image Generation Specs / tactical maps: clarified the map renders full-page on its **own** page at the end of the encounter section (not bound to the heading).\n- PDF Formatting summary line: updated to reflect map-last positioning and \"no portraits in File 2\".\n- **Combat Tracker → Per-encounter contents**: fully rewritten as a numbered six-part spec. Parts 1–3 (title, subtitle, encounter summary) → part 4 (initiative table + tracker sheet sections) → part 5 (text-only stat-block cards with round-by-round actions) → part 6 (`---` page break + full-page tactical map alone).\n- **Combat Tracker → Markdown form**: rewritten as a numbered list mirroring parts 1–6.\n- **PDF rendering pattern**: stat-block card rule strengthened to forbid all images; tactical-map rule rewritten — map is the last flowable in the encounter section, preceded (not followed) by `---`, not bound to the heading.\n\n**`AGENTS.md`:**\n- File 2 description in \"Output requirements\": now declares the strict six-part order plus the file-locality rules.\n- \"What Not to Do\" gained three new bullets enforcing: (a) the six-part order; (b) tactical maps live only in File 2 part 6; (c) NPC portraits never appear in File 2.\n\n---\n\n**One follow-up worth flagging.** The renderer `scripts/md_to_pdf.py` was built around the **old** rule (tactical map bound to the encounter heading via `KeepTogether`; `---` *after* the map treated as the page break). With the new spec the page break comes *before* the map and the map is no longer bound to the heading. Specifically:\n\n- `_h_thematic_break` (around line 459) only emits a `PageBreak` when `self._last_was_map` is true — i.e., after a map.\n- The image handler (around line 632) binds tactical maps with the encounter heading.\n\nWant me to update the renderer so the PDF output matches the new spec (treat the `---` *before* a `Tactical Map`-alt image as a hard page break, and stop binding tactical maps with their heading)? Tests/PDF rebuild would follow.\n"
+        }
+      ],
+      "timestamp": "2026-05-26T20:47:49.055Z"
+    }
+  ],
+  "savedAt": "2026-05-26T20:48:02.429Z"
+}
