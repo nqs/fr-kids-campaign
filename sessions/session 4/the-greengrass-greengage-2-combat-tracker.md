@@ -6,54 +6,86 @@ section: combat-tracker
 ---
 
 # Combat Tracker — The Crash at the Bonfire
-*Session 004 · The Antlered Herald · CR 5 + 2× Sprite Outriders (CR 1) · ~3 rounds, scripted escape*
 
----
+## Encounter 1 — The Crash at the Bonfire
+*End of Scene 6 · Medium (raw 2,200 XP → ~3,300 adjusted) · 3-round scripted escape*
 
-## Encounter Summary
+### Summary
 
 | | |
 |---|---|
-| **When** | End of Scene 6 (Lady Ulphor lifts the firebrand at dusk) |
-| **Where** | The river-stones of the Ashaba, south bank below the Old Skull's southern flank — open ground, the village green at PC backs, the Living Wood ~120 ft east across the river-stones |
-| **Antagonists** | 1× **Lorindar Greenmantle, the Antlered Herald** (CR 5 fey) + 2× **Sprite Outrider** (CR 1 fey, mounted on fey-touched giant owls) |
-| **Party** | 5 PCs at Level 6 |
-| **XP** | ~3,300 (Medium for 5×L6) |
-| **Duration** | 3 rounds maximum. Lorindar escapes at end of Round 3 OR when bloodied — whichever first. |
-| **Goal for the party** | **Draw blood. Remember the face.** Stopping the escape is not the goal and is not expected. |
-| **Goal for the antagonist** | Recon. Provocation. **Deliver the audience invitation** even if the party will not listen. Leave without killing a child. |
+| **Location** | River-stones of the Ashaba, south bank below the Old Skull's southern flank. Open ground; village green at PC backs; the Living Wood ~120 ft east across the stones. |
+| **Light** | Dusk. Torchlit firebreak on the PC side; deep gloaming under the treeline. |
+| **Terrain** | River-stones are **difficult terrain** for Medium creatures (Lorindar's stag ignores). Open village green. ~120 ft engagement range from treeline to firebreak. Sprites enter 80 ft up on fey-touched giant owls. |
+| **Antagonists** | 1× **Lorindar Greenmantle, the Antlered Herald** (CR 5 fey) + 2× **Sprite Outrider** (CR 1 fey, owl-mounted). |
+| **Party** | 5 PCs at Level 6. |
+| **XP** | Raw 2,200 → ×1.5 multi-foe → **~3,300 adjusted** (DMG Medium threshold for 5×L6 is 3,500). |
+| **Duration** | 3 rounds maximum. Lorindar escapes at end of R3 **or** when bloodied — whichever first. |
+| **Goal (PCs)** | **Draw blood. Remember the face.** Stopping the escape is not the goal and is not expected. |
+| **Goal (Lorindar)** | Recon. Provocation. **Deliver the audience invitation** even if the party will not listen. Leave without killing a child. |
+| **Civilians** | Behind Captain Helm's militia line. **Not in danger** — Helm's people screen them. PCs do not have to triage. |
 
----
+### Round Strip & Initiative
 
-## Tactical Map
+**Round:** ☐ 1 · ☐ 2 · ☐ 3 · ☐ 4 · ☐ 5 · ☐ 6 · ☐ 7 · ☐ 8 · ☐ 9 · ☐ 10
 
-![Tactical Map — The Greengrass Bonfire Confrontation](https://storage.gemini.mcp.nqs.io/images/bc111ea7-8e07-4e3a-bee0-2fa628746316.png)
+NPC initiative is pre-rolled (DEX-averaged). PCs roll live and write into the blank rows.
 
-- Lorindar enters at the Living Wood treeline, ~120 ft from PCs.
-- The river-stones between the wood and the dais are difficult terrain for anyone Medium-sized (Lorindar's stag does not care).
-- The sprite outriders enter high — 80 ft up, on fey-touched giant owls. They circle.
-- Civilians are behind the militia line. **They are not in danger** — Captain Helm's people screen them. The PCs do not have to triage.
+| Init | Combatant | AC | HP | Notes |
+|---|---|---|---|---|
+| __ | _________________ | __ | _________________ | _________________ |
+| __ | _________________ | __ | _________________ | _________________ |
+| 22 | Sprite Outrider 1 | 15 | 22: ☐☐☐☐☐ | Owl-mounted, 80 ft fly, hovering 80 ft up |
+| __ | _________________ | __ | _________________ | _________________ |
+| __ | _________________ | __ | _________________ | _________________ |
+| 18 | Lorindar Greenmantle | 16 | 85: ☐☐☐☐☐ ☐☐☐☐☐ ☐☐☐☐☐ ☐☐☐☐☐ ☐☐☐☐☐ ☐☐☐☐☐ ☐☐☐☐☐ ☐☐☐☐☐ ☐☐☐ | Mounted on Erith. Bloodied @ 42 |
+| __ | _________________ | __ | _________________ | _________________ |
+| __ | _________________ | __ | _________________ | _________________ |
+| 15 | Sprite Outrider 2 | 15 | 22: ☐☐☐☐☐ | Owl-mounted, 80 ft fly, hovering 80 ft up |
+| __ | _________________ | __ | _________________ | _________________ |
+| __ | _________________ | __ | _________________ | _________________ |
 
----
+**Conditions:** Bln · Chr · Deaf · Frt · Grp · Inc · Inv · Prl · Pet · Pzn · Prn · Rst · Stn · Uns · Conc
 
-## Initiative Order (suggested starting setup)
+### Triggers & Countdowns
 
-Roll initiative normally. Suggested DM-side rolls if you want to skip rolling at the table:
+- **End of Round 3** — Lorindar Fey-Steps onto Erith, stag bolts 60 ft into the Living Wood. Sprites peel off. **Combat ends.**
+- **Lorindar bloodied (≤42 HP)** — exit on his next turn regardless of round. Fey Step + stag-bolt, ignore recharge.
+- **Erith reduced to 0 HP** — Lorindar dismounts on his next bonus action, Scripted Exit comes forward one round.
+- **Sela steps between** — Sela calls Lorindar's name aloud, walks the firebreak. PCs hold. Lorindar bows, departs. Standard delivery: ✓. *Best Sela outcome.*
+- **Party holds weapons through the entire speech** — initiative never rolls. Lorindar bows, departs. *Vanishingly rare — mark it big.*
+- **Avoid: Lorindar dies.** Worse problem afterward (new fey lord with a personal grievance). Sela goes white. Audience invitation rescinded. Move it to an S6+ war. Let it cost.
+- **Avoid: a PC dies.** Use Sela's intervention to bail if a kid drops to 0.
 
-| Combatant | Initiative |
-|---|---|
-| Sprite Outrider 1 | 22 |
-| Lorindar Greenmantle | 18 |
-| Sprite Outrider 2 | 15 |
-| Erith-of-the-First-Snow *(acts on Lorindar's turn as mount)* | — |
+### Concentration / Ongoing Effects
 
-PCs slot in. If a PC rolls higher than 22, they get the drop on the entire opposition — that's earned and that's fine.
+____________________________________
 
----
+____________________________________
 
-## Lorindar Greenmantle, the Antlered Herald
+____________________________________
 
-![Lorindar Greenmantle, the Antlered Herald — fey emissary of the Bright Court Beneath](https://storage.gemini.mcp.nqs.io/images/b7db5a83-2e57-4aa6-b858-12c3a397d03f.png)
+### Tactics Summary
+
+- **Lorindar** — R1 speak the audience invitation (Standard-Bearer's Word, free), move Erith to ~30 ft of the PC who drew first, glaive ×2. R2 continue, Reproof the second hit. R3 Fey-Step + stag-bolt escape.
+- **Sprite Outrider 1 & 2** — R1 Heart-Sight Arrows at the two PCs who drew first; any sprite reading "fear, not malice" **holds fire** the rest of the fight. R2 Sleep-Tipped Arrows at the loudest-output PC (non-lethal). R3 cover the Herald's exit, peel off.
+- **Civilian screen (DM-controlled, won't act unless asked):** *Captain Helm* holds the militia line; will body-block a sprite-shot for a civilian; **will not** attack Lorindar (he feels the standard). *4× Shadowdale reservists* behind Helm, spear-and-shield, won't engage without orders. *Rellan Tessar* at the riverbank with his bow — rushes in only if Kto is downed (story beat, not damage). *Sela Wyndmere* at the treeline; **will not attack either side** — she is the trigger and the brake.
+
+### Loot / Aftermath
+
+- No coin, no gear (Lorindar escapes). If bloodied and Reproof misses, the standard's iron-antler tip falls — **cold-iron token, fey-court provenance**, worth a favor not a sale.
+- If Erith is killed: a white antler is shed on the river-stones. Sela trigger.
+- If a sprite is killed: the other sprite breaks off immediately, follows the Herald. Don't kill both unless the party is going *very* hard.
+
+### Notes
+
+____________________________________
+
+____________________________________
+
+____________________________________
+
+### Lorindar Greenmantle, the Antlered Herald
 
 > Tall, slender fey, green-skinned and antler-crowned. He rides a stag the size of a draft horse. He bears the standard of the Bright Court Beneath — a white branch crowned in iron antler, hung with three ribbons of green, white, and bone. His voice is courteous. He has not raised it once. He is also visibly armed — a long fey-iron glaive across his saddle.
 
@@ -62,7 +94,7 @@ PCs slot in. If a PC rolls higher than 22, they get the drop on the entire oppos
 | | |
 |---|---|
 | **AC** | 16 (woven leaf-mail) |
-| **HP** | **85** (10d8 + 40)  ·  **Bloodied at 42** |
+| **HP** | **85** (10d8 + 40) · **Bloodied 42** |
 | **Speed** | 30 ft. (40 ft. mounted on Erith) |
 | **STR** | 14 (+2) |
 | **DEX** | 18 (+4) |
@@ -73,54 +105,32 @@ PCs slot in. If a PC rolls higher than 22, they get the drop on the entire oppos
 | **Saves** | DEX +7, WIS +6, CHA +7 |
 | **Skills** | Insight +6, Perception +6, Persuasion +7, Stealth +7 |
 | **Damage Resistances** | Bludgeoning, piercing, slashing from nonmagical weapons not made of cold iron |
-| **Damage Immunities** | — |
 | **Condition Immunities** | Charmed, frightened |
 | **Senses** | Darkvision 120 ft., passive Perception 16 |
 | **Languages** | Common, Elvish, Sylvan |
 
-### Features
+**Features.** *Magic Resistance:* advantage on saves against spells and magical effects. *Fey Step (recharge 4–6):* bonus action, teleport 30 ft. (treat as at-will on the Scripted Exit). *Standard-Bearer's Word:* once per encounter, as a free action on his turn, Lorindar speaks one sentence audible to all creatures within 60 ft. through any obscurement or silence — **the audience invitation gets delivered no matter what.** *Mounted Combatant (Erith):* opportunity attacks against Lorindar have disadvantage while mounted.
 
-- **Magic Resistance.** Advantage on saving throws against spells and other magical effects.
-- **Fey Step (recharge 4–6).** Bonus action. Teleport up to 30 ft. to an unoccupied space he can see. (Functionally *Misty Step.* See "Scripted Exit" below for the at-will use.)
-- **Standard-Bearer's Word.** Once per encounter, as a free action on his turn, Lorindar may speak a single sentence aloud that all creatures within 60 ft. can hear, including through obscured air, noise, or magical silence. This does not break combat — but it does mean **the audience invitation gets delivered before he leaves, no matter what the party does.**
-- **Mounted Combatant (Erith).** While mounted on Erith, Lorindar treats opportunity attacks against him as having disadvantage, and Erith's movement does not provoke OAs from creatures Erith is smaller than (there are none on this battlefield).
+**Actions.** *Multiattack:* two Antler-Crown Glaive attacks. *Antler-Crown Glaive:* melee, reach 10 ft., +7 to hit, **1d10 + 4 slashing + 1d8 force** (~14 avg). *Bow of First Light:* ranged 150/600, +7 to hit, **1d8 + 4 piercing + 1d6 radiant** (~12 avg). Bow used **only at range** and only against an armored target (Kto). He is not aiming to kill.
 
-### Actions
+**Bonus Actions.** *Fey Step* (see Features). *Standard's Bearing:* raise the standard — until start of his next turn, allies within 30 ft. (the sprites) gain advantage on saves vs frightened or charmed.
 
-- **Multiattack.** Lorindar makes two attacks with the **Antler-Crown Glaive.**
-- **Antler-Crown Glaive.** *Melee weapon, reach 10 ft., one target.* **+7 to hit; 1d10 + 4 slashing + 1d8 force (Bright Court resonance).** Average **~14 damage.**
-- **Bow of First Light.** *Ranged weapon, range 150/600 ft., one target.* **+7 to hit; 1d8 + 4 piercing + 1d6 radiant.** Average **~12 damage.** Lorindar will use this **only at range** and only against an armored target (Kto). He is not aiming to kill.
+**Reactions.** *Reproof of the Court:* when a creature within 30 ft. hits Lorindar with a melee attack, impose **disadvantage** on that roll — once per round only.
 
-### Bonus Actions
+**Round-by-Round Tactics.**
 
-- **Fey Step** (recharge 4–6) — see above.
-- **Standard's Bearing.** Lorindar raises the standard. Until the start of his next turn, all allies within 30 ft. (the sprite outriders) gain advantage on saving throws against being frightened or charmed.
+- **Round 1.** Free action: *Standard-Bearer's Word* — speak the audience invitation. Move Erith to within ~30 ft of the PC who drew first. Glaive ×2 against that PC. Making a point, not a corpse.
+- **Round 2.** Continue glaive on the same target. *Reproof of the Court* on the second hit if available.
+- **Round 3.** **Scripted Exit.** *Fey Step* onto Erith's back if dismounted (treat as at-will, ignore recharge). Stag bolts 60 ft. into the Living Wood. Sprites peel off. Combat ends.
+- **If bloodied earlier than R3:** exit immediately on his next turn — Fey Step + stag-bolt regardless of position.
 
-### Reactions
+**On defeat.** Bad outcome. New fey lord with a personal grievance afterward. Sela goes white. Audience invitation rescinded. Move to an S6+ war. Let it cost.
 
-- **Reproof of the Court.** When a creature Lorindar can see within 30 ft. hits him with a melee attack, Lorindar may use his reaction to impose **disadvantage on the attack roll** — but only **once per round.** A fey court does not strike a guest twice without offering them grace first.
+#### Erith-of-the-First-Snow *(stag mount — not a separate combatant)*
 
-### Erith-of-the-First-Snow *(Lorindar's stag mount — not a separate combatant)*
+Riding-horse stats with *Pass Without Trace* active on Lorindar. **AC 12 · HP 30 · Speed 60 ft.** Attacks abstracted into Lorindar's. If reduced to 0 HP → Lorindar dismounts on his next bonus action, Scripted Exit comes forward one round.
 
-Statted as a riding horse with **Pass Without Trace** active on Lorindar (the stag is the *Pass Without Trace*), AC 12, 30 HP, speed 60 ft. Erith's attacks are abstracted into Lorindar's. If a PC specifically targets Erith and reduces him to 0 HP, **Lorindar dismounts on his next bonus action and rage-disengages early** — bring the Scripted Exit forward one round.
-
-### Tactics — Lorindar's Round-by-Round Priorities
-
-| Round | Lorindar's plan |
-|---|---|
-| **Round 1** | Speak the audience invitation aloud using **Standard-Bearer's Word** (free action). Then move Erith to within ~30 ft. of the PC who drew first. Glaive attack ×2 against that PC. He is trying to make a point, not a corpse. |
-| **Round 2** | If not yet bloodied: continue. Glaive attacks against the same PC. If hit, **Reproof of the Court** the second hit. |
-| **Round 3** | **Scripted Exit.** *Fey Step* (treat as at-will here, ignore recharge — this is the planned escape) onto Erith's back if he was dismounted, OR keep his seat if he wasn't. Stag bolts at **60 ft.** speed into the Living Wood. The sprites peel off into the trees. Combat ends. |
-
-**If bloodied earlier than Round 3** — exit immediately on his next turn. He uses Fey Step + stag-bolt regardless of position.
-
-**If Lorindar is reduced to 0 HP** — the kids killed a CR 5 fey emissary at level 6 in 1–2 rounds and earned a far worse problem (a new fey lord with a personal grievance instead of a personal interest). Treat this as a *bad* outcome and let the table feel its weight. Sela goes white. The audience invitation is rescinded. Move it to a S6+ war.
-
----
-
-## Sprite Outrider (×2)
-
-![Sprite Outriders on fey-touched giant owls — circling the village green at dusk](https://storage.gemini.mcp.nqs.io/images/0a8a1646-979f-475b-875b-73fda652afe6.png)
+### Sprite Outrider (×2)
 
 > Small fey, two of them, mounted on fey-touched giant owls — pale gray feathers and starlight in the pupils. The sprites carry tiny longbows that read as toys until you watch them shoot.
 
@@ -130,7 +140,7 @@ Statted as a riding horse with **Pass Without Trace** active on Lorindar (the st
 |---|---|
 | **AC** | 15 (leather + fey grace) |
 | **HP** | **22** (5d6 + 5) |
-| **Speed** | 10 ft. ground, 60 ft. fly (on owl mount, 80 ft. fly) |
+| **Speed** | 10 ft. ground, 60 ft. fly (80 ft. on owl mount) |
 | **STR** | 8 (−1) |
 | **DEX** | 18 (+4) |
 | **CON** | 12 (+1) |
@@ -141,85 +151,18 @@ Statted as a riding horse with **Pass Without Trace** active on Lorindar (the st
 | **Senses** | Darkvision 60 ft., passive Perception 14 |
 | **Languages** | Common, Elvish, Sylvan |
 
-### Features
-- **Mounted (Giant Owl).** Owl provides flying mount; sprite uses owl's movement.
-- **Heart-Sight.** *Action.* The sprite can touch a creature OR succeed on a DC 13 ranged shot with a *Heart-Sight Arrow* (see Actions) to read its surface emotional state. *In this combat the sprites are deciding whether a PC is actually an enemy. If one of them Heart-Sights a PC and senses "fear and confusion, not malice," that sprite will not attack lethally next round — it will Hold instead.*
+**Features.** *Mounted (Giant Owl):* the owl provides a flying mount; the sprite uses the owl's movement. *Heart-Sight:* as an action, touch a creature OR succeed on a DC 13 ranged shot with a *Heart-Sight Arrow* to read its surface emotional state. If a sprite reads "fear and confusion, not malice" on a PC, that sprite **holds fire** and will not attack lethally next round.
 
-### Actions
-- **Shortbow.** *Ranged, range 40/160 ft., +6 to hit. 1d6 + 4 piercing.*
-- **Sleep-Tipped Arrow** (1/encounter each). *Ranged, range 40/160 ft., +6 to hit. 1d6 + 4 piercing + target makes a **CON save DC 12** or is **incapacitated (drowsy) until the end of its next turn.*** This is non-lethal. The sprites will use this against the **most dangerous-looking PC** in Round 2.
-- **Heart-Sight Arrow** (1/encounter each). *Ranged touch, range 40/160 ft., DC 13 attack vs. AC.* If it hits, the sprite reads the target's surface intent. Damage: 1 piercing (a "tap").
+**Actions.** *Shortbow:* ranged 40/160, +6 to hit, **1d6 + 4 piercing.** *Sleep-Tipped Arrow* (1/encounter each): ranged 40/160, +6 to hit, **1d6 + 4 piercing**; target makes a **CON DC 12** save or is **incapacitated (drowsy) until end of its next turn.** Non-lethal. Used against the most dangerous-looking PC in R2. *Heart-Sight Arrow* (1/encounter each): ranged touch 40/160, DC 13 vs AC, 1 piercing on hit (a "tap"), reads target's surface intent.
 
-### Tactics — Sprite Round-by-Round
+**Round-by-Round Tactics.**
 
-| Round | Sprite plan |
-|---|---|
-| **Round 1** | Hover 80 ft. up. Fire **Heart-Sight Arrows** at the two PCs who drew weapons first. If a Heart-Sight reads "fear," that sprite **holds fire** the rest of the encounter. If both read "rage," continue. |
-| **Round 2** | Fire **Sleep-Tipped Arrows** at the loudest-output PC (Yinu, Loric T., or Fiorn). Aim is to make the PC fall down on the firebreak, not to kill. |
-| **Round 3** | Cover the Herald's escape with regular shortbow fire. Peel off into the Living Wood as the stag bolts. |
+- **Round 1.** Hover 80 ft up. Heart-Sight Arrows at the two PCs who drew first. Any sprite reading "fear" holds fire the rest of the encounter. If both read "rage," continue.
+- **Round 2.** Sleep-Tipped Arrows at the loudest-output PC (Yinu, Loric T., or Fiorn). Aim is to drop the PC on the firebreak, not kill.
+- **Round 3.** Cover the Herald's escape with regular shortbow fire. Peel off into the Living Wood as the stag bolts.
 
-**If a sprite is reduced to 0 HP** — the other sprite breaks off immediately and follows the Herald. Don't kill both unless the party is going *very* hard.
+**On defeat.** A sprite dropped to 0 HP → the other sprite breaks off immediately and follows the Herald. Don't kill both unless the party is going *very* hard.
 
 ---
 
-## Civilian Screen (DM-controlled, won't act unless asked)
-
-| Combatant | Role | Notes |
-|---|---|---|
-| **Captain Corwick Helm** | Holds the militia line. | Will throw himself between a civilian and a sprite-shot if needed. Will **not** attack Lorindar — he can feel the standard. |
-| **4× Shadowdale Reservists** | Behind Helm. Spear-and-shield. | Civilian cordon. They will not engage unless Helm orders them to. |
-| **Rellan Tessar** | At the riverbank with his bow. | If Kto is downed, Rellan will rush in. Story beat, not damage. |
-| **Sela Wyndmere** | At the treeline, between the Herald and the party. | *Will not attack either side.* She is the **trigger and the brake.** If the fight goes too lethal, she steps between Lorindar and the PCs and the PCs will not strike her. End the fight. |
-
----
-
-## Ending the Fight Cleanly
-
-There are four ways this combat ends. **All four are good outcomes.** The DM picks which is in play based on the table's energy:
-
-1. **Round 3 timer.** Lorindar Fey Steps onto Erith, stag bolts into the Living Wood. Standard delivery: ✓.
-2. **Lorindar bloodied.** Same exit, one or two rounds earlier. Party feels victorious. Standard delivery: ✓.
-3. **Sela's intervention.** Sela calls Lorindar's name aloud and steps between him and the party. PCs hold. Lorindar bows, departs. Standard delivery: ✓. *Best outcome for Sela's arc.*
-4. **The audience accepted.** Party holds their weapons through Lorindar's entire speech. Initiative never rolls. Lorindar bows, departs. Standard delivery: ✓. *Vanishingly rare — but mark it big if it happens.*
-
-**Avoid:** Lorindar dies. (Discussed above — let it cost.)
-**Avoid:** A PC dies. Use Sela's intervention to bail out if a kid drops to 0.
-
----
-
-## Quick Reference — Lorindar At The Table
-
-| Stat | Value |
-|---|---|
-| AC | **16** |
-| HP | **85** (Bloodied **42**) |
-| Speed | 30 (40 mounted) |
-| Save DCs | DC 14 (CON for Sleep-Tipped Arrow is the Sprite's) |
-| Glaive | **+7**, **1d10+4 slash + 1d8 force** |
-| Bow | **+7**, **1d8+4 pierce + 1d6 radiant**, 150/600 |
-| Fey Step | 30 ft., bonus, recharge 4–6 (at-will on the Scripted Exit) |
-| Reaction | Reproof — disadvantage on 1 melee hit/round |
-| Free 1/encounter | Standard-Bearer's Word — one sentence, 60 ft., always heard |
-
-| Sprite | Value |
-|---|---|
-| AC | **15** |
-| HP | **22** |
-| Speed | 80 ft. fly (mounted) |
-| Bow | **+6**, **1d6+4 pierce**, 40/160 |
-| Sleep Arrow | 1/encounter, **CON DC 12** or incapacitated 1 round |
-| Heart-Sight | 1/encounter, reads target intent |
-
----
-
-## XP Audit
-
-| Source | XP |
-|---|---|
-| Lorindar (CR 5) | 1,800 |
-| Sprite Outrider × 2 (CR 1 ea.) | 400 |
-| **Encounter raw XP** | **2,200** |
-| **5 PC L6 adjusted (×1.5 for multiple foes)** | **~3,300** |
-| **DMG threshold — Medium (5×L6)** | **3,500** |
-
-Sits just under Medium. Correct for a fight whose **purpose is not victory** but a clean exit.
+![Tactical Map — The Greengrass Bonfire Confrontation](https://storage.gemini.mcp.nqs.io/images/bc111ea7-8e07-4e3a-bee0-2fa628746316.png)
