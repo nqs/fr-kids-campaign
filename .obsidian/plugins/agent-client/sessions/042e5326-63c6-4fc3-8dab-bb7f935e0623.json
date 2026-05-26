@@ -476,7 +476,513 @@
         }
       ],
       "timestamp": "2026-05-26T20:47:49.055Z"
+    },
+    {
+      "id": "322d5aae-24f5-48d9-a4be-b976081d9fc5",
+      "role": "user",
+      "content": [
+        {
+          "type": "text_with_context",
+          "text": "yes",
+          "autoMentionContext": {
+            "noteName": "dnd-adventure-generator",
+            "notePath": "dnd-adventure-generator.md"
+          }
+        }
+      ],
+      "timestamp": "2026-05-26T21:04:26.347Z"
+    },
+    {
+      "id": "952cb6d1-6208-4b33-bdb6-b39fdfd7ffb1",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "agent_thought",
+          "text": " I need to update the PDF renderer to handle tactical maps differently—treating `---` before a map as a hard page break so the map lands on its own page, and removing the binding between maps and their encounter headings so the map becomes the final element in its section."
+        }
+      ],
+      "timestamp": "2026-05-26T21:04:35.254Z"
+    },
+    {
+      "id": "d4025173-4904-43c9-85c9-04a9d7b409ff",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_015UeYq3BHjfWdNR3v1BRWgk",
+          "title": "Read `scripts/md_to_pdf.py` (lines 370-470)",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "line": 370,
+              "path": "/Users/nstewart/code/fr-kids-campaign/scripts/md_to_pdf.py"
+            }
+          ],
+          "rawInput": {
+            "path": "scripts/md_to_pdf.py",
+            "view_range": [
+              370,
+              470
+            ]
+          }
+        }
+      ],
+      "timestamp": "2026-05-26T21:04:35.314Z"
+    },
+    {
+      "id": "0bffd12c-0079-4cdf-b98b-7421b7107b78",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_0145Cx8nvCduxhdjUi2C9k9U",
+          "title": "Read `scripts/md_to_pdf.py` (lines 600-725)",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "line": 600,
+              "path": "/Users/nstewart/code/fr-kids-campaign/scripts/md_to_pdf.py"
+            }
+          ],
+          "rawInput": {
+            "path": "scripts/md_to_pdf.py",
+            "view_range": [
+              600,
+              725
+            ]
+          }
+        },
+        {
+          "type": "agent_thought",
+          "text": " I see the issue now—I need to adjust how thematic breaks are handled so that a `---` signals that the *next* image should get a PageBreak before it, rather than after. And when rendering tactical maps, I should skip the KeepTogether binding to the preceding heading.\n\nLooking at the new markdown structure, the `---` before a tactical map should trigger a page break so the map gets its own page, and then the following `## Encounter` heading will naturally start fresh via the existing page-break logic. For tactical maps specifically, I'll emit the PageBreak first if one was flagged, render the image standalone without binding it to any heading, and then clean up the old \"page break after map\" behavior since we're moving to this new layout pattern.\n\nThe simplest approach is to have the thematic break handler set a flag, then when a tactical map image is about to render, it checks that flag and emits a PageBreak instead of the spacer that was already added—this way the map gets its own dedicated page without needing complex lookahead or state tracking. I'm realizing the cleanest approach is to have `_h_thematic_break` just set the flag, then let `_emit_image` check it for tactical maps—popping any trailing spacers and inserting a page break instead—while other content handlers clear the flag since the `---` wasn't followed by a map.\n\nImplementing this now... Updating the image policy to suppress non-tactical images in the combat-tracker section, keeping only tactical maps."
+        },
+        {
+          "type": "text",
+          "text": "Now I'll update the renderer to match the new spec. Two changes:\n\n1. **`_h_thematic_break`**: stop treating `---` *after* a tactical map as a page break (that's the old layout).\n2. **`_emit_image`**: when the image is a tactical map, emit a hard `PageBreak` *before* it, render it standalone full-page, and do **not** bind it to the preceding heading. Also tighten the combat-tracker image policy so only tactical maps are emitted (any portrait left in File 2 is suppressed, matching the new \"no portraits in combat tracker\" rule).\n"
+        }
+      ],
+      "timestamp": "2026-05-26T21:04:38.394Z"
+    },
+    {
+      "id": "bee15422-1ce3-4f53-ac5f-5b7fd29cd88f",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01JDxg2eiH1BjanYyNbyxAJd",
+          "title": "Edit scripts/md_to_pdf.py",
+          "status": "completed",
+          "kind": "edit",
+          "content": [
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/code/fr-kids-campaign/scripts/md_to_pdf.py",
+              "newText": "        self._h1_seen = False\n        self._h2_seen_in_section = False\n        self._after_stat_label = False\n        self.out: list = []",
+              "oldText": "        self._h1_seen = False\n        self._h2_seen_in_section = False\n        self._after_stat_label = False\n        self._last_was_map = False  # True after a tactical map image; cleared on next ---\n        self.out: list = []"
+            }
+          ],
+          "locations": [
+            {
+              "path": "/Users/nstewart/code/fr-kids-campaign/scripts/md_to_pdf.py"
+            }
+          ],
+          "rawInput": {
+            "path": "scripts/md_to_pdf.py",
+            "instruction_reminder": "ALWAYS BREAK DOWN EDITS INTO SMALLER CHUNKS OF AT MOST 150 LINES EACH.",
+            "command": "str_replace",
+            "old_str_1": "        self._h1_seen = False\n        self._h2_seen_in_section = False\n        self._after_stat_label = False\n        self._last_was_map = False  # True after a tactical map image; cleared on next ---\n        self.out: list = []",
+            "new_str_1": "        self._h1_seen = False\n        self._h2_seen_in_section = False\n        self._after_stat_label = False\n        self.out: list = []",
+            "old_str_start_line_number_1": 381,
+            "old_str_end_line_number_1": 385
+          }
+        }
+      ],
+      "timestamp": "2026-05-26T21:05:30.713Z"
+    },
+    {
+      "id": "892e13dc-b5d3-4950-8bb9-7e5ed21aaeed",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_016L8vVFv5ZwVeYc6fzQtd9i",
+          "title": "Edit scripts/md_to_pdf.py",
+          "status": "completed",
+          "kind": "edit",
+          "content": [
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/code/fr-kids-campaign/scripts/md_to_pdf.py",
+              "newText": "    def _h_thematic_break(self, node: dict) -> None:\n        # Thematic breaks render as a soft visual gap. In the combat-tracker\n        # file a `---` precedes each tactical map, but the page-break logic\n        # lives in `_emit_image`: tactical maps unconditionally land on a\n        # fresh page, so the `---` itself is just decorative here.\n        self.out.append(Spacer(1, 6))",
+              "oldText": "    def _h_thematic_break(self, node: dict) -> None:\n        if self._last_was_map:\n            # The --- immediately after a tactical map is the hard page break\n            # separating the map's dedicated page from the tracker sheet.\n            self._append_pagebreak()\n            self._last_was_map = False\n        else:\n            self.out.append(Spacer(1, 6))"
+            }
+          ],
+          "locations": [
+            {
+              "path": "/Users/nstewart/code/fr-kids-campaign/scripts/md_to_pdf.py"
+            }
+          ],
+          "rawInput": {
+            "path": "scripts/md_to_pdf.py",
+            "instruction_reminder": "ALWAYS BREAK DOWN EDITS INTO SMALLER CHUNKS OF AT MOST 150 LINES EACH.",
+            "command": "str_replace",
+            "old_str_1": "    def _h_thematic_break(self, node: dict) -> None:\n        if self._last_was_map:\n            # The --- immediately after a tactical map is the hard page break\n            # separating the map's dedicated page from the tracker sheet.\n            self._append_pagebreak()\n            self._last_was_map = False\n        else:\n            self.out.append(Spacer(1, 6))",
+            "new_str_1": "    def _h_thematic_break(self, node: dict) -> None:\n        # Thematic breaks render as a soft visual gap. In the combat-tracker\n        # file a `---` precedes each tactical map, but the page-break logic\n        # lives in `_emit_image`: tactical maps unconditionally land on a\n        # fresh page, so the `---` itself is just decorative here.\n        self.out.append(Spacer(1, 6))",
+            "old_str_start_line_number_1": 458,
+            "old_str_end_line_number_1": 465
+          }
+        },
+        {
+          "type": "text",
+          "text": "Now the bigger edit — rewrite the tactical-map handling in `_emit_image`:\n"
+        }
+      ],
+      "timestamp": "2026-05-26T21:05:37.774Z"
+    },
+    {
+      "id": "2da072f7-ed78-4786-9b20-546a2e0c6423",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01NEp13DSZYquPv7CsaS25bs",
+          "title": "Read `scripts/md_to_pdf.py` (lines 608-722)",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "line": 608,
+              "path": "/Users/nstewart/code/fr-kids-campaign/scripts/md_to_pdf.py"
+            }
+          ],
+          "rawInput": {
+            "path": "scripts/md_to_pdf.py",
+            "view_range": [
+              608,
+              722
+            ]
+          }
+        },
+        {
+          "type": "agent_thought",
+          "text": " I'm making three key changes: removing the `_last_was_map` field writes since that's no longer needed, prioritizing tactical map handling by inserting a page-break and full-page image check before the heading-binding logic, and tightening the combat-tracker image policy to filter out non-tactical images in File 2. I'll consolidate these fixes into one replacement."
+        }
+      ],
+      "timestamp": "2026-05-26T21:05:41.855Z"
+    },
+    {
+      "id": "c2995e54-cf2e-4eaa-84c9-89cb101ca41f",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_0137vD1oa4gqmg67uoW1q8j8",
+          "title": "Edit scripts/md_to_pdf.py",
+          "status": "completed",
+          "kind": "edit",
+          "content": [
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/code/fr-kids-campaign/scripts/md_to_pdf.py",
+              "newText": "        alt = (img_node.get(\"attrs\", {}).get(\"alt\", \"\")\n               or _cell_text(img_node.get(\"children\", [])))\n        is_tactical_map = (self.section == \"combat-tracker\"\n                           and alt.startswith(\"Tactical Map\"))\n\n        # Player-handout pages are composed one-per-page in\n        # _finalize_player_handouts (title → image → text). Emit the image at\n        # natural full width here; the finalizer resizes it to fill whatever\n        # vertical space the title and description leave on the page.\n        if self.section == \"player-handouts\":\n            img = sized_image(url, self.manifest, max_w_in=7.2)\n            img.hAlign = \"CENTER\"\n            self.out.append(img)\n            return\n\n        # Combat tracker: only tactical maps render. Portraits and any other\n        # imagery are suppressed — stat-block cards stay text-only and\n        # portraits live exclusively in the player-handout appendix.\n        if self.section == \"combat-tracker\":\n            if not is_tactical_map:\n                return\n            # Tactical map: render on its own page at the end of the\n            # encounter section. Pop trailing decorative flowables (the\n            # `---` thematic break that preceded the map becomes a Spacer,\n            # which we drop here in favour of an explicit page break),\n            # insert a hard PageBreak, then emit the image full-page\n            # unbound. The next encounter's `##` heading triggers its own\n            # page break, so the map page is always isolated.\n            while self.out and isinstance(self.out[-1], (Spacer, HRFlowable)):\n                self.out.pop()\n            self.out.append(PageBreak())\n            img = sized_image(url, self.manifest, max_w_in=7.2, max_h_in=9.8)\n            img.hAlign = \"CENTER\"\n            self.out.append(img)\n            return\n\n        # Look back, skipping trailing decorative flowables, for a heading\n        # (optionally with one short intro paragraph between heading and\n        # image). If found, bind the heading and image into a `KeepTogether`\n        # so ReportLab keeps them on the same page — preventing orphaned\n        # headings on otherwise-empty pages.\n        end = len(self.out) - 1\n        while end >= 0 and isinstance(self.out[end], (Spacer, HRFlowable)):\n            end -= 1\n\n        heading_idx = None\n        if end >= 0 and self._is_heading_flow(self.out[end]):\n            heading_idx = end\n        elif end >= 0 and self._is_short_intro_flow(self.out[end]):\n            prev = end - 1\n            while prev >= 0 and isinstance(self.out[prev], (Spacer, HRFlowable)):\n                prev -= 1\n            if prev >= 0 and self._is_heading_flow(self.out[prev]):\n                heading_idx = prev\n        elif end >= 0 and isinstance(self.out[end], Table):\n            # Cover-page pattern: heading → info table → image.\n            # Look back past the table to bind all three on the same page.\n            prev = end - 1\n            while prev >= 0 and isinstance(self.out[prev], (Spacer, HRFlowable)):\n                prev -= 1\n            if prev >= 0 and self._is_heading_flow(self.out[prev]):\n                heading_idx = prev\n\n        # Image inclusion policy: outside the combat-tracker (handled above)\n        # and player-handout (handled above) sections, only the adventure\n        # file's cover/title page emits an image — the one bound with the\n        # session info table. The DM quick-ref (and any other section)\n        # carries none. Suppressed images leave their bound heading in\n        # place; only the picture drops.\n        _has_table = (heading_idx is not None\n                      and any(isinstance(f, Table)\n                              for f in self.out[heading_idx:]))\n        if self.section == \"adventure\":\n            keep = _has_table  # cover/title page only\n        else:\n            keep = False\n        if not keep:\n            return\n\n        if heading_idx is not None:\n            bound = list(self.out[heading_idx:])\n            del self.out[heading_idx:]\n            has_table = any(isinstance(f, Table) for f in bound)\n            if has_table:\n                # Cover-page pattern (title → table → image). Emit each\n                # flowable individually rather than as KeepTogether; the\n                # combined block is too tall for KeepTogether to guarantee\n                # single-page placement on Letter.\n                #\n                # Dynamically compute how much vertical space the bound\n                # flowables consume so the image gets exactly the remainder\n                # of the first page.\n                _frame_w, _frame_h = _frame_content_dims()\n                _bound_h = sum(_flow_height(_f, _frame_w, _frame_h)\n                               for _f in bound)\n                _spacer_h = 4  # pt — Spacer(1, 4) inserted before image\n                _avail_h = _frame_h - _bound_h - _spacer_h\n                _max_h_in = max(1.0, (_avail_h / inch) * 0.99)  # 1 % safety margin\n                img = sized_image(url, self.manifest, max_w_in=7.2,\n                                  max_h_in=_max_h_in)\n                img.hAlign = \"CENTER\"\n                self.out.extend(bound)\n                self.out.extend([Spacer(1, _spacer_h), img, PageBreak()])\n            else:\n                img = sized_image(url, self.manifest, max_w_in=7.2,\n                                  max_h_in=8.5)\n                img.hAlign = \"CENTER\"\n                bound.extend([Spacer(1, 4), img])\n                self.out.append(KeepTogether(bound))\n            return\n\n        # No pairing — image flows naturally. ReportLab page-breaks before\n        # it if the image doesn't fit in the remaining space (a portrait\n        # image won't squeeze into a couple of inches at the bottom of a\n        # text page), but a landscape image that does fit will render below\n        # preceding text instead of forcing a near-empty page.\n        img = sized_image(url, self.manifest, max_w_in=7.2, max_h_in=9.8)\n        img.hAlign = \"CENTER\"\n        self.out.append(img)",
+              "oldText": "        alt = (img_node.get(\"attrs\", {}).get(\"alt\", \"\")\n               or _cell_text(img_node.get(\"children\", [])))\n        is_tactical_map = (self.section == \"combat-tracker\"\n                           and alt.startswith(\"Tactical Map\"))\n\n        # Player-handout pages are composed one-per-page in\n        # _finalize_player_handouts (title → image → text). Emit the image at\n        # natural full width here; the finalizer resizes it to fill whatever\n        # vertical space the title and description leave on the page.\n        if self.section == \"player-handouts\":\n            img = sized_image(url, self.manifest, max_w_in=7.2)\n            img.hAlign = \"CENTER\"\n            self.out.append(img)\n            return\n\n        # Look back, skipping trailing decorative flowables, for a heading\n        # (optionally with one short intro paragraph between heading and\n        # image). If found, bind the heading and image into a `KeepTogether`\n        # so ReportLab keeps them on the same page — preventing orphaned\n        # headings on otherwise-empty pages. Tactical maps follow this same\n        # path; their encounter heading + italic line are bound with the map\n        # image (max 7.2\"×8.5\"), and the `---` that follows the image\n        # (handled by _h_thematic_break) adds the PageBreak that separates\n        # the map+header page from the tracker sheet.\n        end = len(self.out) - 1\n        while end >= 0 and isinstance(self.out[end], (Spacer, HRFlowable)):\n            end -= 1\n\n        heading_idx = None\n        if end >= 0 and self._is_heading_flow(self.out[end]):\n            heading_idx = end\n        elif end >= 0 and self._is_short_intro_flow(self.out[end]):\n            prev = end - 1\n            while prev >= 0 and isinstance(self.out[prev], (Spacer, HRFlowable)):\n                prev -= 1\n            if prev >= 0 and self._is_heading_flow(self.out[prev]):\n                heading_idx = prev\n        elif end >= 0 and isinstance(self.out[end], Table):\n            # Cover-page pattern: heading → info table → image.\n            # Look back past the table to bind all three on the same page.\n            prev = end - 1\n            while prev >= 0 and isinstance(self.out[prev], (Spacer, HRFlowable)):\n                prev -= 1\n            if prev >= 0 and self._is_heading_flow(self.out[prev]):\n                heading_idx = prev\n\n        # Image inclusion policy: images render only in the combat tracker\n        # (statblock portraits, tactical maps) and the player-handout\n        # appendix. The adventure section keeps just its cover/title-page\n        # image — the one bound with the session info table — and the\n        # DM quick-ref (and any other section) carries none. Suppressed\n        # images leave their bound heading in place; only the picture drops.\n        _has_table = (heading_idx is not None\n                      and any(isinstance(f, Table)\n                              for f in self.out[heading_idx:]))\n        if self.section == \"adventure\":\n            keep = _has_table  # cover/title page only\n        elif self.section in (\"combat-tracker\", \"player-handouts\"):\n            keep = True\n        else:\n            keep = False\n        if not keep:\n            return\n\n        if heading_idx is not None:\n            bound = list(self.out[heading_idx:])\n            del self.out[heading_idx:]\n            has_table = any(isinstance(f, Table) for f in bound)\n            if has_table:\n                # Cover-page pattern (title → table → image). Emit each\n                # flowable individually rather than as KeepTogether; the\n                # combined block is too tall for KeepTogether to guarantee\n                # single-page placement on Letter.\n                #\n                # Dynamically compute how much vertical space the bound\n                # flowables consume so the image gets exactly the remainder\n                # of the first page.\n                _frame_w, _frame_h = _frame_content_dims()\n                _bound_h = sum(_flow_height(_f, _frame_w, _frame_h)\n                               for _f in bound)\n                _spacer_h = 4  # pt — Spacer(1, 4) inserted before image\n                _avail_h = _frame_h - _bound_h - _spacer_h\n                _max_h_in = max(1.0, (_avail_h / inch) * 0.99)  # 1 % safety margin\n                img = sized_image(url, self.manifest, max_w_in=7.2,\n                                  max_h_in=_max_h_in)\n                img.hAlign = \"CENTER\"\n                self.out.extend(bound)\n                self.out.extend([Spacer(1, _spacer_h), img, PageBreak()])\n            else:\n                img = sized_image(url, self.manifest, max_w_in=7.2,\n                                  max_h_in=8.5)\n                img.hAlign = \"CENTER\"\n                bound.extend([Spacer(1, 4), img])\n                self.out.append(KeepTogether(bound))\n            self._last_was_map = is_tactical_map\n            return\n\n        # No pairing — image flows naturally. ReportLab page-breaks before\n        # it if the image doesn't fit in the remaining space (a portrait\n        # image won't squeeze into a couple of inches at the bottom of a\n        # text page), but a landscape image that does fit will render below\n        # preceding text instead of forcing a near-empty page.\n        img = sized_image(url, self.manifest, max_w_in=7.2, max_h_in=9.8)\n        img.hAlign = \"CENTER\"\n        self.out.append(img)\n        self._last_was_map = is_tactical_map"
+            }
+          ],
+          "locations": [
+            {
+              "path": "/Users/nstewart/code/fr-kids-campaign/scripts/md_to_pdf.py"
+            }
+          ],
+          "rawInput": {
+            "path": "scripts/md_to_pdf.py",
+            "instruction_reminder": "ALWAYS BREAK DOWN EDITS INTO SMALLER CHUNKS OF AT MOST 150 LINES EACH.",
+            "command": "str_replace",
+            "old_str_1": "        alt = (img_node.get(\"attrs\", {}).get(\"alt\", \"\")\n               or _cell_text(img_node.get(\"children\", [])))\n        is_tactical_map = (self.section == \"combat-tracker\"\n                           and alt.startswith(\"Tactical Map\"))\n\n        # Player-handout pages are composed one-per-page in\n        # _finalize_player_handouts (title → image → text). Emit the image at\n        # natural full width here; the finalizer resizes it to fill whatever\n        # vertical space the title and description leave on the page.\n        if self.section == \"player-handouts\":\n            img = sized_image(url, self.manifest, max_w_in=7.2)\n            img.hAlign = \"CENTER\"\n            self.out.append(img)\n            return\n\n        # Look back, skipping trailing decorative flowables, for a heading\n        # (optionally with one short intro paragraph between heading and\n        # image). If found, bind the heading and image into a `KeepTogether`\n        # so ReportLab keeps them on the same page — preventing orphaned\n        # headings on otherwise-empty pages. Tactical maps follow this same\n        # path; their encounter heading + italic line are bound with the map\n        # image (max 7.2\"×8.5\"), and the `---` that follows the image\n        # (handled by _h_thematic_break) adds the PageBreak that separates\n        # the map+header page from the tracker sheet.\n        end = len(self.out) - 1\n        while end >= 0 and isinstance(self.out[end], (Spacer, HRFlowable)):\n            end -= 1\n\n        heading_idx = None\n        if end >= 0 and self._is_heading_flow(self.out[end]):\n            heading_idx = end\n        elif end >= 0 and self._is_short_intro_flow(self.out[end]):\n            prev = end - 1\n            while prev >= 0 and isinstance(self.out[prev], (Spacer, HRFlowable)):\n                prev -= 1\n            if prev >= 0 and self._is_heading_flow(self.out[prev]):\n                heading_idx = prev\n        elif end >= 0 and isinstance(self.out[end], Table):\n            # Cover-page pattern: heading → info table → image.\n            # Look back past the table to bind all three on the same page.\n            prev = end - 1\n            while prev >= 0 and isinstance(self.out[prev], (Spacer, HRFlowable)):\n                prev -= 1\n            if prev >= 0 and self._is_heading_flow(self.out[prev]):\n                heading_idx = prev\n\n        # Image inclusion policy: images render only in the combat tracker\n        # (statblock portraits, tactical maps) and the player-handout\n        # appendix. The adventure section keeps just its cover/title-page\n        # image — the one bound with the session info table — and the\n        # DM quick-ref (and any other section) carries none. Suppressed\n        # images leave their bound heading in place; only the picture drops.\n        _has_table = (heading_idx is not None\n                      and any(isinstance(f, Table)\n                              for f in self.out[heading_idx:]))\n        if self.section == \"adventure\":\n            keep = _has_table  # cover/title page only\n        elif self.section in (\"combat-tracker\", \"player-handouts\"):\n            keep = True\n        else:\n            keep = False\n        if not keep:\n            return\n\n        if heading_idx is not None:\n            bound = list(self.out[heading_idx:])\n            del self.out[heading_idx:]\n            has_table = any(isinstance(f, Table) for f in bound)\n            if has_table:\n                # Cover-page pattern (title → table → image). Emit each\n                # flowable individually rather than as KeepTogether; the\n                # combined block is too tall for KeepTogether to guarantee\n                # single-page placement on Letter.\n                #\n                # Dynamically compute how much vertical space the bound\n                # flowables consume so the image gets exactly the remainder\n                # of the first page.\n                _frame_w, _frame_h = _frame_content_dims()\n                _bound_h = sum(_flow_height(_f, _frame_w, _frame_h)\n                               for _f in bound)\n                _spacer_h = 4  # pt — Spacer(1, 4) inserted before image\n                _avail_h = _frame_h - _bound_h - _spacer_h\n                _max_h_in = max(1.0, (_avail_h / inch) * 0.99)  # 1 % safety margin\n                img = sized_image(url, self.manifest, max_w_in=7.2,\n                                  max_h_in=_max_h_in)\n                img.hAlign = \"CENTER\"\n                self.out.extend(bound)\n                self.out.extend([Spacer(1, _spacer_h), img, PageBreak()])\n            else:\n                img = sized_image(url, self.manifest, max_w_in=7.2,\n                                  max_h_in=8.5)\n                img.hAlign = \"CENTER\"\n                bound.extend([Spacer(1, 4), img])\n                self.out.append(KeepTogether(bound))\n            self._last_was_map = is_tactical_map\n            return\n\n        # No pairing — image flows naturally. ReportLab page-breaks before\n        # it if the image doesn't fit in the remaining space (a portrait\n        # image won't squeeze into a couple of inches at the bottom of a\n        # text page), but a landscape image that does fit will render below\n        # preceding text instead of forcing a near-empty page.\n        img = sized_image(url, self.manifest, max_w_in=7.2, max_h_in=9.8)\n        img.hAlign = \"CENTER\"\n        self.out.append(img)\n        self._last_was_map = is_tactical_map",
+            "new_str_1": "        alt = (img_node.get(\"attrs\", {}).get(\"alt\", \"\")\n               or _cell_text(img_node.get(\"children\", [])))\n        is_tactical_map = (self.section == \"combat-tracker\"\n                           and alt.startswith(\"Tactical Map\"))\n\n        # Player-handout pages are composed one-per-page in\n        # _finalize_player_handouts (title → image → text). Emit the image at\n        # natural full width here; the finalizer resizes it to fill whatever\n        # vertical space the title and description leave on the page.\n        if self.section == \"player-handouts\":\n            img = sized_image(url, self.manifest, max_w_in=7.2)\n            img.hAlign = \"CENTER\"\n            self.out.append(img)\n            return\n\n        # Combat tracker: only tactical maps render. Portraits and any other\n        # imagery are suppressed — stat-block cards stay text-only and\n        # portraits live exclusively in the player-handout appendix.\n        if self.section == \"combat-tracker\":\n            if not is_tactical_map:\n                return\n            # Tactical map: render on its own page at the end of the\n            # encounter section. Pop trailing decorative flowables (the\n            # `---` thematic break that preceded the map becomes a Spacer,\n            # which we drop here in favour of an explicit page break),\n            # insert a hard PageBreak, then emit the image full-page\n            # unbound. The next encounter's `##` heading triggers its own\n            # page break, so the map page is always isolated.\n            while self.out and isinstance(self.out[-1], (Spacer, HRFlowable)):\n                self.out.pop()\n            self.out.append(PageBreak())\n            img = sized_image(url, self.manifest, max_w_in=7.2, max_h_in=9.8)\n            img.hAlign = \"CENTER\"\n            self.out.append(img)\n            return\n\n        # Look back, skipping trailing decorative flowables, for a heading\n        # (optionally with one short intro paragraph between heading and\n        # image). If found, bind the heading and image into a `KeepTogether`\n        # so ReportLab keeps them on the same page — preventing orphaned\n        # headings on otherwise-empty pages.\n        end = len(self.out) - 1\n        while end >= 0 and isinstance(self.out[end], (Spacer, HRFlowable)):\n            end -= 1\n\n        heading_idx = None\n        if end >= 0 and self._is_heading_flow(self.out[end]):\n            heading_idx = end\n        elif end >= 0 and self._is_short_intro_flow(self.out[end]):\n            prev = end - 1\n            while prev >= 0 and isinstance(self.out[prev], (Spacer, HRFlowable)):\n                prev -= 1\n            if prev >= 0 and self._is_heading_flow(self.out[prev]):\n                heading_idx = prev\n        elif end >= 0 and isinstance(self.out[end], Table):\n            # Cover-page pattern: heading → info table → image.\n            # Look back past the table to bind all three on the same page.\n            prev = end - 1\n            while prev >= 0 and isinstance(self.out[prev], (Spacer, HRFlowable)):\n                prev -= 1\n            if prev >= 0 and self._is_heading_flow(self.out[prev]):\n                heading_idx = prev\n\n        # Image inclusion policy: outside the combat-tracker (handled above)\n        # and player-handout (handled above) sections, only the adventure\n        # file's cover/title page emits an image — the one bound with the\n        # session info table. The DM quick-ref (and any other section)\n        # carries none. Suppressed images leave their bound heading in\n        # place; only the picture drops.\n        _has_table = (heading_idx is not None\n                      and any(isinstance(f, Table)\n                              for f in self.out[heading_idx:]))\n        if self.section == \"adventure\":\n            keep = _has_table  # cover/title page only\n        else:\n            keep = False\n        if not keep:\n            return\n\n        if heading_idx is not None:\n            bound = list(self.out[heading_idx:])\n            del self.out[heading_idx:]\n            has_table = any(isinstance(f, Table) for f in bound)\n            if has_table:\n                # Cover-page pattern (title → table → image). Emit each\n                # flowable individually rather than as KeepTogether; the\n                # combined block is too tall for KeepTogether to guarantee\n                # single-page placement on Letter.\n                #\n                # Dynamically compute how much vertical space the bound\n                # flowables consume so the image gets exactly the remainder\n                # of the first page.\n                _frame_w, _frame_h = _frame_content_dims()\n                _bound_h = sum(_flow_height(_f, _frame_w, _frame_h)\n                               for _f in bound)\n                _spacer_h = 4  # pt — Spacer(1, 4) inserted before image\n                _avail_h = _frame_h - _bound_h - _spacer_h\n                _max_h_in = max(1.0, (_avail_h / inch) * 0.99)  # 1 % safety margin\n                img = sized_image(url, self.manifest, max_w_in=7.2,\n                                  max_h_in=_max_h_in)\n                img.hAlign = \"CENTER\"\n                self.out.extend(bound)\n                self.out.extend([Spacer(1, _spacer_h), img, PageBreak()])\n            else:\n                img = sized_image(url, self.manifest, max_w_in=7.2,\n                                  max_h_in=8.5)\n                img.hAlign = \"CENTER\"\n                bound.extend([Spacer(1, 4), img])\n                self.out.append(KeepTogether(bound))\n            return\n\n        # No pairing — image flows naturally. ReportLab page-breaks before\n        # it if the image doesn't fit in the remaining space (a portrait\n        # image won't squeeze into a couple of inches at the bottom of a\n        # text page), but a landscape image that does fit will render below\n        # preceding text instead of forcing a near-empty page.\n        img = sized_image(url, self.manifest, max_w_in=7.2, max_h_in=9.8)\n        img.hAlign = \"CENTER\"\n        self.out.append(img)",
+            "old_str_start_line_number_1": 614,
+            "old_str_end_line_number_1": 719
+          }
+        },
+        {
+          "type": "text",
+          "text": "Let me check whether there are any remaining `_last_was_map` references or any tests / scripts referencing the old behavior:\n"
+        }
+      ],
+      "timestamp": "2026-05-26T21:06:22.793Z"
+    },
+    {
+      "id": "ec65f499-9e37-44ec-a350-182db9c9e5e8",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_011KMJ2m4iBgLdVxa3MA5Fv1",
+          "title": "Read `scripts/md_to_pdf.py` (search: \"_last_was_map\")",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "path": "/Users/nstewart/code/fr-kids-campaign/scripts/md_to_pdf.py"
+            }
+          ],
+          "rawInput": {
+            "path": "scripts/md_to_pdf.py",
+            "search_query_regex": "_last_was_map"
+          }
+        }
+      ],
+      "timestamp": "2026-05-26T21:06:29.573Z"
+    },
+    {
+      "id": "fd62e918-6df7-477b-a1f2-52e853fd80da",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01N6PJUTk1FA8K9kLqZo9JL8",
+          "title": "Run `grep -rn \"_last_was_map\\|tactical_map\\|Tactical Map\" scripts/ 2>/dev/null | head...`",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "command": "grep -rn \"_last_was_map\\|tactical_map\\|Tactical Map\" scripts/ 2>/dev/null | head -50",
+            "cwd": "/Users/nstewart/code/fr-kids-campaign",
+            "wait": true,
+            "max_wait_seconds": 10
+          }
+        }
+      ],
+      "timestamp": "2026-05-26T21:06:29.613Z"
+    },
+    {
+      "id": "f7c61c50-85dd-4da7-864d-4e130eadb360",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01SJyp4EMVkka3Qm5diDVFLM",
+          "title": "Run `ls scripts/`",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "command": "ls scripts/",
+            "cwd": "/Users/nstewart/code/fr-kids-campaign",
+            "wait": true,
+            "max_wait_seconds": 5
+          }
+        },
+        {
+          "type": "text",
+          "text": "One stale `self._last_was_map = False` in `_h_paragraph` — clean it up:\n"
+        }
+      ],
+      "timestamp": "2026-05-26T21:06:29.733Z"
+    },
+    {
+      "id": "c2f6cb3b-0006-4ee4-aed3-40163d8944c7",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_015rJsDgFr2ppEcFtsaXouCC",
+          "title": "Read `scripts/md_to_pdf.py` (lines 465-478)",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "line": 465,
+              "path": "/Users/nstewart/code/fr-kids-campaign/scripts/md_to_pdf.py"
+            }
+          ],
+          "rawInput": {
+            "path": "scripts/md_to_pdf.py",
+            "view_range": [
+              465,
+              478
+            ]
+          }
+        }
+      ],
+      "timestamp": "2026-05-26T21:06:33.796Z"
+    },
+    {
+      "id": "40101e33-12cb-4e1c-97ef-ca4094ae8d46",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_018Qm9gcamobhY6sqCEgr7h1",
+          "title": "Edit scripts/md_to_pdf.py",
+          "status": "completed",
+          "kind": "edit",
+          "content": [
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/code/fr-kids-campaign/scripts/md_to_pdf.py",
+              "newText": "        if len(children) == 1 and children[0].get(\"type\") == \"image\":\n            self._emit_image(children[0])\n            self._after_stat_label = False\n            return\n        text = _para_plain_text(node)",
+              "oldText": "        if len(children) == 1 and children[0].get(\"type\") == \"image\":\n            self._emit_image(children[0])\n            self._after_stat_label = False\n            return\n        self._last_was_map = False\n        text = _para_plain_text(node)"
+            }
+          ],
+          "locations": [
+            {
+              "path": "/Users/nstewart/code/fr-kids-campaign/scripts/md_to_pdf.py"
+            }
+          ],
+          "rawInput": {
+            "path": "scripts/md_to_pdf.py",
+            "instruction_reminder": "ALWAYS BREAK DOWN EDITS INTO SMALLER CHUNKS OF AT MOST 150 LINES EACH.",
+            "command": "str_replace",
+            "old_str_1": "        if len(children) == 1 and children[0].get(\"type\") == \"image\":\n            self._emit_image(children[0])\n            self._after_stat_label = False\n            return\n        self._last_was_map = False\n        text = _para_plain_text(node)",
+            "new_str_1": "        if len(children) == 1 and children[0].get(\"type\") == \"image\":\n            self._emit_image(children[0])\n            self._after_stat_label = False\n            return\n        text = _para_plain_text(node)",
+            "old_str_start_line_number_1": 468,
+            "old_str_end_line_number_1": 473
+          }
+        },
+        {
+          "type": "text",
+          "text": "Now let me sanity-check by importing and running a quick smoke test, and rebuild the most recent session's PDF to confirm the renderer still works:\n"
+        }
+      ],
+      "timestamp": "2026-05-26T21:06:40.272Z"
+    },
+    {
+      "id": "87369106-6613-433e-8fa3-ac07efcec989",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_017yt3tey52wnHK1rd2zcPPc",
+          "title": "Run `.venv/bin/python -c \"import scripts.md_to_pdf as m; print('OK', m.__file__)\"`",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "command": ".venv/bin/python -c \"import scripts.md_to_pdf as m; print('OK', m.__file__)\"",
+            "cwd": "/Users/nstewart/code/fr-kids-campaign",
+            "wait": true,
+            "max_wait_seconds": 30
+          }
+        }
+      ],
+      "timestamp": "2026-05-26T21:06:45.753Z"
+    },
+    {
+      "id": "5ad03237-6ae5-4bbf-b2f7-c24c41b8e724",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01QgaGDVRKJxrP6YhW5h8NTk",
+          "title": "Run `ls sessions/ 2>/dev/null`",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "command": "ls sessions/ 2>/dev/null",
+            "cwd": "/Users/nstewart/code/fr-kids-campaign",
+            "wait": true,
+            "max_wait_seconds": 5
+          }
+        },
+        {
+          "type": "text",
+          "text": "Module imports cleanly. Let me attempt a build of the most recent session to confirm the renderer still produces a working PDF (existing session files used the old layout — the renderer should still parse them without errors; the tactical maps will just shift to a different page position):\n"
+        }
+      ],
+      "timestamp": "2026-05-26T21:06:47.032Z"
+    },
+    {
+      "id": "d49e1652-3e32-4e03-8fc6-16a0ce225b26",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01MLnmFrqzCDGT4k2Mu4PE2N",
+          "title": "Run `ls \"sessions/session 4/\"`",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "command": "ls \"sessions/session 4/\"",
+            "cwd": "/Users/nstewart/code/fr-kids-campaign",
+            "wait": true,
+            "max_wait_seconds": 5
+          }
+        }
+      ],
+      "timestamp": "2026-05-26T21:06:51.616Z"
+    },
+    {
+      "id": "015d734f-6524-4443-a15a-4e0f93afbba0",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01U5Xc2q29b5ofPJPhK8k9DX",
+          "title": "Run `.venv/bin/python scripts/build_pdf.py 4 --out /tmp/session4-test.pdf 2>&1 | tail...`",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "command": ".venv/bin/python scripts/build_pdf.py 4 --out /tmp/session4-test.pdf 2>&1 | tail -30",
+            "cwd": "/Users/nstewart/code/fr-kids-campaign",
+            "wait": true,
+            "max_wait_seconds": 120
+          }
+        },
+        {
+          "type": "agent_thought",
+          "text": " The PDF renders correctly with the new layout where the map appears on its own page after the tracker, which matches the updated spec. I'm checking whether the old markdown structure—which originally had the map before other content—will still render coherently under the new renderer, starting with how the encounter heading and map elements are being processed.\n\nThe old layout does produce an orphan heading on its own mostly-empty page before the map, which isn't ideal, but that's a content-spec mismatch rather than a renderer issue. Since the user will be regenerating trackers under the new spec going forward, I don't need to add backwards-compatibility logic for this edge case.\n\nI should also check whether any existing session 4 trackers contain portraits that the new renderer might suppress."
+        },
+        {
+          "type": "text",
+          "text": "Let me check whether the existing session 4 combat tracker has any non-tactical-map images that would now be suppressed (so the user knows what to expect):\n"
+        }
+      ],
+      "timestamp": "2026-05-26T21:06:55.193Z"
+    },
+    {
+      "id": "4a74d352-9d02-4127-8888-7ba34a320ecf",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01JYF4z6C52LUGYdRntBu8V1",
+          "title": "Read `sessions/session 4/the-greengrass-greengage-2-combat-tracker.md` (search: \"!\\[\")",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 4/the-greengrass-greengage-2-combat-tracker.md"
+            }
+          ],
+          "rawInput": {
+            "path": "sessions/session 4/the-greengrass-greengage-2-combat-tracker.md",
+            "search_query_regex": "!\\[",
+            "context_lines_before": 1,
+            "context_lines_after": 1
+          }
+        },
+        {
+          "type": "agent_thought",
+          "text": " I'm realizing that session 4's existing portrait and monster images will be filtered out under the new renderer since they lack the `Tactical Map` prefix, so the rebuilt PDF will show a noticeably different layout with those images removed and the map content shifted to the end. I should make sure to communicate this change clearly to the user."
+        },
+        {
+          "type": "text",
+          "text": "All edits done and verified. The renderer builds cleanly.\n\n## Renderer changes (`scripts/md_to_pdf.py`)\n\n1. **Removed `_last_was_map` state** and the old \"page break after a tactical map\" logic in `_h_thematic_break`. The `---` is now decorative (a soft spacer); the page break lives entirely in image emission.\n2. **`_emit_image` for combat-tracker section** now short-circuits before the heading-binding logic:\n   - Non-tactical images in File 2 are **suppressed** (portraits/monster art that may still exist in older session files won't appear in the PDF — matching the new \"no portraits in combat tracker\" rule).\n   - Tactical maps drop any trailing decorative flowables (spacers/HRs from a preceding `---`), emit a hard `PageBreak`, then render the image full-page **unbound** at max 7.2\"×9.8\". The next `## Encounter` heading triggers its own page break, so the map page is always isolated.\n3. Cleaned up a stale `self._last_was_map = False` in `_h_paragraph`.\n\n## Behavior on existing sessions\n\nI rebuilt `sessions/session 4` to `/tmp/session4-test.pdf` — no errors. Note two visible differences for **pre-existing** combat-tracker markdown that still uses the old layout (map at top, portraits embedded):\n- The tactical map will now land on its **own page** (because the renderer always page-breaks before a tactical map), leaving the encounter heading on its own page above it. That looks a little orphaned with the old layout — the fix is to re-author the encounter with the map moved to the end, per the new spec.\n- The two non-tactical images in session 4's File 2 (Lorindar's portrait, Sprite Outriders) will be **suppressed** from the PDF. They're now only in File 3 (player handouts) where they belong.\n\nFuture generated sessions will follow the new six-part order natively and these issues won't arise. Want me to re-author session 4's combat tracker to the new layout, or leave it as a baseline of the old format?\n"
+        }
+      ],
+      "timestamp": "2026-05-26T21:07:14.733Z"
     }
   ],
-  "savedAt": "2026-05-26T20:48:02.429Z"
+  "savedAt": "2026-05-26T21:07:29.703Z"
 }
