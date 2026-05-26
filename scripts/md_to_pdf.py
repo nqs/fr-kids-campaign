@@ -381,7 +381,6 @@ class BlockRenderer:
         self._h1_seen = False
         self._h2_seen_in_section = False
         self._after_stat_label = False
-        self._last_was_map = False  # True after a tactical map image; cleared on next ---
         self.out: list = []
         if font_scale == 1.0:
             self.body = BODY
@@ -457,13 +456,11 @@ class BlockRenderer:
             self.out.append(Paragraph(text, H4))
 
     def _h_thematic_break(self, node: dict) -> None:
-        if self._last_was_map:
-            # The --- immediately after a tactical map is the hard page break
-            # separating the map's dedicated page from the tracker sheet.
-            self._append_pagebreak()
-            self._last_was_map = False
-        else:
-            self.out.append(Spacer(1, 6))
+        # Thematic breaks render as a soft visual gap. In the combat-tracker
+        # file a `---` precedes each tactical map, but the page-break logic
+        # lives in `_emit_image`: tactical maps unconditionally land on a
+        # fresh page, so the `---` itself is just decorative here.
+        self.out.append(Spacer(1, 6))
 
     def _h_paragraph(self, node: dict) -> None:
         children = node.get("children", [])
@@ -472,7 +469,6 @@ class BlockRenderer:
             self._emit_image(children[0])
             self._after_stat_label = False
             return
-        self._last_was_map = False
         text = _para_plain_text(node)
         if _is_checkbox_strip(text):
             self.out.append(_render_checkbox_strip(text))
@@ -629,15 +625,32 @@ class BlockRenderer:
             self.out.append(img)
             return
 
+        # Combat tracker: only tactical maps render. Portraits and any other
+        # imagery are suppressed — stat-block cards stay text-only and
+        # portraits live exclusively in the player-handout appendix.
+        if self.section == "combat-tracker":
+            if not is_tactical_map:
+                return
+            # Tactical map: render on its own page at the end of the
+            # encounter section. Pop trailing decorative flowables (the
+            # `---` thematic break that preceded the map becomes a Spacer,
+            # which we drop here in favour of an explicit page break),
+            # insert a hard PageBreak, then emit the image full-page
+            # unbound. The next encounter's `##` heading triggers its own
+            # page break, so the map page is always isolated.
+            while self.out and isinstance(self.out[-1], (Spacer, HRFlowable)):
+                self.out.pop()
+            self.out.append(PageBreak())
+            img = sized_image(url, self.manifest, max_w_in=7.2, max_h_in=9.8)
+            img.hAlign = "CENTER"
+            self.out.append(img)
+            return
+
         # Look back, skipping trailing decorative flowables, for a heading
         # (optionally with one short intro paragraph between heading and
         # image). If found, bind the heading and image into a `KeepTogether`
         # so ReportLab keeps them on the same page — preventing orphaned
-        # headings on otherwise-empty pages. Tactical maps follow this same
-        # path; their encounter heading + italic line are bound with the map
-        # image (max 7.2"×8.5"), and the `---` that follows the image
-        # (handled by _h_thematic_break) adds the PageBreak that separates
-        # the map+header page from the tracker sheet.
+        # headings on otherwise-empty pages.
         end = len(self.out) - 1
         while end >= 0 and isinstance(self.out[end], (Spacer, HRFlowable)):
             end -= 1
@@ -660,19 +673,17 @@ class BlockRenderer:
             if prev >= 0 and self._is_heading_flow(self.out[prev]):
                 heading_idx = prev
 
-        # Image inclusion policy: images render only in the combat tracker
-        # (statblock portraits, tactical maps) and the player-handout
-        # appendix. The adventure section keeps just its cover/title-page
-        # image — the one bound with the session info table — and the
-        # DM quick-ref (and any other section) carries none. Suppressed
-        # images leave their bound heading in place; only the picture drops.
+        # Image inclusion policy: outside the combat-tracker (handled above)
+        # and player-handout (handled above) sections, only the adventure
+        # file's cover/title page emits an image — the one bound with the
+        # session info table. The DM quick-ref (and any other section)
+        # carries none. Suppressed images leave their bound heading in
+        # place; only the picture drops.
         _has_table = (heading_idx is not None
                       and any(isinstance(f, Table)
                               for f in self.out[heading_idx:]))
         if self.section == "adventure":
             keep = _has_table  # cover/title page only
-        elif self.section in ("combat-tracker", "player-handouts"):
-            keep = True
         else:
             keep = False
         if not keep:
@@ -708,7 +719,6 @@ class BlockRenderer:
                 img.hAlign = "CENTER"
                 bound.extend([Spacer(1, 4), img])
                 self.out.append(KeepTogether(bound))
-            self._last_was_map = is_tactical_map
             return
 
         # No pairing — image flows naturally. ReportLab page-breaks before
@@ -719,7 +729,6 @@ class BlockRenderer:
         img = sized_image(url, self.manifest, max_w_in=7.2, max_h_in=9.8)
         img.hAlign = "CENTER"
         self.out.append(img)
-        self._last_was_map = is_tactical_map
 
     # -- player-handout page composition ------------------------------------
 
