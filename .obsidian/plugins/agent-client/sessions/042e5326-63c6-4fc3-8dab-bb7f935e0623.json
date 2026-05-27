@@ -1332,7 +1332,730 @@
         }
       ],
       "timestamp": "2026-05-26T21:25:50.061Z"
+    },
+    {
+      "id": "17fafce2-6f1c-4961-abd1-f746c8aab054",
+      "role": "user",
+      "content": [
+        {
+          "type": "text_with_context",
+          "text": "push these changes to git remote",
+          "autoMentionContext": {
+            "noteName": "dnd-adventure-generator",
+            "notePath": "dnd-adventure-generator.md"
+          }
+        }
+      ],
+      "timestamp": "2026-05-27T00:28:50.180Z"
+    },
+    {
+      "id": "64b85298-f49e-4227-9375-2c38ed21ac3e",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "agent_thought",
+          "text": " The user is explicitly asking me to push changes to git, so I have permission to proceed with that action. I'll check the current status first, then commit and push the changes."
+        }
+      ],
+      "timestamp": "2026-05-27T00:28:54.938Z"
+    },
+    {
+      "id": "1c23287a-538a-4bcc-ab6c-dde0ab4300f6",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_0112UMXoHBABNtgDTQuwScxq",
+          "title": "Run `git status`",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "command": "git status",
+            "cwd": "/Users/nstewart/code/fr-kids-campaign",
+            "wait": true,
+            "max_wait_seconds": 10
+          }
+        }
+      ],
+      "timestamp": "2026-05-27T00:28:57.771Z"
+    },
+    {
+      "id": "0f3967ff-1e08-407f-894f-4fbf49d39e8f",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01RRyYZ6UFukeVkExYKxhdYt",
+          "title": "Run `git log --oneline -5`",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "command": "git log --oneline -5",
+            "cwd": "/Users/nstewart/code/fr-kids-campaign",
+            "wait": true,
+            "max_wait_seconds": 10
+          }
+        }
+      ],
+      "timestamp": "2026-05-27T00:28:57.903Z"
+    },
+    {
+      "id": "545da7fd-76b9-435b-8e91-b325c0ad2b15",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01Fa73NDxSNkvTY6RbTih7Tu",
+          "title": "Run `git remote -v && git branch --show-current`",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "command": "git remote -v && git branch --show-current",
+            "cwd": "/Users/nstewart/code/fr-kids-campaign",
+            "wait": true,
+            "max_wait_seconds": 10
+          }
+        },
+        {
+          "type": "agent_thought",
+          "text": " The working tree is clean, so my changes were already auto-committed by Obsidian's git sync through those vault backup commits. Now I need to verify that those commits actually contain the changes I made."
+        },
+        {
+          "type": "text",
+          "text": "The working tree is clean — the changes were already auto-committed by Obsidian's vault-backup mechanism. Let me verify the recent backup commits contain our work, then push:\n"
+        }
+      ],
+      "timestamp": "2026-05-27T00:28:58.020Z"
+    },
+    {
+      "id": "1f4a3cc1-44c0-42f0-92d7-e20adec31858",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_018v3pseomLxRVkAuMWHrjXu",
+          "title": "Run `git log origin/main..HEAD --oneline`",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "command": "git log origin/main..HEAD --oneline",
+            "cwd": "/Users/nstewart/code/fr-kids-campaign",
+            "wait": true,
+            "max_wait_seconds": 10
+          }
+        }
+      ],
+      "timestamp": "2026-05-27T00:29:05.571Z"
+    },
+    {
+      "id": "e31cdd51-98e0-4597-8046-ce9dd08dd354",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_011w7b9ZXJZ3q2tHo4xBkHj4",
+          "title": "Run `git log -5 --stat --pretty=format:'== %h %s ==' -- AGENTS.md dnd-adventure-gener...`",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "command": "git log -5 --stat --pretty=format:'== %h %s ==' -- AGENTS.md dnd-adventure-generator.md scripts/md_to_pdf.py 'sessions/session 4/the-greengrass-greengage-2-combat-tracker.md'",
+            "cwd": "/Users/nstewart/code/fr-kids-campaign",
+            "wait": true,
+            "max_wait_seconds": 10
+          }
+        },
+        {
+          "type": "agent_thought",
+          "text": " I'm realizing there's a discrepancy here — the git log shows HEAD isn't ahead of origin/main, and git status confirms everything is up to date, yet those vault backup commits containing changes to multiple files are supposedly already pushed to the remote. This doesn't quite add up if the files were modified in those commits."
+        },
+        {
+          "type": "text",
+          "text": "The changes were already auto-committed by Obsidian's vault-backup hook and the local branch is already in sync with `origin/main`. Let me verify the remote actually has the latest commits:\n"
+        }
+      ],
+      "timestamp": "2026-05-27T00:29:05.686Z"
+    },
+    {
+      "id": "e69f5b44-cb2f-4c69-9c5c-299050c63c63",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01R4ZYrkbGNvYn9T1bMVLSQL",
+          "title": "Run `git fetch origin && git status && echo \"---\" && git log origin/main -3 --oneline`",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "command": "git fetch origin && git status && echo \"---\" && git log origin/main -3 --oneline",
+            "cwd": "/Users/nstewart/code/fr-kids-campaign",
+            "wait": true,
+            "max_wait_seconds": 30
+          }
+        }
+      ],
+      "timestamp": "2026-05-27T00:29:15.804Z"
+    },
+    {
+      "id": "e11718fa-28ac-4485-a796-4af642f5605c",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_014SKiUdL9m8Y1w9c9rhA9yB",
+          "title": "Run `git log --all --oneline -10 -- AGENTS.md | head -10`",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "command": "git log --all --oneline -10 -- AGENTS.md | head -10",
+            "cwd": "/Users/nstewart/code/fr-kids-campaign",
+            "wait": true,
+            "max_wait_seconds": 10
+          }
+        },
+        {
+          "type": "agent_thought",
+          "text": " I notice AGENTS.md isn't showing up in the commit history, so I should verify whether it's actually being tracked by git at all."
+        }
+      ],
+      "timestamp": "2026-05-27T00:29:16.187Z"
+    },
+    {
+      "id": "7842ac2d-464d-4350-8f0f-94da63c24e07",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01RNVo6DUF8ExkQJfCsKwrqm",
+          "title": "Run `git ls-files AGENTS.md && echo \"---tracked---\" || echo \"---not tracked---\"; ls -...`",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "command": "git ls-files AGENTS.md && echo \"---tracked---\" || echo \"---not tracked---\"; ls -la AGENTS.md 2>&1; cat .gitignore 2>/dev/null | head -30",
+            "cwd": "/Users/nstewart/code/fr-kids-campaign",
+            "wait": true,
+            "max_wait_seconds": 10
+          }
+        },
+        {
+          "type": "agent_thought",
+          "text": " AGENTS.md appears to be tracked in git, but the file listing came back empty when I queried it. Let me try a different approach to retrieve the file information."
+        }
+      ],
+      "timestamp": "2026-05-27T00:29:20.470Z"
+    },
+    {
+      "id": "c875cb88-c946-46dc-adf9-c0431efc9f22",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01SRpDU3H2agjiesixKQC9jU",
+          "title": "Run `git log --oneline -5 -- AGENTS.md; echo \"---\"; git log --oneline -- AGENTS.md | ...`",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "command": "git log --oneline -5 -- AGENTS.md; echo \"---\"; git log --oneline -- AGENTS.md | head -5",
+            "cwd": "/Users/nstewart/code/fr-kids-campaign",
+            "wait": true,
+            "max_wait_seconds": 10
+          }
+        },
+        {
+          "type": "agent_thought",
+          "text": " AGENTS.md is tracked in git but has no commit history, which suggests it was just added recently. I should check if there are any uncommitted changes or if it matches the current HEAD version."
+        }
+      ],
+      "timestamp": "2026-05-27T00:29:24.503Z"
+    },
+    {
+      "id": "596e093b-d41c-4129-86b9-65d0921d6fca",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01MzLyPD1rNL8R1i8T3P4jbe",
+          "title": "Run `git diff HEAD -- AGENTS.md | head -50; echo \"---\"; git log --diff-filter=A --one...`",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "command": "git diff HEAD -- AGENTS.md | head -50; echo \"---\"; git log --diff-filter=A --oneline -- AGENTS.md",
+            "cwd": "/Users/nstewart/code/fr-kids-campaign",
+            "wait": true,
+            "max_wait_seconds": 10
+          }
+        },
+        {
+          "type": "agent_thought",
+          "text": " AGENTS.md is tracked with no uncommitted changes and no visible git history, which is odd — I'm wondering if it might be a symlink."
+        }
+      ],
+      "timestamp": "2026-05-27T00:29:29.219Z"
+    },
+    {
+      "id": "91bd096e-0405-4e20-9027-bbe24c5e7900",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_012dVYuzfMadmHY2tC47np6o",
+          "title": "Run `file AGENTS.md; ls -la AGENTS.md agents.md 2>&1; git ls-files | grep -i agents`",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "command": "file AGENTS.md; ls -la AGENTS.md agents.md 2>&1; git ls-files | grep -i agents",
+            "cwd": "/Users/nstewart/code/fr-kids-campaign",
+            "wait": true,
+            "max_wait_seconds": 10
+          }
+        },
+        {
+          "type": "agent_thought",
+          "text": " Ah, so the issue is that the tracked file is actually `agents.md` in lowercase, but since macOS treats the filesystem as case-insensitive, my edits to `AGENTS.md` were modifying the same file. Let me check the file's history to confirm this."
+        }
+      ],
+      "timestamp": "2026-05-27T00:29:34.736Z"
+    },
+    {
+      "id": "bcb6bb8c-1ba8-4b52-bf83-ec940c8d425f",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01RBQ5AD5YSKjHvDhBV7MhWt",
+          "title": "Run `git log --oneline -5 -- agents.md`",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "command": "git log --oneline -5 -- agents.md",
+            "cwd": "/Users/nstewart/code/fr-kids-campaign",
+            "wait": true,
+            "max_wait_seconds": 10
+          }
+        },
+        {
+          "type": "agent_thought",
+          "text": " I see the issue now — the macOS filesystem's case-insensitivity meant my edits to `AGENTS.md` actually modified the tracked file `agents.md` underneath. The change shows up in commit `14c1a9c` alongside the `dnd-adventure-generator.md` edits, so all four files I modified are in that same vault-backup commit.\n\nSince the local branch is already synced with origin/main and everything's been committed, I should verify the push went through by attempting a no-op push."
+        },
+        {
+          "type": "text",
+          "text": "Everything is already pushed. Confirming with an explicit push to be certain:\n"
+        }
+      ],
+      "timestamp": "2026-05-27T00:29:39.217Z"
+    },
+    {
+      "id": "d86fe422-7622-4139-a3f6-47bcb6f67842",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01E2uENNAJar3RzBCKQiPPMV",
+          "title": "Run `git push origin main 2>&1`",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "command": "git push origin main 2>&1",
+            "cwd": "/Users/nstewart/code/fr-kids-campaign",
+            "wait": true,
+            "max_wait_seconds": 30
+          }
+        },
+        {
+          "type": "text",
+          "text": "All changes are already on `origin/main`. Obsidian's vault-backup hook auto-committed and pushed each edit as it landed. The four touched files made it to the remote across three vault-backup commits:\n\n| Commit | File(s) |\n|---|---|\n| `14c1a9c` | `dnd-adventure-generator.md`, `agents.md` (tracked lowercase; macOS case-insensitive FS so `AGENTS.md` edits routed here) |\n| `393be99` | `scripts/md_to_pdf.py` |\n| `a25f670` | `sessions/session 4/the-greengrass-greengage-2-combat-tracker.md` |\n\n`git push origin main` returned **\"Everything up-to-date\"**. Nothing else to do.\n\nOne incidental note worth flagging: the canonical filename in the repo is `agents.md` (lowercase) even though the file at vault root shows up as `AGENTS.md` in some tools. They're the same file on this case-insensitive filesystem, but if you ever clone this repo onto a case-sensitive filesystem (Linux CI, some Docker images), only `agents.md` will exist. If you want the on-disk casing to match what the agent guidance refers to, that'd be a `git mv agents.md AGENTS.md` (separate task — let me know).\n"
+        }
+      ],
+      "timestamp": "2026-05-27T00:29:47.885Z"
+    },
+    {
+      "id": "a5fc51bd-7f82-444b-bffd-f1ea904afd1e",
+      "role": "user",
+      "content": [
+        {
+          "type": "text_with_context",
+          "text": "yes update agents.md naming",
+          "autoMentionContext": {
+            "noteName": "dnd-adventure-generator",
+            "notePath": "dnd-adventure-generator.md"
+          }
+        }
+      ],
+      "timestamp": "2026-05-27T00:30:41.019Z"
+    },
+    {
+      "id": "5d3fb5d6-2361-4eeb-bf39-fb6f106a04ba",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "agent_thought",
+          "text": " The user wants me to rename `agents.md` to `AGENTS.md` to match the casing used in references throughout the repo. Since we're on a case-insensitive filesystem, I'll need to use two git mv commands—first to a temporary name, then to the final uppercase version—to ensure git properly tracks this as a rename rather than missing the casing change."
+        }
+      ],
+      "timestamp": "2026-05-27T00:30:47.331Z"
+    },
+    {
+      "id": "50d32887-9ac4-4b54-97d0-d8e1d50e6a35",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01Vf7DZ4HdWNCqudwM1V7m3r",
+          "title": "Run `grep -rn -i \"agents\\.md\" --include=\"*.md\" --include=\"*.py\" --include=\"*.json\" --...`",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "command": "grep -rn -i \"agents\\.md\" --include=\"*.md\" --include=\"*.py\" --include=\"*.json\" --include=\"*.yml\" --include=\"*.yaml\" --include=\"*.toml\" . 2>/dev/null | grep -v \"^\\./\\.git/\" | head -40",
+            "cwd": "/Users/nstewart/code/fr-kids-campaign",
+            "wait": true,
+            "max_wait_seconds": 15
+          }
+        },
+        {
+          "type": "agent_thought",
+          "text": " I see the grep results are mostly picking up agent session logs from the `.obsidian/plugins/agent-client/sessions/` directory, which aren't actual code references—just historical conversation records. I need to refocus the search on the actively-used project files instead."
+        }
+      ],
+      "timestamp": "2026-05-27T00:30:47.619Z"
+    },
+    {
+      "id": "b55d030c-d050-41f6-94fc-01fd63807287",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01SrTEbeCeNmHUuabsbc2K9E",
+          "title": "Run `grep -rn \"agents\\.md\" --include=\"*.md\" --include=\"*.py\" --include=\"*.yml\" --incl...`",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "command": "grep -rn \"agents\\.md\" --include=\"*.md\" --include=\"*.py\" --include=\"*.yml\" --include=\"*.yaml\" --include=\"*.toml\" --include=\"*.sh\" . 2>/dev/null | grep -v \"^\\./\\.git/\" | grep -v \"^\\./\\.obsidian/\" | grep -v \"^\\./\\.venv/\" | head -40",
+            "cwd": "/Users/nstewart/code/fr-kids-campaign",
+            "wait": true,
+            "max_wait_seconds": 10
+          }
+        },
+        {
+          "type": "agent_thought",
+          "text": " I'm tracking down all the references to `agents.md` across the vault — there are three places using lowercase that would need updating if I rename the file to `AGENTS.md`, though macOS would still resolve them while Linux wouldn't. The user seems to have started saying something else before getting cut off.\n\nLooking back at the session history, the user previously chose lowercase `agents.md` deliberately, but now they're confirming they want me to rename it to `AGENTS.md` to align with what my system prompt and standard tooling conventions expect. The rationale is clear: uppercase `AGENTS.md` matches the OpenAI spec and how tools like Augment and Claude Code look for it, so I should update those three references in `home.md`, `dnd-adventure-generator.md`, and the file itself for consistency across case-sensitive filesystems.\n\nFor the rename itself, I'll use `git mv -f agents.md AGENTS.md` to handle the case change directly on the case-insensitive filesystem."
+        },
+        {
+          "type": "text",
+          "text": "Three real references (`home.md:44`, `dnd-adventure-generator.md:26`, self-reference in `agents.md:26`). I'll rename via a two-step `git mv` (required on case-insensitive macOS to actually record the case change), then fix the three references for consistency on case-sensitive filesystems.\n"
+        }
+      ],
+      "timestamp": "2026-05-27T00:30:55.964Z"
+    },
+    {
+      "id": "a553613b-9286-4892-b001-3bd4bdf132d6",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01F1ViCQTXWHb546sUvNC9xw",
+          "title": "Run `git config --get core.ignorecase; echo \"---\"; git mv agents.md agents.md.tmp && ...`",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "command": "git config --get core.ignorecase; echo \"---\"; git mv agents.md agents.md.tmp && git mv agents.md.tmp AGENTS.md && git status --short",
+            "cwd": "/Users/nstewart/code/fr-kids-campaign",
+            "wait": true,
+            "max_wait_seconds": 10
+          }
+        },
+        {
+          "type": "agent_thought",
+          "text": " The rename is staged, so now I need to find and update the three text references that point to the old filename."
+        },
+        {
+          "type": "text",
+          "text": "Rename is staged. Now updating the three references:\n"
+        }
+      ],
+      "timestamp": "2026-05-27T00:31:13.048Z"
+    },
+    {
+      "id": "3400259f-dc4b-4717-90f7-94ee8c1423c6",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_013HdDtAneX8ZkwaiyrxEf8Z",
+          "title": "Read `home.md` (lines 40-48)",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "line": 40,
+              "path": "/Users/nstewart/code/fr-kids-campaign/home.md"
+            }
+          ],
+          "rawInput": {
+            "path": "home.md",
+            "view_range": [
+              40,
+              48
+            ]
+          }
+        }
+      ],
+      "timestamp": "2026-05-27T00:31:17.750Z"
+    },
+    {
+      "id": "4546ecb6-458d-4aae-af42-e1ae341aaed5",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01MxAgaTqaqXtEQVgkCJKYzP",
+          "title": "Read `AGENTS.md` (lines 24-28)",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "line": 24,
+              "path": "/Users/nstewart/code/fr-kids-campaign/AGENTS.md"
+            }
+          ],
+          "rawInput": {
+            "path": "AGENTS.md",
+            "view_range": [
+              24,
+              28
+            ]
+          }
+        }
+      ],
+      "timestamp": "2026-05-27T00:31:17.796Z"
+    },
+    {
+      "id": "9eb314d6-a64b-46d6-9ede-434307660e2d",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01DozHtpgQrpeCCstPWy4UcZ",
+          "title": "Read `dnd-adventure-generator.md` (lines 24-28)",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "line": 24,
+              "path": "/Users/nstewart/code/fr-kids-campaign/dnd-adventure-generator.md"
+            }
+          ],
+          "rawInput": {
+            "path": "dnd-adventure-generator.md",
+            "view_range": [
+              24,
+              28
+            ]
+          }
+        }
+      ],
+      "timestamp": "2026-05-27T00:31:17.796Z"
+    },
+    {
+      "id": "e3972e5d-e740-4452-ae12-b91f9d857568",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_018LMj4wUTHd4nXNGq1XQeh5",
+          "title": "Edit home.md",
+          "status": "completed",
+          "kind": "edit",
+          "content": [
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/code/fr-kids-campaign/home.md",
+              "newText": "├── AGENTS.md                     # Campaign Keeper agent instructions",
+              "oldText": "├── agents.md                     # Campaign Keeper agent instructions"
+            }
+          ],
+          "locations": [
+            {
+              "path": "/Users/nstewart/code/fr-kids-campaign/home.md"
+            }
+          ],
+          "rawInput": {
+            "command": "str_replace",
+            "path": "home.md",
+            "instruction_reminder": "ALWAYS BREAK DOWN EDITS INTO SMALLER CHUNKS OF AT MOST 150 LINES EACH.",
+            "old_str_1": "├── agents.md                     # Campaign Keeper agent instructions",
+            "new_str_1": "├── AGENTS.md                     # Campaign Keeper agent instructions",
+            "old_str_start_line_number_1": 44,
+            "old_str_end_line_number_1": 44
+          }
+        }
+      ],
+      "timestamp": "2026-05-27T00:31:30.962Z"
+    },
+    {
+      "id": "e20fceac-0d3b-4e37-a1d7-7a0d8e932d37",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_0117xjeYV9sAcT5JSVJZtd2J",
+          "title": "Edit AGENTS.md",
+          "status": "completed",
+          "kind": "edit",
+          "content": [
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/code/fr-kids-campaign/AGENTS.md",
+              "newText": "**Vault layout.** Campaign-bible canon lives under `campaign/` (world, geography, factions, roster, party, session-log). Tooling (`AGENTS.md`, `dnd-adventure-generator.md`, `home.md`), generated session content (`sessions/session <N>/`), and reference materials (`references/` — markdown extracts of the FR sourcebooks) sit at the vault root.",
+              "oldText": "**Vault layout.** Campaign-bible canon lives under `campaign/` (world, geography, factions, roster, party, session-log). Tooling (`agents.md`, `dnd-adventure-generator.md`, `home.md`), generated session content (`sessions/session <N>/`), and reference materials (`references/` — markdown extracts of the FR sourcebooks) sit at the vault root."
+            }
+          ],
+          "locations": [
+            {
+              "path": "/Users/nstewart/code/fr-kids-campaign/AGENTS.md"
+            }
+          ],
+          "rawInput": {
+            "command": "str_replace",
+            "path": "AGENTS.md",
+            "instruction_reminder": "ALWAYS BREAK DOWN EDITS INTO SMALLER CHUNKS OF AT MOST 150 LINES EACH.",
+            "old_str_1": "**Vault layout.** Campaign-bible canon lives under `campaign/` (world, geography, factions, roster, party, session-log). Tooling (`agents.md`, `dnd-adventure-generator.md`, `home.md`), generated session content (`sessions/session <N>/`), and reference materials (`references/` — markdown extracts of the FR sourcebooks) sit at the vault root.",
+            "new_str_1": "**Vault layout.** Campaign-bible canon lives under `campaign/` (world, geography, factions, roster, party, session-log). Tooling (`AGENTS.md`, `dnd-adventure-generator.md`, `home.md`), generated session content (`sessions/session <N>/`), and reference materials (`references/` — markdown extracts of the FR sourcebooks) sit at the vault root.",
+            "old_str_start_line_number_1": 26,
+            "old_str_end_line_number_1": 26
+          }
+        }
+      ],
+      "timestamp": "2026-05-27T00:31:31.012Z"
+    },
+    {
+      "id": "a8b2dfa9-9c2d-45d4-b648-4673d4a9dcae",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01C7vY7Z19QgU1YEkCPSRQF8",
+          "title": "Edit dnd-adventure-generator.md",
+          "status": "completed",
+          "kind": "edit",
+          "content": [
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/code/fr-kids-campaign/dnd-adventure-generator.md",
+              "newText": "When the outline needs Forgotten Realms canon (a city, faction, deity, recurring NPC), pull it from the markdown extracts in `references/campaign-guide/_raw/` and `references/players-guide/_raw/` (use `full.md` or `pages/page-NNNN.md`; figures are in `images/`). These extracts are the only canon source — the original FR PDFs are no longer in the vault. Source-hierarchy and citation rules live in `AGENTS.md`.",
+              "oldText": "When the outline needs Forgotten Realms canon (a city, faction, deity, recurring NPC), pull it from the markdown extracts in `references/campaign-guide/_raw/` and `references/players-guide/_raw/` (use `full.md` or `pages/page-NNNN.md`; figures are in `images/`). These extracts are the only canon source — the original FR PDFs are no longer in the vault. Source-hierarchy and citation rules live in `agents.md`."
+            }
+          ],
+          "locations": [
+            {
+              "path": "/Users/nstewart/code/fr-kids-campaign/dnd-adventure-generator.md"
+            }
+          ],
+          "rawInput": {
+            "command": "str_replace",
+            "path": "dnd-adventure-generator.md",
+            "instruction_reminder": "ALWAYS BREAK DOWN EDITS INTO SMALLER CHUNKS OF AT MOST 150 LINES EACH.",
+            "old_str_1": "When the outline needs Forgotten Realms canon (a city, faction, deity, recurring NPC), pull it from the markdown extracts in `references/campaign-guide/_raw/` and `references/players-guide/_raw/` (use `full.md` or `pages/page-NNNN.md`; figures are in `images/`). These extracts are the only canon source — the original FR PDFs are no longer in the vault. Source-hierarchy and citation rules live in `agents.md`.",
+            "new_str_1": "When the outline needs Forgotten Realms canon (a city, faction, deity, recurring NPC), pull it from the markdown extracts in `references/campaign-guide/_raw/` and `references/players-guide/_raw/` (use `full.md` or `pages/page-NNNN.md`; figures are in `images/`). These extracts are the only canon source — the original FR PDFs are no longer in the vault. Source-hierarchy and citation rules live in `AGENTS.md`.",
+            "old_str_start_line_number_1": 26,
+            "old_str_end_line_number_1": 26
+          }
+        },
+        {
+          "type": "agent_thought",
+          "text": " I need to double-check that nothing else is referencing `agents.md` in lowercase, verify the Obsidian workspace configuration, and then rebuild, commit, and push the changes. I'm also noting that the session log JSON files in `.obsidian/plugins/agent-client/sessions/` are being tracked as historical records and shouldn't be modified."
+        }
+      ],
+      "timestamp": "2026-05-27T00:31:31.012Z"
+    },
+    {
+      "id": "daf62a58-78bb-487b-be0b-ea34a81ecc8d",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01RWS84MH6CtBKPqFRDWupYz",
+          "title": "Run `git add -A home.md AGENTS.md dnd-adventure-generator.md && git status --short`",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "command": "git add -A home.md AGENTS.md dnd-adventure-generator.md && git status --short",
+            "cwd": "/Users/nstewart/code/fr-kids-campaign",
+            "wait": true,
+            "max_wait_seconds": 10
+          }
+        },
+        {
+          "type": "agent_thought",
+          "text": " All the changes are staged—the rename and three text file updates—while the unstaged modification to the agent-client session log is from an active session that I'll handle in the next backup. I'm ready to commit and push my changes now."
+        }
+      ],
+      "timestamp": "2026-05-27T00:31:38.844Z"
+    },
+    {
+      "id": "d3e91cef-4fdc-459c-a8bb-b58f21c6f007",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_01Twp9nDiX4qr3VCbk6io1HG",
+          "title": "Run `git commit -m \"Rename agents.md → AGENTS.md and update references\" -m \"Aligns on...`",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "command": "git commit -m \"Rename agents.md → AGENTS.md and update references\" -m \"Aligns on-disk casing with the convention referenced by Augment/Claude Code tooling and used in the project's own agent guidance. Also fixes home.md, dnd-adventure-generator.md, and AGENTS.md self-reference so they resolve correctly on case-sensitive filesystems.\" && echo \"---\" && git log -1 --stat",
+            "cwd": "/Users/nstewart/code/fr-kids-campaign",
+            "wait": true,
+            "max_wait_seconds": 15
+          }
+        }
+      ],
+      "timestamp": "2026-05-27T00:31:45.611Z"
+    },
+    {
+      "id": "d2ecf6a1-a6be-4f5b-9a97-e803c7c719ad",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_013RtX3y6YkRrcitgosEVrJw",
+          "title": "Run `git push origin main 2>&1`",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "command": "git push origin main 2>&1",
+            "cwd": "/Users/nstewart/code/fr-kids-campaign",
+            "wait": true,
+            "max_wait_seconds": 30
+          }
+        },
+        {
+          "type": "text",
+          "text": "Pushed. Summary:\n\n- **`git mv` rename** (recorded as a 99% rename so history is preserved): `agents.md` → `AGENTS.md`.\n- **Three reference fixes** so the prose pointers match on case-sensitive filesystems (Linux CI, Docker, etc.):\n  - `home.md:44` — vault-layout tree comment\n  - `dnd-adventure-generator.md:26` — \"Source-hierarchy and citation rules live in `AGENTS.md`\"\n  - `AGENTS.md:26` — self-reference in the \"Vault layout\" paragraph\n- **Commit:** `d4bd866` — pushed to `origin/main` (`a25f670..d4bd866`).\n\nUntouched:\n\n- `.obsidian/plugins/agent-client/sessions/*.json` — these are tracked conversation logs from past sessions; they contain historical `agents.md` mentions but are records, not active references. Not edited.\n- `.obsidian/workspace.json` — gitignored, not relevant.\n\nHeads up for Obsidian: the open note in your sidebar still shows the old path internally, so if Obsidian shows a \"file not found\" tab after sync, just close and reopen `AGENTS.md` from the file tree.\n"
+        }
+      ],
+      "timestamp": "2026-05-27T00:31:48.711Z"
     }
   ],
-  "savedAt": "2026-05-26T21:26:10.654Z"
+  "savedAt": "2026-05-27T00:31:57.287Z"
 }
