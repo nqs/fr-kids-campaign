@@ -140,8 +140,6 @@ All five PCs hit Level 6 at the end of the debrief. Hand out the level-up sheets
 
 ## Scene 4 — The Opening Procession
 
-![The Greengrass Procession — Shadowdale on the morning of the festival](https://storage.gemini.mcp.nqs.io/images/e124fecd-aec7-4a73-af0b-435f7617cb7d.png)
-
 ### Setup
 Mid-morning, Greengrass day. The Twilight Tower bell rings the procession in. The party is wearing flower-crowns Lady Ulphor pressed on them last night (Fiorn's is the largest, ostentatiously). The procession winds from the Tower down to the Ashaba's south bank where Lady Ulphor will officiate the bonfire at dusk.
 
@@ -195,8 +193,6 @@ Mid-morning, Greengrass day. The Twilight Tower bell rings the procession in. Th
 ---
 
 ### Station B — Bardic Showcase *(Fiorn)*
-
-![Halbren Vass — Fiorn's recurring rival, smug touring half-elf minstrel](https://storage.gemini.mcp.nqs.io/images/7b7a52fe-4091-46af-aabc-682b6e009e4b.png)
 
 **Host:** Halbren Vass — smug, touring half-elf headliner. *Recurring rival, roster flag.*
 **Judges:** Lady Ulphor and Captain Helm at the judges' table.
@@ -290,8 +286,6 @@ Mid-morning, Greengrass day. The Twilight Tower bell rings the procession in. Th
 
 ## Scene 6 — The Bonfire
 
-![The Crash at the Bonfire — Lady Ulphor with the firebrand, the Antlered Herald emerging from the Living Wood at dusk](https://storage.gemini.mcp.nqs.io/images/f1a020e6-d58f-4b93-ac73-372677397369.png)
-
 ### Setup
 Dusk. The procession reforms at the river-stones. Lady Ulphor stands on the lifted dais with the firebrand in hand. The party is at the front, ribbons pinned. Captain Helm is on her left, Sela on her right. Brynn is at the side with the rest of the village.
 
@@ -310,8 +304,6 @@ Dusk. The procession reforms at the river-stones. Lady Ulphor stands on the lift
 ---
 
 ## Scene 7 — The Crash: The Antlered Herald
-
-![Lorindar Greenmantle, the Antlered Herald — fey emissary of the Bright Court Beneath](https://storage.gemini.mcp.nqs.io/images/b7db5a83-2e57-4aa6-b858-12c3a397d03f.png)
 
 > Full combat statblocks, round-by-round priorities, and tactical map are in
 > **`the-greengrass-greengage-2-combat-tracker.md`**.
