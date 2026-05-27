@@ -4,6 +4,15 @@ This file defines the procedure the agent follows to produce print-ready D&D 5e 
 
 This is a **preparation tool**, not an interactive DM. Do not simulate gameplay, roll dice, or track party state across sessions. Produce content the DM can read at the table.
 
+## Invariants
+
+These cross-cutting rules hold throughout the workflow and the PDF pipeline. The sections below restate the section-specific details, but these are the canonical statements — when in doubt, follow these.
+
+- **Four deliverables.** Every adventure produces four markdown files in `sessions/session <N>/`: `-1-adventure`, `-2-combat-tracker`, `-3-player-handouts`, `-4-dm-quick-ref`. They are the source of truth; the PDF renders **from** them and never adds narrative that isn't in the markdown.
+- **Image placement.** File 1 carries exactly one image (the title page illustration). Tactical/encounter maps live in **File 2 only**, as part 6 of each encounter's section. Every other illustration (portraits, monster art, location scenes) lives in **File 3 only**. Stat-block cards are **text-only** — never embed an image in or beside one.
+- **Image rendering.** Every image renders **full-page on an 8.5"×11" sheet**, preserving aspect ratio — no inline/thumbnail variant. Max **7.2"×9.8"** unbound; max **7.2"×8.5"** when bound to a heading via `KeepTogether`. Aspect ratios come from `images.json`; there is no PIL/Pillow.
+- **Image source & durability.** All art comes from the `generate_image` (Gemini) MCP tool. Save each as a git-tracked jpg and record its filename in `images.json` under `file`. The ReportLab renderer reads that local jpg, so a scripted PDF still builds after the Gemini URL expires (~30 days).
+
 ## Workflow
 
 Follow these steps in order. Do not skip ahead.
@@ -37,13 +46,13 @@ Once the user approves moving to images, plan what's needed:
 
 Rules for this step:
 
-- Use `generate_image_gemini` (Gemini MCP) for **every** image.
+- Use `generate_image` (Gemini MCP) for **every** image.
 - Never use any other image source. No Pillow, no matplotlib, no SVG drawing, no placeholders, no colored rectangles. Substituting anything else for Gemini is unacceptable.
 - If Gemini fails after a single retry, skip that image and tell the user. Never fall back to a placeholder.
 - Extract the hosted URL from each tool result. Do **not** extract or decode base64 data — Gemini's URLs are valid for 30 days and are the source of truth.
 - Before generating the first image, create an `images/` subfolder inside `sessions/session <N>/`.
-- Keep a running list of `{description, url, aspect_ratio}` for every image generated. Persist it as `sessions/session <N>/images/images.json` so the markdown files and the PDF renderer can both reference image sizes without re-querying Gemini. This list is the handoff to Step 5.
-- Save each generated image as a jpg file in `sessions/session <N>/images/` using a slugified form of the description as the filename (e.g., `khelziir-portrait.jpg`). If the tool writes a local file, move it there; otherwise download the image from the URL. Saving images locally ensures they are tracked in the git repo and survive Gemini URL expiry.
+- Save each generated image as a jpg file in `sessions/session <N>/images/` using a slugified form of the description as the filename (e.g., `khelziir-portrait.jpg`). If the tool writes a local file, move it there; otherwise download the image from the URL. The local jpg is committed to git and is the **durable** copy: the PDF renderer reads it directly, so the adventure still builds after the Gemini URL expires (~30 days).
+- Keep a running list of `{description, url, aspect_ratio, file}` for every image generated, where `file` is that saved jpg's filename. Persist it as `sessions/session <N>/images/images.json` so the markdown files and the PDF renderer can both reference image sizes without re-querying Gemini, and so the renderer can locate the local jpg. This list is the handoff to Step 5.
 - Present images to the user by referencing the URLs. Ask for regenerations, changes, or approval to author the markdown files.
 
 ### 5. Markdown Authoring
@@ -68,7 +77,9 @@ section: <main-body|combat-tracker|player-handouts|dm-quick-ref>
 ---
 ```
 
-The adventure file may add `tier`, `party_level`, and `duration` keys. Inline images use standard markdown `![Caption](https://…)` referencing the Gemini URLs from Step 4 — never download or rehost. Use vanilla Obsidian markdown (tables, headers, lists, fenced code). Do not use Fantasy Statblocks or Admonition syntax unless the user has explicitly asked for them; the print/export pipelines assume plain markdown.
+The session number appears in two intentionally different forms: the folder is `sessions/session <N>` with the bare number (e.g. `session 3`), while the `session:` frontmatter key and the quick-ref `Session NNN` line use a zero-padded three-digit form (e.g. `003`). Both refer to the same session; the padding keeps frontmatter values sorting correctly.
+
+The adventure file may add `tier`, `party_level`, and `duration` keys. Inline images use standard markdown `![Caption](https://…)` referencing the Gemini URLs from Step 4 — never download or rehost. (The ReportLab renderer prefers the git-tracked local jpg via the `images.json` `file` key, so a scripted PDF still builds after a URL expires; the Obsidian-native export path renders the embedded URL and so depends on it still being live.) Use vanilla Obsidian markdown (tables, headers, lists, fenced code). Do not use Fantasy Statblocks or Admonition syntax unless the user has explicitly asked for them; the print/export pipelines assume plain markdown.
 
 **File 1 — `<slug>-1-adventure.md`:** opens with a **full-page title page**, then the adventure narrative — summary, scenes, encounters, NPCs, treasure, loose ends.
 
@@ -104,7 +115,7 @@ Once the four markdown files are approved as canon, the campaign bible must be u
 
 **Edit mode depends on agent capability.** When running with file-write access (Augment, Cursor, similar), edit the bible files directly using file-editing tools and summarize the diff back to the user. When running as a stock chat model without write access, produce copy-pasteable markdown blocks instead. In either mode, surface every change to the user, never silently modify content, and never claim a file was edited if it wasn't.
 
-**Scratch files** — if the session prep produced a working scratch file (e.g., `session-<N>-plan.md`), delete it as part of this step once the three deliverables are authored and the bible is updated. The deliverables and the bible are the persistent record; the scratch plan is not.
+**Scratch files** — if the session prep produced a working scratch file (e.g., `session-<N>-plan.md`), delete it as part of this step once the four deliverables are authored and the bible is updated. The deliverables and the bible are the persistent record; the scratch plan is not.
 
 After the bible is updated, present a summary of the diff and stop. Step 7 is opt-in.
 
@@ -131,11 +142,11 @@ ReportLab build rules (these describe what `scripts/md_to_pdf.py` already implem
   - `paragraph` → body Paragraph (preserve inline `em` / `strong` / `code`)
   - `list` → `ListFlowable` of bullet or numbered items
   - `table` → ReportLab `Table` with the standard grid style; tables matching tracker patterns get the special styling described in the Combat Tracker section
-  - `image` (`![alt](url)`) → stream the URL into a `BytesIO` with `urllib` or `requests` and emit an `Image()` sized to fill an 8.5"×11" page (max 7.2"×9.8") while preserving the captured aspect ratio (see `images.json` below). No PIL/Pillow. **Every image renders at full-page size** — portraits, monster art, location scenes, and tactical maps alike. There is no inline / thumbnail variant. When the immediately preceding flowable is a section heading (optionally with one short intro paragraph), the renderer binds them with the image in a `KeepTogether` and shrinks the image to max 7.2"×8.5" so the heading + image pair fits one page. Otherwise the image flows naturally — ReportLab page-breaks before it if it doesn't fit in the remaining space, but a short landscape image will render below trailing text on the same page rather than forcing a near-empty page.
+  - `image` (`![alt](url)`) → load the bytes into a `BytesIO` (the local jpg named by the manifest `file` key when present, else the URL via `urllib`) and emit an `Image()` sized to fill an 8.5"×11" page (max 7.2"×9.8") while preserving the captured aspect ratio (see `images.json` below). No PIL/Pillow. **Every image renders at full-page size** — portraits, monster art, location scenes, and tactical maps alike. There is no inline / thumbnail variant. When the immediately preceding flowable is a section heading (optionally with one short intro paragraph), the renderer binds them with the image in a `KeepTogether` and shrinks the image to max 7.2"×8.5" so the heading + image pair fits one page. Otherwise the image flows naturally — ReportLab page-breaks before it if it doesn't fit in the remaining space, but a short landscape image will render below trailing text on the same page rather than forcing a near-empty page.
   - `block_code` (fenced) → preformatted Paragraph in a monospace style
   - `block_quote` → indented body Paragraph
 - **Checkbox glyphs.** Whenever a paragraph or table cell contains `☐`, the renderer replaces each glyph with a small empty bordered cell. Times-Roman does not carry `☐` and falls back to a filled square. Do not register a substitute font; replace at render time so the boxes are crisp and consistently sized.
-- **Image sizing.** Every image renders **full-page on an 8.5"×11" sheet** — sized to fill the printable area while preserving aspect ratio. Max 7.2"×9.8" for an unbound image; max 7.2"×8.5" when bound to a heading via `KeepTogether` (so the heading + image fit one page). Step 4 captures `{description, url, aspect_ratio}` for each image; persist that list as `images/images.json` in the session folder so the renderer can letterbox correctly without re-querying Gemini. Lookup is by URL; if a URL isn't found, fall back to a 4:3 default and warn. Generate every image at high enough resolution to print at full size.
+- **Image sizing.** Every image renders **full-page on an 8.5"×11" sheet** — sized to fill the printable area while preserving aspect ratio. Max 7.2"×9.8" for an unbound image; max 7.2"×8.5" when bound to a heading via `KeepTogether` (so the heading + image fit one page). Step 4 captures `{description, url, aspect_ratio, file}` for each image; persist that list as `images/images.json` in the session folder so the renderer can letterbox correctly without re-querying Gemini. Lookup is by URL; the renderer reads the local `file` when present (durable, expiry-proof) and only fetches the URL as a fallback. If a URL isn't found in the manifest, fall back to a 4:3 default and warn. Generate every image at high enough resolution to print at full size.
 - **Page-break placement.** The renderer aims to keep the page filled. Concretely: each section heading immediately followed by an image is bound to that image (`KeepTogether`) so the heading isn't orphaned on an otherwise-empty page; an image not bound to a heading flows naturally — ReportLab page-breaks before it if it doesn't fit in the remaining space, but a short landscape image will render below trailing text rather than force a near-empty page. Adjacent page breaks are coalesced (no blank pages), and body paragraphs use `allowWidows=0` / `allowOrphans=0` so a paragraph can't leave one stray line at the top of an otherwise-empty page. In the combat-tracker file, each encounter (`## Encounter N`) still gets its own page boundary so the tracker sheet stays organized; in the adventure and player-handout files, H2 sections flow naturally so two short entries (e.g., two landscape-image handouts) can share a page.
 - **Output:** single PDF at `sessions/session <N>/<adventure-slug>.pdf` (the slug is derived from `<slug>-1-adventure.md`).
 - **Run:** from the repo root, `.venv/bin/python scripts/build_pdf.py [<session-number-or-folder>]`. With no argument it builds the latest session; pass `3` or `"sessions/session 3"` to target a specific one. Optional `--title` and `--out` flags override the auto-detected title and output path. Tell the user the PDF path on completion; the user opens it themselves in Obsidian or Finder.
@@ -153,7 +164,7 @@ ReportLab build rules (these describe what `scripts/md_to_pdf.py` already implem
 
 ## Image Generation Specs
 
-All images come from `generate_image_gemini`. Write rich, specific prompts (>15 words) that name the subject, mood, color palette, and style. Always work with the returned URL, never the base64 payload.
+All images come from `generate_image` (the Gemini image MCP tool). Write rich, specific prompts (>15 words) that name the subject, mood, color palette, and style. Always work with the returned URL, never the base64 payload.
 
 - **Title page illustration**: `aspect_ratio="3:4"` — a portrait-orientation establishing shot of the adventure's primary setting (dungeon entrance, city skyline, wilderness expanse, etc.). Generated at full-page resolution so it fills one 8.5"×11" page cleanly. This is the **only image placed in File 1**; the same URL is reused in File 3 under the matching location section (not duplicated in `images.json`). Generate this first, before any other images.
 - **Tactical / encounter maps**: Top-down, print-optimized (minimal background clutter, high contrast). Include a scale indicator, N-arrow, and room/area labels. Use `aspect_ratio="3:4"` (portrait) for all standard encounter maps — portrait orientation fills the printable area cleanly. **Always generate at full-page resolution** — the map always renders **full-page on its own page**, placed at the **end** of the encounter's combat-tracker section after the stat-block cards. A map is **required for every combat encounter** — generate it in Step 4 before authoring File 2. Tactical maps belong to **File 2 only** (the combat tracker). Never embed them in File 1 (adventure narrative) or File 3 (player handouts) — players should not see the encounter layout.
@@ -164,11 +175,11 @@ Never use any built-in vector drawing tool or any Python-drawn graphics for adve
 
 ## PDF Formatting
 
-- Lead with a summary block: **Title, Tier, Duration, Setting**.
+- Lead with the title-page summary block: **Title, Tier, Party Level, Duration, Setting, Hook From** — the same fields as the File 1 title-page table.
 - Use clear headers and styled body text via ReportLab Platypus paragraph styles.
 - Images flow through from the markdown only — the renderer does not insert images that aren't already in the source files. File 1 carries exactly one image: the title page illustration, which renders full-page immediately after the title heading and summary table, followed by a `---` page break before the narrative begins. Every portrait, monster art, and remaining scene illustration renders inside the handout appendix (File 3), each under its own subheading. Tactical maps render from File 2 **only**, and always **last in their encounter section** — after the tracker sheet and all stat-block cards — on their **own full page**, preceded by a hard page break (`---`). NPC and monster portraits **never** appear in File 2; stat-block cards in the combat tracker are text-only.
-- **Every image renders full-page (8.5"×11").** The renderer page-breaks before and after each `![alt](url)` and sizes the image to fill the printable area while preserving its aspect ratio. There is no inline / shrunken variant — portraits, monster art, location scenes, and tactical maps all print at full-page size.
-- Images stream from their Gemini URLs into memory at PDF build time — no local caching required.
+- **Every image renders full-page** (see **Invariants** for the sizing rule). The renderer page-breaks before and after each `![alt](url)` and sizes the image to fill the printable area while preserving its aspect ratio.
+- Images load at PDF build time from the git-tracked local jpg (via the `images.json` `file` key), falling back to the Gemini URL when no local copy is present.
 - Final PDF output goes to `sessions/session <N>/<adventure-slug>.pdf`. The user opens it in Obsidian or Finder; do not attempt to invoke a presentation tool.
 
 ### Session folder layout
@@ -184,8 +195,8 @@ Each session lives in `sessions/session <N>/` with this file layout:
 
 **Image assets (always written when Step 4 runs):**
 
-- `images/images.json` — list of `{description, url, aspect_ratio}` captured during image generation. The renderer uses `aspect_ratio` to size each `Image()`. Always present so the PDF can be built later without re-querying Gemini.
-- `images/<description-slug>.jpg` — one jpg per generated image, named from the description slug. Tracked in git so images survive Gemini URL expiry.
+- `images/images.json` — list of `{description, url, aspect_ratio, file}` captured during image generation. The renderer uses `aspect_ratio` to size each `Image()` and `file` to read the local copy. Always present so the PDF can be built later without re-querying Gemini.
+- `images/<description-slug>.jpg` — one jpg per generated image, named from the description slug and recorded as the `file` key in `images.json`. Tracked in git and read directly by the renderer, so the PDF still builds after the Gemini URL expires.
 
 **ReportLab PDF artifact (only when the user asks for a scripted PDF — Step 7):**
 
@@ -284,7 +295,7 @@ These rules are **single-pass and pattern-based** — the renderer recognizes sh
 - Stat-block cards use a parchment background and a thin accent border to distinguish them visually from narrative content.
 - Initiative tables alternate row shading lightly to keep rows scannable.
 - Single-encounter trackers should fit on one page when feasible. Boss-tier encounters with 5+ combatants and multiple triggers may flow to a second page; do not compress to fit.
-- **Every image renders at full-page size on an 8.5"×11" sheet** — max 7.2"×9.8" unbound, max 7.2"×8.5" when paired with a heading via `KeepTogether`. Portrait images (3:4) fill the page; landscape images (16:9, 4:3) preserve aspect ratio and let surrounding content flow into the remaining vertical space. Heading + image pairs are bound together so headings aren't orphaned. Adjacent page breaks are coalesced, and body paragraphs use `allowWidows=0` / `allowOrphans=0` so a paragraph can't leave one stray line alone at the top of an otherwise-empty page.
+- **Every image renders at full-page size** (sizing rule in **Invariants**). Portrait images (3:4) fill the page; landscape images (16:9, 4:3) preserve aspect ratio and let surrounding content flow into the remaining vertical space. Heading + image pairs are bound together so headings aren't orphaned. Adjacent page breaks are coalesced, and body paragraphs use `allowWidows=0` / `allowOrphans=0` so a paragraph can't leave one stray line alone at the top of an otherwise-empty page.
 
 ### Reuse across sessions
 
