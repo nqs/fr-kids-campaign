@@ -223,10 +223,8 @@ Each combat encounter is rendered in this **strict six-part order**. Do not vary
 - The **Initiative & Damage** markdown table with pre-filled NPC rows (pre-rolled initiative averaged from DEX, AC, HP shown as `<total>: ☐☐☐☐☐ ☐☐☐☐☐ …` at 5 HP per box, ceiling-rounded, plus a notes column) interleaved with blank rows so the DM can write each PC in at the right initiative count after dice are rolled. Blank-row format and counts follow the *Initiative table layout* rules below.
 - A conditions reference strip (5e abbreviations: Bln · Chr · Deaf · Frt · Grp · Inc · Inv · Prl · Pet · Pzn · Prn · Rst · Stn · Uns · Conc).
 - `### Triggers & Countdowns` — bulleted, time-sensitive escalation/reinforcement conditions.
-- `### Concentration / Ongoing Effects` — 3-blank-line write-in box.
 - `### Tactics Summary` — one line per non-PC combatant.
 - `### Loot / Aftermath` — short bulleted note.
-- `### Notes` — write-in box for resources spent, persisting conditions, XP awarded.
 
 **5. Stat-block cards** — one level-3 section per **unique non-PC combatant** in the encounter, with full round-by-round actions. Each card contains:
 - Title + type/alignment line + CR (XP). **No portrait. Stat-block cards are text-only.** Portraits live in File 3 (player handouts) and never appear in File 2.
@@ -248,7 +246,7 @@ In `<slug>-2-combat-tracker.md`, render each encounter in the strict order from 
 1. `## Encounter N — <name>`
 2. Italic subtitle: `*Scene <ref> · <difficulty>*`
 3. Encounter Summary key/value table (Location / Light / Terrain / …)
-4. `**Round:** ☐ 1 · ☐ 2 · …` strip, then the **Initiative & Damage** table (blank-row layout per the rules below), then `### Triggers & Countdowns`, `### Concentration / Ongoing Effects`, `### Tactics Summary`, `### Loot / Aftermath`, and `### Notes` sections.
+4. `**Round:** ☐ 1 · ☐ 2 · …` strip, then the **Initiative & Damage** table (blank-row layout per the rules below), then `### Triggers & Countdowns`, `### Tactics Summary`, and `### Loot / Aftermath` sections.
 5. Stat-block cards as level-3 sections (`### <Creature Name>`), one per unique non-PC combatant, reprinted in full when a creature recurs across encounters. **No images inside or adjacent to a stat-block card.**
 6. A `---` thematic break, then the tactical map on its own line: `![Tactical Map — <encounter name>](<url>)`. The map is the last content in the encounter section; the next encounter (if any) begins with its own `## Encounter N — <name>` heading on the page after the map.
 
@@ -282,7 +280,6 @@ The combat tracker section of the PDF is rendered by `md_to_pdf.py` directly fro
 - A level-3 heading naming a creature, followed by a key/value block (`AC`, `HP`, `Speed`, ability scores, traits, actions), becomes a **stat-block card** with parchment background and a thin accent border. **Stat-block cards never embed images — no portraits, no monster art, no icons. Portraits live exclusively in File 3 (the handout appendix).**
 - **Every `![alt](url)` image renders full-page**, including tactical maps. A tactical map (alt text begins `Tactical Map`) is always the **last flowable in its encounter section**, preceded by a `---` thematic break that the renderer treats as a hard page break — so the map lands alone on a fresh page, after the tracker sheet and all stat-block cards. The map is not bound to its encounter heading and is not co-located with the tracker sheet. No caption is rendered (the alt text on the page is sufficient).
 - A line of `☐` glyphs inside a Spellcasting block (e.g., `1st: ☐ ☐ ☐`) becomes a row of spell-slot tick boxes, one per slot.
-- A `### Notes` or `### Concentration / Ongoing Effects` section whose body is a sequence of underscore lines (`______`) renders as a bordered write-in box with the right number of blank lines.
 
 These rules are **single-pass and pattern-based** — the renderer recognizes shapes in the parsed markdown rather than consulting a separate data structure. If the markdown matches the patterns documented under **Markdown form**, the PDF inherits the right styling automatically.
 
