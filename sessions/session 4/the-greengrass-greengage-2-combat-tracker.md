@@ -57,14 +57,6 @@ NPC initiative is pre-rolled (DEX-averaged). PCs roll live and write into the bl
 - **Avoid: Lorindar dies.** Worse problem afterward (new fey lord with a personal grievance). Sela goes white. Audience invitation rescinded. Move it to an S6+ war. Let it cost.
 - **Avoid: a PC dies.** Use Sela's intervention to bail if a kid drops to 0.
 
-### Concentration / Ongoing Effects
-
-____________________________________
-
-____________________________________
-
-____________________________________
-
 ### Tactics Summary
 
 - **Lorindar** — R1 speak the audience invitation (Standard-Bearer's Word, free), move Erith to ~30 ft of the PC who drew first, glaive ×2. R2 continue, Reproof the second hit. R3 Fey-Step + stag-bolt escape.
@@ -76,14 +68,6 @@ ____________________________________
 - No coin, no gear (Lorindar escapes). If bloodied and Reproof misses, the standard's iron-antler tip falls — **cold-iron token, fey-court provenance**, worth a favor not a sale.
 - If Erith is killed: a white antler is shed on the river-stones. Sela trigger.
 - If a sprite is killed: the other sprite breaks off immediately, follows the Herald. Don't kill both unless the party is going *very* hard.
-
-### Notes
-
-____________________________________
-
-____________________________________
-
-____________________________________
 
 ### Lorindar Greenmantle, the Antlered Herald
 

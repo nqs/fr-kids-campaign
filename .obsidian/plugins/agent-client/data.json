@@ -66,6 +66,14 @@
   },
   "savedSessions": [
     {
+      "sessionId": "4f7a5da5-6632-4299-b9d0-bd5b2486d69d",
+      "agentId": "Auggie",
+      "cwd": "/Users/nstewart/code/fr-kids-campaign",
+      "title": "regenerate the image of the antlered herald to be ...",
+      "createdAt": "2026-05-27T20:38:33.136Z",
+      "updatedAt": "2026-05-27T20:38:33.136Z"
+    },
+    {
       "sessionId": "042e5326-63c6-4fc3-8dab-bb7f935e0623",
       "agentId": "Auggie",
       "cwd": "/Users/nstewart/code/fr-kids-campaign",
