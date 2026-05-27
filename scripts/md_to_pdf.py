@@ -76,7 +76,17 @@ CARD_SUB = ParagraphStyle("CardSub", parent=BODY, fontName="Times-Italic",
 
 _bytes_cache: dict[str, bytes] = {}
 
-def _fetch(url: str) -> BytesIO:
+def _fetch(url: str, local: Path | None = None) -> BytesIO:
+    """Return image bytes, preferring a git-tracked local file over the URL.
+
+    The Gemini URLs expire after ~30 days; the local jpg (written at
+    generation time and committed to the repo) is the durable copy, so we read
+    it when present and only fall back to the network when it's missing."""
+    if local is not None and local.is_file():
+        key = local.as_posix()
+        if key not in _bytes_cache:
+            _bytes_cache[key] = local.read_bytes()
+        return BytesIO(_bytes_cache[key])
     if url not in _bytes_cache:
         req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
         with urllib.request.urlopen(req, timeout=30) as r:
@@ -88,9 +98,18 @@ def _aspect(ratio: str) -> tuple[int, int]:
     return int(a), int(b)
 
 def load_images(path: str | Path) -> dict[str, dict]:
-    """Return {url: {description, aspect_ratio}} from images.json."""
+    """Return {url: {description, aspect_ratio, file?, _path?}} from images.json.
+
+    When an entry carries a `file` key, resolve it to an absolute `_path`
+    alongside images.json so the renderer can read the local copy."""
+    images_dir = Path(path).parent
     data = json.loads(Path(path).read_text())
-    return {item["url"]: item for item in data}
+    manifest: dict[str, dict] = {}
+    for item in data:
+        if item.get("file"):
+            item["_path"] = images_dir / item["file"]
+        manifest[item["url"]] = item
+    return manifest
 
 def sized_image(url: str, manifest: dict, max_w_in: float = 5.5,
                 max_h_in: float | None = None) -> Image:
@@ -104,7 +123,8 @@ def sized_image(url: str, manifest: dict, max_w_in: float = 5.5,
     if max_h_in and h > max_h_in * inch:
         h = max_h_in * inch
         w = h * aw / ah
-    return Image(_fetch(url), width=w, height=h)
+    local = info.get("_path") if info else None
+    return Image(_fetch(url, local), width=w, height=h)
 
 # --- page geometry ---------------------------------------------------------
 
