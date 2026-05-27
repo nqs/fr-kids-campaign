@@ -41,7 +41,7 @@ You'll need to **turn off Restricted Mode** the first time (Settings → Communi
 ```
 fr-kids-campaign/
 ├── home.md                       # this file — vault index + Obsidian setup
-├── agents.md                     # Campaign Keeper agent instructions
+├── AGENTS.md                     # Campaign Keeper agent instructions
 ├── dnd-adventure-generator.md    # Generation workflow (scope → outline → images → markdown → bible → PDF)
 ├── campaign/                     # campaign-bible canon
 │   ├── world.md                  # setting overview
