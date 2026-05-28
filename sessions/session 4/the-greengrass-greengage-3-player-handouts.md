@@ -13,7 +13,7 @@ section: player-handouts
 
 The Lolthites never came. The fight ended before the ritual hit zero. Both surface drow are dead. **Site C is closed.**
 
-Loric walks in through the antechamber as the dust settles. Nema is at the cleft mouth on overwatch and steps in now. **You are five again.**
+Nema is at the cleft mouth on overwatch and steps in as the dust settles. **Loric isn't on the trail with you today — he stayed back at the Old Skull.** You're four for the walk home.
 
 ### What Now?
 
@@ -30,13 +30,13 @@ Loric walks in through the antechamber as the dust settles. Nema is at the cleft
 
 Greengrass is the first night of Mirtul — the cusp between winter and spring on the Dalelands calendar. Flowers, peace, and the first open river-crossings of the year. The Living Wood's druids walk the Greening at the wood's edge. The village green is bonfired. Old grudges are set aside for one night. The fey, by old tradition, walk the surface openly.
 
-Shadowdale's festival is small but stubbornly proud — flower crowns on every fence, a procession from the Twilight Tower to the river-stones, an evening bonfire that Lady Ulphor lights herself, and five stations on the green that the kids of Shadowdale have been training all winter to win.
+Shadowdale's festival is small but stubbornly proud — flower crowns on every fence, a procession from the Twilight Tower to the river-stones, an evening bonfire that Lady Ulphor lights herself, and four stations on the green that the kids of Shadowdale have been training all winter to win.
 
 The Ashaba House is your bed and your beer for the next twenty-four hours. *"You will not be charged for the Ashaba House while you are mine."*
 
 ---
 
-## The Five Stations
+## The Stations
 
 - **The Riverbank Archery Range** — floral-bobber targets in the Ashaba current. **Captain Helm** judges. **Rellan Tessar** is shooting in the same heat.
 - **The Bardic Showcase** — under the Twilight Tower banner. The headliner is **Halbren Vass**, a touring half-elf with too much pomade.
