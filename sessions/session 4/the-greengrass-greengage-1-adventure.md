@@ -13,7 +13,7 @@ duration: "~3.5–4 hours"
 | | |
 |---|---|
 | **Tier** | Tier 2 |
-| **Party Level** | 5 PCs at Level 5 (advance to 6 at the Ashaba House debrief) |
+| **Party Level** | 4 PCs at Level 5 (advance to 6 at the Ashaba House debrief) — Loric absent (Lily not at the table) |
 | **Duration** | ~3.5–4 hours of play |
 | **Setting** | The Shrine antechamber → Northern Traverse → Shadowdale (Ashaba House, the village green, the Old Skull Inn, the Living Wood edge, the riverbank) |
 | **Hook From** | Session 003 — *The Half-Mask Shrine* (Khelziir and Zeldrazz dead; anchor still standing) |
@@ -63,7 +63,7 @@ The party has four options. Quillip's earlier intel (Session 003 Scene 3) and Yi
 Before the party commits, Nalith (Druidic-sensitive, Circle of Dreams) feels a *second* hum under the first — a fey resonance the drow didn't put there. The anchor's outer rim has been inscribed by drow hands, but its **core** is older. Someone fey carved the inner ring a long time ago and the drow never noticed. *This is the first plant for the Crash.* Don't explain it; let the players notice or not.
 
 ### NPC Returns
-- **Loric T. (Lily)** — Easy retcon. He walks in via the antechamber having heard the fight end, sword still drawn, asking "is it over?" Lily reseats at the table.
+- **Loric T. (Lily)** — **Not at the table this session.** In fiction, Loric stayed at the Old Skull Inn rather than coming up to the Shrine. He is not with the party for any beat in this adventure. Easy retcon back in next session — he was just at the inn the whole time.
 - **Nema (Lilli)** — She was already at the cold camp, was on overwatch outside, and steps in now. She missed the bosses but she's here for cleanup.
 
 ### DM Notes
@@ -79,7 +79,7 @@ Before the party commits, Nalith (Druidic-sensitive, Circle of Dreams) feels a *
 Half a day overland down the southern face of the Old Skull. No combat. Use the walk to:
 
 - **Hand out loot.** Khelziir's silver half-mask (Yinu has it), 60 gp of Khelziir's pouch coin, his prayer chains (sellable to Orvyn for ~80 gp combined), Zeldrazz's poison vials (×2 drow poison), the antechamber crossbows. Standard divvy.
-- **Surface Brynn's letter.** Kto is still carrying it. If she finally tells the party, run that beat here. If she doesn't, **Loric should ask if anyone wants to talk about anything Brynn-shaped** (he was the letter's intended recipient and will absolutely have noticed it's not in his pack). This makes the letter the party's problem, not Kto's secret.
+- **Surface Brynn's letter.** Kto is still carrying it. If she finally tells the party, run that beat here. If she doesn't, **Brynn surfaces it himself the next day at the festival** — see *Brynn at the Old Skull* in Scene 5. He approaches Kto privately and asks whether his letter ever reached its intended recipient. That's the on-ramp; Kto chooses what to do with it.
 - **Let the kids breathe.** Banter. Marching order. Fiorn doing impressions of Khelziir's death gurgle.
 
 ### The First Greengrass Sign
@@ -108,7 +108,7 @@ Lady Ulphor's solar. Late afternoon. Brynn Ashford is at her right hand with the
 
 2. **The Anchor.** Whatever choice the party made in Scene 1 — Smash, Steal, Feed, or Withdraw — pay out the appropriate consequences. Orvyn lights up at Steal or Feed. Lady Ulphor relaxes visibly at Smash.
 
-3. **Pay.** 600 gp baseline (120 gp / PC). Bonuses:
+3. **Pay.** 600 gp baseline (150 gp / PC across the 4 present). Bonuses:
    - **Smash:** +100 gp (Brynn).
    - **Steal:** +200 gp (Orvyn, for the anchor in hand).
    - **Feed:** +300 gp (Orvyn, *and* a tacit Harper marker for Yinu — keep this quiet).
@@ -148,15 +148,17 @@ Mid-morning, Greengrass day. The Twilight Tower bell rings the procession in. Th
 > [!quote] Read Aloud
 > The Old Skull dome is the backdrop today, gray granite over the green of the village. The procession moves slow, the way the Dales do everything slow — flower crowns on every head, a flute somewhere up front, Captain Helm walking in dress greens with his sword on the wrong hip on purpose. Lady Ulphor is at the head. Sela Wyndmere is at the back, walking with the druids of the Living Wood. Brynn Ashford is standing in front of the Old Skull Inn with a slate and a pile of dragonchess boards, and Orvyn Tal is at a bookstall pretending to read.
 >
-> Five stations open at noon. You may attend whichever calls you.
+> The stations open at noon. You may attend whichever calls you.
 
 ### Stations and Hosts (announced in fiction)
 - **The Riverbank Archery Range** — judged by **Captain Helm** with Rellan Tessar competing.
 - **The Bardic Showcase** — under the Twilight Tower banner. Headliner: **Halbren Vass**, smug touring half-elf.
 - **The Arcane Wonders Stall** — hosted by **Orvyn Tal**.
-- **The Dragonchess Open** — at the back room of the Old Skull Inn. Bracket master: **Brynn Ashford**.
 - **The Greening of the Beasts** — at the edge of the Living Wood. Co-led by **Sela Wyndmere**.
 - **(Placeholder) The Festival Footrace** — south bank of the Ashaba. *(For Nema until her sheet is filed.)*
+
+> [!flag] DM — Dragonchess shelved this session
+> The Dragonchess Open is **not running as a PC station** with Loric absent. Brynn is still at the Old Skull all afternoon running an open bracket in fiction — see *Brynn at the Old Skull* below for how the Mistledale Council intel still lands.
 
 ### DM Notes — Running the Montage
 - Cut between stations like a film montage. Don't keep one PC's player waiting more than ~5 minutes between turns.
@@ -173,7 +175,7 @@ Mid-morning, Greengrass day. The Twilight Tower bell rings the procession in. Th
 
 ---
 
-## Scene 5 — The Five Stations
+## Scene 5 — The Stations
 
 ### Station A — Riverbank Archery Range *(Kto)*
 
@@ -228,22 +230,19 @@ Mid-morning, Greengrass day. The Twilight Tower bell rings the procession in. Th
 
 ---
 
-### Station D — The Dragonchess Open *(Loric T.)*
+### Brynn at the Old Skull *(no dedicated PC station — Loric absent)*
 
-**Host:** Brynn Ashford, running the bracket and playing in it.
-**Setup:** The back room of the Old Skull Inn. Six boards, fourteen players, sleeves of summer ale. Best-of-three against Brynn in the final round.
+**Host:** Brynn Ashford, running an open dragonchess bracket in the back room of the Old Skull Inn all afternoon — six boards, fourteen villagers, sleeves of summer ale.
 
-| # | Check (per game) | DC | Notes |
-|---|---|---|---|
-| 1 | Opening | **Intelligence (Dragonchess) DC 13** | Loric's +5 with Dragonchess proficiency. Charisma helps via Persuasion in mid-game. |
-| 2 | Midgame | **Insight or Deception DC 15** | Read his tells. Loric's CHA-based deception is +6. |
-| 3 | Endgame | **Persuasion DC 17** | Talk him through a forced trade. Loric's +6 — needs a roll. |
+**No skill challenge.** The Dragonchess Open is shelved as a PC station while Loric is away. Any PC who passes through the inn can sit in for a casual game — narrate the result freely.
 
-**Outcome regardless of W/L:** Brynn drops **one piece of Council intel from his S3 letter** at some point during the match. Use this to give Lily's character a soft on-ramp back to the letter thread without forcing Kto to share. Suggested drop:
+**The Mistledale Council intel still needs to land.** Brynn delivers it **directly to Kto** at a quiet moment between her archery heats. He pulls her aside and asks plainly whether the letter he handed her in Session 002 ever reached its intended recipient. Whatever she says, he drops the line himself:
+
 > *"There's a vote in Mistledale next month. If our anchor was found in their granite instead of ours, the vote tips the other way. You understand?"*
 
-**Gold Ribbon scene (Loric wins 2–1):** Brynn says nothing for a long moment, then says: *"Tell Kto I'd like a word. When she's ready."* He doesn't say what about. He knows that Loric knows.
-**Bronze Ribbon scene (Loric loses 0–2):** Brynn buys him a beer and tells him the trick to dragonchess is that you have to like the pieces. Then he tells him the Council story above.
+Then: *"Tell whoever needs to know."* He returns to his board. The letter and the Council intel both belong to Kto now — and to the party once she chooses to share.
+
+**If Kto already surfaced the letter on the walk back** (Scene 2), Brynn instead nods once, says *"Then you know what I'm about to tell you,"* and gives her the Council line plainly with the rest of the party present.
 
 ---
 
@@ -339,7 +338,7 @@ Sela Wyndmere wears a courier ribbon on her belt — bone-and-green stitched in 
 - **2 mooks** — Sprite Outriders on fey-touched owls (CR 1 each)
 - **~3 rounds.** Combat is *not* about killing the Herald. He **escapes** when bloodied OR at end of Round 3, whichever comes first.
 - **Scripted exit:** Misty Step (at-will) onto the stag's back, the stag bolts into the Living Wood, the sprites peel off into the trees. Sela steps between him and the party at the treeline and the party doesn't pursue.
-- **XP target:** **Medium for 5×L6** (~3,500 XP).
+- **XP target:** **Hard-leaning for 4×L6** (raw 2,200 → ~3,300 adjusted; Medium ~2,800, Hard ~3,600). Same scripted exit at R3/bloodied — let Sela trigger early if a kid drops below 20% HP.
 - **Civilian protection:** Captain Helm + militia + Rellan + Sela form a screen. Civilians are **behind the militia line.** PCs don't choose between damage and rescue.
 
 ### Loose Ends Cracked Open by the Crash
@@ -371,7 +370,7 @@ Cut on Lady Ulphor's bonfire roaring up against the dusk and the party standing 
 # Loot & Rewards Summary
 
 ### Currency
-- **Baseline (debrief):** 600 gp (120 gp / PC)
+- **Baseline (debrief):** 600 gp (150 gp / PC across the 4 present — Loric absent)
 - **Anchor bonus:** +100 / +200 / +300 / 0 (Smash / Steal / Feed / Withdraw)
 - **Festival ribbons:** 25 gp / Gold Ribbon (Lady Ulphor's purse), 10 gp / Silver, 0 / Bronze
 

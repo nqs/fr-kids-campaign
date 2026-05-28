@@ -18,8 +18,8 @@ section: combat-tracker
 | **Light** | Dusk. Torchlit firebreak on the PC side; deep gloaming under the treeline. |
 | **Terrain** | River-stones are **difficult terrain** for Medium creatures (Lorindar's stag ignores). Open village green. ~120 ft engagement range from treeline to firebreak. Sprites enter 80 ft up on fey-touched giant owls. |
 | **Antagonists** | 1× **Lorindar Greenmantle, the Antlered Herald** (CR 5 fey) + 2× **Sprite Outrider** (CR 1 fey, owl-mounted). |
-| **Party** | 5 PCs at Level 6. |
-| **XP** | Raw 2,200 → ×1.5 multi-foe → **~3,300 adjusted** (DMG Medium threshold for 5×L6 is 3,500). |
+| **Party** | **4 PCs at Level 6** (Loric absent — Lily not at the table). |
+| **XP** | Raw 2,200 → ×1.5 multi-foe → **~3,300 adjusted** (Medium threshold for 4×L6 is ~2,800; Hard ~3,600). **Hard-leaning** with one fewer caster — same scripted exit (R3/bloodied) still applies; let Sela trigger early if a kid drops below 20% HP. |
 | **Duration** | 3 rounds maximum. Lorindar escapes at end of R3 **or** when bloodied — whichever first. |
 | **Goal (PCs)** | **Draw blood. Remember the face.** Stopping the escape is not the goal and is not expected. |
 | **Goal (Lorindar)** | Recon. Provocation. **Deliver the audience invitation** even if the party will not listen. Leave without killing a child. |
@@ -142,7 +142,7 @@ Riding-horse stats with *Pass Without Trace* active on Lorindar. **AC 12 · HP 3
 **Round-by-Round Tactics.**
 
 - **Round 1.** Hover 80 ft up. Heart-Sight Arrows at the two PCs who drew first. Any sprite reading "fear" holds fire the rest of the encounter. If both read "rage," continue.
-- **Round 2.** Sleep-Tipped Arrows at the loudest-output PC (Yinu, Loric T., or Fiorn). Aim is to drop the PC on the firebreak, not kill.
+- **Round 2.** Sleep-Tipped Arrows at the loudest-output PC (Yinu or Fiorn). Aim is to drop the PC on the firebreak, not kill.
 - **Round 3.** Cover the Herald's escape with regular shortbow fire. Peel off into the Living Wood as the stag bolts.
 
 **On defeat.** A sprite dropped to 0 HP → the other sprite breaks off immediately and follows the Herald. Don't kill both unless the party is going *very* hard.

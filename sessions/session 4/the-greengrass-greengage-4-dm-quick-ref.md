@@ -17,8 +17,8 @@ section: dm-quick-ref
 | 1 | Anchor Decision (in the Shrine) | Choice: Smash / Steal / Feed / Withdraw | Yinu Arcana DC 17 for Feed (expertise) |
 | 2 | Walk Back | Loot divvy · Brynn's letter · scene setting | Greengrass-eve ridge moment |
 | 3 | Ashaba House Debrief | Pay 600 gp + bonus · **Level 6** | Print L6 sheets; warmer tone than S2 |
-| 4 | Opening Procession | Read-aloud, station announcements | Five stations + Nema placeholder |
-| 5 | Five Stations (montage) | 3-check skill challenges, DC 13/15/17 | Cut between PCs; ~5 min/turn max |
+| 4 | Opening Procession | Read-aloud, station announcements | Four stations + Nema placeholder (Loric absent) |
+| 5 | Stations (montage) | 3-check skill challenges, DC 13/15/17 | Cut between PCs; ~5 min/turn max (4 stations) |
 | 6 | The Bonfire | Ribbons + Lady Ulphor's toast | False moment of safety |
 | 7 | **The Crash** | Antlered Herald + 2× Sprite Outriders | See combat tracker |
 | 8 | Aftermath | Sela opens up · Brynn/Orvyn beats · Quillip hook | End session on the bonfire lit |
@@ -34,7 +34,7 @@ section: dm-quick-ref
 | **Feed** *(Harper)* | +300 gp | Yinu Harper marker; future listening payoff |
 | **Withdraw** | +0 | Retaliation clock accelerates |
 
-**Baseline pay:** 600 gp split (120 gp / PC) regardless of anchor choice.
+**Baseline pay:** 600 gp split (150 gp / PC across the 4 present — Loric absent) regardless of anchor choice.
 
 ---
 
@@ -58,7 +58,7 @@ section: dm-quick-ref
 | **Kto** | Riverbank Archery | Helm + Rellan | AC 13 / WIS 15 / AC 17 | Gold = **public Helm-rift closure** |
 | **Fiorn** | Bardic Showcase | Halbren Vass *(new)* | PERF 13 / DECEP 15 / PERF 17 | Use **Encouraging Song** for closer |
 | **Yinu** | Arcane Stall | Orvyn Tal | ARC 13 / INV 15 / ARC 17 | Plants: signal-stone + numbing draught |
-| **Loric T.** | Dragonchess Open | Brynn | DC 13 / 15 / 17 (per game) | Brynn drops **Mistledale Council intel** |
+| ~~**Loric T.**~~ | ~~Dragonchess Open~~ | — | — | **Absent this session.** Council intel reroutes — Brynn delivers it directly to **Kto** at the festival. |
 | **Nalith** | The Greening | Sela + Quillip *(invisible)* | HERB 13 / PERF 15 / AH 17 | **Hawthorn berry plant**; drop regardless of ribbon |
 | **Nema** | Footrace *(placeholder)* | TBD | DEX 13 / CON 15 / DEX 17 | **Replace once Lilli files Nema's sheet** |
 
@@ -127,7 +127,7 @@ This is the line Lorindar MUST deliver before he leaves. **Drop it in Round 1 as
 | Dried hawthorn berry | Nalith Station E (Quillip) | Fey audience (S5–6) |
 | Anchor's fey-inscribed inner ring | Scene 1, Nalith's Druidic-sense | Future Sela conversation |
 | Harper primer book | Yinu (Gold C or Feed) | Yinu's Harper recruitment arc |
-| Mistledale Council vote (Brynn intel) | Loric Station D | Council arc (S5+) |
+| Mistledale Council vote (Brynn intel) | Brynn → Kto direct *(Loric absent — rerouted from Station D)* | Council arc (S5+) |
 | Halbren's "where are you touring next?" | Fiorn Gold B | Fiorn recurring rival |
 
 ---
@@ -135,7 +135,7 @@ This is the line Lorindar MUST deliver before he leaves. **Drop it in Round 1 as
 ## Loose Ends This Session **Closes**
 
 - **Helm rift** — publicly closed at Kto's Gold station OR at Helm's solo "I was wrong" beat in aftermath.
-- **Brynn's letter** — Brynn knows Kto knows. Kto chooses when. Loric on-ramped via Dragonchess intel.
+- **Brynn's letter** — Brynn knows Kto knows. Brynn surfaces it directly to Kto at the festival (Loric absent — Dragonchess on-ramp shelved until Lily is back).
 - **Unnamed fey lord** — named (sort of): **the Bright Court Beneath.** Lord's name still withheld for future reveal.
 - **Sela's "consultations"** — Sela tells the party, plainly, in the aftermath.
 - **Quillip's S3 silence about Sela's lord** — explained on stage.
@@ -155,7 +155,7 @@ This is the line Lorindar MUST deliver before he leaves. **Drop it in Round 1 as
 | NPC | Role today | Read-aloud anchor |
 |---|---|---|
 | **Lady Addee Ulphor** | Hosts festival, lights bonfire, "you will not be charged" | Warm, almost maternal |
-| **Brynn Ashford** | Runs the Dragonchess Open; "Thursday afternoons" to Kto | Sharper; he's a Harper-adjacent operator |
+| **Brynn Ashford** | Open dragonchess at the Old Skull (no PC station); **pulls Kto aside about the letter + drops Council intel** | Sharper; he's a Harper-adjacent operator |
 | **Orvyn Tal** | Hosts Yinu's stall; **Harper recruitment** | Quiet, generous, watchful |
 | **Captain Corwick Helm** | Judges Kto's archery; **Helm-rift closure** | "I was glad I was wrong about him." |
 | **Rellan Tessar** | Shoots with Kto; friend-ladder beat | Quietly cheerful, on his feet again |
@@ -173,7 +173,7 @@ This is the line Lorindar MUST deliver before he leaves. **Drop it in Round 1 as
 | **Kto** | Fighter (Champion) | ASI/Feat (suggest **Resilient: WIS** or **Sharpshooter**) |
 | **Fiorn** | Rogue (Thief) | Subclass feature usage (Fast Hands is already humming) — pick up an Expertise option if available |
 | **Yinu** | Wizard (Order of Scribes) | 3rd-level spell slot expansion + scribe feature |
-| **Loric T.** | Sorcerer (Draconic) | Sorcerous Restoration improvement, Metamagic option |
+| ~~**Loric T.**~~ | ~~Sorcerer (Draconic)~~ | **Absent this session** — defer level-up until Lily is back. |
 | **Nalith** | Druid (Circle of Dreams) | **Hidden Paths** (Circle of Dreams 6th-level feature — short-rest teleport, very fey-themed; thematic for tonight!) |
 | **Nema** | TBD | TBD |
 
@@ -187,7 +187,7 @@ This is the line Lorindar MUST deliver before he leaves. **Drop it in Round 1 as
 |---|---|---|
 | Cleaning Up (Scenes 1–3) | 45–60 min | Move on at 75 if needed; trim debrief |
 | Procession (Scene 4) | 10 min | — |
-| Five Stations (Scene 5) | 75–90 min | Cap at 100; cut if stations drag |
+| Stations (Scene 5) | 60–75 min | Cap at 85; cut if stations drag *(4 stations with Loric absent)* |
 | Bonfire (Scene 6) | 10 min | — |
 | The Crash (Scene 7) | 30–40 min | **Hard stop at 45.** End on Sela if it's running long. |
 | Aftermath (Scene 8) | 15 min | — |

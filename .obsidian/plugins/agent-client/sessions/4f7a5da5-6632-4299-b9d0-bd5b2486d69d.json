@@ -596,7 +596,740 @@
         }
       ],
       "timestamp": "2026-05-27T20:49:24.736Z"
+    },
+    {
+      "id": "03b26ff7-544a-45bb-8081-8feedcc67300",
+      "role": "user",
+      "content": [
+        {
+          "type": "text",
+          "text": "Update session 4, Loric will not be attending."
+        }
+      ],
+      "timestamp": "2026-05-28T19:31:30.459Z"
+    },
+    {
+      "id": "1d8928a3-2f6a-42aa-a1a5-9c317820786f",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "agent_thought",
+          "text": " I need to identify which Session 4 files mention Loric and figure out how to remove or update his involvement in the plan."
+        }
+      ],
+      "timestamp": "2026-05-28T19:31:35.176Z"
+    },
+    {
+      "id": "b369be00-dbb4-4727-b227-5b0b494ef676",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_016kQRGWgq9PZxAAbxsgXdXL",
+          "title": "Run `grep -rn -i \"loric\" \"sessions/session 4/\" campaign/party.md 2>/dev/null`",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "command": "grep -rn -i \"loric\" \"sessions/session 4/\" campaign/party.md 2>/dev/null",
+            "cwd": "/Users/nstewart/code/fr-kids-campaign",
+            "wait": true,
+            "max_wait_seconds": 10
+          }
+        }
+      ],
+      "timestamp": "2026-05-28T19:31:35.757Z"
+    },
+    {
+      "id": "97650dcd-da57-4fd4-b136-5529f7cb5379",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_01SXM5UutEmpTEy9mD56HE1D",
+          "title": "Read `campaign/party.md`",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "path": "/Users/nstewart/code/fr-kids-campaign/campaign/party.md"
+            }
+          ],
+          "rawInput": {
+            "path": "campaign/party.md"
+          }
+        },
+        {
+          "type": "agent_thought",
+          "text": " I see that Loric won't be attending Session 4 either, so I need to rework the festival structure. Since Loric was supposed to be reintroduced this session and run the Dragonchess station where Brynn delivers her Mistledale Council intel, I'll need to find another way to get that information to the party.\n\nI'm also checking the party level discrepancy — the session file lists them as Level 6, but the campaign file says Level 5. I'll need to verify which is correct before adjusting the combat encounter sizing, since the current XP calculation assumes five Level 6 characters. I should also update the combat tracker to remove Loric from the sleep arrow target list and revise the DM quick reference to drop his station and reroute the council intel delivery. I need to dial in the scope here—the core change is that Loric won't be at the session, so I'm removing him as a present PC, recalculating the encounter difficulty for 4 Level 6 characters, and updating the recap and DM notes accordingly. The trickier piece is handling Station D and the Brynn Dragonchess intel that was tied to Loric—I'm leaning toward dropping the Dragonchess Open as a dedicated station but keeping Brynn in the scene, maybe having her approach Kto directly about the letter instead.\n\nWait, I need to reread the letter mechanics here. Brynn's letter from Session 002 was *intended for Loric*, and without him at the table, the natural prompt for surfacing it disappears. So either Brynn herself brings it up directly with Kto, or I need another PC to notice the letter's absence and ask about it.\n\nThe cleanest move is having Brynn approach Kto at a quiet moment during the festival to confirm whether the letter reached Loric — no need for Loric to be present for that conversation. I should also drop the Dragonchess station from the festival schedule since it was built around Loric's presence, which cuts the five stations down to four.\n\nFor the in-fiction gap, I'm thinking Loric stayed behind at the inn in Shadowdale rather than coming up to the festival — gives Lily an easy way to slot back in later without needing to explain where he went.\n\nOn the combat side, I'm recalculating XP for four level 6 PCs instead of five: the original file claimed 3,500 for a Medium encounter with five PCs, so that's 700 per character. For four PCs, that's 2,800 as the Medium threshold. The raw encounter value of 2,200 adjusted by 1.5 comes to 3,300, which pushes it into Hard territory — I'll relabel it accordingly. The scripted exit mechanic (Lorindar leaves once bloodied at 42 HP) should still keep it manageable in three rounds even with one fewer striker.\n\nNow I need to hunt through the adventure file for all other references to Loric and update them: the station table, the Mistledale Council loose end, Brynn's letter staging, and the sorcerous restoration leveling note all need adjusting. For the combat tactics, I'll drop Loric from the \"loudest output PC\" targeting list and keep Yinu and Fiorn as valid targets. I also need to check the player handouts for the \"you are five again\" line and then systematically work through the file to remove or reframe the retcon entry."
+        },
+        {
+          "type": "text",
+          "text": "Loric runs deep in this session — he had a dedicated festival station (Dragonchess Open), the Brynn-letter beat hinges on him being present (he's the letter's intended recipient), and the recap calls out \"you are five again.\" I need to see the full context in Files 1, 3, and 4 before editing.\n"
+        }
+      ],
+      "timestamp": "2026-05-28T19:31:36.096Z"
+    },
+    {
+      "id": "3b11b3bb-8a48-433e-9886-e15a5435e4e0",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_01WcSqS4bqAbBnRD9JkuMDSj",
+          "title": "Read `sessions/session 4/the-greengrass-greengage-1-adventure.md` (lines 55-95)",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "line": 55,
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 4/the-greengrass-greengage-1-adventure.md"
+            }
+          ],
+          "rawInput": {
+            "path": "sessions/session 4/the-greengrass-greengage-1-adventure.md",
+            "view_range": [
+              55,
+              95
+            ]
+          }
+        }
+      ],
+      "timestamp": "2026-05-28T19:32:31.815Z"
+    },
+    {
+      "id": "6712ace3-1a2f-4134-93e5-6729aea9f6ea",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_01Kkw1YkpwaoSACQztHNUuSZ",
+          "title": "Read `sessions/session 4/the-greengrass-greengage-1-adventure.md` (lines 180-260)",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "line": 180,
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 4/the-greengrass-greengage-1-adventure.md"
+            }
+          ],
+          "rawInput": {
+            "path": "sessions/session 4/the-greengrass-greengage-1-adventure.md",
+            "view_range": [
+              180,
+              260
+            ]
+          }
+        }
+      ],
+      "timestamp": "2026-05-28T19:32:31.837Z"
+    },
+    {
+      "id": "35c01fbc-01ff-4f5c-beca-c8290fc93ba1",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_01AwpMKsfJXZFeSba7ggD5ov",
+          "title": "Read `sessions/session 4/the-greengrass-greengage-3-player-handouts.md` (lines 1-35)",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "line": 1,
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 4/the-greengrass-greengage-3-player-handouts.md"
+            }
+          ],
+          "rawInput": {
+            "path": "sessions/session 4/the-greengrass-greengage-3-player-handouts.md",
+            "view_range": [
+              1,
+              35
+            ]
+          }
+        }
+      ],
+      "timestamp": "2026-05-28T19:32:31.837Z"
+    },
+    {
+      "id": "e5752372-6bbf-42fd-af03-37cd31bee234",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_0183fsJMVwcXb1HRnzPvv7gk",
+          "title": "Read `sessions/session 4/the-greengrass-greengage-4-dm-quick-ref.md`",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 4/the-greengrass-greengage-4-dm-quick-ref.md"
+            }
+          ],
+          "rawInput": {
+            "path": "sessions/session 4/the-greengrass-greengage-4-dm-quick-ref.md"
+          }
+        },
+        {
+          "type": "agent_thought",
+          "text": " I'm mapping out where Loric appears across the files. In the adventure file, there's a retcon entry on line 66 that needs to be removed or replaced, a beat on line 82 tied to Brynn's letter that requires rewriting since it references Loric as the intended recipient, and the entire Station D section covering the Dragonchess Open needs to come out. The combat tracker file also contains Loric references that need addressing.\n\nNow I'm working through the other files systematically. The player handouts reference Loric in a specific scene that needs rewriting, and the DM quick reference has multiple touch points — the station count needs updating from five to four, Station D row gets removed, and several beats mentioning Loric or the Dragonchess Open need adjustment. There's also a question about whether to keep Loric's Level 6 entry with a note about him being absent, or remove it entirely. I'm also catching that \"five stations\" appears in multiple places across the files and needs to be updated to reflect the actual four stations that will be active this session."
+        },
+        {
+          "type": "text",
+          "text": "Let me check the rest of File 1 for \"five stations\" mentions and station counts.\n"
+        }
+      ],
+      "timestamp": "2026-05-28T19:32:31.837Z"
+    },
+    {
+      "id": "f17e34a5-0135-4dd7-93ae-35939354b0db",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_0194hiQMmG7TZMrwX3J5Bt73",
+          "title": "Read `sessions/session 4/the-greengrass-greengage-1-adventure.md` (search: \"five station|five-station|stations|Loric|five again\")",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 4/the-greengrass-greengage-1-adventure.md"
+            }
+          ],
+          "rawInput": {
+            "path": "sessions/session 4/the-greengrass-greengage-1-adventure.md",
+            "search_query_regex": "five station|five-station|stations|Loric|five again",
+            "context_lines_before": 2,
+            "context_lines_after": 2
+          }
+        }
+      ],
+      "timestamp": "2026-05-28T19:32:50.936Z"
+    },
+    {
+      "id": "37381045-f6f2-4435-9f6f-0c80a01f94ee",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_01KKotzis5j8tmbmaLbuCaeo",
+          "title": "Read `sessions/session 4/the-greengrass-greengage-3-player-handouts.md` (search: \"station|Loric|five\")",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 4/the-greengrass-greengage-3-player-handouts.md"
+            }
+          ],
+          "rawInput": {
+            "path": "sessions/session 4/the-greengrass-greengage-3-player-handouts.md",
+            "search_query_regex": "station|Loric|five",
+            "context_lines_before": 1,
+            "context_lines_after": 1
+          }
+        },
+        {
+          "type": "agent_thought",
+          "text": " I'm realizing there's an important distinction here about Lorindar's perspective—when the fey lord references \"you five who walked into our borders,\" he's counting the original party members who confronted Khelziir at the Shrine back in Session 3, before Loric joined the group. So from the fey's point of view, those five are the ones who actually crossed into his domain.\n\nFor the real-world scheduling issue, the simplest solution is that Loric is in Shadowdale but simply not participating in the festival activities this session—maybe he's recovering from something, handling his own business, or just staying at the inn. Other characters can mention him in passing without it creating any narrative problems.\n\nThe Herald's line about \"five who walked into our borders\" refers to whoever crossed into the Shrine cleft, not necessarily everyone at the bonfire, so that read-aloud stays as-is. The in-fiction frame becomes: Loric is in town but absent from the festival, while the other four PCs experience the Crash at the bonfire.\n\nNow I'm mapping out the edits needed. The main changes are removing the Loric retcon explanation, having Brynn approach Kto directly with the letter during the festival rather than waiting for Loric to prompt it, and replacing the Station D dragonchess setup with a simpler note that Brynn's running a casual game at the Old Skull all day that any PC can drop into.\n\nAcross the files, I need to update the station count from five to four in the read-alouds and section headers, adjust the combat tracker for four PCs at Level 6 and recompute XP thresholds, remove Loric from the sprite target list, update the player handouts to reflect four stations, and revise the DM quick reference to remove Station D entirely and clarify that Brynn delivers the Council intel directly to Kto at the festival since Loric's absent."
+        }
+      ],
+      "timestamp": "2026-05-28T19:32:50.936Z"
+    },
+    {
+      "id": "7fa28236-9149-4a29-b43f-26776409a5dd",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_014K4F51Z2sZq2ZAEaLazWBe",
+          "title": "Read `sessions/session 4/the-greengrass-greengage-1-adventure.md` (lines 152-178)",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "line": 152,
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 4/the-greengrass-greengage-1-adventure.md"
+            }
+          ],
+          "rawInput": {
+            "path": "sessions/session 4/the-greengrass-greengage-1-adventure.md",
+            "view_range": [
+              152,
+              178
+            ]
+          }
+        },
+        {
+          "type": "agent_thought",
+          "text": " I'm working through how to handle Loric's absence from the game. The cleanest approach is to keep her character in Shadowdale but out of the festival activities—she could be recovering at the inn or simply not participating in today's events. This way she drops back in naturally when the player returns, and I can remove the Brynn Dragonchess Open station since she won't be there.\n\nBrynn stays at the Old Skull running open dragonchess all day, which preserves the in-world texture. When Kto approaches her about the undelivered letter, Brynn delivers the Mistledale Council intel directly—this consolidates two separate threads into one cleaner beat.\n\nThe read-aloud references to \"five who walked our borders\" are safe to keep since they refer to the fey lord's historical framing of those who crossed at the Shrine in the previous session, not the current party composition. Now I'm recalculating the combat XP for four level 6 PCs instead of five—using the file's per-PC math of 700 XP each gives 2,800 raw, which adjusts to around 3,300 and lands in the Hard range rather than Medium.\n\nFor the recap in File 3, I need to drop the \"You are five again\" line since it references a count that no longer applies. I'll rephrase it to just describe Nema stepping in from overwatch as the dust settles, keeping the moment grounded without calling attention to the party size.\n\nThen for File 1, I need to update the character notes. Loric stays at the Old Skull Inn this session — that's a clean retcon that works for next time. Nema's line stays as-is since the user only mentioned Loric's absence. And I should check the Brynn's letter beat — if Kto's still carrying it, that's a potential moment to surface here if the party finally asks about it.\n\nNow I'm revising the Station D section. Since Loric isn't at the table, the Dragonchess Open gets shelved for now. Brynn runs the bracket solo with NPCs, and the Mistledale Council intel becomes his vehicle to pull Kto aside privately. He asks directly whether his letter from Session 002 landed, then delivers the Council line himself — the vote in Mistledale, the anchor, the stakes. Both pieces of information belong to Kto now, and she decides what to share with the party.\n\nFinally, I need to drop the station count from five to four since Loric's station is gone. Now I'm going through File 4 to update the station count from five to four, adjust the timing window, and remove Loric from the relevant entries. For File 2, I need to update the PC count to reflect that Loric is absent, drop him from the combat tracker, and adjust the XP threshold accordingly. I'm ready to make these targeted edits across both files."
+        },
+        {
+          "type": "text",
+          "text": "I have a complete plan. Approach: Loric stays at the Old Skull Inn for the session (clean in-fiction reason, easy retcon back when Lily returns). His Dragonchess station is dropped; **Brynn delivers the Council intel directly to Kto** at the festival, consolidating the Brynn-letter thread cleanly. Recap and read-aloud \"five who walked our borders\" stays (Herald's historical count of S3 Shrine party). Combat resizes to 4×L6.\n\nExecuting all edits in parallel:\n"
+        }
+      ],
+      "timestamp": "2026-05-28T19:33:17.536Z"
+    },
+    {
+      "id": "1f03b4c3-9ae2-4f7f-b915-18ca2b49d2cb",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_01SXNmk6ioUJ1XxGRDFFoKHv",
+          "title": "Edit sessions/session 4/the-greengrass-greengage-1-adventure.md",
+          "status": "completed",
+          "kind": "edit",
+          "content": [
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 4/the-greengrass-greengage-1-adventure.md",
+              "newText": "### NPC Returns\n- **Loric T. (Lily)** — **Not at the table this session.** In fiction, Loric stayed at the Old Skull Inn rather than coming up to the Shrine. He is not with the party for any beat in this adventure. Easy retcon back in next session — he was just at the inn the whole time.\n- **Nema (Lilli)** — She was already at the cold camp, was on overwatch outside, and steps in now. She missed the bosses but she's here for cleanup.",
+              "oldText": "### NPC Returns\n- **Loric T. (Lily)** — Easy retcon. He walks in via the antechamber having heard the fight end, sword still drawn, asking \"is it over?\" Lily reseats at the table.\n- **Nema (Lilli)** — She was already at the cold camp, was on overwatch outside, and steps in now. She missed the bosses but she's here for cleanup."
+            },
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 4/the-greengrass-greengage-1-adventure.md",
+              "newText": "- **Surface Brynn's letter.** Kto is still carrying it. If she finally tells the party, run that beat here. If she doesn't, **Brynn surfaces it himself the next day at the festival** — see *Brynn at the Old Skull* in Scene 5. He approaches Kto privately and asks whether his letter ever reached its intended recipient. That's the on-ramp; Kto chooses what to do with it.",
+              "oldText": "- **Surface Brynn's letter.** Kto is still carrying it. If she finally tells the party, run that beat here. If she doesn't, **Loric should ask if anyone wants to talk about anything Brynn-shaped** (he was the letter's intended recipient and will absolutely have noticed it's not in his pack). This makes the letter the party's problem, not Kto's secret."
+            },
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 4/the-greengrass-greengage-1-adventure.md",
+              "newText": "> The stations open at noon. You may attend whichever calls you.\n\n### Stations and Hosts (announced in fiction)\n- **The Riverbank Archery Range** — judged by **Captain Helm** with Rellan Tessar competing.\n- **The Bardic Showcase** — under the Twilight Tower banner. Headliner: **Halbren Vass**, smug touring half-elf.\n- **The Arcane Wonders Stall** — hosted by **Orvyn Tal**.\n- **The Greening of the Beasts** — at the edge of the Living Wood. Co-led by **Sela Wyndmere**.\n- **(Placeholder) The Festival Footrace** — south bank of the Ashaba. *(For Nema until her sheet is filed.)*\n\n> [!flag] DM — Dragonchess shelved this session\n> The Dragonchess Open is **not running as a PC station** with Loric absent. Brynn is still at the Old Skull all afternoon running an open bracket in fiction — see *Brynn at the Old Skull* below for how the Mistledale Council intel still lands.",
+              "oldText": "> Five stations open at noon. You may attend whichever calls you.\n\n### Stations and Hosts (announced in fiction)\n- **The Riverbank Archery Range** — judged by **Captain Helm** with Rellan Tessar competing.\n- **The Bardic Showcase** — under the Twilight Tower banner. Headliner: **Halbren Vass**, smug touring half-elf.\n- **The Arcane Wonders Stall** — hosted by **Orvyn Tal**.\n- **The Dragonchess Open** — at the back room of the Old Skull Inn. Bracket master: **Brynn Ashford**.\n- **The Greening of the Beasts** — at the edge of the Living Wood. Co-led by **Sela Wyndmere**.\n- **(Placeholder) The Festival Footrace** — south bank of the Ashaba. *(For Nema until her sheet is filed.)*"
+            },
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 4/the-greengrass-greengage-1-adventure.md",
+              "newText": "## Scene 5 — The Stations",
+              "oldText": "## Scene 5 — The Five Stations"
+            },
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 4/the-greengrass-greengage-1-adventure.md",
+              "newText": "### Brynn at the Old Skull *(no dedicated PC station — Loric absent)*\n\n**Host:** Brynn Ashford, running an open dragonchess bracket in the back room of the Old Skull Inn all afternoon — six boards, fourteen villagers, sleeves of summer ale.\n\n**No skill challenge.** The Dragonchess Open is shelved as a PC station while Loric is away. Any PC who passes through the inn can sit in for a casual game — narrate the result freely.\n\n**The Mistledale Council intel still needs to land.** Brynn delivers it **directly to Kto** at a quiet moment between her archery heats. He pulls her aside and asks plainly whether the letter he handed her in Session 002 ever reached its intended recipient. Whatever she says, he drops the line himself:\n\n> *\"There's a vote in Mistledale next month. If our anchor was found in their granite instead of ours, the vote tips the other way. You understand?\"*\n\nThen: *\"Tell whoever needs to know.\"* He returns to his board. The letter and the Council intel both belong to Kto now — and to the party once she chooses to share.\n\n**If Kto already surfaced the letter on the walk back** (Scene 2), Brynn instead nods once, says *\"Then you know what I'm about to tell you,\"* and gives her the Council line plainly with the rest of the party present.",
+              "oldText": "### Station D — The Dragonchess Open *(Loric T.)*\n\n**Host:** Brynn Ashford, running the bracket and playing in it.\n**Setup:** The back room of the Old Skull Inn. Six boards, fourteen players, sleeves of summer ale. Best-of-three against Brynn in the final round.\n\n| # | Check (per game) | DC | Notes |\n|---|---|---|---|\n| 1 | Opening | **Intelligence (Dragonchess) DC 13** | Loric's +5 with Dragonchess proficiency. Charisma helps via Persuasion in mid-game. |\n| 2 | Midgame | **Insight or Deception DC 15** | Read his tells. Loric's CHA-based deception is +6. |\n| 3 | Endgame | **Persuasion DC 17** | Talk him through a forced trade. Loric's +6 — needs a roll. |\n\n**Outcome regardless of W/L:** Brynn drops **one piece of Council intel from his S3 letter** at some point during the match. Use this to give Lily's character a soft on-ramp back to the letter thread without forcing Kto to share. Suggested drop:\n> *\"There's a vote in Mistledale next month. If our anchor was found in their granite instead of ours, the vote tips the other way. You understand?\"*\n\n**Gold Ribbon scene (Loric wins 2–1):** Brynn says nothing for a long moment, then says: *\"Tell Kto I'd like a word. When she's ready.\"* He doesn't say what about. He knows that Loric knows.\n**Bronze Ribbon scene (Loric loses 0–2):** Brynn buys him a beer and tells him the trick to dragonchess is that you have to like the pieces. Then he tells him the Council story above."
+            }
+          ],
+          "locations": [
+            {
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 4/the-greengrass-greengage-1-adventure.md"
+            }
+          ],
+          "rawInput": {
+            "command": "str_replace",
+            "path": "sessions/session 4/the-greengrass-greengage-1-adventure.md",
+            "instruction_reminder": "ALWAYS BREAK DOWN EDITS INTO SMALLER CHUNKS OF AT MOST 150 LINES EACH.",
+            "old_str_1": "### NPC Returns\n- **Loric T. (Lily)** — Easy retcon. He walks in via the antechamber having heard the fight end, sword still drawn, asking \"is it over?\" Lily reseats at the table.\n- **Nema (Lilli)** — She was already at the cold camp, was on overwatch outside, and steps in now. She missed the bosses but she's here for cleanup.",
+            "new_str_1": "### NPC Returns\n- **Loric T. (Lily)** — **Not at the table this session.** In fiction, Loric stayed at the Old Skull Inn rather than coming up to the Shrine. He is not with the party for any beat in this adventure. Easy retcon back in next session — he was just at the inn the whole time.\n- **Nema (Lilli)** — She was already at the cold camp, was on overwatch outside, and steps in now. She missed the bosses but she's here for cleanup.",
+            "old_str_start_line_number_1": 65,
+            "old_str_end_line_number_1": 67,
+            "old_str_2": "- **Surface Brynn's letter.** Kto is still carrying it. If she finally tells the party, run that beat here. If she doesn't, **Loric should ask if anyone wants to talk about anything Brynn-shaped** (he was the letter's intended recipient and will absolutely have noticed it's not in his pack). This makes the letter the party's problem, not Kto's secret.",
+            "new_str_2": "- **Surface Brynn's letter.** Kto is still carrying it. If she finally tells the party, run that beat here. If she doesn't, **Brynn surfaces it himself the next day at the festival** — see *Brynn at the Old Skull* in Scene 5. He approaches Kto privately and asks whether his letter ever reached its intended recipient. That's the on-ramp; Kto chooses what to do with it.",
+            "old_str_start_line_number_2": 82,
+            "old_str_end_line_number_2": 82,
+            "old_str_3": "> Five stations open at noon. You may attend whichever calls you.\n\n### Stations and Hosts (announced in fiction)\n- **The Riverbank Archery Range** — judged by **Captain Helm** with Rellan Tessar competing.\n- **The Bardic Showcase** — under the Twilight Tower banner. Headliner: **Halbren Vass**, smug touring half-elf.\n- **The Arcane Wonders Stall** — hosted by **Orvyn Tal**.\n- **The Dragonchess Open** — at the back room of the Old Skull Inn. Bracket master: **Brynn Ashford**.\n- **The Greening of the Beasts** — at the edge of the Living Wood. Co-led by **Sela Wyndmere**.\n- **(Placeholder) The Festival Footrace** — south bank of the Ashaba. *(For Nema until her sheet is filed.)*",
+            "new_str_3": "> The stations open at noon. You may attend whichever calls you.\n\n### Stations and Hosts (announced in fiction)\n- **The Riverbank Archery Range** — judged by **Captain Helm** with Rellan Tessar competing.\n- **The Bardic Showcase** — under the Twilight Tower banner. Headliner: **Halbren Vass**, smug touring half-elf.\n- **The Arcane Wonders Stall** — hosted by **Orvyn Tal**.\n- **The Greening of the Beasts** — at the edge of the Living Wood. Co-led by **Sela Wyndmere**.\n- **(Placeholder) The Festival Footrace** — south bank of the Ashaba. *(For Nema until her sheet is filed.)*\n\n> [!flag] DM — Dragonchess shelved this session\n> The Dragonchess Open is **not running as a PC station** with Loric absent. Brynn is still at the Old Skull all afternoon running an open bracket in fiction — see *Brynn at the Old Skull* below for how the Mistledale Council intel still lands.",
+            "old_str_start_line_number_3": 151,
+            "old_str_end_line_number_3": 159,
+            "old_str_4": "## Scene 5 — The Five Stations",
+            "new_str_4": "## Scene 5 — The Stations",
+            "old_str_start_line_number_4": 176,
+            "old_str_end_line_number_4": 176,
+            "old_str_5": "### Station D — The Dragonchess Open *(Loric T.)*\n\n**Host:** Brynn Ashford, running the bracket and playing in it.\n**Setup:** The back room of the Old Skull Inn. Six boards, fourteen players, sleeves of summer ale. Best-of-three against Brynn in the final round.\n\n| # | Check (per game) | DC | Notes |\n|---|---|---|---|\n| 1 | Opening | **Intelligence (Dragonchess) DC 13** | Loric's +5 with Dragonchess proficiency. Charisma helps via Persuasion in mid-game. |\n| 2 | Midgame | **Insight or Deception DC 15** | Read his tells. Loric's CHA-based deception is +6. |\n| 3 | Endgame | **Persuasion DC 17** | Talk him through a forced trade. Loric's +6 — needs a roll. |\n\n**Outcome regardless of W/L:** Brynn drops **one piece of Council intel from his S3 letter** at some point during the match. Use this to give Lily's character a soft on-ramp back to the letter thread without forcing Kto to share. Suggested drop:\n> *\"There's a vote in Mistledale next month. If our anchor was found in their granite instead of ours, the vote tips the other way. You understand?\"*\n\n**Gold Ribbon scene (Loric wins 2–1):** Brynn says nothing for a long moment, then says: *\"Tell Kto I'd like a word. When she's ready.\"* He doesn't say what about. He knows that Loric knows.\n**Bronze Ribbon scene (Loric loses 0–2):** Brynn buys him a beer and tells him the trick to dragonchess is that you have to like the pieces. Then he tells him the Council story above.",
+            "new_str_5": "### Brynn at the Old Skull *(no dedicated PC station — Loric absent)*\n\n**Host:** Brynn Ashford, running an open dragonchess bracket in the back room of the Old Skull Inn all afternoon — six boards, fourteen villagers, sleeves of summer ale.\n\n**No skill challenge.** The Dragonchess Open is shelved as a PC station while Loric is away. Any PC who passes through the inn can sit in for a casual game — narrate the result freely.\n\n**The Mistledale Council intel still needs to land.** Brynn delivers it **directly to Kto** at a quiet moment between her archery heats. He pulls her aside and asks plainly whether the letter he handed her in Session 002 ever reached its intended recipient. Whatever she says, he drops the line himself:\n\n> *\"There's a vote in Mistledale next month. If our anchor was found in their granite instead of ours, the vote tips the other way. You understand?\"*\n\nThen: *\"Tell whoever needs to know.\"* He returns to his board. The letter and the Council intel both belong to Kto now — and to the party once she chooses to share.\n\n**If Kto already surfaced the letter on the walk back** (Scene 2), Brynn instead nods once, says *\"Then you know what I'm about to tell you,\"* and gives her the Council line plainly with the rest of the party present.",
+            "old_str_start_line_number_5": 231,
+            "old_str_end_line_number_5": 246
+          }
+        }
+      ],
+      "timestamp": "2026-05-28T19:34:48.996Z"
+    },
+    {
+      "id": "243a0458-f685-447c-bb10-376f88ac2763",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_017poXqZ1WnfstjF9r3gKeTX",
+          "title": "Edit sessions/session 4/the-greengrass-greengage-2-combat-tracker.md",
+          "status": "completed",
+          "kind": "edit",
+          "content": [
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 4/the-greengrass-greengage-2-combat-tracker.md",
+              "newText": "| **Party** | **4 PCs at Level 6** (Loric absent — Lily not at the table). |\n| **XP** | Raw 2,200 → ×1.5 multi-foe → **~3,300 adjusted** (Medium threshold for 4×L6 is ~2,800; Hard ~3,600). **Hard-leaning** with one fewer caster — same scripted exit (R3/bloodied) still applies; let Sela trigger early if a kid drops below 20% HP. |",
+              "oldText": "| **Party** | 5 PCs at Level 6. |\n| **XP** | Raw 2,200 → ×1.5 multi-foe → **~3,300 adjusted** (DMG Medium threshold for 5×L6 is 3,500). |"
+            },
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 4/the-greengrass-greengage-2-combat-tracker.md",
+              "newText": "- **Round 2.** Sleep-Tipped Arrows at the loudest-output PC (Yinu or Fiorn). Aim is to drop the PC on the firebreak, not kill.",
+              "oldText": "- **Round 2.** Sleep-Tipped Arrows at the loudest-output PC (Yinu, Loric T., or Fiorn). Aim is to drop the PC on the firebreak, not kill."
+            }
+          ],
+          "locations": [
+            {
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 4/the-greengrass-greengage-2-combat-tracker.md"
+            }
+          ],
+          "rawInput": {
+            "command": "str_replace",
+            "path": "sessions/session 4/the-greengrass-greengage-2-combat-tracker.md",
+            "instruction_reminder": "ALWAYS BREAK DOWN EDITS INTO SMALLER CHUNKS OF AT MOST 150 LINES EACH.",
+            "old_str_1": "| **Party** | 5 PCs at Level 6. |\n| **XP** | Raw 2,200 → ×1.5 multi-foe → **~3,300 adjusted** (DMG Medium threshold for 5×L6 is 3,500). |",
+            "new_str_1": "| **Party** | **4 PCs at Level 6** (Loric absent — Lily not at the table). |\n| **XP** | Raw 2,200 → ×1.5 multi-foe → **~3,300 adjusted** (Medium threshold for 4×L6 is ~2,800; Hard ~3,600). **Hard-leaning** with one fewer caster — same scripted exit (R3/bloodied) still applies; let Sela trigger early if a kid drops below 20% HP. |",
+            "old_str_start_line_number_1": 21,
+            "old_str_end_line_number_1": 22,
+            "old_str_2": "- **Round 2.** Sleep-Tipped Arrows at the loudest-output PC (Yinu, Loric T., or Fiorn). Aim is to drop the PC on the firebreak, not kill.",
+            "new_str_2": "- **Round 2.** Sleep-Tipped Arrows at the loudest-output PC (Yinu or Fiorn). Aim is to drop the PC on the firebreak, not kill.",
+            "old_str_start_line_number_2": 145,
+            "old_str_end_line_number_2": 145
+          }
+        }
+      ],
+      "timestamp": "2026-05-28T19:34:49.017Z"
+    },
+    {
+      "id": "5d211016-48b8-4a5b-8ecb-f9c38711414e",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_01BRWeoh8Xw7ZdGQfKnNxXn6",
+          "title": "Edit sessions/session 4/the-greengrass-greengage-3-player-handouts.md",
+          "status": "completed",
+          "kind": "edit",
+          "content": [
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 4/the-greengrass-greengage-3-player-handouts.md",
+              "newText": "Nema is at the cleft mouth on overwatch and steps in as the dust settles. **Loric isn't on the trail with you today — he stayed back at the Old Skull.** You're four for the walk home.",
+              "oldText": "Loric walks in through the antechamber as the dust settles. Nema is at the cleft mouth on overwatch and steps in now. **You are five again.**"
+            },
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 4/the-greengrass-greengage-3-player-handouts.md",
+              "newText": "Shadowdale's festival is small but stubbornly proud — flower crowns on every fence, a procession from the Twilight Tower to the river-stones, an evening bonfire that Lady Ulphor lights herself, and four stations on the green that the kids of Shadowdale have been training all winter to win.",
+              "oldText": "Shadowdale's festival is small but stubbornly proud — flower crowns on every fence, a procession from the Twilight Tower to the river-stones, an evening bonfire that Lady Ulphor lights herself, and five stations on the green that the kids of Shadowdale have been training all winter to win."
+            },
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 4/the-greengrass-greengage-3-player-handouts.md",
+              "newText": "## The Stations",
+              "oldText": "## The Five Stations"
+            }
+          ],
+          "locations": [
+            {
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 4/the-greengrass-greengage-3-player-handouts.md"
+            }
+          ],
+          "rawInput": {
+            "command": "str_replace",
+            "path": "sessions/session 4/the-greengrass-greengage-3-player-handouts.md",
+            "instruction_reminder": "ALWAYS BREAK DOWN EDITS INTO SMALLER CHUNKS OF AT MOST 150 LINES EACH.",
+            "old_str_1": "Loric walks in through the antechamber as the dust settles. Nema is at the cleft mouth on overwatch and steps in now. **You are five again.**",
+            "new_str_1": "Nema is at the cleft mouth on overwatch and steps in as the dust settles. **Loric isn't on the trail with you today — he stayed back at the Old Skull.** You're four for the walk home.",
+            "old_str_start_line_number_1": 16,
+            "old_str_end_line_number_1": 16,
+            "old_str_2": "Shadowdale's festival is small but stubbornly proud — flower crowns on every fence, a procession from the Twilight Tower to the river-stones, an evening bonfire that Lady Ulphor lights herself, and five stations on the green that the kids of Shadowdale have been training all winter to win.",
+            "new_str_2": "Shadowdale's festival is small but stubbornly proud — flower crowns on every fence, a procession from the Twilight Tower to the river-stones, an evening bonfire that Lady Ulphor lights herself, and four stations on the green that the kids of Shadowdale have been training all winter to win.",
+            "old_str_start_line_number_2": 33,
+            "old_str_end_line_number_2": 33,
+            "old_str_3": "## The Five Stations",
+            "new_str_3": "## The Stations",
+            "old_str_start_line_number_3": 39,
+            "old_str_end_line_number_3": 39
+          }
+        }
+      ],
+      "timestamp": "2026-05-28T19:34:49.017Z"
+    },
+    {
+      "id": "77abf7c0-330f-4d90-9188-8ef5d55f6c11",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_01MpUXRARzTWga6ypdrWMdE4",
+          "title": "Edit sessions/session 4/the-greengrass-greengage-4-dm-quick-ref.md",
+          "status": "completed",
+          "kind": "edit",
+          "content": [
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 4/the-greengrass-greengage-4-dm-quick-ref.md",
+              "newText": "| 4 | Opening Procession | Read-aloud, station announcements | Four stations + Nema placeholder (Loric absent) |",
+              "oldText": "| 4 | Opening Procession | Read-aloud, station announcements | Five stations + Nema placeholder |"
+            },
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 4/the-greengrass-greengage-4-dm-quick-ref.md",
+              "newText": "| **Yinu** | Arcane Stall | Orvyn Tal | ARC 13 / INV 15 / ARC 17 | Plants: signal-stone + numbing draught |\n| ~~**Loric T.**~~ | ~~Dragonchess Open~~ | — | — | **Absent this session.** Council intel reroutes — Brynn delivers it directly to **Kto** at the festival. |\n| **Nalith** | The Greening | Sela + Quillip *(invisible)* | HERB 13 / PERF 15 / AH 17 | **Hawthorn berry plant**; drop regardless of ribbon |",
+              "oldText": "| **Yinu** | Arcane Stall | Orvyn Tal | ARC 13 / INV 15 / ARC 17 | Plants: signal-stone + numbing draught |\n| **Loric T.** | Dragonchess Open | Brynn | DC 13 / 15 / 17 (per game) | Brynn drops **Mistledale Council intel** |\n| **Nalith** | The Greening | Sela + Quillip *(invisible)* | HERB 13 / PERF 15 / AH 17 | **Hawthorn berry plant**; drop regardless of ribbon |"
+            },
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 4/the-greengrass-greengage-4-dm-quick-ref.md",
+              "newText": "| Mistledale Council vote (Brynn intel) | Brynn → Kto direct *(Loric absent — rerouted from Station D)* | Council arc (S5+) |",
+              "oldText": "| Mistledale Council vote (Brynn intel) | Loric Station D | Council arc (S5+) |"
+            },
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 4/the-greengrass-greengage-4-dm-quick-ref.md",
+              "newText": "- **Brynn's letter** — Brynn knows Kto knows. Brynn surfaces it directly to Kto at the festival (Loric absent — Dragonchess on-ramp shelved until Lily is back).",
+              "oldText": "- **Brynn's letter** — Brynn knows Kto knows. Kto chooses when. Loric on-ramped via Dragonchess intel."
+            },
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 4/the-greengrass-greengage-4-dm-quick-ref.md",
+              "newText": "| **Brynn Ashford** | Open dragonchess at the Old Skull (no PC station); **pulls Kto aside about the letter + drops Council intel** | Sharper; he's a Harper-adjacent operator |",
+              "oldText": "| **Brynn Ashford** | Runs the Dragonchess Open; \"Thursday afternoons\" to Kto | Sharper; he's a Harper-adjacent operator |"
+            },
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 4/the-greengrass-greengage-4-dm-quick-ref.md",
+              "newText": "| **Yinu** | Wizard (Order of Scribes) | 3rd-level spell slot expansion + scribe feature |\n| ~~**Loric T.**~~ | ~~Sorcerer (Draconic)~~ | **Absent this session** — defer level-up until Lily is back. |\n| **Nalith** | Druid (Circle of Dreams) | **Hidden Paths** (Circle of Dreams 6th-level feature — short-rest teleport, very fey-themed; thematic for tonight!) |",
+              "oldText": "| **Yinu** | Wizard (Order of Scribes) | 3rd-level spell slot expansion + scribe feature |\n| **Loric T.** | Sorcerer (Draconic) | Sorcerous Restoration improvement, Metamagic option |\n| **Nalith** | Druid (Circle of Dreams) | **Hidden Paths** (Circle of Dreams 6th-level feature — short-rest teleport, very fey-themed; thematic for tonight!) |"
+            },
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 4/the-greengrass-greengage-4-dm-quick-ref.md",
+              "newText": "| Stations (Scene 5) | 60–75 min | Cap at 85; cut if stations drag *(4 stations with Loric absent)* |",
+              "oldText": "| Five Stations (Scene 5) | 75–90 min | Cap at 100; cut if stations drag |"
+            }
+          ],
+          "locations": [
+            {
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 4/the-greengrass-greengage-4-dm-quick-ref.md"
+            }
+          ],
+          "rawInput": {
+            "command": "str_replace",
+            "path": "sessions/session 4/the-greengrass-greengage-4-dm-quick-ref.md",
+            "instruction_reminder": "ALWAYS BREAK DOWN EDITS INTO SMALLER CHUNKS OF AT MOST 150 LINES EACH.",
+            "old_str_1": "| 4 | Opening Procession | Read-aloud, station announcements | Five stations + Nema placeholder |",
+            "new_str_1": "| 4 | Opening Procession | Read-aloud, station announcements | Four stations + Nema placeholder (Loric absent) |",
+            "old_str_start_line_number_1": 20,
+            "old_str_end_line_number_1": 20,
+            "old_str_2": "| **Yinu** | Arcane Stall | Orvyn Tal | ARC 13 / INV 15 / ARC 17 | Plants: signal-stone + numbing draught |\n| **Loric T.** | Dragonchess Open | Brynn | DC 13 / 15 / 17 (per game) | Brynn drops **Mistledale Council intel** |\n| **Nalith** | The Greening | Sela + Quillip *(invisible)* | HERB 13 / PERF 15 / AH 17 | **Hawthorn berry plant**; drop regardless of ribbon |",
+            "new_str_2": "| **Yinu** | Arcane Stall | Orvyn Tal | ARC 13 / INV 15 / ARC 17 | Plants: signal-stone + numbing draught |\n| ~~**Loric T.**~~ | ~~Dragonchess Open~~ | — | — | **Absent this session.** Council intel reroutes — Brynn delivers it directly to **Kto** at the festival. |\n| **Nalith** | The Greening | Sela + Quillip *(invisible)* | HERB 13 / PERF 15 / AH 17 | **Hawthorn berry plant**; drop regardless of ribbon |",
+            "old_str_start_line_number_2": 60,
+            "old_str_end_line_number_2": 62,
+            "old_str_3": "| Mistledale Council vote (Brynn intel) | Loric Station D | Council arc (S5+) |",
+            "new_str_3": "| Mistledale Council vote (Brynn intel) | Brynn → Kto direct *(Loric absent — rerouted from Station D)* | Council arc (S5+) |",
+            "old_str_start_line_number_3": 130,
+            "old_str_end_line_number_3": 130,
+            "old_str_4": "- **Brynn's letter** — Brynn knows Kto knows. Kto chooses when. Loric on-ramped via Dragonchess intel.",
+            "new_str_4": "- **Brynn's letter** — Brynn knows Kto knows. Brynn surfaces it directly to Kto at the festival (Loric absent — Dragonchess on-ramp shelved until Lily is back).",
+            "old_str_start_line_number_4": 138,
+            "old_str_end_line_number_4": 138,
+            "old_str_5": "| **Brynn Ashford** | Runs the Dragonchess Open; \"Thursday afternoons\" to Kto | Sharper; he's a Harper-adjacent operator |",
+            "new_str_5": "| **Brynn Ashford** | Open dragonchess at the Old Skull (no PC station); **pulls Kto aside about the letter + drops Council intel** | Sharper; he's a Harper-adjacent operator |",
+            "old_str_start_line_number_5": 158,
+            "old_str_end_line_number_5": 158,
+            "old_str_6": "| **Yinu** | Wizard (Order of Scribes) | 3rd-level spell slot expansion + scribe feature |\n| **Loric T.** | Sorcerer (Draconic) | Sorcerous Restoration improvement, Metamagic option |\n| **Nalith** | Druid (Circle of Dreams) | **Hidden Paths** (Circle of Dreams 6th-level feature — short-rest teleport, very fey-themed; thematic for tonight!) |",
+            "new_str_6": "| **Yinu** | Wizard (Order of Scribes) | 3rd-level spell slot expansion + scribe feature |\n| ~~**Loric T.**~~ | ~~Sorcerer (Draconic)~~ | **Absent this session** — defer level-up until Lily is back. |\n| **Nalith** | Druid (Circle of Dreams) | **Hidden Paths** (Circle of Dreams 6th-level feature — short-rest teleport, very fey-themed; thematic for tonight!) |",
+            "old_str_start_line_number_6": 175,
+            "old_str_end_line_number_6": 177,
+            "old_str_7": "| Five Stations (Scene 5) | 75–90 min | Cap at 100; cut if stations drag |",
+            "new_str_7": "| Stations (Scene 5) | 60–75 min | Cap at 85; cut if stations drag *(4 stations with Loric absent)* |",
+            "old_str_start_line_number_7": 190,
+            "old_str_end_line_number_7": 190
+          }
+        },
+        {
+          "type": "agent_thought",
+          "text": " I need to verify that all references to Loric have been properly updated and check the DM reference file for any stale numbers that should reflect the new count, plus scan the adventure file for any lingering references to the old quantities. Once I've confirmed everything is consistent across all the files, I'll rebuild the PDF.\n\nLooking at the baseline pay section in the quick reference, the 600 gp split needs clarification — with 4 PCs at the Shrine, that's 150 gp per character, but I need to determine whether Loric gets a share since he wasn't present for the anchor decision. The original recap says Loric walked in after the dust settled, so he was technically at the Shrine, just arriving late. I should flag this as a table-discretion question rather than changing the baseline numbers, since DMs can adjust loot distribution as needed.\n\nActually, I'm narrowing scope here — the user asked for Session 4 updates only. The 600 gp baseline is flexible enough that I can just update it to reflect the 4 PCs who were actually present: 600 gp ÷ 4 = 150 gp per character. That's a straightforward fix. I should also scan for any other references to 5 party members that might now be outdated."
+        },
+        {
+          "type": "text",
+          "text": "Let me sanity-check for any remaining stale references (PC counts, payment splits, etc.) before rebuilding the PDF.\n"
+        }
+      ],
+      "timestamp": "2026-05-28T19:34:49.038Z"
+    },
+    {
+      "id": "0caa7656-d19c-41b7-819e-20a12d94e7a1",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_017EpSfQSVFjRVZs3YUxJjZM",
+          "title": "Run `grep -n \"Loric\\|5 PC\\|5×L6\\|5x L6\\|five station\\|Five Station\\|five again\\|120 g...`",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "command": "grep -n \"Loric\\|5 PC\\|5×L6\\|5x L6\\|five station\\|Five Station\\|five again\\|120 gp\" \"sessions/session 4/\"*.md",
+            "cwd": "/Users/nstewart/code/fr-kids-campaign",
+            "wait": true,
+            "max_wait_seconds": 10
+          }
+        },
+        {
+          "type": "agent_thought",
+          "text": " I need to fix a few details in the document. The PC count should be 4 instead of 5 on the title page, which means the anchor pay calculation needs updating to 150 gp per PC rather than 120, and there's another correction needed around line 341 that got cut off."
+        },
+        {
+          "type": "text",
+          "text": "Six stragglers to fix (party count in title page, anchor pay splits, XP target in adventure file, scene-order label).\n"
+        }
+      ],
+      "timestamp": "2026-05-28T19:35:06.303Z"
+    },
+    {
+      "id": "8b6a0834-9df9-4633-8946-e096fb4a9ac1",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_012NYqZhCA8MXtFLxFti3tgw",
+          "title": "Edit sessions/session 4/the-greengrass-greengage-1-adventure.md",
+          "status": "completed",
+          "kind": "edit",
+          "content": [
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 4/the-greengrass-greengage-1-adventure.md",
+              "newText": "| **Party Level** | 4 PCs at Level 5 (advance to 6 at the Ashaba House debrief) — Loric absent (Lily not at the table) |",
+              "oldText": "| **Party Level** | 5 PCs at Level 5 (advance to 6 at the Ashaba House debrief) |"
+            },
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 4/the-greengrass-greengage-1-adventure.md",
+              "newText": "3. **Pay.** 600 gp baseline (150 gp / PC across the 4 present). Bonuses:",
+              "oldText": "3. **Pay.** 600 gp baseline (120 gp / PC). Bonuses:"
+            },
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 4/the-greengrass-greengage-1-adventure.md",
+              "newText": "- **XP target:** **Hard-leaning for 4×L6** (raw 2,200 → ~3,300 adjusted; Medium ~2,800, Hard ~3,600). Same scripted exit at R3/bloodied — let Sela trigger early if a kid drops below 20% HP.",
+              "oldText": "- **XP target:** **Medium for 5×L6** (~3,500 XP)."
+            },
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 4/the-greengrass-greengage-1-adventure.md",
+              "newText": "- **Baseline (debrief):** 600 gp (150 gp / PC across the 4 present — Loric absent)",
+              "oldText": "- **Baseline (debrief):** 600 gp (120 gp / PC)"
+            }
+          ],
+          "locations": [
+            {
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 4/the-greengrass-greengage-1-adventure.md"
+            }
+          ],
+          "rawInput": {
+            "command": "str_replace",
+            "path": "sessions/session 4/the-greengrass-greengage-1-adventure.md",
+            "instruction_reminder": "ALWAYS BREAK DOWN EDITS INTO SMALLER CHUNKS OF AT MOST 150 LINES EACH.",
+            "old_str_1": "| **Party Level** | 5 PCs at Level 5 (advance to 6 at the Ashaba House debrief) |",
+            "new_str_1": "| **Party Level** | 4 PCs at Level 5 (advance to 6 at the Ashaba House debrief) — Loric absent (Lily not at the table) |",
+            "old_str_start_line_number_1": 16,
+            "old_str_end_line_number_1": 16,
+            "old_str_2": "3. **Pay.** 600 gp baseline (120 gp / PC). Bonuses:",
+            "new_str_2": "3. **Pay.** 600 gp baseline (150 gp / PC across the 4 present). Bonuses:",
+            "old_str_start_line_number_2": 111,
+            "old_str_end_line_number_2": 111,
+            "old_str_3": "- **XP target:** **Medium for 5×L6** (~3,500 XP).",
+            "new_str_3": "- **XP target:** **Hard-leaning for 4×L6** (raw 2,200 → ~3,300 adjusted; Medium ~2,800, Hard ~3,600). Same scripted exit at R3/bloodied — let Sela trigger early if a kid drops below 20% HP.",
+            "old_str_start_line_number_3": 341,
+            "old_str_end_line_number_3": 341,
+            "old_str_4": "- **Baseline (debrief):** 600 gp (120 gp / PC)",
+            "new_str_4": "- **Baseline (debrief):** 600 gp (150 gp / PC across the 4 present — Loric absent)",
+            "old_str_start_line_number_4": 373,
+            "old_str_end_line_number_4": 373
+          }
+        }
+      ],
+      "timestamp": "2026-05-28T19:35:26.056Z"
+    },
+    {
+      "id": "e35d9d35-c286-43da-8278-e841c32efb22",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_01BhfWziGJwzeGw8apubtD8S",
+          "title": "Edit sessions/session 4/the-greengrass-greengage-4-dm-quick-ref.md",
+          "status": "completed",
+          "kind": "edit",
+          "content": [
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 4/the-greengrass-greengage-4-dm-quick-ref.md",
+              "newText": "| 5 | Stations (montage) | 3-check skill challenges, DC 13/15/17 | Cut between PCs; ~5 min/turn max (4 stations) |",
+              "oldText": "| 5 | Five Stations (montage) | 3-check skill challenges, DC 13/15/17 | Cut between PCs; ~5 min/turn max |"
+            },
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 4/the-greengrass-greengage-4-dm-quick-ref.md",
+              "newText": "**Baseline pay:** 600 gp split (150 gp / PC across the 4 present — Loric absent) regardless of anchor choice.",
+              "oldText": "**Baseline pay:** 600 gp split (120 gp / PC) regardless of anchor choice."
+            }
+          ],
+          "locations": [
+            {
+              "path": "/Users/nstewart/code/fr-kids-campaign/sessions/session 4/the-greengrass-greengage-4-dm-quick-ref.md"
+            }
+          ],
+          "rawInput": {
+            "command": "str_replace",
+            "path": "sessions/session 4/the-greengrass-greengage-4-dm-quick-ref.md",
+            "instruction_reminder": "ALWAYS BREAK DOWN EDITS INTO SMALLER CHUNKS OF AT MOST 150 LINES EACH.",
+            "old_str_1": "| 5 | Five Stations (montage) | 3-check skill challenges, DC 13/15/17 | Cut between PCs; ~5 min/turn max |",
+            "new_str_1": "| 5 | Stations (montage) | 3-check skill challenges, DC 13/15/17 | Cut between PCs; ~5 min/turn max (4 stations) |",
+            "old_str_start_line_number_1": 21,
+            "old_str_end_line_number_1": 21,
+            "old_str_2": "**Baseline pay:** 600 gp split (120 gp / PC) regardless of anchor choice.",
+            "new_str_2": "**Baseline pay:** 600 gp split (150 gp / PC across the 4 present — Loric absent) regardless of anchor choice.",
+            "old_str_start_line_number_2": 37,
+            "old_str_end_line_number_2": 37
+          }
+        },
+        {
+          "type": "text",
+          "text": "Now rebuild the PDF.\n"
+        }
+      ],
+      "timestamp": "2026-05-28T19:35:26.117Z"
+    },
+    {
+      "id": "78a34e59-b893-4f15-a53c-4956a341867f",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_01JkvTAmu3jrkJFpu6BM5Qdv",
+          "title": "Run `.venv/bin/python scripts/build_pdf.py 4`",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "command": ".venv/bin/python scripts/build_pdf.py 4",
+            "cwd": "/Users/nstewart/code/fr-kids-campaign",
+            "wait": true,
+            "max_wait_seconds": 180
+          }
+        },
+        {
+          "type": "text",
+          "text": "PDF rebuilt cleanly. Summary of changes — Loric (Lily) is absent from Session 4, in-fiction stayed at the Old Skull Inn the whole time:\n\n**File 1 — adventure**\n- Title page summary: `4 PCs at Level 5` (Loric absent flagged).\n- NPC Returns: Loric retcon shelved until Lily is back.\n- Walk-back beat: Brynn surfaces his letter directly to Kto at the festival (Loric was the original prompter).\n- Procession read-aloud + station list: dropped Dragonchess Open; \"five\" → \"four\" / count dropped; added DM-flag callout explaining the shelved station.\n- \"Scene 5 — The Five Stations\" → \"The Stations\".\n- Station D Dragonchess Open section replaced with **Brynn at the Old Skull** — open dragonchess in fiction, no PC station; Brynn pulls Kto aside and drops the Mistledale Council intel directly (handles both threads in one beat).\n- Anchor pay: 600 gp baseline → 150 gp/PC across 4.\n- Combat XP target: `Hard-leaning for 4×L6` with R3/bloodied scripted exit still applying.\n- Debrief pay note updated to 150 gp/PC.\n\n**File 2 — combat tracker**\n- Party row: `4 PCs at Level 6` (Loric absent).\n- XP row: `~3,300 adjusted vs ~2,800 Medium / ~3,600 Hard for 4×L6` — Hard-leaning, with Sela trigger guidance.\n- Sprite Round 2 tactics: target list reduced to \"(Yinu or Fiorn)\".\n\n**File 3 — player handouts**\n- Recap: \"Loric walks in...you are five again\" → \"Nema steps in...Loric isn't on the trail with you today — he stayed back at the Old Skull. You're four for the walk home.\"\n- \"five stations\" / \"## The Five Stations\" → \"four stations\" / \"## The Stations\".\n- Lorindar's read-aloud \"you five who walked into our borders\" **left intact** — that's the Herald's historical count of the Shrine party from S3 canon, not a present roll-call.\n\n**File 4 — DM quick ref**\n- Scene order row updated for four stations.\n- Stations at-a-glance: Loric row struck through with intel-reroute callout.\n- Plants table: Mistledale Council source rerouted to Brynn → Kto direct.\n- Brynn's-letter loose-end and NPC role lines updated.\n- Level 6 leveling table: Loric row struck through (defer level-up).\n- Timing budget: stations cap reduced to 60–75 / 85 min.\n- Anchor pay: 150 gp/PC.\n\n**PDF:** rebuilt at `sessions/session 4/the-greengrass-greengage.pdf`.\n\nThe scratch file `sessions/session 4/session-4-plot-proposals.md` still references Loric in the original plan — it's a working draft (the generator spec says to delete scratch files after deliverables are authored). **Want me to delete `session-4-plot-proposals.md`?** It's out of the four-deliverable set and isn't in the PDF, so the live materials are clean either way.\n"
+        }
+      ],
+      "timestamp": "2026-05-28T19:35:29.380Z"
     }
   ],
-  "savedAt": "2026-05-27T20:49:37.484Z"
+  "savedAt": "2026-05-28T19:35:52.784Z"
 }
