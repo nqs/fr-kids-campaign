@@ -13,7 +13,7 @@ duration: "~3.5–4 hours"
 | | |
 |---|---|
 | **Tier** | Tier 2 |
-| **Party Level** | 4 PCs at Level 5 (advance to 6 at the Ashaba House debrief) — Loric absent (Lily not at the table) |
+| **Party Level** | 5 PCs at Level 5 (advance to 6 at the Ashaba House debrief) — Loric absent (Lily not at the table); Naan (Lilli) present for her in-fiction debut |
 | **Duration** | ~3.5–4 hours of play |
 | **Setting** | The Shrine antechamber → Northern Traverse → Shadowdale (Ashaba House, the village green, the Old Skull Inn, the Living Wood edge, the riverbank) |
 | **Hook From** | Session 003 — *The Half-Mask Shrine* (Khelziir and Zeldrazz dead; anchor still standing) |
@@ -27,7 +27,7 @@ duration: "~3.5–4 hours"
 
 Session 004 has two halves. The **first** is paperwork — the leftover business from Session 003. The party stands over Khelziir's body in the Shrine and has to **decide what to do with the portal anchor**, walk back to Shadowdale, and take their pay from Lady Ulphor at the Ashaba House. They hit **Level 6** at debrief.
 
-The **second half** is the Greengrass festival. Spring has cracked open on the Ashaba and Shadowdale is already half-decorated when the party walks in. Lady Ulphor "asks" the party to stay on as honored guests of the Ashaba House for the next day's events. Each PC gets a dedicated festival station with a real skill challenge — archery on the riverbank, a bardic showcase, an arcane stall, the Dragonchess Open, the druid Greening, and (placeholder for Nema) a footrace.
+The **second half** is the Greengrass festival. Spring has cracked open on the Ashaba and Shadowdale is already half-decorated when the party walks in. Lady Ulphor "asks" the party to stay on as honored guests of the Ashaba House for the next day's events. Each PC gets a dedicated festival station with a real skill challenge — archery on the riverbank, a bardic showcase, an arcane stall, the druid Greening, and (newly added for Lilli's PC) a celestial Blessing of the festival's first Greengage sapling.
 
 At dusk, when Lady Ulphor lifts the firebrand to light the bonfire, **the Antlered Herald** rides out of the Living Wood on a stag the size of a draft horse. He has come to deliver the unnamed fey lord's invitation — and his arrival is mistaken for an attack. Combat starts because someone draws a weapon before he speaks. He doesn't want to kill anyone, but he will not be embarrassed; he wants to see the surface party who killed a drow priest on his lord's borders, take a measure of them, deliver the standard's message, and leave.
 
@@ -64,7 +64,7 @@ Before the party commits, Nalith (Druidic-sensitive, Circle of Dreams) feels a *
 
 ### NPC Returns
 - **Loric T. (Lily)** — **Not at the table this session.** In fiction, Loric stayed at the Old Skull Inn rather than coming up to the Shrine. He is not with the party for any beat in this adventure. Easy retcon back in next session — he was just at the inn the whole time.
-- **Nema (Lilli)** — She was already at the cold camp, was on overwatch outside, and steps in now. She missed the bosses but she's here for cleanup.
+- **Naan (Lilli)** — **In-fiction debut.** She was already at the cold camp on overwatch outside the cleft and steps in as the dust settles. She missed the bosses but she's here for cleanup. Lilli is at the table tonight. Naan's first **public** moment in Shadowdale is at the Blessing of First Light station tomorrow — *her formal introduction to the village.*
 
 ### DM Notes
 - **Don't push a choice.** All four are valid. If the party debates, Quillip's intel said the listening-glyph is "the most useful, the most dangerous, the most fey of the three" — that's enough hint for kids who want a hint.
@@ -108,7 +108,7 @@ Lady Ulphor's solar. Late afternoon. Brynn Ashford is at her right hand with the
 
 2. **The Anchor.** Whatever choice the party made in Scene 1 — Smash, Steal, Feed, or Withdraw — pay out the appropriate consequences. Orvyn lights up at Steal or Feed. Lady Ulphor relaxes visibly at Smash.
 
-3. **Pay.** 600 gp baseline (150 gp / PC across the 4 present). Bonuses:
+3. **Pay.** 600 gp baseline (120 gp / PC across the 5 present — Loric absent, Naan counted). Bonuses:
    - **Smash:** +100 gp (Brynn).
    - **Steal:** +200 gp (Orvyn, for the anchor in hand).
    - **Feed:** +300 gp (Orvyn, *and* a tacit Harper marker for Yinu — keep this quiet).
@@ -155,7 +155,7 @@ Mid-morning, Greengrass day. The Twilight Tower bell rings the procession in. Th
 - **The Bardic Showcase** — under the Twilight Tower banner. Headliner: **Halbren Vass**, smug touring half-elf.
 - **The Arcane Wonders Stall** — hosted by **Orvyn Tal**.
 - **The Greening of the Beasts** — at the edge of the Living Wood. Co-led by **Sela Wyndmere**.
-- **(Placeholder) The Festival Footrace** — south bank of the Ashaba. *(For Nema until her sheet is filed.)*
+- **The Blessing of First Light** — at the river-stones beside Lady Ulphor's dais. Hosted by **Lady Ulphor** herself, who invites the party's visiting aasimar to bless the festival's first-planted Greengage sapling.
 
 > [!flag] DM — Dragonchess shelved this session
 > The Dragonchess Open is **not running as a PC station** with Loric absent. Brynn is still at the Old Skull all afternoon running an open bracket in fiction — see *Brynn at the Old Skull* below for how the Mistledale Council intel still lands.
@@ -265,21 +265,25 @@ Then: *"Tell whoever needs to know."* He returns to his board. The letter and th
 
 ---
 
-### Station F — Festival Footrace *(Nema — placeholder)*
+### Station F — The Blessing of First Light *(Naan)*
 
-**Setup:** Along the Ashaba's south bank. Three legs.
+**Host:** **Lady Addee Ulphor** herself, presiding from the river-stone dais.
+**Setup:** A single young Greengage sapling in a clay pot at the foot of Lady Ulphor's dais, waiting to be planted in the village green. Greengrass tradition: a celestial-touched guest blesses the first sapling of the year. Lady Ulphor learned an aasimar walked into Shadowdale yesterday and "asked" Naan to do the honors. **This is Naan's in-fiction introduction to the village — a public moment.**
 
 | # | Check | DC | Notes |
 |---|---|---|---|
-| 1 | The sprint start | **Dexterity (Athletics) DC 13** | Default — replace once sheet is filed. |
-| 2 | The middle mile | **Constitution save DC 15** | Default. |
-| 3 | The river-stones at the finish | **Dexterity (Acrobatics) DC 17** | Default. |
+| 1 | Recite the celestial liturgy | **Religion DC 13** | Naan's +4 (Religion prof). Should hit on most rolls. |
+| 2 | Channel the Light cantrip dramatically as the sapling is planted | **Performance DC 15** | Naan's +3 CHA. Competitive but not a gimme. *(If the table treats Skilled-origin Performance as proficient — see party.md flag — she's at +6.)* |
+| 3 | Deliver the closing benediction that lands with the crowd | **Persuasion DC 17** | Naan's +3 CHA (+1 Luckstone = +4). Hard — the Aasimar Celestial Revelation transformation is on the table if she wants to cinch it; expending one die from her Healing Light pool to add 1d6 to the roll is also fair table-discretion. |
 
-**Gold Ribbon scene:** Nema's place. Use this as Nema's **in-fiction introduction to the village** — a public moment. Lady Ulphor pins her ribbon personally.
-**Bronze Ribbon scene:** Nema gets a hand from Rellan at the finish line. Easy friendship beat.
+> [!flag] DM — Naan's Healing Light Tradeoff
+> Lilli may offer to **spend 1 die from Naan's Healing Light pool (6d6 total)** to add 1d6 to any of the three rolls — a literal channel of celestial energy into the rite. This is a **real tradeoff:** every die she spends here is a die unavailable to heal a PC during the Crash a few hours later. Don't suggest it; let her ask. The decision is the point.
 
-> [!flag] DM — Nema Placeholder
-> Do **not** lock the activity until Lilli files Nema's sheet in `campaign/party.md`. If her sheet arrives before the session and she has, say, a strong CHA stat — swap the footrace for a Singing Contest at the bonfire, or merge her into the bardic showcase as the opener. Nothing downstream depends on this station.
+**Gold Ribbon scene:** The sapling blooms in Naan's hand — soft, real, blue-white radiance the whole village can see. Lady Ulphor touches her shoulder and says publicly, *"Shadowdale will remember you blessed our first Greengage."* Privately, after the bonfire, Lady Ulphor presses a sealed letter into Naan's palm: an **invitation to attend the Temple of Lathander in Highmoon at the next full moon** — a real opening for Naan's celestial-patron arc. *Mark for S5 or later.*
+**Bronze Ribbon scene:** Naan's voice cracks but the sapling lives. After the crowd disperses, **Goodwife Edda Spar** — an elderly village herbalist — brings her a cup of mint tea and says quietly, *"You did fine. The light doesn't have to be loud."* Plant for Naan's flaw arc (her need to prove herself, and an NPC gently telling her she doesn't).
+
+> [!flag] DM — Failed Station (0 of 3)
+> Naan's flaw triggers — she pushes too hard, glows uncomfortably bright, the sapling withers in her hand. To save the rite she has to spend **1 die from her Healing Light pool** to revive it (don't ask; narrate it). No mechanical penalty otherwise, but Lady Ulphor steps in gracefully to redirect the crowd, and **Naan's celestial patron is briefly, audibly, displeased** — a single chord of cold music only she hears. Plant for a future patron-disappointment beat.
 
 ---
 
@@ -338,7 +342,7 @@ Sela Wyndmere wears a courier ribbon on her belt — bone-and-green stitched in 
 - **2 mooks** — Sprite Outriders on fey-touched owls (CR 1 each)
 - **~3 rounds.** Combat is *not* about killing the Herald. He **escapes** when bloodied OR at end of Round 3, whichever comes first.
 - **Scripted exit:** Misty Step (at-will) onto the stag's back, the stag bolts into the Living Wood, the sprites peel off into the trees. Sela steps between him and the party at the treeline and the party doesn't pursue.
-- **XP target:** **Hard-leaning for 4×L6** (raw 2,200 → ~3,300 adjusted; Medium ~2,800, Hard ~3,600). Same scripted exit at R3/bloodied — let Sela trigger early if a kid drops below 20% HP.
+- **XP target:** **Medium for 5×L6** (raw 2,200 → ~3,300 adjusted; Medium ~3,500, Hard ~4,500). Same scripted exit at R3/bloodied — let Sela trigger early if a kid drops below 20% HP.
 - **Civilian protection:** Captain Helm + militia + Rellan + Sela form a screen. Civilians are **behind the militia line.** PCs don't choose between damage and rescue.
 
 ### Loose Ends Cracked Open by the Crash
@@ -370,7 +374,7 @@ Cut on Lady Ulphor's bonfire roaring up against the dusk and the party standing 
 # Loot & Rewards Summary
 
 ### Currency
-- **Baseline (debrief):** 600 gp (150 gp / PC across the 4 present — Loric absent)
+- **Baseline (debrief):** 600 gp (120 gp / PC across the 5 present — Loric absent, Naan counted)
 - **Anchor bonus:** +100 / +200 / +300 / 0 (Smash / Steal / Feed / Withdraw)
 - **Festival ribbons:** 25 gp / Gold Ribbon (Lady Ulphor's purse), 10 gp / Silver, 0 / Bronze
 
@@ -396,6 +400,8 @@ Drafted but not yet entered in the campaign bible. Add to `campaign/roster.md` a
 - **The Bright Court Beneath** — the unnamed fey lord's court title. Lord himself still unnamed. Drop into `factions.md` under §8 (Fey of the Living Wood) as a sub-entry.
 - **Halbren Vass** — half-elf touring minstrel, Fiorn's recurring rival. Bardic Showcase.
 - **Margrim Bristle** — awakened badger, Sela's rehab patient. Cameo prize for Nalith. Optional in this session.
+- **Goodwife Edda Spar** — elderly village herbalist of Shadowdale; quiet, kindly. Cameo at Naan's Bronze Ribbon scene. Optional this session but a clean recurring NPC for the village fabric.
+- **Temple of Lathander, Highmoon — invitation for Naan** — sealed letter, deliverable at the next full moon. A real Realms institution (Lathander's morning faith). Opens Naan's celestial-patron arc. Mark for S5+ and add to loose-ends tracker.
 
 > [!flag] Sela arc
 > After this session Sela Wyndmere's faction status shifts from "warm secondary contact" to **"actively asking the party for help."** Update `factions.md` §8 and `roster.md`.
