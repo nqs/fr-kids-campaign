@@ -17,8 +17,8 @@ section: dm-quick-ref
 | 1 | Anchor Decision (in the Shrine) | Choice: Smash / Steal / Feed / Withdraw | Yinu Arcana DC 17 for Feed (expertise) |
 | 2 | Walk Back | Loot divvy · Brynn's letter · scene setting | Greengrass-eve ridge moment |
 | 3 | Ashaba House Debrief | Pay 600 gp + bonus · **Level 6** | Print L6 sheets; warmer tone than S2 |
-| 4 | Opening Procession | Read-aloud, station announcements | Four stations + Nema placeholder (Loric absent) |
-| 5 | Stations (montage) | 3-check skill challenges, DC 13/15/17 | Cut between PCs; ~5 min/turn max (4 stations) |
+| 4 | Opening Procession | Read-aloud, station announcements | **Five stations** (Naan added at the dais, Loric absent — Dragonchess still in-fiction at the inn) |
+| 5 | Stations (montage) | 3-check skill challenges, DC 13/15/17 | Cut between PCs; ~5 min/turn max (5 stations) |
 | 6 | The Bonfire | Ribbons + Lady Ulphor's toast | False moment of safety |
 | 7 | **The Crash** | Antlered Herald + 2× Sprite Outriders | See combat tracker |
 | 8 | Aftermath | Sela opens up · Brynn/Orvyn beats · Quillip hook | End session on the bonfire lit |
@@ -34,7 +34,7 @@ section: dm-quick-ref
 | **Feed** *(Harper)* | +300 gp | Yinu Harper marker; future listening payoff |
 | **Withdraw** | +0 | Retaliation clock accelerates |
 
-**Baseline pay:** 600 gp split (150 gp / PC across the 4 present — Loric absent) regardless of anchor choice.
+**Baseline pay:** 600 gp split (120 gp / PC across the 5 present — Loric absent, Naan counted) regardless of anchor choice.
 
 ---
 
@@ -60,7 +60,7 @@ section: dm-quick-ref
 | **Yinu** | Arcane Stall | Orvyn Tal | ARC 13 / INV 15 / ARC 17 | Plants: signal-stone + numbing draught |
 | ~~**Loric T.**~~ | ~~Dragonchess Open~~ | — | — | **Absent this session.** Council intel reroutes — Brynn delivers it directly to **Kto** at the festival. |
 | **Nalith** | The Greening | Sela + Quillip *(invisible)* | HERB 13 / PERF 15 / AH 17 | **Hawthorn berry plant**; drop regardless of ribbon |
-| **Nema** | Footrace *(placeholder)* | TBD | DEX 13 / CON 15 / DEX 17 | **Replace once Lilli files Nema's sheet** |
+| **Naan** | **Blessing of First Light** | **Lady Ulphor** | REL 13 / PERF 15 / PERS 17 | **Naan's in-fiction debut.** Gold = sealed invitation to **Temple of Lathander, Highmoon** (next full moon). **Healing Light dice may be burned on rolls** — tradeoff with the Crash. |
 
 ---
 
@@ -129,6 +129,7 @@ This is the line Lorindar MUST deliver before he leaves. **Drop it in Round 1 as
 | Harper primer book | Yinu (Gold C or Feed) | Yinu's Harper recruitment arc |
 | Mistledale Council vote (Brynn intel) | Brynn → Kto direct *(Loric absent — rerouted from Station D)* | Council arc (S5+) |
 | Halbren's "where are you touring next?" | Fiorn Gold B | Fiorn recurring rival |
+| **Temple of Lathander, Highmoon — sealed invitation** | Naan Gold F (Lady Ulphor, privately) | Naan's celestial-patron arc (next full moon) |
 
 ---
 
@@ -147,6 +148,7 @@ This is the line Lorindar MUST deliver before he leaves. **Drop it in Round 1 as
 - **Sela's arc** — she's now actively asking for help. Update factions.md §8.
 - **Halbren Vass** — recurring rival for Fiorn.
 - **The signal-stone / numbing draught** — Vhaeraunian retaliation clock is *audibly* ticking.
+- **Naan + Temple of Lathander, Highmoon** *(if Gold Ribbon at the Blessing)* — sealed invitation for the next full moon. Opens Naan's celestial-patron arc.
 
 ---
 
@@ -154,7 +156,7 @@ This is the line Lorindar MUST deliver before he leaves. **Drop it in Round 1 as
 
 | NPC | Role today | Read-aloud anchor |
 |---|---|---|
-| **Lady Addee Ulphor** | Hosts festival, lights bonfire, "you will not be charged" | Warm, almost maternal |
+| **Lady Addee Ulphor** | Hosts festival, lights bonfire, **presides over Naan's Blessing of First Light station**, "you will not be charged" | Warm, almost maternal |
 | **Brynn Ashford** | Open dragonchess at the Old Skull (no PC station); **pulls Kto aside about the letter + drops Council intel** | Sharper; he's a Harper-adjacent operator |
 | **Orvyn Tal** | Hosts Yinu's stall; **Harper recruitment** | Quiet, generous, watchful |
 | **Captain Corwick Helm** | Judges Kto's archery; **Helm-rift closure** | "I was glad I was wrong about him." |
@@ -175,7 +177,7 @@ This is the line Lorindar MUST deliver before he leaves. **Drop it in Round 1 as
 | **Yinu** | Wizard (Order of Scribes) | 3rd-level spell slot expansion + scribe feature |
 | ~~**Loric T.**~~ | ~~Sorcerer (Draconic)~~ | **Absent this session** — defer level-up until Lily is back. |
 | **Nalith** | Druid (Circle of Dreams) | **Hidden Paths** (Circle of Dreams 6th-level feature — short-rest teleport, very fey-themed; thematic for tonight!) |
-| **Nema** | TBD | TBD |
+| **Naan** | Warlock (Celestial Patron) | Level 6 subclass feature (PHB-2024 Celestial: typically expanded radiant/fire damage rider; **verify with Lilli before play**) + standard Warlock 6 invocation slot |
 
 > [!flag] Print L6 reference sheets and bring them to the table.
 
@@ -187,7 +189,7 @@ This is the line Lorindar MUST deliver before he leaves. **Drop it in Round 1 as
 |---|---|---|
 | Cleaning Up (Scenes 1–3) | 45–60 min | Move on at 75 if needed; trim debrief |
 | Procession (Scene 4) | 10 min | — |
-| Stations (Scene 5) | 60–75 min | Cap at 85; cut if stations drag *(4 stations with Loric absent)* |
+| Stations (Scene 5) | 75–90 min | Cap at 100; cut if stations drag *(5 stations: Loric absent, Naan added)* |
 | Bonfire (Scene 6) | 10 min | — |
 | The Crash (Scene 7) | 30–40 min | **Hard stop at 45.** End on Sela if it's running long. |
 | Aftermath (Scene 8) | 15 min | — |
@@ -200,6 +202,6 @@ This is the line Lorindar MUST deliver before he leaves. **Drop it in Round 1 as
 - **Don't** kill Lorindar. (See file 2 — let it cost if it happens.)
 - **Don't** put a civilian in danger. Helm screens. The kids do not have to triage.
 - **Don't** force the letter or the Harpers. If kids walk past them, that's fine; both threads survive to next session.
-- **Don't** lock Nema's station until her sheet is in.
+- **Don't** push Naan to spend Healing Light dice at the Blessing station — let Lilli decide. Track exact dice remaining before the Crash.
 - **Don't** explain the signal-stone or numbing draught. **Plant** them.
 - **Don't** narrate Quillip dropping the berry — *let Nalith notice it.*

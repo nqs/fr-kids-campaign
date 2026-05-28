@@ -13,7 +13,7 @@ section: player-handouts
 
 The Lolthites never came. The fight ended before the ritual hit zero. Both surface drow are dead. **Site C is closed.**
 
-Nema is at the cleft mouth on overwatch and steps in as the dust settles. **Loric isn't on the trail with you today — he stayed back at the Old Skull.** You're four for the walk home.
+Naan is at the cleft mouth on overwatch and steps in as the dust settles — she missed the bosses but she's here for cleanup. **Loric isn't on the trail with you today — he stayed back at the Old Skull.** You're five for the walk home.
 
 ### What Now?
 
@@ -30,7 +30,7 @@ Nema is at the cleft mouth on overwatch and steps in as the dust settles. **Lori
 
 Greengrass is the first night of Mirtul — the cusp between winter and spring on the Dalelands calendar. Flowers, peace, and the first open river-crossings of the year. The Living Wood's druids walk the Greening at the wood's edge. The village green is bonfired. Old grudges are set aside for one night. The fey, by old tradition, walk the surface openly.
 
-Shadowdale's festival is small but stubbornly proud — flower crowns on every fence, a procession from the Twilight Tower to the river-stones, an evening bonfire that Lady Ulphor lights herself, and four stations on the green that the kids of Shadowdale have been training all winter to win.
+Shadowdale's festival is small but stubbornly proud — flower crowns on every fence, a procession from the Twilight Tower to the river-stones, an evening bonfire that Lady Ulphor lights herself, and five stations on the green that the kids of Shadowdale have been training all winter to win.
 
 The Ashaba House is your bed and your beer for the next twenty-four hours. *"You will not be charged for the Ashaba House while you are mine."*
 
@@ -41,10 +41,9 @@ The Ashaba House is your bed and your beer for the next twenty-four hours. *"You
 - **The Riverbank Archery Range** — floral-bobber targets in the Ashaba current. **Captain Helm** judges. **Rellan Tessar** is shooting in the same heat.
 - **The Bardic Showcase** — under the Twilight Tower banner. The headliner is **Halbren Vass**, a touring half-elf with too much pomade.
 - **Orvyn Tal's "Wonders of Spring" Arcane Stall** — three mystery items donated by villagers, identified live for the crowd. **Orvyn** quietly judging.
-- **The Dragonchess Open** — back room of the Old Skull Inn. **Brynn Ashford** running the bracket and playing in it.
+- **The Dragonchess Open** — back room of the Old Skull Inn. **Brynn Ashford** running the bracket and playing in it. *(No competitor from your party tonight; sit in casually if you pass through.)*
 - **The Greening of the Beasts** — at the Living Wood's edge. **Sela Wyndmere** assisting. Flowers, blessings, a skittish doe.
-
-*(If your sheet is still settling, the **Festival Footrace** along the south bank of the Ashaba is the floor option.)*
+- **The Blessing of First Light** — at the river-stone dais. **Lady Ulphor** herself presiding. A young Greengage sapling waits to be blessed and planted — and she has asked the party's visiting aasimar to do the honors. *(For Naan — her first public moment in Shadowdale.)*
 
 ---
 
