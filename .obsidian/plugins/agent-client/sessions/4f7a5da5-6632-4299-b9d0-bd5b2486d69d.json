@@ -1329,7 +1329,402 @@
         }
       ],
       "timestamp": "2026-05-28T19:35:29.380Z"
+    },
+    {
+      "id": "a8d9dd84-a0e9-48f7-a179-50b38c70fa55",
+      "role": "user",
+      "content": [
+        {
+          "type": "text_with_context",
+          "text": "Take the character defined in Naan.pdf in the root, and add them to the party.md played by the player Lilli .",
+          "autoMentionContext": {
+            "noteName": "party",
+            "notePath": "campaign/party.md"
+          }
+        }
+      ],
+      "timestamp": "2026-05-28T20:05:52.108Z"
+    },
+    {
+      "id": "9afc0630-08e0-4875-b8f0-acbfecc49adf",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "agent_thought",
+          "text": " I'm locating the Naan.pdf file to extract its contents."
+        }
+      ],
+      "timestamp": "2026-05-28T20:05:58.329Z"
+    },
+    {
+      "id": "0bd40e0f-6796-4108-9037-d2230996a1c1",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_01YZ2Ew4et6PYWVeqxS1q1sS",
+          "title": "Run `ls -la *.pdf Naan* 2>/dev/null; find . -maxdepth 2 -iname \"naan*\"`",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "command": "ls -la *.pdf Naan* 2>/dev/null; find . -maxdepth 2 -iname \"naan*\"",
+            "cwd": "/Users/nstewart/code/fr-kids-campaign",
+            "wait": true,
+            "max_wait_seconds": 10
+          }
+        }
+      ],
+      "timestamp": "2026-05-28T20:05:58.649Z"
+    },
+    {
+      "id": "fc729802-7a21-4a9c-befd-c5862ac32237",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_01HGLMWn4oTNCqaRMtAX7qgU",
+          "title": "Run `.venv/bin/python -c \"import pypdf; r=pypdf.PdfReader('Naan.pdf'); [print('=== PA...`",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "command": ".venv/bin/python -c \"import pypdf; r=pypdf.PdfReader('Naan.pdf'); [print('=== PAGE',i+1,'===\\n',p.extract_text()) for i,p in enumerate(r.pages)]\" 2>&1 | head -400",
+            "cwd": "/Users/nstewart/code/fr-kids-campaign",
+            "wait": true,
+            "max_wait_seconds": 30
+          }
+        }
+      ],
+      "timestamp": "2026-05-28T20:06:02.810Z"
+    },
+    {
+      "id": "c1851cc6-671b-42ba-b97a-c339c13f3714",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_011hPsorUewcWnDddb6zXr4L",
+          "title": "Run `which pdftotext; python3 -c \"import pypdf\" 2>&1; ls .venv/bin/ 2>/dev/null | hea...`",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "command": "which pdftotext; python3 -c \"import pypdf\" 2>&1; ls .venv/bin/ 2>/dev/null | head -30",
+            "cwd": "/Users/nstewart/code/fr-kids-campaign",
+            "wait": true,
+            "max_wait_seconds": 10
+          }
+        }
+      ],
+      "timestamp": "2026-05-28T20:06:07.330Z"
+    },
+    {
+      "id": "f9930f31-454f-4e48-abac-0d5a21f60d73",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_01SKV33ua4Kr6YHhvSQabBbk",
+          "title": "Run `pdftotext -layout Naan.pdf - | head -300`",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "command": "pdftotext -layout Naan.pdf - | head -300",
+            "cwd": "/Users/nstewart/code/fr-kids-campaign",
+            "wait": true,
+            "max_wait_seconds": 30
+          }
+        },
+        {
+          "type": "agent_thought",
+          "text": " Now I'm pulling out the spells and any other remaining character details."
+        }
+      ],
+      "timestamp": "2026-05-28T20:06:11.370Z"
+    },
+    {
+      "id": "a4029b68-2c5a-4338-9b85-157cc38cf139",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_019GvzmXxkAuDc8pbDFTALU4",
+          "title": "Run `pdftotext -layout Naan.pdf - | sed -n '300,800p'`",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "command": "pdftotext -layout Naan.pdf - | sed -n '300,800p'",
+            "cwd": "/Users/nstewart/code/fr-kids-campaign",
+            "wait": true,
+            "max_wait_seconds": 30
+          }
+        },
+        {
+          "type": "agent_thought",
+          "text": " Now I'm formatting Naan's character sheet for the party roster—a level 5 Aasimar Warlock with Lilli as the player, along with their ability scores centered around Charisma as the primary stat.\n\n**HP:** 38 | **AC:** 12 | **Speed:** 30 ft. | **Initiative:** +2\n**PB:** +3 | **Hit Dice:** 5d8\n**Resistances:** Radiant, Necrotic\n**Darkvision:** 60 ft.\n**Passives:** Perception 11\n\n, Insight 11, Investigation 11\n\nThe Passive Perception of 11 checks out — just WIS modifier +1 with no proficiency applied. But there's a discrepancy with the Origin Feat \"Skilled\" which should grant proficiency in Perception, Animal Handling, and Athletics. The sheet only shows proficiency marks on Intimidation and Religion, so it looks like the Skilled feat proficiencies aren't being reflected properly. Between the feat and the background skills, there should be more proficiencies listed than what's currently showing.\n\nLooking at the actual skill modifiers on the sheet, most are just base ability modifiers without the +3 proficiency bonus applied where they should be — Animal Handling, Athletics, Perception, and Persuasion all appear to be missing their proficiency additions. Only Intimidation and Religion have the proficiency bonus factored in. I'll note what's literally on the sheet versus what the backstory indicates should be proficient, and flag this inconsistency.\n\nFor the Warlock build, she's got 2 third-level pact magic slots, a spell save DC of 14, and a +6 spell attack bonus. Her cantrips include Eldritch Blast with Agonizing Blast, plus Light and Sacred Flame from her Celestial patron. She can cast Mage Armor on herself at will through an invocation. Her prepared spells include the Celestial patron's always-prepared list plus her chosen Warlock spells, giving her access to healing, control, and utility options across first and second level.\n\nFor invocations, she's got all five slots filled: Agonizing Blast, Armor of Shadows, Devil's Sight for seeing in darkness, Eldritch Spear for extended range, and One with Shadows for self-invisibility in dim light without using a slot. That checks out for a level 5 Warlock.\n\nLooking at her features, she has Magical Cunning to recover a Pact Magic slot once per long rest, plus the Celestial patron's Healing Light pool of 6d6 that she can spend as a bonus action to heal herself or allies within 60 feet. Her Aasimar heritage gives her celestial resistance to radiant and necrotic damage, 60 feet of darkvision, Healing Hands for a touch heal once per long rest, and the Light Bearer cantrip. She also has Celestial Revelation available once per long rest for a one-minute transformation.\n\nFor feats, she took Telekinetic which grants her the Mage Hand cantrip, a +1 boost to Charisma, and a bonus action telekinetic shove with a DC 14 save. She also has the Skilled origin feat covering Perception and Animal Handling.\n\nHer equipment includes the Rod of the Pact Keeper +1 (an amulet of Zophiel) that boosts spell attack rolls and spell save DCs by 1, plus regains a spell slot once per long rest. She's also attuned to a Stone of Good Luck that adds +1 to all ability checks and saving throws, though the character sheet doesn't seem to reflect these bonuses yet.\n\nPersonality-wise, she's quick and brave despite lacking raw strength, determined to prove herself worthy, and tends to glow when distracted. Her appearance is described as slightly taller than expected with glowing skin and shiny eyes.\n\nHer family has served Zophiel for generations as mortal agents carrying out the celestial will. Her father commands a mercenary company called The Just Hands and gave her a ceremonial Captain's rank, while her mother taught her about the ancient pact. When she inherited the mantle, she received a portion of Archangel Caliel's essence, which manifested as the Blade Caliel. Now I need to add her to the party file in the existing format, but first I should clarify whether she's replacing an existing character or joining as a sixth PC.\n\nLooking at the party roster, Nema was listed as a placeholder for Lilli's character in the session notes, but she's not actually in party.md. Since the user is providing Naan as Lilli's filed sheet, this appears to be Lilli's actual character replacing the placeholder Nema entry.\n\nI need to add Naan to party.md as the 6th PC, update the party count from 5 to 6, and refresh the party overview table. Naan is level 5 which matches the current party level, so that aligns. I should follow the existing entry format with player name, class/level, species, background, alignment, and the stats table with HP, AC, speed, and other mechanical details. I need to figure out where exactly to insert Naan's character entry in the document — it should go between Nalith's section and the Party Overview heading, with proper markdown dividers separating each character block."
+        },
+        {
+          "type": "text",
+          "text": "I have the full sheet. Naan is a Warlock 5 / Aasimar / Celestial Patron with a celestial-spy family backstory. Let me check exact line numbers in party.md and confirm where to insert Naan's entry, plus check if Nema needs treatment too.\n"
+        }
+      ],
+      "timestamp": "2026-05-28T20:06:16.270Z"
+    },
+    {
+      "id": "3e44269c-cfa8-431b-9eff-bf84699ed80d",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_01NtfC7JjmHh8CeyeyNL4UPK",
+          "title": "Read `campaign/party.md` (lines 295-330)",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "line": 295,
+              "path": "/Users/nstewart/code/fr-kids-campaign/campaign/party.md"
+            }
+          ],
+          "rawInput": {
+            "path": "campaign/party.md",
+            "view_range": [
+              295,
+              330
+            ]
+          }
+        }
+      ],
+      "timestamp": "2026-05-28T20:07:23.011Z"
+    },
+    {
+      "id": "765e1ca4-9be4-47f8-a203-a6f846866a48",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_01V53rgYahpHpnVfUJ78Figt",
+          "title": "Run `grep -n \"Nema\\|Lilli\" campaign/party.md sessions/session\\ 4/*.md sessions/sessio...`",
+          "status": "failed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "command": "grep -n \"Nema\\|Lilli\" campaign/party.md sessions/session\\ 4/*.md sessions/session\\ 3/*.md 2>/dev/null",
+            "cwd": "/Users/nstewart/code/fr-kids-campaign",
+            "wait": true,
+            "max_wait_seconds": 10
+          }
+        },
+        {
+          "type": "agent_thought",
+          "text": " I need to check the existing format in party.md so I can add Naan as a new player character with consistent formatting."
+        }
+      ],
+      "timestamp": "2026-05-28T20:07:23.011Z"
+    },
+    {
+      "id": "313758e8-65b4-4451-b1a7-6c2f201b7201",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_011F73E5bPJB7WqX2b8WmtaE",
+          "title": "Run `grep -n \"Nema\\|Lilli\" campaign/party.md \"sessions/session 4\"/*.md \"sessions/sess...`",
+          "status": "completed",
+          "kind": "execute",
+          "content": [],
+          "rawInput": {
+            "command": "grep -n \"Nema\\|Lilli\" campaign/party.md \"sessions/session 4\"/*.md \"sessions/session 3\"/*.md 2>/dev/null",
+            "cwd": "/Users/nstewart/code/fr-kids-campaign",
+            "wait": true,
+            "max_wait_seconds": 10
+          }
+        }
+      ],
+      "timestamp": "2026-05-28T20:07:33.510Z"
+    },
+    {
+      "id": "60ead64f-8ae5-47b3-9c04-5a6b27a6f18c",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_01E9FCkqJg4hgdrG8SAX97hV",
+          "title": "Read `campaign/party.md` (lines 1-80)",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "line": 1,
+              "path": "/Users/nstewart/code/fr-kids-campaign/campaign/party.md"
+            }
+          ],
+          "rawInput": {
+            "path": "campaign/party.md",
+            "view_range": [
+              1,
+              80
+            ]
+          }
+        },
+        {
+          "type": "agent_thought",
+          "text": " Nema was just a placeholder for Lilli's character, and now that the actual character sheet (Naan.pdf) has been provided, Naan is the real name. I need to figure out whether Naan is being added alongside Loric or replacing him—Loric belonged to player Lily (one L), while this character belongs to Lilli (two Ls), so they're different players.\n\nThe user's request is straightforward: add Naan to party.md as a new character entry, update the party size from 5 to 6, and add a corresponding row to the Party Overview table. I should check how Yinu's character section is formatted to maintain consistency with the existing style."
+        }
+      ],
+      "timestamp": "2026-05-28T20:07:33.610Z"
+    },
+    {
+      "id": "8dce7289-7261-4a80-9464-791444b9b83e",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_01LrtDMQdTAbKMAwMdHAx8gK",
+          "title": "Read `campaign/party.md` (lines 130-220)",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "line": 130,
+              "path": "/Users/nstewart/code/fr-kids-campaign/campaign/party.md"
+            }
+          ],
+          "rawInput": {
+            "path": "campaign/party.md",
+            "view_range": [
+              130,
+              220
+            ]
+          }
+        },
+        {
+          "type": "agent_thought",
+          "text": " Looking at another example to make sure I've got the style down correctly."
+        }
+      ],
+      "timestamp": "2026-05-28T20:07:43.369Z"
+    },
+    {
+      "id": "d6155ad5-a923-43ee-b8ca-8dd4625a2250",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_01W9uaqwuGfCreuy2RAiwrWW",
+          "title": "Read `campaign/party.md` (lines 230-302)",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "line": 230,
+              "path": "/Users/nstewart/code/fr-kids-campaign/campaign/party.md"
+            }
+          ],
+          "rawInput": {
+            "path": "campaign/party.md",
+            "view_range": [
+              230,
+              302
+            ]
+          }
+        },
+        {
+          "type": "agent_thought",
+          "text": " Now I'm organizing Naan's character sheet with her complete details—a Chaotic Good Aasimar Warlock with a Celestial Patron, played by Lilli, and I'm capturing her physical characteristics and background information in the same structured format. The rod's bonus applies to spell attacks and DCs, not skill checks, so Religion stays at +4. I'm noticing a gap between what the sheet lists for skills and what the backstory claims — the character supposedly has proficiencies in Perception, Animal Handling, Athletics, Persuasion, and History from their origin, but most of these don't show proficiency marks on the mechanical sheet. I should flag this inconsistency. The Luckstone adds +1 to all ability checks and saves, which would shift those numbers up. Looking at the spell list now — cantrips include Eldritch Blast, Mage Hand, Light, and Sacred Flame; first level has Cure Wounds, Guiding Bolt, and Mage Armor as an at-will invocation; second level covers Cloud of Daggers, Hold Person, Misty Step, Suggestion, plus the Celestial patron's Aid and Lesser Restoration, and Invisibility through the One with Shadows invocation in dim light; third level pact slots hold Revivify and Magic Circle, with Daylight and another Revivify from the Celestial patron. The spell save DC is 14 and spell attack bonus is +6 on the sheet. Finishing up the character details — her bonds are to serve the Celestial masters as directed, and her flaws drive her to prove herself, sometimes recklessly, since her rank was inherited rather than earned. Her family has generations of pact service to Zophiel, the Archangel of Spies, and she inherited a portion of Caliel's power manifested as a blade. Now I need to slot her full entry into the document between Nalith and the Party Overview, bump the party size from 5 to 6, add her row to the overview table, and consider a brief note about her healing capabilities adding redundancy to the group."
+        },
+        {
+          "type": "text",
+          "text": "I have everything I need. Naan replaces the \"Nema\" placeholder Lilli was using. Now I'll insert Naan's full entry into `party.md` between Nalith and the Party Overview section, and update the roster header + overview table.\n"
+        }
+      ],
+      "timestamp": "2026-05-28T20:07:46.250Z"
+    },
+    {
+      "id": "be7b18be-8c09-4f1b-b539-77a0353aa60e",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_01LMVnRW7HNYab99UrGTNECG",
+          "title": "Edit campaign/party.md",
+          "status": "completed",
+          "kind": "edit",
+          "content": [
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/code/fr-kids-campaign/campaign/party.md",
+              "newText": "**Party Size:** 6 PCs\n**Current Level:** 5 (all PCs)",
+              "oldText": "**Party Size:** 5 PCs\n**Current Level:** 5 (all PCs)"
+            },
+            {
+              "type": "diff",
+              "path": "/Users/nstewart/code/fr-kids-campaign/campaign/party.md",
+              "newText": "### Roleplay Notes\nBackstory, personality, ideals, bonds, and flaws fields were blank on the sheet.\n\n---\n\n## Naan\n**Player:** Lilli\n**Class/Level:** Warlock 5 (Celestial Patron)\n**Species:** Aasimar\n**Background:** Custom (Origin Feat: Skilled; Origin Skills: Persuasion, History)\n**Alignment:** Chaotic Good\n**Gender:** Female | **Size:** Medium\n**Height:** \"Slightly taller than you'd think\" | **Skin:** Glowy | **Eyes:** Shiny\n**Faith:** Zophiel, the Spy of Heaven (Celestial patron — family pact)\n\n### Stats\n| STR | DEX | CON | INT | WIS | CHA |\n|-----|-----|-----|-----|-----|-----|\n| 10 (+0) | 14 (+2) | 14 (+2) | 12 (+1) | 12 (+1) | 16 (+3) |\n\n**HP:** 38 | **AC:** 12 (Mage Armor at will, AC 15 when up) | **Speed:** 30 ft. | **Initiative:** +2\n**Proficiency Bonus:** +3 | **Hit Dice:** 5d8\n**Resistances:** Radiant, Necrotic | **Darkvision:** 60 ft. (Devil's Sight: 120 ft. in magical/nonmagical darkness)\n**Saving Throws (prof):** Wisdom +4, Charisma +6\n**Passive Perception:** 11 | **Passive Insight:** 11 | **Passive Investigation:** 11\n\n### Key Skills (proficient)\nIntimidation +6, Religion +4\n\n> *Sheet flag:* the Origin Feat **Skilled** (Perception, Animal Handling, Athletics) and origin skills (Persuasion, History) are listed in the backstory but **not** reflected on the skills column. Treat as proficient at the table; confirm with Lilli before the next session.\n\n### Weapons / Attacks\n| Name | Hit | Damage |\n|------|-----|--------|\n| Eldritch Blast (cantrip, 2 beams) | +6 | 1d10+3 Force each (Agonizing Blast, 120 ft. base / 270 ft. via Eldritch Spear) |\n| Sacred Flame (cantrip) | DEX 14 save | 1d8 Radiant |\n| Unarmed Strike | +3 | 1 Bludgeoning |\n| Telekinetic Shove (BA) | STR 14 save | Move target 5 ft. (30 ft. range) |\n\n### Spellcasting\n**Ability:** Charisma | **Save DC:** 14 | **Attack Bonus:** +6 *(both include Rod of the Pact Keeper +1)*\n**Pact Magic Slots:** 2 × 3rd level\n\n**Cantrips:** Eldritch Blast, Mage Hand *(Telekinetic — silent, somatic-free, invisible)*, Light, Sacred Flame *(Celestial — always prepared)*\n\n**1st Level:** Cure Wounds, Guiding Bolt *(Celestial — always prepared)*; Mage Armor *(at will on self via Armor of Shadows invocation)*\n\n**2nd Level:** Cloud of Daggers, Hold Person, Misty Step, Suggestion; Aid, Lesser Restoration *(Celestial — always prepared)*; Invisibility *(at will on self in dim light/darkness via One with Shadows)*\n\n**3rd Level (Pact, 2 slots):** Revivify, Magic Circle; Daylight, Revivify *(Celestial — always prepared)*\n\n### Features & Traits\n- **Eldritch Invocations:** Agonizing Blast, Armor of Shadows, Devil's Sight, Eldritch Spear, One with Shadows\n- **Pact Magic — Magical Cunning** (1/LR) — 1-minute rite to recover 1 expended Pact Magic spell slot\n- **Celestial — Healing Light:** Pool of **6d6**; bonus action, expend up to 3 dice to restore HP to self or ally within 60 ft.; pool recovers on Long Rest\n- **Celestial Spells:** Always-prepared list scales with level (Light, Sacred Flame, Cure Wounds, Guiding Bolt, Aid, Lesser Restoration, Daylight, Revivify)\n- **Aasimar — Healing Hands** (1/LR, Magic action) — touch creature, restore 3d4 HP\n- **Aasimar — Light Bearer:** Know Light cantrip (CHA-based)\n- **Aasimar — Celestial Revelation** (1/LR, bonus action) — 1-minute transformation (choose option each time)\n- **Feats:** Telekinetic (CHA +1, Mage Hand bonus, BA shove DC 14), Skilled *(origin — Perception, Animal Handling, Athletics; see sheet flag above)*\n\n### Equipment (Attuned Magic Items)\n- **Amulet of Zophiel — Rod of the Pact Keeper +1** (uncommon, attunement) — platinum-banded amulet with a misshapen opalescent jewel (a fragment of the Firmament). +1 spell attack rolls and spell save DCs for Warlock spells; once per Long Rest, regain one Pact Magic spell slot as a Magic action while touching the amulet.\n- **Luckstone (in a silver wrist cuff)** (uncommon, attunement) — a parting gift from her father. +1 bonus to ability checks and saving throws while worn. *(Not yet reflected in the skill/save numbers above — apply at the table.)*\n\n### Proficiencies\n**Armor:** Light | **Weapons:** Simple\n**Languages:** Common, Common Sign Language, Draconic\n\n### Roleplay Notes\n- **Personality:** Quick and brave — not strong, but never hesitates. Occasionally glows when distracted.\n- **Ideal:** \"I will prove myself worthy.\"\n- **Bond:** Not overly concerned with \"good\" or \"evil\" — serves her Celestial masters as they ask.\n- **Flaw:** Title and rank were given, not earned. Driven — often recklessly — to prove herself.\n- **Background:** Her family has served as mortal Agents of **Zophiel (the Spy of Heaven)** for generations, carrying out the will of the Celestial powers in matters those powers cannot touch directly. The eldest child inherits the pact upon coming of age.\n- **Family:** Father is **Colonel of \"The Just Hands,\"** a privately owned mercenary company; he took Naan on campaign during summers and granted her a ceremonial Captain's rank. Mother is also a Mantle-bearer — subtler, more obviously educated — who prepared Naan to receive the pact.\n- **The Blade Caliel:** Upon inheriting the Mantle, Naan received a portion of **Archangel Caliel** (angel of Justice and Truth, destroyed in Avernus). That essence manifests as the **Blade Caliel** — flag with the DM for mechanical resolution (currently undefined on the sheet).\n- **Voice:** Drilled in military life and upper society; speaks like a noble but isn't one.\n\n---\n\n## Party Overview\n\n| Character | Player | Class | Level | Species | Role |\n|-----------|--------|-------|-------|---------|------|\n| Kto | Caitlin | Fighter (Champion) | 5 | High Elf | Front-line melee / ranged striker |\n| Fiorn (The Jester) | Fox | Rogue (Thief) | 5 | Changeling | Skill/infiltration/social |\n| Yinu | Sev | Wizard (Scribes) | 5 | Aasimar | Arcane blaster/controller |\n| Loric T. | Lily | Sorcerer (Draconic) | 5 | Tiefling | Arcane blaster/metamagic |\n| Nalith | Piper | Druid (Dreams) | 5 | Tiefling | Support/healer/controller |\n| Naan | Lilli | Warlock (Celestial) | 5 | Aasimar | Eldritch striker / secondary healer |\n\n### Strengths\n- Heavy arcane firepower (Fireball, Lightning Bolt, Scorching Ray, Twinned spells, Eldritch Blast at 270 ft. with Agonizing damage)\n- Strong support and healing (Nalith's Balm of the Summer Court, Naan's Healing Light pool of 6d6 + Cure Wounds + Revivify, Yinu's Healing Hands, Cure Wounds)\n- Excellent social/skill coverage (Fiorn's expertise in Deception/Performance; Loric's Deception/Persuasion; Naan's Intimidation +6)\n- Battlefield control (Entangle, Sleet Storm, Moonbeam, Suggestion, Fear, Haste, Hold Person, Cloud of Daggers)\n- Rogue utility: Thieves' Tools, Cunning Strike, Uncanny Dodge, Shapechanger infiltration\n- Kto provides a durable front-line with 49 HP, AC 17, Extra Attack, Improved Critical, and exceptional ranged output via Archery + Longbow +1 (+9 to hit)\n- Naan adds a **third in-combat healer** (Revivify on tap), at-will self-Invisibility/self-Mage Armor, and 120 ft. Devil's Sight darkvision for scouting\n\n### Weaknesses\n- AC is low across the back line (Yinu: 11, Naan: 12, Loric: 13) — fragile casters; Naan can self-cast Mage Armor to 15 but burns a turn doing it on the fly\n- No dedicated healer — Nalith and Naan share the load while also controlling/striking\n- Two aasimar and two tieflings will draw attention in regions where celestials/fiends are mistrusted\n- Concentration spells are split across multiple casters with no clear way to protect concentration\n- Naan's Pact slots are limited (2 × 3rd) — Magical Cunning recovers only one per Long Rest\n\n### Notable Party Flags\n- **Fiorn's \"Jester god\"** — not a canonical FR deity. Needs table canonization or framing as an obscure cult/planar entity.\n- **Fiorn's Eberron bond** — references a sky island in Eberron. Confirm whether this is a cross-planar backstory hook intentionally imported into the FR setting.\n- **Naan's patron Zophiel** — not a canonical FR deity/celestial name. Either canonize as a campaign-specific solar agent or reframe as a known FR celestial (e.g., a deva of Torm or Tyr). Flag for DM/player resolution.\n- **Naan's \"Blade Caliel\"** — a fragment of a destroyed archangel manifests as a blade; mechanics undefined on the sheet. Needs DM ruling before it sees combat use.\n- **Naan's skill proficiencies** — Origin Feat (Skilled) and origin skills aren't reflected on the mechanical sheet. Confirm with Lilli before the next session.\n- **Several blank backstory sheets** — Kto, Yinu, Loric, and Nalith have no recorded personality traits, ideals, bonds, or flaws. Worth filling in before session prep to personalize hooks.",
+              "oldText": "### Roleplay Notes\nBackstory, personality, ideals, bonds, and flaws fields were blank on the sheet.\n\n---\n\n## Party Overview\n\n| Character | Player | Class | Level | Species | Role |\n|-----------|--------|-------|-------|---------|------|\n| Kto | Caitlin | Fighter (Champion) | 5 | High Elf | Front-line melee / ranged striker |\n| Fiorn (The Jester) | Fox | Rogue (Thief) | 5 | Changeling | Skill/infiltration/social |\n| Yinu | Sev | Wizard (Scribes) | 5 | Aasimar | Arcane blaster/controller |\n| Loric T. | Lily | Sorcerer (Draconic) | 5 | Tiefling | Arcane blaster/metamagic |\n| Nalith | Piper | Druid (Dreams) | 5 | Tiefling | Support/healer/controller |\n\n### Strengths\n- Heavy arcane firepower (Fireball, Lightning Bolt, Scorching Ray, Twinned spells)\n- Strong support and healing (Nalith's Balm of the Summer Court, Yinu's Healing Hands, Cure Wounds)\n- Excellent social/skill coverage (Fiorn's expertise in Deception/Performance; Loric's Deception/Persuasion)\n- Battlefield control (Entangle, Sleet Storm, Moonbeam, Suggestion, Fear, Haste)\n- Rogue utility: Thieves' Tools, Cunning Strike, Uncanny Dodge, Shapechanger infiltration\n- Kto provides a durable front-line with 49 HP, AC 17, Extra Attack, Improved Critical, and exceptional ranged output via Archery + Longbow +1 (+9 to hit)\n\n### Weaknesses\n- AC is low across the back line (Yinu: 11, Loric: 13) — fragile casters\n- No dedicated healer — Nalith is primary but also the main controller\n- Two tieflings and an aasimar will draw attention in regions where celestials/fiends are mistrusted\n- Concentration spells are split across multiple casters with no clear way to protect concentration\n\n### Notable Party Flags\n- **Fiorn's \"Jester god\"** — not a canonical FR deity. Needs table canonization or framing as an obscure cult/planar entity.\n- **Fiorn's Eberron bond** — references a sky island in Eberron. Confirm whether this is a cross-planar backstory hook intentionally imported into the FR setting.\n- **Several blank backstory sheets** — Kto, Yinu, Loric, and Nalith have no recorded personality traits, ideals, bonds, or flaws. Worth filling in before session prep to personalize hooks."
+            }
+          ],
+          "locations": [
+            {
+              "path": "/Users/nstewart/code/fr-kids-campaign/campaign/party.md"
+            }
+          ],
+          "rawInput": {
+            "command": "str_replace",
+            "path": "campaign/party.md",
+            "instruction_reminder": "ALWAYS BREAK DOWN EDITS INTO SMALLER CHUNKS OF AT MOST 150 LINES EACH.",
+            "old_str_1": "**Party Size:** 5 PCs\n**Current Level:** 5 (all PCs)",
+            "new_str_1": "**Party Size:** 6 PCs\n**Current Level:** 5 (all PCs)",
+            "old_str_start_line_number_1": 13,
+            "old_str_end_line_number_1": 14,
+            "old_str_2": "### Roleplay Notes\nBackstory, personality, ideals, bonds, and flaws fields were blank on the sheet.\n\n---\n\n## Party Overview\n\n| Character | Player | Class | Level | Species | Role |\n|-----------|--------|-------|-------|---------|------|\n| Kto | Caitlin | Fighter (Champion) | 5 | High Elf | Front-line melee / ranged striker |\n| Fiorn (The Jester) | Fox | Rogue (Thief) | 5 | Changeling | Skill/infiltration/social |\n| Yinu | Sev | Wizard (Scribes) | 5 | Aasimar | Arcane blaster/controller |\n| Loric T. | Lily | Sorcerer (Draconic) | 5 | Tiefling | Arcane blaster/metamagic |\n| Nalith | Piper | Druid (Dreams) | 5 | Tiefling | Support/healer/controller |\n\n### Strengths\n- Heavy arcane firepower (Fireball, Lightning Bolt, Scorching Ray, Twinned spells)\n- Strong support and healing (Nalith's Balm of the Summer Court, Yinu's Healing Hands, Cure Wounds)\n- Excellent social/skill coverage (Fiorn's expertise in Deception/Performance; Loric's Deception/Persuasion)\n- Battlefield control (Entangle, Sleet Storm, Moonbeam, Suggestion, Fear, Haste)\n- Rogue utility: Thieves' Tools, Cunning Strike, Uncanny Dodge, Shapechanger infiltration\n- Kto provides a durable front-line with 49 HP, AC 17, Extra Attack, Improved Critical, and exceptional ranged output via Archery + Longbow +1 (+9 to hit)\n\n### Weaknesses\n- AC is low across the back line (Yinu: 11, Loric: 13) — fragile casters\n- No dedicated healer — Nalith is primary but also the main controller\n- Two tieflings and an aasimar will draw attention in regions where celestials/fiends are mistrusted\n- Concentration spells are split across multiple casters with no clear way to protect concentration\n\n### Notable Party Flags\n- **Fiorn's \"Jester god\"** — not a canonical FR deity. Needs table canonization or framing as an obscure cult/planar entity.\n- **Fiorn's Eberron bond** — references a sky island in Eberron. Confirm whether this is a cross-planar backstory hook intentionally imported into the FR setting.\n- **Several blank backstory sheets** — Kto, Yinu, Loric, and Nalith have no recorded personality traits, ideals, bonds, or flaws. Worth filling in before session prep to personalize hooks.",
+            "new_str_2": "### Roleplay Notes\nBackstory, personality, ideals, bonds, and flaws fields were blank on the sheet.\n\n---\n\n## Naan\n**Player:** Lilli\n**Class/Level:** Warlock 5 (Celestial Patron)\n**Species:** Aasimar\n**Background:** Custom (Origin Feat: Skilled; Origin Skills: Persuasion, History)\n**Alignment:** Chaotic Good\n**Gender:** Female | **Size:** Medium\n**Height:** \"Slightly taller than you'd think\" | **Skin:** Glowy | **Eyes:** Shiny\n**Faith:** Zophiel, the Spy of Heaven (Celestial patron — family pact)\n\n### Stats\n| STR | DEX | CON | INT | WIS | CHA |\n|-----|-----|-----|-----|-----|-----|\n| 10 (+0) | 14 (+2) | 14 (+2) | 12 (+1) | 12 (+1) | 16 (+3) |\n\n**HP:** 38 | **AC:** 12 (Mage Armor at will, AC 15 when up) | **Speed:** 30 ft. | **Initiative:** +2\n**Proficiency Bonus:** +3 | **Hit Dice:** 5d8\n**Resistances:** Radiant, Necrotic | **Darkvision:** 60 ft. (Devil's Sight: 120 ft. in magical/nonmagical darkness)\n**Saving Throws (prof):** Wisdom +4, Charisma +6\n**Passive Perception:** 11 | **Passive Insight:** 11 | **Passive Investigation:** 11\n\n### Key Skills (proficient)\nIntimidation +6, Religion +4\n\n> *Sheet flag:* the Origin Feat **Skilled** (Perception, Animal Handling, Athletics) and origin skills (Persuasion, History) are listed in the backstory but **not** reflected on the skills column. Treat as proficient at the table; confirm with Lilli before the next session.\n\n### Weapons / Attacks\n| Name | Hit | Damage |\n|------|-----|--------|\n| Eldritch Blast (cantrip, 2 beams) | +6 | 1d10+3 Force each (Agonizing Blast, 120 ft. base / 270 ft. via Eldritch Spear) |\n| Sacred Flame (cantrip) | DEX 14 save | 1d8 Radiant |\n| Unarmed Strike | +3 | 1 Bludgeoning |\n| Telekinetic Shove (BA) | STR 14 save | Move target 5 ft. (30 ft. range) |\n\n### Spellcasting\n**Ability:** Charisma | **Save DC:** 14 | **Attack Bonus:** +6 *(both include Rod of the Pact Keeper +1)*\n**Pact Magic Slots:** 2 × 3rd level\n\n**Cantrips:** Eldritch Blast, Mage Hand *(Telekinetic — silent, somatic-free, invisible)*, Light, Sacred Flame *(Celestial — always prepared)*\n\n**1st Level:** Cure Wounds, Guiding Bolt *(Celestial — always prepared)*; Mage Armor *(at will on self via Armor of Shadows invocation)*\n\n**2nd Level:** Cloud of Daggers, Hold Person, Misty Step, Suggestion; Aid, Lesser Restoration *(Celestial — always prepared)*; Invisibility *(at will on self in dim light/darkness via One with Shadows)*\n\n**3rd Level (Pact, 2 slots):** Revivify, Magic Circle; Daylight, Revivify *(Celestial — always prepared)*\n\n### Features & Traits\n- **Eldritch Invocations:** Agonizing Blast, Armor of Shadows, Devil's Sight, Eldritch Spear, One with Shadows\n- **Pact Magic — Magical Cunning** (1/LR) — 1-minute rite to recover 1 expended Pact Magic spell slot\n- **Celestial — Healing Light:** Pool of **6d6**; bonus action, expend up to 3 dice to restore HP to self or ally within 60 ft.; pool recovers on Long Rest\n- **Celestial Spells:** Always-prepared list scales with level (Light, Sacred Flame, Cure Wounds, Guiding Bolt, Aid, Lesser Restoration, Daylight, Revivify)\n- **Aasimar — Healing Hands** (1/LR, Magic action) — touch creature, restore 3d4 HP\n- **Aasimar — Light Bearer:** Know Light cantrip (CHA-based)\n- **Aasimar — Celestial Revelation** (1/LR, bonus action) — 1-minute transformation (choose option each time)\n- **Feats:** Telekinetic (CHA +1, Mage Hand bonus, BA shove DC 14), Skilled *(origin — Perception, Animal Handling, Athletics; see sheet flag above)*\n\n### Equipment (Attuned Magic Items)\n- **Amulet of Zophiel — Rod of the Pact Keeper +1** (uncommon, attunement) — platinum-banded amulet with a misshapen opalescent jewel (a fragment of the Firmament). +1 spell attack rolls and spell save DCs for Warlock spells; once per Long Rest, regain one Pact Magic spell slot as a Magic action while touching the amulet.\n- **Luckstone (in a silver wrist cuff)** (uncommon, attunement) — a parting gift from her father. +1 bonus to ability checks and saving throws while worn. *(Not yet reflected in the skill/save numbers above — apply at the table.)*\n\n### Proficiencies\n**Armor:** Light | **Weapons:** Simple\n**Languages:** Common, Common Sign Language, Draconic\n\n### Roleplay Notes\n- **Personality:** Quick and brave — not strong, but never hesitates. Occasionally glows when distracted.\n- **Ideal:** \"I will prove myself worthy.\"\n- **Bond:** Not overly concerned with \"good\" or \"evil\" — serves her Celestial masters as they ask.\n- **Flaw:** Title and rank were given, not earned. Driven — often recklessly — to prove herself.\n- **Background:** Her family has served as mortal Agents of **Zophiel (the Spy of Heaven)** for generations, carrying out the will of the Celestial powers in matters those powers cannot touch directly. The eldest child inherits the pact upon coming of age.\n- **Family:** Father is **Colonel of \"The Just Hands,\"** a privately owned mercenary company; he took Naan on campaign during summers and granted her a ceremonial Captain's rank. Mother is also a Mantle-bearer — subtler, more obviously educated — who prepared Naan to receive the pact.\n- **The Blade Caliel:** Upon inheriting the Mantle, Naan received a portion of **Archangel Caliel** (angel of Justice and Truth, destroyed in Avernus). That essence manifests as the **Blade Caliel** — flag with the DM for mechanical resolution (currently undefined on the sheet).\n- **Voice:** Drilled in military life and upper society; speaks like a noble but isn't one.\n\n---\n\n## Party Overview\n\n| Character | Player | Class | Level | Species | Role |\n|-----------|--------|-------|-------|---------|------|\n| Kto | Caitlin | Fighter (Champion) | 5 | High Elf | Front-line melee / ranged striker |\n| Fiorn (The Jester) | Fox | Rogue (Thief) | 5 | Changeling | Skill/infiltration/social |\n| Yinu | Sev | Wizard (Scribes) | 5 | Aasimar | Arcane blaster/controller |\n| Loric T. | Lily | Sorcerer (Draconic) | 5 | Tiefling | Arcane blaster/metamagic |\n| Nalith | Piper | Druid (Dreams) | 5 | Tiefling | Support/healer/controller |\n| Naan | Lilli | Warlock (Celestial) | 5 | Aasimar | Eldritch striker / secondary healer |\n\n### Strengths\n- Heavy arcane firepower (Fireball, Lightning Bolt, Scorching Ray, Twinned spells, Eldritch Blast at 270 ft. with Agonizing damage)\n- Strong support and healing (Nalith's Balm of the Summer Court, Naan's Healing Light pool of 6d6 + Cure Wounds + Revivify, Yinu's Healing Hands, Cure Wounds)\n- Excellent social/skill coverage (Fiorn's expertise in Deception/Performance; Loric's Deception/Persuasion; Naan's Intimidation +6)\n- Battlefield control (Entangle, Sleet Storm, Moonbeam, Suggestion, Fear, Haste, Hold Person, Cloud of Daggers)\n- Rogue utility: Thieves' Tools, Cunning Strike, Uncanny Dodge, Shapechanger infiltration\n- Kto provides a durable front-line with 49 HP, AC 17, Extra Attack, Improved Critical, and exceptional ranged output via Archery + Longbow +1 (+9 to hit)\n- Naan adds a **third in-combat healer** (Revivify on tap), at-will self-Invisibility/self-Mage Armor, and 120 ft. Devil's Sight darkvision for scouting\n\n### Weaknesses\n- AC is low across the back line (Yinu: 11, Naan: 12, Loric: 13) — fragile casters; Naan can self-cast Mage Armor to 15 but burns a turn doing it on the fly\n- No dedicated healer — Nalith and Naan share the load while also controlling/striking\n- Two aasimar and two tieflings will draw attention in regions where celestials/fiends are mistrusted\n- Concentration spells are split across multiple casters with no clear way to protect concentration\n- Naan's Pact slots are limited (2 × 3rd) — Magical Cunning recovers only one per Long Rest\n\n### Notable Party Flags\n- **Fiorn's \"Jester god\"** — not a canonical FR deity. Needs table canonization or framing as an obscure cult/planar entity.\n- **Fiorn's Eberron bond** — references a sky island in Eberron. Confirm whether this is a cross-planar backstory hook intentionally imported into the FR setting.\n- **Naan's patron Zophiel** — not a canonical FR deity/celestial name. Either canonize as a campaign-specific solar agent or reframe as a known FR celestial (e.g., a deva of Torm or Tyr). Flag for DM/player resolution.\n- **Naan's \"Blade Caliel\"** — a fragment of a destroyed archangel manifests as a blade; mechanics undefined on the sheet. Needs DM ruling before it sees combat use.\n- **Naan's skill proficiencies** — Origin Feat (Skilled) and origin skills aren't reflected on the mechanical sheet. Confirm with Lilli before the next session.\n- **Several blank backstory sheets** — Kto, Yinu, Loric, and Nalith have no recorded personality traits, ideals, bonds, or flaws. Worth filling in before session prep to personalize hooks.",
+            "old_str_start_line_number_2": 298,
+            "old_str_end_line_number_2": 330
+          }
+        }
+      ],
+      "timestamp": "2026-05-28T20:08:56.153Z"
+    },
+    {
+      "id": "6d66810e-251a-478d-b455-e6d86a0ea004",
+      "role": "assistant",
+      "content": [
+        {
+          "type": "tool_call",
+          "toolCallId": "toolu_vrtx_01KmDgaVjuKrfSHhq2z8MQaH",
+          "title": "Read `campaign/party.md` (lines 295-412)",
+          "status": "completed",
+          "kind": "read",
+          "content": [],
+          "locations": [
+            {
+              "line": 295,
+              "path": "/Users/nstewart/code/fr-kids-campaign/campaign/party.md"
+            }
+          ],
+          "rawInput": {
+            "path": "campaign/party.md",
+            "view_range": [
+              295,
+              412
+            ]
+          }
+        },
+        {
+          "type": "text",
+          "text": "The party file is updated cleanly. Here's the summary:\n\n**`campaign/party.md` — Naan added (Lilli's PC, Warlock 5 / Aasimar / Celestial Patron):**\n- Roster header: `Party Size: 5 PCs` → `6 PCs`.\n- Full character entry inserted between Nalith and the Party Overview (lines 303–375): stats, AC/HP/saves/skills, weapons (Eldritch Blast +6 / 1d10+3 ×2, 270 ft. via Eldritch Spear), spellcasting block (DC 14 / +6 with Rod), all five Eldritch Invocations, Celestial features (Healing Light 6d6 pool), Aasimar traits, both attuned magic items (Rod of the Pact Keeper +1 as the \"Amulet of Zophiel,\" Luckstone in a wrist cuff), and roleplay notes (Zophiel pact, family mercenary company \"The Just Hands,\" the Blade Caliel from a fragment of Archangel Caliel).\n- Party Overview table: row added — `Naan | Lilli | Warlock (Celestial) | 5 | Aasimar | Eldritch striker / secondary healer`.\n- Strengths / Weaknesses updated to fold Naan in (third in-combat healer, low-AC back line now includes Naan at 12, Pact-slot bottleneck noted).\n- Notable Party Flags: added three Naan-specific items (Zophiel not in FR pantheon, Blade Caliel mechanically undefined, skill proficiencies missing from sheet).\n\n**Things I flagged in the file rather than deciding silently:**\n1. **Skill proficiencies** — the sheet shows only Intimidation +6 and Religion +4, but the backstory text claims Origin Feat (Skilled — Perception, Animal Handling, Athletics) and origin skills (Persuasion, History). I noted both in the entry and flagged it for Lilli to confirm.\n2. **Luckstone +1** — not applied to listed save/skill numbers; called out so the DM applies it at the table.\n3. **Patron name \"Zophiel\"** and **the Blade Caliel** — neither is canonical FR. Flagged for canonization/ruling.\n\n**Suggested follow-ups (not done — none were requested):**\n- Session 4 files still reference \"Nema\" as Lilli's placeholder PC. If you want, I can do a search-and-replace pass (`Nema` → `Naan`), upgrade the Festival Footrace placeholder station into a proper one tuned to Naan's strengths (high CHA / Intimidation / social, or a Healing Light demonstration tied to the Greening), and rebuild the Session 4 PDF.\n- Add Naan to `campaign/roster.md` if you keep PCs there alongside NPCs (I haven't checked — let me know).\n- Write or update tests? N/A — this is a content edit, no code touched.\n"
+        }
+      ],
+      "timestamp": "2026-05-28T20:08:58.130Z"
     }
   ],
-  "savedAt": "2026-05-28T19:35:52.784Z"
+  "savedAt": "2026-05-28T20:09:11.687Z"
 }
