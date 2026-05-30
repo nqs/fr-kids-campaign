@@ -229,14 +229,14 @@ To the north of the Dalelands. An unsettled and dangerous region that continuall
 
 A series of three narrow vertical fissures (locally called *clefts*) pierce the hill's flanks, each roughly a 20–40-foot drop into a small antechamber at the surface, then a steeper crawl down into the upper Underdark passages beneath Old Skull. The clefts are old, weather-worked, and natural in origin — but the **Vhaeraunian drow surface cell** has been using them as staging mouths for surface operations. The clefts run roughly west-to-east along the hill's northern shoulder, separated by a few hundred yards of pine-wooded slope each.
 
-| Site | Location | Status (post-S2 prep) | Notes |
+| Site | Location | Status (post-S4) | Notes |
 |---|---|---|---|
 | **Site A** | Western cleft, lower slope, near the village wood-line | **Closed (S1)** — collapsed and warded by the party | First Vhaeraunian staging mouth the party encountered; **Zeldrazz T'orrl** was the field officer here |
 | **Site B / The Hawthorn Chimney** | Center cleft, mid-slope, beneath an old hawthorn windbreak | **Closed (S2, by Lolthites)** — vertical shaft collapsed from below | Lolthite raiders purged this site before the party arrived; party found a cold camp and the after-action signs of a crawl-tunnel infiltration |
-| **Site C / The Granite Shoulder** | Eastern cleft, upper northern flank, on a broad granite shoulder above the Living Wood edge | **Active (S3 prep)** — Vhaeraunian shrine-camp; portal-anchor ritual mid-consecration | Run by **Khelziir Aun'velve**; Lolthite Crash incoming through a crawl-tunnel beneath the Spider Pen |
+| **Site C / The Granite Shoulder** | Eastern cleft, upper northern flank, on a broad granite shoulder above the Living Wood edge | **Cleared (S3)** — Vhaeraunian shrine-camp neutralized; portal never opened | Priest **Khelziir Aun'velve** and bodyguard **Zeldrazz T'orrl** both killed; portal-anchor pendant recovered (now in Lady Ulphor's vault). Spider Pen bypassed; Lolthite Crash never triggered |
 
 **Surrounding terrain:**
-- **The Living Wood** — the band of fey-touched pine and hawthorn forest skirting Old Skull's northern flank. The fey of the granite shoulder have largely withdrawn; **Quillip Burr-and-Whistle** is the lone holdout, lairing in a hollow knothole near Site C
+- **The Living Wood** — the band of fey-touched pine and hawthorn forest skirting Old Skull's northern flank. The fey of the granite shoulder withdrew during the drow incursion; with Site C cleared (S3), **Quillip Burr-and-Whistle** now ranges freely again (she turned up in the village for the S4 Greengrass Festival). Whether the rest of the wood's fey return is open
 - **The Hawthorn Chimney** — surface name for the cold camp at Site B, marked by a distinctive twin-trunked hawthorn at the cleft mouth
 - **The Granite Shoulder** — broad rock terrace above the Living Wood; Site C's surface antechamber opens onto it
 
@@ -246,6 +246,20 @@ A series of three narrow vertical fissures (locally called *clefts*) pierce the 
 
 > [!cite] Source notes
 > Old Skull itself is canonical Shadowdale geography *[CG]*. The northern cleft chain, Sites A/B/C, the Hawthorn Chimney name, the Granite Shoulder, and the Living Wood holdout are DM additions established in play across sessions 001–003.
+
+---
+
+### Shadowdale Village — Greengrass Festival Grounds *(DM ADDITION)*
+
+The **Greengrass Festival** (the Faerûnian spring holiday marking the end of winter) is celebrated annually in Shadowdale, established in play in Session 004. The village dresses its fences with flowers, stacks a head-high **bonfire on the river stones**, and ties ribbons through the center of town. Festival venues, all within the village footprint:
+
+- **Town center / festival stage** — Lady Ulphor opens the festival and presents flower crowns here; site of the **Bardic Showcase** and the central proceedings.
+- **Wood's edge** — site of **The Greening** (herbalism / animal-handling event, run by Sela Wyndmere) and the traditional **sapling-planting blessing** (a new tree is planted each Greengrass).
+- **Near the Old Skull Inn** — Brynn Ashford runs a bookstall; archery and other contests are set up nearby along the riverbank.
+- **The River Ashaba** — during the festival, **barges cross the Ashaba eastward toward Nettledale**; mounted/boat archery targets float on the river.
+
+> [!cite] Source notes
+> Greengrass is a canonical Faerûnian holiday *[CG/PG]*. The specific Shadowdale festival layout, events, and the Nettledale barge crossings are DM additions established in Session 004.
 
 ---
 
