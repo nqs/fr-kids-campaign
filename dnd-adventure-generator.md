@@ -12,6 +12,7 @@ These cross-cutting rules hold throughout the workflow and the PDF pipeline. The
 - **Image placement.** File 1 carries exactly one image (the title page illustration). Tactical/encounter maps live in **File 2 only**, as part 6 of each encounter's section. Every other illustration (portraits, monster art, location scenes) lives in **File 3 only**. Stat-block cards are **text-only** — never embed an image in or beside one.
 - **Image rendering.** Every image renders **full-page on an 8.5"×11" sheet**, preserving aspect ratio — no inline/thumbnail variant. Max **7.2"×9.8"** unbound; max **7.2"×8.5"** when bound to a heading via `KeepTogether`. Aspect ratios come from `images.json`; there is no PIL/Pillow.
 - **Image source & durability.** All art comes from the `generate_image` (Gemini) MCP tool. Save each as a git-tracked jpg and record its filename in `images.json` under `file`. The ReportLab renderer reads that local jpg, so a scripted PDF still builds after the Gemini URL expires (~30 days).
+- **Never schedule level-ups mid-session.** Do not plan a level-up as an at-the-table beat — rebuilding sheets during play takes too much time and stalls the session. If an adventure crosses a milestone (or enough XP to advance), record the advancement as something to apply **between sessions** (downtime / before the next session), not a live beat. In the DM quick reference and any debrief, flag the milestone as *earned, to be applied later* — never "the party levels up now."
 
 ## Workflow
 
@@ -329,7 +330,7 @@ Adapt the section list to the adventure's actual content — don't include secti
 - **Faction priorities & timing** — for multi-faction fights or pressure-valve encounters (e.g., a third faction crashing the boss fight): a bulleted list of trigger conditions, faction priorities, and the resulting major loose ends.
 - **Bargain / negotiation matrix** — for any scene where a fey, devil, hag, or merchant offers boons in exchange for costs: a table of `Boon | Effect | Cost tier`. Include stiffed/threatened/probed-on-secret responses as bullets below.
 - **Endings** — for adventures with branching outcomes: a table of `Ending | How | Reputation | Loose end` with one row per ending plus a `Withdraw without ending` row when relevant.
-- **Debrief payments** — table of `Item | Condition | Payer | Amount`, including the milestone or XP advance.
+- **Debrief payments** — table of `Item | Condition | Payer | Amount`. If the adventure crosses a milestone or XP advance, list it here as *earned — apply between sessions* (never staged as a mid-session level-up; see Invariants).
 - **Who-talks-to-whom branches** — for sessions that fork on which NPC the party reports to first: a short bullet list with the consequence of each choice.
 - **Tone / staging beats** — short bulleted tells the DM should cue at the table (a recurring NPC's posture changes, a one-line read-aloud, a callback to a prior session).
 - **Loose Ends to Flag in Session Log After Play** — a checklist of `- [ ]` items the DM ticks off after the session, which the agent will fold into `campaign/session-log.md` when asked for a post-play update.

@@ -13,6 +13,9 @@ tags:
 **Party Size:** 6 PCs
 **Current Level:** 5 (all PCs)
 
+> [!note] Level 6 milestone — earned, not yet applied
+> The **Level 6 milestone** for clearing all three drow sites is earned, but the party **did not level up at the table** in Session 004 — leveling is handled **between sessions**, not as a mid-session beat (it takes too much table time). The PCs remain **Level 5** until the sheets are rebuilt before a future session. Update the stat blocks below to Level 6 when that happens.
+
 ---
 
 ## Kto
@@ -373,6 +376,30 @@ Intimidation +6, Religion +4
 - **Family:** Father is **Colonel of "The Just Hands,"** a privately owned mercenary company; he took Naan on campaign during summers and granted her a ceremonial Captain's rank. Mother is also a Mantle-bearer — subtler, more obviously educated — who prepared Naan to receive the pact.
 - **The Blade Caliel:** Upon inheriting the Mantle, Naan received a portion of **Archangel Caliel** (angel of Justice and Truth, destroyed in Avernus). That essence manifests as the **Blade Caliel** — flag with the DM for mechanical resolution (currently undefined on the sheet).
 - **Voice:** Drilled in military life and upper society; speaks like a noble but isn't one.
+
+---
+
+## Session 004 — Rewards & Festival Results
+
+**Gold & loot (from the Site C debrief at the Ashaba House):**
+- **600 gp** group reward from Lady Ulphor for clearing all three drow staging sites — split among the party (exact division not recorded; settle at the table).
+- **200 gp** to **Naan** for surrendering the recovered **portal-anchor pendant** (she had been holding it). *The pendant is no longer in party hands — it is in Lady Ulphor's vault.*
+- Inn-evening performance tips (~15–25 gp, Fiorn + Kto) — Yinu pooled hers into group funds.
+- Earlier Site C loot (S3): silver half-mask (~200 gp), Spell Scroll of *Silence*, ×2 Potion of Greater Healing, drow poison vials, several hand crossbows, Zeldrazz's Undercommon journal (intel value to Harpers/Ulphor). Itemize/distribute if not already done.
+
+**Greengrass Festival placements:**
+| PC | Contest | Result |
+|----|---------|--------|
+| Fiorn | Bardic Showcase | **Gold ribbon** (beat touring elf-bard Helbrin, who took silver) |
+| Yinu | Arcane Skills Challenge | **Gold ribbon** (only competitor to ID all three curiosities) |
+| Nalith | The Greening | **Gold ribbon** (poultice + calmed a frightened doe); received a fey token from Quillip |
+| Naan | Blessing of the First Light | Performed the sapling-blessing — it **bloomed in her hands** (no formal contest) |
+| Kto | Archery Contest | Won Round 1 (nat 20); lost Rounds 2–3 to recovered scout Rellan Tessar — placed lower |
+
+**Open PC hooks from S4:**
+- **Yinu** — Orvyn Tal revealed his Harper tie and has a gift waiting at the bookshop ("the next afternoon"). First direct Harper recruitment.
+- **Fiorn** — Helbrin's standing offer of a supporting-act slot on the road.
+- **Nalith** — holds an undefined fey berry/token from Quillip (effect TBD; "going in my bag").
 
 ---
 
