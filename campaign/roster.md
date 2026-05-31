@@ -40,9 +40,13 @@ tags:
 **Relationship with the party:**
 - *First impression:* Courteous but appraising — she sizes up strangers quickly and doesn't waste words on those she doesn't trust yet.
 - *What she wants from the party:* Reliable people who can go into Old Skull or the Living Wood and bring back information (or solutions) without triggering a panic.
+- *As of Session 004:* Trusted allies. She paid them **600 gp** for clearing all three drow sites, bought the recovered portal-anchor pendant for **200 gp**, hosted them at the Greengrass Festival, and covered their rooms at the Old Skull Inn. She judged Fiorn's and Yinu's festival contests personally.
 
 > [!dm] What she won't say
 > That she thinks the drow incursion may already be further along than her militia's reports suggest, and that she's been having the Ashaba House's lower cellars quietly sealed off.
+
+> [!dm] Session 004 — pendant custody
+> Lady Ulphor now holds the **portal-anchor pendant** in her vault. She told the party it is one half of a paired **twin-stone** whose counterpart lies in the Underdark, and that in the wrong hands it could open a portal to wherever the pendant sits. She declined Yinu's offer to attempt destroying it (disenchantment costs ~half the creation cost) in favor of secure storage. **The pendant is now a target inside the Ashaba House** — a latent hook. **(DM ADDITION, Session 004)**
 
 
 > [!cite] Source notes
@@ -189,6 +193,9 @@ tags:
 > [!dm] What he won't say
 > The full truth of what the scouts reported. He'll tell them the passages need checking; the detail about the camp comes later, when he trusts them.
 
+> [!dm] Session 004 — rivalry thawing
+> The Session 002 rift (after Fiorn's open contempt at the briefing) appears to be cooling. At the Greengrass Festival, Helm walked the procession in dress uniform, ran the **archery contest**, and greeted **Kto** warmly: *"I thought you'd show up. I'm glad to see you here."* With all three drow sites cleared and his rescued scout **Rellan Tessar** back on his feet, his grievance has less fuel. Watch whether the goodwill holds or whether the buried cover-up resurfaces. **(DM ADDITION, Session 004)**
+
 
 **Practical notes:** Can repair or commission armor and weapons. His work is solid if not beautiful. He'll do it cheaper for people who are helping the dale. **(DM ADDITION)**
 
@@ -223,10 +230,15 @@ tags:
 - *What he wants from the party:* To know who they are and whether they're trustworthy, before anything else. If they are, he has information to trade.
 
 > [!dm] What he won't say
-> That he's still Harper-active. He'll wait to see if they already know — if they're Harpers themselves, they'll find out through channels. If they're not, he'll decide whether to tell them based on what they do next.
+> ~~That he's still Harper-active.~~ **Disclosed in Session 004** (see below). Remaining held cards: the dormant Harper safehouse beneath the village, and his suspicion of a Netherese agent in Shadowdale.
+
+> [!dm] Session 004 — Harper affiliation disclosed to Yinu
+> After Yinu swept Orvyn's arcane-skills challenge at the Greengrass Festival (identifying all three curiosities: a Feywild primrose, a communication twin-stone, and a planar-traveler's tonic), Orvyn pinned her with the gold ribbon and pulled her aside: *"Come by my bookshop tomorrow afternoon if you would. I have something for you. The Harpers have something to give to you."* This is the **first time he has openly named the Harpers to a PC** — first direct recruitment contact. The gift is undefined and waiting at the shop (Session 005 thread).
+>
+> Separately, while in/near the bookshop's **back room** during the earlier debrief, Yinu's Arcana check registered **fresh Weave activity** — magic had recently been performed there. Read as not alarming at the table, but flagged: what Orvyn was doing in the back room is an open question. **(DM ADDITION, Session 004)**
 
 
-**Practical notes:** His shop has genuine value: maps of the Dalelands and surrounding regions (some quite old), histories of Shadowdale, and one or two arcane texts. He can also source specific books for a price and a wait — through methods he doesn't describe. **(DM ADDITION)**
+**Practical notes:** His shop has genuine value: maps of the Dalelands and surrounding regions (some quite old), histories of Shadowdale, and one or two arcane texts. He can also source specific books for a price and a wait — through methods he doesn't describe. He runs the festival's **arcane-skills challenge** ("Wonders of Spring"). **(DM ADDITION)**
 
 ---
 
@@ -234,9 +246,9 @@ tags:
 
 - **Role:** Independent fey contact; freelance trickster and bargain-broker
 - **Affiliation:** None formal; Living Wood fey community
-- **Location:** Currently roosting in a hollow knothole near the cleft mouth on Old Skull's northern flank (Site C). Range is the granite shoulder and the northern Living Wood
-- **Status:** Alive
-- **One-line summary:** A tiny, archly-polite pixie who refused to withdraw from Site C with the rest of the wood because a drow priest setting up shop in *her* granite shoulder is the most interesting thing that's happened in eighty years.
+- **Location:** Ranges the granite shoulder and the northern Living Wood. With Site C cleared (S3) she is no longer pinned to her knothole; **she reappeared in the village itself at the Greengrass Festival (S4).**
+- **Status:** Alive. **Recurring fey ally** — her Site C bargain was paid in full (Fiorn's original song, S3) with no secondary cost.
+- **One-line summary:** A tiny, archly-polite pixie who stayed at Site C out of stubborn curiosity, traded the party full intel for a song, and has since adopted them — turning up unannounced at the Greengrass Festival to leave Nalith a gift.
 
 **Appearance:** Tiny fey, roughly the height of a pinecone. Dragonfly-veined wings the color of stained glass. Skin like polished birch with faint freckle-constellations. Wears a stitched-together dress of moth-wing scraps and acorn-cup buttons. Carries a sewing-needle rapier she has never drawn. Invisible by default; visible only when she chooses. **(DM ADDITION)**
 
@@ -286,8 +298,63 @@ tags:
 
 **Statline base:** Pixie *(MM p.253; CR 1/4)*. Tiny fey, neutral good. AC 15, HP 1, fly 30 ft. Innate spellcasting (CHA): at-will *druidcraft*; 1/day each — *confusion, dancing lights, detect evil and good, detect thoughts, dispel magic, entangle, fly, phantasmal force, polymorph, sleep*. Superior Invisibility. Magic Resistance.
 
+> [!dm] Session 004 — reappearance and the token
+> Quillip turned up unbidden at the festival's **Greening** event. As Nalith was awarded the gold ribbon, something brushed her cheek and she caught a half-second glimpse of Quillip, who left her a **small fey berry/token**. Its effect is undefined; Nalith pocketed it ("it's going in my bag"). **Establish what the gift does before it's used.** Quillip is now an unprompted recurring presence, not just a one-site contact. **(DM ADDITION, Session 004)**
+
 > [!cite] Source notes
 > Pixie statline from MM. Personality, location, name, and bargain framework are DM additions.
+
+---
+
+## Rellan Tessar — Militia Scout (Recovered)
+
+- **Role:** Shadowdale militia scout; the man the party rescued in Session 001
+- **Affiliation:** Shadowdale militia (under Corwick Helm)
+- **Location:** Shadowdale village
+- **Status:** Alive and **recovered** — back on his feet as of Session 004
+- **One-line summary:** The scout the party pulled out of a Vhaeraunian cleft in Session 001, now healthy, grateful, and a genuinely gifted archer who treats the party as friends.
+
+**Appearance:** A wiry, weather-worn man in his late twenties, faster to smile now than the half-dead figure the party hauled out of Old Skull. Carries a longbow with easy familiarity. **(DM ADDITION)**
+
+**Personality:**
+- *In a word:* Game.
+- *Public face:* Easygoing, competitive in a friendly way, quick to credit a good shot. He owes the party his life and isn't shy about saying so.
+- *Mannerism:* Talks through his shots; compliments an opponent mid-contest (*"You're not messing around today, are you?"*).
+
+**Relationship with the party:**
+- *First impression (S4):* Warm and openly grateful. He competed against **Kto** in the Greengrass **archery contest** — he's an excellent archer and took the better of the later rounds, but bore her no ill will (*"That was a tough shot."*).
+- *What he offers:* A friendly inside contact within the militia, and a debt of gratitude the party can call on.
+
+> [!cite] Source notes
+> Rellan Tessar was established in Session 001 as the rescued scout. His recovery and archery skill are DM additions confirmed in Session 004.
+
+---
+
+## Helbrin — Touring Bard of the Dalelands
+
+- **Role:** Traveling minstrel; the most famous performer currently touring the Dales
+- **Affiliation:** Independent; tours the Dalelands circuit
+- **Location:** Itinerant — passed through Shadowdale for the Greengrass Festival (Session 004)
+- **Status:** Alive
+- **One-line summary:** A celebrated, road-hardened elf lutenist — "the Justin Bieber of the Dales" — whose virtuoso musicianship can't quite cover for thin crowd-work, and who lost the festival's bardic showcase to Fiorn.
+
+**Appearance:** An elegant, well-dressed elf with the polished bearing of a touring professional and an extremely fine lute. Carries himself as the biggest name in any room — usually correctly. **(DM ADDITION)** *(Name spelling uncertain in the transcript — "Helbrin" / "Culbrin.")*
+
+**Personality:**
+- *In a word:* Condescending.
+- *Public face:* Charming to crowds, dismissive to rivals. Greeted Fiorn with backhanded contempt (*"in this little backwater, apparently you've been looking for yourself"*).
+- *Private self:* A real talent who knows it, and not above poaching a promising act for his own road show.
+- *Mannerism:* Frames every offer as a favor he's bestowing.
+
+**Motivations:**
+- *Wants:* To keep his reputation as the Dales' premier act; to surround himself with talent that flatters rather than threatens it.
+
+**Relationship with the party:**
+- *First impression (S4):* Rivalry. He out-musicianed Fiorn on raw lute skill but **lost the showcase** when his crowd-work round fell flat against Fiorn's; Fiorn took gold, Helbrin silver.
+- *What he wants from Fiorn:* After the loss, he offered Fiorn a **supporting-act slot on the road** — *"under me, of course."* Fiorn handed him a note: *"If you need anybody killed, seek me out."* **The touring offer stands** as an open hook.
+
+> [!cite] Source notes
+> Helbrin is a DM addition introduced in Session 004. Not from the sourcebooks or earlier campaign files. Confirm name spelling and decide whether to develop the touring-offer hook.
 
 ---
 
@@ -296,8 +363,8 @@ tags:
 - **Role:** Field-priest of Vhaeraun; commander of the Site C surface cell
 - **Affiliation:** Vhaeraunian drow (the male-supremacist heretic faction); cell of unknown size in the passages beneath Old Skull
 - **Location:** The Shrine, Site C shrine-camp, granite shoulder of Old Skull's northern flank
-- **Status:** Alive (as of session 003 prep)
-- **One-line summary:** A patient, ritually-disciplined Vhaeraunian field-priest mid-way through anchoring a one-way portal to the surface — and willing to die at his altar to finish the work.
+- **Status:** **Dead** — killed in Session 003 by Yinu's auto-critting Scorching Ray while paralyzed by Nalith's Hold Person. Body looted (silver half-mask, Spell Scroll of *Silence*, the portal-anchor pendant). The portal was never consecrated.
+- **One-line summary:** A patient, ritually-disciplined Vhaeraunian field-priest who died at his altar in Session 003 with his one-way surface portal a round from completion.
 
 **Appearance:** Slim, ascetic drow in robes the color of dried blood. Wears the **silver half-mask of a Vhaeraunian priest** (200 gp curio if recovered) over the upper half of his face — only his thin mouth and angular jaw show. Carries a holy symbol of Vhaeraun (a stylized half-mask) at his belt and twin shortswords across his back. **(DM ADDITION)**
 
@@ -334,9 +401,9 @@ tags:
 
 - **Role:** Khelziir's bodyguard at Site C; formerly the field officer of the Site A cell
 - **Affiliation:** Vhaeraunian drow
-- **Location:** The Shrine, Site C shrine-camp (as of session 003 prep)
-- **Status:** Alive (escaped at the end of session 001 with a near-fatal wound delivered by **Kto**)
-- **One-line summary:** A demoted drow elite who survived a killing-strike from the party in session 001 by sheer spite, has been carrying the scar and the grudge ever since, and is now flanking Khelziir specifically to get a second swing at the PC who marked him.
+- **Location:** Died at the Shrine, Site C shrine-camp (Session 003)
+- **Status:** **Dead** — killed by **Kto** in Session 003. Paralyzed alongside Khelziir by Nalith's Hold Person, he was finished with Kto's greatsword. The man who came back for a second swing at her got finished instead. The nemesis arc ends here — remove from the villain pool.
+- **One-line summary:** A demoted drow elite who survived Kto's killing-strike in Session 001 out of pure spite, carried the scar and the grudge to Site C — and was cut down by the same PC in Session 003.
 
 **Appearance:** Tall for a drow, lean and scarred. **A long pale scar runs across his right cheek** — Kto's S1 strike, never properly healed, left as a deliberate reminder. Wears a chain shirt and shield in the Vhaeraunian style; carries a plain steel scimitar where a more ornate blade once sat (the ornate blade was a sign of rank he no longer holds). **(DM ADDITION)**
 
@@ -381,12 +448,17 @@ tags:
 | Torval Dunmore | Sela Wyndmere | She tends his regulars when they drink themselves into trouble |
 | Sela Wyndmere | Orvyn Tal | He has texts on the fey she has borrowed before; she doesn't know what he is |
 | Sela Wyndmere | *unnamed fey lord* | She carries his messages; this will become a problem |
+| Sela Wyndmere | Nalith (party) | Ran the S4 Greening; praised Nalith's healing/animal-handling and awarded her gold |
 | Quillip Burr-and-Whistle | Sela Wyndmere | Both Living Wood fixtures; Sela will recognize the description if the party mentions her |
 | Quillip Burr-and-Whistle | *unnamed fey lord* | Knows of him; refuses to name him; will leave a conversation that presses on it |
-| Khelziir Aun'velve | Zeldrazz T'orrl | Priest and bodyguard; Zeldrazz reports to him; Khelziir treats him as expendable |
-| Zeldrazz T'orrl | Kto (party) | Personal vendetta — S1 scar, S3 second engagement; will target her on sight |
-| Khelziir's cell | Lolthite enclave (Old Skull) | At war; Lolthites just purged Site B and are coming for Site C |
-| Quillip Burr-and-Whistle | Khelziir's cell | Two days of unsolicited surveillance; the cell does not know she's watching |
+| Quillip Burr-and-Whistle | Nalith (party) | Adopted the party; reappeared at the S4 festival to leave Nalith a fey token |
+| Orvyn Tal | Yinu (party) | S4: revealed his Harper tie to Yinu, a Harper gift waiting at the shop — first direct recruitment |
+| Lady Ulphor | party | S4: paid the party 600 gp, took the portal-anchor pendant into her vault |
+| Corwick Helm | Kto (party) / Rellan Tessar | S4: warm toward Kto at the festival; rescued scout Tessar recovered and competing — rift thawing |
+| Helbrin | Fiorn (party) | S4 bardic-showcase rivals; Helbrin lost, then offered Fiorn a road-tour supporting slot |
+| ~~Khelziir Aun'velve~~ | ~~Zeldrazz T'orrl~~ | **Both dead (S3)** — priest killed by Yinu, bodyguard killed by Kto, both while paralyzed |
+| ~~Zeldrazz T'orrl~~ | Kto (party) | **Vendetta closed (S3)** — Kto killed him; arc ended |
+| Lolthite enclave (Old Skull) | Vhaeraunian cells | At war; Lolthites purged Site B (S2); all three Vhaeraunian sites now closed. Lolthites still unaware of the party |
 
 ---
 

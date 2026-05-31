@@ -45,7 +45,7 @@ tags:
 | Faction | Disposition | Party Contact | Seat |
 |---|---|---|---|
 | Dales Council | Allied | Lady Ulphor / Brynn Ashford | Ashabenford, Mistledale |
-| Harpers (Remnant) | Allied | Orvyn Tal (Shadowdale) | Moongleam Tower, Everlund |
+| Harpers (Remnant) | Allied | Orvyn Tal → Yinu (direct, S4) | Moongleam Tower, Everlund |
 | Myth Drannor Eladrin | Allied | Unknown (embassy, New Velar) | Myth Drannor |
 | Stellar Fellowship | Allied (joinable) | None yet | Fall of Stars, New Velar |
 | Abbey of the Sword | Allied | None yet | Battledale |
@@ -111,20 +111,24 @@ The Harpers are a secret society that balances the spread of power throughout Fa
 **Moongleam Tower** in Everlund (to the northwest) houses one of the few active Harper waypoints; agents in the Dalelands make contact through coded dead-drops or trusted intermediaries. *[CG]*
 
 ### Key Contact (Roster)
-- **Orvyn Tal** (Shadowdale bookshop) — Harper agent operating under cover as a bookseller and map dealer. He has not disclosed his affiliation to the party. He sources information through methods he doesn't describe. If the party are Harpers themselves, they'll find out through channels; if not, he'll disclose based on what they do. *[HOMEBREW]*
+- **Orvyn Tal** (Shadowdale bookshop) — Harper agent operating under cover as a bookseller and map dealer. **As of Session 004 he has openly disclosed his Harper affiliation to Yinu** and asked her to come to the shop "the next afternoon" because "the Harpers have something to give to you" — the first direct recruitment overture to a PC. He sources information through methods he doesn't describe. *[HOMEBREW]*
 
 ### Goals
 - Gather intelligence on Netheril's movements and the Shade Enclave's plans for the Dalelands
 - Maintain covert links between the free dales and the broader resistance networks
-- Identify and recruit trustworthy operatives (the party may qualify)
+- Identify and recruit trustworthy operatives — **the party now qualifies; Yinu is the open point of contact (S4)**
 
 ### What the Harpers Know
-They know something is wrong under Old Skull — probably more than Lady Ulphor does. They don't know what to do about it yet.
+They know something is wrong under Old Skull — probably more than Lady Ulphor does. After the party cleared all three drow staging sites (S1–S3), Orvyn judged them trustworthy enough to surface the Harper connection openly.
+
+### Current Status with the Party (Session 004)
+- **Direct contact made.** Orvyn revealed himself to **Yinu** after she won his Greengrass arcane-skills challenge, and there is a **Harper gift waiting** for her at the bookshop (undefined — pursue Session 005).
+- Yinu separately sensed **fresh Weave activity in Orvyn's back room** during the earlier debrief; what he was doing there is unresolved.
 
 > [!hook] Adventure Hooks
+> - **Yinu collects the Harper gift** at Orvyn's shop — the first real recruitment beat (S5 thread)
 > - Orvyn Tal approaches the party with a job that sounds like a book retrieval but is actually a dead-drop run
 > - A Harper agent in Scardale has gone silent; someone needs to go find out why without triggering Sembian attention
-> - The party discovers Orvyn's affiliation by accident — now they have to decide whether that's a problem or an opportunity
 
 ---
 
@@ -262,10 +266,11 @@ The Resistance's leadership is divided over whether to make contact with the Har
 The Living Wood surrounding Shadowdale is a fey-touched forest with an unusually thin border to the Feywild. The wood is home to nymphs, sprites, dryads, satyrs, and older powers — some benevolent, some territorial, all capricious. Lady Ulphor maintains a cautious, generally positive relationship with the fey community; Shadowdalers know to leave offerings and to not cut trees without asking. *[CG]*
 
 ### Key Contact (Roster)
-- **Sela Wyndmere** (Shadowdale healer) — deeply embedded in the fey community. She attends "consultations" in the forest at night. A powerful fey lord has been asking her to carry messages she doesn't understand to recipients she doesn't know. She's been saying yes because she doesn't know how to say no. *[HOMEBREW]*
+- **Sela Wyndmere** (Shadowdale healer) — deeply embedded in the fey community. She attends "consultations" in the forest at night. A powerful fey lord has been asking her to carry messages she doesn't understand to recipients she doesn't know. She's been saying yes because she doesn't know how to say no. **Ran the Greengrass "Greening" event (S4); now on friendly terms with Nalith.** *[HOMEBREW]*
+- **Quillip Burr-and-Whistle** (pixie) — direct party ally since Session 003 (bargained intel for a song). **Reappeared at the S4 festival to leave Nalith a fey token** — the party's reliable, if capricious, line into the wood. *[HOMEBREW]*
 
 ### Current Situation
-Something has changed in the Living Wood near Old Skull. Fey who used to range freely across that stretch of forest are withdrawing. Sela has noticed strange behavior she can't explain as ordinary territorial activity. The party is the first people she's considered telling.
+Something has changed in the Living Wood near Old Skull. Fey who used to range freely across that stretch of forest are withdrawing. Sela has noticed strange behavior she can't explain as ordinary territorial activity. The party is the first people she's considered telling. **The drow incursion that drove the local fey off (S1–S3) is now ended — whether the wood's fey return is an open question.** Signs of **Feywild bleed-through** are mounting: at Orvyn's S4 arcane challenge, Yinu identified a primrose that fell through a seam from the Fey Realm and a tonic peddled by a planar traveler.
 
 ### The Unknown Fey Lord
 A powerful and old fey entity is using Sela as an unwitting courier. The messages he sends — and receives — are unknown. He is aware the drow threat threatens his domain, but his methods and allegiances are entirely opaque. This is a long-term thread, not a villain to fight immediately.
@@ -421,7 +426,7 @@ The Church of Bane considers itself the ideological successor to the Zhentarim's
 **Type:** Underdark hostile factions  
 **Alignment:** Neutral Evil to Chaotic Evil  
 **Entry Points:** Old Skull (Shadowdale), caverns beneath Battledale, Deepingdale's forest floor  
-**Status:** Active — and more active beneath Shadowdale than anyone is admitting above ground
+**Status:** Active below ground. The **Vhaeraunian surface push is broken** (all three Old Skull staging clefts closed by S3), but the deeper Lolthite vs. Vhaeraunian war continues, and Vhaeraunian retaliation for Site C is pending.
 
 ### Overview
 Drow plague **Battledale, Mistledale, and Shadowdale** via Underdark passages. Old Skull in Shadowdale is a volcanic headland that descends to the Underdark; Elminster's power once kept them contained, but since the Spellplague and his diminishment, they have been "wending their way up the narrow stairs" again. *[CG]*
@@ -433,12 +438,14 @@ Drow plague **Battledale, Mistledale, and Shadowdale** via Underdark passages. O
 **Lolthite (Spider-Cult) Enclaves** — Standard Lolth-worshipping drow society. Territorial and focused on slow expansion and the corruption of surface communities through enslaved intermediaries. They once controlled Shadowdale via Old Skull; that grip was loosened and has not been fully reestablished — yet.
 
 ### The Vhaeraunian Surface Cell at Old Skull *[HOMEBREW]*
-A small Vhaeraunian forward cell has been operating from a chain of three staging clefts on Old Skull's flanks: **Site A** (closed by the party in session 001), **Site B / the Hawthorn Chimney** (closed by a Lolthite raid before the party arrived in session 002), and **Site C / the granite shoulder** (active as of session 003). The cell's surviving leadership at Site C:
+A small Vhaeraunian forward cell operated from a chain of three staging clefts on Old Skull's flanks: **Site A** (closed by the party in session 001), **Site B / the Hawthorn Chimney** (closed by a Lolthite raid before the party arrived in session 002), and **Site C / the granite shoulder** (**cleared by the party in session 003**). **All three staging sites are now closed.** The cell's Site C leadership is dead:
 
-- **Khelziir Aun'velve** — field-priest of Vhaeraun, mid-way through consecrating a portal-anchor that would open a stable one-way surface mouth for Vhaeraunian operatives and supplies. *[HOMEBREW — see [[roster]]]*
-- **Zeldrazz T'orrl** — demoted former field officer of Site A, now Khelziir's bodyguard, carrying a personal vendetta against **Kto** from session 001. *[HOMEBREW — see [[roster]]]*
+- **Khelziir Aun'velve** — field-priest of Vhaeraun; was consecrating a portal-anchor that would open a stable one-way surface mouth. **Killed at his altar in session 003** (Yinu's Scorching Ray, while paralyzed); the portal never opened. *[HOMEBREW — see [[roster]]]*
+- **Zeldrazz T'orrl** — demoted former field officer of Site A, Khelziir's bodyguard, vendetta against **Kto**. **Killed by Kto in session 003.** *[HOMEBREW — see [[roster]]]*
 
 The cell's iconography is the **silver half-mask** of Vhaeraun (priests) and plain **steel half-masks** (footsoldiers). Standard scout loadout: hand crossbow, drow poison, brass signal horns at observation posts.
+
+**The portal-anchor pendant** recovered from Khelziir is one half of a paired **twin-stone** (counterpart in the Underdark); it is now held in **Lady Ulphor's vault** (surrendered S4). The Vhaeraunians do not yet know the cell has fallen — when they learn it, the retaliation clock below begins.
 
 ### The Lolthite Counter-Operation *[HOMEBREW]*
 The Lolthite enclave under Old Skull has the same intelligence the party does — there is a Vhaeraunian cell consecrating surface anchors — and is moving aggressively to close every surface mouth before any portal stabilizes. Their operational signatures:
@@ -448,12 +455,12 @@ The Lolthite enclave under Old Skull has the same intelligence the party does �
 - They purged Site B by collapsing the Hawthorn Chimney shaft from below in session 002
 - They are pre-positioned to do the same to Site C in session 003 — the **Lolthite Crash** — emerging through a crawl-tunnel in the Spider Pen
 
-**The enclave does not yet know the surface party exists.** Whether it learns this is the central political stakes of session 003: if any Lolthite raider escapes alive or sees the party clearly during the Crash, the enclave's intelligence picture changes radically and the Lolthite priesthood adds the party to its target list.
+**The enclave does not yet know the surface party exists.** In session 003 the **Lolthite Crash never triggered** — the party bypassed the Spider Pen and resolved the Shrine fight before Round 4, so no raider saw them. The enclave remains unaware of the party. (They will eventually find Khelziir's cell dead and the camp cleared — by whose hand is, to them, an open question.)
 
 **Stat-block note:** *Lolthite Drow Raider* (CR 1 homebrew, AC 16, HP 39) is reproduced in full in [[sessions/session 3/the-half-mask-shrine-2-combat-tracker|S3 combat tracker]]. Promote to a permanent stat-block reference if used in future sessions.
 
 ### Vhaeraunian Retaliation Timer
-**Regardless of S3 outcome**, a Vhaeraunian retaliation arrives in 2–3 weeks of in-fiction time. Form depends on which Site C ending the party chose — public smash invites a heavy strike, quiet steal triggers an investigative response, listening-glyph Feed delays the response and gives the Harpers warning. Track this clock once S3 is logged.
+A Vhaeraunian retaliation arrives roughly **2–3 weeks of in-fiction time** after the cell is discovered destroyed. The party killed Khelziir, stopped the ritual, and **took the portal-anchor pendant** (rather than smashing or feeding the anchor in place), so the response is most likely an **investigative strike** — operatives sent to learn who hit the cell and where the anchor went. The clock is **now running** (started end of S3 / surfaced in S4). Form and timing TBD by the DM.
 
 ### What's Happening Under Old Skull Right Now
 Corwick Helm's militia has confirmed drow movement in at least two upper passages. A scout who went deeper three weeks ago came back changed and has stopped talking. Lady Ulphor has been quietly sealing the Ashaba House's lower cellars. Sela Wyndmere has noticed fey withdrawing from the forest near Old Skull. The fey of the granite shoulder withdrew weeks ago — except for **Quillip Burr-and-Whistle**, who stayed out of curiosity and has been observing Khelziir's cell.
