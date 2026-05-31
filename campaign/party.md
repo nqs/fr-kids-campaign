@@ -11,10 +11,10 @@ tags:
 **System:** D&D 5e (2024 PHB rules)
 **Milestone Leveling**
 **Party Size:** 6 PCs
-**Current Level:** 5 (all PCs) → **Level 6 milestone earned**
+**Current Level:** 5 (all PCs)
 
-> [!warning] Level 6 milestone — update sheets before Session 005
-> The **Level 6 milestone** for clearing all three drow sites was held until after the Session 003 debrief. **That debrief happened in Session 004** (Lady Ulphor's payment scene), so the milestone is now earned. The stat blocks below are still written at **Level 5** — bump each PC to Level 6 (HP, proficiency bonus is unchanged at +3, class features, and spell slots) before the next session. Left at L5 here because the session log doesn't record per-PC level-up details. **(Confirm at the table.)**
+> [!note] Level 6 milestone — earned, not yet applied
+> The **Level 6 milestone** for clearing all three drow sites is earned, but the party **did not level up at the table** in Session 004 — leveling is handled **between sessions**, not as a mid-session beat (it takes too much table time). The PCs remain **Level 5** until the sheets are rebuilt before a future session. Update the stat blocks below to Level 6 when that happens.
 
 ---
 
