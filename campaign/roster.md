@@ -155,10 +155,15 @@ tags:
 - *What she wants from the party:* If they're trustworthy, she may ask them to accompany her on one of her forest "consultations." Something has changed in the wood and she doesn't want to go alone.
 
 > [!dm] What she won't say
-> Who she's been carrying messages for, or to whom.
+> ~~Who she's been carrying messages for, or to whom.~~ **Disclosed across S4–S5** (see below). Remaining held card: what the messages actually *said* — she never read them and still doesn't know.
 
+> [!dm] Session 004 — the confession opens
+> In the aftermath of the Greengrass crash, Sela came to the party shaking and admitted the arrangement plainly: *"He has been using me. I knew. I didn't know how to say it."* She is the courier for the unnamed lord of the **Bright Court Beneath** (see [[factions]] §8); the ribbon-knot on her belt is his livery. This opens the **Sela arc** — her faction status shifts from "warm secondary contact" to **actively asking the party for help.** **(DM ADDITION, Session 004)**
 
-**Practical notes:** She can provide healing poultices, basic antitoxins, and herbal remedies. She won't charge people who genuinely can't pay. She'll also answer questions about the Living Wood — up to a point. **(DM ADDITION)**
+> [!dm] Session 005 — penitent ally
+> Walking the party into the Living Wood, Sela gives up the rest in layers: she has carried for the lord for **twelve years,** since a voice in a hawthorn promised to "hold the green" if she carried his words — and she now understands the messages were the instrument of the wood's **slow harvest,** not its salvation. By the Hawthorn Cleft she has turned **penitent ally:** she wants to undo twelve years of unwitting service, and the Thornward invites her to the full-moon audience to face the lord directly (*"he should have to say it to her face"*). She is no longer a guilty secret-keeper but a party-aligned NPC with a personal stake in the audience. **Status: penitent ally.** **(DM ADDITION, Session 005)**
+
+**Practical notes:** She can provide healing poultices, basic antitoxins, and herbal remedies. She won't charge people who genuinely can't pay. She'll also answer questions about the Living Wood — up to a point. As of S5 she is the party's **guide and message-reader in the Living Wood** (aids Animal Handling / Survival / fey-lore checks in the wood). **(DM ADDITION)**
 
 ---
 
@@ -299,10 +304,126 @@ tags:
 **Statline base:** Pixie *(MM p.253; CR 1/4)*. Tiny fey, neutral good. AC 15, HP 1, fly 30 ft. Innate spellcasting (CHA): at-will *druidcraft*; 1/day each — *confusion, dancing lights, detect evil and good, detect thoughts, dispel magic, entangle, fly, phantasmal force, polymorph, sleep*. Superior Invisibility. Magic Resistance.
 
 > [!dm] Session 004 — reappearance and the token
+<<<<<<< HEAD
 > Quillip turned up unbidden at the festival's **Greening** event. As Nalith was awarded the gold ribbon, something brushed her cheek and she caught a half-second glimpse of Quillip, who left her a **small fey berry/token**. Its effect is undefined; Nalith pocketed it ("it's going in my bag"). **Establish what the gift does before it's used.** Quillip is now an unprompted recurring presence, not just a one-site contact. **(DM ADDITION, Session 004)**
+=======
+> Quillip turned up unbidden at the festival's **Greening** event. As Nalith was awarded the gold ribbon, something brushed her cheek and she caught a half-second glimpse of Quillip, who left her a **small fey berry/token**. Its effect is undefined; Nalith pocketed it ("it's going in my bag"). Quillip is now an unprompted recurring presence, not just a one-site contact. **(DM ADDITION, Session 004)**
+
+> [!dm] Session 005 — the berry defined, and the quarter-moon riddle
+> The S4 berry is now defined as a **Guest-Token of the Bright Court ⚗️**: a dried hawthorn berry grown on the unnamed fey lord's own hawthorn, freely given by one of the Court's own. Reads to the Court as *guest-right.* **One-shot use** — if Nalith presents it at the Bright Court's hawthorn-cleft gate, the Thornward's challenge collapses from a real fight into a single ceremonial round (the party is received as invited guests, not tested trespassers). If unused at the gate, it remains a one-shot fey guest-token; planted in soil it grows into a hawthorn that blooms two weeks early (cosmetic). At the cleft Quillip also drops a **chained riddle-hook:** *"Full moon's his. But the quarter-moon's mine — hawthorn, midnight, bring four friends, not five. There's a thing he doesn't want you to see, and I do."* Distinct from the lord's full-moon audience; a separate door. **(DM ADDITION, Session 005)**
+>>>>>>> origin/main
 
 > [!cite] Source notes
-> Pixie statline from MM. Personality, location, name, and bargain framework are DM additions.
+> Pixie statline from MM. Personality, location, name, bargain framework, and the guest-token ruling are DM additions.
+
+---
+
+## Lorindar Greenmantle — The Antlered Herald
+
+- **Role:** Herald and outrider of the Bright Court Beneath; the unnamed fey lord's message-bearer
+- **Affiliation:** The Bright Court Beneath (Fey of the Living Wood — see [[factions]] §8)
+- **Location:** Ranges the Living Wood astride his stag **Erith-of-the-First-Snow**; comes and goes through the Feywild seam
+- **Status:** Alive — escaped the Greengrass crash (S4) by design
+- **One-line summary:** A courteous, antler-crowned fey emissary who will not raise his voice and will not be embarrassed — he delivered his lord's *mark* and audience invitation to the party at the Greengrass bonfire, took their measure in a scripted skirmish, and rode back into the wood.
+
+**Appearance:** Tall, slender fey, green-skinned and antler-crowned, in woven leaf-mail, bearing the Court's standard — a white branch crowned in iron antler hung with three ribbons of green, white, and bone. Rides a blossom-antlered stag the size of a draft horse. A long fey-iron glaive across his saddle. **(DM ADDITION)**
+
+**Personality:** Courteous to a fault; formal; serenely unafraid. Treats provocation as a test of the *other* party's manners. Will deliver his lord's word no matter what (*Standard-Bearer's Word*).
+
+**Motivations:**
+- *Wants:* To carry the Court's will to the surface intact — recon, provocation, and the delivery of the audience mark — without spilling guest-blood.
+- *Fears:* Embarrassing his lord; being forced to kill a child and sour the audience.
+
+**Relationship with the party:**
+- *As of Session 004:* The party "drew blood and remembered the face." He named them *marked* and invited them to the full-moon audience, then escaped (bloodied/round-3 trigger). Recurring **villain-or-ally pending the audience.**
+
+**Statline:** Custom CR 5 fey. Full stat-block in [[sessions/session 4/the-greengrass-greengage-2-combat-tracker|S4 combat tracker]]. **Do not kill him** without accepting the consequence (a fey lord with a personal grievance). **(DM ADDITION)**
+
+> [!cite] Source notes
+> Lorindar, Erith, and the Bright Court Beneath are DM additions introduced in Session 004. The fey lord he serves remains deliberately **unnamed.**
+
+---
+
+## Maelorn, the Thornward — Gatekeeper of the Hawthorn Gate
+
+- **Role:** Gatekeeper of the Bright Court's hawthorn-cleft seam; tester of those the lord has marked
+- **Affiliation:** The Bright Court Beneath (Fey of the Living Wood — see [[factions]] §8)
+- **Location:** The **Hawthorn Cleft** (see [[geography]]) — he holds the seam to the Court
+- **Status:** Alive — yields with honor, does not die in the S5 gate-test (by design)
+- **One-line summary:** A proud, old fey knight in bark and bronze who guards the door to his lord's court and asks the door's question with a blade in it — he tests the marked, pulls every killing blow, and kneels to name them worthy when they've proven themselves.
+
+**Appearance:** A fey knight armored in overlapping bark-and-bronze plate, helmed in a crown of living silver branches hung with white hawthorn blossom, wound with green-white-bone ribbons. His glaive ends in a single black thorn. Level voice, ancient bearing. **(DM ADDITION)**
+
+**Personality:** Courteous, formal, entirely unafraid; proud but not cruel. He fights to **measure,** never to kill (*"I will not aim to kill. Do not insult me by dying."*). Reads courage, restraint, cleverness, and mercy and reports them to the Court.
+
+**Motivations:**
+- *Wants:* To keep unworthy or hostile feet off the seam, and to deliver to his lord an honest measure of the mortals he's marked.
+- *Fears:* Failing the gate's law (admitting the unworthy) — or being forced to spill guest-blood and dishonor the audience.
+
+**Relationship with the party:**
+- *As of Session 005 (planned):* Tests the party at the gate; yields at bloodied/round-3 and names them worthy; gives a **guest-token of iron-hawthorn** and the full-moon audience terms (guest-right both ways). If Nalith presents Quillip's berry, he stands down and the test is pure ceremony. **Recurring fey functionary; potential ally at the audience.**
+
+**Notable mechanics (promoted for at-table use):**
+- *Ceremonial Restraint* — any hit that would drop a PC leaves them at **1 HP and prone** instead. He never kills.
+- *Ward of the Gate* — no one passes the seam while he stands within 15 ft. of it.
+- *Berry shortcut* — Quillip's guest-token collapses the challenge to one symbolic round.
+
+**Statline:** Custom CR 5 fey (⚗️). Full stat-block in [[sessions/session 5/the-hawthorn-gate-2-combat-tracker|S5 combat tracker]]. **Do not kill him** — killing the gatekeeper sours the audience into a grievance. **(DM ADDITION)**
+
+> [!cite] Source notes
+> Maelorn the Thornward, the Hawthorn Gate challenge, and the Ceremonial-Restraint mechanic are DM additions introduced in Session 005. The fey lord he serves remains deliberately **unnamed.**
+
+---
+
+## Rellan Tessar — Militia Scout (Recovered)
+
+- **Role:** Shadowdale militia scout; the man the party rescued in Session 001
+- **Affiliation:** Shadowdale militia (under Corwick Helm)
+- **Location:** Shadowdale village
+- **Status:** Alive and **recovered** — back on his feet as of Session 004
+- **One-line summary:** The scout the party pulled out of a Vhaeraunian cleft in Session 001, now healthy, grateful, and a genuinely gifted archer who treats the party as friends.
+
+**Appearance:** A wiry, weather-worn man in his late twenties, faster to smile now than the half-dead figure the party hauled out of Old Skull. Carries a longbow with easy familiarity. **(DM ADDITION)**
+
+**Personality:**
+- *In a word:* Game.
+- *Public face:* Easygoing, competitive in a friendly way, quick to credit a good shot. He owes the party his life and isn't shy about saying so.
+- *Mannerism:* Talks through his shots; compliments an opponent mid-contest (*"You're not messing around today, are you?"*).
+
+**Relationship with the party:**
+- *First impression (S4):* Warm and openly grateful. He competed against **Kto** in the Greengrass **archery contest** — he's an excellent archer and took the better of the later rounds, but bore her no ill will (*"That was a tough shot."*).
+- *What he offers:* A friendly inside contact within the militia, and a debt of gratitude the party can call on.
+
+> [!cite] Source notes
+> Rellan Tessar was established in Session 001 as the rescued scout. His recovery and archery skill are DM additions confirmed in Session 004.
+
+---
+
+## Helbrin — Touring Bard of the Dalelands
+
+- **Role:** Traveling minstrel; the most famous performer currently touring the Dales
+- **Affiliation:** Independent; tours the Dalelands circuit
+- **Location:** Itinerant — passed through Shadowdale for the Greengrass Festival (Session 004)
+- **Status:** Alive
+- **One-line summary:** A celebrated, road-hardened elf lutenist — "the Justin Bieber of the Dales" — whose virtuoso musicianship can't quite cover for thin crowd-work, and who lost the festival's bardic showcase to Fiorn.
+
+**Appearance:** An elegant, well-dressed elf with the polished bearing of a touring professional and an extremely fine lute. Carries himself as the biggest name in any room — usually correctly. **(DM ADDITION)** *(Name spelling uncertain in the transcript — "Helbrin" / "Culbrin.")*
+
+**Personality:**
+- *In a word:* Condescending.
+- *Public face:* Charming to crowds, dismissive to rivals. Greeted Fiorn with backhanded contempt (*"in this little backwater, apparently you've been looking for yourself"*).
+- *Private self:* A real talent who knows it, and not above poaching a promising act for his own road show.
+- *Mannerism:* Frames every offer as a favor he's bestowing.
+
+**Motivations:**
+- *Wants:* To keep his reputation as the Dales' premier act; to surround himself with talent that flatters rather than threatens it.
+
+**Relationship with the party:**
+- *First impression (S4):* Rivalry. He out-musicianed Fiorn on raw lute skill but **lost the showcase** when his crowd-work round fell flat against Fiorn's; Fiorn took gold, Helbrin silver.
+- *What he wants from Fiorn:* After the loss, he offered Fiorn a **supporting-act slot on the road** — *"under me, of course."* Fiorn handed him a note: *"If you need anybody killed, seek me out."* **The touring offer stands** as an open hook.
+
+> [!cite] Source notes
+> Helbrin is a DM addition introduced in Session 004. Not from the sourcebooks or earlier campaign files. Confirm name spelling and decide whether to develop the touring-offer hook.
 
 ---
 
@@ -451,7 +572,17 @@ tags:
 | Sela Wyndmere | Nalith (party) | Ran the S4 Greening; praised Nalith's healing/animal-handling and awarded her gold |
 | Quillip Burr-and-Whistle | Sela Wyndmere | Both Living Wood fixtures; Sela will recognize the description if the party mentions her |
 | Quillip Burr-and-Whistle | *unnamed fey lord* | Knows of him; refuses to name him; will leave a conversation that presses on it |
+<<<<<<< HEAD
 | Quillip Burr-and-Whistle | Nalith (party) | Adopted the party; reappeared at the S4 festival to leave Nalith a fey token |
+=======
+| Quillip Burr-and-Whistle | Nalith (party) | Adopted the party; reappeared at the S4 festival to leave Nalith a fey token (now a Bright Court guest-token); drops the quarter-moon "four not five" riddle (S5) |
+| *unnamed fey lord* | Bright Court Beneath | He is its lord; the court's livery is the green-white-bone ribbon-knot. **Name reserved (S6+ reveal)** |
+| Lorindar Greenmantle (Herald) | Bright Court Beneath | The lord's outrider/message-bearer; delivered the party's "mark" (S4) |
+| Maelorn the Thornward | Bright Court Beneath | The lord's gatekeeper; holds the hawthorn-cleft seam; tests the marked (S5) |
+| Lorindar Greenmantle / Maelorn | party | Marked them (S4), tested them (S5); not enemies to kill — they test and yield |
+| Sela Wyndmere | party | S4–S5: confessed her courier service; now **penitent ally** and the party's guide into the Living Wood |
+| Sela Wyndmere | Bright Court Beneath | His unwitting courier of twelve years; invited to face the lord at the full-moon audience |
+>>>>>>> origin/main
 | Orvyn Tal | Yinu (party) | S4: revealed his Harper tie to Yinu, a Harper gift waiting at the shop — first direct recruitment |
 | Lady Ulphor | party | S4: paid the party 600 gp, took the portal-anchor pendant into her vault |
 | Corwick Helm | Kto (party) / Rellan Tessar | S4: warm toward Kto at the festival; rescued scout Tessar recovered and competing — rift thawing |

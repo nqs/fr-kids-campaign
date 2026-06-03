@@ -266,19 +266,38 @@ The Resistance's leadership is divided over whether to make contact with the Har
 The Living Wood surrounding Shadowdale is a fey-touched forest with an unusually thin border to the Feywild. The wood is home to nymphs, sprites, dryads, satyrs, and older powers — some benevolent, some territorial, all capricious. Lady Ulphor maintains a cautious, generally positive relationship with the fey community; Shadowdalers know to leave offerings and to not cut trees without asking. *[CG]*
 
 ### Key Contact (Roster)
+<<<<<<< HEAD
 - **Sela Wyndmere** (Shadowdale healer) — deeply embedded in the fey community. She attends "consultations" in the forest at night. A powerful fey lord has been asking her to carry messages she doesn't understand to recipients she doesn't know. She's been saying yes because she doesn't know how to say no. **Ran the Greengrass "Greening" event (S4); now on friendly terms with Nalith.** *[HOMEBREW]*
 - **Quillip Burr-and-Whistle** (pixie) — direct party ally since Session 003 (bargained intel for a song). **Reappeared at the S4 festival to leave Nalith a fey token** — the party's reliable, if capricious, line into the wood. *[HOMEBREW]*
 
 ### Current Situation
 Something has changed in the Living Wood near Old Skull. Fey who used to range freely across that stretch of forest are withdrawing. Sela has noticed strange behavior she can't explain as ordinary territorial activity. The party is the first people she's considered telling. **The drow incursion that drove the local fey off (S1–S3) is now ended — whether the wood's fey return is an open question.** Signs of **Feywild bleed-through** are mounting: at Orvyn's S4 arcane challenge, Yinu identified a primrose that fell through a seam from the Fey Realm and a tonic peddled by a planar traveler.
+=======
+- **Sela Wyndmere** (Shadowdale healer) — deeply embedded in the fey community. For **twelve years** she has carried ribbon-knotted messages for a fey lord of the wood, never reading them. **In the S4 aftermath she confessed the arrangement to the party;** in S5 (planned) she realizes the messages were the instrument of the wood's slow harvest and turns **penitent ally.** Ran the Greengrass "Greening" (S4); friendly with Nalith. *[HOMEBREW]*
+- **Quillip Burr-and-Whistle** (pixie) — direct party ally since Session 003 (bargained intel for a song). Left Nalith a **hawthorn berry** at the S4 festival (now defined as a **guest-token of the Bright Court** — see [[roster]]). The party's reliable, capricious line into the wood. *[HOMEBREW]*
+- **Lorindar Greenmantle, the Antlered Herald** (CR 5 fey) — the Bright Court's outrider and message-bearer; delivered the lord's audience mark to the party at the S4 bonfire. Statblock in [[sessions/session 4/the-greengrass-greengage-2-combat-tracker|S4 combat tracker]]. *[HOMEBREW]*
+- **Maelorn, the Thornward** (CR 5 fey) — gatekeeper of the Bright Court's hawthorn-cleft seam; tests those the lord has marked. Statblock in [[sessions/session 5/the-hawthorn-gate-2-combat-tracker|S5 combat tracker]]. *[HOMEBREW]*
 
-### The Unknown Fey Lord
-A powerful and old fey entity is using Sela as an unwitting courier. The messages he sends — and receives — are unknown. He is aware the drow threat threatens his domain, but his methods and allegiances are entirely opaque. This is a long-term thread, not a villain to fight immediately.
+### Current Situation
+The Living Wood near Old Skull is **emptying.** Fey who used to range the forest are withdrawing — and as of S5 the party learns this is not a flight from the drow but a **recall:** the wood's ambient enchantment is being pulled toward a single point (the **Hawthorn Cleft**; see [[geography]]). Color and birdsong drain the closer one walks to it. The withdrawal has stranded ordinary woodland animals on the wrong side of a contracting Feywild seam, leaving them **fey-touched and panicked** (the frightened-wood beasts of S5). Signs of **Feywild bleed-through** keep mounting: at Orvyn's S4 arcane challenge, Yinu identified a primrose that fell through a seam from the Fey Realm and a tonic peddled by a planar traveler.
+>>>>>>> origin/main
+
+### The Bright Court Beneath ⚗️
+The fey lord using Sela as a courier is a lord of the **Bright Court Beneath** — an old, powerful Feywild court whose seam runs deepest at the Hawthorn Cleft. **The lord himself remains unnamed** (he names himself at his own table; reserved for a later reveal — S6+).
+
+- **Livery / iconography:** a standard of a **white branch crowned in iron antler,** hung with three ribbons of **green, white, and bone.** The same knot marks the Court's couriers (Sela's belt-ribbon) and its gate (the standing stones of the cleft).
+- **Method — the slow harvest:** for twelve years the lord told Sela he would "hold the green" if she carried his words, and the wood *did* stay alive. What he was actually doing was **gathering the wood in** toward himself, a little each year — Sela was the unwitting instrument. As of the S4 mark, he has finished gathering *green* and begun gathering **people:** the party has been *marked* (claimed as known) and invited to an audience.
+- **Functionaries:** **Lorindar Greenmantle, the Antlered Herald** (outrider/message-bearer) and **Maelorn, the Thornward** (gatekeeper of the seam), plus **Sprite Outriders** on fey-touched owls. None are villains to be killed — the Court tests and provokes, but its servants pull their blows and yield with honor. Killing one curdles the lord's interest into a grievance.
+- **The audience:** at the **next full moon**, at the Hawthorn Cleft, under **guest-right** (no harm to the guests, none from them, while the ribbons hold). Sealed at the S5 gate. The lord's intentions toward the party are still opaque — patron, predator, or both. **A long-term thread, not an immediate war.**
+
+> [!dm] Disposition tracking
+> How the party handles the Court's tests (the frightened beasts, the Thornward's challenge) — mercy vs. murder, restraint vs. overkill — sets the lord's disposition toward them at the full-moon audience. Note it in the session log after S5 is played. **(DM ADDITION)**
 
 > [!hook] Adventure Hooks
-> - Sela asks the party to accompany her on a forest consultation — something has changed and she doesn't want to go alone
-> - Farmers on the forest edge report that their animals are going missing (the party has heard this in the village — see [[world]])
-> - A fey territorial dispute has spilled into farmland; the displaced farmer is considering an arson solution that would make everything much worse
+> - **The full-moon audience** at the Hawthorn Cleft (the S5 → S6 throughline) — and Naan's competing Temple-of-Lathander invitation falls on the *same* night
+> - **Quillip's quarter-moon offer** — "hawthorn, midnight, bring four friends, not five" — a different door the lord doesn't want the party to see
+> - **Sela's penance** — now an ally seeking to undo twelve years of unwitting service; what she carried, and to whom, is still unread
+> - Farmers on the forest edge report animals going missing (the fey-touched, seam-stranded beasts — see [[world]])
 
 ---
 

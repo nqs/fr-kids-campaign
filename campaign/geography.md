@@ -263,4 +263,26 @@ The **Greengrass Festival** (the Faerûnian spring holiday marking the end of wi
 
 ---
 
+<<<<<<< HEAD
+=======
+### The Hawthorn Cleft — Audience Ground of the Bright Court *(DM ADDITION)*
+
+A fey clearing deep in the **Living Wood**, north-east of Shadowdale beyond the Granite Shoulder, established in play in Session 005. Two enormous gnarled hawthorns have grown together into a living arch; beneath them a **Feywild seam** — the thin border that keeps this wood half-enchanted — has been pulled tight into a single shining doorway to the **Bright Court Beneath** (see [[factions]] §8). Seven mossy standing stones ring the clearing, each hung with a knotted ribbon of **green, white, and bone** (the Court's livery). Toadstool rings dot the turf; a ribboned cairn stands to the east.
+
+This is the **"hawthorn-cleft of his choosing"** named in the Antlered Herald's Session 004 audience invitation — the neutral ground where the unnamed fey lord will receive the party at the next full moon. The Court's gatekeeper, **Maelorn the Thornward** (see [[roster]]), holds the seam; no one passes it while he stands.
+
+**Approach & terrain:**
+- Reached on foot through the Living Wood from the village/Granite Shoulder side; the closer one gets, the more the wood's color and birdsong drain away — the seam has been **contracting**, recalling the wood's fey and ambient enchantment toward this single point (the cause of the broader fey withdrawal; see [[factions]] §8).
+- The clearing itself is the most alive ground left in the wood — white hawthorn bloom, green-gold light standing in the arch.
+- **The seam/arch** is the door to the Court; **Ward of the Gate** keeps it sealed against entry while the Thornward is conscious within 15 ft.
+
+> [!dm] Status after Session 005 (planned)
+> The party reaches the cleft, is tested at the gate, and the **full-moon audience is sealed** here (guest-right both ways while the ribbons hold). The cleft becomes the set-piece location for the Session 006 audience. The **frightened-wood beasts** (fey-touched stag and wolves stranded by the contracting seam) are encountered on the approach. **(DM ADDITION, Session 005)**
+
+> [!cite] Source notes
+> The Living Wood and its thin Feywild border are canonical Shadowdale geography *[CG]*. The Hawthorn Cleft, the contracting seam, the Bright Court Beneath, and the Thornward are DM additions established in Session 005.
+
+---
+
+>>>>>>> origin/main
 *When new locations, roads, or landmarks are established in play, record them here with the **(DM ADDITION)** tag.*
