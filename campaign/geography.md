@@ -263,8 +263,6 @@ The **Greengrass Festival** (the Faerûnian spring holiday marking the end of wi
 
 ---
 
-<<<<<<< HEAD
-=======
 ### The Hawthorn Cleft — Audience Ground of the Bright Court *(DM ADDITION)*
 
 A fey clearing deep in the **Living Wood**, north-east of Shadowdale beyond the Granite Shoulder, established in play in Session 005. Two enormous gnarled hawthorns have grown together into a living arch; beneath them a **Feywild seam** — the thin border that keeps this wood half-enchanted — has been pulled tight into a single shining doorway to the **Bright Court Beneath** (see [[factions]] §8). Seven mossy standing stones ring the clearing, each hung with a knotted ribbon of **green, white, and bone** (the Court's livery). Toadstool rings dot the turf; a ribboned cairn stands to the east.
@@ -284,5 +282,4 @@ This is the **"hawthorn-cleft of his choosing"** named in the Antlered Herald's 
 
 ---
 
->>>>>>> origin/main
 *When new locations, roads, or landmarks are established in play, record them here with the **(DM ADDITION)** tag.*

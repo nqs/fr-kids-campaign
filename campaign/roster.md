@@ -304,14 +304,10 @@ tags:
 **Statline base:** Pixie *(MM p.253; CR 1/4)*. Tiny fey, neutral good. AC 15, HP 1, fly 30 ft. Innate spellcasting (CHA): at-will *druidcraft*; 1/day each — *confusion, dancing lights, detect evil and good, detect thoughts, dispel magic, entangle, fly, phantasmal force, polymorph, sleep*. Superior Invisibility. Magic Resistance.
 
 > [!dm] Session 004 — reappearance and the token
-<<<<<<< HEAD
-> Quillip turned up unbidden at the festival's **Greening** event. As Nalith was awarded the gold ribbon, something brushed her cheek and she caught a half-second glimpse of Quillip, who left her a **small fey berry/token**. Its effect is undefined; Nalith pocketed it ("it's going in my bag"). **Establish what the gift does before it's used.** Quillip is now an unprompted recurring presence, not just a one-site contact. **(DM ADDITION, Session 004)**
-=======
 > Quillip turned up unbidden at the festival's **Greening** event. As Nalith was awarded the gold ribbon, something brushed her cheek and she caught a half-second glimpse of Quillip, who left her a **small fey berry/token**. Its effect is undefined; Nalith pocketed it ("it's going in my bag"). Quillip is now an unprompted recurring presence, not just a one-site contact. **(DM ADDITION, Session 004)**
 
 > [!dm] Session 005 — the berry defined, and the quarter-moon riddle
 > The S4 berry is now defined as a **Guest-Token of the Bright Court ⚗️**: a dried hawthorn berry grown on the unnamed fey lord's own hawthorn, freely given by one of the Court's own. Reads to the Court as *guest-right.* **One-shot use** — if Nalith presents it at the Bright Court's hawthorn-cleft gate, the Thornward's challenge collapses from a real fight into a single ceremonial round (the party is received as invited guests, not tested trespassers). If unused at the gate, it remains a one-shot fey guest-token; planted in soil it grows into a hawthorn that blooms two weeks early (cosmetic). At the cleft Quillip also drops a **chained riddle-hook:** *"Full moon's his. But the quarter-moon's mine — hawthorn, midnight, bring four friends, not five. There's a thing he doesn't want you to see, and I do."* Distinct from the lord's full-moon audience; a separate door. **(DM ADDITION, Session 005)**
->>>>>>> origin/main
 
 > [!cite] Source notes
 > Pixie statline from MM. Personality, location, name, bargain framework, and the guest-token ruling are DM additions.
@@ -372,58 +368,6 @@ tags:
 
 > [!cite] Source notes
 > Maelorn the Thornward, the Hawthorn Gate challenge, and the Ceremonial-Restraint mechanic are DM additions introduced in Session 005. The fey lord he serves remains deliberately **unnamed.**
-
----
-
-## Rellan Tessar — Militia Scout (Recovered)
-
-- **Role:** Shadowdale militia scout; the man the party rescued in Session 001
-- **Affiliation:** Shadowdale militia (under Corwick Helm)
-- **Location:** Shadowdale village
-- **Status:** Alive and **recovered** — back on his feet as of Session 004
-- **One-line summary:** The scout the party pulled out of a Vhaeraunian cleft in Session 001, now healthy, grateful, and a genuinely gifted archer who treats the party as friends.
-
-**Appearance:** A wiry, weather-worn man in his late twenties, faster to smile now than the half-dead figure the party hauled out of Old Skull. Carries a longbow with easy familiarity. **(DM ADDITION)**
-
-**Personality:**
-- *In a word:* Game.
-- *Public face:* Easygoing, competitive in a friendly way, quick to credit a good shot. He owes the party his life and isn't shy about saying so.
-- *Mannerism:* Talks through his shots; compliments an opponent mid-contest (*"You're not messing around today, are you?"*).
-
-**Relationship with the party:**
-- *First impression (S4):* Warm and openly grateful. He competed against **Kto** in the Greengrass **archery contest** — he's an excellent archer and took the better of the later rounds, but bore her no ill will (*"That was a tough shot."*).
-- *What he offers:* A friendly inside contact within the militia, and a debt of gratitude the party can call on.
-
-> [!cite] Source notes
-> Rellan Tessar was established in Session 001 as the rescued scout. His recovery and archery skill are DM additions confirmed in Session 004.
-
----
-
-## Helbrin — Touring Bard of the Dalelands
-
-- **Role:** Traveling minstrel; the most famous performer currently touring the Dales
-- **Affiliation:** Independent; tours the Dalelands circuit
-- **Location:** Itinerant — passed through Shadowdale for the Greengrass Festival (Session 004)
-- **Status:** Alive
-- **One-line summary:** A celebrated, road-hardened elf lutenist — "the Justin Bieber of the Dales" — whose virtuoso musicianship can't quite cover for thin crowd-work, and who lost the festival's bardic showcase to Fiorn.
-
-**Appearance:** An elegant, well-dressed elf with the polished bearing of a touring professional and an extremely fine lute. Carries himself as the biggest name in any room — usually correctly. **(DM ADDITION)** *(Name spelling uncertain in the transcript — "Helbrin" / "Culbrin.")*
-
-**Personality:**
-- *In a word:* Condescending.
-- *Public face:* Charming to crowds, dismissive to rivals. Greeted Fiorn with backhanded contempt (*"in this little backwater, apparently you've been looking for yourself"*).
-- *Private self:* A real talent who knows it, and not above poaching a promising act for his own road show.
-- *Mannerism:* Frames every offer as a favor he's bestowing.
-
-**Motivations:**
-- *Wants:* To keep his reputation as the Dales' premier act; to surround himself with talent that flatters rather than threatens it.
-
-**Relationship with the party:**
-- *First impression (S4):* Rivalry. He out-musicianed Fiorn on raw lute skill but **lost the showcase** when his crowd-work round fell flat against Fiorn's; Fiorn took gold, Helbrin silver.
-- *What he wants from Fiorn:* After the loss, he offered Fiorn a **supporting-act slot on the road** — *"under me, of course."* Fiorn handed him a note: *"If you need anybody killed, seek me out."* **The touring offer stands** as an open hook.
-
-> [!cite] Source notes
-> Helbrin is a DM addition introduced in Session 004. Not from the sourcebooks or earlier campaign files. Confirm name spelling and decide whether to develop the touring-offer hook.
 
 ---
 
@@ -572,9 +516,6 @@ tags:
 | Sela Wyndmere | Nalith (party) | Ran the S4 Greening; praised Nalith's healing/animal-handling and awarded her gold |
 | Quillip Burr-and-Whistle | Sela Wyndmere | Both Living Wood fixtures; Sela will recognize the description if the party mentions her |
 | Quillip Burr-and-Whistle | *unnamed fey lord* | Knows of him; refuses to name him; will leave a conversation that presses on it |
-<<<<<<< HEAD
-| Quillip Burr-and-Whistle | Nalith (party) | Adopted the party; reappeared at the S4 festival to leave Nalith a fey token |
-=======
 | Quillip Burr-and-Whistle | Nalith (party) | Adopted the party; reappeared at the S4 festival to leave Nalith a fey token (now a Bright Court guest-token); drops the quarter-moon "four not five" riddle (S5) |
 | *unnamed fey lord* | Bright Court Beneath | He is its lord; the court's livery is the green-white-bone ribbon-knot. **Name reserved (S6+ reveal)** |
 | Lorindar Greenmantle (Herald) | Bright Court Beneath | The lord's outrider/message-bearer; delivered the party's "mark" (S4) |
@@ -582,7 +523,6 @@ tags:
 | Lorindar Greenmantle / Maelorn | party | Marked them (S4), tested them (S5); not enemies to kill — they test and yield |
 | Sela Wyndmere | party | S4–S5: confessed her courier service; now **penitent ally** and the party's guide into the Living Wood |
 | Sela Wyndmere | Bright Court Beneath | His unwitting courier of twelve years; invited to face the lord at the full-moon audience |
->>>>>>> origin/main
 | Orvyn Tal | Yinu (party) | S4: revealed his Harper tie to Yinu, a Harper gift waiting at the shop — first direct recruitment |
 | Lady Ulphor | party | S4: paid the party 600 gp, took the portal-anchor pendant into her vault |
 | Corwick Helm | Kto (party) / Rellan Tessar | S4: warm toward Kto at the festival; rescued scout Tessar recovered and competing — rift thawing |

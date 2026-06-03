@@ -266,13 +266,6 @@ The Resistance's leadership is divided over whether to make contact with the Har
 The Living Wood surrounding Shadowdale is a fey-touched forest with an unusually thin border to the Feywild. The wood is home to nymphs, sprites, dryads, satyrs, and older powers — some benevolent, some territorial, all capricious. Lady Ulphor maintains a cautious, generally positive relationship with the fey community; Shadowdalers know to leave offerings and to not cut trees without asking. *[CG]*
 
 ### Key Contact (Roster)
-<<<<<<< HEAD
-- **Sela Wyndmere** (Shadowdale healer) — deeply embedded in the fey community. She attends "consultations" in the forest at night. A powerful fey lord has been asking her to carry messages she doesn't understand to recipients she doesn't know. She's been saying yes because she doesn't know how to say no. **Ran the Greengrass "Greening" event (S4); now on friendly terms with Nalith.** *[HOMEBREW]*
-- **Quillip Burr-and-Whistle** (pixie) — direct party ally since Session 003 (bargained intel for a song). **Reappeared at the S4 festival to leave Nalith a fey token** — the party's reliable, if capricious, line into the wood. *[HOMEBREW]*
-
-### Current Situation
-Something has changed in the Living Wood near Old Skull. Fey who used to range freely across that stretch of forest are withdrawing. Sela has noticed strange behavior she can't explain as ordinary territorial activity. The party is the first people she's considered telling. **The drow incursion that drove the local fey off (S1–S3) is now ended — whether the wood's fey return is an open question.** Signs of **Feywild bleed-through** are mounting: at Orvyn's S4 arcane challenge, Yinu identified a primrose that fell through a seam from the Fey Realm and a tonic peddled by a planar traveler.
-=======
 - **Sela Wyndmere** (Shadowdale healer) — deeply embedded in the fey community. For **twelve years** she has carried ribbon-knotted messages for a fey lord of the wood, never reading them. **In the S4 aftermath she confessed the arrangement to the party;** in S5 (planned) she realizes the messages were the instrument of the wood's slow harvest and turns **penitent ally.** Ran the Greengrass "Greening" (S4); friendly with Nalith. *[HOMEBREW]*
 - **Quillip Burr-and-Whistle** (pixie) — direct party ally since Session 003 (bargained intel for a song). Left Nalith a **hawthorn berry** at the S4 festival (now defined as a **guest-token of the Bright Court** — see [[roster]]). The party's reliable, capricious line into the wood. *[HOMEBREW]*
 - **Lorindar Greenmantle, the Antlered Herald** (CR 5 fey) — the Bright Court's outrider and message-bearer; delivered the lord's audience mark to the party at the S4 bonfire. Statblock in [[sessions/session 4/the-greengrass-greengage-2-combat-tracker|S4 combat tracker]]. *[HOMEBREW]*
@@ -280,7 +273,6 @@ Something has changed in the Living Wood near Old Skull. Fey who used to range f
 
 ### Current Situation
 The Living Wood near Old Skull is **emptying.** Fey who used to range the forest are withdrawing — and as of S5 the party learns this is not a flight from the drow but a **recall:** the wood's ambient enchantment is being pulled toward a single point (the **Hawthorn Cleft**; see [[geography]]). Color and birdsong drain the closer one walks to it. The withdrawal has stranded ordinary woodland animals on the wrong side of a contracting Feywild seam, leaving them **fey-touched and panicked** (the frightened-wood beasts of S5). Signs of **Feywild bleed-through** keep mounting: at Orvyn's S4 arcane challenge, Yinu identified a primrose that fell through a seam from the Fey Realm and a tonic peddled by a planar traveler.
->>>>>>> origin/main
 
 ### The Bright Court Beneath ⚗️
 The fey lord using Sela as a courier is a lord of the **Bright Court Beneath** — an old, powerful Feywild court whose seam runs deepest at the Hawthorn Cleft. **The lord himself remains unnamed** (he names himself at his own table; reserved for a later reveal — S6+).
