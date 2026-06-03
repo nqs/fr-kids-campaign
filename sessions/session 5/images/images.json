@@ -1,0 +1,62 @@
+[
+  {
+    "description": "Title Page — The Hawthorn Gate",
+    "url": "https://storage.gemini.mcp.nqs.io/images/d597c8e3-787a-418e-813f-57e137d5d3d1.png",
+    "aspect_ratio": "3:4",
+    "file": "title-page-the-hawthorn-gate.jpg"
+  },
+  {
+    "description": "Morning After the Greengrass Bonfire — the Shadowdale village green",
+    "url": "https://storage.gemini.mcp.nqs.io/images/d7d8236a-5bee-4e14-99e6-6b52a480ca2b.png",
+    "aspect_ratio": "16:9",
+    "file": "recap-morning-after-the-greengrass-bonfire-shadowdale-green.jpg"
+  },
+  {
+    "description": "The Hawthorn Cleft — seam to the Bright Court Beneath",
+    "url": "https://storage.gemini.mcp.nqs.io/images/3db5005e-5078-4445-8b9c-d3b47a2c994a.png",
+    "aspect_ratio": "16:9",
+    "file": "the-hawthorn-cleft-seam-to-the-bright-court-beneath.jpg"
+  },
+  {
+    "description": "The Bright Court Gatekeeper — Antler-Knight of the Living Wood",
+    "url": "https://storage.gemini.mcp.nqs.io/images/4bf897f3-5f05-4013-b8bf-fe13669c4526.png",
+    "aspect_ratio": "3:4",
+    "file": "the-bright-court-gatekeeper-antler-knight-of-the-living-wood.jpg"
+  },
+  {
+    "description": "Fey-Touched Great Stag and Wolves of the Frightened Wood",
+    "url": "https://storage.gemini.mcp.nqs.io/images/60c3df1f-0866-4338-b36e-a5901ec3408f.png",
+    "aspect_ratio": "3:4",
+    "file": "fey-touched-great-stag-and-wolves-of-the-frightened-wood.jpg"
+  },
+  {
+    "description": "Tactical Map — Encounter 1, The Frightened Wood",
+    "url": "https://storage.gemini.mcp.nqs.io/images/3741dcc6-ca54-4364-af34-7c940f305179.png",
+    "aspect_ratio": "3:4",
+    "file": "tactical-map-encounter-1-the-frightened-wood.jpg"
+  },
+  {
+    "description": "Tactical Map — Encounter 2, The Hawthorn Gate",
+    "url": "https://storage.gemini.mcp.nqs.io/images/b6a4881b-7edb-43a8-92f1-ab2e8cffb62b.png",
+    "aspect_ratio": "3:4",
+    "file": "tactical-map-encounter-2-the-hawthorn-gate.jpg"
+  },
+  {
+    "description": "Sela Wyndmere — Shadowdale healer and unwilling fey courier (reused from session 4)",
+    "url": "https://storage.gemini.mcp.nqs.io/images/db2dc54c-e594-4a2c-986f-03262373b20b.png",
+    "aspect_ratio": "3:4",
+    "file": "sela-wyndmere-shadowdale-healer-and-unwilling-fey-courier.jpg"
+  },
+  {
+    "description": "Quillip Burr-and-Whistle — Pixie ally of the Living Wood (reused from session 3)",
+    "url": "https://storage.gemini.mcp.nqs.io/images/f0be0843-81b5-4ed2-851d-a66dca504923.png",
+    "aspect_ratio": "3:4",
+    "file": "quillip-burr-and-whistle-pixie-ally-at-the-watcher-above.jpg"
+  },
+  {
+    "description": "Sprite Outriders on fey-touched giant owls (reused from session 4)",
+    "url": "https://storage.gemini.mcp.nqs.io/images/0a8a1646-979f-475b-875b-73fda652afe6.png",
+    "aspect_ratio": "16:9",
+    "file": "sprite-outriders-on-fey-touched-giant-owls-circling-the-village-green-at-dusk.jpg"
+  }
+]
