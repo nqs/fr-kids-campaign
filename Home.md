@@ -39,6 +39,11 @@ Each guide has a single `full.md`, per-page files under `pages/page-NNNN.md`, an
 
 This content is authored as **GitHub-flavoured Markdown** so it renders cleanly both when browsing the repo and when published as a GitHub Wiki. There are no plugins to install and no app to configure.
 
+**You only ever edit this repo.** The repo's GitHub Wiki is generated automatically from these files by the `Sync Wiki` GitHub Action (`.github/workflows/sync-wiki.yml`): on every push to `main` it runs `scripts/build_wiki.py` to stage a wiki-ready tree (extensionless page links, `session N` → `session-N`, references/PDFs linked back to the repo) and pushes it into the repo's `*.wiki.git`. No second repo to maintain by hand.
+
+> [!IMPORTANT]
+> **One-time setup:** the wiki repo must exist before the Action can push to it. Enable **Settings → Features → Wikis**, then open the **Wiki** tab and click **Create the first page** once (any content). After that the sync runs on its own. You can also trigger it manually from the **Actions → Sync Wiki → Run workflow** button.
+
 ## Layout
 
 ```

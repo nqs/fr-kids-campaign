@@ -13,6 +13,9 @@ __pycache__/
 *.pyc
 .venv/
 
+# Generated GitHub-wiki staging tree (built by scripts/build_wiki.py in CI)
+wiki/
+
 # --- whisperx transcriber ---
 # Append these lines to your repo's existing .gitignore.
 
