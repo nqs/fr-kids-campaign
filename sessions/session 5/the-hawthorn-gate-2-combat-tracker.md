@@ -64,7 +64,8 @@ NPC initiative is pre-rolled (DEX-averaged). PCs roll live and write into the bl
 - **Great Stag** — R1 Charge the nearest armored PC between it and the deer-path (Kto), gore + knockdown. R2 thrash free of melee, Blink toward the seam, gore anyone in the gap. R3 all-out bolt for the door. **Calmed at any point → it stops and the fight unwinds.**
 - **Fey-Touched Wolves (×4)** — R1 Pack Tactics onto whoever blocks the path; Blink past front-liners toward soft targets only if cornered. R2 harry, knock prone, peel toward the seam as it shrinks. R3 break for the door. **Lose heart and scatter if the stag is calmed (WIS DC 12).**
 
-> [!flag] DM — This is a mercy puzzle wearing a fight's clothes
+> [!WARNING]
+> **Flag:** DM — This is a mercy puzzle wearing a fight's clothes
 > The party has Nalith (Animal Handling +6, Druid), Naan (Skilled: Animal Handling; Healing Light works on the stag), and Kto (Animal Handling +5). Any *one* success on the stag ends it. Don't hide the off-ramp — telegraph the fear in the beasts' eyes from initiative. If the table chooses violence, run it straight, but make every bloodied beast *flinch,* not snarl.
 
 ### Loot / Aftermath
@@ -193,7 +194,8 @@ NPC initiative is pre-rolled (DEX-averaged). PCs roll live and write into the bl
 - **Maelorn the Thornward** — R1 deliver the challenge (free), Thorn-Glaive ×2 against the boldest melee PC, pulling the blow. R2 *Bramble Snare* to control the line, glaive the snared. R3 yield (or earlier at bloodied). **Stays between the party and the seam** the entire fight.
 - **Sprite Outrider 1 & 2** — R1 hover, *Heart-Sight Arrows* at the two most aggressive PCs; any sprite reading "resolve, not malice" shifts to non-lethal for the fight. R2 *Sleep-Tipped Arrows* at the highest-output caster (non-lethal). R3 salute and peel off when the Thornward yields. **They mirror the S4 outriders exactly** — players should recognize them.
 
-> [!flag] DM — This is the Herald fight's sequel, by design
+> [!WARNING]
+> **Flag:** DM — This is the Herald fight's sequel, by design
 > Same shape as S4's crash: a courteous fey who will not be embarrassed, two familiar sprites, a hard parley trigger, no PC deaths, no fey deaths. The *difference* is the question it asks. Watch what the party does and write it down — restraint, cleverness, mercy, or swagger all give the Court a different read for the full-moon audience (S6).
 
 ### Maelorn, the Thornward

@@ -1,6 +1,6 @@
 # D&D 5e Adventure Generator
 
-This file defines the procedure the agent follows to produce print-ready D&D 5e adventures, encounters, NPCs, and stat blocks. The primary deliverable is a set of Obsidian markdown files with AI-generated portraits and maps embedded by URL; printable PDFs are compiled from those markdown files as a separate, opt-in step.
+This file defines the procedure the agent follows to produce print-ready D&D 5e adventures, encounters, NPCs, and stat blocks. The primary deliverable is a set of GitHub-flavoured Markdown files with AI-generated portraits and maps embedded by URL; printable PDFs are compiled from those markdown files as a separate, opt-in step.
 
 This is a **preparation tool**, not an interactive DM. Do not simulate gameplay, roll dice, or track party state across sessions. Produce content the DM can read at the table.
 
@@ -33,7 +33,7 @@ For adventures or encounters, confirm the party size and level before generating
 
 Draft the overall idea and plot, and ask for changes. Once that's locked, provide an outline with short descriptions of each encounter or area. Ask for revisions — or whether the user is ready to generate images.
 
-When the outline needs Forgotten Realms canon (a city, faction, deity, recurring NPC), pull it from the markdown extracts in `references/campaign-guide/_raw/` and `references/players-guide/_raw/` (use `full.md` or `pages/page-NNNN.md`; figures are in `images/`). These extracts are the only canon source — the original FR PDFs are no longer in the vault. Source-hierarchy and citation rules live in `AGENTS.md`.
+When the outline needs Forgotten Realms canon (a city, faction, deity, recurring NPC), pull it from the markdown extracts in `references/campaign-guide/_raw/` and `references/players-guide/_raw/` (use `full.md` or `pages/page-NNNN.md`; figures are in `images/`). These extracts are the only canon source — the original FR PDFs are no longer in the repo. Source-hierarchy and citation rules live in `AGENTS.md`.
 
 Stay in this loop until the user explicitly says to move to images. Don't jump to image generation on your own.
 
@@ -80,7 +80,7 @@ section: <main-body|combat-tracker|player-handouts|dm-quick-ref>
 
 The session number appears in two intentionally different forms: the folder is `sessions/session <N>` with the bare number (e.g. `session 3`), while the `session:` frontmatter key and the quick-ref `Session NNN` line use a zero-padded three-digit form (e.g. `003`). Both refer to the same session; the padding keeps frontmatter values sorting correctly.
 
-The adventure file may add `tier`, `party_level`, and `duration` keys. Inline images use standard markdown `![Caption](https://…)` referencing the Gemini URLs from Step 4 — never download or rehost. (The ReportLab renderer prefers the git-tracked local jpg via the `images.json` `file` key, so a scripted PDF still builds after a URL expires; the Obsidian-native export path renders the embedded URL and so depends on it still being live.) Use vanilla Obsidian markdown (tables, headers, lists, fenced code). Do not use Fantasy Statblocks or Admonition syntax unless the user has explicitly asked for them; the print/export pipelines assume plain markdown.
+The adventure file may add `tier`, `party_level`, and `duration` keys. Inline images use standard markdown `![Caption](https://…)` referencing the Gemini URLs from Step 4 — never download or rehost. (The ReportLab renderer prefers the git-tracked local jpg via the `images.json` `file` key, so a scripted PDF still builds after a URL expires; on-screen GitHub rendering uses the embedded URL and so depends on it still being live.) Use plain GitHub-flavoured Markdown (tables, headers, lists, fenced code, and the five GitHub alert types). Do not use Fantasy Statblocks or Obsidian Admonition syntax; the print/export pipelines assume plain markdown.
 
 **File 1 — `<slug>-1-adventure.md`:** opens with a **full-page title page**, then the adventure narrative — summary, scenes, encounters, NPCs, treasure, loose ends.
 
@@ -92,7 +92,7 @@ The title page is the **only image in File 1**. Structure it as:
 
 No other images appear anywhere else in File 1 — no portraits, no monster art, no scene illustrations, no additional maps. The title page illustration URL is reused in File 3 under its location section; the `images.json` entry is not duplicated. All other imagery lives in File 2 (maps) or File 3 (everything else).
 
-**File 2 — `<slug>-2-combat-tracker.md`:** for every combat encounter, content is rendered in this **strict order**: (1) combat title heading, (2) italic subtitle line, (3) encounter summary table, (4) initiative table + tracker sheet sections, (5) stat-block cards for every non-PC combatant with round-by-round actions, (6) a **hard page break followed by a full-page tactical map on its own page**. See the Combat Tracker section below for the full specification. A tactical map is **required** for every combat encounter — do not author a combat encounter entry without one. Tactical maps live in File 2 **only** — never in File 1 or File 3. NPC portraits live in File 3 **only** — never in File 2. Tracker sheets and stat-block cards are expressed as markdown tables. HP boxes, round counters, and spell slots use the `☐` glyph (Obsidian renders it; the PDF font does not — see PDF rules).
+**File 2 — `<slug>-2-combat-tracker.md`:** for every combat encounter, content is rendered in this **strict order**: (1) combat title heading, (2) italic subtitle line, (3) encounter summary table, (4) initiative table + tracker sheet sections, (5) stat-block cards for every non-PC combatant with round-by-round actions, (6) a **hard page break followed by a full-page tactical map on its own page**. See the Combat Tracker section below for the full specification. A tactical map is **required** for every combat encounter — do not author a combat encounter entry without one. Tactical maps live in File 2 **only** — never in File 1 or File 3. NPC portraits live in File 3 **only** — never in File 2. Tracker sheets and stat-block cards are expressed as markdown tables. HP boxes, round counters, and spell slots use the `☐` glyph (GitHub renders it; the PDF font does not — see PDF rules).
 
 **File 3 — `<slug>-3-player-handouts.md`:** opens with a **"Where We Left Off" recap page** (see the **Session Recap Page** section below), then **every non-tactical image generated in Step 4** — NPC portraits, monster art, location scenes — each under its own `##` heading naming the subject. One image per section. This file is the **sole home** for player-facing adventure imagery: the title page illustration URL is reused here under its location section (File 1 holds the only other copy), and every portrait, monster, and location illustration the players ever see is here. **Tactical / encounter maps never appear in this file** — they live in File 2 (combat tracker) so the DM keeps them table-side without revealing the encounter layout to the players.
 
@@ -124,9 +124,8 @@ After the bible is updated, present a summary of the diff and stop. Step 7 is op
 
 Only run this step when the user explicitly asks for PDFs. The four markdown files from Step 5 are the source of truth; the PDF is rendered **from** them. Never write narrative content into the PDF build that doesn't exist in the markdown — if something needs to change, change the markdown and rebuild.
 
-Two acceptable approaches — ask which the user prefers if it isn't already established:
+For on-screen reading, the Markdown renders directly on GitHub (repo or wiki) and in any Markdown previewer — no plugin or build step required. For a print-ready PDF, use the scripted path:
 
-- **Obsidian-native** — the user exports each markdown file via the **Better Export PDF** plugin (configured in `Obsidian Setup.md`, with the `dnd-print.css` snippet enabled). The agent's job is to make sure the markdown renders cleanly. No script work required.
 - **ReportLab build (markdown → PDF renderer)** — for adventures that need rendered checkbox cells, parchment stat-card backgrounds, or a single combined PDF, run the reusable build script at `scripts/build_pdf.py`. It parses the four markdown files in order (`<slug>-1-adventure.md` → `<slug>-2-combat-tracker.md` → `<slug>-3-player-handouts.md` → `<slug>-4-dm-quick-ref.md`) and emits a single PDF. The script contains no duplicated narrative — narrative lives only in the markdown.
 
 The reusable scripts:
@@ -150,7 +149,7 @@ ReportLab build rules (these describe what `scripts/md_to_pdf.py` already implem
 - **Image sizing.** Every image renders **full-page on an 8.5"×11" sheet** — sized to fill the printable area while preserving aspect ratio. Max 7.2"×9.8" for an unbound image; max 7.2"×8.5" when bound to a heading via `KeepTogether` (so the heading + image fit one page). Step 4 captures `{description, url, aspect_ratio, file}` for each image; persist that list as `images/images.json` in the session folder so the renderer can letterbox correctly without re-querying Gemini. Lookup is by URL; the renderer reads the local `file` when present (durable, expiry-proof) and only fetches the URL as a fallback. If a URL isn't found in the manifest, fall back to a 4:3 default and warn. Generate every image at high enough resolution to print at full size.
 - **Page-break placement.** The renderer aims to keep the page filled. Concretely: each section heading immediately followed by an image is bound to that image (`KeepTogether`) so the heading isn't orphaned on an otherwise-empty page; an image not bound to a heading flows naturally — ReportLab page-breaks before it if it doesn't fit in the remaining space, but a short landscape image will render below trailing text rather than force a near-empty page. Adjacent page breaks are coalesced (no blank pages), and body paragraphs use `allowWidows=0` / `allowOrphans=0` so a paragraph can't leave one stray line at the top of an otherwise-empty page. In the combat-tracker file, each encounter (`## Encounter N`) still gets its own page boundary so the tracker sheet stays organized; in the adventure and player-handout files, H2 sections flow naturally so two short entries (e.g., two landscape-image handouts) can share a page.
 - **Output:** single PDF at `sessions/session <N>/<adventure-slug>.pdf` (the slug is derived from `<slug>-1-adventure.md`).
-- **Run:** from the repo root, `.venv/bin/python scripts/build_pdf.py [<session-number-or-folder>]`. With no argument it builds the latest session; pass `3` or `"sessions/session 3"` to target a specific one. Optional `--title` and `--out` flags override the auto-detected title and output path. Tell the user the PDF path on completion; the user opens it themselves in Obsidian or Finder.
+- **Run:** from the repo root, `.venv/bin/python scripts/build_pdf.py [<session-number-or-folder>]`. With no argument it builds the latest session; pass `3` or `"sessions/session 3"` to target a specific one. Optional `--title` and `--out` flags override the auto-detected title and output path. Tell the user the PDF path on completion; the user opens it themselves in their browser or Finder.
 - **Dependencies:** `mistune` and `reportlab`, installed into a project venv at `.venv/`. If the venv is missing, create it once with `python3 -m venv .venv && .venv/bin/python -m pip install mistune reportlab`. Do not install into the system Python (Homebrew Python is PEP 668 externally-managed).
 
 ## Text Standards
@@ -181,7 +180,7 @@ Never use any built-in vector drawing tool or any Python-drawn graphics for adve
 - Images flow through from the markdown only — the renderer does not insert images that aren't already in the source files. File 1 carries exactly one image: the title page illustration, which renders full-page immediately after the title heading and summary table, followed by a `---` page break before the narrative begins. Every portrait, monster art, and remaining scene illustration renders inside the handout appendix (File 3), each under its own subheading. Tactical maps render from File 2 **only**, and always **last in their encounter section** — after the tracker sheet and all stat-block cards — on their **own full page**, preceded by a hard page break (`---`). NPC and monster portraits **never** appear in File 2; stat-block cards in the combat tracker are text-only.
 - **Every image renders full-page** (see **Invariants** for the sizing rule). The renderer page-breaks before and after each `![alt](url)` and sizes the image to fill the printable area while preserving its aspect ratio.
 - Images load at PDF build time from the git-tracked local jpg (via the `images.json` `file` key), falling back to the Gemini URL when no local copy is present.
-- Final PDF output goes to `sessions/session <N>/<adventure-slug>.pdf`. The user opens it in Obsidian or Finder; do not attempt to invoke a presentation tool.
+- Final PDF output goes to `sessions/session <N>/<adventure-slug>.pdf`. The user opens it in their browser or Finder; do not attempt to invoke a presentation tool.
 
 ### Session folder layout
 
@@ -286,7 +285,7 @@ These rules are **single-pass and pattern-based** — the renderer recognizes sh
 
 ### PDF rendering rules
 
-- **Replace every `☐` glyph with a rendered bordered cell.** Times-Roman does not carry the ballot-box glyph and falls back to a filled square. The renderer's checkbox helper substitutes empty-bordered cells of a fixed point size. (The markdown file keeps `☐` because Obsidian renders it correctly — this rule is PDF-only.)
+- **Replace every `☐` glyph with a rendered bordered cell.** Times-Roman does not carry the ballot-box glyph and falls back to a filled square. The renderer's checkbox helper substitutes empty-bordered cells of a fixed point size. (The markdown file keeps `☐` because GitHub renders it correctly — this rule is PDF-only.)
 - **Pre-roll NPC initiative** so it is printed in the markdown, and the PDF inherits it. PCs roll live and write into the blank rows. Use the average of `1d20 + DEX_mod` rounded to the nearest integer.
 - **HP tick boxes** use 5 HP per box, ceiling-rounded. Print the total HP next to the boxes (e.g., `HP 78`) so the DM can confirm.
 - **Spell-slot tick boxes** match the level's slot count exactly. Cantrips have no boxes.

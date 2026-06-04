@@ -54,7 +54,8 @@ at the intersection of all of it.
 
 ### The Gods / Divine Powers
 
-> [!lore] Mystra is dead
+> [!NOTE]
+> **Lore:** Mystra is dead
 > Her death — the Spellplague's root cause — diminished all her Chosen, including Elminster. The weave of magic is recovering but still scarred.
 
 | Name | Domain | Alignment | Notes |
@@ -128,7 +129,8 @@ is wrong under Old Skull.
 - **Dales Council fractures** — pressure from Sembia is splitting loyalties;
   Archendale in particular is playing both sides.
 
-> [!hook] The "News of the Day"
+> [!TIP]
+> **Hook:** The "News of the Day"
 > Ordinary Shadowdalers are talking about: a family whose goats have gone missing
 > near the forest edge (almost certainly fey mischief, possibly something worse);
 > a merchant caravan from Mistledale that arrived two days late with a frightened

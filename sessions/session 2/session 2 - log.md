@@ -46,7 +46,8 @@ tags:
 - *(Adventure plan also lists drow poison × 2 vials at Site B — not explicitly recovered in play; confirm next session whether the bedrolls were searched.)*
 - **Reputation:** Lady Ulphor — unchanged favor. Corwick Helm — degraded. Brynn Ashford — contact opened, unanswered. Harpers — not yet engaged.
 
-> [!hook] Loose Ends & Hooks
+> [!TIP]
+> **Loose Ends & Hooks**
 > - **Site C remains open and unscouted** — the natural Session 003 thread.
 > - **Brynn vs. Orvyn / Council vs. Harpers.** Loric owes Brynn an answer before reporting to Tal.
 > - **The Lolthite faction** is now active under Old Skull and willing to purge surface camps; they don't know the party exists yet.
@@ -54,7 +55,8 @@ tags:
 > - **Drow priestess on the surface** — confirmed by sigil; not yet sighted. Almost certainly at Site C.
 > - **Drider trail downward** — uninvestigated. The collapsed shaft prevents pursuit *here*, but the broader Lolthite incursion route is unknown.
 
-> [!dm] DM Notes
+> [!IMPORTANT]
+> **DM Notes**
 > - **Aelinor Wains was not used.** No militia escort requested; the trailhead-reserve element from the adventure plan is unspent.
 > - **Mark Brynn Ashford as a recurring on-stage NPC** — first major appearance, factional alignment exposed.
 > - **Mark Zeldrazz T'orrl as "escaped"** in the villain pool (Session 001 fate now resolved by adventure-plan continuity — he's expected at Site C).

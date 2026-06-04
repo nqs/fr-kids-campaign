@@ -26,7 +26,8 @@ tags:
 - Party delivered the map fragment and the iron half-mask to Lady Ulphor rather than keeping them — she now holds the key intelligence items from the session.
 - Interaction with Orvyn Tal: unclear yet how forthcoming the party was; outcome determines warmth of Harper relationship going forward.
 
-> [!hook] Loose Ends & Hooks
+> [!TIP]
+> **Loose Ends & Hooks**
 > - The Vhaeraunian map fragment shows **two more staging sites** on Old Skull's northern flank. Lady Ulphor will want them scouted before the Vhaeraunians reinforce.
 > - **Corwick Helm** filed Tessar's disappearance as desertion to avoid triggering a mobilization. Lady Ulphor said she would "manage" him — what that looks like is an open question.
 > - **Orvyn Tal's offer** — the Harpers want to know if the Vhaeraunian incursion is coordinated with anyone on the surface. They will pay for answers.
@@ -35,7 +36,7 @@ tags:
 ### NPC Interactions
 - **Torval Dunmore** — first contact; vouched for the party, gave them Ulphor's note. Genuine concern for Tessar; now trusts the party.
 - **Lady Addee Ulphor** — hired the party; received the recovered intelligence with controlled calm. Favor extended: "my door is not closed to you." Privately confirmed the drow threat is real and worse than she's said publicly.
-- **Rellan Tessar** — rescued; dehydrated, three cracked ribs, grateful but not dramatic. DM ADDITION: add to [[roster]] as recurring NPC.
+- **Rellan Tessar** — rescued; dehydrated, three cracked ribs, grateful but not dramatic. DM ADDITION: add to [roster](../../campaign/roster.md) as recurring NPC.
 - **Orvyn Tal** — introduced at session end; tested the party's discretion. Harper faction is now in play.
 
 ### Combat & Encounters
@@ -51,8 +52,9 @@ tags:
 - **Milestone:** Advance PCs to halfway through level 5 (or ~1,500 XP per PC if tracking discretely)
 - **Reputation:** Lady Ulphor's private favor. Torval's trust. Orvyn Tal's cautious interest.
 
-> [!dm] DM Notes
-> - Add **Rellan Tessar** to [[roster]] — he owes the party his life and should recur as a militia contact.
+> [!IMPORTANT]
+> **DM Notes**
+> - Add **Rellan Tessar** to [roster](../../campaign/roster.md) — he owes the party his life and should recur as a militia contact.
 > - Track whether **Zeldrazz escaped** — if he was killed rather than retreating, remove from villain pool; if he fled down the cleft, he becomes a recurring antagonist who knows the party's faces.
 > - The **two remaining cleft sites** from the map are the natural Session 2 thread. Lady Ulphor will be the one to ask — she has the map.
 > - **Corwick Helm's cover-up** is unresolved. The party hasn't met him yet. Lady Ulphor's "management" of the situation is an open scene worth playing out.
