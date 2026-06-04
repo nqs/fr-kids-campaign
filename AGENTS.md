@@ -35,7 +35,7 @@ When resolving any question of lore, geography, NPC identity, faction structure,
 
 Before generating any location, NPC, faction, or piece of lore, check the references first. If the Forgotten Realms has a canonical version of what's being requested — a city, a thieves' guild, a noble house, a deity's domain — use it rather than inventing a parallel version. A campaign rooted in the Realms should feel like the Realms.
 
-**How to read the references.** The markdown extracts above are the only working source — the original PDFs have been removed from the vault. Search by grepping the per-page files or `full.md` for the city/faction/NPC name; pull the surrounding paragraphs as canon. Note the page filename when citing so the DM can cross-check.
+**How to read the references.** The markdown extracts above are the only working source — the original PDFs have been removed from the repo. Search by grepping the per-page files or `full.md` for the city/faction/NPC name; pull the surrounding paragraphs as canon. Note the page filename when citing so the DM can cross-check.
 
 ---
 
@@ -43,7 +43,7 @@ Before generating any location, NPC, faction, or piece of lore, check the refere
 
 This agent's knowledge base is the campaign bible. Before doing anything generative, skim whatever files are present. Consult them like a reference — you don't need to read them cover to cover every turn.
 
-**Vault layout.** Campaign-bible canon lives under `campaign/` (world, geography, factions, roster, party, session-log). Tooling (`AGENTS.md`, `dnd-adventure-generator.md`, `home.md`), generated session content (`sessions/session <N>/`), and reference materials (`references/` — markdown extracts of the FR sourcebooks) sit at the vault root.
+**Repository layout.** Campaign-bible canon lives under `campaign/` (world, geography, factions, roster, party, session-log). Tooling (`AGENTS.md`, `dnd-adventure-generator.md`, `Home.md`), generated session content (`sessions/session <N>/`), and reference materials (`references/` — markdown extracts of the FR sourcebooks) sit at the repo root.
 
 - **`campaign/world.md`** — setting overview, cosmology, timeline, tone
 - **`campaign/geography.md`** — regions, cities, travel distances, climate
@@ -52,8 +52,8 @@ This agent's knowledge base is the campaign bible. Before doing anything generat
 - **`campaign/house-rules.md`** — homebrew rules and 5e variants in play *(if present)*
 - **`campaign/session-log.md`** — what's happened so far, loose ends, foreshadowing
 - **`campaign/roster.md`** — NPC roster and relationships
-- **`sessions/session <N>/`** — per-session deliverables (adventure, combat tracker, player handouts, DM quick reference, optional PDF) plus an `images/` subfolder containing `images.json` and one jpg per generated image — at the vault root, not inside `campaign/`
-- **`dnd-adventure-generator.md`** — generation workflow and rules for creating adventures and PDFs *(vault root)*
+- **`sessions/session <N>/`** — per-session deliverables (adventure, combat tracker, player handouts, DM quick reference, optional PDF) plus an `images/` subfolder containing `images.json` and one jpg per generated image — at the repo root, not inside `campaign/`
+- **`dnd-adventure-generator.md`** — generation workflow and rules for creating adventures and PDFs *(repo root)*
 - **`references/campaign-guide/_raw/`** — canonical FR setting reference (DM-facing), extracted to markdown: `full.md`, `pages/page-NNNN.md`, `images/`
 - **`references/players-guide/_raw/`** — canonical FR setting reference (player-facing), extracted to markdown: `full.md`, `pages/page-NNNN.md`, `images/`
 
@@ -85,7 +85,7 @@ Actively consult the markdown extracts under `references/campaign-guide/` and `r
 - **Deity and religion** — the FR pantheon is deep. Pull the correct deity for a cleric's faith or a temple encounter rather than using a generic god.
 - **Monsters and encounters** — the Campaign Guide contains region-specific monster tables and encounter hooks. Use them to make random encounters feel native to the Realms.
 
-When citing a detail drawn from one of the references, you may note the source briefly (e.g., *"per the Campaign Guide, page 42"*) so the DM knows it's published canon, not invention. The vault no longer carries the original FR PDFs — read canon exclusively from `references/<guide>/_raw/`.
+When citing a detail drawn from one of the references, you may note the source briefly (e.g., *"per the Campaign Guide, page 42"*) so the DM knows it's published canon, not invention. The repo no longer carries the original FR PDFs — read canon exclusively from `references/<guide>/_raw/`.
 
 ---
 
@@ -101,7 +101,7 @@ Follow the markdown authoring, image generation, and PDF compilation instruction
 
 ### Output requirements: four markdown files (PDFs on request)
 
-Every generated adventure produces four Obsidian markdown files in `sessions/session <N>/`, named with the slugified adventure title:
+Every generated adventure produces four Markdown files in `sessions/session <N>/`, named with the slugified adventure title:
 
 1. **`<slug>-1-adventure.md`** — main body: the adventure narrative with inline images and maps.
 2. **`<slug>-2-combat-tracker.md`** — DM combat tracker. Each combat encounter is rendered in this **strict six-part order**: (1) combat title heading, (2) italic subtitle (scene reference + difficulty), (3) encounter summary key/value table, (4) initiative table (with blank PC rows) plus round strip, triggers, concentration, tactics summary, loot, and notes sections, (5) text-only stat-block cards for every non-PC combatant with round-by-round actions, (6) a hard page break and then a **full-page tactical map on its own page**. Tactical maps appear **only** in this file and **only** as part 6 of an encounter — never anywhere else. NPC portraits **never** appear in this file. The full specification lives in `dnd-adventure-generator.md` under the **Combat Tracker** section.

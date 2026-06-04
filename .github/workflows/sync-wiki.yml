@@ -1,0 +1,77 @@
+name: Sync Wiki
+
+# Keeps the repo's GitHub Wiki in sync with the Markdown content here, so you
+# only ever edit this repo. On every push to main that touches wiki content,
+# scripts/build_wiki.py stages a wiki-ready tree and we push it into the
+# repo's *.wiki.git.
+#
+# One-time prerequisite: the wiki repo must exist before it can be pushed to.
+# Enable Settings -> Features -> Wikis, then open the Wiki tab and click
+# "Create the first page" once (any content). After that this workflow keeps
+# it up to date automatically.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'Home.md'
+      - '_Sidebar.md'
+      - 'AGENTS.md'
+      - 'dnd-adventure-generator.md'
+      - 'campaign/**'
+      - 'sessions/**'
+      - 'scripts/build_wiki.py'
+      - '.github/workflows/sync-wiki.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-wiki
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Build wiki staging tree
+        run: python3 scripts/build_wiki.py
+        env:
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          WIKI_SOURCE_BRANCH: ${{ github.ref_name }}
+
+      - name: Push staged pages into the wiki repo
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -euo pipefail
+
+          if ! git clone --depth 1 \
+              "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.wiki.git" \
+              wiki-repo 2> clone-err.log; then
+            echo "::error::Could not clone the wiki repo. Initialize it once via the GitHub UI"
+            echo "::error::(Settings -> Features -> Wikis, then the Wiki tab -> Create the first page), then re-run."
+            cat clone-err.log
+            exit 1
+          fi
+
+          # Replace all tracked wiki content (keep the .git dir), then copy in
+          # the freshly staged pages.
+          find wiki-repo -mindepth 1 -maxdepth 1 ! -name '.git' -exec rm -rf {} +
+          cp -R wiki/. wiki-repo/
+
+          cd wiki-repo
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Wiki already up to date; nothing to push."
+          else
+            git commit -m "Sync wiki from ${GITHUB_SHA::7}"
+            git push
+            echo "Wiki updated from ${GITHUB_SHA::7}."
+          fi

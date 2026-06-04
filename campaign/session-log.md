@@ -17,10 +17,10 @@ tags:
 
 | # | Title | Log |
 |---|-------|-----|
-| 001 | The Missing Scout | [[sessions/session 1/session 1 - log\|session 1 - log]] |
-| 002 | The Hawthorn Chimney | [[sessions/session 2/session 2 - log\|session 2 - log]] |
-| 003 | The Half-Mask Shrine | [[sessions/session 3/session 3 - log\|session 3 - log]] |
-| 004 | Greengrass in Shadowdale | [[sessions/session 4/session 4 - log\|session 4 - log]] |
+| 001 | The Missing Scout | [session 1 - log](../sessions/session%201/session%201%20-%20log.md) |
+| 002 | The Hawthorn Chimney | [session 2 - log](../sessions/session%202/session%202%20-%20log.md) |
+| 003 | The Half-Mask Shrine | [session 3 - log](../sessions/session%203/session%203%20-%20log.md) |
+| 004 | Greengrass in Shadowdale | [session 4 - log](../sessions/session%204/session%204%20-%20log.md) |
 
 ---
 
@@ -37,7 +37,7 @@ The drow staging sites are all closed, but the **Vhaeraunians will retaliate** o
 ---
 
 ## Recent Session — Session 004 Quick Reference
-**Title:** Greengrass in Shadowdale · **Full log:** [[sessions/session 4/session 4 - log\|session 4 - log]]
+**Title:** Greengrass in Shadowdale · **Full log:** [session 4 - log](../sessions/session%204/session%204%20-%20log.md)
 
 - Party returned to Shadowdale on the **eve of the Greengrass Festival**; no road encounters.
 - **Debriefed Brynn first** (at Orvyn's bookshop, honoring the first-call arrangement), then **Lady Ulphor** at the Ashaba House.
@@ -49,7 +49,8 @@ The drow staging sites are all closed, but the **Vhaeraunians will retaliate** o
 - Yinu's Arcana check in Orvyn's **back room** registered fresh Weave activity — magic had just been performed there (not alarming; flagged).
 - **Session ended** with festival contests done; the **bonfire / final festival beat deferred to Session 005.**
 
-> [!note] Bible catch-up
+> [!NOTE]
+> **Note:** Bible catch-up
 > The campaign-wide trackers below were last refreshed after Session 002. This pass folds in **both Session 003 and Session 004** outcomes (Site C cleared, Khelziir and Zeldrazz dead, pendant recovered and surrendered, Greengrass results).
 
 ---

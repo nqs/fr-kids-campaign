@@ -13,7 +13,8 @@ tags:
 **Party Size:** 6 PCs
 **Current Level:** 5 (all PCs)
 
-> [!note] Level 6 milestone — earned, not yet applied
+> [!NOTE]
+> **Note:** Level 6 milestone — earned, not yet applied
 > The **Level 6 milestone** for clearing all three drow sites is earned, but the party **did not level up at the table** in Session 004 — leveling is handled **between sessions**, not as a mid-session beat (it takes too much table time). The PCs remain **Level 5** until the sheets are rebuilt before a future session. Update the stat blocks below to Level 6 when that happens.
 
 ---

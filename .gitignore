@@ -1,10 +1,7 @@
 .DS_Store
 
-# Obsidian — keep shared vault config, ignore per-user/workspace state
-.obsidian/workspace
-.obsidian/workspace.json
-.obsidian/workspace-mobile.json
-.obsidian/cache
+# Obsidian app config — no longer used; ignored if a vault is ever reopened locally
+.obsidian/
 .trash/
 .playright-mcp/
 
@@ -15,6 +12,9 @@
 __pycache__/
 *.pyc
 .venv/
+
+# Generated GitHub-wiki staging tree (built by scripts/build_wiki.py in CI)
+wiki/
 
 # --- whisperx transcriber ---
 # Append these lines to your repo's existing .gitignore.

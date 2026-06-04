@@ -37,7 +37,8 @@ The session ends with the portal anchor either smashed, stolen for study, or —
 ### Setup
 Dawn. Pale light through the hawthorn boughs at Site B. The cleft is collapsed (the drider's death-throes from last session, plus the Lolthite charges that purged the camp), and a film of mist clings to the granite. The party slept here on the assumption that nobody would come looking for them in the wreckage of someone else's purge. They were right. Now it's morning.
 
-> [!quote] Read Aloud
+> [!NOTE]
+> **Read-aloud:** Read Aloud
 > The hawthorn berries above you are pale as dead pearls. The cleft mouth is gone — twenty feet of granite collapsed in on itself, the chimney throat sealed. Three of your bedrolls are scattered around a fire pit that didn't get lit last night. The wind smells of cold stone and, faintly, of something that was burning two days ago and isn't anymore.
 
 ### What This Scene Is For
@@ -145,7 +146,8 @@ A 20 × 40 ft. side chamber separated from the antechamber by a curtain of spide
 ### Chamber 3 — The Shrine
 A 40 × 50 ft. chamber. A black basalt slab altar at the back, draped with a Vhaeraunian half-mask banner. A **partially-consecrated portal anchor** sits at the chamber's center: a circle of obsidian shards 8 ft. across, half-inscribed with Undercommon glyphs in luminescent silver ink. Khelziir stands at the altar, mid-ritual; Zeldrazz flanks him. Black candles burn on the altar with greenish flames.
 
-> [!quote] Read Aloud
+> [!NOTE]
+> **Read-aloud:** Read Aloud
 > The chamber opens into a vault of cold black stone. At the back, an altar of polished basalt, and standing at it, a slim drow in robes the color of dried blood, his silver half-mask catching the green candle-flame as he turns. To his right, scarred across the cheek, a familiar face — Zeldrazz T'orrl, who sees you, and smiles like a man who has been waiting.
 
 ### The Boss Encounter

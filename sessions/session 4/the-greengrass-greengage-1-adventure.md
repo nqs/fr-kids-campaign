@@ -46,7 +46,8 @@ The session ends with the Herald vanishing into the Living Wood, Sela Wyndmere s
 ### Setup
 The Shrine. Khelziir is dead on the basalt altar. Zeldrazz is dead at his feet. The portal anchor — a polished basalt disc roughly two feet across, inscribed with half-finished glyphs in silver and shadowstuff — is still standing, still humming, still very much **on**. The ritual countdown is stopped (Khelziir is no longer alive to drive it) but the anchor itself didn't switch off when he died. It's waiting.
 
-> [!quote] Read Aloud
+> [!NOTE]
+> **Read-aloud:** Read Aloud
 > The drum is gone from the air. Khelziir's blood is pooling under the altar in a slow black ring, and his half-mask lies face-up beside him, the silver still warm. The anchor at the center of the chamber is humming the way a tuning fork hums after the strike — softer, fading, but not yet quiet. The glyphs on its rim still pulse, once every three breaths. **It is waiting for someone to finish.**
 
 ### The Choices
@@ -85,7 +86,8 @@ Half a day overland down the southern face of the Old Skull. No combat. Use the 
 ### The First Greengrass Sign
 About an hour out of Shadowdale, the party crests a ridge and sees the village below. There are **flower-crowns hanging from every fence**, a **bonfire-pile already stacked** on the river-stones below the Old Skull's southern flank, and **river-runners poling barges across the Ashaba for the first time since the thaw**. It's the night before Greengrass. Spring has officially cracked open.
 
-> [!quote] Read Aloud
+> [!NOTE]
+> **Read-aloud:** Read Aloud
 > You come down the south face of the Old Skull and the village is full of flowers. The fences are hung with them. The bonfire on the river-stones is stacked head-high and someone has already tied the first ribbon. Two barges are crossing the Ashaba going *the wrong way* — eastward, toward Battledale — for the first time since you've been here. It is the eve of Greengrass.
 
 ### DM Notes
@@ -121,7 +123,8 @@ Lady Ulphor's solar. Late afternoon. Brynn Ashford is at her right hand with the
 ### Level Up — **Milestone: Level 6**
 All five PCs hit Level 6 at the end of the debrief. Hand out the level-up sheets at the table. **Encourage the kids to make Level 6 choices on the spot** (Fighter gets an ASI/feat, Rogue gets Subclass feature, Wizard/Sorcerer/Druid get 3rd-level spells filled and a new subclass feature, and so on). If a kid wants to think, give them the night-of-Greengrass time to decide — they don't have to commit until the festival opens.
 
-> [!flag] DM
+> [!WARNING]
+> **Flag:** DM
 > Bring printed Level 6 reference sheets for each PC. The class features they pick up shape the festival stations — Fiorn's Steady Aim, Yinu's 3rd-level spells, Nalith's Circle of Dreams 6th-level feature, and Kto's ASI/feat all matter for the Crash.
 
 ### What This Locks In
@@ -145,7 +148,8 @@ Mid-morning, Greengrass day. The Twilight Tower bell rings the procession in. Th
 
 ### Read-Aloud — Set the Stage
 
-> [!quote] Read Aloud
+> [!NOTE]
+> **Read-aloud:** Read Aloud
 > The Old Skull dome is the backdrop today, gray granite over the green of the village. The procession moves slow, the way the Dales do everything slow — flower crowns on every head, a flute somewhere up front, Captain Helm walking in dress greens with his sword on the wrong hip on purpose. Lady Ulphor is at the head. Sela Wyndmere is at the back, walking with the druids of the Living Wood. Brynn Ashford is standing in front of the Old Skull Inn with a slate and a pile of dragonchess boards, and Orvyn Tal is at a bookstall pretending to read.
 >
 > The stations open at noon. You may attend whichever calls you.
@@ -157,7 +161,8 @@ Mid-morning, Greengrass day. The Twilight Tower bell rings the procession in. Th
 - **The Greening of the Beasts** — at the edge of the Living Wood. Co-led by **Sela Wyndmere**.
 - **The Blessing of First Light** — at the river-stones beside Lady Ulphor's dais. Hosted by **Lady Ulphor** herself, who invites the party's visiting aasimar to bless the festival's first-planted Greengage sapling.
 
-> [!flag] DM — Dragonchess shelved this session
+> [!WARNING]
+> **Flag:** DM — Dragonchess shelved this session
 > The Dragonchess Open is **not running as a PC station** with Loric absent. Brynn is still at the Old Skull all afternoon running an open bracket in fiction — see *Brynn at the Old Skull* below for how the Mistledale Council intel still lands.
 
 ### DM Notes — Running the Montage
@@ -225,7 +230,8 @@ Mid-morning, Greengrass day. The Twilight Tower bell rings the procession in. Th
 **Gold Ribbon scene:** Orvyn invites Yinu to the bookshop tomorrow afternoon. He says he has "something the Harpers gave me to give to someone like you" — and then catches himself and changes the subject. *Harper recruitment starts here.* Mark it. (If Feed was chosen at the anchor, this lands twice as hard.)
 **Bronze Ribbon scene:** Orvyn quietly slips Yinu the river stone afterward with a "you should keep that" and no explanation.
 
-> [!flag] DM — Crash Pre-Plant
+> [!WARNING]
+> **Flag:** DM — Crash Pre-Plant
 > The signal stone and the numbing draught are both **plants** for the campaign's drow arc. They don't matter for tonight's Crash (the Herald is fey, not drow). But put them on the table so the kids feel the foreshadowing land later, when the Vhaeraunian retaliation hits in S5–6.
 
 ---
@@ -260,7 +266,8 @@ Then: *"Tell whoever needs to know."* He returns to his board. The letter and th
 **Gold Ribbon scene:** **Quillip drops a single dried hawthorn berry at Nalith's feet** — visible only to Nalith, who is Druidic-attuned. **This is the plant for the Crash.** The berry is from a hawthorn that doesn't grow in the Living Wood. It grows in the *unnamed fey lord's* domain. Nalith doesn't know that yet. Quillip is warning her. Sela also sees the berry land and goes very still for half a second before she covers it with her foot. *Nalith should notice the cover.*
 **Bronze Ribbon scene:** Sela gives Nalith a small carved-wood badger figurine "from a friend." Margrim Bristle says hello later.
 
-> [!flag] DM — Crash Pre-Plant
+> [!WARNING]
+> **Flag:** DM — Crash Pre-Plant
 > Whether the berry lands depends on Gold Ribbon. If Nalith doesn't get Gold, **drop the berry anyway** at the end of her station — Quillip likes her. The plant matters; the ribbon doesn't.
 
 ---
@@ -276,13 +283,15 @@ Then: *"Tell whoever needs to know."* He returns to his board. The letter and th
 | 2 | Channel the Light cantrip dramatically as the sapling is planted | **Performance DC 15** | Naan's +3 CHA. Competitive but not a gimme. *(If the table treats Skilled-origin Performance as proficient — see party.md flag — she's at +6.)* |
 | 3 | Deliver the closing benediction that lands with the crowd | **Persuasion DC 17** | Naan's +3 CHA (+1 Luckstone = +4). Hard — the Aasimar Celestial Revelation transformation is on the table if she wants to cinch it; expending one die from her Healing Light pool to add 1d6 to the roll is also fair table-discretion. |
 
-> [!flag] DM — Naan's Healing Light Tradeoff
+> [!WARNING]
+> **Flag:** DM — Naan's Healing Light Tradeoff
 > Lilli may offer to **spend 1 die from Naan's Healing Light pool (6d6 total)** to add 1d6 to any of the three rolls — a literal channel of celestial energy into the rite. This is a **real tradeoff:** every die she spends here is a die unavailable to heal a PC during the Crash a few hours later. Don't suggest it; let her ask. The decision is the point.
 
 **Gold Ribbon scene:** The sapling blooms in Naan's hand — soft, real, blue-white radiance the whole village can see. Lady Ulphor touches her shoulder and says publicly, *"Shadowdale will remember you blessed our first Greengage."* Privately, after the bonfire, Lady Ulphor presses a sealed letter into Naan's palm: an **invitation to attend the Temple of Lathander in Highmoon at the next full moon** — a real opening for Naan's celestial-patron arc. *Mark for S5 or later.*
 **Bronze Ribbon scene:** Naan's voice cracks but the sapling lives. After the crowd disperses, **Goodwife Edda Spar** — an elderly village herbalist — brings her a cup of mint tea and says quietly, *"You did fine. The light doesn't have to be loud."* Plant for Naan's flaw arc (her need to prove herself, and an NPC gently telling her she doesn't).
 
-> [!flag] DM — Failed Station (0 of 3)
+> [!WARNING]
+> **Flag:** DM — Failed Station (0 of 3)
 > Naan's flaw triggers — she pushes too hard, glows uncomfortably bright, the sapling withers in her hand. To save the rite she has to spend **1 die from her Healing Light pool** to revive it (don't ask; narrate it). No mechanical penalty otherwise, but Lady Ulphor steps in gracefully to redirect the crowd, and **Naan's celestial patron is briefly, audibly, displeased** — a single chord of cold music only she hears. Plant for a future patron-disappointment beat.
 
 ---
@@ -297,7 +306,8 @@ Dusk. The procession reforms at the river-stones. Lady Ulphor stands on the lift
 - **Lady Ulphor's speech** — one sentence: *"To the first night of Mirtul. To the river running again. To the children who keep my Dale."* Toast the party publicly.
 - **A false moment of safety.** Ulphor raises the firebrand toward the bonfire.
 
-> [!quote] Read Aloud — As She Lifts the Firebrand
+> [!NOTE]
+> **Read-aloud:** Read Aloud — As She Lifts the Firebrand
 > Lady Ulphor lifts the brand. The flame catches the wind off the Ashaba and bends sideways once, beautifully. The crowd holds its breath the way crowds do.
 >
 > Behind her — somewhere out past the river-stones, somewhere at the edge of the Living Wood — a **stag** steps out of the trees. It is the size of a draft horse. Its antlers are crowned with white blossom. And there is a man riding it.
@@ -320,7 +330,8 @@ The Antlered Herald, **Lorindar Greenmantle**, rides out of the Living Wood on h
 
 He has come to deliver his lord's invitation.
 
-> [!quote] Read Aloud — The Herald Speaks
+> [!NOTE]
+> **Read-aloud:** Read Aloud — The Herald Speaks
 > *"Honored guests of the Lady of the Ashaba — and you five who walked into our borders and walked out again — I am Lorindar Greenmantle, Herald of the Bright Court Beneath, and my lord has marked you. He sends greeting on this night of his choosing. He asks—"*
 >
 > And here he sees the standard catch the firelight, and he sees one of you see it, and he smiles, because he thinks you understand.
@@ -332,7 +343,8 @@ Sela Wyndmere wears a courier ribbon on her belt — bone-and-green stitched in 
 - **If Quillip is on the scene** (she is, invisibly, watching Nalith) — she will appear at Nalith's shoulder and whisper *"He is not here to fight you, but the standard is asking, and he will not be embarrassed."*
 - **A weapon comes out before words finish.** Whichever PC moves first — Kto's bow, Fiorn's crossbow, Yinu's Fire Bolt — *that* is the trigger. Initiative on the next breath.
 
-> [!flag] DM — Tone Steering
+> [!WARNING]
+> **Flag:** DM — Tone Steering
 > Do **not** railroad the party into starting the fight. If they hold their hands, the Herald finishes his sentence ("...for an audience at the next full moon, on neutral ground, the hawthorn-cleft of his choosing") and then turns to leave. **Then** Sela calls his name aloud — *"Lorindar, you swore not to ask"* — and **she** is the one who triggers the fight by stepping between him and the party. The Herald is still the antagonist; Sela is still the trigger. The kids just get a different scene first.
 >
 > If the party holds AND Sela holds, the Herald nods once, the stag turns, and the party gets the audience invitation **without** the combat. This is the "perfect ending" — vanishingly rare, but allow it. Mark the audience for a future session.
@@ -403,5 +415,6 @@ Drafted but not yet entered in the campaign bible. Add to `campaign/roster.md` a
 - **Goodwife Edda Spar** — elderly village herbalist of Shadowdale; quiet, kindly. Cameo at Naan's Bronze Ribbon scene. Optional this session but a clean recurring NPC for the village fabric.
 - **Temple of Lathander, Highmoon — invitation for Naan** — sealed letter, deliverable at the next full moon. A real Realms institution (Lathander's morning faith). Opens Naan's celestial-patron arc. Mark for S5+ and add to loose-ends tracker.
 
-> [!flag] Sela arc
+> [!WARNING]
+> **Flag:** Sela arc
 > After this session Sela Wyndmere's faction status shifts from "warm secondary contact" to **"actively asking the party for help."** Update `factions.md` §8 and `roster.md`.

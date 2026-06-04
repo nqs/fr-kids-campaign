@@ -8,8 +8,9 @@ tags:
 
 # NPC Roster
 
-> [!cite] Source key
-> **(CG)** = sourced from the *Forgotten Realms Campaign Guide*. **([[world]])** = established in this campaign's world file. **(DM ADDITION)** = invented for this campaign. All DM additions are designed to fit the CG's description of Shadowdale: an unwalled village of ~1,000 people at the crossing of the North Ride and the River Ashaba, set within the fey-haunted Living Wood, beneath the granite dome of Old Skull.
+> [!NOTE]
+> **Source key**
+> **(CG)** = sourced from the *Forgotten Realms Campaign Guide*. **([world](world.md))** = established in this campaign's world file. **(DM ADDITION)** = invented for this campaign. All DM additions are designed to fit the CG's description of Shadowdale: an unwalled village of ~1,000 people at the crossing of the North Ride and the River Ashaba, set within the fey-haunted Living Wood, beneath the granite dome of Old Skull.
 
 ---
 
@@ -21,7 +22,7 @@ tags:
 - **Status:** Alive
 - **One-line summary:** A practical, composed woman who has held a quiet dale together for twenty years — and is now watching that quiet erode from below.
 
-**Appearance:** Mid-fifties. Brown skin weathered by years of outdoor inspections and border rides. Silver-streaked black hair kept in a tight braid. She wears the **Pendant of Ashaba** openly — a deep blue teardrop stone on a silver chain — and plain working clothes unless ceremony demands otherwise. Carries herself without theatrics. **(DM ADDITION, consistent with [[world]])**
+**Appearance:** Mid-fifties. Brown skin weathered by years of outdoor inspections and border rides. Silver-streaked black hair kept in a tight braid. She wears the **Pendant of Ashaba** openly — a deep blue teardrop stone on a silver chain — and plain working clothes unless ceremony demands otherwise. Carries herself without theatrics. **(DM ADDITION, consistent with [world](world.md))**
 
 **Personality:**
 - *In a word:* Steady.
@@ -33,7 +34,8 @@ tags:
 - *Wants:* To keep Shadowdale free, peaceful, and fed. To resolve the Old Skull situation before it becomes a crisis she can't contain.
 - *Fears:* That the drow threat is larger than the dale can handle alone — and that asking for outside help will cost Shadowdale its independence.
 
-> [!dm] Secret
+> [!IMPORTANT]
+> **DM:** Secret
 > She has not attended the Dales Council in person for over a year. She sends Brynn Ashford in her place because she doesn't dare leave Shadowdale with the Underdark activity growing. The Council knows but hasn't pressed the issue — yet. **(DM ADDITION)**
 
 
@@ -42,15 +44,18 @@ tags:
 - *What she wants from the party:* Reliable people who can go into Old Skull or the Living Wood and bring back information (or solutions) without triggering a panic.
 - *As of Session 004:* Trusted allies. She paid them **600 gp** for clearing all three drow sites, bought the recovered portal-anchor pendant for **200 gp**, hosted them at the Greengrass Festival, and covered their rooms at the Old Skull Inn. She judged Fiorn's and Yinu's festival contests personally.
 
-> [!dm] What she won't say
+> [!IMPORTANT]
+> **DM:** What she won't say
 > That she thinks the drow incursion may already be further along than her militia's reports suggest, and that she's been having the Ashaba House's lower cellars quietly sealed off.
 
-> [!dm] Session 004 — pendant custody
+> [!IMPORTANT]
+> **DM:** Session 004 — pendant custody
 > Lady Ulphor now holds the **portal-anchor pendant** in her vault. She told the party it is one half of a paired **twin-stone** whose counterpart lies in the Underdark, and that in the wrong hands it could open a portal to wherever the pendant sits. She declined Yinu's offer to attempt destroying it (disenchantment costs ~half the creation cost) in favor of secure storage. **The pendant is now a target inside the Ashaba House** — a latent hook. **(DM ADDITION, Session 004)**
 
 
-> [!cite] Source notes
-> Name and the Pendant of Ashaba established in [[world]] (consistent with CG). Physical description and personality are DM additions.
+> [!NOTE]
+> **Source notes**
+> Name and the Pendant of Ashaba established in [world](world.md) (consistent with CG). Physical description and personality are DM additions.
 
 ---
 
@@ -74,7 +79,8 @@ tags:
 - *Wants:* To get Shadowdale taken seriously as a voice on the Council, not just a small dale that benefits from others' decisions. To eventually be trusted with a broader mandate from Lady Ulphor.
 - *Fears:* That the Council will decide the free dales' best option is to seek Cormyrian protection — which would effectively end Shadowdale's independence.
 
-> [!dm] Secret
+> [!IMPORTANT]
+> **DM:** Secret
 > He has begun quietly building his own relationships with other delegates' staffers, gathering information Lady Ulphor didn't authorize him to gather. He tells himself it's for the dale's benefit. It might be. **(DM ADDITION)**
 
 
@@ -82,7 +88,8 @@ tags:
 - *First impression:* Slightly guarded — he's used to evaluating people's usefulness before investing in them.
 - *What he wants from the party:* If they have any standing with other factions (Myth Drannor, Harpers, Cormyr), he wants to know. Leverage is his primary currency.
 
-> [!dm] What he won't say
+> [!IMPORTANT]
+> **DM:** What he won't say
 > The specific state of Council fractures he's observed — that information is his personal insurance.
 
 
@@ -110,7 +117,8 @@ tags:
 - *Wants:* For the dale to stay safe. Specifically for Old Skull not to become what it was when he was young.
 - *Fears:* That his grandchildren will grow up in a dale that's been overrun or absorbed.
 
-> [!dm] Secret
+> [!IMPORTANT]
+> **DM:** Secret
 > The cellar of the Old Skull Inn has a sealed passage — part of the old tunnel network beneath the village. He cemented the hatch shut himself after his wife disappeared down it thirty years ago. He has never told Lady Ulphor. **(DM ADDITION)**
 
 
@@ -118,7 +126,8 @@ tags:
 - *First impression:* Professionally welcoming, privately curious. He'll serve them, hear their names and business, and say almost nothing revealing until they've been around long enough to be vouched for.
 - *What he wants from the party:* Nothing directly — but if they're the kind of people who go into dark places and come back, he will eventually find a way to ask them about the cellar.
 
-> [!dm] What he won't say
+> [!IMPORTANT]
+> **DM:** What he won't say
 > Anything about the sealed passage.
 
 
@@ -146,7 +155,8 @@ tags:
 - *Wants:* The Living Wood to remain healthy and the fey within it to remain — she knows that if the drow threat drives the fey out, something much worse will move in.
 - *Fears:* That the Feywild bleed-through is not entirely benevolent. She has been noticing strange behavior from some of the fey near Old Skull — things she can't explain as typical territorial behavior.
 
-> [!dm] Secret
+> [!IMPORTANT]
+> **DM:** Secret
 > A fey lord of the Living Wood, one of the older and more powerful ones, has been asking her to carry messages. She doesn't know who the messages are intended for, and she's been saying yes because she doesn't know how to say no to him. **(DM ADDITION)**
 
 
@@ -154,13 +164,16 @@ tags:
 - *First impression:* Friendly, quietly evaluating. She's seen enough adventurers to know they usually bring trouble for someone.
 - *What she wants from the party:* If they're trustworthy, she may ask them to accompany her on one of her forest "consultations." Something has changed in the wood and she doesn't want to go alone.
 
-> [!dm] What she won't say
+> [!IMPORTANT]
+> **DM:** What she won't say
 > ~~Who she's been carrying messages for, or to whom.~~ **Disclosed across S4–S5** (see below). Remaining held card: what the messages actually *said* — she never read them and still doesn't know.
 
-> [!dm] Session 004 — the confession opens
-> In the aftermath of the Greengrass crash, Sela came to the party shaking and admitted the arrangement plainly: *"He has been using me. I knew. I didn't know how to say it."* She is the courier for the unnamed lord of the **Bright Court Beneath** (see [[factions]] §8); the ribbon-knot on her belt is his livery. This opens the **Sela arc** — her faction status shifts from "warm secondary contact" to **actively asking the party for help.** **(DM ADDITION, Session 004)**
+> [!IMPORTANT]
+> **DM:** Session 004 — the confession opens
+> In the aftermath of the Greengrass crash, Sela came to the party shaking and admitted the arrangement plainly: *"He has been using me. I knew. I didn't know how to say it."* She is the courier for the unnamed lord of the **Bright Court Beneath** (see [factions](factions.md) §8); the ribbon-knot on her belt is his livery. This opens the **Sela arc** — her faction status shifts from "warm secondary contact" to **actively asking the party for help.** **(DM ADDITION, Session 004)**
 
-> [!dm] Session 005 — penitent ally
+> [!IMPORTANT]
+> **DM:** Session 005 — penitent ally
 > Walking the party into the Living Wood, Sela gives up the rest in layers: she has carried for the lord for **twelve years,** since a voice in a hawthorn promised to "hold the green" if she carried his words — and she now understands the messages were the instrument of the wood's **slow harvest,** not its salvation. By the Hawthorn Cleft she has turned **penitent ally:** she wants to undo twelve years of unwitting service, and the Thornward invites her to the full-moon audience to face the lord directly (*"he should have to say it to her face"*). She is no longer a guilty secret-keeper but a party-aligned NPC with a personal stake in the audience. **Status: penitent ally.** **(DM ADDITION, Session 005)**
 
 **Practical notes:** She can provide healing poultices, basic antitoxins, and herbal remedies. She won't charge people who genuinely can't pay. She'll also answer questions about the Living Wood — up to a point. As of S5 she is the party's **guide and message-reader in the Living Wood** (aids Animal Handling / Survival / fey-lore checks in the wood). **(DM ADDITION)**
@@ -187,7 +200,8 @@ tags:
 - *Wants:* Better-trained militia. Better-equipped militia. Any help at all, frankly.
 - *Fears:* That Old Skull is going to produce something that ten farmers with spears cannot handle, and that by the time the Dales Council gets around to doing anything about it, the village will already be gone.
 
-> [!dm] Secret
+> [!IMPORTANT]
+> **DM:** Secret
 > Two of his scouts went into the lower passages of Old Skull three weeks ago and came back one short. He told Lady Ulphor one; he hasn't told anyone they found signs of a fresh camp — not a patrol, a camp — forty feet below the surface. **(DM ADDITION)**
 
 
@@ -195,10 +209,12 @@ tags:
 - *First impression:* Skeptical, functional. He'll assess their gear and bearing before he says much. If they look capable, he warms up fast because he needs capable people badly.
 - *What he wants from the party:* Scouting help. Specifically someone to go back into Old Skull's upper passages and tell him what the scouts saw wasn't what he thinks it was.
 
-> [!dm] What he won't say
+> [!IMPORTANT]
+> **DM:** What he won't say
 > The full truth of what the scouts reported. He'll tell them the passages need checking; the detail about the camp comes later, when he trusts them.
 
-> [!dm] Session 004 — rivalry thawing
+> [!IMPORTANT]
+> **DM:** Session 004 — rivalry thawing
 > The Session 002 rift (after Fiorn's open contempt at the briefing) appears to be cooling. At the Greengrass Festival, Helm walked the procession in dress uniform, ran the **archery contest**, and greeted **Kto** warmly: *"I thought you'd show up. I'm glad to see you here."* With all three drow sites cleared and his rescued scout **Rellan Tessar** back on his feet, his grievance has less fuel. Watch whether the goodwill holds or whether the buried cover-up resurfaces. **(DM ADDITION, Session 004)**
 
 
@@ -226,7 +242,8 @@ tags:
 - *Wants:* To keep Shadowdale's Harper network functional. To understand what's happening under Old Skull before Netheril does — the Shadovar's interest in old drow passages is a known quantity and it worries him.
 - *Fears:* That the Netherese already have an agent in the village. He has suspicions but no proof. He keeps revising the list.
 
-> [!dm] Secret
+> [!IMPORTANT]
+> **DM:** Secret
 > He knows approximately where a long-dormant Harper safehouse is beneath the village — a room sealed during the last bad period with drow. He doesn't know if it still has anything useful inside. He also doesn't know whether the drow have found it. **(DM ADDITION)**
 
 
@@ -234,10 +251,12 @@ tags:
 - *First impression:* Pleasantly forgettable. He's good at this.
 - *What he wants from the party:* To know who they are and whether they're trustworthy, before anything else. If they are, he has information to trade.
 
-> [!dm] What he won't say
+> [!IMPORTANT]
+> **DM:** What he won't say
 > ~~That he's still Harper-active.~~ **Disclosed in Session 004** (see below). Remaining held cards: the dormant Harper safehouse beneath the village, and his suspicion of a Netherese agent in Shadowdale.
 
-> [!dm] Session 004 — Harper affiliation disclosed to Yinu
+> [!IMPORTANT]
+> **DM:** Session 004 — Harper affiliation disclosed to Yinu
 > After Yinu swept Orvyn's arcane-skills challenge at the Greengrass Festival (identifying all three curiosities: a Feywild primrose, a communication twin-stone, and a planar-traveler's tonic), Orvyn pinned her with the gold ribbon and pulled her aside: *"Come by my bookshop tomorrow afternoon if you would. I have something for you. The Harpers have something to give to you."* This is the **first time he has openly named the Harpers to a PC** — first direct recruitment contact. The gift is undefined and waiting at the shop (Session 005 thread).
 >
 > Separately, while in/near the bookshop's **back room** during the earlier debrief, Yinu's Arcana check registered **fresh Weave activity** — magic had recently been performed there. Read as not alarming at the table, but flagged: what Orvyn was doing in the back room is an open question. **(DM ADDITION, Session 004)**
@@ -267,7 +286,8 @@ tags:
 - *Wants:* Stories. Songs never sung in the Living Wood before. Trinkets from far away. Excuses to use her *polymorph* spell.
 - *Fears:* Being forgotten. The drow priestess finishing her ritual — she doesn't know exactly what it does, but she can taste it from a tree away and it makes her wings itch.
 
-> [!dm] Secret
+> [!IMPORTANT]
+> **DM:** Secret
 > She has been keeping detailed observation notes on Khelziir's cell for two days — headcount, watch rotations, the spider's alarm behavior, the priest's mid-ritual status. She will trade this intel cheaply to anyone who interests her. She has not told the wider fey community because she's not sure she trusts them anymore. **(DM ADDITION)**
 
 
@@ -275,7 +295,8 @@ tags:
 - *First impression:* Watching from invisibility. Reveals herself the moment a PC says or does anything that interests her — Druidic spoken aloud, Fiorn's shapechange, a true name, a fragment of a real song.
 - *What she wants from the party:* A bargain. She'll offer intel, a diversion (lure the Watcher down with *phantasmal force*), or a banked single-use boon (*polymorph*, *confusion*, or *sleep* on a target the party names within 24 hours) in exchange for **one** fey-style payment — a true secret, a song, a true name, a page from Yinu's spellbook copied for her, a binding promise, or a token from far away.
 
-> [!dm] What she won't say
+> [!IMPORTANT]
+> **DM:** What she won't say
 > That she's been alone on the granite shoulder for nearly two weeks and is more rattled by the priestess than her tone suggests. That if asked directly about Sela Wyndmere's "unnamed fey lord," she will go very still — she knows of him, will not name him, and will leave the conversation if pressed.
 
 
@@ -292,7 +313,8 @@ tags:
 | **Banked boon: *confusion* on a named target** | Within 24 hours, on a target the party names aloud, Quillip casts *confusion* (10-ft. radius, 1 minute, WIS save) at the moment the party requests. One use. | *Steep* — a page from Yinu's spellbook copied in Yinu's own hand; or a true name of someone close to a PC; or a song composed *for Quillip* in the moment |
 | **Banked boon: *polymorph* on a named target** | Within 24 hours, on a target the party names aloud (PC- or NPC-sized), Quillip casts *polymorph* (1 hour or until concentration drops) at the moment the party requests. One use. | *Steep* — same tier as above |
 
-> [!dm] DM notes on the matrix
+> [!IMPORTANT]
+> **DM notes on the matrix**
 > - **Quillip will NOT** sell *polymorph* against a creature she considers a "true wood-thing" (a fey, a beast bonded to a place, a treant). She'll refuse politely and offer *confusion* at the same price.
 > - **Banked boons resolve at the start of the named target's next turn after the party invokes the bargain.** Quillip is not on initiative; she just makes it happen.
 > - **If the party tries to invoke a banked boon outside her ~½-mile range** (e.g., they descend deep into the cleft and are far from the granite shoulder), the boon still fires — fey range rules are abstracted; the price was paid.
@@ -303,13 +325,16 @@ tags:
 
 **Statline base:** Pixie *(MM p.253; CR 1/4)*. Tiny fey, neutral good. AC 15, HP 1, fly 30 ft. Innate spellcasting (CHA): at-will *druidcraft*; 1/day each — *confusion, dancing lights, detect evil and good, detect thoughts, dispel magic, entangle, fly, phantasmal force, polymorph, sleep*. Superior Invisibility. Magic Resistance.
 
-> [!dm] Session 004 — reappearance and the token
+> [!IMPORTANT]
+> **DM:** Session 004 — reappearance and the token
 > Quillip turned up unbidden at the festival's **Greening** event. As Nalith was awarded the gold ribbon, something brushed her cheek and she caught a half-second glimpse of Quillip, who left her a **small fey berry/token**. Its effect is undefined; Nalith pocketed it ("it's going in my bag"). Quillip is now an unprompted recurring presence, not just a one-site contact. **(DM ADDITION, Session 004)**
 
-> [!dm] Session 005 — the berry defined, and the quarter-moon riddle
+> [!IMPORTANT]
+> **DM:** Session 005 — the berry defined, and the quarter-moon riddle
 > The S4 berry is now defined as a **Guest-Token of the Bright Court ⚗️**: a dried hawthorn berry grown on the unnamed fey lord's own hawthorn, freely given by one of the Court's own. Reads to the Court as *guest-right.* **One-shot use** — if Nalith presents it at the Bright Court's hawthorn-cleft gate, the Thornward's challenge collapses from a real fight into a single ceremonial round (the party is received as invited guests, not tested trespassers). If unused at the gate, it remains a one-shot fey guest-token; planted in soil it grows into a hawthorn that blooms two weeks early (cosmetic). At the cleft Quillip also drops a **chained riddle-hook:** *"Full moon's his. But the quarter-moon's mine — hawthorn, midnight, bring four friends, not five. There's a thing he doesn't want you to see, and I do."* Distinct from the lord's full-moon audience; a separate door. **(DM ADDITION, Session 005)**
 
-> [!cite] Source notes
+> [!NOTE]
+> **Source notes**
 > Pixie statline from MM. Personality, location, name, bargain framework, and the guest-token ruling are DM additions.
 
 ---
@@ -317,7 +342,7 @@ tags:
 ## Lorindar Greenmantle — The Antlered Herald
 
 - **Role:** Herald and outrider of the Bright Court Beneath; the unnamed fey lord's message-bearer
-- **Affiliation:** The Bright Court Beneath (Fey of the Living Wood — see [[factions]] §8)
+- **Affiliation:** The Bright Court Beneath (Fey of the Living Wood — see [factions](factions.md) §8)
 - **Location:** Ranges the Living Wood astride his stag **Erith-of-the-First-Snow**; comes and goes through the Feywild seam
 - **Status:** Alive — escaped the Greengrass crash (S4) by design
 - **One-line summary:** A courteous, antler-crowned fey emissary who will not raise his voice and will not be embarrassed — he delivered his lord's *mark* and audience invitation to the party at the Greengrass bonfire, took their measure in a scripted skirmish, and rode back into the wood.
@@ -333,9 +358,10 @@ tags:
 **Relationship with the party:**
 - *As of Session 004:* The party "drew blood and remembered the face." He named them *marked* and invited them to the full-moon audience, then escaped (bloodied/round-3 trigger). Recurring **villain-or-ally pending the audience.**
 
-**Statline:** Custom CR 5 fey. Full stat-block in [[sessions/session 4/the-greengrass-greengage-2-combat-tracker|S4 combat tracker]]. **Do not kill him** without accepting the consequence (a fey lord with a personal grievance). **(DM ADDITION)**
+**Statline:** Custom CR 5 fey. Full stat-block in [S4 combat tracker](../sessions/session%204/the-greengrass-greengage-2-combat-tracker.md). **Do not kill him** without accepting the consequence (a fey lord with a personal grievance). **(DM ADDITION)**
 
-> [!cite] Source notes
+> [!NOTE]
+> **Source notes**
 > Lorindar, Erith, and the Bright Court Beneath are DM additions introduced in Session 004. The fey lord he serves remains deliberately **unnamed.**
 
 ---
@@ -343,8 +369,8 @@ tags:
 ## Maelorn, the Thornward — Gatekeeper of the Hawthorn Gate
 
 - **Role:** Gatekeeper of the Bright Court's hawthorn-cleft seam; tester of those the lord has marked
-- **Affiliation:** The Bright Court Beneath (Fey of the Living Wood — see [[factions]] §8)
-- **Location:** The **Hawthorn Cleft** (see [[geography]]) — he holds the seam to the Court
+- **Affiliation:** The Bright Court Beneath (Fey of the Living Wood — see [factions](factions.md) §8)
+- **Location:** The **Hawthorn Cleft** (see [geography](geography.md)) — he holds the seam to the Court
 - **Status:** Alive — yields with honor, does not die in the S5 gate-test (by design)
 - **One-line summary:** A proud, old fey knight in bark and bronze who guards the door to his lord's court and asks the door's question with a blade in it — he tests the marked, pulls every killing blow, and kneels to name them worthy when they've proven themselves.
 
@@ -364,9 +390,10 @@ tags:
 - *Ward of the Gate* — no one passes the seam while he stands within 15 ft. of it.
 - *Berry shortcut* — Quillip's guest-token collapses the challenge to one symbolic round.
 
-**Statline:** Custom CR 5 fey (⚗️). Full stat-block in [[sessions/session 5/the-hawthorn-gate-2-combat-tracker|S5 combat tracker]]. **Do not kill him** — killing the gatekeeper sours the audience into a grievance. **(DM ADDITION)**
+**Statline:** Custom CR 5 fey (⚗️). Full stat-block in [S5 combat tracker](../sessions/session%205/the-hawthorn-gate-2-combat-tracker.md). **Do not kill him** — killing the gatekeeper sours the audience into a grievance. **(DM ADDITION)**
 
-> [!cite] Source notes
+> [!NOTE]
+> **Source notes**
 > Maelorn the Thornward, the Hawthorn Gate challenge, and the Ceremonial-Restraint mechanic are DM additions introduced in Session 005. The fey lord he serves remains deliberately **unnamed.**
 
 ---
@@ -390,7 +417,8 @@ tags:
 - *First impression (S4):* Warm and openly grateful. He competed against **Kto** in the Greengrass **archery contest** — he's an excellent archer and took the better of the later rounds, but bore her no ill will (*"That was a tough shot."*).
 - *What he offers:* A friendly inside contact within the militia, and a debt of gratitude the party can call on.
 
-> [!cite] Source notes
+> [!NOTE]
+> **Source notes**
 > Rellan Tessar was established in Session 001 as the rescued scout. His recovery and archery skill are DM additions confirmed in Session 004.
 
 ---
@@ -418,7 +446,8 @@ tags:
 - *First impression (S4):* Rivalry. He out-musicianed Fiorn on raw lute skill but **lost the showcase** when his crowd-work round fell flat against Fiorn's; Fiorn took gold, Helbrin silver.
 - *What he wants from Fiorn:* After the loss, he offered Fiorn a **supporting-act slot on the road** — *"under me, of course."* Fiorn handed him a note: *"If you need anybody killed, seek me out."* **The touring offer stands** as an open hook.
 
-> [!cite] Source notes
+> [!NOTE]
+> **Source notes**
 > Helbrin is a DM addition introduced in Session 004. Not from the sourcebooks or earlier campaign files. Confirm name spelling and decide whether to develop the touring-offer hook.
 
 ---
@@ -443,7 +472,8 @@ tags:
 - *Wants:* To complete the consecration of the portal-anchor at Site C, opening a stable one-way surface mouth for Vhaeraunian operatives and supplies.
 - *Fears:* That Lolth's drow find the anchor before it is fully consecrated and smash it (which they are, by S3, actively trying to do).
 
-> [!dm] Secret
+> [!IMPORTANT]
+> **DM:** Secret
 > The anchor's consecration is **further along than the Site B intel suggested.** Khelziir has had an extra in-fiction night and the ritual countdown at session start is **2 rounds, not 3.** **(DM ADDITION)**
 
 
@@ -451,13 +481,15 @@ tags:
 - *First impression:* He has not met the party. He has heard of them — described to him by Zeldrazz as the surface adventurers who closed Site A and embarrassed the cell. He will not negotiate or surrender.
 - *What he wants from the party:* For them to die in his shrine, ideally before the countdown ends.
 
-> [!dm] What he won't say
+> [!IMPORTANT]
+> **DM:** What he won't say
 > The exact destination of the portal anchor on the Underdark side. He doesn't fully know — he was given coordinates and a consecration rite, not a map.
 
 
-**Statline base:** Custom CR 6 cleric build (chain shirt + *shield of faith*; *spirit guardians*, *silence*, *spiritual weapon*, *bane*, *banishment*). Full stat-block in [[sessions/session 3/the-half-mask-shrine-2-combat-tracker|S3 combat tracker]]. **(DM ADDITION)**
+**Statline base:** Custom CR 6 cleric build (chain shirt + *shield of faith*; *spirit guardians*, *silence*, *spiritual weapon*, *bane*, *banishment*). Full stat-block in [S3 combat tracker](../sessions/session%203/the-half-mask-shrine-2-combat-tracker.md). **(DM ADDITION)**
 
-> [!cite] Source notes
+> [!NOTE]
+> **Source notes**
 > Vhaeraun and the Vhaeraunian heresy are canonical *[CG, PG]*. Khelziir himself, his name, the silver half-mask, the Site C cell, and the portal-anchor mechanic are DM additions.
 
 ---
@@ -482,7 +514,8 @@ tags:
 - *Wants:* To kill Kto personally, with a blade, while she sees his face.
 - *Fears:* Failing again and being demoted further — or worse, being handed to Lolth's drow as a peace-offering.
 
-> [!dm] Secret
+> [!IMPORTANT]
+> **DM:** Secret
 > If he survives a *third* encounter with the party (S3 being his second), he becomes a confirmed personal nemesis arc — Kto's grudge-mate, marked for a final cap fight in a later session. **(DM ADDITION)**
 
 
@@ -490,13 +523,15 @@ tags:
 - *First impression:* He knows the party already. **He smiles at Kto** when they enter the Shrine.
 - *What he wants from the party:* Kto's death. The rest can live or die as the fight allows.
 
-> [!dm] What he won't say
+> [!IMPORTANT]
+> **DM:** What he won't say
 > That his demotion was real and that returning with Kto's head is, in his own mind, his only path back to field-officer rank.
 
 
-**Statline base:** Drow Elite Warrior reskin (MM p.128 baseline; +poison damage rider on shortsword; Parry reaction). Full stat-block in [[sessions/session 3/the-half-mask-shrine-2-combat-tracker|S3 combat tracker]]. **(DM ADDITION)**
+**Statline base:** Drow Elite Warrior reskin (MM p.128 baseline; +poison damage rider on shortsword; Parry reaction). Full stat-block in [S3 combat tracker](../sessions/session%203/the-half-mask-shrine-2-combat-tracker.md). **(DM ADDITION)**
 
-> [!cite] Source notes
+> [!NOTE]
+> **Source notes**
 > Drow Elite Warrior statblock from MM. Zeldrazz himself, his name, the S1 scar, the demotion, and the Kto vendetta are DM additions established in session 001 and codified in session 003 prep.
 
 ---
@@ -533,5 +568,6 @@ tags:
 
 ---
 
-> [!cite] Maintenance note
-> All NPCs on this sheet are DM additions consistent with the Campaign Guide's Shadowdale entry and [[world]]. When any of these NPCs are confirmed canonical in play, update this note.
+> [!NOTE]
+> **Source:** Maintenance note
+> All NPCs on this sheet are DM additions consistent with the Campaign Guide's Shadowdale entry and [world](world.md). When any of these NPCs are confirmed canonical in play, update this note.

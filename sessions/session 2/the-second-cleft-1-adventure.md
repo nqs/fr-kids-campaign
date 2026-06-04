@@ -81,7 +81,8 @@ Approximately 5 hours from the village to the southern site, on Old Skull's sout
 
 #### Approaching the Hawthorn Chimney
 
-> [!quote] Read Aloud
+> [!NOTE]
+> **Read-aloud:** Read Aloud
 > The hawthorn closes overhead in a low arch — pale berries, black thorns. Beneath the boughs, a fire pit lies cold under a film of ash, three bedrolls splayed around it like petals torn from a flower. One has a long dark stain along its length. The chimney mouth is a dark wound in the rock, and from inside, very faintly, comes the sound of something dragging itself upward.
 
 ![Tactical Map — Site B, The Hawthorn Chimney](https://storage.gemini.mcp.nqs.io/images/c4b0920d-98a1-47b5-9939-8dfb7b4503c4.png)

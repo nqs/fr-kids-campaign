@@ -62,7 +62,8 @@ NPC initiative is pre-rolled (DEX-averaged). PCs roll live and write into the bl
 - **Lorindar** — R1 speak the audience invitation (Standard-Bearer's Word, free), move Erith to ~30 ft of the PC who drew first, glaive ×2. R2 continue, Reproof the second hit. R3 Fey-Step + stag-bolt escape.
 - **Sprite Outrider 1 & 2** — R1 Heart-Sight Arrows at the two PCs who drew first; any sprite reading "fear, not malice" **holds fire** the rest of the fight. R2 Sleep-Tipped Arrows at the loudest-output PC (non-lethal) — typically **Yinu, Naan, or Fiorn** depending on R1 damage rolls. R3 cover the Herald's exit, peel off.
 
-> [!flag] DM — Naan's Healing Light may already be depleted
+> [!WARNING]
+> **Flag:** DM — Naan's Healing Light may already be depleted
 > Naan's **Healing Light pool (6d6)** recovers on Long Rest. If she spent dice at the Blessing of First Light station (File 1, Station F), the pool is **reduced going into the Crash.** Track exact dice remaining on Lilli's sheet before initiative. The party's healing math depends on it: Nalith's Balm of the Summer Court (5d6) is the other in-combat heal pool; **Naan's Revivify (3rd-level Pact slot, 2/Long Rest)** is the safety net if a kid hits 0 HP.
 - **Civilian screen (DM-controlled, won't act unless asked):** *Captain Helm* holds the militia line; will body-block a sprite-shot for a civilian; **will not** attack Lorindar (he feels the standard). *4× Shadowdale reservists* behind Helm, spear-and-shield, won't engage without orders. *Rellan Tessar* at the riverbank with his bow — rushes in only if Kto is downed (story beat, not damage). *Sela Wyndmere* at the treeline; **will not attack either side** — she is the trigger and the brake.
 

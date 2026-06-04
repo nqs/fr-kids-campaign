@@ -72,7 +72,8 @@ tags:
 - Portal anchor disposition reward (if applicable)
 - **Milestone: Level 6** — held until after debrief scene
 
-> [!hook] Loose Ends & Hooks
+> [!TIP]
+> **Loose Ends & Hooks**
 > - **Anchor unresolved** — party must still choose Smash / Steal / Feed / Withdraw at the top of Session 4. Start there.
 > - **Zeldrazz fate** — **Dead.** Killed by Kto. Remove from villain pool. No third encounter.
 > - **Vhaeraunian retaliation clock** — begins once the ending is chosen. 2–3 weeks in-world; form TBD.
@@ -83,7 +84,8 @@ tags:
 > - **Nema's in-fiction arrival** — Lilli joined the session at the table but Nema was never formally introduced in-world. Either retcon her as having been at the cold camp all along, or open Session 4 with a brief "how did she get here?" beat.
 > - **Sela Wyndmere's consultations** — still unresolved. S004 candidate.
 
-> [!dm] DM Notes
+> [!IMPORTANT]
+> **DM Notes**
 > - **Hold Person on two targets simultaneously** was the session's decisive moment — Nalith locked both bosses in Round 1 or 2, turning a Hard/Deadly encounter into a cleanup. Kto then killed Zeldrazz with greatsword attacks while paralyzed. DM flagged wanting to increase difficulty next time.
 > - **Khelziir's spirit guardians** landed on Kto and dealt real damage + poison condition before Hold Person landed — good pressure, but the fight resolved very fast overall.
 > - **Quillip improvised well** — she emerged naturally from the watcher encounter. The "fey don't value possessions, they value experiences" framing worked. Fox's original-song payment was clean. She should become a recurring presence near Old Skull.

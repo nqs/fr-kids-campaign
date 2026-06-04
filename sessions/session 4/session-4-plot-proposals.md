@@ -63,7 +63,8 @@ Each station is a **three-check skill challenge** with escalating DCs. Success l
 | **Nalith** — Druid (Dreams), Animal Handling +6, Herbalism, Druidic | **The Greening of the Beasts** at the Living Wood edge — canon Greengrass druid observance: flower offerings, blessings of spring animals | **Sela Wyndmere** assisting in the open; **Quillip** invisibly watching | (1) Prepare the blessing posy, **Herbalism Kit DC 13**; (2) Call the animals with a wood instrument, **Performance DC 15**; (3) Settle a skittish doe in front of the crowd, **Animal Handling DC 17**. On Gold Ribbon, Quillip drops a single dried hawthorn berry at Nalith's feet — *plant: she's near when the crash comes.* |
 | **Nema** — *Lilli's PC; sheet not yet in `campaign/party.md`* | **TBD pending sheet.** Default fallback: a **Festival Footrace** along the Ashaba's south bank (three DEX/CON-based checks) so Nema has a slot until her sheet is filed. | TBD | TBD — replace once the sheet is in the campaign bible. |
 
-> [!flag] Nema's station is a placeholder. Don't lock the activity until her class, background, and skills are in `campaign/party.md`. Nothing downstream depends on it.
+> [!WARNING]
+> **Flag:** Nema's station is a placeholder. Don't lock the activity until her class, background, and skills are in `campaign/party.md`. Nothing downstream depends on it.
 
 ### The Crash — shared design
 

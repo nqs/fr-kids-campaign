@@ -8,7 +8,8 @@ tags:
 
 # Factions — Dalelands Campaign
 
-> [!cite] Source key
+> [!NOTE]
+> **Source key**
 > Entries marked *[CG]* draw on the *Forgotten Realms Campaign Guide*; *[PG]* from the *Forgotten Realms Player's Guide*. Entries marked *[HOMEBREW]* are campaign-specific additions not derived from published sourcebooks. All sourcebook material reflects the post-Spellplague era (~1479 DR); adjust or override as needed for your table's timeline.
 
 ---
@@ -91,7 +92,8 @@ The free dales in council are: **Archendale, Battledale, Daggerdale, Deepingdale
 ### Tensions
 Archendale plays both sides, Mistledale hoards political capital, and Shadowdale's seat is perpetually underresourced. The Council knows Lady Ulphor hasn't attended in person for over a year. They haven't pressed the issue — yet.
 
-> [!hook] Adventure Hooks
+> [!TIP]
+> **Adventure Hooks**
 > - Brynn Ashford's unauthorized intelligence-gathering has turned up something that directly concerns the party — but revealing it would embarrass Lady Ulphor at exactly the wrong moment
 > - A vote is coming that could open the Dales to Cormyrian "protection" — which the party may want to influence one way or another
 > - The Council's messenger service has been compromised; a critical communiqué never arrived
@@ -125,7 +127,8 @@ They know something is wrong under Old Skull — probably more than Lady Ulphor 
 - **Direct contact made.** Orvyn revealed himself to **Yinu** after she won his Greengrass arcane-skills challenge, and there is a **Harper gift waiting** for her at the bookshop (undefined — pursue Session 005).
 - Yinu separately sensed **fresh Weave activity in Orvyn's back room** during the earlier debrief; what he was doing there is unresolved.
 
-> [!hook] Adventure Hooks
+> [!TIP]
+> **Adventure Hooks**
 > - **Yinu collects the Harper gift** at Orvyn's shop — the first real recruitment beat (S5 thread)
 > - Orvyn Tal approaches the party with a job that sounds like a book retrieval but is actually a dead-drop run
 > - A Harper agent in Scardale has gone silent; someone needs to go find out why without triggering Sembian attention
@@ -152,7 +155,8 @@ Strong and genuine, though not without friction — elven and human priorities d
 ### Tensions
 The **Eldreth Veluuthra** — a human-supremacist militant elven faction — complicates Myth Drannor's political position. The coronal can't be seen to suppress them without elven civil unrest, but can't endorse them either.
 
-> [!hook] Adventure Hooks
+> [!TIP]
+> **Adventure Hooks**
 > - A Myth Drannor diplomat needs discreet help with something the coronal's court can't do officially
 > - The party is asked to carry a message to the Myth Drannor embassy in New Velar — the message is more consequential than it looks
 > - The coronal's court has heard rumors about Old Skull and wants a private report before deciding whether to intervene
@@ -177,7 +181,8 @@ Membership requires demonstrated competence and a sponsor already in the Fellows
 ### Why It Matters to the Party
 The Fall of Stars is the single best location in the free Dales for finding work, gathering rumors, and making contacts across faction lines. Joining the Fellowship is a concrete mechanical benefit the party can earn.
 
-> [!hook] Adventure Hooks
+> [!TIP]
+> **Adventure Hooks**
 > - A mission board posting that shouldn't exist — someone is using the Fellowship to recruit for something covert
 > - A famous Fellow has gone missing on a job in the occupied dales; his companions need outside help
 > - The party has an opportunity to earn sponsorship into the Fellowship — but the task required is more dangerous than the sponsor admits
@@ -197,7 +202,8 @@ The Abbey of the Sword is the most prominent temple to **Tempus** (god of war) i
 ### Current Internal Tension
 A conservative faction wants to fortify and focus on defense. A militant faction wants to push down into the portal and take the fight to the drow — despite not knowing what waits below.
 
-> [!hook] Adventure Hooks
+> [!TIP]
+> **Adventure Hooks**
 > - The succession dispute for Priest General has turned dangerous — someone is using poison to shape the outcome
 > - The party is hired to clear and seal the portal the drow used; something below doesn't want it closed
 > - The abbey needs an escort for a sacred relic being transported to Ashabenford — the timing is deeply political
@@ -223,7 +229,8 @@ More than they're saying publicly. The scouts have confirmed drow movement in at
 ### Relationship with the Party
 The militia will cautiously cooperate with outside adventurers — Corwick doesn't have the luxury of turning down capable help. But he will want to know who they are and what they want before he shares anything sensitive.
 
-> [!hook] Adventure Hooks
+> [!TIP]
+> **Adventure Hooks**
 > - Corwick approaches the party quietly, at the Old Skull Inn — not through Lady Ulphor's office — asking them to go somewhere the militia can't go officially
 > - A militiaman has gone missing on a scouting run; Corwick is holding it together but Torval Dunmore (who knows the man's family) is not
 > - The missing scout reappears — changed in a way that isn't explainable as ordinary trauma
@@ -248,7 +255,8 @@ Tasseldale was overrun by Sembian mercenaries in 1420 DR after Archendale refuse
 ### Why It's Complicated
 The Resistance's leadership is divided over whether to make contact with the Harpers (who have resources but their own agenda) or to wait for a direct Dales Council commitment (which the Council has so far been unwilling to make). The party could tip that balance.
 
-> [!hook] Adventure Hooks
+> [!TIP]
+> **Adventure Hooks**
 > - The party is asked to carry supplies or a message to a Resistance cell — the Harpers are asking, not the Council, which tells you something
 > - A Tassadran informant needs extraction before Sembian agents close in
 > - The Resistance has captured a Sembian officer who knows something important — but they can't hold him and they can't let him go
@@ -267,12 +275,12 @@ The Living Wood surrounding Shadowdale is a fey-touched forest with an unusually
 
 ### Key Contact (Roster)
 - **Sela Wyndmere** (Shadowdale healer) — deeply embedded in the fey community. For **twelve years** she has carried ribbon-knotted messages for a fey lord of the wood, never reading them. **In the S4 aftermath she confessed the arrangement to the party;** in S5 (planned) she realizes the messages were the instrument of the wood's slow harvest and turns **penitent ally.** Ran the Greengrass "Greening" (S4); friendly with Nalith. *[HOMEBREW]*
-- **Quillip Burr-and-Whistle** (pixie) — direct party ally since Session 003 (bargained intel for a song). Left Nalith a **hawthorn berry** at the S4 festival (now defined as a **guest-token of the Bright Court** — see [[roster]]). The party's reliable, capricious line into the wood. *[HOMEBREW]*
-- **Lorindar Greenmantle, the Antlered Herald** (CR 5 fey) — the Bright Court's outrider and message-bearer; delivered the lord's audience mark to the party at the S4 bonfire. Statblock in [[sessions/session 4/the-greengrass-greengage-2-combat-tracker|S4 combat tracker]]. *[HOMEBREW]*
-- **Maelorn, the Thornward** (CR 5 fey) — gatekeeper of the Bright Court's hawthorn-cleft seam; tests those the lord has marked. Statblock in [[sessions/session 5/the-hawthorn-gate-2-combat-tracker|S5 combat tracker]]. *[HOMEBREW]*
+- **Quillip Burr-and-Whistle** (pixie) — direct party ally since Session 003 (bargained intel for a song). Left Nalith a **hawthorn berry** at the S4 festival (now defined as a **guest-token of the Bright Court** — see [roster](roster.md)). The party's reliable, capricious line into the wood. *[HOMEBREW]*
+- **Lorindar Greenmantle, the Antlered Herald** (CR 5 fey) — the Bright Court's outrider and message-bearer; delivered the lord's audience mark to the party at the S4 bonfire. Statblock in [S4 combat tracker](../sessions/session%204/the-greengrass-greengage-2-combat-tracker.md). *[HOMEBREW]*
+- **Maelorn, the Thornward** (CR 5 fey) — gatekeeper of the Bright Court's hawthorn-cleft seam; tests those the lord has marked. Statblock in [S5 combat tracker](../sessions/session%205/the-hawthorn-gate-2-combat-tracker.md). *[HOMEBREW]*
 
 ### Current Situation
-The Living Wood near Old Skull is **emptying.** Fey who used to range the forest are withdrawing — and as of S5 the party learns this is not a flight from the drow but a **recall:** the wood's ambient enchantment is being pulled toward a single point (the **Hawthorn Cleft**; see [[geography]]). Color and birdsong drain the closer one walks to it. The withdrawal has stranded ordinary woodland animals on the wrong side of a contracting Feywild seam, leaving them **fey-touched and panicked** (the frightened-wood beasts of S5). Signs of **Feywild bleed-through** keep mounting: at Orvyn's S4 arcane challenge, Yinu identified a primrose that fell through a seam from the Fey Realm and a tonic peddled by a planar traveler.
+The Living Wood near Old Skull is **emptying.** Fey who used to range the forest are withdrawing — and as of S5 the party learns this is not a flight from the drow but a **recall:** the wood's ambient enchantment is being pulled toward a single point (the **Hawthorn Cleft**; see [geography](geography.md)). Color and birdsong drain the closer one walks to it. The withdrawal has stranded ordinary woodland animals on the wrong side of a contracting Feywild seam, leaving them **fey-touched and panicked** (the frightened-wood beasts of S5). Signs of **Feywild bleed-through** keep mounting: at Orvyn's S4 arcane challenge, Yinu identified a primrose that fell through a seam from the Fey Realm and a tonic peddled by a planar traveler.
 
 ### The Bright Court Beneath ⚗️
 The fey lord using Sela as a courier is a lord of the **Bright Court Beneath** — an old, powerful Feywild court whose seam runs deepest at the Hawthorn Cleft. **The lord himself remains unnamed** (he names himself at his own table; reserved for a later reveal — S6+).
@@ -282,14 +290,16 @@ The fey lord using Sela as a courier is a lord of the **Bright Court Beneath** �
 - **Functionaries:** **Lorindar Greenmantle, the Antlered Herald** (outrider/message-bearer) and **Maelorn, the Thornward** (gatekeeper of the seam), plus **Sprite Outriders** on fey-touched owls. None are villains to be killed — the Court tests and provokes, but its servants pull their blows and yield with honor. Killing one curdles the lord's interest into a grievance.
 - **The audience:** at the **next full moon**, at the Hawthorn Cleft, under **guest-right** (no harm to the guests, none from them, while the ribbons hold). Sealed at the S5 gate. The lord's intentions toward the party are still opaque — patron, predator, or both. **A long-term thread, not an immediate war.**
 
-> [!dm] Disposition tracking
+> [!IMPORTANT]
+> **DM:** Disposition tracking
 > How the party handles the Court's tests (the frightened beasts, the Thornward's challenge) — mercy vs. murder, restraint vs. overkill — sets the lord's disposition toward them at the full-moon audience. Note it in the session log after S5 is played. **(DM ADDITION)**
 
-> [!hook] Adventure Hooks
+> [!TIP]
+> **Adventure Hooks**
 > - **The full-moon audience** at the Hawthorn Cleft (the S5 → S6 throughline) — and Naan's competing Temple-of-Lathander invitation falls on the *same* night
 > - **Quillip's quarter-moon offer** — "hawthorn, midnight, bring four friends, not five" — a different door the lord doesn't want the party to see
 > - **Sela's penance** — now an ally seeking to undo twelve years of unwitting service; what she carried, and to whom, is still unread
-> - Farmers on the forest edge report animals going missing (the fey-touched, seam-stranded beasts — see [[world]])
+> - Farmers on the forest edge report animals going missing (the fey-touched, seam-stranded beasts — see [world](world.md))
 
 ---
 
@@ -308,7 +318,8 @@ High Dale has already accepted Cormyrian protectorate status (1422 DR) to stave 
 ### Current Relevance
 There is a movement within the Dales Council to formally request Cormyrian protection for the remaining free dales. **Brynn Ashford** fears this would effectively end Shadowdale's independence. The party's actions could influence how this vote goes.
 
-> [!hook] Adventure Hooks
+> [!TIP]
+> **Adventure Hooks**
 > - A Cormyrian diplomatic mission arrives in the Dalelands with an offer that needs to be accepted or refused before the Netherese hear about it
 > - Cormyr's War Wizards want to examine something connected to the Old Skull situation — on Cormyrian terms
 > - The party needs Cormyrian military intelligence; getting it requires doing something for the Purple Dragons first
@@ -333,8 +344,9 @@ Archendale is the most fortified and commercially aggressive of the free dales, 
 ### Why They're Complicated
 The Trade Houses aren't evil — they're simply operating on a shorter time horizon than the geopolitical situation warrants. Some individual merchants are genuinely helpful; others are selling information to multiple bidders. Distinguishing between them is the challenge.
 
-> [!hook] Adventure Hooks
-> - A merchant caravan from Mistledale arrived two days late with a frightened driver who won't say what happened ([[world]]) — one of the Trade Houses owns that caravan
+> [!TIP]
+> **Adventure Hooks**
+> - A merchant caravan from Mistledale arrived two days late with a frightened driver who won't say what happened ([world](world.md)) — one of the Trade Houses owns that caravan
 > - The party needs something that can only be sourced through Archenbridge black markets — which means dealing with someone who has a hand in multiple factions
 > - A Trade House factor needs an escort through territory that has just become significantly more dangerous
 
@@ -357,7 +369,8 @@ The **Shadovar** — humans who lived in the Plane of Shadow during Netheril's a
 - Break the Myth Drannor alliance before Myth Drannor grows strong enough to resist
 - Keep the Dales Council fractious enough that it cannot coordinate a unified military response
 
-> [!hook] Adventure Hooks
+> [!TIP]
+> **Adventure Hooks**
 > - Netherese agents are in Archenbridge — not openly, but the party encounters traces
 > - A Sembian tax official is overstepping in a way that's destabilizing a dale the party has reason to care about
 > - The Shade Enclave sends a negotiator to the Dales Council with an offer that sounds reasonable, because it's designed to
@@ -379,7 +392,8 @@ Once the dominant criminal and mercenary network of the northern Dalelands and M
 ### Current Dalelands Presence
 The Black Network's influence in the Dales proper is scattered — opportunistic agents, sell-swords flying no colors, and intelligence assets cultivated in better days. They're not a dominant power here anymore. They are still dangerous.
 
-> [!hook] Adventure Hooks
+> [!TIP]
+> **Adventure Hooks**
 > - A Zhentarim mercenary approaches the party with a job that's against another faction the Zhentarim hates — the enemy of my enemy, for now
 > - Ruins of Zhentil Keep conceal something the party needs; Zhent agents at Darkhold also want it
 > - A former Zhent agent is hiding in the Dales, trying to get out — someone from Darkhold is trying to silence him
@@ -406,7 +420,8 @@ In truth, **Hoar now serves Bane**, and the misconception that the Hand deals pu
 ### Why They're Dangerous
 They don't look like a Banite organization. A troubadour working the common rooms of every inn from Archenbridge to New Velar could be a Hand informant — and probably is.
 
-> [!hook] Adventure Hooks
+> [!TIP]
+> **Adventure Hooks**
 > - The party is hired by (or against) a Hidden Hand operative pursuing a target in the Dales
 > - A troubadour who works as a Hand informant has learned something too dangerous — and is now the one being hunted
 > - The temple in the Arch Wood is hiring outside talent for a job it can't staff internally; they don't tell the party who they're actually working for
@@ -426,7 +441,8 @@ Mulmaster is a Moonsea city-state built on iron foundries and fishing, wedged in
 ### Dalelands Reach
 The Church of Bane considers itself the ideological successor to the Zhentarim's control of the Moonsea-to-Dales corridor. They are more patient than the old Zhents and more disciplined — a worse combination. The Hidden Hand of Fate is their covert arm in the Dales, though most Hand operatives don't know the full chain of command.
 
-> [!hook] Adventure Hooks
+> [!TIP]
+> **Adventure Hooks**
 > - A Banite priest arrives in Ashabenford with a very reasonable-sounding proposal for Dales Council cooperation
 > - The party uncovers the link between the Hidden Hand and the Church of Bane — which tells them something important about the scope of what they're dealing with
 
@@ -451,8 +467,8 @@ Drow plague **Battledale, Mistledale, and Shadowdale** via Underdark passages. O
 ### The Vhaeraunian Surface Cell at Old Skull *[HOMEBREW]*
 A small Vhaeraunian forward cell operated from a chain of three staging clefts on Old Skull's flanks: **Site A** (closed by the party in session 001), **Site B / the Hawthorn Chimney** (closed by a Lolthite raid before the party arrived in session 002), and **Site C / the granite shoulder** (**cleared by the party in session 003**). **All three staging sites are now closed.** The cell's Site C leadership is dead:
 
-- **Khelziir Aun'velve** — field-priest of Vhaeraun; was consecrating a portal-anchor that would open a stable one-way surface mouth. **Killed at his altar in session 003** (Yinu's Scorching Ray, while paralyzed); the portal never opened. *[HOMEBREW — see [[roster]]]*
-- **Zeldrazz T'orrl** — demoted former field officer of Site A, Khelziir's bodyguard, vendetta against **Kto**. **Killed by Kto in session 003.** *[HOMEBREW — see [[roster]]]*
+- **Khelziir Aun'velve** — field-priest of Vhaeraun; was consecrating a portal-anchor that would open a stable one-way surface mouth. **Killed at his altar in session 003** (Yinu's Scorching Ray, while paralyzed); the portal never opened. *[HOMEBREW — see [roster](roster.md)]*
+- **Zeldrazz T'orrl** — demoted former field officer of Site A, Khelziir's bodyguard, vendetta against **Kto**. **Killed by Kto in session 003.** *[HOMEBREW — see [roster](roster.md)]*
 
 The cell's iconography is the **silver half-mask** of Vhaeraun (priests) and plain **steel half-masks** (footsoldiers). Standard scout loadout: hand crossbow, drow poison, brass signal horns at observation posts.
 
@@ -468,7 +484,7 @@ The Lolthite enclave under Old Skull has the same intelligence the party does �
 
 **The enclave does not yet know the surface party exists.** In session 003 the **Lolthite Crash never triggered** — the party bypassed the Spider Pen and resolved the Shrine fight before Round 4, so no raider saw them. The enclave remains unaware of the party. (They will eventually find Khelziir's cell dead and the camp cleared — by whose hand is, to them, an open question.)
 
-**Stat-block note:** *Lolthite Drow Raider* (CR 1 homebrew, AC 16, HP 39) is reproduced in full in [[sessions/session 3/the-half-mask-shrine-2-combat-tracker|S3 combat tracker]]. Promote to a permanent stat-block reference if used in future sessions.
+**Stat-block note:** *Lolthite Drow Raider* (CR 1 homebrew, AC 16, HP 39) is reproduced in full in [S3 combat tracker](../sessions/session%203/the-half-mask-shrine-2-combat-tracker.md). Promote to a permanent stat-block reference if used in future sessions.
 
 ### Vhaeraunian Retaliation Timer
 A Vhaeraunian retaliation arrives roughly **2–3 weeks of in-fiction time** after the cell is discovered destroyed. The party killed Khelziir, stopped the ritual, and **took the portal-anchor pendant** (rather than smashing or feeding the anchor in place), so the response is most likely an **investigative strike** — operatives sent to learn who hit the cell and where the anchor went. The clock is **now running** (started end of S3 / surfaced in S4). Form and timing TBD by the DM.
@@ -478,7 +494,8 @@ Corwick Helm's militia has confirmed drow movement in at least two upper passage
 
 Nobody is saying the word "drow" out loud in the village. Everybody is thinking it.
 
-> [!hook] Adventure Hooks
+> [!TIP]
+> **Adventure Hooks**
 > - The party is the people Lady Ulphor calls when she can no longer pretend this isn't happening
 > - The Vhaeraunian faction and the Lolthite faction are in conflict below; the party could exploit that — or get caught between them
 > - Someone on the surface has been in contact with the drow voluntarily; the party needs to find out who before the situation escalates
@@ -506,7 +523,8 @@ Their presence has devastated the timber trade through the Hullack Forest, harmi
 ### Tensions with Myth Drannor
 Myth Drannor's coronal does not condone the Eldreth Veluuthra, but suppressing them openly is politically complicated — some members were once loyal citizens. They exploit this difficulty expertly.
 
-> [!hook] Adventure Hooks
+> [!TIP]
+> **Adventure Hooks**
 > - A trade caravan has vanished on the Hullack road; evidence points to Eldreth Veluuthra
 > - A half-elf NPC from the party's backstory is being hunted; the Eldreth Veluuthra has found them
 > - A captured operative is willing to talk — but only for something they want very badly
@@ -523,7 +541,7 @@ Myth Drannor's coronal does not condone the Eldreth Veluuthra, but suppressing t
 ### Overview
 The Scarred Road Syndicate is a criminal operation that has established itself in the interstitial spaces between the free dales and the occupied ones — the road corridors, the river crossings, and the forest tracks that move goods (and people) across contested territory. *[HOMEBREW]*
 
-They are not ideological. They work for the Sembians when Sembia pays, for the Trade Houses when Archendale pays, and for private interests when private interests pay more. They have likely been involved in at least one thing the party has noticed already (see [[world]]: the merchant caravan from Mistledale that arrived two days late with a frightened driver who won't explain the delay).
+They are not ideological. They work for the Sembians when Sembia pays, for the Trade Houses when Archendale pays, and for private interests when private interests pay more. They have likely been involved in at least one thing the party has noticed already (see [world](world.md): the merchant caravan from Mistledale that arrived two days late with a frightened driver who won't explain the delay).
 
 ### What They Want
 Money, leverage, and to remain invisible. They are not interested in conquest; they are interested in monopolizing the movement of information and goods across a region where that movement is increasingly dangerous and therefore increasingly valuable.
@@ -531,7 +549,8 @@ Money, leverage, and to remain invisible. They are not interested in conquest; t
 ### Why They're Hard to Deal With
 The Syndicate doesn't have a villain headquarters. It has a network of people who each know only the person above and below them. Unraveling it requires working from the outside in, which means first identifying they exist at all.
 
-> [!hook] Adventure Hooks
+> [!TIP]
+> **Adventure Hooks**
 > - The frightened caravan driver eventually tells the party what scared him; it leads somewhere the Syndicate doesn't want anyone looking
 > - The party needs to move something (or someone) across an occupied border; the only broker who can arrange it turns out to be Syndicate-connected
 > - Someone the party trusts has been sharing information with a Syndicate contact, not knowing what the Syndicate is

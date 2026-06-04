@@ -179,7 +179,8 @@ This is the line Lorindar MUST deliver before he leaves. **Drop it in Round 1 as
 | **Nalith** | Druid (Circle of Dreams) | **Hidden Paths** (Circle of Dreams 6th-level feature — short-rest teleport, very fey-themed; thematic for tonight!) |
 | **Naan** | Warlock (Celestial Patron) | Level 6 subclass feature (PHB-2024 Celestial: typically expanded radiant/fire damage rider; **verify with Lilli before play**) + standard Warlock 6 invocation slot |
 
-> [!flag] Print L6 reference sheets and bring them to the table.
+> [!WARNING]
+> **Flag:** Print L6 reference sheets and bring them to the table.
 
 ---
 
