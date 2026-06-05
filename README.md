@@ -48,8 +48,8 @@ This content is authored as **GitHub-flavoured Markdown** so it renders cleanly 
 
 ```
 fr-kids-campaign/
-├── README.md                     # GitHub repo landing page
-├── Home.md                       # this file — wiki landing page + index (same content)
+├── README.md                     # this file — GitHub repo landing page
+├── Home.md                       # wiki landing page + index (same content)
 ├── _Sidebar.md                   # wiki navigation sidebar
 ├── AGENTS.md                     # Campaign Keeper agent instructions
 ├── dnd-adventure-generator.md    # Generation workflow (scope → outline → images → markdown → guide → PDF)
