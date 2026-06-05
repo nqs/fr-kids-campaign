@@ -1,8 +1,8 @@
 # Forgotten Realms — Kids Campaign
 
-The DM's knowledge base for an ongoing D&D 5e campaign set in **Shadowdale**, the Dalelands. This wiki holds the campaign bible, per-session deliverables, and the operating docs that drive content generation.
+The DM's knowledge base for an ongoing D&D 5e campaign set in **Shadowdale**, the Dalelands. This wiki holds the campaign guide, per-session deliverables, and the operating docs that drive content generation.
 
-## Campaign Bible
+## Campaign Guide
 
 - [world](campaign/world.md) — setting overview, cosmology, timeline, tone
 - [geography](campaign/geography.md) — regions, cities, travel distances, climate
@@ -31,7 +31,7 @@ Each guide has a single `full.md`, per-page files under `pages/page-NNNN.md`, an
 ## DM Operating Doc
 
 - [Campaign Keeper instructions](AGENTS.md) — source hierarchy, canon-first rules, generator handoff
-- [Adventure Generator workflow](dnd-adventure-generator.md) — scope → outline → images → markdown → bible → PDF
+- [Adventure Generator workflow](dnd-adventure-generator.md) — scope → outline → images → markdown → guide → PDF
 
 ---
 
@@ -51,8 +51,8 @@ fr-kids-campaign/
 ├── Home.md                       # this file — wiki landing page + index
 ├── _Sidebar.md                   # wiki navigation sidebar
 ├── AGENTS.md                     # Campaign Keeper agent instructions
-├── dnd-adventure-generator.md    # Generation workflow (scope → outline → images → markdown → bible → PDF)
-├── campaign/                     # campaign-bible canon
+├── dnd-adventure-generator.md    # Generation workflow (scope → outline → images → markdown → guide → PDF)
+├── campaign/                     # campaign-guide canon
 │   ├── world.md                  # setting overview
 │   ├── geography.md              # regions, cities, travel
 │   ├── factions.md               # organizations and their conflicts

@@ -405,7 +405,7 @@ Cut on Lady Ulphor's bonfire roaring up against the dusk and the party standing 
 
 # DM Additions Flagged for Roster / World Canonization
 
-Drafted but not yet entered in the campaign bible. Add to `campaign/roster.md` after the session runs:
+Drafted but not yet entered in the campaign guide. Add to `campaign/roster.md` after the session runs:
 
 - **Lorindar Greenmantle, the Antlered Herald** — fey, CR 5, outrider of the Bright Court Beneath. Recurring villain-or-ally pending the audience. Statblock in file 2.
 - **Erith-of-the-First-Snow** — Lorindar's stag mount, draft-horse-sized, antlers crowned in white blossom. Not statted as a separate combatant; treated as Lorindar's mount.

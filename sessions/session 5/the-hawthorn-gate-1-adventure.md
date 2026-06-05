@@ -254,15 +254,15 @@ Cut on the party walking back out of the greying wood with Sela between them —
 
 ---
 
-# DM Additions Flagged for Bible Canonization
+# DM Additions Flagged for Guide Canonization
 
-Drafted here; enter into the campaign bible **before** the session per the workflow (roster / factions / geography now; session-log waits until after play).
+Drafted here; enter into the campaign guide **before** the session per the workflow (roster / factions / geography now; session-log waits until after play).
 
 - **Maelorn, the Thornward** — fey gatekeeper of the Bright Court Beneath, CR 5 (⚗️ homebrew). Recurring fey functionary; statblock in file 2. → `campaign/roster.md`.
 - **The Bright Court Beneath** — the unnamed fey lord's court. **Keep the lord unnamed** (consistent with S4); flesh out the *court*, its green-white-bone iconography, its **slow-harvest** modus operandi, and Sela's twelve-year courier service. → `campaign/factions.md` (§ Fey of the Living Wood).
 - **The Hawthorn Cleft** — the audience ground; a contracting Feywild seam in the Living Wood north-east of Shadowdale. → `campaign/geography.md` (DM Additions, tagged `(DM ADDITION)`).
 - **Fey-Touched Great Stag & Fey-Touched Wolf** — ⚗️ homebrew Feywild-stranded beast variants; statblocks in file 2. Faction-neutral; note under the Living Wood entry.
-- **Quillip's hawthorn berry → guest-token** — promote the S4 "fey berry" to a defined one-shot **guest-token of the Bright Court** in the roster, so its mechanics live in the bible, not buried in a session file.
+- **Quillip's hawthorn berry → guest-token** — promote the S4 "fey berry" to a defined one-shot **guest-token of the Bright Court** in the roster, so its mechanics live in the guide, not buried in a session file.
 - **Sela Wyndmere — status shift** — from "unwilling courier" to **"penitent ally seeking to undo her service."** Update her roster entry and the faction note.
 
 > [!WARNING]

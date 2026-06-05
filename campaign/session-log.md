@@ -50,7 +50,7 @@ The drow staging sites are all closed, but the **Vhaeraunians will retaliate** o
 - **Session ended** with festival contests done; the **bonfire / final festival beat deferred to Session 005.**
 
 > [!NOTE]
-> **Note:** Bible catch-up
+> **Note:** Guide catch-up
 > The campaign-wide trackers below were last refreshed after Session 002. This pass folds in **both Session 003 and Session 004** outcomes (Site C cleared, Khelziir and Zeldrazz dead, pendant recovered and surrendered, Greengrass results).
 
 ---
