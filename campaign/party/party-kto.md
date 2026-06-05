@@ -1,12 +1,3 @@
----
-title: Kto
-type: pc
-tags:
-  - party
-  - pc
-  - kto
----
-
 # Kto
 
 > [Back to Party Roster](../party.md)

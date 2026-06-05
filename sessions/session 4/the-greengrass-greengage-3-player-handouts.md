@@ -1,10 +1,3 @@
----
-tags: [campaign/session-4, player-handouts, dnd-5e]
-session: "004"
-adventure: The Greengrass Greengage Affair
-section: player-handouts
----
-
 # Where We Left Off
 
 ![Title Page — The Greengrass Greengage Affair](https://storage.gemini.mcp.nqs.io/images/43198d6d-e1d7-46c9-b12e-3195c0c463bf.png)

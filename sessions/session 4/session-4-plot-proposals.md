@@ -1,12 +1,3 @@
----
-title: Session 004 — Plot Proposals (Post-Party Combat)
-type: planning
-tags:
-  - sessions
-  - session-004
-  - planning
----
-
 # Session 004 — Plot Proposals
 
 The party left Session 003 standing over Khelziir's body in the Shrine. Both bosses are dead, the Lolthites never crashed, and the surface drow incursion just had its head taken off. Session 004 opens with the **leftover business** — anchor disposition, the walk back, and the Ashaba House debrief — and after that the table needs something **lighter**. The kids just survived a Hard/Deadly fight; they've earned a breather. The party also hits **Level 6** at debrief, so the back half is a natural place to celebrate it.

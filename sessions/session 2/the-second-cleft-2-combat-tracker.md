@@ -1,10 +1,3 @@
----
-tags: [campaign/session-2, combat-tracker, dnd-5e]
-session: "002"
-adventure: The Second Cleft
-section: combat-tracker
----
-
 # DM Combat Tracker — The Second Cleft
 
 Printable per-encounter sheets and stat-block cards. HP boxes = 5 HP each (cross out as damage is dealt). Spell-slot boxes = one per slot at that level.

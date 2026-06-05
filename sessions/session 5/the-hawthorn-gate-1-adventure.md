@@ -1,13 +1,3 @@
----
-tags: [campaign/session-5, main-body, dnd-5e]
-session: "005"
-adventure: The Hawthorn Gate
-section: main-body
-tier: "Tier 2"
-party_level: "6 (all PCs; Loric rejoins)"
-duration: "~2 hours"
----
-
 # The Hawthorn Gate
 
 | | |

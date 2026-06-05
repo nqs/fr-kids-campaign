@@ -67,20 +67,11 @@ Naming pattern, slugified from the adventure title (e.g., *The Second Cleft* →
 3. `<slug>-3-player-handouts.md` — player handout appendix
 4. `<slug>-4-dm-quick-ref.md` — DM quick reference cheat sheet
 
-Each file starts with YAML frontmatter:
+Each file opens directly with its `#` H1 title — **no YAML frontmatter**. Frontmatter renders as a stray block at the top of GitHub/wiki pages, so it is intentionally omitted. The PDF pipeline needs none of it: it derives each file's section from the filename suffix (`-1-adventure`, `-2-combat-tracker`, `-3-player-handouts`, `-4-dm-quick-ref`) and the PDF title from File 1's first `#` heading.
 
-```yaml
----
-tags: [campaign/session-<N>, <section-tag>, dnd-5e]
-session: "<NNN>"
-adventure: <Adventure Title>
-section: <main-body|combat-tracker|player-handouts|dm-quick-ref>
----
-```
+The session number, where it appears (the quick-ref `*Session NNN*` line), uses a zero-padded three-digit form (e.g. `003`), while the folder is `sessions/session <N>` with the bare number (e.g. `session 3`). Both refer to the same session.
 
-The session number appears in two intentionally different forms: the folder is `sessions/session <N>` with the bare number (e.g. `session 3`), while the `session:` frontmatter key and the quick-ref `Session NNN` line use a zero-padded three-digit form (e.g. `003`). Both refer to the same session; the padding keeps frontmatter values sorting correctly.
-
-The adventure file may add `tier`, `party_level`, and `duration` keys. Inline images use standard markdown `![Caption](https://…)` referencing the Gemini URLs from Step 4 — never download or rehost. (The ReportLab renderer prefers the git-tracked local jpg via the `images.json` `file` key, so a scripted PDF still builds after a URL expires; on-screen GitHub rendering uses the embedded URL and so depends on it still being live.) Use plain GitHub-flavoured Markdown (tables, headers, lists, fenced code, and the five GitHub alert types). Do not use Fantasy Statblocks or Obsidian Admonition syntax; the print/export pipelines assume plain markdown.
+Inline images use standard markdown `![Caption](https://…)` referencing the Gemini URLs from Step 4 — never download or rehost. (The ReportLab renderer prefers the git-tracked local jpg via the `images.json` `file` key, so a scripted PDF still builds after a URL expires; on-screen GitHub rendering uses the embedded URL and so depends on it still being live.) Use plain GitHub-flavoured Markdown (tables, headers, lists, fenced code, and the five GitHub alert types). Do not use Fantasy Statblocks or Obsidian Admonition syntax; the print/export pipelines assume plain markdown.
 
 **File 1 — `<slug>-1-adventure.md`:** opens with a **full-page title page**, then the adventure narrative — summary, scenes, encounters, NPCs, treasure, loose ends.
 
@@ -130,7 +121,7 @@ For on-screen reading, the Markdown renders directly on GitHub (repo or wiki) an
 
 The reusable scripts:
 
-- **`scripts/build_pdf.py`** — CLI entry point. Auto-discovers the session folder, slug, the markdown files (the three required plus the optional file 4 when present), `images.json`, and PDF title (from the adventure file's `adventure:` frontmatter key). Do not copy this into the session folder; invoke it from the repo root.
+- **`scripts/build_pdf.py`** — CLI entry point. Auto-discovers the session folder, slug, the markdown files (the three required plus the optional file 4 when present), `images.json`, and PDF title (from the adventure file's first `#` heading). Do not copy this into the session folder; invoke it from the repo root.
 - **`scripts/md_to_pdf.py`** — the markdown→Platypus renderer (page styles, AST walker, checkbox replacement, stat-card and init-table special cases). Imported by `build_pdf.py`. Session-agnostic; do not copy or fork per session.
 
 ReportLab build rules (these describe what `scripts/md_to_pdf.py` already implements; touch the script if any of these need to change, never reimplement per session):
@@ -310,7 +301,6 @@ Source the recap from `campaign/session-log.md` (the most recent played-session 
 - **One image** at the top: a scene illustration of the location the PCs are starting this session at. This is usually the same location they ended the previous session at (a cold camp, the doorway of a dungeon they didn't enter, the road outside a town). Generate it in Step 4 like any other location image, with `aspect_ratio="16:9"`, and add it to `images/images.json`. It also gets its own `## <Location Name>` section later in the handout file like any other location image — the recap reuses the URL, it does not duplicate the entry in `images.json`.
 - **Brief recap prose** — 4–8 short sentences or bullet points covering: where the party is now, what they accomplished last session, what they learned, and the immediate decision in front of them. Bold the key facts. No spoilers for the new adventure.
 - Optional **"What Now?"** bulleted list of 1–3 immediate hooks or choices, framed as the party's options at the table.
-- Frontmatter stays the standard player-handouts block (`section: player-handouts`); no separate section tag.
 - Followed by a `---` thematic break, then the rest of the handout entries.
 
 The recap is a player-facing artifact — write it in the second person ("You burned a wounded drider…"), keep the tone tight, and avoid DM-only information (faction maneuvering the party hasn't seen, hidden NPC motivations, future encounter setups).
@@ -336,7 +326,6 @@ Adapt the section list to the adventure's actual content — don't include secti
 
 ### Form
 
-- Frontmatter: `section: dm-quick-ref`, plus the standard `tags`, `session`, `adventure` keys.
 - Title: `# DM Quick Reference — <Adventure Title>` followed by an italic line: `*Session NNN · Print and keep at the table · Full detail in file 1*`.
 - Each section is a level-2 heading separated by `---` thematic breaks.
 - No inline images. No long prose blocks. If a sentence runs more than two lines, it belongs in File 1.

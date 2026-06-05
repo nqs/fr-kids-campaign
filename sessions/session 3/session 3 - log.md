@@ -1,12 +1,3 @@
----
-title: Session 003 — The Half-Mask Shrine
-type: log
-tags:
-  - sessions
-  - log
-  - session-003
----
-
 ## Session 003 — The Half-Mask Shrine
 **Date played:**
 **Location in-world:** Shadowdale — Old Skull's northern flank (Site B cold camp, the Northern Traverse, Site C shrine-camp: antechamber, Spider Pen, the Shrine)

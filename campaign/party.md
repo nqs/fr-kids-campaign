@@ -1,11 +1,3 @@
----
-title: Party
-type: party
-tags:
-  - party
-  - pcs
----
-
 # Party Roster
 
 **System:** D&D 5e (2024 PHB rules)

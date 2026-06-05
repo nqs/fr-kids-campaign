@@ -1,10 +1,3 @@
----
-tags: [campaign/session-4, dm-quick-ref, dnd-5e]
-session: "004"
-adventure: The Greengrass Greengage Affair
-section: dm-quick-ref
----
-
 # DM Quick Reference — The Greengrass Greengage Affair
 *Session 004 · Print and keep at the table · Full detail in file 1 (adventure) and file 2 (combat)*
 

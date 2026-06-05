@@ -1,11 +1,3 @@
----
-title: Factions
-type: reference
-tags:
-  - factions
-  - reference
----
-
 # Factions — Dalelands Campaign
 
 > [!NOTE]

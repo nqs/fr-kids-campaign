@@ -1,12 +1,3 @@
----
-title: Session 002 — The Hawthorn Chimney
-type: log
-tags:
-  - sessions
-  - log
-  - session-002
----
-
 ## Session 002 — The Hawthorn Chimney
 **Date played:**
 **Location in-world:** Shadowdale — Ashaba House, the Living Wood (southwestern flank of Old Skull), Site B (the Hawthorn Chimney)

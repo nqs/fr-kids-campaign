@@ -1,10 +1,3 @@
----
-tags: [campaign/session-5, dm-quick-ref, dnd-5e]
-session: "005"
-adventure: The Hawthorn Gate
-section: dm-quick-ref
----
-
 # DM Quick Reference — The Hawthorn Gate
 *Session 005 · Print and keep at the table · Full detail in file 1 (adventure) and file 2 (combat)*
 

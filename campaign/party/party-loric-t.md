@@ -1,12 +1,3 @@
----
-title: Loric T.
-type: pc
-tags:
-  - party
-  - pc
-  - loric
----
-
 # Loric T.
 
 > [Back to Party Roster](../party.md)

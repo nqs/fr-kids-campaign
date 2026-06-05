@@ -1,12 +1,3 @@
----
-title: Nalith
-type: pc
-tags:
-  - party
-  - pc
-  - nalith
----
-
 # Nalith
 
 > [Back to Party Roster](../party.md)

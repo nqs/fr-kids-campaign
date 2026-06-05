@@ -1,12 +1,3 @@
----
-title: Geography
-type: reference
-tags:
-  - geography
-  - locations
-  - reference
----
-
 # Geography — Campaign Reference
 
 > [!NOTE]

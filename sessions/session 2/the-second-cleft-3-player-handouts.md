@@ -1,10 +1,3 @@
----
-tags: [campaign/session-2, player-handouts, dnd-5e]
-session: "002"
-adventure: The Second Cleft
-section: player-handouts
----
-
 # Player Handouts — The Second Cleft
 
 One image per entry. Show these at the table when the party encounters the person, monster, or location depicted. Maps may be revealed in sections at GM discretion.

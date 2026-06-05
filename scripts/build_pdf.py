@@ -75,9 +75,13 @@ def find_slug(folder: Path) -> str:
 
 
 def title_from_md(adventure_md: Path, slug: str) -> str:
-    """Pull the PDF title from the adventure file's frontmatter, or titlecase the slug."""
+    """Pull the PDF title from the adventure file's first H1, then any legacy
+    `adventure:` frontmatter key, then a titlecased slug."""
     text = adventure_md.read_text()
-    _body, meta = strip_frontmatter(text)
+    body, meta = strip_frontmatter(text)
+    for line in body.splitlines():
+        if line.startswith("# "):
+            return line[2:].strip()
     if meta.get("adventure"):
         return meta["adventure"].strip()
     return " ".join(word.capitalize() for word in slug.split("-"))

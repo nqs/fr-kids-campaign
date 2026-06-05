@@ -1,13 +1,3 @@
----
-tags: [campaign/session-4, main-body, dnd-5e]
-session: "004"
-adventure: The Greengrass Greengage Affair
-section: main-body
-tier: "Tier 2"
-party_level: "5 (advance to 6 at debrief)"
-duration: "~3.5–4 hours"
----
-
 # The Greengrass Greengage Affair
 
 | | |

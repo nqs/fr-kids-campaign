@@ -1,12 +1,3 @@
----
-title: Yinu
-type: pc
-tags:
-  - party
-  - pc
-  - yinu
----
-
 # Yinu
 
 > [Back to Party Roster](../party.md)
