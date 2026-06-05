@@ -41,9 +41,9 @@ Before generating any location, NPC, faction, or piece of lore, check the refere
 
 ## Agent Knowledge Files
 
-This agent's knowledge base is the campaign bible. Before doing anything generative, skim whatever files are present. Consult them like a reference — you don't need to read them cover to cover every turn.
+This agent's knowledge base is the campaign guide. Before doing anything generative, skim whatever files are present. Consult them like a reference — you don't need to read them cover to cover every turn.
 
-**Repository layout.** Campaign-bible canon lives under `campaign/` (world, geography, factions, roster, party, session-log). Tooling (`AGENTS.md`, `dnd-adventure-generator.md`, `Home.md`), generated session content (`sessions/session <N>/`), and reference materials (`references/` — markdown extracts of the FR sourcebooks) sit at the repo root.
+**Repository layout.** Campaign-guide canon lives under `campaign/` (world, geography, factions, roster, party, session-log). Tooling (`AGENTS.md`, `dnd-adventure-generator.md`, `Home.md`), generated session content (`sessions/session <N>/`), and reference materials (`references/` — markdown extracts of the FR sourcebooks) sit at the repo root.
 
 - **`campaign/world.md`** — setting overview, cosmology, timeline, tone
 - **`campaign/geography.md`** — regions, cities, travel distances, climate
@@ -110,9 +110,9 @@ Every generated adventure produces four Markdown files in `sessions/session <N>/
 
 The four files are the **primary deliverable** and are always produced together. After authoring them, stop and let the user review. PDF compilation is a separate, opt-in step the agent only runs when the user explicitly asks. When a PDF is built, it mirrors the four markdown files in the same order (main body → combat tracker → player handouts → DM quick reference) and never contradicts or omits content from them — the markdown is the source of truth.
 
-### Post-generation: update the campaign bible
+### Post-generation: update the campaign guide
 
-Once the four markdown files are authored and the user confirms the content is canonical, **the next step in the workflow is to update the tracking documents.** Do not treat the deliverables as finished work until the bible reflects them. Different files update at different points in the session lifecycle — surface the timing distinction explicitly when proposing changes.
+Once the four markdown files are authored and the user confirms the content is canonical, **the next step in the workflow is to update the tracking documents.** Do not treat the deliverables as finished work until the guide reflects them. Different files update at different points in the session lifecycle — surface the timing distinction explicitly when proposing changes.
 
 **Update immediately, before the session is played:**
 - **`campaign/roster.md`** — full entries for any new recurring NPCs (role, affiliation, location, status, one-line summary, appearance, personality, motivations, party relationship, statline reference pointing to the combat tracker). Add new edges to the NPC Relationship Web. Promote any noteworthy mechanical details (e.g., a recurring NPC's bargain matrix, a vendetta flag) so they live in the roster, not buried in a session file.
@@ -120,13 +120,13 @@ Once the four markdown files are authored and the user confirms the content is c
 - **`campaign/geography.md`** — new permanent locations, dungeon sites, regional landmarks, or travel routes. Place under the **DM Additions** section, tag `(DM ADDITION)`, and add a source-notes callout when the surrounding region is canonical FR so the DM/CG/PG provenance is clear.
 
 **Hold until after the session is actually played:**
-- **`campaign/session-log.md`** — Session Index row, Campaign Arc refresh, Recent Session pointer, Loose Ends Tracker resolutions, Foreshadowing Log entries. **Do not write session-log entries based on planned content — only on what actually happened at the table.** State this hold explicitly to the user when proposing the pre-play bible updates so they know session-log is intentionally untouched.
+- **`campaign/session-log.md`** — Session Index row, Campaign Arc refresh, Recent Session pointer, Loose Ends Tracker resolutions, Foreshadowing Log entries. **Do not write session-log entries based on planned content — only on what actually happened at the table.** State this hold explicitly to the user when proposing the pre-play guide updates so they know session-log is intentionally untouched.
 
-**Edit mode depends on agent capability.** When running with file-write access (Augment, Cursor, similar), the agent edits the bible files directly using its file-editing tools, then summarizes the diff back to the user. When running as a stock chat model without write access, the agent produces copy-pasteable markdown blocks instead. In either mode the agent surfaces every change, never silently modifies content, and never claims a file was edited if it wasn't.
+**Edit mode depends on agent capability.** When running with file-write access (Augment, Cursor, similar), the agent edits the guide files directly using its file-editing tools, then summarizes the diff back to the user. When running as a stock chat model without write access, the agent produces copy-pasteable markdown blocks instead. In either mode the agent surfaces every change, never silently modifies content, and never claims a file was edited if it wasn't.
 
 ---
 
-## Maintaining the Campaign Bible
+## Maintaining the Campaign Guide
 
 The Post-generation subsection above covers the standard session-prep flow. The patterns below cover ad-hoc canon updates outside that flow:
 
@@ -134,7 +134,7 @@ The Post-generation subsection above covers the standard session-prep flow. The 
 - **New locations** → propose an entry for `campaign/geography.md` or a locations file
 - **New factions or plot threads** → propose updates to `campaign/factions.md` or `campaign/session-log.md`
 - **Changes to existing canon** (an NPC dies, a city is sacked) → propose an edit to the existing file
-- **Sourcebook details promoted to active campaign canon** (the party is now allied with a specific FR faction, a named FR NPC has become a recurring character) → propose a campaign-file entry so it lives in the bible, not just the references
+- **Sourcebook details promoted to active campaign canon** (the party is now allied with a specific FR faction, a named FR NPC has become a recurring character) → propose a campaign-file entry so it lives in the guide, not just the references
 
 Produce updates as copy-pasteable markdown when the agent lacks write access; edit directly and summarize when it has access. In either mode, do not pretend the files have been modified if they haven't been, and do not modify them silently.
 
@@ -164,7 +164,7 @@ Produce updates as copy-pasteable markdown when the agent lacks write access; ed
 - Do not place NPC, monster, or creature portraits anywhere in File 2. Portraits live exclusively in File 3 (player handouts). Stat-block cards in the combat tracker are text-only.
 - Do not ship a PDF without the player-handout appendix. Inline images alone are not sufficient.
 - Do not ship a PDF without the DM quick-reference section. The cheat-sheet appendix is part of the standard four-file deliverable; if it exists in the session folder, it must appear in the PDF.
-- Do not consider a session "done generating" until the campaign bible has been updated. After the four markdown files are approved, propose `campaign/roster.md` / `campaign/factions.md` / `campaign/geography.md` updates as the next workflow step — not as an optional follow-up.
+- Do not consider a session "done generating" until the campaign guide has been updated. After the four markdown files are approved, propose `campaign/roster.md` / `campaign/factions.md` / `campaign/geography.md` updates as the next workflow step — not as an optional follow-up.
 - Do not write `campaign/session-log.md` entries for sessions that have not yet been played. Pre-play canon updates go to roster, factions, and geography only; session-log waits for the actual table outcome.
 
 ---

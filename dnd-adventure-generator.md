@@ -98,11 +98,11 @@ No other images appear anywhere else in File 1 — no portraits, no monster art,
 
 **File 4 — `<slug>-4-dm-quick-ref.md`:** print-and-keep-at-the-table cheat sheet. Tables and short bulleted lists only — no narrative. See the **DM Quick Reference** section below for the contents and structure.
 
-Present the four file paths to the user. Stop here and wait for review. Once the user approves the markdown as canon, **proceed to Step 6 (Update the Campaign Bible) automatically — do not wait for a separate ask.** Do **not** proceed to Step 7 (PDF compilation) unless the user explicitly asks for it.
+Present the four file paths to the user. Stop here and wait for review. Once the user approves the markdown as canon, **proceed to Step 6 (Update the Campaign Guide) automatically — do not wait for a separate ask.** Do **not** proceed to Step 7 (PDF compilation) unless the user explicitly asks for it.
 
-### 6. Update the Campaign Bible
+### 6. Update the Campaign Guide
 
-Once the four markdown files are approved as canon, the campaign bible must be updated to reflect the new content. **Treat this as a required step in the generation workflow, not an optional follow-up.** Different files update at different points in the session lifecycle — call out the timing distinction explicitly to the user when proposing changes.
+Once the four markdown files are approved as canon, the campaign guide must be updated to reflect the new content. **Treat this as a required step in the generation workflow, not an optional follow-up.** Different files update at different points in the session lifecycle — call out the timing distinction explicitly to the user when proposing changes.
 
 **Update immediately, before the session is played:**
 
@@ -112,13 +112,13 @@ Once the four markdown files are approved as canon, the campaign bible must be u
 
 **Hold until after the session is actually played:**
 
-- **`campaign/session-log.md`** — Session Index row, Campaign Arc refresh, Recent Session pointer, Loose Ends Tracker resolutions, Foreshadowing Log entries. **Do not write session-log entries based on planned content — only on what actually happened at the table.** State this hold explicitly to the user when proposing the pre-play bible updates so they know `campaign/session-log.md` is intentionally untouched. The user runs the session, then asks for a post-play log update as a separate request. **Never copy read-aloud / spoke text from the session plan into any session log** — summarize what happened in plain prose instead. Read-aloud text is a DM preparation artifact; it is not a record of what occurred.
+- **`campaign/session-log.md`** — Session Index row, Campaign Arc refresh, Recent Session pointer, Loose Ends Tracker resolutions, Foreshadowing Log entries. **Do not write session-log entries based on planned content — only on what actually happened at the table.** State this hold explicitly to the user when proposing the pre-play guide updates so they know `campaign/session-log.md` is intentionally untouched. The user runs the session, then asks for a post-play log update as a separate request. **Never copy read-aloud / spoke text from the session plan into any session log** — summarize what happened in plain prose instead. Read-aloud text is a DM preparation artifact; it is not a record of what occurred.
 
-**Edit mode depends on agent capability.** When running with file-write access (Augment, Cursor, similar), edit the bible files directly using file-editing tools and summarize the diff back to the user. When running as a stock chat model without write access, produce copy-pasteable markdown blocks instead. In either mode, surface every change to the user, never silently modify content, and never claim a file was edited if it wasn't.
+**Edit mode depends on agent capability.** When running with file-write access (Augment, Cursor, similar), edit the guide files directly using file-editing tools and summarize the diff back to the user. When running as a stock chat model without write access, produce copy-pasteable markdown blocks instead. In either mode, surface every change to the user, never silently modify content, and never claim a file was edited if it wasn't.
 
-**Scratch files** — if the session prep produced a working scratch file (e.g., `session-<N>-plan.md`), delete it as part of this step once the four deliverables are authored and the bible is updated. The deliverables and the bible are the persistent record; the scratch plan is not.
+**Scratch files** — if the session prep produced a working scratch file (e.g., `session-<N>-plan.md`), delete it as part of this step once the four deliverables are authored and the guide is updated. The deliverables and the guide are the persistent record; the scratch plan is not.
 
-After the bible is updated, present a summary of the diff and stop. Step 7 is opt-in.
+After the guide is updated, present a summary of the diff and stop. Step 7 is opt-in.
 
 ### 7. PDF Compilation (on request)
 

@@ -1,6 +1,6 @@
 ### [Home](Home.md)
 
-**Campaign Bible**
+**Campaign Guide**
 - [World](campaign/world.md)
 - [Geography](campaign/geography.md)
 - [Factions](campaign/factions.md)
