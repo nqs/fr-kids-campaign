@@ -1,10 +1,3 @@
----
-tags: [campaign/session-5, combat-tracker, dnd-5e]
-session: "005"
-adventure: The Hawthorn Gate
-section: combat-tracker
----
-
 # Combat Tracker — The Hawthorn Gate
 
 Two scripted, short encounters. **Encounter 1** can end without a kill (calm the beasts). **Encounter 2** is a ceremonial gate-test that ends in parley at bloodied / round 3 — and collapses to a single symbolic round if Nalith spends Quillip's hawthorn berry. **Do not kill the Thornward; do not let the Thornward kill a PC.**

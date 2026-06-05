@@ -1,12 +1,3 @@
----
-title: Naan
-type: pc
-tags:
-  - party
-  - pc
-  - naan
----
-
 # Naan
 
 > [Back to Party Roster](../party.md)

@@ -1,11 +1,3 @@
----
-title: Roster
-type: roster
-tags:
-  - npcs
-  - roster
----
-
 # NPC Roster
 
 > [!NOTE]

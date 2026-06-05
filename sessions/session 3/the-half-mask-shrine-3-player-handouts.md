@@ -1,10 +1,3 @@
----
-tags: [campaign/session-3, player-handouts, dnd-5e]
-session: "003"
-adventure: The Half-Mask Shrine
-section: player-handouts
----
-
 # Where We Left Off
 
 ![Cold Camp at the Hawthorn Chimney — dawn over the collapsed cleft](https://storage.gemini.mcp.nqs.io/images/60f5f0e4-f00b-49e2-84b6-5a3071987c6a.png)

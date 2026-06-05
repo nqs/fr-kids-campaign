@@ -1,12 +1,3 @@
----
-title: Fiorn (The Jester)
-type: pc
-tags:
-  - party
-  - pc
-  - fiorn
----
-
 # Fiorn (The Jester)
 
 > [Back to Party Roster](../party.md)

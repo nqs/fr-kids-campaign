@@ -1,11 +1,3 @@
----
-title: Session Log
-type: log
-tags:
-  - sessions
-  - log
----
-
 # Session Log
 
 <!-- This file is the campaign-wide index. Per-session detail lives in each

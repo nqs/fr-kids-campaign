@@ -1,10 +1,3 @@
----
-tags: [campaign/session-3, dm-quick-ref, dnd-5e]
-session: "003"
-adventure: The Half-Mask Shrine
-section: dm-quick-ref
----
-
 # DM Quick Reference — The Half-Mask Shrine
 *Session 003 · Print and keep at the table · Full detail in file 1*
 

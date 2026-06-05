@@ -1,12 +1,3 @@
----
-title: World
-type: world
-tags:
-  - world
-  - lore
-  - setting
----
-
 # World Overview
 
 ## Setting Name

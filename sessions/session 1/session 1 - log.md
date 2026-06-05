@@ -1,12 +1,3 @@
----
-title: Session 001 — The Missing Scout
-type: log
-tags:
-  - sessions
-  - log
-  - session-001
----
-
 ## Session 001 — The Missing Scout
 **Date played:**
 **Location in-world:** Shadowdale — the Old Skull Inn, the Ashaba House, the Living Wood, Old Skull's northern flank

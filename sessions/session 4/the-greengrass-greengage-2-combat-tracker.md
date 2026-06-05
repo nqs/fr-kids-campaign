@@ -1,10 +1,3 @@
----
-tags: [campaign/session-4, combat-tracker, dnd-5e]
-session: "004"
-adventure: The Greengrass Greengage Affair
-section: combat-tracker
----
-
 # Combat Tracker — The Crash at the Bonfire
 
 ## Encounter 1 — The Crash at the Bonfire

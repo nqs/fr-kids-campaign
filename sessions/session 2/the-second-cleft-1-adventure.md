@@ -1,13 +1,3 @@
----
-tags: [campaign/session-2, adventure, dnd-5e, shadowdale]
-session: "002"
-adventure: The Second Cleft
-section: main-body
-tier: "Tier 2"
-party_level: 5
-duration: "~3.5–4 hours"
----
-
 # The Second Cleft
 *Session 002 — A Shadowdale Adventure*
 

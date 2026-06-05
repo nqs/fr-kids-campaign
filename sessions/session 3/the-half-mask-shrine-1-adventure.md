@@ -1,13 +1,3 @@
----
-tags: [campaign/session-3, main-body, dnd-5e]
-session: "003"
-adventure: The Half-Mask Shrine
-section: main-body
-tier: "Tier 2"
-party_level: 5
-duration: "~3.5–4 hours"
----
-
 # The Half-Mask Shrine
 
 | | |

@@ -1,10 +1,3 @@
----
-tags: [campaign/session-5, player-handouts, dnd-5e]
-session: "005"
-adventure: The Hawthorn Gate
-section: player-handouts
----
-
 # Where We Left Off
 
 ![Morning After the Greengrass Bonfire — the Shadowdale village green](https://storage.gemini.mcp.nqs.io/images/d7d8236a-5bee-4e14-99e6-6b52a480ca2b.png)

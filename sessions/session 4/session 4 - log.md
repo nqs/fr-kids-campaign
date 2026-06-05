@@ -1,12 +1,3 @@
----
-title: Session 004 — Greengrass in Shadowdale
-type: log
-tags:
-  - sessions
-  - log
-  - session-004
----
-
 ## Session 004 — Greengrass in Shadowdale
 **Date played:**
 **Location in-world:** Shadowdale — road south from Old Skull; Orvyn Tal's bookshop; Ashaba House; Old Skull Inn; Greengrass Festival grounds (town center, wood's edge)
