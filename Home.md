@@ -13,11 +13,13 @@ The DM's knowledge base for an ongoing D&D 5e campaign set in **Shadowdale**, th
 
 ## Sessions
 
-- [Session 001 — The Missing Scout](sessions/session%201/the-missing-scout.pdf)
-- [Session 002 — The Second Cleft](sessions/session%202/the-second-cleft-1-adventure.md)
-- [Session 003 — The Half-Mask Shrine](sessions/session%203/the-half-mask-shrine-1-adventure.md)
-- [Session 004 — The Greengrass Greengage Affair](sessions/session%204/the-greengrass-greengage-1-adventure.md)
-- [Session 005 — The Hawthorn Gate](sessions/session%205/the-hawthorn-gate-1-adventure.md)
+Each session has a **landing page** — a short summary plus links to the adventure, its images, and its other assets.
+
+- [Session 001 — The Missing Scout](sessions/session%201/the-missing-scout-0-overview.md)
+- [Session 002 — The Second Cleft](sessions/session%202/the-second-cleft-0-overview.md)
+- [Session 003 — The Half-Mask Shrine](sessions/session%203/the-half-mask-shrine-0-overview.md)
+- [Session 004 — The Greengrass Greengage Affair](sessions/session%204/the-greengrass-greengage-0-overview.md)
+- [Session 005 — The Hawthorn Gate](sessions/session%205/the-hawthorn-gate-0-overview.md)
 
 ## Reference Material
 

@@ -9,6 +9,7 @@ This is a **preparation tool**, not an interactive DM. Do not simulate gameplay,
 These cross-cutting rules hold throughout the workflow and the PDF pipeline. The sections below restate the section-specific details, but these are the canonical statements — when in doubt, follow these.
 
 - **Four deliverables.** Every adventure produces four markdown files in `sessions/session <N>/`: `-1-adventure`, `-2-combat-tracker`, `-3-player-handouts`, `-4-dm-quick-ref`. They are the source of truth; the PDF renders **from** them and never adds narrative that isn't in the markdown.
+- **Session landing page.** Alongside the four print deliverables, every session also gets a wiki-facing landing page, `<slug>-0-overview.md`, in the same folder. It opens with a 3–5 sentence summary of the session (the planned major beats while unplayed, what actually happened once played) and then links onward to the session's own files, its images, and its other assets. It is the page the wiki **Sessions** index points at, and the entry point a reader lands on for that session. Its summary is *held to planned beats until the session is played* and refreshed from the post-play log afterward — the same lifecycle gate as `campaign/session-log.md`. Full spec in the **Session Landing Page** section.
 - **Image placement.** File 1 carries exactly one image (the title page illustration). Tactical/encounter maps live in **File 2 only**, as part 6 of each encounter's section. Every other illustration (portraits, monster art, location scenes) lives in **File 3 only**. Stat-block cards are **text-only** — never embed an image in or beside one.
 - **Image rendering.** Every image renders **full-page on an 8.5"×11" sheet**, preserving aspect ratio — no inline/thumbnail variant. Max **7.2"×9.8"** unbound; max **7.2"×8.5"** when bound to a heading via `KeepTogether`. Aspect ratios come from `images.json`; there is no PIL/Pillow.
 - **Image source & durability.** All art comes from the `generate_image` (Gemini) MCP tool. Save each as a git-tracked jpg and record its filename in `images.json` under `file`. The ReportLab renderer reads that local jpg, so a scripted PDF still builds after the Gemini URL expires (~30 days).
@@ -89,7 +90,9 @@ No other images appear anywhere else in File 1 — no portraits, no monster art,
 
 **File 4 — `<slug>-4-dm-quick-ref.md`:** print-and-keep-at-the-table cheat sheet. Tables and short bulleted lists only — no narrative. See the **DM Quick Reference** section below for the contents and structure.
 
-Present the four file paths to the user. Stop here and wait for review. Once the user approves the markdown as canon, **proceed to Step 6 (Update the Campaign Guide) automatically — do not wait for a separate ask.** Do **not** proceed to Step 7 (PDF compilation) unless the user explicitly asks for it.
+**Plus File 0 — `<slug>-0-overview.md` (session landing page):** once the four files above are drafted, author the session's wiki landing page. Because the session has not been played yet at authoring time, its summary states the **planned major beats** and is flagged *Not yet played*; it then links to the four files above and to every image and other asset in the session folder. It is the page the wiki **Sessions** index points at. After the session is played, its summary is refreshed from the post-play log (see Step 6). Full spec in the **Session Landing Page** section.
+
+Present the file paths — the four print deliverables plus the `-0-overview` landing page — to the user. Stop here and wait for review. Once the user approves the markdown as canon, **proceed to Step 6 (Update the Campaign Guide) automatically — do not wait for a separate ask.** Do **not** proceed to Step 7 (PDF compilation) unless the user explicitly asks for it.
 
 ### 6. Update the Campaign Guide
 
@@ -104,6 +107,7 @@ Once the four markdown files are approved as canon, the campaign guide must be u
 **Hold until after the session is actually played:**
 
 - **`campaign/session-log.md`** — Session Index row, Campaign Arc refresh, Recent Session pointer, Loose Ends Tracker resolutions, Foreshadowing Log entries. **Do not write session-log entries based on planned content — only on what actually happened at the table.** State this hold explicitly to the user when proposing the pre-play guide updates so they know `campaign/session-log.md` is intentionally untouched. The user runs the session, then asks for a post-play log update as a separate request. **Never copy read-aloud / spoke text from the session plan into any session log** — summarize what happened in plain prose instead. Read-aloud text is a DM preparation artifact; it is not a record of what occurred.
+- **`sessions/session <N>/<slug>-0-overview.md`** (the session landing page) — in the same post-play pass, refresh the landing-page summary from the *planned major beats* to *what actually happened*, sourced from the new `campaign/session-log.md` entry, and flip its status line from *Not yet played* to *Played*. Add the **Session Log** link (and the **PDF** link if one was built) to its Session Files list now that those assets exist. Like the session-log itself, only do this after the session is played — never rewrite the summary to past tense for a session that hasn't happened.
 
 **Edit mode depends on agent capability.** When running with file-write access (Augment, Cursor, similar), edit the guide files directly using file-editing tools and summarize the diff back to the user. When running as a stock chat model without write access, produce copy-pasteable markdown blocks instead. In either mode, surface every change to the user, never silently modify content, and never claim a file was edited if it wasn't.
 
@@ -179,6 +183,7 @@ Each session lives in `sessions/session <N>/` with this file layout:
 
 **Markdown deliverables (always produced — Step 5):**
 
+- `<adventure-slug>-0-overview.md` — session landing page: 3–5 sentence summary plus links to the files, images, and assets below.
 - `<adventure-slug>-1-adventure.md` — main adventure body.
 - `<adventure-slug>-2-combat-tracker.md` — per-encounter trackers and stat-block cards.
 - `<adventure-slug>-3-player-handouts.md` — labeled images, one per section.
@@ -331,3 +336,32 @@ Adapt the section list to the adventure's actual content — don't include secti
 - No inline images. No long prose blocks. If a sentence runs more than two lines, it belongs in File 1.
 - Cross-references to File 1 are by scene number / scene name, not by page.
 - Numbers must match File 1 and File 2 exactly. If something changes in the adventure, update the cheat sheet in the same edit.
+
+## Session Landing Page
+
+Every session gets a **landing page** — `<slug>-0-overview.md` in the session folder — that serves as the session's front door in the wiki. The wiki **Sessions** index (in `Home.md`, `README.md`, and `_Sidebar.md`) links to this page, not to the raw adventure file; from here a reader gets the gist in a few sentences and then jumps to the adventure, the other deliverables, the images, and the rest of the session's assets. It is short by design: a summary plus a link directory, never a second copy of the adventure.
+
+The `-0-` prefix sorts it ahead of the four numbered deliverables and keeps its basename unique, which matters because `scripts/build_wiki.py` flattens every page to its basename. No build-script change is needed — the wiki sync already publishes any new `.md` under `sessions/`.
+
+### Form
+
+- **Title** — a level-1 heading: `# Session NNN — <Adventure Title>` (zero-padded session number; title from File 1's `#` heading).
+- **Metadata line** — one italic line with the at-a-glance frame: `*<Tier> · <Party Level> · <Setting>*`. Keep it to one line; full detail lives in File 1's title-page table.
+- **Status line** — a bold `**Status:**` line stating **✅ Played** or **⏳ Not yet played**. For an unplayed session, append a clause noting the summary reflects *planned major beats, not a record of play*.
+- **Summary** — **3–5 sentences.** If the session has been played, summarize *what actually happened*, sourced from the `campaign/session-log.md` entry (or the per-session `session N - log.md`). If it has **not** been played yet, summarize the **major plot points / planned beats** instead, and the Status line must mark it unplayed. Bold the key names and outcomes. Do not paste read-aloud text; write plain prose.
+- **`## Session Files`** — a bulleted link directory to the session's own pages, in deliverable order. Bold the adventure link and label it as "the session itself." Include only the files that exist:
+  - **Adventure** → `<slug>-1-adventure.md` (the session itself). If an old session has only a PDF and no adventure markdown, link the PDF here instead.
+  - **Combat Tracker** → `<slug>-2-combat-tracker.md`
+  - **Player Handouts** → `<slug>-3-player-handouts.md`
+  - **DM Quick Reference** → `<slug>-4-dm-quick-ref.md`
+  - **Session Log** → `session N - log.md` (only once the session is played and the log exists)
+  - **Printable PDF** → `<slug>.pdf` (only once a PDF has been built)
+- **`## Images`** — link every image in `images/images.json`: link text is the entry's `description`, link target is `images/<file>`. Group **Tactical maps** (descriptions beginning `Tactical Map`) separately from **Portraits & scenes** under bold sub-labels. Omit the section entirely if the session has no images. (Link the image files, not `images.json` itself.)
+- **`## Other Assets`** — link any remaining session assets that are not deliverables or images: the audio recording (`.m4a`), a `.txt` transcript, etc. Omit if there are none. (Do not link `*.m4a.md` machine transcripts or `images.json` — the wiki build does not publish them, so those links would dead-end.)
+- **Footer** — a `---` rule, then a back-link line: `[← Session Index](../../campaign/session-log.md) · [Home](../../Home.md)`.
+
+### Linking & wiki rules
+
+- Use **relative links** so they resolve both in the repo file browser and after `build_wiki.py` rewrites them for the wiki. Same-folder deliverables are linked by bare filename (`<slug>-1-adventure.md`); the session log's spaces are URL-encoded (`session%203%20-%20log.md`); images are `images/<file>.jpg`; the footer reaches the campaign guide with `../../`.
+- Only link targets the wiki build can resolve: emitted `.md` pages (everything under `sessions/` except `*.m4a.md`), the external asset types it rewrites to repo blob URLs (`.pdf`, `.m4a`, `.txt`, `.jpg`/`.jpeg`/`.png`), and `campaign/*` pages. Avoid linking `images.json` (`.json` is neither) or `*.m4a.md` (not published).
+- The page is **authored in Step 5** with the planned-beats summary and the asset links, and **refreshed in the post-play pass** (Step 6's held bucket) to record what happened, flip the status to Played, and add the now-existing log/PDF links.
