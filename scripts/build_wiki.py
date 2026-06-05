@@ -6,11 +6,16 @@ The repo is the single source of truth; the GitHub Wiki is generated from it by
 resulting ./wiki/ directory into the repo's *.wiki.git. You only ever edit the
 main repo.
 
+GitHub Wikis use a FLAT namespace keyed by filename: a file committed at
+`sessions/session-3/foo.md` is served at `/wiki/foo`, and the subdirectory path
+404s. So we flatten every page to the wiki root by its (unique) basename and
+point all internal links at those bare page names.
+
 Transforms applied while staging:
-  * Path/file names: spaces -> hyphens (wiki page URLs are hyphenated), so
-    `sessions/session 3/session 3 - log.md` -> `sessions/session-3/session-3-log.md`.
-  * Internal Markdown links: URL-decoded, space->hyphen normalized, and the
-    trailing `.md` stripped (wiki page URLs carry no extension). `#anchors`
+  * Files: flattened to the wiki root, named by basename with spaces -> hyphens
+    (collapsed), so `sessions/session 3/session 3 - log.md` -> `session-3-log.md`.
+  * Internal Markdown links: rewritten to the bare wiki page name (the target
+    file's normalized basename, no directory, no `.md` extension). `#anchors`
     are preserved unchanged.
   * Links into `references/` or to `.pdf` files: rewritten to absolute main-repo
     blob URLs — those assets stay in the main repo, not the wiki.
@@ -41,14 +46,17 @@ EXTERNAL_EXTS = (".pdf", ".m4a", ".txt", ".png", ".jpg", ".jpeg")
 MD_LINK = re.compile(r"(!?)\[([^\]]*)\]\(\s*<?([^>\s)]+)>?\s*\)")
 
 
-def norm_path(path):
-    """Replace spaces with hyphens in each path segment, collapsing runs."""
-    segs = []
-    for seg in path.split("/"):
-        seg = seg.replace(" ", "-")
-        seg = re.sub(r"-{2,}", "-", seg)
-        segs.append(seg)
-    return "/".join(segs)
+def norm_seg(seg):
+    """Normalize one name: spaces -> hyphens, collapse runs of hyphens."""
+    return re.sub(r"-{2,}", "-", seg.replace(" ", "-"))
+
+
+def page_name(repo_rel):
+    """Repo-relative .md path -> flat wiki page name (basename, no extension)."""
+    base = os.path.basename(repo_rel)
+    if base.lower().endswith(".md"):
+        base = base[: -len(".md")]
+    return norm_seg(base)
 
 
 def classify(repo_rel):
@@ -81,12 +89,8 @@ def rewrite_target(target, src_dir_repo):
     if classify(repo_rel) == "external":
         return f"{BLOB}/{quote(repo_rel)}{anchor}"
 
-    # Internal page link: normalize spaces->hyphens, strip trailing .md,
-    # preserve the relative form (../, ./) of the original target.
-    normalized = norm_path(decoded)
-    if normalized.lower().endswith(".md"):
-        normalized = normalized[: -len(".md")]
-    return f"{normalized}{anchor}"
+    # Internal page link: point at the flat wiki page name (basename only).
+    return f"{page_name(repo_rel)}{anchor}"
 
 
 def transform_links(text, src_repo_rel):
@@ -108,12 +112,14 @@ def emit(src_repo_rel):
         content = fh.read()
     content = transform_links(content, src_repo_rel)
 
-    dst_rel = norm_path(src_repo_rel)
-    dst_abs = os.path.join(OUT, dst_rel)
-    os.makedirs(os.path.dirname(dst_abs) or OUT, exist_ok=True)
+    # _Sidebar / Home keep their literal names; everything else flattens to its
+    # basename page. (Wiki control pages must be named exactly.)
+    base = os.path.basename(src_repo_rel)
+    dst_name = base if base in ("Home.md", "_Sidebar.md") else page_name(src_repo_rel) + ".md"
+    dst_abs = os.path.join(OUT, dst_name)
     with open(dst_abs, "w", encoding="utf-8") as fh:
         fh.write(content)
-    return dst_rel
+    return dst_name
 
 
 def main():
@@ -121,20 +127,24 @@ def main():
         shutil.rmtree(OUT)
     os.makedirs(OUT)
 
-    emitted = []
-    for name in ROOT_FILES:
-        if os.path.exists(os.path.join(REPO, name)):
-            emitted.append(emit(name))
-
+    sources = [n for n in ROOT_FILES if os.path.exists(os.path.join(REPO, n))]
     for d in CONTENT_DIRS:
         for dirpath, _, filenames in os.walk(os.path.join(REPO, d)):
             for fn in filenames:
                 # Skip raw machine transcripts (e.g. Session3.m4a.md); they stay
                 # in the main repo and don't belong in the curated wiki.
                 if fn.endswith(".md") and not fn.endswith(".m4a.md"):
-                    rel = os.path.relpath(os.path.join(dirpath, fn), REPO)
-                    emitted.append(emit(rel))
+                    sources.append(os.path.relpath(os.path.join(dirpath, fn), REPO))
 
+    # Flattening means page names must be unique across all sources.
+    seen = {}
+    for rel in sources:
+        name = os.path.basename(rel) if os.path.basename(rel) in ("Home.md", "_Sidebar.md") else page_name(rel) + ".md"
+        if name in seen:
+            raise SystemExit(f"page-name collision: {rel!r} and {seen[name]!r} both map to {name!r}")
+        seen[name] = rel
+
+    emitted = [emit(rel) for rel in sources]
     for e in sorted(emitted):
         print("staged:", e)
     print(f"\n{len(emitted)} page(s) staged into {os.path.relpath(OUT, REPO)}/")
