@@ -9,8 +9,8 @@
 - [Session Log](campaign/session-log.md)
 
 **Sessions**
-- [001 — The Missing Scout](sessions/session%201/the-missing-scout.pdf)
-- [002 — The Second Cleft](sessions/session%202/the-second-cleft-1-adventure.md)
-- [003 — The Half-Mask Shrine](sessions/session%203/the-half-mask-shrine-1-adventure.md)
-- [004 — Greengrass Greengage](sessions/session%204/the-greengrass-greengage-1-adventure.md)
-- [005 — The Hawthorn Gate](sessions/session%205/the-hawthorn-gate-1-adventure.md)
+- [001 — The Missing Scout](sessions/session%201/the-missing-scout-0-overview.md)
+- [002 — The Second Cleft](sessions/session%202/the-second-cleft-0-overview.md)
+- [003 — The Half-Mask Shrine](sessions/session%203/the-half-mask-shrine-0-overview.md)
+- [004 — Greengrass Greengage](sessions/session%204/the-greengrass-greengage-0-overview.md)
+- [005 — The Hawthorn Gate](sessions/session%205/the-hawthorn-gate-0-overview.md)

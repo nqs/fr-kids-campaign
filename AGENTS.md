@@ -110,6 +110,8 @@ Every generated adventure produces four Markdown files in `sessions/session <N>/
 
 The four files are the **primary deliverable** and are always produced together. After authoring them, stop and let the user review. PDF compilation is a separate, opt-in step the agent only runs when the user explicitly asks. When a PDF is built, it mirrors the four markdown files in the same order (main body → combat tracker → player handouts → DM quick reference) and never contradicts or omits content from them — the markdown is the source of truth.
 
+Alongside the four files, every session also gets a **wiki landing page**, `<slug>-0-overview.md`, in the same folder — the page the wiki **Sessions** index links to. It opens with a 3–5 sentence summary of the session (the planned major beats while unplayed, what actually happened once played) and then links onward to the four files, the session's images, and its other assets. Author it in the same pass as the four files; its summary is held to planned beats until the session is played, then refreshed from the post-play log (same gate as `campaign/session-log.md`). The full specification lives in `dnd-adventure-generator.md` under the **Session Landing Page** section.
+
 ### Post-generation: update the campaign guide
 
 Once the four markdown files are authored and the user confirms the content is canonical, **the next step in the workflow is to update the tracking documents.** Do not treat the deliverables as finished work until the guide reflects them. Different files update at different points in the session lifecycle — surface the timing distinction explicitly when proposing changes.
@@ -121,6 +123,7 @@ Once the four markdown files are authored and the user confirms the content is c
 
 **Hold until after the session is actually played:**
 - **`campaign/session-log.md`** — Session Index row, Campaign Arc refresh, Recent Session pointer, Loose Ends Tracker resolutions, Foreshadowing Log entries. **Do not write session-log entries based on planned content — only on what actually happened at the table.** State this hold explicitly to the user when proposing the pre-play guide updates so they know session-log is intentionally untouched.
+- **`sessions/session <N>/<slug>-0-overview.md`** (the session landing page) — in the same post-play pass, refresh its summary from *planned beats* to *what actually happened*, flip the status line to **Played**, and add the now-existing Session Log (and PDF) links. Held to the same gate as session-log: never rewrite the summary to past tense before the session is played.
 
 **Edit mode depends on agent capability.** When running with file-write access (Augment, Cursor, similar), the agent edits the guide files directly using its file-editing tools, then summarizes the diff back to the user. When running as a stock chat model without write access, the agent produces copy-pasteable markdown blocks instead. In either mode the agent surfaces every change, never silently modifies content, and never claims a file was edited if it wasn't.
 
