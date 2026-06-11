@@ -26,7 +26,7 @@
 
 ## The New Hand — Dirk *(silverstrike1, in-fiction debut)*
 
-- **Who:** Orc Rogue 6 (Thief), Sailor. Stealth +10, Sleight of Hand +10, Darkvision 120 ft., 30-ft. climb, Sneak Attack 3d6. AC 14, HP 38 *(L5 sheet — rebuild to L6 with the rest)*.
+- **Who:** Orc Rogue 6 (Thief), Sailor. Stealth +10, Sleight of Hand +10, Darkvision 120 ft., 30-ft. climb + swim (Mariner's armor), Sneak Attack 3d6, Sharpshooter. AC 16, HP 38 *(L5 sheet — rebuild to L6 with the rest)*.
 - **Intro (Scene 1):** deckhand off the *Greengage's Luck*; barge fled downriver when the river went silent. Reported the "driven, not taken" livestock to Ulphor at dawn; she attaches them to the party. **Not marked** — wasn't at the bonfire.
 - **Scene beats:** S2 — Sela validates the river report (*"watch the birds for me"*); S3 — livestock sign confirmed on sight + **masthead view** canopy climb (grey drains in a spiral NE); Enc 1 — **herding lane**, not Animal Handling; S4 — **the Unmarked Sixth** (Thornward's choice: stand with the marked or stand aside); S5 — named in the guest-right, berth gone, lodges at the Ashaba House.
 - **Watch for:** the Sneak Attack itch in the mercy fight (hand them the herding lane early), and don't let another player answer the Thornward's question for them.
