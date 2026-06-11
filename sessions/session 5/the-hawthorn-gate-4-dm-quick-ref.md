@@ -7,11 +7,12 @@
 
 | # | Scene | Key mechanic | DM flag |
 |---|-------|--------------|---------|
-| 1 | Embers & the Mark | Debrief frames **the mark + 11-night clock**; Sela introduced (partial truth) | Keep to ~20 min. Earn Sela's cooperation (rapport beat) |
+| 1 | Embers & the Mark | Debrief frames **the mark + 11-night clock**; party sent to collect Sela | Keep to ~15 min. Sela is **not** in the solar |
 | — | Two errands *(parallel)* | Yinu → Harper "key" book; Naan → Lathander letter | Both are **plants** — don't pay off. Naan's letter = same night as the audience |
-| 2 | The Quiet Wood | Survival/Arcana/Investigation reads; Sela reveals middle of her story | **Encounter 1** near the livestock thicket |
-| 3 | The Hawthorn Cleft | Sela's full confession (earned); Quillip + **berry payoff** | **Encounter 2** at the seam |
-| 4 | The Invitation Sealed | Audience terms fixed; hooks seeded | End on the walk out; cliffhanger to S6 |
+| 2 | The Healer's Cottage | **Meet Sela properly** — per-PC threads, courier mechanics, rapport beat | ~10 min character scene. Mark the rapport PC (pays off Scene 4). She hands over 2 poultices + antitoxin |
+| 3 | The Quiet Wood | Survival/Arcana/Investigation reads; Sela reveals middle of her story | **Encounter 1** near the livestock thicket |
+| 4 | The Hawthorn Cleft | Sela's full confession (earned); Quillip + **berry payoff** | **Encounter 2** at the seam |
+| 5 | The Invitation Sealed | Audience terms fixed; hooks seeded | End on the walk out; cliffhanger to S6 |
 
 ---
 
@@ -23,7 +24,7 @@
 
 ---
 
-## Encounter 1 — The Frightened Wood *(Scene 2)*
+## Encounter 1 — The Frightened Wood *(Scene 3)*
 
 **6×L6 · ~3,000 adj XP (Medium-light) · 3 rounds · mercy off-ramp every round**
 
@@ -46,7 +47,7 @@
 
 ---
 
-## Encounter 2 — The Hawthorn Gate *(Scene 3)*
+## Encounter 2 — The Hawthorn Gate *(Scene 4)*
 
 **6×L6 · ~4,400 adj XP (Hard-leaning) · 3 rounds · parley at bloodied/R3 · NO kills either way**
 
@@ -81,7 +82,7 @@
 
 - **Thornward Maelorn** — tests, never kills; stays between party and seam; yields with honor at the first valid trigger. Courteous, old, unafraid.
 - **Sprite Outriders** — non-lethal once they read "resolve"; will not die for the gate; mirror their S4 behavior so players recognize them.
-- **Sela** — guide, not fighter. Aids Animal Handling (advantage). Holds at the treeline at the gate. Reveals her story in layers: solar (partial) → road (the deal) → gate (the truth).
+- **Sela** — guide, not fighter. Aids Animal Handling (advantage). Holds at the treeline at the gate. Reveals her story in layers: cottage (courier mechanics) → road (the deal) → gate (the truth).
 - **Quillip** — go-between; prompts the berry; drops the quarter-moon riddle. Rattled under the banter.
 
 ---
@@ -151,11 +152,12 @@
 
 | Block | Target | Slip-tolerance |
 |---|---|---|
-| Embers & the Mark (Scene 1) | 20 min | Cap at 25; cut the errands to one if it drags |
-| The Quiet Wood + Enc 1 (Scene 2) | 40 min | Enc 1 ends fast if they calm the stag |
-| Hawthorn Cleft + Enc 2 (Scene 3) | 40 min | Berry shortcut saves ~10 min |
-| The Invitation Sealed (Scene 4) | 15 min | — |
-| **Total** | **~1:55** | Two short fights — don't let either become a grind |
+| Embers & the Mark (Scene 1) | 15 min | Cap at 20; cut the errands to one if it drags |
+| The Healer's Cottage (Scene 2) | 10 min | Land 2–3 personal beats + rapport, then she starts walking |
+| The Quiet Wood + Enc 1 (Scene 3) | 40 min | Enc 1 ends fast if they calm the stag |
+| Hawthorn Cleft + Enc 2 (Scene 4) | 40 min | Berry shortcut saves ~10 min |
+| The Invitation Sealed (Scene 5) | 15 min | — |
+| **Total** | **~2:00** | Two short fights — don't let either become a grind |
 
 ---
 
@@ -163,7 +165,7 @@
 
 - **Don't** kill the Thornward, and **don't** let him kill a kid (Ceremonial Restraint catches it).
 - **Don't** make Encounter 1 a grind — it's a mercy puzzle. Telegraph the fear; reward the calm.
-- **Don't** dump Sela's whole story in Scene 1 — earn it in layers across the wood.
+- **Don't** dump Sela's whole story at the cottage — Scene 2 is who she *is*, the wood is what she *did.* Earn it in layers.
 - **Don't** name the fey lord. He's named at his own table (S6+).
 - **Don't** resolve Naan's two-invitations fork, Yinu's Harper key, or Quillip's riddle — plant them.
 - **Don't** stage a level-up. The party is already Level 6.

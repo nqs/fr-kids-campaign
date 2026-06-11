@@ -31,14 +31,13 @@
 
 > [!IMPORTANT]
 > **DM:** What she won't say
-> ~~Who she's been carrying messages for, or to whom.~~ **Disclosed across S4–S5** (see below). Remaining held card: what the messages actually *said* — she never read them and still doesn't know.
+> Who she's been carrying messages for, or to whom. (A second held card even she can't play: what the messages actually *said* — she never read them and doesn't know.)
+
+> [!NOTE]
+> **Played — Session 004 (Greengrass Festival):** First on-screen contact with the party. Sela ran **the Greening** at the wood's edge: she judged Nalith's three rounds, praised her Round-1 poultice (*"This is excellent. You must be a skilled healer."*), and pinned the **gold ribbon** on her — the same moment Quillip invisibly slipped Nalith the fey berry. She also conjured the test breeze for Round 2 of the archery contest (the wind-read Kto failed). That is the full extent of played interaction: brief, warm, festival-judge contact, almost entirely with Nalith. **The rest of the party knows her only by sight and village reputation.**
 
 > [!IMPORTANT]
-> **DM:** Session 004 — the confession opens
-> In the aftermath of the Greengrass crash, Sela came to the party shaking and admitted the arrangement plainly: *"He has been using me. I knew. I didn't know how to say it."* She is the courier for the unnamed lord of the **Bright Court Beneath** (see [factions](../factions.md) §8); the ribbon-knot on her belt is his livery. This opens the **Sela arc** — her faction status shifts from "warm secondary contact" to **actively asking the party for help.** **(DM ADDITION, Session 004)**
+> **DM:** Planned arc — not yet played
+> The Greengrass bonfire "Crash" (the Antlered Herald) and Sela's aftermath confession were prepped for Session 004 but **the session ended before the bonfire** — that beat was deferred. Session 005 (*The Hawthorn Gate*) is built to open her arc: the confession, the walk into the Living Wood, the turn to penitent ally. **None of it is canon until it happens at the table.** Update this entry from the session log after play.
 
-> [!IMPORTANT]
-> **DM:** Session 005 — penitent ally
-> Walking the party into the Living Wood, Sela gives up the rest in layers: she has carried for the lord for **twelve years,** since a voice in a hawthorn promised to "hold the green" if she carried his words — and she now understands the messages were the instrument of the wood's **slow harvest,** not its salvation. By the Hawthorn Cleft she has turned **penitent ally:** she wants to undo twelve years of unwitting service, and the Thornward invites her to the full-moon audience to face the lord directly (*"he should have to say it to her face"*). She is no longer a guilty secret-keeper but a party-aligned NPC with a personal stake in the audience. **Status: penitent ally.** **(DM ADDITION, Session 005)**
-
-**Practical notes:** She can provide healing poultices, basic antitoxins, and herbal remedies. She won't charge people who genuinely can't pay. She'll also answer questions about the Living Wood — up to a point. As of S5 she is the party's **guide and message-reader in the Living Wood** (aids Animal Handling / Survival / fey-lore checks in the wood). **(DM ADDITION)**
+**Practical notes:** She can provide healing poultices, basic antitoxins, and herbal remedies. She won't charge people who genuinely can't pay. She'll also answer questions about the Living Wood — up to a point.

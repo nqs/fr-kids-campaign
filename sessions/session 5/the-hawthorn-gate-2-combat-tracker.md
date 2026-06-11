@@ -5,7 +5,7 @@ Two scripted, short encounters. **Encounter 1** can end without a kill (calm the
 ---
 
 ## Encounter 1 — The Frightened Wood
-*Scene 2 · Medium-light (raw 1,500 XP → ~3,000 adjusted) · 3-round scripted, mercy off-ramp every round · 6×L6*
+*Scene 3 · Medium-light (raw 1,500 XP → ~3,000 adjusted) · 3-round scripted, mercy off-ramp every round · 6×L6*
 
 ### Summary
 
@@ -64,7 +64,7 @@ NPC initiative is pre-rolled (DEX-averaged). PCs roll live and write into the bl
 ### Loot / Aftermath
 
 - **No coin, no gear** — these are stranded animals. If the stag is **killed**, it sheds a single white antler crowned in cold blossom (Sela keeps it; minor fey-iron token, sentiment not sale).
-- If the stag is **calmed**, it follows the party to the treeline in Scene 4 and will not cross — a living thank-you and a small fey boon (DM discretion: advantage on the party's first Animal Handling/Survival check in the Living Wood next session).
+- If the stag is **calmed**, it follows the party to the treeline in Scene 5 and will not cross — a living thank-you and a small fey boon (DM discretion: advantage on the party's first Animal Handling/Survival check in the Living Wood next session).
 
 ### Fey-Touched Great Stag
 
@@ -133,7 +133,7 @@ NPC initiative is pre-rolled (DEX-averaged). PCs roll live and write into the bl
 ---
 
 ## Encounter 2 — The Hawthorn Gate
-*Scene 3 · Hard-leaning (raw 2,200 XP → ~4,400 adjusted) · ceremonial test, parley at bloodied/R3 · 6×L6*
+*Scene 4 · Hard-leaning (raw 2,200 XP → ~4,400 adjusted) · ceremonial test, parley at bloodied/R3 · 6×L6*
 
 ### Summary
 
@@ -174,7 +174,7 @@ NPC initiative is pre-rolled (DEX-averaged). PCs roll live and write into the bl
 
 ### Triggers & Countdowns
 
-- **The Berry Shortcut (best outcome).** If **Nalith presents Quillip's hawthorn berry** at any point (action to show/press it to the arch), the Thornward **immediately grounds his glaive.** Run **one symbolic round** — a single crossed-blades salute — then go straight to *Scene 4* terms. The Sprites stand down. *No real combat.* Flag it as the reward for keeping the token.
+- **The Berry Shortcut (best outcome).** If **Nalith presents Quillip's hawthorn berry** at any point (action to show/press it to the arch), the Thornward **immediately grounds his glaive.** Run **one symbolic round** — a single crossed-blades salute — then go straight to *Scene 5* terms. The Sprites stand down. *No real combat.* Flag it as the reward for keeping the token.
 - **Bloodied (≤45 HP)** — the Thornward steps back, plants his glaive, and **kneels:** *"Enough. You are worth the table."* Combat ends. Standard worthy-verdict.
 - **End of Round 3** — even unbloodied, the Thornward calls the test passed (*"You did not break, and you did not kill. Good."*) and yields. Combat ends.
 - **Ceremonial Restraint (⚗️)** — the Thornward **never drops a PC.** Any hit that would reduce a PC to 0 instead leaves them at **1 HP and prone** ("the flat of the thorn"). Narrate it.
@@ -228,7 +228,7 @@ NPC initiative is pre-rolled (DEX-averaged). PCs roll live and write into the bl
 - **Round 2.** *Bramble Snare* across the party's front to control the line. Glaive the snared PC. Parry the hardest incoming hit.
 - **Round 3.** **Yield.** Ground the glaive, kneel, name the party worthy. Combat ends. (Earlier if bloodied.)
 
-**On yield.** Rises, gives the **guest-token of iron-hawthorn,** states the full-moon audience terms (see file 1, Scene 4). *Do not kill him* — see Triggers.
+**On yield.** Rises, gives the **guest-token of iron-hawthorn,** states the full-moon audience terms (see file 1, Scene 5). *Do not kill him* — see Triggers.
 
 ### Sprite Outrider (×2)
 
