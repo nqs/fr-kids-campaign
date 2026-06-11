@@ -3,7 +3,7 @@
 | | |
 |---|---|
 | **Tier** | Tier 2 |
-| **Party Level** | 6 PCs at Level 6 — the Site-C milestone is applied **between sessions**; rebuild sheets to L6 before play. **Loric T. (Lily) rejoins** the table. |
+| **Party Level** | 5 PCs at Level 6 — the Site-C milestone is applied **between sessions**; rebuild sheets to L6 before play. |
 | **Duration** | ~2 hours of play |
 | **Setting** | Shadowdale the morning after Greengrass (the village green, Orvyn's bookshop, the Ashaba House) → the edge of the Living Wood → the Hawthorn Cleft |
 | **Hook From** | Session 004 — *The Greengrass Greengage Affair* (the Antlered Herald's mark; the unnamed fey lord's audience invitation; Sela's confession) |
@@ -17,7 +17,7 @@
 
 Session 005 is a **two-hour fey session** that picks up the morning after the Greengrass bonfire — the exact beat Session 004 cut on. Last night the Antlered Herald rode out of the Living Wood, told the party their unnamed fey lord has *marked* them, and left an open invitation to an audience at the next full moon "on neutral ground, the hawthorn-cleft of his choosing." Then Sela Wyndmere, the village healer, confessed she has been carrying ribbon-knotted messages for that lord without understanding them.
 
-The party's own problem drives the session: **a fey lord they've never met has a claim on them and a deadline.** Lady Ulphor wants to know everything; the party wants to know who this lord is and what "marked" means before they walk into his court blind. The trail runs through the Living Wood — which is **emptying.** The fey are pulling back, color is draining from the trees, and livestock at the forest's edge has gone missing. Sela can read the wood when no one else can; the party will need her, and over the course of the walk they earn the rest of her story.
+The party's own problem drives the session: **a fey lord they've never met has a claim on them and a deadline.** Lady Ulphor wants to know everything; the party wants to know who this lord is and what "marked" means before they walk into his court blind. The trail runs through the Living Wood — which is **emptying.** The fey are pulling back, color is draining from the trees, and livestock at the forest's edge has gone missing. Sela can read the wood when no one else can; the party will need her — and the road runs through her cottage door first. **Scene 2 is the party's first real look at the woman behind the festival judge:** to most of them she is still just the healer who pinned Nalith's ribbon and conjured the breeze Kto misread. They collect their guide, learn who she is, and over the course of the walk they earn the rest of her story.
 
 Two short, scripted encounters anchor the trip. The first is **the Frightened Wood** — woodland animals turned fey-touched and panicked by the withdrawal, lashing out near the missing livestock. It can be *won by calming them* rather than killing them. The second is **the Hawthorn Gate** itself — the Bright Court's ceremonial gatekeeper, the **Thornward**, who tests whether these mortals are worthy to be received. Like the Herald's crash, it is built to end in **parley, not a kill** — and if Nalith still carries Quillip's hawthorn berry, the whole challenge collapses into ceremony.
 
@@ -27,14 +27,14 @@ The session ends with the **audience terms sealed** for the full moon, Sela's bu
 
 # PART ONE — The Morning After
 
-*~20 minutes. Wind down the festival, frame the problem, point the party at the wood.*
+*~25 minutes. Wind down the festival, frame the problem, meet the guide, point the party at the wood.*
 
 ---
 
 ## Scene 1 — Embers & the Mark
 
 ### Setup
-First light over Shadowdale. The Greengrass bonfire on the river-stones has burned down to embers and grey ash; trampled flower-wreaths and green-white ribbons lie in the dew. The party slept in the Ashaba House. Lady Ulphor sent word at dawn: *come to the solar when you wake. Bring the healer.*
+First light over Shadowdale. The Greengrass bonfire on the river-stones has burned down to embers and grey ash; trampled flower-wreaths and green-white ribbons lie in the dew. The party slept in the Ashaba House. Lady Ulphor sent word at dawn: *come to the solar when you wake.*
 
 > [!NOTE]
 > **Read-aloud:** Read Aloud
@@ -46,27 +46,11 @@ Lady Ulphor is at the window with two pots of tea and no patience for ceremony. 
 The framing the party should leave with — **this is their problem, on a clock:**
 - A fey lord of the **Bright Court Beneath** has *marked* them. Nobody at the table knows what that means. (It is not a curse — it's closer to a *claim of acquaintance*. The Court considers them known. Don't explain this yet.)
 - The audience is at the **next full moon** — by the Dales calendar, **eleven nights off.** That is the clock.
-- Lady Ulphor will not let her honored guests walk into a fey court blind. *"You will not go to him not knowing who he is. Find that out first. Sela will walk you to where the answers are."*
+- Lady Ulphor will not let her honored guests walk into a fey court blind. *"You will not go to him not knowing who he is. Find that out first. Sela will walk you to where the answers are. You'll find her at her cottage, where the village runs out and the wood begins — collect her on your way."*
 
 > [!WARNING]
 > **Flag:** DM — Keep Scene 1 tight
-> This is a 20-minute on-ramp, not a second debrief. The festival is *over.* If the kids want to relive a station win, give them one line and move on. The job of this scene is to put three things in their hands: **the mark, the deadline, and a reason to go into the wood with Sela.**
-
-### Sela — Introduced, Not Assumed
-Sela is here, sitting very straight, hands around a teacup she isn't drinking. **The party barely knows her** — she is the woman who set Fiorn's sprained wrist and brewed Nalith fever-tea, and last night she became something stranger. Do **not** play her as the party's grieving friend yet; they haven't earned that and neither has she. Play her as **useful, frightened, and only partly honest.**
-
-What Sela gives up freely in the solar:
-- Yes, she carries messages for "a lord of the wood." She ties a ribbon-knot — bone, green, white — and leaves it at a hollow hawthorn, and in the morning it is gone and a new one is there. **She does not read them.** She cannot; they are knot-script, not letters.
-- She is the only Shadowdaler the deep fey still speak to. If the party wants to reach the Court, **she is the road.**
-
-What Sela deflects (save it for the wood — Scenes 2 and 3):
-- *Why* she said yes the first time.
-- What she suspects the messages have *done.*
-- That the withdrawal frightens her more than the lord does.
-
-> [!WARNING]
-> **Flag:** DM — The rapport beat
-> Give the party one concrete chance to earn Sela's cooperation rather than command it. Easiest hook: she notices a half-healed mark from last night's crash (Kto's bow-string burn, Fiorn's bruised ribs from the river-stones) and reaches for her kit out of pure habit — *"hold still"* — and in fixing it, softens. A kind word, a shared joke, or simply *letting her help* moves her from "I'll guide you because the Lady asked" to "I'll guide you because I want you to make it." Mark which PC lands it; it pays off in Scene 3.
+> This is a 15-minute on-ramp, not a second debrief. The festival is *over.* If the kids want to relive a station win, give them one line and move on. Sela is **not** in the solar — she went home before dawn, and meeting her properly is Scene 2's job. The job of *this* scene is to put three things in the party's hands: **the mark, the deadline, and the order to collect Sela and go into the wood.**
 
 ### Two Errands Before the Wood *(run in parallel, ~2 min each)*
 The party will want to chase last night's threads. Let two land on the way out the door, then point them at the wood. **Do not let these balloon** — each is a single beat with a single object.
@@ -76,12 +60,72 @@ The party will want to chase last night's threads. Let two land on the way out t
   > **Flag:** DM — Orvyn's back room
   > Yinu sensed this in S4. Confirm the feeling, refuse the answer. The back-room working is a **sending** — Orvyn relays to a Harper cell — but the party learns that in a later session. Today it's a closed door with warm light under it.
 
-- **Naan → the sealed letter.** If she opens Lady Ulphor's letter now: it is an **invitation to the Temple of Lathander in Highmoon, at the next full moon** — the *same night* as the fey audience. **The two invitations collide.** Naan cannot be in Highmoon and the hawthorn-cleft at once. Let that land as a quiet weight; don't resolve it. *(If Lilli would rather sit on the letter, let Naan carry it unopened — the collision still surfaces in Scene 4.)*
+- **Naan → the sealed letter.** If she opens Lady Ulphor's letter now: it is an **invitation to the Temple of Lathander in Highmoon, at the next full moon** — the *same night* as the fey audience. **The two invitations collide.** Naan cannot be in Highmoon and the hawthorn-cleft at once. Let that land as a quiet weight; don't resolve it. *(If Lilli would rather sit on the letter, let Naan carry it unopened — the collision still surfaces in Scene 5.)*
 
 ### What This Scene Locks In
 - The mark, the eleven-night clock, and Lady Ulphor's order: **learn who the lord is before the audience.**
-- Sela as the party's road into the wood — cooperative, not yet candid.
+- Sela named as the party's road into the wood — and the party sent to collect her (Scene 2).
 - Yinu holds a Harper "key." Naan holds a scheduling collision. Both are seeds, not plots.
+
+---
+
+## Scene 2 — The Healer's Cottage
+
+*~10 minutes. Meet the guide properly — she has known the party far longer than they have known her.*
+
+### Setup
+The north edge of the village, where the lanes give out and the Living Wood starts taking the fences apart. Sela's cottage sits right on that seam: a low fieldstone house under an old crabapple, garden beds laid out with surgical neatness, and the door standing open. **To most of the party she is a stranger** — the woman who pinned Nalith's ribbon, the one who conjured the breeze at the archery butts, somebody the villagers mention the way they mention weather. This scene exists to fix that **before** the wood makes them depend on her. Play her exactly as the roster has her: **knowing** — gentle, unhurried, and never quite giving a straight answer when a sideways one will do.
+
+> [!NOTE]
+> **Read-aloud:** Read Aloud
+> The healer's cottage smells of drying herbs, river clay, and something faint and silvery underneath that might be foxfire and might be your imagination. Bundles of green hang from every beam. A workbench runs the length of one wall — mortars, knives, clean linen, and three spools of ribbon set out in plain sight: **bone, green, white.** Sela Wyndmere is packing a leather satchel like a soldier breaking camp, a white streak bright in her dark hair, burrs still on her sleeves from somewhere she has already been this morning. She looks up without surprise. *"The Lady said you'd come. Sit — I'm nearly done. You can ask the questions you're polite enough not to be asking."*
+>
+> Somewhere in the garden, the birdsong stops. She pauses mid-motion — head tilted, listening to something none of you can hear — then goes back to packing without explaining.
+
+*(Player handout: **Sela Wyndmere** — see `the-hawthorn-gate-3-player-handouts.md`.)*
+
+### She Knows Them Better Than They Know Her
+Sela has been Shadowdale's healer for decades; the party has been her *patients and her gossip* for a season. As she packs, give each PC one personal beat — proof that the village has been watching them through her eyes. Use what fits; don't force all five:
+
+| PC | Her thread |
+|---|---|
+| **Nalith** | The Greening. *"Your poultice was better than mine, and I have thirty years on you."* Then, lower: *"Something brushed past us both when I pinned your ribbon. You pocketed what it left. I'd keep that safe, if I were you."* (She clocked Quillip. She won't say more.) |
+| **Kto** | The archery contest. *"That breeze in the second round was mine — the Lady wanted a fair test, and fair is not the same as kind. You shoot better than the wind let you show."* An honest apology, from a woman who does not waste them. |
+| **Fiorn** | She set his sprained wrist last winter and never charged him. While she packs she hums four bars of his showcase piece, perfectly. *"Music carries to the wood's edge. Some of my neighbors hummed it for days. They don't usually like us much."* |
+| **Yinu** | A borrowed book sits on the bench — one of Orvyn's fey texts, ribbon-marked. *"You named the primrose right, at the festival. The one that fell through from the Fey Realm. Most wizards call it a weed."* She asks Yinu to carry the book back to Orvyn — *"eventually. No hurry. He never hurries me."* |
+| **Naan** | The sapling-blessing. *"I've coaxed green out of this soil my whole life with knives and patience. You did it with a word. The wood noticed — things that bloom out of season get *talked about* out there."* Said kindly. Mostly. |
+
+And one beat for the **table as a group** — the deepest hook she has:
+
+> [!NOTE]
+> **Read-aloud:** Read Aloud — Sela, buckling the satchel
+> *"You carried Rellan Tessar down off Old Skull alive. I'd already chosen the cloth I'd wrap him in — I've buried enough scouts to know how that story ends. You handed me back a patient I'd finished grieving."* She shoulders the satchel. *"So whatever else you are, you're the kind of trouble I can work with. Ask your questions while we walk the garden."*
+
+### What Sela Gives Up Freely *(here, at her own table)*
+Do **not** play her as the party's grieving friend yet; they haven't earned that and neither has she. Play her as **useful, frightened, and only partly honest.**
+
+- Yes, she carries messages for "a lord of the wood." She ties a ribbon-knot — bone, green, white, the spools are *right there* on the bench — and leaves it at a hollow hawthorn, and in the morning it is gone and a new one is there. **She does not read them.** She cannot; they are knot-script, not letters.
+- She is the only Shadowdaler the deep fey still speak to. If the party wants to reach the Court, **she is the road.**
+- She hands over **two healing poultices and an antitoxin** for the walk — *"No charge. It was never charity; it's neighborliness. The wood can tell the difference."*
+
+What Sela deflects (save it for the wood — Scenes 3 and 4):
+- *Why* she said yes the first time.
+- What she suspects the messages have *done.*
+- That the withdrawal frightens her more than the lord does.
+
+> [!WARNING]
+> **Flag:** DM — The rapport beat
+> Give the party one concrete chance to earn Sela's cooperation rather than command it. Easiest hook: she notices a half-healed mark from last night's crash (Kto's bow-string burn, Fiorn's bruised ribs from the river-stones) and reaches for her kit out of pure habit — *"hold still"* — and in fixing it, softens. A kind word, a shared joke, or simply *letting her help* moves her from "I'll guide you because the Lady asked" to "I'll guide you because I want you to make it." Mark which PC lands it; it pays off in Scene 4.
+
+> [!WARNING]
+> **Flag:** DM — Keep it to ten minutes
+> This is a character scene, not an interrogation. Land two or three personal beats, the courier mechanics, and the rapport moment — then she shoulders her pack and starts walking: *"The wood won't wait for tea."* Anything the kids didn't ask here, she can answer on the road in Scene 3.
+
+### What This Scene Locks In
+- **Every PC has a personal thread to Sela** — she is a person now, not a plot device with a herb kit.
+- Her competence *and* her strangeness both registered: the listening pause, the burrs, the ribbon spools in plain sight.
+- The courier mechanics are on the table; the deeper truth is still held back, visibly.
+- The rapport PC is marked (pays off at the Hawthorn Cleft, Scene 4).
 
 ---
 
@@ -91,7 +135,7 @@ The party will want to chase last night's threads. Let two land on the way out t
 
 ---
 
-## Scene 2 — The Quiet Wood
+## Scene 3 — The Quiet Wood
 
 ### Setup
 Late morning. Sela leads the party north and east, off the cart-track and into the Living Wood toward the hollow hawthorn where she leaves her knots. The wood is **wrong** in a way that builds as they walk.
@@ -111,16 +155,16 @@ This is exploration, not a gauntlet. Offer checks; reward the party that lets Se
 
 > [!WARNING]
 > **Flag:** DM — Sela's wood-craft must visibly matter
-> At least once, let Sela *save the party a bad step* — she stops Kto before a fey-mire that reads as solid ground, or reads a warning in a bent sapling the party would have walked past. The point of Scene 2 is that **she is genuinely good at this and they genuinely need her.** That competence is what earns her the right to be believed in Scene 3.
+> At least once, let Sela *save the party a bad step* — she stops Kto before a fey-mire that reads as solid ground, or reads a warning in a bent sapling the party would have walked past. The point of Scene 3 is that **she is genuinely good at this and they genuinely need her.** That competence is what earns her the right to be believed in Scene 4.
 
 ### Sela Reveals the Next Layer *(earned on the road, not dumped)*
-As trust builds on the walk — triggered by the rapport PC from Scene 1, or simply by the party treating her well — Sela gives up the *middle* of her story:
+As trust builds on the walk — triggered by the rapport PC from Scene 2, or simply by the party treating her well — Sela gives up the *middle* of her story:
 
 > [!NOTE]
 > **Read-aloud:** Read Aloud — Sela, quietly, walking
 > *"I said yes because the wood was dying and he said he could stop it. Twelve years ago. My mother's garden wouldn't take, the bees were gone, the does were dropping dead fawns — and a voice in a hawthorn said: carry my words and I'll hold the green. So I carried them. And the wood lived."* She doesn't look at you. *"I never read them. I told myself that meant they were clean."*
 
-She still won't say what she's afraid of. That's Scene 3.
+She still won't say what she's afraid of. That's Scene 4.
 
 ### Encounter 1 — The Frightened Wood
 Near the livestock thicket, the recall has stranded a knot of woodland animals on the *wrong side* of the contracting seam — fey-touched, blinking, antlers crowned in wilting blossom, **panicked and aggressive.** A great stag and its wolves, half-stepped out of the Feywild and unable to follow their world home.
@@ -135,7 +179,7 @@ Near the livestock thicket, the recall has stranded a knot of woodland animals o
 
 > [!WARNING]
 > **Flag:** DM — Steer toward mercy, don't force it
-> Nalith (Druid, Animal Handling +6), Naan (Skilled: Animal Handling), and Kto (Animal Handling +5) all have the tools. If the party hits the stag instead, that's allowed — but have a wolf *whimper* when it's bloodied, and let any WIS-attuned PC feel the fear instead of malice. The lesson is *the wood is afraid, not hostile.* If they kill the stag anyway, Sela kneels by it and **takes the shed antler** — and the party will feel that in Scene 3 when the Thornward asks what kind of guests they are.
+> Nalith (Druid, Animal Handling +6), Naan (Skilled: Animal Handling), and Kto (Animal Handling +5) all have the tools. If the party hits the stag instead, that's allowed — but have a wolf *whimper* when it's bloodied, and let any WIS-attuned PC feel the fear instead of malice. The lesson is *the wood is afraid, not hostile.* If they kill the stag anyway, Sela kneels by it and **takes the shed antler** — and the party will feel that in Scene 4 when the Thornward asks what kind of guests they are.
 
 ### What This Scene Locks In
 - The withdrawal is a **recall**, not a rout — something is pulling the fey to one point ahead.
@@ -144,7 +188,7 @@ Near the livestock thicket, the recall has stranded a knot of woodland animals o
 
 ---
 
-## Scene 3 — The Hawthorn Cleft
+## Scene 4 — The Hawthorn Cleft
 
 ### Setup
 Past the frightened wood, the trees open. Two enormous gnarled hawthorns lean together into a living arch, heavy with the only white blossom left in the forest. Between them the air **ripples like water standing on its end** — the contracting seam, pulled tight to a single shining doorway. Mossy standing stones ring the clearing, every one hung with ribbon-knots. **This is the hawthorn-cleft the Herald named.** This is where the audience will be.
@@ -203,7 +247,7 @@ Full statblocks, round-by-round tactics, the parley triggers, the **berry shortc
 
 ---
 
-## Scene 4 — The Invitation Sealed
+## Scene 5 — The Invitation Sealed
 
 ### Setup
 The Thornward kneels (or, berry in hand, simply bows). The seam steadies. Quillip exhales. Whatever the party showed him, the gate is open to them now — not to enter today, but to be **expected** at the full moon.
@@ -216,8 +260,8 @@ The Thornward kneels (or, berry in hand, simply bows). The seam steadies. Quilli
 - **The audience terms, fixed:** full moon (eleven nights), at this cleft, guest-right both ways — *no harm to them, none from them, while the ribbons hold.* This is the **safe-conduct** the party carries into S6.
 - **Sela's road forward.** The Thornward's invitation — *"bring her"* — gives Sela a way to face the lord she served. She is no longer just a guilty courier; she is a party ally with a stake in the audience. **Her arc is open, not closed.**
 - **The collision surfaces.** If Naan opened the letter, the full moon is *also* the Temple of Lathander's night in Highmoon. She cannot do both. Let the table feel the fork — **do not resolve it.** (Foreshadow: her patron Zophiel, the Spy of Heaven, might have opinions about which table she sits at.)
-- **Quillip's riddle, restated.** As the party turns to go, Quillip lands by Nalith: *"Full moon's his. But the quarter-moon's mine — hawthorn, midnight, **bring four friends, not five.** There's a thing he doesn't want you to see, and I do."* (The S4 chained hook, still unsolved. Plant for a future session; **the lord's audience and Quillip's quarter-moon offer are different doors.**)
-- **What the party owes the wood.** If they *calmed* the frightened beasts in Scene 2, the stag follows them to the treeline and will not cross — a small, living thank-you. If they *killed* it, Sela's shed antler is in her pack, and the Thornward's *"do not insult me by dying"* lands a little colder. Let the choice echo.
+- **Quillip's riddle, restated.** As the party turns to go, Quillip lands by Nalith: *"Full moon's his. But the quarter-moon's mine — hawthorn, midnight, **bring three friends, not four.** There's a thing he doesn't want you to see, and I do."* (The S4 chained hook, still unsolved. Plant for a future session; **the lord's audience and Quillip's quarter-moon offer are different doors.**)
+- **What the party owes the wood.** If they *calmed* the frightened beasts in Scene 3, the stag follows them to the treeline and will not cross — a small, living thank-you. If they *killed* it, Sela's shed antler is in her pack, and the Thornward's *"do not insult me by dying"* lands a little colder. Let the choice echo.
 
 ### End of Session
 Cut on the party walking back out of the greying wood with Sela between them — an audience sealed for the full moon, a lord who harvests forests and now wants *people,* a Harper key unread in Yinu's pack, two invitations falling on the same night, and a pixie's quarter-moon riddle hanging in the air.
@@ -232,6 +276,7 @@ Cut on the party walking back out of the greying wood with Sela between them —
 
 ### Currency / Tangible
 - **No paymaster this session** — this is a fey errand, not a contract. Lady Ulphor settles up *after* the audience (S6+). Track it as a favor owed.
+- **Sela's kit** — 2× healing poultice (treat as *potion of healing*; action to apply) + 1× antitoxin, given freely at her cottage (Scene 2). *"It was never charity; it's neighborliness."*
 - **Guest-token of the Bright Court** — the Thornward gives the party a sprig of **iron-hawthorn** (cold-iron heartwood, white bloom that never wilts). It is *proof of invitation and safe-conduct* at the full moon. Not for sale; worth a war if lost.
 - **Quillip's hawthorn berry** — if **spent at the gate**, it's gone (used as the guest-token shortcut). If **unused**, Nalith still has it; it remains a one-shot fey guest-token (and still grows into an early-blooming hawthorn if planted — see S4).
 

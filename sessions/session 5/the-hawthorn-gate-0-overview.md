@@ -1,10 +1,10 @@
 # Session 005 — The Hawthorn Gate
 
-*Tier 2 · 6 PCs at Level 6 · Shadowdale → the Living Wood → the Hawthorn Cleft*
+*Tier 2 · 5 PCs at Level 6 · Shadowdale → the Living Wood → the Hawthorn Cleft*
 
 **Status:** ⏳ Not yet played — the summary below reflects the planned major beats, not a record of play.
 
-Picking up the morning after the Greengrass bonfire, the party must learn who the fey lord that *marked* them is before walking into his full-moon audience, **eleven nights off**. With the Living Wood emptying — fey withdrawing, color draining from the trees, livestock vanishing at the forest's edge — they take the reluctant healer **Sela Wyndmere** into the wood to read her latest message-drop and find the hawthorn-cleft the invitation named. Two scripted encounters anchor the trip: **the Frightened Wood**, where fey-touched animals can be calmed rather than killed, and **the Hawthorn Gate** itself, where the Bright Court's gatekeeper — the **Thornward** — tests the party, a challenge that collapses into ceremony if Nalith still carries Quillip's hawthorn berry. The session is built to end with the **audience terms sealed** for the full moon and Sela's arc opened, lighting hooks for Session 006 and beyond.
+Picking up the morning after the Greengrass bonfire, the party must learn who the fey lord that *marked* them is before walking into his full-moon audience, **eleven nights off**. With the Living Wood emptying — fey withdrawing, color draining from the trees, livestock vanishing at the forest's edge — they collect the reluctant healer **Sela Wyndmere** at her cottage on the wood's edge (the party's first real look at the woman behind the festival judge) and take her into the wood to read her latest message-drop and find the hawthorn-cleft the invitation named. Two scripted encounters anchor the trip: **the Frightened Wood**, where fey-touched animals can be calmed rather than killed, and **the Hawthorn Gate** itself, where the Bright Court's gatekeeper — the **Thornward** — tests the party, a challenge that collapses into ceremony if Nalith still carries Quillip's hawthorn berry. The session is built to end with the **audience terms sealed** for the full moon and Sela's arc opened, lighting hooks for Session 006 and beyond.
 
 ## Session Files
 
@@ -12,9 +12,10 @@ Picking up the morning after the Greengrass bonfire, the party must learn who th
 - [Combat Tracker](the-hawthorn-gate-2-combat-tracker.md) — DM tracker sheets, stat-block cards, tactical maps
 - [Player Handouts](the-hawthorn-gate-3-player-handouts.md) — recap page and player-facing art
 - [DM Quick Reference](the-hawthorn-gate-4-dm-quick-ref.md) — at-the-table cheat sheet
+- [Printable PDF](the-hawthorn-gate.pdf) — single compiled PDF of the four files above
 
 > [!NOTE]
-> **Not yet played.** A session log and a compiled PDF will be added here after the session runs. This page's summary will then be refreshed from the post-play log to record what actually happened.
+> **Not yet played.** A session log will be added here after the session runs. This page's summary will then be refreshed from the post-play log to record what actually happened.
 
 ## Images
 

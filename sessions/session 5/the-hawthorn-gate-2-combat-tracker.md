@@ -5,7 +5,7 @@ Two scripted, short encounters. **Encounter 1** can end without a kill (calm the
 ---
 
 ## Encounter 1 — The Frightened Wood
-*Scene 2 · Medium-light (raw 1,500 XP → ~3,000 adjusted) · 3-round scripted, mercy off-ramp every round · 6×L6*
+*Scene 3 · Medium (raw 1,500 XP → ~3,000 adjusted) · 3-round scripted, mercy off-ramp every round · 5×L6*
 
 ### Summary
 
@@ -15,8 +15,8 @@ Two scripted, short encounters. **Encounter 1** can end without a kill (calm the
 | **Light** | Late-morning daylight, grey and flat under the thinning canopy. |
 | **Terrain** | A **broken livestock fence** and **overturned cart** (half cover) on the west; a **shallow stream** cutting diagonally (**difficult terrain**, the beasts ignore it); **boulders and fallen logs** (cover) in the center. Deer-path exits north toward the seam. |
 | **Antagonists** | 1× **Fey-Touched Great Stag** (CR 3, ⚗️) + 4× **Fey-Touched Wolf** (CR 1, ⚗️). |
-| **Party** | **6 PCs at Level 6** (Loric rejoins). |
-| **XP** | Raw 1,500 → ×2 multi-foe → **~3,000 adjusted** (Medium for 6×L6 is 3,600; Easy 1,800). **Medium-light** — built to be *survivable and winnable by kindness,* not a grind. |
+| **Party** | **5 PCs at Level 6.** |
+| **XP** | Raw 1,500 → ×2 multi-foe → **~3,000 adjusted** (Medium for 5×L6 is 3,000; Easy 1,500). **Medium** — built to be *survivable and winnable by kindness,* not a grind. |
 | **Duration** | 3 rounds max. Ends early the instant the **stag is calmed** (see below) — the wolves break with it. |
 | **Goal (PCs)** | Survive — and, ideally, **realize the animals are terrified, not hostile, and calm them.** |
 | **Goal (beasts)** | Reach the closing seam. They attack only what stands between them and the door. |
@@ -39,7 +39,6 @@ NPC initiative is pre-rolled (DEX-averaged). PCs roll live and write into the bl
 | __ | _________________ | __ | _________________ | _________________ |
 | __ | _________________ | __ | _________________ | _________________ |
 | 11 | Fey-Touched Great Stag | 13 | 59: ☐☐☐☐☐ ☐☐☐☐☐ ☐☐ | Charge +knockdown · Bloodied 29 · **Calm-able DC 14** |
-| __ | _________________ | __ | _________________ | _________________ |
 | __ | _________________ | __ | _________________ | _________________ |
 
 **Conditions:** Bln · Chr · Deaf · Frt · Grp · Inc · Inv · Prl · Pet · Pzn · Prn · Rst · Stn · Uns · Conc
@@ -64,7 +63,7 @@ NPC initiative is pre-rolled (DEX-averaged). PCs roll live and write into the bl
 ### Loot / Aftermath
 
 - **No coin, no gear** — these are stranded animals. If the stag is **killed**, it sheds a single white antler crowned in cold blossom (Sela keeps it; minor fey-iron token, sentiment not sale).
-- If the stag is **calmed**, it follows the party to the treeline in Scene 4 and will not cross — a living thank-you and a small fey boon (DM discretion: advantage on the party's first Animal Handling/Survival check in the Living Wood next session).
+- If the stag is **calmed**, it follows the party to the treeline in Scene 5 and will not cross — a living thank-you and a small fey boon (DM discretion: advantage on the party's first Animal Handling/Survival check in the Living Wood next session).
 
 ### Fey-Touched Great Stag
 
@@ -133,7 +132,7 @@ NPC initiative is pre-rolled (DEX-averaged). PCs roll live and write into the bl
 ---
 
 ## Encounter 2 — The Hawthorn Gate
-*Scene 3 · Hard-leaning (raw 2,200 XP → ~4,400 adjusted) · ceremonial test, parley at bloodied/R3 · 6×L6*
+*Scene 4 · Hard-leaning (raw 2,200 XP → ~4,400 adjusted) · ceremonial test, parley at bloodied/R3 · 5×L6*
 
 ### Summary
 
@@ -143,8 +142,8 @@ NPC initiative is pre-rolled (DEX-averaged). PCs roll live and write into the bl
 | **Light** | Twilight-bright fey glow under the arch; ordinary daylight at the clearing's edge. |
 | **Terrain** | The **seam/ritual circle** at center (entering it is the Thornward's whole job to prevent). **Standing stones** (cover) ring the clearing. Two **toadstool rings** (difficult terrain). **Ribboned cairn** to the east (cover). Forest path enters from the south; **blossoming hedge** walls the north. |
 | **Antagonists** | 1× **Maelorn, the Thornward** (CR 5, ⚗️) + 2× **Sprite Outrider** (CR 1, owl-mounted — reused from S4 for continuity). |
-| **Party** | **6 PCs at Level 6.** |
-| **XP** | Raw 2,200 → ×2 multi-foe → **~4,400 adjusted** (Hard for 6×L6 is 5,400; Medium 3,600). **Hard-leaning** but scripted short — the Thornward yields, he does not win. |
+| **Party** | **5 PCs at Level 6.** |
+| **XP** | Raw 2,200 → ×2 multi-foe → **~4,400 adjusted** (Hard for 5×L6 is 4,500; Medium 3,000). **Hard-leaning** but scripted short — the Thornward yields, he does not win. |
 | **Duration** | 3 rounds max. Thornward **kneels and names the party worthy when bloodied (≤45) OR at end of Round 3** — whichever first. |
 | **Goal (PCs)** | **Show the Thornward something worth naming** — courage, restraint, cleverness, or mercy. Winning is not killing him; it's being judged worthy. |
 | **Goal (Thornward)** | Test, not kill. Measure these mortals, keep them off the seam, yield with honor when they've proven themselves. |
@@ -174,7 +173,7 @@ NPC initiative is pre-rolled (DEX-averaged). PCs roll live and write into the bl
 
 ### Triggers & Countdowns
 
-- **The Berry Shortcut (best outcome).** If **Nalith presents Quillip's hawthorn berry** at any point (action to show/press it to the arch), the Thornward **immediately grounds his glaive.** Run **one symbolic round** — a single crossed-blades salute — then go straight to *Scene 4* terms. The Sprites stand down. *No real combat.* Flag it as the reward for keeping the token.
+- **The Berry Shortcut (best outcome).** If **Nalith presents Quillip's hawthorn berry** at any point (action to show/press it to the arch), the Thornward **immediately grounds his glaive.** Run **one symbolic round** — a single crossed-blades salute — then go straight to *Scene 5* terms. The Sprites stand down. *No real combat.* Flag it as the reward for keeping the token.
 - **Bloodied (≤45 HP)** — the Thornward steps back, plants his glaive, and **kneels:** *"Enough. You are worth the table."* Combat ends. Standard worthy-verdict.
 - **End of Round 3** — even unbloodied, the Thornward calls the test passed (*"You did not break, and you did not kill. Good."*) and yields. Combat ends.
 - **Ceremonial Restraint (⚗️)** — the Thornward **never drops a PC.** Any hit that would reduce a PC to 0 instead leaves them at **1 HP and prone** ("the flat of the thorn"). Narrate it.
@@ -228,7 +227,7 @@ NPC initiative is pre-rolled (DEX-averaged). PCs roll live and write into the bl
 - **Round 2.** *Bramble Snare* across the party's front to control the line. Glaive the snared PC. Parry the hardest incoming hit.
 - **Round 3.** **Yield.** Ground the glaive, kneel, name the party worthy. Combat ends. (Earlier if bloodied.)
 
-**On yield.** Rises, gives the **guest-token of iron-hawthorn,** states the full-moon audience terms (see file 1, Scene 4). *Do not kill him* — see Triggers.
+**On yield.** Rises, gives the **guest-token of iron-hawthorn,** states the full-moon audience terms (see file 1, Scene 5). *Do not kill him* — see Triggers.
 
 ### Sprite Outrider (×2)
 
