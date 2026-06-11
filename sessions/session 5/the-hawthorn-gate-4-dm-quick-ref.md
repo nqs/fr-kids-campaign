@@ -26,7 +26,7 @@
 
 ## Encounter 1 — The Frightened Wood *(Scene 3)*
 
-**6×L6 · ~3,000 adj XP (Medium-light) · 3 rounds · mercy off-ramp every round**
+**5×L6 · ~3,000 adj XP (Medium) · 3 rounds · mercy off-ramp every round**
 
 **1× Fey-Touched Great Stag (CR 3, ⚗️)** — AC 13 · HP 59 (bloodied 29)
 - Antlers +6, 2d6+4; Charge +2d6 & STR DC 14 prone; Blink 10 ft/turn
@@ -49,7 +49,7 @@
 
 ## Encounter 2 — The Hawthorn Gate *(Scene 4)*
 
-**6×L6 · ~4,400 adj XP (Hard-leaning) · 3 rounds · parley at bloodied/R3 · NO kills either way**
+**5×L6 · ~4,400 adj XP (Hard-leaning) · 3 rounds · parley at bloodied/R3 · NO kills either way**
 
 **Maelorn, the Thornward (CR 5, ⚗️)** — AC 17 · HP 90 (**bloodied 45**)
 - Glaive ×2: +7, 1d10+4 + 1d6 poison (numbing, never lethal)
@@ -94,7 +94,7 @@
 | Boon | Effect | Cost tier |
 |---|---|---|
 | Read of the wood | What's pulling the green in; where the seam went | A true secret about a PC |
-| Quarter-moon offer | Show the party "what the lord hides" | Come at quarter-moon, **four not five** |
+| Quarter-moon offer | Show the party "what the lord hides" | Come at quarter-moon, **three not four** |
 | Diversion at the gate | Distract the Sprites for a round | A song, a token, or a promise |
 
 *Stiff/threaten Quillip → she vanishes and the berry's value is the only goodwill left. Don't.*
@@ -142,7 +142,7 @@
 - [ ] **Sela's arc** — from unwilling courier to penitent ally; what did she resolve to do?
 - [ ] **Naan's collision** — Highmoon (Lathander) vs. the audience, same night. Which way is she leaning?
 - [ ] **Yinu's Harper "key"** — did she read it? Orvyn's back-room working still unexplained.
-- [ ] **Quillip's quarter-moon riddle** — "four friends, not five." Still open.
+- [ ] **Quillip's quarter-moon riddle** — "three friends, not four." Still open.
 - [ ] **The wood's recall** — the lord has stopped gathering green and started gathering *people.* Escalation note.
 - [ ] **Vhaeraunian retaliation clock** — still ticking in the background; untouched this session.
 

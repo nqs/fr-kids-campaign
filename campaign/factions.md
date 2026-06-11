@@ -289,7 +289,7 @@ The fey lord using Sela as a courier is a lord of the **Bright Court Beneath** �
 > [!TIP]
 > **Adventure Hooks**
 > - **The full-moon audience** at the Hawthorn Cleft (the S5 → S6 throughline) — and Naan's competing Temple-of-Lathander invitation falls on the *same* night
-> - **Quillip's quarter-moon offer** — "hawthorn, midnight, bring four friends, not five" — a different door the lord doesn't want the party to see
+> - **Quillip's quarter-moon offer** — "hawthorn, midnight, bring three friends, not four" — a different door the lord doesn't want the party to see
 > - **Sela's penance** — now an ally seeking to undo twelve years of unwitting service; what she carried, and to whom, is still unread
 > - Farmers on the forest edge report animals going missing (the fey-touched, seam-stranded beasts — see [world](world.md))
 

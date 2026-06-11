@@ -46,7 +46,7 @@ Each NPC now has their own page under [`roster/`](roster/). This page is the ind
 | Sela Wyndmere | Nalith (party) | Ran the S4 Greening; praised Nalith's healing/animal-handling and awarded her gold |
 | Quillip Burr-and-Whistle | Sela Wyndmere | Both Living Wood fixtures; Sela will recognize the description if the party mentions her |
 | Quillip Burr-and-Whistle | *unnamed fey lord* | Knows of him; refuses to name him; will leave a conversation that presses on it |
-| Quillip Burr-and-Whistle | Nalith (party) | Adopted the party; reappeared at the S4 festival to leave Nalith a fey token (planned payoff: Bright Court guest-token); drops the quarter-moon "four not five" riddle (planned, S5) |
+| Quillip Burr-and-Whistle | Nalith (party) | Adopted the party; reappeared at the S4 festival to leave Nalith a fey token (planned payoff: Bright Court guest-token); drops the quarter-moon "three not four" riddle (planned, S5) |
 | *unnamed fey lord* | Bright Court Beneath | He is its lord; the court's livery is the green-white-bone ribbon-knot. **Name reserved (S6+ reveal)** |
 | Lorindar Greenmantle (Herald) | Bright Court Beneath | The lord's outrider/message-bearer; delivers the party's "mark" (deferred S4 bonfire beat, not yet played) |
 | Maelorn the Thornward | Bright Court Beneath | The lord's gatekeeper; holds the hawthorn-cleft seam; tests the marked (planned, S5) |

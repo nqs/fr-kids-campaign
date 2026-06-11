@@ -6,7 +6,7 @@
 
 After the fight, **Sela Wyndmere** — the village healer who's patched you up all winter — came to you shaking and said the worst thing she knows: *"He has been using me. I knew. I didn't know how to say it."* She has been carrying ribbon-knotted messages for that fey lord for years, and never reading them.
 
-You are **Level 6** now, ribbons pinned, the bonfire finally lit behind you. **Loric is back at your side** after sitting out the festival. It is the morning after, the embers are still smoking, and you have a fey lord's claim on you and eleven nights to figure out what that means.
+You are **Level 6** now, ribbons pinned, the bonfire finally lit behind you. It is the morning after, the embers are still smoking, and you have a fey lord's claim on you and eleven nights to figure out what that means.
 
 ### What Now?
 
@@ -69,7 +69,7 @@ She is the one who can walk you into the wood. She is also frightened of what sh
 
 Your pixie go-between, turning up where the fey business is thickest. She left Nalith a dried hawthorn berry at the Greening — and at the gate, she'll want to know if you still have it. *"You still have my berry? Now would be the time, sweetling."*
 
-She also has a riddle she won't drop: *"Full moon's his. But the quarter-moon's mine — hawthorn, midnight, bring four friends, not five. There's a thing he doesn't want you to see, and I do."*
+She also has a riddle she won't drop: *"Full moon's his. But the quarter-moon's mine — hawthorn, midnight, bring three friends, not four. There's a thing he doesn't want you to see, and I do."*
 
 ---
 

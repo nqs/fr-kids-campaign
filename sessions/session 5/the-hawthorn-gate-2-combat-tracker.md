@@ -5,7 +5,7 @@ Two scripted, short encounters. **Encounter 1** can end without a kill (calm the
 ---
 
 ## Encounter 1 — The Frightened Wood
-*Scene 3 · Medium-light (raw 1,500 XP → ~3,000 adjusted) · 3-round scripted, mercy off-ramp every round · 6×L6*
+*Scene 3 · Medium (raw 1,500 XP → ~3,000 adjusted) · 3-round scripted, mercy off-ramp every round · 5×L6*
 
 ### Summary
 
@@ -15,8 +15,8 @@ Two scripted, short encounters. **Encounter 1** can end without a kill (calm the
 | **Light** | Late-morning daylight, grey and flat under the thinning canopy. |
 | **Terrain** | A **broken livestock fence** and **overturned cart** (half cover) on the west; a **shallow stream** cutting diagonally (**difficult terrain**, the beasts ignore it); **boulders and fallen logs** (cover) in the center. Deer-path exits north toward the seam. |
 | **Antagonists** | 1× **Fey-Touched Great Stag** (CR 3, ⚗️) + 4× **Fey-Touched Wolf** (CR 1, ⚗️). |
-| **Party** | **6 PCs at Level 6** (Loric rejoins). |
-| **XP** | Raw 1,500 → ×2 multi-foe → **~3,000 adjusted** (Medium for 6×L6 is 3,600; Easy 1,800). **Medium-light** — built to be *survivable and winnable by kindness,* not a grind. |
+| **Party** | **5 PCs at Level 6.** |
+| **XP** | Raw 1,500 → ×2 multi-foe → **~3,000 adjusted** (Medium for 5×L6 is 3,000; Easy 1,500). **Medium** — built to be *survivable and winnable by kindness,* not a grind. |
 | **Duration** | 3 rounds max. Ends early the instant the **stag is calmed** (see below) — the wolves break with it. |
 | **Goal (PCs)** | Survive — and, ideally, **realize the animals are terrified, not hostile, and calm them.** |
 | **Goal (beasts)** | Reach the closing seam. They attack only what stands between them and the door. |
@@ -39,7 +39,6 @@ NPC initiative is pre-rolled (DEX-averaged). PCs roll live and write into the bl
 | __ | _________________ | __ | _________________ | _________________ |
 | __ | _________________ | __ | _________________ | _________________ |
 | 11 | Fey-Touched Great Stag | 13 | 59: ☐☐☐☐☐ ☐☐☐☐☐ ☐☐ | Charge +knockdown · Bloodied 29 · **Calm-able DC 14** |
-| __ | _________________ | __ | _________________ | _________________ |
 | __ | _________________ | __ | _________________ | _________________ |
 
 **Conditions:** Bln · Chr · Deaf · Frt · Grp · Inc · Inv · Prl · Pet · Pzn · Prn · Rst · Stn · Uns · Conc
@@ -133,7 +132,7 @@ NPC initiative is pre-rolled (DEX-averaged). PCs roll live and write into the bl
 ---
 
 ## Encounter 2 — The Hawthorn Gate
-*Scene 4 · Hard-leaning (raw 2,200 XP → ~4,400 adjusted) · ceremonial test, parley at bloodied/R3 · 6×L6*
+*Scene 4 · Hard-leaning (raw 2,200 XP → ~4,400 adjusted) · ceremonial test, parley at bloodied/R3 · 5×L6*
 
 ### Summary
 
@@ -143,8 +142,8 @@ NPC initiative is pre-rolled (DEX-averaged). PCs roll live and write into the bl
 | **Light** | Twilight-bright fey glow under the arch; ordinary daylight at the clearing's edge. |
 | **Terrain** | The **seam/ritual circle** at center (entering it is the Thornward's whole job to prevent). **Standing stones** (cover) ring the clearing. Two **toadstool rings** (difficult terrain). **Ribboned cairn** to the east (cover). Forest path enters from the south; **blossoming hedge** walls the north. |
 | **Antagonists** | 1× **Maelorn, the Thornward** (CR 5, ⚗️) + 2× **Sprite Outrider** (CR 1, owl-mounted — reused from S4 for continuity). |
-| **Party** | **6 PCs at Level 6.** |
-| **XP** | Raw 2,200 → ×2 multi-foe → **~4,400 adjusted** (Hard for 6×L6 is 5,400; Medium 3,600). **Hard-leaning** but scripted short — the Thornward yields, he does not win. |
+| **Party** | **5 PCs at Level 6.** |
+| **XP** | Raw 2,200 → ×2 multi-foe → **~4,400 adjusted** (Hard for 5×L6 is 4,500; Medium 3,000). **Hard-leaning** but scripted short — the Thornward yields, he does not win. |
 | **Duration** | 3 rounds max. Thornward **kneels and names the party worthy when bloodied (≤45) OR at end of Round 3** — whichever first. |
 | **Goal (PCs)** | **Show the Thornward something worth naming** — courage, restraint, cleverness, or mercy. Winning is not killing him; it's being judged worthy. |
 | **Goal (Thornward)** | Test, not kill. Measure these mortals, keep them off the seam, yield with honor when they've proven themselves. |

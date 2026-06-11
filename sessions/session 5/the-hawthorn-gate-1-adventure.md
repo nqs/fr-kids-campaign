@@ -3,7 +3,7 @@
 | | |
 |---|---|
 | **Tier** | Tier 2 |
-| **Party Level** | 6 PCs at Level 6 — the Site-C milestone is applied **between sessions**; rebuild sheets to L6 before play. **Loric T. (Lily) rejoins** the table. |
+| **Party Level** | 5 PCs at Level 6 — the Site-C milestone is applied **between sessions**; rebuild sheets to L6 before play. |
 | **Duration** | ~2 hours of play |
 | **Setting** | Shadowdale the morning after Greengrass (the village green, Orvyn's bookshop, the Ashaba House) → the edge of the Living Wood → the Hawthorn Cleft |
 | **Hook From** | Session 004 — *The Greengrass Greengage Affair* (the Antlered Herald's mark; the unnamed fey lord's audience invitation; Sela's confession) |
@@ -85,7 +85,7 @@ The north edge of the village, where the lanes give out and the Living Wood star
 *(Player handout: **Sela Wyndmere** — see `the-hawthorn-gate-3-player-handouts.md`.)*
 
 ### She Knows Them Better Than They Know Her
-Sela has been Shadowdale's healer for decades; the party has been her *patients and her gossip* for a season. As she packs, give each PC one personal beat — proof that the village has been watching them through her eyes. Use what fits; don't force all six:
+Sela has been Shadowdale's healer for decades; the party has been her *patients and her gossip* for a season. As she packs, give each PC one personal beat — proof that the village has been watching them through her eyes. Use what fits; don't force all five:
 
 | PC | Her thread |
 |---|---|
@@ -94,7 +94,6 @@ Sela has been Shadowdale's healer for decades; the party has been her *patients 
 | **Fiorn** | She set his sprained wrist last winter and never charged him. While she packs she hums four bars of his showcase piece, perfectly. *"Music carries to the wood's edge. Some of my neighbors hummed it for days. They don't usually like us much."* |
 | **Yinu** | A borrowed book sits on the bench — one of Orvyn's fey texts, ribbon-marked. *"You named the primrose right, at the festival. The one that fell through from the Fey Realm. Most wizards call it a weed."* She asks Yinu to carry the book back to Orvyn — *"eventually. No hurry. He never hurries me."* |
 | **Naan** | The sapling-blessing. *"I've coaxed green out of this soil my whole life with knives and patience. You did it with a word. The wood noticed — things that bloom out of season get *talked about* out there."* Said kindly. Mostly. |
-| **Loric** | She knows him from the Old Skull Inn's common room. *"You're the one Torval lets win at dragonchess. He'd deny the 'lets.' Don't tell him I said so."* (Covers Loric's S4 absence without making it a thing.) |
 
 And one beat for the **table as a group** — the deepest hook she has:
 
@@ -261,7 +260,7 @@ The Thornward kneels (or, berry in hand, simply bows). The seam steadies. Quilli
 - **The audience terms, fixed:** full moon (eleven nights), at this cleft, guest-right both ways — *no harm to them, none from them, while the ribbons hold.* This is the **safe-conduct** the party carries into S6.
 - **Sela's road forward.** The Thornward's invitation — *"bring her"* — gives Sela a way to face the lord she served. She is no longer just a guilty courier; she is a party ally with a stake in the audience. **Her arc is open, not closed.**
 - **The collision surfaces.** If Naan opened the letter, the full moon is *also* the Temple of Lathander's night in Highmoon. She cannot do both. Let the table feel the fork — **do not resolve it.** (Foreshadow: her patron Zophiel, the Spy of Heaven, might have opinions about which table she sits at.)
-- **Quillip's riddle, restated.** As the party turns to go, Quillip lands by Nalith: *"Full moon's his. But the quarter-moon's mine — hawthorn, midnight, **bring four friends, not five.** There's a thing he doesn't want you to see, and I do."* (The S4 chained hook, still unsolved. Plant for a future session; **the lord's audience and Quillip's quarter-moon offer are different doors.**)
+- **Quillip's riddle, restated.** As the party turns to go, Quillip lands by Nalith: *"Full moon's his. But the quarter-moon's mine — hawthorn, midnight, **bring three friends, not four.** There's a thing he doesn't want you to see, and I do."* (The S4 chained hook, still unsolved. Plant for a future session; **the lord's audience and Quillip's quarter-moon offer are different doors.**)
 - **What the party owes the wood.** If they *calmed* the frightened beasts in Scene 3, the stag follows them to the treeline and will not cross — a small, living thank-you. If they *killed* it, Sela's shed antler is in her pack, and the Thornward's *"do not insult me by dying"* lands a little colder. Let the choice echo.
 
 ### End of Session
