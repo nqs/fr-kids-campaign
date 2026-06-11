@@ -14,6 +14,17 @@ You are **Level 6** now, ribbons pinned, the bonfire finally lit behind you. It 
 - **Sela is the road into the wood.** She can read the Living Wood when no one else can — but she's frightened, and she isn't telling you everything yet.
 - **Orvyn has a gift for Yinu** at the bookshop. **Naan has a sealed letter** she hasn't opened. Both can wait — or can't.
 - **The wood is emptying.** The fey are leaving. Animals are going missing at the forest's edge. Something is pulling the green *in.*
+- **And there's a stranger waiting in Lady Ulphor's solar** — an orc sailor whose barge fled downriver in the night, and who has seen what the wood is doing from the water.
+
+---
+
+## Dirk — Deckhand of the Ashaba
+
+![Dirk — Orc Rogue, deckhand of the Ashaba](https://storage.gemini.mcp.nqs.io/images/29ba8c03-39c8-4f32-a63e-e7a305f8667e.png)
+
+Six-foot-nine, green-skinned, twenty years old, and quieter than anything that size has a right to be. **Dirk** came up the Ashaba on the grain barge *Greengage's Luck* for the festival — and got left on the dock when the captain fled downriver in the night, spooked by a river gone silent: no fish, no herons, no frogsong. Dirk stayed, and walked into the Ashaba House at dawn with the only honest report of the wood's edge anyone has: livestock moving **into** the trees at night, in a straight line, like cargo hauled up a gangplank. *Driven, not taken.*
+
+The Lady's verdict: *"They can climb anything with a surface and see in the dark like a cat. You're walking into a forest that is leaving. Take them."*
 
 ---
 

@@ -2,7 +2,7 @@
 
 **System:** D&D 5e (2024 PHB rules)
 **Milestone Leveling**
-**Party Size:** 6 PCs
+**Party Size:** 7 PCs
 **Current Level:** 5 (all PCs)
 
 > [!NOTE]
@@ -21,6 +21,7 @@ Each PC now has their own page with the full stat block, features, proficiencies
 - [Loric T.](party/party-loric-t.md) — Sorcerer 5 (Draconic), Tiefling · *arcane blaster / metamagic* · Player: Lily
 - [Nalith](party/party-nalith.md) — Druid 5 (Circle of Dreams), Tiefling · *support / healer / controller* · Player: Piper
 - [Naan](party/party-naan.md) — Warlock 5 (Celestial), Aasimar · *eldritch striker / secondary healer* · Player: Lilli
+- [Dirk](party/party-dirk.md) — Rogue 5 (Thief), Orc · *scout / infiltration / skirmisher* · Player: silverstrike1 *(joins Session 005)*
 
 ---
 
@@ -34,6 +35,7 @@ Each PC now has their own page with the full stat block, features, proficiencies
 | [Loric T.](party/party-loric-t.md) | Lily | Sorcerer (Draconic) | 5 | Tiefling | Arcane blaster/metamagic |
 | [Nalith](party/party-nalith.md) | Piper | Druid (Dreams) | 5 | Tiefling | Support/healer/controller |
 | [Naan](party/party-naan.md) | Lilli | Warlock (Celestial) | 5 | Aasimar | Eldritch striker / secondary healer |
+| [Dirk](party/party-dirk.md) | silverstrike1 | Rogue (Thief) | 5 | Orc | Scout / infiltration / skirmisher |
 
 ### Strengths
 - Heavy arcane firepower (Fireball, Lightning Bolt, Scorching Ray, Twinned spells, Eldritch Blast at 270 ft. with Agonizing damage)
@@ -41,6 +43,7 @@ Each PC now has their own page with the full stat block, features, proficiencies
 - Excellent social/skill coverage (Fiorn's expertise in Deception/Performance; Loric's Deception/Persuasion; Naan's Intimidation +6)
 - Battlefield control (Entangle, Sleet Storm, Moonbeam, Suggestion, Fear, Haste, Hold Person, Cloud of Daggers)
 - Rogue utility: Thieves' Tools, Cunning Strike, Uncanny Dodge, Shapechanger infiltration
+- **Two rogues now** — Dirk doubles the lock/trap coverage and adds an elite scout (Stealth +10, Sleight of Hand +10, Darkvision 120 ft., 30 ft. climb speed) plus grapple control (Grappler + Tavern Brawler)
 - Kto provides a durable front-line with 49 HP, AC 17, Extra Attack, Improved Critical, and exceptional ranged output via Archery + Longbow +1 (+9 to hit)
 - Naan adds a **third in-combat healer** (Revivify on tap), at-will self-Invisibility/self-Mage Armor, and 120 ft. Devil's Sight darkvision for scouting
 
@@ -50,6 +53,7 @@ Each PC now has their own page with the full stat block, features, proficiencies
 - Two aasimar and two tieflings will draw attention in regions where celestials/fiends are mistrusted
 - Concentration spells are split across multiple casters with no clear way to protect concentration
 - Naan's Pact slots are limited (2 × 3rd) — Magical Cunning recovers only one per Long Rest
+- Dirk fights at AC 14 (leather carried but unworn — see sheet flag) and has CHA −1, deepening the party's reliance on Fiorn/Loric for the talking
 
 ### Notable Party Flags
 - **Fiorn's "Jester god"** — not a canonical FR deity. Needs table canonization or framing as an obscure cult/planar entity.
@@ -57,4 +61,5 @@ Each PC now has their own page with the full stat block, features, proficiencies
 - **Naan's patron Zophiel** — not a canonical FR deity/celestial name. Either canonize as a campaign-specific solar agent or reframe as a known FR celestial (e.g., a deva of Torm or Tyr). Flag for DM/player resolution.
 - **Naan's "Blade Caliel"** — a fragment of a destroyed archangel manifests as a blade; mechanics undefined on the sheet. Needs DM ruling before it sees combat use.
 - **Naan's skill proficiencies** — Origin Feat (Skilled) and origin skills aren't reflected on the mechanical sheet. Confirm with Lilli before the next session.
-- **Several blank backstory sheets** — Kto, Yinu, Loric, and Nalith have no recorded personality traits, ideals, bonds, or flaws. Worth filling in before session prep to personalize hooks.
+- **Several blank backstory sheets** — Kto, Yinu, Loric, Nalith, and Dirk have no recorded personality traits, ideals, bonds, or flaws. Worth filling in before session prep to personalize hooks.
+- **Dirk's sheet flags** — AC 14 with leather carried-not-worn; "Birdfolk" is not an FR language (reframe as Aarakocra/Auran or canonize); Hand Crossbow mastery picked but no hand crossbow carried (consider Shortbow on the L6 rebuild). Sheet is L5 like the rest — rebuild to L6 before Session 005. See [party-dirk.md](party/party-dirk.md).

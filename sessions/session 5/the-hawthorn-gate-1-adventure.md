@@ -3,7 +3,7 @@
 | | |
 |---|---|
 | **Tier** | Tier 2 |
-| **Party Level** | 5 PCs at Level 6 — the Site-C milestone is applied **between sessions**; rebuild sheets to L6 before play. |
+| **Party Level** | 6 PCs at Level 6 — the Site-C milestone is applied **between sessions**; rebuild sheets to L6 before play. **Dirk (silverstrike1) makes his in-fiction debut this session** — see Scene 1. Loric remains absent (still at the Old Skull, easy retcon later). |
 | **Duration** | ~2 hours of play |
 | **Setting** | Shadowdale the morning after Greengrass (the village green, Orvyn's bookshop, the Ashaba House) → the edge of the Living Wood → the Hawthorn Cleft |
 | **Hook From** | Session 004 — *The Greengrass Greengage Affair* (the Antlered Herald's mark; the unnamed fey lord's audience invitation; Sela's confession) |
@@ -16,6 +16,8 @@
 ## Adventure Summary
 
 Session 005 is a **two-hour fey session** that picks up the morning after the Greengrass bonfire — the exact beat Session 004 cut on. Last night the Antlered Herald rode out of the Living Wood, told the party their unnamed fey lord has *marked* them, and left an open invitation to an audience at the next full moon "on neutral ground, the hawthorn-cleft of his choosing." Then Sela Wyndmere, the village healer, confessed she has been carrying ribbon-knotted messages for that lord without understanding them.
+
+The session also brings a **new face to the table: Dirk** (silverstrike1) — an orc deckhand who came up the Ashaba on a spring grain barge for Greengrass and got stranded when his captain pushed off early, spooked by the river going quiet near the Living Wood. Dirk saw the missing livestock signs first-hand from the water and carried the report to the Ashaba House; Lady Ulphor attaches them to the party in Scene 1. Their climb speed, 120-ft. darkvision, and expert stealth make them the party's eyes the moment the wood goes strange.
 
 The party's own problem drives the session: **a fey lord they've never met has a claim on them and a deadline.** Lady Ulphor wants to know everything; the party wants to know who this lord is and what "marked" means before they walk into his court blind. The trail runs through the Living Wood — which is **emptying.** The fey are pulling back, color is draining from the trees, and livestock at the forest's edge has gone missing. Sela can read the wood when no one else can; the party will need her — and the road runs through her cottage door first. **Scene 2 is the party's first real look at the woman behind the festival judge:** to most of them she is still just the healer who pinned Nalith's ribbon and conjured the breeze Kto misread. They collect their guide, learn who she is, and over the course of the walk they earn the rest of her story.
 
@@ -41,7 +43,20 @@ First light over Shadowdale. The Greengrass bonfire on the river-stones has burn
 > Morning comes grey and gold over the Ashaba. The bonfire is a heap of embers now, smoking thin into a cold sky, and the green is littered with the wreckage of a good night — wreaths gone brown, ribbons in the mud, somebody's lost shoe. Last night a man rode a stag out of the Living Wood and told you a lord you have never met has **marked** you. He invited you to his table at the next full moon. Then Sela Wyndmere — who patched your scrapes all winter — went white and said he had been *using* her. **You did not sleep well.**
 
 ### The Debrief — Lady Ulphor's Solar
-Lady Ulphor is at the window with two pots of tea and no patience for ceremony. Brynn Ashford is at her shoulder with a slate. **This is the "tell me everything tomorrow" she promised at the bonfire.** Run it fast — it exists to frame the problem, not to relitigate last night.
+Lady Ulphor is at the window with two pots of tea and no patience for ceremony. Brynn Ashford is at her shoulder with a slate. **And there is a stranger in the corner** — a young orc, six-foot-nine and built like a mast, sitting very still in the way of someone used to being the biggest thing in the room and not wanting it noticed. **This is the "tell me everything tomorrow" she promised at the bonfire.** Run it fast — it exists to frame the problem, not to relitigate last night.
+
+### A New Hand — Dirk's Introduction *(in-fiction debut)*
+**Dirk** (silverstrike1's PC) came up the Ashaba a few days back on a Sembian grain barge, in for Greengrass with the spring traffic. Last night, while the party fought a herald on the green, the barge's captain weighed anchor early and pushed off downriver without half the crew's pay — because the river had gone **wrong**: no fish, no herons, no frogsong, the water near the Living Wood's edge running quiet as a held breath. Dirk stayed. This morning they walked into the Ashaba House and reported what they'd seen from the water — **goats and a plow-ox at the wood's edge, moving into the trees at night in a straight line, like cargo being hauled up a gangplank. Driven, not taken.** Brynn checked their story against the militia's missing-livestock tallies; it matches.
+
+> [!NOTE]
+> **Read-aloud:** Read Aloud — Lady Ulphor introduces Dirk
+> The Lady gestures at the orc in the corner without ceremony. *"This is Dirk. Deckhand off the* Greengage's Luck, *which left without them — their captain had more sense than courage, and the river agrees with him. They came to me at dawn with the only honest report of the wood's edge I've had in a tenday, and they can climb anything with a surface and see in the dark like a cat. You're walking into a forest that is leaving. Take them."* The orc raises two fingers off their knee in something between a salute and a shrug. *"Beats waiting for a berth,"* they say. Their voice is quieter than their size.
+
+**Why this works at the table:** Dirk has the report the party needs (a first-hand account of the "driven" livestock — the same evidence they'll find themselves in Scene 3), a sailor's reason to be stranded, and a skill set the errand is missing — Stealth +10, Darkvision 120 ft., a 30-ft. climb speed, and thieves' tools. Let the party ask Dirk their questions on the walk to Sela's cottage; don't run a long audition. If the kids want a hook to grab: Dirk has never seen a forest *"do what the river did"* — and wants to.
+
+> [!WARNING]
+> **Flag:** DM — Dirk is a player now, not an NPC
+> One scene of introduction is enough — by the time the party leaves the solar, Dirk is **theirs**, not Ulphor's. Hand silverstrike1 the reins immediately: Dirk answers the party's questions in their own words, picks their own marching spot, and makes their own calls in the wood. Also note: **Dirk was not at the bonfire and is not marked.** That matters at the Hawthorn Gate (Scene 4) — don't smooth it over before then.
 
 The framing the party should leave with — **this is their problem, on a clock:**
 - A fey lord of the **Bright Court Beneath** has *marked* them. Nobody at the table knows what that means. (It is not a curse — it's closer to a *claim of acquaintance*. The Court considers them known. Don't explain this yet.)
@@ -65,6 +80,7 @@ The party will want to chase last night's threads. Let two land on the way out t
 ### What This Scene Locks In
 - The mark, the eleven-night clock, and Lady Ulphor's order: **learn who the lord is before the audience.**
 - Sela named as the party's road into the wood — and the party sent to collect her (Scene 2).
+- **Dirk joins the party** — stranded deckhand, first-hand witness to the river's side of the withdrawal, *not marked*.
 - Yinu holds a Harper "key." Naan holds a scheduling collision. Both are seeds, not plots.
 
 ---
@@ -85,7 +101,7 @@ The north edge of the village, where the lanes give out and the Living Wood star
 *(Player handout: **Sela Wyndmere** — see `the-hawthorn-gate-3-player-handouts.md`.)*
 
 ### She Knows Them Better Than They Know Her
-Sela has been Shadowdale's healer for decades; the party has been her *patients and her gossip* for a season. As she packs, give each PC one personal beat — proof that the village has been watching them through her eyes. Use what fits; don't force all five:
+Sela has been Shadowdale's healer for decades; the party has been her *patients and her gossip* for a season. As she packs, give each PC one personal beat — proof that the village has been watching them through her eyes. Use what fits; don't force all six:
 
 | PC | Her thread |
 |---|---|
@@ -94,6 +110,7 @@ Sela has been Shadowdale's healer for decades; the party has been her *patients 
 | **Fiorn** | She set his sprained wrist last winter and never charged him. While she packs she hums four bars of his showcase piece, perfectly. *"Music carries to the wood's edge. Some of my neighbors hummed it for days. They don't usually like us much."* |
 | **Yinu** | A borrowed book sits on the bench — one of Orvyn's fey texts, ribbon-marked. *"You named the primrose right, at the festival. The one that fell through from the Fey Realm. Most wizards call it a weed."* She asks Yinu to carry the book back to Orvyn — *"eventually. No hurry. He never hurries me."* |
 | **Naan** | The sapling-blessing. *"I've coaxed green out of this soil my whole life with knives and patience. You did it with a word. The wood noticed — things that bloom out of season get *talked about* out there."* Said kindly. Mostly. |
+| **Dirk** | The one PC she has **no** season of gossip on — and she reads them in five seconds flat anyway. *"You're off the barge that ran. Don't look like that — your captain read the water right, he just read it* late. *The river and the wood drink from the same cup, sailor. You noticed the fish went first. Out there, you watch the* birds *for me — they'll go quiet before anything else does."* It's the first time since the barge left that anyone has treated Dirk's report as **expertise** rather than an excuse. |
 
 And one beat for the **table as a group** — the deepest hook she has:
 
@@ -149,9 +166,10 @@ This is exploration, not a gauntlet. Offer checks; reward the party that lets Se
 
 | Beat | Check | What it reveals |
 |---|---|---|
-| The missing livestock | **Survival / Nature DC 13** (Kto +3 Nature, Nalith Nature, Sela auto-aids) | Two of Goodman Harrow's goats, found in a thicket — **alive, unhurt, but witless with fear,** unwilling to move. Not eaten. Not taken. *Driven.* |
+| The missing livestock | **Survival / Nature DC 13** (Kto +3 Nature, Nalith Nature, Sela auto-aids) | Two of Goodman Harrow's goats, found in a thicket — **alive, unhurt, but witless with fear,** unwilling to move. Not eaten. Not taken. *Driven.* **Dirk recognizes it on sight, no check** — it's exactly what they watched from the barge. Their solar report is confirmed in front of the whole party; let that land. |
 | The fey-thinning | **Arcana DC 15** (Yinu +11, Nalith +5) | The Feywild seam that keeps this wood half-enchanted is **contracting** — pulling back toward a single point ahead. The fey didn't flee a threat; they were *recalled.* |
-| The knot-trail | **Investigation DC 13** (Yinu +8, Fiorn +0 but Sela aids) | Old ribbon-knots, weathered, tied to trunks at intervals — Sela's drop-markers, **months** of them. She's been carrying for this lord far longer than she admitted. |
+| The knot-trail | **Investigation DC 13** (Yinu +8, Fiorn +0 but Sela aids; Dirk +3) | Old ribbon-knots, weathered, tied to trunks at intervals — Sela's drop-markers, **months** of them. She's been carrying for this lord far longer than she admitted. **Dirk's eye:** the knots are tied like rigging — *"Whoever takes these down works one-handed. From above."* |
+| The masthead view *(Dirk)* | **No check** — Dirk's 30-ft. climb speed; **Perception DC 13** (+3) for the bonus detail | Dirk goes up a half-grey oak like a ratline and reads the canopy the way a lookout reads water: **the grey isn't spreading — it's *draining*, in a slow spiral, toward one point to the northeast.** (Corroborates the Arcana read without a spell.) On the Perception success: a glimpse of **white blossom** at the spiral's center — the only bloom left in the forest. That's the destination. |
 
 > [!WARNING]
 > **Flag:** DM — Sela's wood-craft must visibly matter
@@ -180,6 +198,10 @@ Near the livestock thicket, the recall has stranded a knot of woodland animals o
 > [!WARNING]
 > **Flag:** DM — Steer toward mercy, don't force it
 > Nalith (Druid, Animal Handling +6), Naan (Skilled: Animal Handling), and Kto (Animal Handling +5) all have the tools. If the party hits the stag instead, that's allowed — but have a wolf *whimper* when it's bloodied, and let any WIS-attuned PC feel the fear instead of malice. The lesson is *the wood is afraid, not hostile.* If they kill the stag anyway, Sela kneels by it and **takes the shed antler** — and the party will feel that in Scene 4 when the Thornward asks what kind of guests they are.
+
+> [!WARNING]
+> **Flag:** DM — Dirk's lane in the Frightened Wood
+> Dirk has Animal Handling +0 and a 3d6 Sneak Attack — the dice will whisper *shoot the stag.* Give silverstrike1 a mercy lane that uses what Dirk **is** good at instead: **herding.** A sailor knows how to move big panicked animals down a narrow space — Dirk can use the ball bearings, a thrown coil of rope, warning shots, or sheer looming orc bulk to **open the deer-path north** (clear the lane between the beasts and the seam), which gives the next calm attempt **advantage** — or Dirk can simply **Help** Nalith's Animal Handling check from a flank. If Dirk does drop a wolf before the table reads the fight, don't punish it — have Sela say, evenly, *"It was more scared than you were,"* and let that do the work.
 
 ### What This Scene Locks In
 - The withdrawal is a **recall**, not a rout — something is pulling the fey to one point ahead.
@@ -214,6 +236,17 @@ As the party approaches the arch, **Quillip Burr-and-Whistle** uncurls from a ha
 > [!NOTE]
 > **Read-aloud:** Read Aloud — Quillip
 > *"You came. Good. Bad. Both."* The pixie drops to Nalith's shoulder, wings the color of the seam. *"That's the Thornward. He guards the door and he asks the door's question, and the question has a blade in it. He has to. The Court is watching and he will **not** be embarrassed."* A beat. *"You still have my berry? The hawthorn one? Now would be the time, sweetling."*
+>
+> Then she notices Dirk and flits a slow, rude circle around their head, sniffing. *"And what's* this*? This one smells of river-water and tar, not wood. This one isn't* marked.*"* She lands on Dirk's shoulder, suddenly delighted. *"Oh, the Thornward is going to have* opinions *about you, tall-as-a-tree. Stand up straight."*
+
+### The Unmarked Sixth *(Dirk's beat — run it before or during the challenge)*
+The Herald's mark is on five of the six. **Dirk was on a barge when it happened.** The Thornward will not pretend otherwise — fey law doesn't round up. When he delivers his challenge, he pauses in front of Dirk, leans close, and inhales once, like a connoisseur:
+
+> [!NOTE]
+> **Read-aloud:** Read Aloud — The Thornward and Dirk
+> *"Five of you my lord has marked. This one —"* the black thorn tips toward Dirk, unhurried, *"— carries no mark, no invitation, and no debt. River-blood. You walked into a leaving wood for people you met this morning."* A pause that might be approval. *"The marked are tested because they are expected. **You** are tested because you are* interesting. *Stand with them, sailor, and be measured with them — or stand aside, and the gate has no quarrel with you."*
+
+**Let silverstrike1 make the call.** Standing with the party means Dirk takes the test alongside everyone else and is **named in the guest-right** at the end (see Scene 5) — full member of the audience party, by the Court's own law. Standing aside is safe and the Thornward genuinely doesn't hold it against them — but Dirk would then have **no safe-conduct at the full moon** and cannot attend the audience. (No kid will pick that, but the *choice* is what makes joining mean something.) **The berry shortcut covers Dirk too:** the token vouches for the whole party present at the arch — if Nalith spends it, the Thornward simply names Dirk with the rest, *"vouched by the wood's own."*
 
 > [!WARNING]
 > **Flag:** DM — Quillip's hawthorn berry (the S4 token, paid off here)
@@ -238,6 +271,7 @@ Full statblocks, round-by-round tactics, the parley triggers, the **berry shortc
 - The hawthorn-cleft is **the audience ground.** The party has now seen the door.
 - The lord's "saving the wood" was **a slow harvest** — and he has moved from gathering *green* to gathering *people.* Sela was the instrument.
 - The party is **received** — tested (or vouched for, via the berry) and judged worthy. The full-moon audience is on.
+- **Dirk's standing is settled** — the unmarked sailor stood with the marked (or was vouched by the berry) and is named in the guest-right. The Court now knows there is a sixth.
 
 ---
 
@@ -254,17 +288,18 @@ The Thornward kneels (or, berry in hand, simply bows). The seam steadies. Quilli
 
 > [!NOTE]
 > **Read-aloud:** Read Aloud — The Terms
-> The Thornward grounds his glaive and inclines his antlered head. *"You are worth the table. Come at the full moon, when the door stands widest, and my lord will receive you as guests under the green-white-bone. While the ribbons hold, no harm comes to you in his hall — and none from you in it. That is the law of the gate."* He looks, once, at Sela. *"Her debt is my lord's to forgive. Bring her. He should have to say it to her face."*
+> The Thornward grounds his glaive and inclines his antlered head. *"You are worth the table. Come at the full moon, when the door stands widest, and my lord will receive you as guests under the green-white-bone. While the ribbons hold, no harm comes to you in his hall — and none from you in it. That is the law of the gate."* He looks, once, at Sela. *"Her debt is my lord's to forgive. Bring her. He should have to say it to her face."* Last, the antlered helm turns to Dirk. *"And the river's child comes too — unmarked, and counted. The gate will know you, sailor. Six were measured. Six are expected."*
 
 ### Beats *(pick the ones your table earned)*
 - **The audience terms, fixed:** full moon (eleven nights), at this cleft, guest-right both ways — *no harm to them, none from them, while the ribbons hold.* This is the **safe-conduct** the party carries into S6.
 - **Sela's road forward.** The Thornward's invitation — *"bring her"* — gives Sela a way to face the lord she served. She is no longer just a guilty courier; she is a party ally with a stake in the audience. **Her arc is open, not closed.**
 - **The collision surfaces.** If Naan opened the letter, the full moon is *also* the Temple of Lathander's night in Highmoon. She cannot do both. Let the table feel the fork — **do not resolve it.** (Foreshadow: her patron Zophiel, the Spy of Heaven, might have opinions about which table she sits at.)
-- **Quillip's riddle, restated.** As the party turns to go, Quillip lands by Nalith: *"Full moon's his. But the quarter-moon's mine — hawthorn, midnight, **bring three friends, not four.** There's a thing he doesn't want you to see, and I do."* (The S4 chained hook, still unsolved. Plant for a future session; **the lord's audience and Quillip's quarter-moon offer are different doors.**)
+- **Quillip's riddle, restated.** As the party turns to go, Quillip lands by Nalith: *"Full moon's his. But the quarter-moon's mine — hawthorn, midnight, **bring three friends, not four.** There's a thing he doesn't want you to see, and I do."* (The S4 chained hook, still unsolved. Plant for a future session; **the lord's audience and Quillip's quarter-moon offer are different doors.** And note the riddle predates Dirk — *"three friends, not four"* was counted for a party of five. Does the math change with six, or does Quillip mean exactly what she said? Don't answer; let the kids argue about it.)
+- **Dirk's berth.** On the walk out, the practical question lands: the *Greengage's Luck* is gone downriver and isn't coming back for a deckhand. If anyone raises it — or Dirk does — Sela answers before anyone else can: *"The Ashaba House has beds, and the Lady pays people who are useful. You counted yourself into a fey court today, sailor. You're not crew anymore — you're* these *people's problem now."* It's as close to a welcome as the day gets. (Mechanically: Dirk lodges at the Ashaba House with the party; Ulphor settles their pay with everyone else's after the audience.)
 - **What the party owes the wood.** If they *calmed* the frightened beasts in Scene 3, the stag follows them to the treeline and will not cross — a small, living thank-you. If they *killed* it, Sela's shed antler is in her pack, and the Thornward's *"do not insult me by dying"* lands a little colder. Let the choice echo.
 
 ### End of Session
-Cut on the party walking back out of the greying wood with Sela between them — an audience sealed for the full moon, a lord who harvests forests and now wants *people,* a Harper key unread in Yinu's pack, two invitations falling on the same night, and a pixie's quarter-moon riddle hanging in the air.
+Cut on the party walking back out of the greying wood with Sela between them and a stranded sailor newly counted among them — an audience sealed for the full moon, a lord who harvests forests and now wants *people,* a Harper key unread in Yinu's pack, two invitations falling on the same night, and a pixie's quarter-moon riddle hanging in the air.
 
 > [!NOTE]
 > **Read-aloud:** Read Aloud — Closing
@@ -277,7 +312,7 @@ Cut on the party walking back out of the greying wood with Sela between them —
 ### Currency / Tangible
 - **No paymaster this session** — this is a fey errand, not a contract. Lady Ulphor settles up *after* the audience (S6+). Track it as a favor owed.
 - **Sela's kit** — 2× healing poultice (treat as *potion of healing*; action to apply) + 1× antitoxin, given freely at her cottage (Scene 2). *"It was never charity; it's neighborliness."*
-- **Guest-token of the Bright Court** — the Thornward gives the party a sprig of **iron-hawthorn** (cold-iron heartwood, white bloom that never wilts). It is *proof of invitation and safe-conduct* at the full moon. Not for sale; worth a war if lost.
+- **Guest-token of the Bright Court** — the Thornward gives the party a sprig of **iron-hawthorn** (cold-iron heartwood, white bloom that never wilts). It is *proof of invitation and safe-conduct* at the full moon — covering **all six measured at the gate, Dirk included.** Not for sale; worth a war if lost.
 - **Quillip's hawthorn berry** — if **spent at the gate**, it's gone (used as the guest-token shortcut). If **unused**, Nalith still has it; it remains a one-shot fey guest-token (and still grows into an early-blooming hawthorn if planted — see S4).
 
 ### Boons / Intangible
@@ -299,6 +334,7 @@ Drafted here; enter into the campaign guide **before** the session per the workf
 - **Fey-Touched Great Stag & Fey-Touched Wolf** — ⚗️ homebrew Feywild-stranded beast variants; statblocks in file 2. Faction-neutral; note under the Living Wood entry.
 - **Quillip's hawthorn berry → guest-token** — promote the S4 "fey berry" to a defined one-shot **guest-token of the Bright Court** in the roster, so its mechanics live in the guide, not buried in a session file.
 - **Sela Wyndmere — status shift** — from "unwilling courier" to **"penitent ally seeking to undo her service."** Update her roster entry and the faction note.
+- **Dirk's arrival story** — the Sembian grain barge *Greengage's Luck*, its early departure, and the river-side livestock signs are new invention (the PC and sheet are the player's; the framing is the DM's). Dirk's party entry lives at `campaign/party/party-dirk.md`; no roster entry needed (PC, not NPC).
 
 > [!WARNING]
 > **Flag:** Invented content to confirm with the user

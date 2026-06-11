@@ -7,7 +7,7 @@
 
 | # | Scene | Key mechanic | DM flag |
 |---|-------|--------------|---------|
-| 1 | Embers & the Mark | Debrief frames **the mark + 11-night clock**; party sent to collect Sela | Keep to ~15 min. Sela is **not** in the solar |
+| 1 | Embers & the Mark | Debrief frames **the mark + 11-night clock**; party sent to collect Sela. **Dirk's debut** — Ulphor attaches the stranded orc deckhand to the party | Keep to ~15 min. Sela is **not** in the solar. Hand Dirk to silverstrike1 fast — one intro beat, no audition |
 | — | Two errands *(parallel)* | Yinu → Harper "key" book; Naan → Lathander letter | Both are **plants** — don't pay off. Naan's letter = same night as the audience |
 | 2 | The Healer's Cottage | **Meet Sela properly** — per-PC threads, courier mechanics, rapport beat | ~10 min character scene. Mark the rapport PC (pays off Scene 4). She hands over 2 poultices + antitoxin |
 | 3 | The Quiet Wood | Survival/Arcana/Investigation reads; Sela reveals middle of her story | **Encounter 1** near the livestock thicket |
@@ -24,9 +24,18 @@
 
 ---
 
+## The New Hand — Dirk *(silverstrike1, in-fiction debut)*
+
+- **Who:** Orc Rogue 6 (Thief), Sailor. Stealth +10, Sleight of Hand +10, Darkvision 120 ft., 30-ft. climb, Sneak Attack 3d6. AC 14, HP 38 *(L5 sheet — rebuild to L6 with the rest)*.
+- **Intro (Scene 1):** deckhand off the *Greengage's Luck*; barge fled downriver when the river went silent. Reported the "driven, not taken" livestock to Ulphor at dawn; she attaches them to the party. **Not marked** — wasn't at the bonfire.
+- **Scene beats:** S2 — Sela validates the river report (*"watch the birds for me"*); S3 — livestock sign confirmed on sight + **masthead view** canopy climb (grey drains in a spiral NE); Enc 1 — **herding lane**, not Animal Handling; S4 — **the Unmarked Sixth** (Thornward's choice: stand with the marked or stand aside); S5 — named in the guest-right, berth gone, lodges at the Ashaba House.
+- **Watch for:** the Sneak Attack itch in the mercy fight (hand them the herding lane early), and don't let another player answer the Thornward's question for them.
+
+---
+
 ## Encounter 1 — The Frightened Wood *(Scene 3)*
 
-**5×L6 · ~3,000 adj XP (Medium) · 3 rounds · mercy off-ramp every round**
+**6×L6 · ~2,250 adj XP (Easy-to-Medium) · 3 rounds · mercy off-ramp every round · optional 5th wolf (deer-path) if the table wants pressure**
 
 **1× Fey-Touched Great Stag (CR 3, ⚗️)** — AC 13 · HP 59 (bloodied 29)
 - Antlers +6, 2d6+4; Charge +2d6 & STR DC 14 prone; Blink 10 ft/turn
@@ -43,13 +52,14 @@
 | 3 | Bolt for the closing door | Break for the seam |
 
 - **Win condition = calm the stag** (Nalith/Naan/Kto all have the tools). Telegraph fear in the beasts' eyes from initiative.
+- **Dirk's herding lane:** action to clear the path to the seam (ball bearings / rope / warning shots / looming) → next calm attempt has **advantage**; wolves ignore anyone not blocking the door. Give it to silverstrike1 before the bow comes up.
 - Killing the stag: allowed, not punished mechanically — but Sela takes the antler and the Thornward runs colder in Enc 2.
 
 ---
 
 ## Encounter 2 — The Hawthorn Gate *(Scene 4)*
 
-**5×L6 · ~4,400 adj XP (Hard-leaning) · 3 rounds · parley at bloodied/R3 · NO kills either way**
+**6×L6 · ~3,300 adj XP (Medium-to-Hard) · 3 rounds · parley at bloodied/R3 · NO kills either way**
 
 **Maelorn, the Thornward (CR 5, ⚗️)** — AC 17 · HP 90 (**bloodied 45**)
 - Glaive ×2: +7, 1d10+4 + 1d6 poison (numbing, never lethal)
@@ -70,10 +80,11 @@
 
 | Outcome | Trigger | Result |
 |---|---|---|
-| **Berry shortcut** | Nalith presents Quillip's hawthorn berry | Thornward grounds glaive → **1 symbolic round, no combat** → terms. *Best outcome.* |
+| **Berry shortcut** | Nalith presents Quillip's hawthorn berry | Thornward grounds glaive → **1 symbolic round, no combat** → terms. *Best outcome.* **Covers Dirk** ("vouched by the wood's own") |
 | Worthy (bloodied) | HP ≤ 45 | Kneels, names them worthy → terms |
 | Worthy (timer) | End of Round 3 | "You did not break, did not kill" → terms |
 | Mercy bonus | Calmed beasts in Enc 1 | Yields a round early / bloodied threshold ≤55 |
+| **Unmarked Sixth** | Thornward stops at Dirk (pre-initiative) | Dirk's choice: **stand with the marked** (tested + named in guest-right) or stand aside (safe, but no safe-conduct at the audience). silverstrike1 answers, nobody else |
 | **Killed Thornward** | PC kill | **Bad.** Audience off; lord's grievance; S6+ war. Let it cost. |
 
 ---
@@ -142,7 +153,8 @@
 - [ ] **Sela's arc** — from unwilling courier to penitent ally; what did she resolve to do?
 - [ ] **Naan's collision** — Highmoon (Lathander) vs. the audience, same night. Which way is she leaning?
 - [ ] **Yinu's Harper "key"** — did she read it? Orvyn's back-room working still unexplained.
-- [ ] **Quillip's quarter-moon riddle** — "three friends, not four." Still open.
+- [ ] **Quillip's quarter-moon riddle** — "three friends, not four." Still open (and counted before Dirk joined — does the math move?).
+- [ ] **Dirk joined the company** — stood the test or stood aside? Named in the guest-right? Lodging at the Ashaba House; pay folded into Ulphor's post-audience settlement.
 - [ ] **The wood's recall** — the lord has stopped gathering green and started gathering *people.* Escalation note.
 - [ ] **Vhaeraunian retaliation clock** — still ticking in the background; untouched this session.
 
@@ -169,3 +181,4 @@
 - **Don't** name the fey lord. He's named at his own table (S6+).
 - **Don't** resolve Naan's two-invitations fork, Yinu's Harper key, or Quillip's riddle — plant them.
 - **Don't** stage a level-up. The party is already Level 6.
+- **Don't** play the Unmarked Sixth as a snub — it's Dirk's spotlight. The Thornward finds the unmarked volunteer *interesting*, and silverstrike1 makes the call alone.

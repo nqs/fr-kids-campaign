@@ -1,10 +1,10 @@
 # Session 005 — The Hawthorn Gate
 
-*Tier 2 · 5 PCs at Level 6 · Shadowdale → the Living Wood → the Hawthorn Cleft*
+*Tier 2 · 6 PCs at Level 6 · Shadowdale → the Living Wood → the Hawthorn Cleft*
 
 **Status:** ⏳ Not yet played — the summary below reflects the planned major beats, not a record of play.
 
-Picking up the morning after the Greengrass bonfire, the party must learn who the fey lord that *marked* them is before walking into his full-moon audience, **eleven nights off**. With the Living Wood emptying — fey withdrawing, color draining from the trees, livestock vanishing at the forest's edge — they collect the reluctant healer **Sela Wyndmere** at her cottage on the wood's edge (the party's first real look at the woman behind the festival judge) and take her into the wood to read her latest message-drop and find the hawthorn-cleft the invitation named. Two scripted encounters anchor the trip: **the Frightened Wood**, where fey-touched animals can be calmed rather than killed, and **the Hawthorn Gate** itself, where the Bright Court's gatekeeper — the **Thornward** — tests the party, a challenge that collapses into ceremony if Nalith still carries Quillip's hawthorn berry. The session is built to end with the **audience terms sealed** for the full moon and Sela's arc opened, lighting hooks for Session 006 and beyond.
+Picking up the morning after the Greengrass bonfire, the party must learn who the fey lord that *marked* them is before walking into his full-moon audience, **eleven nights off**. The session opens with a new face: **Dirk** (silverstrike1's in-fiction debut), an orc deckhand stranded when his barge fled a river gone silent, whom Lady Ulphor attaches to the party for the walk into the wood. With the Living Wood emptying — fey withdrawing, color draining from the trees, livestock vanishing at the forest's edge — they collect the reluctant healer **Sela Wyndmere** at her cottage on the wood's edge (the party's first real look at the woman behind the festival judge) and take her into the wood to read her latest message-drop and find the hawthorn-cleft the invitation named. Two scripted encounters anchor the trip: **the Frightened Wood**, where fey-touched animals can be calmed rather than killed, and **the Hawthorn Gate** itself, where the Bright Court's gatekeeper — the **Thornward** — tests the party, pausing over the **unmarked sixth** before a challenge that collapses into ceremony if Nalith still carries Quillip's hawthorn berry. The session is built to end with the **audience terms sealed** for the full moon — six named in the guest-right — Sela's arc opened, and hooks lit for Session 006 and beyond.
 
 ## Session Files
 
@@ -34,6 +34,7 @@ Picking up the morning after the Greengrass bonfire, the party must learn who th
 - [Sela Wyndmere — Shadowdale healer and unwilling fey courier](images/sela-wyndmere-shadowdale-healer-and-unwilling-fey-courier.jpg)
 - [Quillip Burr-and-Whistle — Pixie ally of the Living Wood](images/quillip-burr-and-whistle-pixie-ally-at-the-watcher-above.jpg)
 - [Sprite Outriders on fey-touched giant owls](images/sprite-outriders-on-fey-touched-giant-owls-circling-the-village-green-at-dusk.jpg)
+- [Dirk — Orc Rogue, deckhand of the Ashaba](images/dirk-orc-rogue-deckhand-of-the-ashaba.jpg)
 
 ---
 

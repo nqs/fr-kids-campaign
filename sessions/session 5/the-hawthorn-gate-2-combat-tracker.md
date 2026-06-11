@@ -5,7 +5,7 @@ Two scripted, short encounters. **Encounter 1** can end without a kill (calm the
 ---
 
 ## Encounter 1 — The Frightened Wood
-*Scene 3 · Medium (raw 1,500 XP → ~3,000 adjusted) · 3-round scripted, mercy off-ramp every round · 5×L6*
+*Scene 3 · Easy-to-Medium (raw 1,500 XP → ~2,250 adjusted) · 3-round scripted, mercy off-ramp every round · 6×L6*
 
 ### Summary
 
@@ -15,8 +15,8 @@ Two scripted, short encounters. **Encounter 1** can end without a kill (calm the
 | **Light** | Late-morning daylight, grey and flat under the thinning canopy. |
 | **Terrain** | A **broken livestock fence** and **overturned cart** (half cover) on the west; a **shallow stream** cutting diagonally (**difficult terrain**, the beasts ignore it); **boulders and fallen logs** (cover) in the center. Deer-path exits north toward the seam. |
 | **Antagonists** | 1× **Fey-Touched Great Stag** (CR 3, ⚗️) + 4× **Fey-Touched Wolf** (CR 1, ⚗️). |
-| **Party** | **5 PCs at Level 6.** |
-| **XP** | Raw 1,500 → ×2 multi-foe → **~3,000 adjusted** (Medium for 5×L6 is 3,000; Easy 1,500). **Medium** — built to be *survivable and winnable by kindness,* not a grind. |
+| **Party** | **6 PCs at Level 6** (Dirk joins this session — see file 1, Scene 1). |
+| **XP** | Raw 1,500 → ×1.5 multi-foe at 6 PCs → **~2,250 adjusted** (6×L6: Easy 1,800, Medium 3,600). **Easy-to-Medium** — runs a touch softer with the sixth PC, which is fine: built to be *survivable and winnable by kindness,* not a grind. **Optional pressure valve:** add a **5th Fey-Touched Wolf** (same statline, enters from the deer-path north — the tactical map shows four; stage the fifth at the path mouth). |
 | **Duration** | 3 rounds max. Ends early the instant the **stag is calmed** (see below) — the wolves break with it. |
 | **Goal (PCs)** | Survive — and, ideally, **realize the animals are terrified, not hostile, and calm them.** |
 | **Goal (beasts)** | Reach the closing seam. They attack only what stands between them and the door. |
@@ -40,6 +40,7 @@ NPC initiative is pre-rolled (DEX-averaged). PCs roll live and write into the bl
 | __ | _________________ | __ | _________________ | _________________ |
 | 11 | Fey-Touched Great Stag | 13 | 59: ☐☐☐☐☐ ☐☐☐☐☐ ☐☐ | Charge +knockdown · Bloodied 29 · **Calm-able DC 14** |
 | __ | _________________ | __ | _________________ | _________________ |
+| __ | _________________ | __ | _________________ | _________________ |
 
 **Conditions:** Bln · Chr · Deaf · Frt · Grp · Inc · Inv · Prl · Pet · Pzn · Prn · Rst · Stn · Uns · Conc
 
@@ -47,6 +48,7 @@ NPC initiative is pre-rolled (DEX-averaged). PCs roll live and write into the bl
 
 - **Stag calmed** — a creature within 30 ft uses an action: **Wisdom (Animal Handling) DC 14**, *or* casts `speak with animals` / `calm emotions`, *or* a druid's beast-empathy, *or* spends **Healing Light / Cure Wounds on the stag.** On success the stag is calmed (drops out of the fight). **Each wolf then makes WIS DC 12 or loses heart and bolts for the seam.** This is the intended ending — *flag it big.*
 - **Sela aids** — any PC making the Animal Handling check within 30 ft of Sela has **advantage** (she talks them through it).
+- **Dirk opens the deer-path (herding lane)** — Dirk (Animal Handling +0; his lane is *herding, not soothing*) can spend an action clearing the lane between the beasts and the seam: scattered ball bearings to fence a flank, a thrown rope-coil, warning shots, or sheer looming bulk. On any reasonable attempt (auto-success or an easy DC 10 of whatever fits), the **next calm attempt on the stag gains advantage**, and the wolves stop attacking anyone who isn't standing between them and the door. Stacks with Sela's aid.
 - **Bloodied beast whimpers** — when the stag or any wolf is first bloodied, a WIS-attuned PC (Nalith, Naan, Kto) *feels the fear, not malice.* Free tell toward mercy.
 - **End of Round 3** — if not yet resolved, the seam constricts past reach; the surviving beasts make one last lunge for the door and are *gone* through it next round whether the party stops fighting or not. Combat ends.
 - **Avoid: killing the stag.** Allowed, not punished mechanically — but Sela takes the shed antler and the Thornward's *"do not insult me by dying"* lands colder in Encounter 2. Let mercy be the better story.
@@ -58,7 +60,7 @@ NPC initiative is pre-rolled (DEX-averaged). PCs roll live and write into the bl
 
 > [!WARNING]
 > **Flag:** DM — This is a mercy puzzle wearing a fight's clothes
-> The party has Nalith (Animal Handling +6, Druid), Naan (Skilled: Animal Handling; Healing Light works on the stag), and Kto (Animal Handling +5). Any *one* success on the stag ends it. Don't hide the off-ramp — telegraph the fear in the beasts' eyes from initiative. If the table chooses violence, run it straight, but make every bloodied beast *flinch,* not snarl.
+> The party has Nalith (Animal Handling +6, Druid), Naan (Skilled: Animal Handling; Healing Light works on the stag), and Kto (Animal Handling +5). Any *one* success on the stag ends it. Don't hide the off-ramp — telegraph the fear in the beasts' eyes from initiative. If the table chooses violence, run it straight, but make every bloodied beast *flinch,* not snarl. **Watch Dirk:** a 3d6 Sneak Attack from a new player who wants to contribute is the likeliest way this goes bloody — hand silverstrike1 the herding lane (trigger above) early, before the bow comes up.
 
 ### Loot / Aftermath
 
@@ -132,7 +134,7 @@ NPC initiative is pre-rolled (DEX-averaged). PCs roll live and write into the bl
 ---
 
 ## Encounter 2 — The Hawthorn Gate
-*Scene 4 · Hard-leaning (raw 2,200 XP → ~4,400 adjusted) · ceremonial test, parley at bloodied/R3 · 5×L6*
+*Scene 4 · Medium-to-Hard (raw 2,200 XP → ~3,300 adjusted) · ceremonial test, parley at bloodied/R3 · 6×L6*
 
 ### Summary
 
@@ -142,8 +144,8 @@ NPC initiative is pre-rolled (DEX-averaged). PCs roll live and write into the bl
 | **Light** | Twilight-bright fey glow under the arch; ordinary daylight at the clearing's edge. |
 | **Terrain** | The **seam/ritual circle** at center (entering it is the Thornward's whole job to prevent). **Standing stones** (cover) ring the clearing. Two **toadstool rings** (difficult terrain). **Ribboned cairn** to the east (cover). Forest path enters from the south; **blossoming hedge** walls the north. |
 | **Antagonists** | 1× **Maelorn, the Thornward** (CR 5, ⚗️) + 2× **Sprite Outrider** (CR 1, owl-mounted — reused from S4 for continuity). |
-| **Party** | **5 PCs at Level 6.** |
-| **XP** | Raw 2,200 → ×2 multi-foe → **~4,400 adjusted** (Hard for 5×L6 is 4,500; Medium 3,000). **Hard-leaning** but scripted short — the Thornward yields, he does not win. |
+| **Party** | **6 PCs at Level 6** (Dirk joins this session — and is **not marked**; see *Triggers*). |
+| **XP** | Raw 2,200 → ×1.5 multi-foe at 6 PCs → **~3,300 adjusted** (6×L6: Medium 3,600, Hard 5,400). **Medium-to-Hard** but scripted short — the Thornward yields, he does not win. No rebalance needed: he was never trying to. |
 | **Duration** | 3 rounds max. Thornward **kneels and names the party worthy when bloodied (≤45) OR at end of Round 3** — whichever first. |
 | **Goal (PCs)** | **Show the Thornward something worth naming** — courage, restraint, cleverness, or mercy. Winning is not killing him; it's being judged worthy. |
 | **Goal (Thornward)** | Test, not kill. Measure these mortals, keep them off the seam, yield with honor when they've proven themselves. |
@@ -173,7 +175,8 @@ NPC initiative is pre-rolled (DEX-averaged). PCs roll live and write into the bl
 
 ### Triggers & Countdowns
 
-- **The Berry Shortcut (best outcome).** If **Nalith presents Quillip's hawthorn berry** at any point (action to show/press it to the arch), the Thornward **immediately grounds his glaive.** Run **one symbolic round** — a single crossed-blades salute — then go straight to *Scene 5* terms. The Sprites stand down. *No real combat.* Flag it as the reward for keeping the token.
+- **The Berry Shortcut (best outcome).** If **Nalith presents Quillip's hawthorn berry** at any point (action to show/press it to the arch), the Thornward **immediately grounds his glaive.** Run **one symbolic round** — a single crossed-blades salute — then go straight to *Scene 5* terms. The Sprites stand down. *No real combat.* Flag it as the reward for keeping the token. **The berry vouches for everyone present at the arch — Dirk included** (*"vouched by the wood's own"*).
+- **The Unmarked Sixth (Dirk's beat — fires before or at initiative).** Dirk carries **no mark** — the Thornward says so aloud and offers the choice: *stand with the marked and be measured with them,* or *stand aside without quarrel.* Standing with the party = Dirk is tested normally and **named in the guest-right** at the yield. Standing aside = safe, but **no safe-conduct at the full moon** (cannot attend the audience). Let silverstrike1 answer — don't have another player answer for them. Full read-aloud in file 1, Scene 4.
 - **Bloodied (≤45 HP)** — the Thornward steps back, plants his glaive, and **kneels:** *"Enough. You are worth the table."* Combat ends. Standard worthy-verdict.
 - **End of Round 3** — even unbloodied, the Thornward calls the test passed (*"You did not break, and you did not kill. Good."*) and yields. Combat ends.
 - **Ceremonial Restraint (⚗️)** — the Thornward **never drops a PC.** Any hit that would reduce a PC to 0 instead leaves them at **1 HP and prone** ("the flat of the thorn"). Narrate it.
@@ -184,7 +187,7 @@ NPC initiative is pre-rolled (DEX-averaged). PCs roll live and write into the bl
 ### Tactics Summary
 
 - **Maelorn the Thornward** — R1 deliver the challenge (free), Thorn-Glaive ×2 against the boldest melee PC, pulling the blow. R2 *Bramble Snare* to control the line, glaive the snared. R3 yield (or earlier at bloodied). **Stays between the party and the seam** the entire fight.
-- **Sprite Outrider 1 & 2** — R1 hover, *Heart-Sight Arrows* at the two most aggressive PCs; any sprite reading "resolve, not malice" shifts to non-lethal for the fight. R2 *Sleep-Tipped Arrows* at the highest-output caster (non-lethal). R3 salute and peel off when the Thornward yields. **They mirror the S4 outriders exactly** — players should recognize them.
+- **Sprite Outrider 1 & 2** — R1 hover, *Heart-Sight Arrows* at the two most aggressive PCs; any sprite reading "resolve, not malice" shifts to non-lethal for the fight. R2 *Sleep-Tipped Arrows* at the highest-output caster (non-lethal). R3 salute and peel off when the Thornward yields. **They mirror the S4 outriders exactly** — players should recognize them. *(They do **not** recognize Dirk — if a Heart-Sight lands on the orc, the sprite reads "river-water, no mark, no malice" and calls it down to the Thornward. Free flavor that feeds the Unmarked Sixth beat.)*
 
 > [!WARNING]
 > **Flag:** DM — This is the Herald fight's sequel, by design
