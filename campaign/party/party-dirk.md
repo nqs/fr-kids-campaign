@@ -67,6 +67,6 @@ Mariner's studded leather armor *(worn)*, shortsword +1, shortbow + quiver + 20 
 ### Sheet Flags (resolve with the player)
 - **"Birdfolk" language:** not a Forgotten Realms language (it's from another setting). Reframe as Aarakocra/Auran, or canonize as table-specific.
 - **Magic items at debut:** the sheet arrives with two uncommon magic items (Mariner's armor, +1 shortsword). The rest of the party's magic gear is sparse (Kto's Longbow +1, Naan's Luckstone) — confirm the DM is fine with this loadout walking in the door, or fold the items into an in-fiction reward later.
-- **Level 6 milestone:** like the rest of the party, the sheet is Level 5 — which is the level Session 005 plays at. The earned Site-C milestone (→ L6) applies between sessions at the DM's call.
+- **Level 6 milestone:** like the rest of the party, the sheet is Level 5; rebuild to Level 6 before play (milestone earned after Session 003).
 
 *(Resolved on the updated sheet: Dirk now wears Mariner's Studded Leather — AC 16; Weapon Mastery is Shortbow/Shortsword Vex, matching what he actually carries; Grappler was swapped for Sharpshooter, moving STR 14→13 and DEX 18→19.)*

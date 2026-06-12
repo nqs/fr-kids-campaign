@@ -1,31 +1,20 @@
 # Where We Left Off
 
-![The Crash at the Bonfire — Lady Ulphor with the firebrand, the Antlered Herald emerging from the Living Wood at dusk](https://storage.gemini.mcp.nqs.io/images/f1a020e6-d58f-4b93-ac73-372677397369.png)
+![Morning After the Greengrass Bonfire — the Shadowdale village green](https://storage.gemini.mcp.nqs.io/images/d7d8236a-5bee-4e14-99e6-6b52a480ca2b.png)
 
-**You swept Greengrass.** Fiorn took the bardic showcase from a touring star, Yinu won the arcane challenge and got a Harper's open hand for her trouble, Nalith won the Greening (and a strange little gift from a pixie), Naan made a sapling bloom in front of the whole village, and Kto went arrow-for-arrow with the scout you carried down off Old Skull alive. Ribbons are pinned. The pendant is in Lady Ulphor's vault. The drow sites are closed.
+**You won Greengrass — and then the wood walked out of the trees to look at you.** At dusk, as Lady Ulphor lifted the firebrand, the **Antlered Herald** rode a blossom-crowned stag onto the river-stones and told you a lord you have never met — of the **Bright Court Beneath** — has **marked** you. He left an open invitation: an audience at the **next full moon**, on neutral ground, at a hawthorn-cleft of the lord's choosing. Then he was gone into the Living Wood.
 
-One thing is left: **the bonfire.** Dusk is settling over the river-stones, the whole village is gathered, and Lady Ulphor is about to lift the firebrand and light the first fire of Mirtul. That is where tonight begins.
+After the fight, **Sela Wyndmere** — the village healer who's patched you up all winter — came to you shaking and said the worst thing she knows: *"He has been using me. I knew. I didn't know how to say it."* She has been carrying ribbon-knotted messages for that fey lord for years, and never reading them.
 
-You are **Level 5**, you are heroes of the Dale twice over — and the Living Wood has been very, very quiet all day.
+You are **Level 6** now, ribbons pinned, the bonfire finally lit behind you. It is the morning after, the embers are still smoking, and you have a fey lord's claim on you and eleven nights to figure out what that means.
 
 ### What Now?
 
-- **Stand for the ribbon ceremony.** You earned it. Enjoy it. Nothing ever goes wrong at a party.
-- **Orvyn has a gift waiting for Yinu** at the bookshop — "come by tomorrow afternoon." **Naan carries a sealed letter** from Lady Ulphor she hasn't opened.
-- **The wood has been odd lately** — livestock going missing at the forest's edge, birdsong thinning. Probably nothing.
-- **There's a stranger at the back of the crowd** — a very tall orc dressed like a deckhand, watching the treeline instead of the fire.
-
----
-
-## Lorindar Greenmantle, the Antlered Herald
-
-![Lorindar Greenmantle, the Antlered Herald — fey emissary of the Bright Court Beneath](https://storage.gemini.mcp.nqs.io/images/b7db5a83-2e57-4aa6-b858-12c3a397d03f.png)
-
-He rides out of the Living Wood on a stag the size of a draft horse, antlers crowned in white blossom, just as the firebrand goes up. He carries a standard — a white branch crowned in iron antler, hung with three ribbons: **green, white, bone.** His voice is courteous, and he does not raise it.
-
-> *"Honored guests of the Lady of the Ashaba — and you five who walked into our borders and walked out again — I am Lorindar Greenmantle, Herald of the Bright Court Beneath, and my lord has **marked** you."*
-
-He has come to deliver an invitation: an audience with his unnamed lord at the **next full moon**, on neutral ground, at a hawthorn-cleft of the lord's choosing. What happens after he says so is up to you.
+- **Lady Ulphor wants everything** — and she will not let you walk into a fey court blind. *Find out who this lord is before the full moon.*
+- **Sela is the road into the wood.** She can read the Living Wood when no one else can — but she's frightened, and she isn't telling you everything yet.
+- **Orvyn has a gift for Yinu** at the bookshop. **Naan has a sealed letter** she hasn't opened. Both can wait — or can't.
+- **The wood is emptying.** The fey are leaving. Animals are going missing at the forest's edge. Something is pulling the green *in.*
+- **And there's a stranger waiting in Lady Ulphor's solar** — an orc sailor whose barge fled downriver in the night, and who has seen what the wood is doing from the water.
 
 ---
 
@@ -33,17 +22,9 @@ He has come to deliver an invitation: an audience with his unnamed lord at the *
 
 ![Dirk — Orc Rogue, deckhand of the Ashaba](https://storage.gemini.mcp.nqs.io/images/29ba8c03-39c8-4f32-a63e-e7a305f8667e.png)
 
-Six-foot-nine, green-skinned, twenty years old, and quieter than anything that size has a right to be. **Dirk** came up the Ashaba on the grain barge *Greengage's Luck* for the festival — the tall stranger at the back of the bonfire crowd who moved like crew in a squall when everything went wrong. That same night the captain fled downriver, spooked by a river gone silent: no fish, no herons, no frogsong. Dirk stayed, and walked into the Ashaba House at dawn with the only honest report of the wood's edge anyone has: livestock moving **into** the trees at night, in a straight line, like cargo hauled up a gangplank. *Driven, not taken.*
+Six-foot-nine, green-skinned, twenty years old, and quieter than anything that size has a right to be. **Dirk** came up the Ashaba on the grain barge *Greengage's Luck* for the festival — and got left on the dock when the captain fled downriver in the night, spooked by a river gone silent: no fish, no herons, no frogsong. Dirk stayed, and walked into the Ashaba House at dawn with the only honest report of the wood's edge anyone has: livestock moving **into** the trees at night, in a straight line, like cargo hauled up a gangplank. *Driven, not taken.*
 
 The Lady's verdict: *"They can climb anything with a surface and see in the dark like a cat. You're walking into a forest that is leaving. Take them."*
-
----
-
-## The Morning After
-
-![Morning After the Greengrass Bonfire — the Shadowdale village green](https://storage.gemini.mcp.nqs.io/images/d7d8236a-5bee-4e14-99e6-6b52a480ca2b.png)
-
-The bonfire is a heap of embers smoking thin into a cold sky, and the green is littered with the wreckage of a good night — wreaths gone brown, ribbons in the mud, somebody's lost shoe. Last night a man rode a stag out of the wood and told you a lord you have never met has a claim on you. Then Sela Wyndmere — who patched your scrapes all winter — went white and said he had been *using* her. **You did not sleep well.** Lady Ulphor wants you in the solar at first light.
 
 ---
 
