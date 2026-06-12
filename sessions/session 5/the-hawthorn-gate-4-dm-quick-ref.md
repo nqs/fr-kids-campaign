@@ -7,11 +7,10 @@
 
 | # | Scene | Key mechanic | DM flag |
 |---|-------|--------------|---------|
-| 1 | Embers & the Mark | Debrief frames **the mark + 11-night clock**; party sent to collect Sela. **Dirk's debut** — Ulphor attaches the stranded orc deckhand to the party | Keep to ~15 min. Sela is **not** in the solar. Hand Dirk to silverstrike1 fast — one intro beat, no audition |
-| — | Two errands *(parallel)* | Yinu → Harper "key" book; Naan → Lathander letter | Both are **plants** — don't pay off. Naan's letter = same night as the audience |
-| 2 | The Healer's Cottage | **Meet Sela properly** — per-PC threads, courier mechanics, rapport beat | ~10 min character scene. Mark the rapport PC (pays off Scene 4). She hands over 2 poultices + antitoxin |
-| 3 | The Quiet Wood | Survival/Arcana/Investigation reads; Sela reveals middle of her story | **Encounter 1** near the livestock thicket |
-| 4 | The Hawthorn Cleft | Sela's full confession (earned); Quillip + **berry payoff** | **Encounter 2** at the seam |
+| 1 | The Bonfire & the Crash | Ribbon ceremony (Heroic Inspiration to Golds) → **Herald crashes the lighting** → **Encounter 1** → aftermath: Sela's confession, Ulphor's "tomorrow," Quillip's quarter-moon whisper | The deferred S4 ending, played now. **Dirk sighted in the crowd** — one beat, no introduction. Parley off-ramps every round |
+| 2 | Embers & the Mark *(morning)* | Solar debrief frames **the mark + 11-night clock**; **Dirk attached to the party**; two errands (Yinu → Harper book, Naan → letter); then collect Sela at her cottage — per-PC threads, courier mechanics, rapport beat | Solar ≤10 min, no relitigating. Errands are **plants** — don't pay off. Cottage ~10 min; mark the rapport PC (pays off Scene 4). She hands over 2 poultices + antitoxin |
+| 3 | The Quiet Wood | Survival/Arcana/Investigation reads; Sela reveals middle of her story; **Frightened Wood mercy beat — NO initiative, no tracker** | Calm DC 14 (Sela aids) / Dirk herds / blades-out = one violent exchange and the beasts are gone |
+| 4 | The Hawthorn Cleft | Sela's full confession (earned); Quillip + **berry payoff**; **Unmarked Sixth** | **Encounter 2** at the seam |
 | 5 | The Invitation Sealed | Audience terms fixed; hooks seeded | End on the walk out; cliffhanger to S6 |
 
 ---
@@ -26,40 +25,50 @@
 
 ## The New Hand — Dirk *(silverstrike1, in-fiction debut)*
 
-- **Who:** Orc Rogue 6 (Thief), Sailor. Stealth +10, Sleight of Hand +10, Darkvision 120 ft., 30-ft. climb + swim (Mariner's armor), Sneak Attack 3d6, Sharpshooter. AC 16, HP 38 *(L5 sheet — rebuild to L6 with the rest)*.
-- **Intro (Scene 1):** deckhand off the *Greengage's Luck*; barge fled downriver when the river went silent. Reported the "driven, not taken" livestock to Ulphor at dawn; she attaches them to the party. **Not marked** — wasn't at the bonfire.
-- **Scene beats:** S2 — Sela validates the river report (*"watch the birds for me"*); S3 — livestock sign confirmed on sight + **masthead view** canopy climb (grey drains in a spiral NE); Enc 1 — **herding lane**, not Animal Handling; S4 — **the Unmarked Sixth** (Thornward's choice: stand with the marked or stand aside); S5 — named in the guest-right, berth gone, lodges at the Ashaba House.
-- **Watch for:** the Sneak Attack itch in the mercy fight (hand them the herding lane early), and don't let another player answer the Thornward's question for them.
+- **Who:** Orc Rogue 5 (Thief), Sailor. Stealth +10, Sleight of Hand +10, Darkvision 120 ft., 30-ft. climb + swim (Mariner's armor), Sneak Attack 3d6, Sharpshooter. AC 16, HP 38.
+- **Sighting (Scene 1):** the tall stranger at the back of the bonfire crowd — one scripted beat during the Crash (pulls a kid clear / plants the militia flank / warning arrow, shortbow +7). No introduction tonight.
+- **Joins (Scene 2):** deckhand off the *Greengage's Luck*; barge fled downriver overnight when the river went silent. Reported the "driven, not taken" livestock to Ulphor at dawn; she attaches them to the party. **Not marked** — the Herald named only the five who walked the drow sites.
+- **Scene beats:** S2 — Sela validates the river report (*"watch the birds for me"*); S3 — livestock sign confirmed on sight + **masthead view** canopy climb (grey drains in a spiral NE) + **herding lane** in the mercy beat; S4 — **the Unmarked Sixth** (Thornward's choice: stand with the marked or stand aside); S5 — named in the guest-right, berth gone, lodges at the Ashaba House.
+- **Watch for:** the Sneak Attack itch at the mercy beat (hand them the herding lane early), and don't let another player answer the Thornward's question for them.
 
 ---
 
-## Encounter 1 — The Frightened Wood *(Scene 3)*
+## Encounter 1 — The Crash at the Bonfire *(Scene 1)*
 
-**6×L6 · ~2,250 adj XP (Easy-to-Medium) · 3 rounds · mercy off-ramp every round · optional 5th wolf (deer-path) if the table wants pressure**
+**6×L5 · ~3,300 adj XP (Medium-to-Hard) · 3 rounds · scripted escape at bloodied/R3 · NO kills either way**
 
-**1× Fey-Touched Great Stag (CR 3, ⚗️)** — AC 13 · HP 59 (bloodied 29)
-- Antlers +6, 2d6+4; Charge +2d6 & STR DC 14 prone; Blink 10 ft/turn
-- **CALM-ABLE:** action, **Animal Handling DC 14** (Sela aids → advantage), *or* `speak with animals` / `calm emotions` / druid empathy / heal it → **stag calms, fight unwinds**
+**Lorindar Greenmantle, the Antlered Herald (CR 5)** — AC 16 · HP 85 (**bloodied 42 → exits**)
+- Glaive ×2: +7, reach 10, 1d10+4 + 1d8 force; Bow of First Light +7, 1d8+4 + 1d6 radiant (range only, armored targets only)
+- Magic Resistance · Fey Step (rech 4–6; at-will on exit) · Reproof (reaction: disadvantage on one melee hit/round) · Mounted on **Erith** (stag, AC 12, HP 30, 60 ft; OAs vs Lorindar at disadvantage)
+- **Standard-Bearer's Word:** the invitation gets spoken no matter what — free action, pierces silence
+- **Pulls blows at L5:** second glaive swing pulled vs anyone below half HP
 
-**4× Fey-Touched Wolf (CR 1, ⚗️)** — AC 14 · HP 37 (bloodied 18)
-- Bite +5, 2d6+3 & STR DC 13 prone; Pack Tactics; Blink 10 ft
-- Stag calmed → each wolf **WIS DC 12 or flees** to the seam
+**2× Sprite Outrider (CR 1)** — AC 15 · HP 22 — Shortbow +6, 1d6+4; Sleep-Tipped (CON DC 12, incap 1 rd); Heart-Sight ("fear, not malice" → holds fire)
 
-| Round | Stag | Wolves |
+| Round | Lorindar | Sprites |
 |---|---|---|
-| 1 | Charge the path-blocker (Kto) | Pack onto the blocker |
-| 2 | Blink toward seam, gore the gap | Harry casters, drift to door |
-| 3 | Bolt for the closing door | Break for the seam |
+| 1 | Invitation (free); ride to first-drawn PC; glaive ×2, pulled | Heart-Sight the 2 who drew first |
+| 2 | Same target; Reproof the hardest hit | Sleep-Tipped the loudest caster |
+| 3 | **Scripted exit** — Fey Step to Erith, bolt into the wood | Cover the exit, peel off |
 
-- **Win condition = calm the stag** (Nalith/Naan/Kto all have the tools). Telegraph fear in the beasts' eyes from initiative.
-- **Dirk's herding lane:** action to clear the path to the seam (ball bearings / rope / warning shots / looming) → next calm attempt has **advantage**; wolves ignore anyone not blocking the door. Give it to silverstrike1 before the bow comes up.
-- Killing the stag: allowed, not punished mechanically — but Sela takes the antler and the Thornward runs colder in Enc 2.
+- **Off-ramps:** party holds through the speech → no fight at all; Sela steps between → fight ends instantly. **Let Sela trigger early if a kid drops below 20% HP.**
+- **Dirk's crowd beat:** once, any round — the stranger acts (kid over the firebreak / militia flank / warning arrow). Narrate or roll; introductions wait for morning.
+- **Don't kill Lorindar** (audience rescinded, S6+ war) and **don't kill Erith** if avoidable (Sela trigger).
+
+---
+
+## The Frightened Wood — Mercy Beat *(Scene 3 — NOT a combat; no tracker)*
+
+- Stranded fey-touched stag + wolves, panicked, between the party and the closing seam. **No initiative.**
+- **Calm:** Animal Handling **DC 14** (Sela aids → advantage), or `speak with animals` / `calm emotions` / druid empathy / heal the stag → beasts stand down, scatter home. *Flag the success big.*
+- **Dirk herds:** ball bearings / rope / warning shot / looming → next calm attempt has **advantage**; beasts ignore anyone not blocking the door.
+- **Blades out:** one violent exchange (gore/bite +6, 2d6+4, STR DC 13 or prone vs PCs in the deer-path) and the animals are *gone* through the seam. No XP, no loot — and the Thornward runs colder in Enc 2.
 
 ---
 
 ## Encounter 2 — The Hawthorn Gate *(Scene 4)*
 
-**6×L6 · ~3,300 adj XP (Medium-to-Hard) · 3 rounds · parley at bloodied/R3 · NO kills either way**
+**6×L5 · ~3,300 adj XP (Medium-to-Hard) · 3 rounds · parley at bloodied/R3 · NO kills either way (Ceremonial Restraint)**
 
 **Maelorn, the Thornward (CR 5, ⚗️)** — AC 17 · HP 90 (**bloodied 45**)
 - Glaive ×2: +7, 1d10+4 + 1d6 poison (numbing, never lethal)
@@ -67,8 +76,8 @@
 - Magic Resistance · Fey Step (rech 4–6) · Parry (+3 AC reaction) · **Ward of the Gate** (no one passes the seam while he stands)
 - **Ceremonial Restraint:** a hit that would drop a PC leaves them at **1 HP + prone** instead. He never kills.
 
-**2× Sprite Outrider (CR 1)** — AC 15 · HP 22 *(reused from S4)*
-- Shortbow +6, 1d6+4; Sleep-Tipped (CON DC 12 incap 1 rd, non-lethal); Heart-Sight (reads intent → "resolve not malice" = non-lethal)
+**2× Sprite Outrider (CR 1)** — AC 15 · HP 22 *(the same pair from the Crash — players should recognize them)*
+- Shortbow +6, 1d6+4; Sleep-Tipped (CON DC 12 incap 1 rd, non-lethal); Heart-Sight (reads intent → "resolve not malice" = non-lethal; on Dirk reads "river-water, no mark, no malice")
 
 | Round | Thornward | Sprites |
 |---|---|---|
@@ -83,7 +92,7 @@
 | **Berry shortcut** | Nalith presents Quillip's hawthorn berry | Thornward grounds glaive → **1 symbolic round, no combat** → terms. *Best outcome.* **Covers Dirk** ("vouched by the wood's own") |
 | Worthy (bloodied) | HP ≤ 45 | Kneels, names them worthy → terms |
 | Worthy (timer) | End of Round 3 | "You did not break, did not kill" → terms |
-| Mercy bonus | Calmed beasts in Enc 1 | Yields a round early / bloodied threshold ≤55 |
+| Mercy bonus | Calmed the beasts in the Scene 3 standoff | Yields a round early / bloodied threshold ≤55 |
 | **Unmarked Sixth** | Thornward stops at Dirk (pre-initiative) | Dirk's choice: **stand with the marked** (tested + named in guest-right) or stand aside (safe, but no safe-conduct at the audience). silverstrike1 answers, nobody else |
 | **Killed Thornward** | PC kill | **Bad.** Audience off; lord's grievance; S6+ war. Let it cost. |
 
@@ -91,10 +100,12 @@
 
 ## NPC Behavior Priority
 
+- **Lorindar, the Antlered Herald** — courteous, never raises his voice; delivers the invitation no matter what; escapes at bloodied/R3; will not kill a child. The crash is recon and provocation, not war.
 - **Thornward Maelorn** — tests, never kills; stays between party and seam; yields with honor at the first valid trigger. Courteous, old, unafraid.
-- **Sprite Outriders** — non-lethal once they read "resolve"; will not die for the gate; mirror their S4 behavior so players recognize them.
-- **Sela** — guide, not fighter. Aids Animal Handling (advantage). Holds at the treeline at the gate. Reveals her story in layers: cottage (courier mechanics) → road (the deal) → gate (the truth).
-- **Quillip** — go-between; prompts the berry; drops the quarter-moon riddle. Rattled under the banter.
+- **Sprite Outriders** — non-lethal once they read "resolve"; will not die for the gate; same pair at the bonfire and the gate, so play them recognizably.
+- **Sela** — guide, not fighter; the Crash's trigger *and* its brake. Aids Animal Handling (advantage). Holds at the treeline at the gate. Reveals her story in layers: confession (bonfire) → cottage (courier mechanics) → road (the deal) → gate (the truth).
+- **Quillip** — go-between; whispers at the bonfire, prompts the berry at the gate, repeats the quarter-moon riddle. Rattled under the banter.
+- **Captain Helm / militia / Rellan** — civilian screen at the Crash. They hold the line; they do not fight the fey.
 
 ---
 
@@ -124,19 +135,22 @@
 
 | Item | Condition | Payer | Amount |
 |---|---|---|---|
-| Contract pay | — | — | **None this session** — fey errand, not a job. Ulphor settles after the audience (S6+) |
+| Ribbon purses | Ceremony, Scene 1 | Lady Ulphor | **25 gp / Gold Ribbon, 10 gp / Silver** (+ Heroic Inspiration to Golds) |
+| Contract pay | — | — | **None beyond the ribbons** — fey errand, not a job. Ulphor settles after the audience (S6+) |
+| Cold-iron antler tip | Lorindar bloodied + Reproof missed | The Crash | Fey-court token; a favor, not a sale |
 | Guest-token (iron-hawthorn) | Pass/are vouched at the gate | Thornward | Proof of invitation + safe-conduct |
-| Calmed-beast boon | Calmed the stag in Enc 1 | The wood | Adv. on 1st Animal Handling/Survival check in the Wood next session |
-| **Milestone** | — | — | **Already Level 6** (Site-C, applied between S4–S5). **No level-up this session.** |
+| Calmed-beast boon | Calmed the stag (Scene 3) | The wood | Adv. on 1st Animal Handling/Survival check in the Wood next session |
+| **Milestone** | — | — | **Party plays at Level 5.** Site-C milestone (→L6) earned; **applies between sessions at the DM's call — no level-up at the table.** |
 
 ---
 
 ## Tone / Staging Beats
 
-- Open on **embers, not fire** — the party in the cold morning after a win, with a claim hanging over them.
+- Open on **triumph** — ribbons, firelight, a village that loves them — and let the stag step out of the trees *at the exact peak* of it.
+- The morning after is **embers, not fire** — a cold grey start with a claim hanging over the party.
 - The wood **drains** as they walk — color, then sound, then warmth. Build it.
-- **Sela's competence must show** before her confession lands — let her save the party a bad step.
-- Both fights are **questions, not slaughters.** The stag's eyes are afraid; the Thornward pulls every blow.
+- **Sela's competence must show** before her gate confession lands — let her save the party a bad step.
+- Both fights are **questions, not slaughters.** The Herald never raises his voice; the stag's eyes are afraid; the Thornward pulls every blow.
 - **Berry payoff** is a reward for a player who kept a small thing safe — make it feel like one.
 - End on the **fork:** two invitations, one full moon, and a pixie's quarter-moon riddle.
 
@@ -146,8 +160,9 @@
 
 *(Tick after the session; fold into `campaign/session-log.md` on the post-play update — not before.)*
 
+- [ ] **The Crash** — fight, parley, or the rare no-initiative delivery? Was Lorindar bloodied? Did the cold-iron antler tip drop?
 - [ ] **Audience sealed** for the full moon at the Hawthorn Cleft; guest-right terms recorded.
-- [ ] **Did the party calm or kill** the frightened beasts? (Sets the Court's read for S6.)
+- [ ] **Did the party calm or bloody** the frightened beasts? (Sets the Court's read for S6.)
 - [ ] **Did Nalith spend the berry** at the gate, or keep it?
 - [ ] **Thornward's verdict** — how worthy, and on what grounds (courage / restraint / cleverness / mercy)?
 - [ ] **Sela's arc** — from unwilling courier to penitent ally; what did she resolve to do?
@@ -164,21 +179,22 @@
 
 | Block | Target | Slip-tolerance |
 |---|---|---|
-| Embers & the Mark (Scene 1) | 15 min | Cap at 20; cut the errands to one if it drags |
-| The Healer's Cottage (Scene 2) | 10 min | Land 2–3 personal beats + rapport, then she starts walking |
-| The Quiet Wood + Enc 1 (Scene 3) | 40 min | Enc 1 ends fast if they calm the stag |
-| Hawthorn Cleft + Enc 2 (Scene 4) | 40 min | Berry shortcut saves ~10 min |
-| The Invitation Sealed (Scene 5) | 15 min | — |
+| The Bonfire & the Crash (Scene 1) | 40 min | Ceremony ≤10; the fight is 3 rounds max; aftermath ≤5 |
+| Embers & the Mark — solar + errands + cottage (Scene 2) | 25 min | Solar ≤10; cut the errands to one if it drags; cottage = 2–3 beats + rapport |
+| The Quiet Wood + mercy beat (Scene 3) | 15 min | The standoff is 2–3 table-minutes — never initiative |
+| Hawthorn Cleft + Enc 2 (Scene 4) | 30 min | Berry shortcut saves ~10 min |
+| The Invitation Sealed (Scene 5) | 10 min | — |
 | **Total** | **~2:00** | Two short fights — don't let either become a grind |
 
 ---
 
 ## DM Don'ts
 
-- **Don't** kill the Thornward, and **don't** let him kill a kid (Ceremonial Restraint catches it).
-- **Don't** make Encounter 1 a grind — it's a mercy puzzle. Telegraph the fear; reward the calm.
-- **Don't** dump Sela's whole story at the cottage — Scene 2 is who she *is*, the wood is what she *did.* Earn it in layers.
+- **Don't** kill Lorindar or the Thornward, and **don't** let either kill a kid (scripted exits and Ceremonial Restraint catch it).
+- **Don't** railroad the Crash — if the party holds their hands, they can get the invitation without a fight. Allow it.
+- **Don't** roll initiative for the Frightened Wood — it's a mercy beat now, not an encounter. Telegraph the fear; reward the calm.
+- **Don't** dump Sela's whole story at the cottage — the cottage is who she *is*, the wood is what she *did.* Earn it in layers.
 - **Don't** name the fey lord. He's named at his own table (S6+).
 - **Don't** resolve Naan's two-invitations fork, Yinu's Harper key, or Quillip's riddle — plant them.
-- **Don't** stage a level-up. The party is already Level 6.
+- **Don't** stage a level-up. The party plays at **Level 5**; the Site-C milestone applies between sessions at the DM's call.
 - **Don't** play the Unmarked Sixth as a snub — it's Dirk's spotlight. The Thornward finds the unmarked volunteer *interesting*, and silverstrike1 makes the call alone.
