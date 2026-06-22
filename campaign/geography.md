@@ -83,6 +83,7 @@ Most of Daggerdale is rolling wooded hills broken by labyrinthine rocky valleys 
 Situated along the contested route between Cormyr and Sembia. Deepingdale comprises the lands around the **River Glaemril** and the **River Wineflow**, both swift and strong with abundant salmon runs. More than any other dale, Deepingdale is woven into and around Cormanthor. Half the population is of elven or half-elven ancestry; the Deepingfolk live in the shadow of the trees and in the lighter growth at the forest's outskirts. **(CG)**
 
 - **Highmoon** continues to prosper, despite diminished trade through the Eldreth Veluuthra-controlled **Hullack Forest** to the west. **(CG)**
+- **Temple of Lathander, Highmoon** *(DM ADDITION, Session 005)* — In S5, Lady Ulphor handed **Naan** a private letter of introduction and invitation to study with the clergy of **Lathander** (the Morninglord) here, or to use the temple's resources. The DM framed Highmoon to the players as "the nearby regional capital." Naan read it but did not disclose it to the party; the invitation is a **live, undisclosed hook** competing with the Thorn Lord's audience. *(The Lathander temple is a DM addition; Highmoon and Deepingdale are canonical [CG].)*
 
 ---
 
@@ -257,24 +258,21 @@ The **Greengrass Festival** (the Faerûnian spring holiday marking the end of wi
 
 ---
 
-### The Hawthorn Cleft — Audience Ground of the Bright Court *(DM ADDITION)*
+### The Living Wood — The Recall and the Center of the Blight *(DM ADDITION)*
 
-A fey clearing deep in the **Living Wood**, north-east of Shadowdale beyond the Granite Shoulder, established in play in Session 005. Two enormous gnarled hawthorns have grown together into a living arch; beneath them a **Feywild seam** — the thin border that keeps this wood half-enchanted — has been pulled tight into a single shining doorway to the **Bright Court Beneath** (see [factions](factions.md) §8). Seven mossy standing stones ring the clearing, each hung with a knotted ribbon of **green, white, and bone** (the Court's livery). Toadstool rings dot the turf; a ribboned cairn stands to the east.
+The **Living Wood** north-east of Shadowdale, beyond the Granite Shoulder, took center stage in Session 005. Walking in from the village side, the first half-mile is ordinary spring — birdsong, blackthorn in bloom — and then the color bleaches out: blossoms go from white to gray, birdsong fades, "the forest is packing up and leaving." From the canopy (Dirk's climb, S5), the wood is **green for a few miles back toward town and gray in every other direction** — a widening **circle of blight centered on the wood's center,** where the **court of the Thorn Lord** (see [factions](factions.md) §8) lies.
 
-This is the **"hawthorn-cleft of his choosing"** named in the Antlered Herald's Session 004 audience invitation — the neutral ground where the unnamed fey lord will receive the party at the next full moon. The Court's gatekeeper, **Maelorn the Thornward** (see [roster](roster.md)), holds the seam; no one passes it while he stands.
+The blight is a **collapsing Feywild seam:** the thin border that keeps this wood half-enchanted is **contracting inward** toward the center, recalling the fey and the wood's ambient enchantment "like water down a drain" (Yinu, Arcana 30, S5). The fey are **not fleeing the drow — they are being recalled.** **Sela Wyndmere's ribbon-knots,** tied at intervals on the trees, were the **stitching holding the seam open;** with her pact broken (S5), the seam retracts faster.
 
-**Approach & terrain:**
-- Reached on foot through the Living Wood from the village/Granite Shoulder side; the closer one gets, the more the wood's color and birdsong drain away — the seam has been **contracting**, recalling the wood's fey and ambient enchantment toward this single point (the cause of the broader fey withdrawal; see [factions](factions.md) §8).
-- The clearing itself is the most alive ground left in the wood — white hawthorn bloom, green-gold light standing in the arch.
-- **The seam/arch** is the door to the Court; **Ward of the Gate** keeps it sealed against entry while the Thornward is conscious within 15 ft.
+**The court at the center** is where the unnamed wood-lord (the **Thorn Lord / Living Lord**) will receive the marked party — the destination of the two-day summons delivered at the bonfire. Prep imagined the audience ground as a hawthorn-arch clearing (two gnarled hawthorns grown into a living arch, seven ribboned standing stones, the seam pulled tight into a shining doorway), guarded by **Maelorn the Thorn Ward** (see [roster](roster.md)) — but **the party did not reach it in S5** (see status note).
 
 > [!IMPORTANT]
-> **DM:** Status after Session 005 (planned)
-> The party reaches the cleft, is tested at the gate, and the **full-moon audience is sealed** here (guest-right both ways while the ribbons hold). The cleft becomes the set-piece location for the Session 006 audience. The **frightened-wood beasts** (fey-touched stag and wolves stranded by the contracting seam) are encountered on the approach. **(DM ADDITION, Session 005)**
+> **DM:** Status after Session 005 (played)
+> The party **did not reach the court.** The session **cut on the approach** to the wood's center. There was **no gate-test, no combat, and no audience** — those carry forward to **Session 006.** The prepped "frightened-wood beasts" (fey-touched stag and wolves) **did not appear;** instead the party calmed **two stranded goats** in the skill challenge. The audience clock is **two days** (not a full moon). **(DM ADDITION, Session 005)**
 
 > [!NOTE]
 > **Source notes**
-> The Living Wood and its thin Feywild border are canonical Shadowdale geography *[CG]*. The Hawthorn Cleft, the contracting seam, the Bright Court Beneath, and the Thornward are DM additions established in Session 005.
+> The Living Wood and its thin Feywild border are canonical Shadowdale geography *[CG]*. The contracting seam / recall, the circle of blight, the ribbon-stitching, and the Thorn Lord's court are DM additions established in Session 005.
 
 ---
 

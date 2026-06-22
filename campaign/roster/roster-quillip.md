@@ -64,8 +64,10 @@
 > Quillip turned up unbidden at the festival's **Greening** event. As Nalith was awarded the gold ribbon, something brushed her cheek and she caught a half-second glimpse of Quillip, who left her a **small fey berry/token**. Its effect is undefined; Nalith pocketed it ("it's going in my bag"). Quillip is now an unprompted recurring presence, not just a one-site contact. **(DM ADDITION, Session 004)**
 
 > [!IMPORTANT]
-> **DM:** Session 005 — the berry defined, and the quarter-moon riddle
-> The S4 berry is now defined as a **Guest-Token of the Bright Court ⚗️**: a dried hawthorn berry grown on the unnamed fey lord's own hawthorn, freely given by one of the Court's own. Reads to the Court as *guest-right.* **One-shot use** — if Nalith presents it at the Bright Court's hawthorn-cleft gate, the Thornward's challenge collapses from a real fight into a single ceremonial round (the party is received as invited guests, not tested trespassers). If unused at the gate, it remains a one-shot fey guest-token; planted in soil it grows into a hawthorn that blooms two weeks early (cosmetic). At the cleft Quillip also drops a **chained riddle-hook:** *"Full moon's his. But the quarter-moon's mine — hawthorn, midnight, bring three friends, not four. There's a thing he doesn't want you to see, and I do."* Distinct from the lord's full-moon audience; a separate door. **(DM ADDITION, Session 005)**
+> **DM:** Session 005 — Quillip did **not** appear (prep below unplayed)
+> **Quillip did not turn up in S5,** and the prepped gate-test (where the berry would have mattered) was never reached, so the berry remains **undefined in canon** and the quarter-moon riddle was **never delivered.** The S4 token is still in Nalith's pocket, unspent. The prep below is held for whenever Quillip next appears:
+> - **Prepped definition — Guest-Token of the Bright Court ⚗️:** a dried hawthorn berry grown on the wood-lord's own hawthorn, reading to the Court as *guest-right.* **One-shot:** presented at the court's gate, it would collapse a gatekeeper's challenge into a single ceremonial round; planted, it grows a hawthorn that blooms two weeks early (cosmetic).
+> - **Prepped riddle-hook:** *"Full moon's his. But the quarter-moon's mine — hawthorn, midnight, bring three friends, not four. There's a thing he doesn't want you to see, and I do."* (Note: in play the lord's audience was set at **two days,** not a full moon — adjust the riddle's framing if Quillip delivers it later.) **(DM ADDITION — prep, not yet played)**
 
 > [!NOTE]
 > **Source notes**

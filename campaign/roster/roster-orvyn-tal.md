@@ -31,7 +31,10 @@
 
 > [!IMPORTANT]
 > **DM:** What he won't say
-> ~~That he's still Harper-active.~~ **Disclosed in Session 004** (see below). Remaining held cards: the dormant Harper safehouse beneath the village, and his suspicion of a Netherese agent in Shadowdale.
+> ~~That he's still Harper-active.~~ **Disclosed in Session 004.** Remaining held cards: the dormant Harper safehouse beneath the village, his suspicion of a Netherese agent in Shadowdale, and **what he was doing in his back room** (the fresh Weave activity Yinu sensed in S4 — still unexplained as of S5).
+
+> [!NOTE]
+> **Played — Session 005:** Yinu came to the shop alone. Orvyn greeted her — *"We have been watching you for quite some time"* — and gave her a cipher book, ***The Cypher and Glyph Sign of the Northern Sword Coast,*** with the line *"The Harpers have been waiting for you. This is not a recruitment — this is a key. Read this book before we next meet."* He sketched the Harpers' purpose and named their enemies: the drow, the **Red Wizards of Thay** (Szass Tam's Thay), and other regional threats. The expectation that Yinu reads the book and returns is the live next beat. **(DM ADDITION)**
 
 > [!IMPORTANT]
 > **DM:** Session 004 — Harper affiliation disclosed to Yinu

@@ -1,31 +1,35 @@
-# Maelorn, the Thornward — Gatekeeper of the Hawthorn Gate
+# Maelorn, the Thorn Ward — Knight and Herald of the Thorn Lord
 
 > [Back to NPC Roster](../roster.md)
+>
+> *Prepped as "the Thornward, gatekeeper of the Hawthorn Gate." In play (S5) he served as the wood-lord's **herald**, delivering the summons at the Greengrass bonfire. The gate-test was never reached.*
 
-- **Role:** Gatekeeper of the Bright Court's hawthorn-cleft seam; tester of those the lord has marked
-- **Affiliation:** The Bright Court Beneath (Fey of the Living Wood — see [factions](../factions.md) §8)
-- **Location:** The **Hawthorn Cleft** (see [geography](../geography.md)) — he holds the seam to the Court
-- **Status:** Alive — yields with honor, does not die in the S5 gate-test (by design)
-- **One-line summary:** A proud, old fey knight in bark and bronze who guards the door to his lord's court and asks the door's question with a blade in it — he tests the marked, pulls every killing blow, and kneels to name them worthy when they've proven themselves.
+- **Role:** Knight and herald of the **Thorn Lord / Living Lord** (the fey lord of the Living Wood). Delivered the wood-lord's summons to the party; prepped as the gatekeeper who would test the marked at the seam (gate-test not yet played)
+- **Affiliation:** The wood-lord's court (Fey of the Living Wood — see [factions](../factions.md) §8)
+- **Location:** Ranges the Living Wood on a **great stag**; comes and goes through the treeline/Feywild seam
+- **Status:** Alive — departed the bonfire unopposed; expected to reappear at the court (S6)
+- **One-line summary:** A proud, old fey knight in bark and bronze who rode out of the treeline on a great stag at the Greengrass bonfire, marked the party with a pointing finger, and named them to his lord's court — courteous, unafraid, and not to be disappointed by their dying.
 
-**Appearance:** A fey knight armored in overlapping bark-and-bronze plate, helmed in a crown of living silver branches hung with white hawthorn blossom, wound with green-white-bone ribbons. His glaive ends in a single black thorn. Level voice, ancient bearing. **(DM ADDITION)**
+**Appearance:** A fey knight armored in overlapping bark-and-bronze plate, helmed in a crown of living silver branches hung with white hawthorn blossom, wound with green-white-bone ribbons. His glaive ends in a single black thorn. Rides a **massive stag.** The smell of fresh flowers travels with him; music falls silent at his entrance. Level voice, ancient bearing. **(DM ADDITION)**
 
-**Personality:** Courteous, formal, entirely unafraid; proud but not cruel. He fights to **measure,** never to kill (*"I will not aim to kill. Do not insult me by dying."*). Reads courage, restraint, cleverness, and mercy and reports them to the Court.
+**Personality:** Courteous, formal, entirely unafraid; proud but not cruel. Speaks in summons and law, not negotiation (*"Do not disappoint me by dying."*). Acknowledged Fiorn's parting comment with a wave — he registers spirit without losing his composure.
 
 **Motivations:**
-- *Wants:* To keep unworthy or hostile feet off the seam, and to deliver to his lord an honest measure of the mortals he's marked.
-- *Fears:* Failing the gate's law (admitting the unworthy) — or being forced to spill guest-blood and dishonor the audience.
+- *Wants:* To carry his lord's will to the surface intact and bring the marked mortals to the court.
+- *Fears:* Failing his lord; being forced to spill guest-blood and dishonor the audience.
 
 **Relationship with the party:**
-- *As of Session 005 (planned):* Tests the party at the gate; yields at bloodied/round-3 and names them worthy; gives a **guest-token of iron-hawthorn** and the full-moon audience terms (guest-right both ways). If Nalith presents Quillip's berry, he stands down and the test is pure ceremony. **Recurring fey functionary; potential ally at the audience.**
+- *As of Session 005 (played):* Rode in on a stag at the bonfire and **delivered the summons** to the four marked PCs (Fiorn, Yinu, Naan, Nalith) — *"The Living Wood calls you. Those of you that sealed the cleft of darkness are summoned to his court. You are expected in two days. Do not disappoint me by dying."* — then rode back into the treeline, which closed behind him. No combat. **Recurring fey functionary; likely the party's first face at the court (S6).**
 
-**Notable mechanics (promoted for at-table use):**
+**Prepped (not yet played) — the gate-test:** Maelorn was designed as the gatekeeper who tests the marked at the seam, yielding with honor rather than killing:
 - *Ceremonial Restraint* — any hit that would drop a PC leaves them at **1 HP and prone** instead. He never kills.
 - *Ward of the Gate* — no one passes the seam while he stands within 15 ft. of it.
 - *Berry shortcut* — Quillip's guest-token collapses the challenge to one symbolic round.
 
-**Statline:** Custom CR 5 fey (⚗️). Full stat-block in [S5 combat tracker](../../sessions/session%205/the-hawthorn-gate-2-combat-tracker.md). **Do not kill him** — killing the gatekeeper sours the audience into a grievance. **(DM ADDITION)**
+These carry forward as live options for S6 if the court receives the party with a trial.
+
+**Statline:** Custom CR 5 fey (⚗️). Full stat-block in [S5 combat tracker](../../sessions/session%205/the-hawthorn-gate-2-combat-tracker.md). **Do not kill him** — killing the lord's knight sours the audience into a grievance. **(DM ADDITION)**
 
 > [!NOTE]
 > **Source notes**
-> Maelorn the Thornward, the Hawthorn Gate challenge, and the Ceremonial-Restraint mechanic are DM additions introduced in Session 005. The fey lord he serves remains deliberately **unnamed.**
+> Maelorn the Thorn Ward and the Ceremonial-Restraint mechanic are DM additions introduced in Session 005. In play he filled the herald role (the prepped **Lorindar Greenmantle did not appear**). The fey lord he serves is styled the **Thorn Lord / Living Lord**; his true name remains reserved.

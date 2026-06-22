@@ -2,6 +2,9 @@
 
 > [Back to NPC Roster](../roster.md)
 
+> [!IMPORTANT]
+> **Did not appear in play (as of S5).** Lorindar was prepped to deliver the wood-lord's mark/summons at the Greengrass bonfire, but that beat was deferred from S4 to S5, and in S5 the summons was delivered by **[Maelorn, the Thorn Ward](roster-maelorn.md)** on a stag instead. Lorindar is currently an **unused prep NPC.** Either retire him, or reintroduce him later as a second herald — but the audience-mark in canon was delivered by Maelorn, not Lorindar.
+
 - **Role:** Herald and outrider of the Bright Court Beneath; the unnamed fey lord's message-bearer
 - **Affiliation:** The Bright Court Beneath (Fey of the Living Wood — see [factions](../factions.md) §8)
 - **Location:** Ranges the Living Wood astride his stag **Erith-of-the-First-Snow**; comes and goes through the Feywild seam
