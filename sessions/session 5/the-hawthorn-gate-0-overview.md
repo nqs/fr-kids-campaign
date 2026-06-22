@@ -1,21 +1,25 @@
-# Session 005 — The Hawthorn Gate
+# Session 005 — The Thorn Lord's Summons
 
-*Tier 2 · 6 PCs at Level 6 · Shadowdale → the Living Wood → the Hawthorn Cleft*
+*Tier 2 · played at Level 5 · Shadowdale → the Living Wood (approach to the center)*
 
-**Status:** ⏳ Not yet played — the summary below reflects the planned major beats, not a record of play.
+**Status:** ✅ Played — the summary below records what actually happened at the table. *(Prepped under the working title "The Hawthorn Gate"; the file names below keep that slug.)*
 
-Picking up the morning after the Greengrass bonfire, the party must learn who the fey lord that *marked* them is before walking into his full-moon audience, **eleven nights off**. The session opens with a new face: **Dirk** (silverstrike1's in-fiction debut), an orc deckhand stranded when his barge fled a river gone silent, whom Lady Ulphor attaches to the party for the walk into the wood. With the Living Wood emptying — fey withdrawing, color draining from the trees, livestock vanishing at the forest's edge — they collect the reluctant healer **Sela Wyndmere** at her cottage on the wood's edge (the party's first real look at the woman behind the festival judge) and take her into the wood to read her latest message-drop and find the hawthorn-cleft the invitation named. Two scripted encounters anchor the trip: **the Frightened Wood**, where fey-touched animals can be calmed rather than killed, and **the Hawthorn Gate** itself, where the Bright Court's gatekeeper — the **Thornward** — tests the party, pausing over the **unmarked sixth** before a challenge that collapses into ceremony if Nalith still carries Quillip's hawthorn berry. The session is built to end with the **audience terms sealed** for the full moon — six named in the guest-right — Sela's arc opened, and hooks lit for Session 006 and beyond.
+Picking up on the deferred **Greengrass bonfire,** Session 005 opened with a new face: **Dirk** (Ari's debut), a weathered, middle-aged orc fisherman who lives on a raft moored on the River Ashaba and joined the party at the festival. The bonfire was cut short when **Maelorn, the Thorn Ward,** rode out of the treeline on a great stag and delivered a summons to the four *marked* PCs — **the wood-lord expects them at his court in two days** (*"Do not disappoint me by dying"*). Caitlin was absent, so **Kto** sat the session out. The next morning at the Ashaba House, **Lady Ulphor** confirmed the Thorn Ward's appearance is unprecedented, declined to pay (this is the party's own peril, not a job), provided mundane supplies, and handed **Naan** a private letter inviting her to the **Temple of Lathander in Highmoon**; an Arcana read confirmed the fey mark is an **enchantment-school compulsion.** **Yinu** collected the Harper gift alone at **Orvyn Tal's** shop — a cipher book, *The Cypher and Glyph Sign of the Northern Sword Coast,* framed as *"a key, not a recruitment."* The party then collected the healer **Sela Wyndmere,** who **broke her twelve-year pact** with the wood-lord — confessing she had carried his ribbon-knotted messages for twelve years and that those ribbons were the **stitching binding the Feywild seam** — and guided them into the **Living Wood.** A skill challenge (no combat) revealed the cause of the blight: the seam is **collapsing inward,** recalling the fey "like water down a drain." The session **cut before the party reached the court**; the audience, the gate-test, and the Thorn Lord himself are deferred to **Session 006.**
+
+> [!NOTE]
+> **Play vs. prep.** The prepped beats below (the Frightened Wood combat, the Hawthorn Gate test, the audience sealed at the full moon) were **not** reached. In play the summons was delivered at the bonfire by **Maelorn** (the prepped herald **Lorindar Greenmantle did not appear**), the audience is **two days** out rather than a full moon away, there was **no combat,** and the session ended on the approach to the wood's center. The four deliverable files describe the prepped adventure; this page and the [session log](session%205%20-%20log.md) record what actually happened.
 
 ## Session Files
 
-- **[Adventure](the-hawthorn-gate-1-adventure.md)** — the session itself: narrative, scenes, NPCs, treasure
-- [Combat Tracker](the-hawthorn-gate-2-combat-tracker.md) — DM tracker sheets, stat-block cards, tactical maps
+- **[Session Log](session%205%20-%20log.md)** — record of what actually happened at the table
+- [Adventure](the-hawthorn-gate-1-adventure.md) — the prepped session: narrative, scenes, NPCs, treasure
+- [Combat Tracker](the-hawthorn-gate-2-combat-tracker.md) — DM tracker sheets, stat-block cards, tactical maps *(prepped encounters not used in play)*
 - [Player Handouts](the-hawthorn-gate-3-player-handouts.md) — recap page and player-facing art
 - [DM Quick Reference](the-hawthorn-gate-4-dm-quick-ref.md) — at-the-table cheat sheet
 - [Printable PDF](the-hawthorn-gate.pdf) — single compiled PDF of the four files above
 
 > [!NOTE]
-> **Not yet played.** A session log will be added here after the session runs. This page's summary will then be refreshed from the post-play log to record what actually happened.
+> **Played.** See the [session log](session%205%20-%20log.md) for the table record. The prepped encounters (Frightened Wood, Hawthorn Gate) were not reached — the audience and gate-test carry forward to Session 006.
 
 ## Images
 

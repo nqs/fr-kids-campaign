@@ -38,7 +38,7 @@
 | Faction | Disposition | Party Contact | Seat |
 |---|---|---|---|
 | Dales Council | Allied | Lady Ulphor / Brynn Ashford | Ashabenford, Mistledale |
-| Harpers (Remnant) | Allied | Orvyn Tal → Yinu (direct, S4) | Moongleam Tower, Everlund |
+| Harpers (Remnant) | Allied | Orvyn Tal → Yinu (cipher "key" given, S5) | Moongleam Tower, Everlund |
 | Myth Drannor Eladrin | Allied | Unknown (embassy, New Velar) | Myth Drannor |
 | Stellar Fellowship | Allied (joinable) | None yet | Fall of Stars, New Velar |
 | Abbey of the Sword | Allied | None yet | Battledale |
@@ -105,7 +105,7 @@ The Harpers are a secret society that balances the spread of power throughout Fa
 **Moongleam Tower** in Everlund (to the northwest) houses one of the few active Harper waypoints; agents in the Dalelands make contact through coded dead-drops or trusted intermediaries. *[CG]*
 
 ### Key Contact (Roster)
-- **Orvyn Tal** (Shadowdale bookshop) — Harper agent operating under cover as a bookseller and map dealer. **As of Session 004 he has openly disclosed his Harper affiliation to Yinu** and asked her to come to the shop "the next afternoon" because "the Harpers have something to give to you" — the first direct recruitment overture to a PC. He sources information through methods he doesn't describe. *[HOMEBREW]*
+- **Orvyn Tal** (Shadowdale bookshop) — Harper agent operating under cover as a bookseller and map dealer. He disclosed his Harper tie to Yinu in S4; **in S5 he gave her the cipher book *The Cypher and Glyph Sign of the Northern Sword Coast*** — *"not a recruitment — this is a key. Read this book before we next meet."* He sources information through methods he doesn't describe. *[HOMEBREW]*
 
 ### Goals
 - Gather intelligence on Netheril's movements and the Shade Enclave's plans for the Dalelands
@@ -115,13 +115,13 @@ The Harpers are a secret society that balances the spread of power throughout Fa
 ### What the Harpers Know
 They know something is wrong under Old Skull — probably more than Lady Ulphor does. After the party cleared all three drow staging sites (S1–S3), Orvyn judged them trustworthy enough to surface the Harper connection openly.
 
-### Current Status with the Party (Session 004)
-- **Direct contact made.** Orvyn revealed himself to **Yinu** after she won his Greengrass arcane-skills challenge, and there is a **Harper gift waiting** for her at the bookshop (undefined — pursue Session 005).
-- Yinu separately sensed **fresh Weave activity in Orvyn's back room** during the earlier debrief; what he was doing there is unresolved.
+### Current Status with the Party (Session 005)
+- **The "key" is delivered.** Yinu collected the gift alone at the bookshop: the cipher book **The Cypher and Glyph Sign of the Northern Sword Coast.** Orvyn framed it as a key rather than a recruitment and named the Harpers' enemies — the drow, the **Red Wizards of Thay** (Szass Tam), and other regional threats. The live next beat is **Yinu reads the book and returns to Orvyn.**
+- Yinu's earlier sense of **fresh Weave activity in Orvyn's back room** (S4) is still unexplained.
 
 > [!TIP]
 > **Adventure Hooks**
-> - **Yinu collects the Harper gift** at Orvyn's shop — the first real recruitment beat (S5 thread)
+> - **Yinu reads the cipher and returns** — the book is a key to something; the next meeting is on Orvyn's terms
 > - Orvyn Tal approaches the party with a job that sounds like a book retrieval but is actually a dead-drop run
 > - A Harper agent in Scardale has gone silent; someone needs to go find out why without triggering Sembian attention
 
@@ -266,32 +266,32 @@ The Resistance's leadership is divided over whether to make contact with the Har
 The Living Wood surrounding Shadowdale is a fey-touched forest with an unusually thin border to the Feywild. The wood is home to nymphs, sprites, dryads, satyrs, and older powers — some benevolent, some territorial, all capricious. Lady Ulphor maintains a cautious, generally positive relationship with the fey community; Shadowdalers know to leave offerings and to not cut trees without asking. *[CG]*
 
 ### Key Contact (Roster)
-- **Sela Wyndmere** (Shadowdale healer) — deeply embedded in the fey community. For **twelve years** she has carried ribbon-knotted messages for a fey lord of the wood, never reading them. **In the S4 aftermath she confessed the arrangement to the party;** in S5 (planned) she realizes the messages were the instrument of the wood's slow harvest and turns **penitent ally.** Ran the Greengrass "Greening" (S4); friendly with Nalith. *[HOMEBREW]*
-- **Quillip Burr-and-Whistle** (pixie) — direct party ally since Session 003 (bargained intel for a song). Left Nalith a **hawthorn berry** at the S4 festival (now defined as a **guest-token of the Bright Court** — see [roster](roster.md)). The party's reliable, capricious line into the wood. *[HOMEBREW]*
-- **Lorindar Greenmantle, the Antlered Herald** (CR 5 fey) — the Bright Court's outrider and message-bearer; delivered the lord's audience mark to the party at the S4 bonfire. Statblock in [S4 combat tracker](../sessions/session%204/the-greengrass-greengage-2-combat-tracker.md). *[HOMEBREW]*
-- **Maelorn, the Thornward** (CR 5 fey) — gatekeeper of the Bright Court's hawthorn-cleft seam; tests those the lord has marked. Statblock in [S5 combat tracker](../sessions/session%205/the-hawthorn-gate-2-combat-tracker.md). *[HOMEBREW]*
+- **Sela Wyndmere** (Shadowdale healer) — for **twelve years** she carried ribbon-knotted messages for the wood-lord (the **Thorn Lord / Living Lord**), never reading them. **In S5 (played) she confessed and broke the pact** — learning her ribbons were the **stitching binding the Feywild seam,** and forfeiting her fey-granted healing to tell the party. Now a **penitent ally and the party's Living Wood guide.** *[HOMEBREW]*
+- **Quillip Burr-and-Whistle** (pixie) — direct party ally since Session 003 (bargained intel for a song). Left Nalith a **hawthorn berry** at the S4 festival (a possible **guest-token** — still **unused**; Quillip did not appear in S5). The party's reliable, capricious line into the wood. *[HOMEBREW]*
+- **Maelorn, the Thorn Ward** (CR 5 fey) — the wood-lord's knight/herald. **Rode in on a great stag at the bonfire (S5) and delivered the summons** to the four marked PCs (audience in two days). Prepped as the seam's gatekeeper; the gate-test was not reached. Statblock in [S5 combat tracker](../sessions/session%205/the-hawthorn-gate-2-combat-tracker.md). *[HOMEBREW]*
+- **Lorindar Greenmantle, the Antlered Herald** (CR 5 fey) — a prepped outrider/message-bearer who **did not appear in play**; the audience-mark was delivered by Maelorn instead. Statblock in [S4 combat tracker](../sessions/session%204/the-greengrass-greengage-2-combat-tracker.md). Unused prep NPC. *[HOMEBREW]*
 
 ### Current Situation
-The Living Wood near Old Skull is **emptying.** Fey who used to range the forest are withdrawing — and as of S5 the party learns this is not a flight from the drow but a **recall:** the wood's ambient enchantment is being pulled toward a single point (the **Hawthorn Cleft**; see [geography](geography.md)). Color and birdsong drain the closer one walks to it. The withdrawal has stranded ordinary woodland animals on the wrong side of a contracting Feywild seam, leaving them **fey-touched and panicked** (the frightened-wood beasts of S5). Signs of **Feywild bleed-through** keep mounting: at Orvyn's S4 arcane challenge, Yinu identified a primrose that fell through a seam from the Fey Realm and a tonic peddled by a planar traveler.
+The Living Wood near Old Skull is **emptying** — and **S5 confirmed this in play** (Yinu, Arcana 30): it is not a flight from the drow but a **recall.** The wood's ambient enchantment, and the fey with it, are being pulled inward toward the **center of the wood** "like water down a drain" — a **collapsing Feywild seam.** Color and birdsong drain the closer one walks toward the center; from the canopy the forest is green for a few miles back toward town and **gray in a widening circle of blight** centered on where the party is headed. **Sela Wyndmere's ribbon-knots were the stitching holding the seam open;** with her pact broken, the seam has been retracting faster. The recall stranded ordinary woodland animals (two goats found in S5; missing-livestock rumors from forest-edge farms). What is doing the recalling is unknown — most likely the **Thorn Lord** himself. Earlier signs of **Feywild bleed-through** (the S4 Fey primrose, a planar-traveler's tonic) read in hindsight as the visible edge of this contraction.
 
-### The Bright Court Beneath ⚗️
-The fey lord using Sela as a courier is a lord of the **Bright Court Beneath** — an old, powerful Feywild court whose seam runs deepest at the Hawthorn Cleft. **The lord himself remains unnamed** (he names himself at his own table; reserved for a later reveal — S6+).
+### The Court of the Thorn Lord ⚗️
+The fey lord using Sela as a courier is the lord of the wood — styled in play (S5) as **the Thorn Lord / the Living Lord** (prep name: the **Bright Court Beneath**). An old, powerful Feywild court whose seam runs deepest at the center of the Living Wood (the **Hawthorn Cleft**; see [geography](geography.md)). **The lord's true name remains reserved** (he names himself at his own table — S6+ reveal).
 
-- **Livery / iconography:** a standard of a **white branch crowned in iron antler,** hung with three ribbons of **green, white, and bone.** The same knot marks the Court's couriers (Sela's belt-ribbon) and its gate (the standing stones of the cleft).
-- **Method — the slow harvest:** for twelve years the lord told Sela he would "hold the green" if she carried his words, and the wood *did* stay alive. What he was actually doing was **gathering the wood in** toward himself, a little each year — Sela was the unwitting instrument. As of the S4 mark, he has finished gathering *green* and begun gathering **people:** the party has been *marked* (claimed as known) and invited to an audience.
-- **Functionaries:** **Lorindar Greenmantle, the Antlered Herald** (outrider/message-bearer) and **Maelorn, the Thornward** (gatekeeper of the seam), plus **Sprite Outriders** on fey-touched owls. None are villains to be killed — the Court tests and provokes, but its servants pull their blows and yield with honor. Killing one curdles the lord's interest into a grievance.
-- **The audience:** at the **next full moon**, at the Hawthorn Cleft, under **guest-right** (no harm to the guests, none from them, while the ribbons hold). Sealed at the S5 gate. The lord's intentions toward the party are still opaque — patron, predator, or both. **A long-term thread, not an immediate war.**
+- **Livery / iconography:** a standard of a **white branch crowned in iron antler,** hung with three ribbons of **green, white, and bone.** The same knot marks the Court's couriers (Sela's ribbon-drops on the wood's trees) and its gate.
+- **Method — the slow harvest (confirmed S5):** for twelve years the lord told Sela he would "hold the green" if she carried his words, and the wood *did* stay alive. He was in fact **gathering the wood inward** toward himself a little each year — Sela the unwitting instrument, her ribbons the stitching. The court has at times **taken children, taken winter stores, and left droughts** in Shadowdale. Having gathered the *green,* he has begun gathering **people:** the party was *marked* and summoned.
+- **Functionaries (as played):** **Maelorn, the Thorn Ward** delivered the summons on a stag at the bonfire (S5). **Lorindar Greenmantle** (a prepped second herald) did **not** appear. **Sprite Outriders on fey-touched owls** were prepped but not used. None are villains to be killed — the Court tests and provokes, but its servants pull their blows and yield with honor. Killing one curdles the lord's interest into a grievance.
+- **The audience:** the wood-lord expects the party at his court **in two days** (delivered S5; the summons is a **magical compulsion** — Arcana 24 — that cannot be safely ignored). The party did **not** reach the court in S5 (session cut on the approach); the audience and any gate-trial carry to **S6.** The lord's intentions are still opaque — patron, predator, or both. **A long-term thread, not an immediate war.**
 
 > [!IMPORTANT]
 > **DM:** Disposition tracking
-> How the party handles the Court's tests (the frightened beasts, the Thornward's challenge) — mercy vs. murder, restraint vs. overkill — sets the lord's disposition toward them at the full-moon audience. Note it in the session log after S5 is played. **(DM ADDITION)**
+> In S5 there was **no combat and no gate-test** — the party walked in peacefully behind Sela, calmed stranded animals rather than fighting them, and the prepped disposition checks never triggered. How they conduct themselves **at the court (S6)** will set the lord's disposition. **(DM ADDITION)**
 
 > [!TIP]
 > **Adventure Hooks**
-> - **The full-moon audience** at the Hawthorn Cleft (the S5 → S6 throughline) — and Naan's competing Temple-of-Lathander invitation falls on the *same* night
-> - **Quillip's quarter-moon offer** — "hawthorn, midnight, bring three friends, not four" — a different door the lord doesn't want the party to see
-> - **Sela's penance** — now an ally seeking to undo twelve years of unwitting service; what she carried, and to whom, is still unread
-> - Farmers on the forest edge report animals going missing (the fey-touched, seam-stranded beasts — see [world](world.md))
+> - **The two-day audience** at the wood's center (the S5 → S6 throughline) — and **Naan's competing Temple-of-Lathander invitation** to Highmoon pulls the other way
+> - **Quillip's fey token** — still in Nalith's pocket, still unspent; may be a guest-token at the court
+> - **Sela's penance** — now an ally who has given up her healing to undo twelve years of unwitting service; what she carried, and to whom, is **still unread**
+> - **The recall** — whatever is pulling the wood inward is the real engine of the blight; stopping or surviving it is the arc's stakes
 
 ---
 

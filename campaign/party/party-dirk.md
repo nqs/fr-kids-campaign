@@ -7,7 +7,7 @@
 **Species:** Orc
 **Background:** Sailor
 **Alignment:** Lawful Neutral
-**Gender/Age:** Ambiguous, 20
+**Gender/Age:** Ambiguous; sheet says 20, but **played as middle-aged/weathered (S5)** — treat the older characterization as canon
 **Height:** 6'9" | **Weight:** 200 lb. | **Skin:** Green | **Eyes:** Yellow | **Hair:** Black
 **Faith:** "Spirituality" (no named deity on the sheet — flag for table canonization; a sailor's informal reverence works as-is in the Realms)
 
@@ -62,7 +62,7 @@ Mariner's studded leather armor *(worn)*, shortsword +1, shortbow + quiver + 20 
 
 ### Personality & Roleplay
 - **Trait / Ideal / Bond / Flaw:** *Blank on the sheet* — fill in with the player before/at the table (same gap as Kto, Yinu, Loric, Nalith).
-- **Campaign intro (Session 005):** Came up the Ashaba on a spring grain barge for Greengrass; stranded in Shadowdale when the captain pushed off early after the river-life went quiet near the Living Wood. Reported the "driven, not taken" livestock signs to the Ashaba House; Lady Ulphor attached them to the party for the walk into the wood.
+- **Campaign intro (Session 005, played):** Introduced at the Greengrass bonfire as a **weathered, middle-aged orc fisherman** (table reference: Quint from *Jaws* with orc features), pipe-smoking and blunt, who lives on a **small raft/boat moored on the River Ashaba** at the edge of town. He joined the party at the festival, spoke (briefly) with **Sela** by the river before she fled, and the next morning met **Lady Ulphor** at the Ashaba House (who lectured him on orcs' fearsome reputation among the other peoples) and **peeked at Naan's Lathander letter** (Stealth). He accompanies the party into the Living Wood despite **not being marked** by the Thorn Ward. Carries a harpoon, fishing rod, daggers, and a drawstring bag of beers. He sleeps on his boat rather than at the inn.
 
 ### Sheet Flags (resolve with the player)
 - **"Birdfolk" language:** not a Forgotten Realms language (it's from another setting). Reframe as Aarakocra/Auran, or canonize as table-specific.

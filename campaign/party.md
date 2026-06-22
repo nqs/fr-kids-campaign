@@ -21,7 +21,7 @@ Each PC now has their own page with the full stat block, features, proficiencies
 - [Loric T.](party/party-loric-t.md) — Sorcerer 5 (Draconic), Tiefling · *arcane blaster / metamagic* · Player: Lily
 - [Nalith](party/party-nalith.md) — Druid 5 (Circle of Dreams), Tiefling · *support / healer / controller* · Player: Piper
 - [Naan](party/party-naan.md) — Warlock 5 (Celestial), Aasimar · *eldritch striker / secondary healer* · Player: Lilli
-- [Dirk](party/party-dirk.md) — Rogue 5 (Thief), Orc · *scout / infiltration / skirmisher* · Player: silverstrike1 *(joins Session 005)*
+- [Dirk](party/party-dirk.md) — Rogue 5 (Thief), Orc · *scout / infiltration / skirmisher* · Player: silverstrike1/Ari *(joined Session 005)*
 
 ---
 
@@ -62,4 +62,4 @@ Each PC now has their own page with the full stat block, features, proficiencies
 - **Naan's "Blade Caliel"** — a fragment of a destroyed archangel manifests as a blade; mechanics undefined on the sheet. Needs DM ruling before it sees combat use.
 - **Naan's skill proficiencies** — Origin Feat (Skilled) and origin skills aren't reflected on the mechanical sheet. Confirm with Lilli before the next session.
 - **Several blank backstory sheets** — Kto, Yinu, Loric, Nalith, and Dirk have no recorded personality traits, ideals, bonds, or flaws. Worth filling in before session prep to personalize hooks.
-- **Dirk's sheet flags** — "Birdfolk" is not an FR language (reframe as Aarakocra/Auran or canonize); the sheet debuts with two uncommon magic items (**Mariner's Studded Leather** — AC 16 + swim speed — and a **+1 shortsword**), richer than the rest of the table's gear — confirm or fold into an in-fiction reward. Sheet is L5 like the rest — rebuild to L6 before Session 005. See [party-dirk.md](party/party-dirk.md).
+- **Dirk's sheet flags** — "Birdfolk" is not an FR language (reframe as Aarakocra/Auran or canonize); the sheet debuts with two uncommon magic items (**Mariner's Studded Leather** — AC 16 + swim speed — and a **+1 shortsword**), richer than the rest of the table's gear — confirm or fold into an in-fiction reward. Sheet is L5 like the rest — **S5 was played at Level 5; rebuild the table to L6 before a future session.** See [party-dirk.md](party/party-dirk.md).
