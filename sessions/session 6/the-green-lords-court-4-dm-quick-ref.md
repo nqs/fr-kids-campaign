@@ -6,7 +6,7 @@
 ## Scene Order
 
 | # | Scene | Key mechanic | DM flag |
-|---|-------|--------------|---------|
+|---|-------|--------------|--------|
 | 1 | The Last Mile | Reorient at the gate; seam closing on a clock; Sela declares she's crossing | ~10 min. **Don't re-run S5** — Harper book / Lathander letter / drow clock all off the table tonight |
 | 2 | The Hawthorn Gate | **Encounter 1** — Maelorn's trial; **berry shortcut**; Dirk's Unmarked-Sixth choice | Ends in a yield, never a kill. Maelorn escorts them through; **Sela crosses too** |
 | 3 | The Court Received | **Oberon named**; gracious welcome + the eternal-table **offer**; spot the harvest | **Do NOT stat or fight Oberon.** The lever is the binding, not the lord |
@@ -104,6 +104,7 @@ The seam contracting to a point **is** the threat — not a statblock. Track it 
 - **The party cannot save her AND stop the harvest** — say so (Insight / Quillip / Maelorn): *"The line needs a life. There is no third knot."* She refuses any substitution: *"Let me spend them well."*
 - **Steer hard toward letting her have it.** If a player *insists* on a heroic swap, it's a table call — but the prepped, far stronger beat is **Sela's** death. Don't let the party "win" their way out of it.
 - **What the party CAN do:** stand with her, guard her as the hall resists, **free the children** through the gap she opens, and *witness* her (a word, a hand, Fiorn's song). **Mark who stands with her** — for her, and for the log.
+- **Sela's last message (drow-intelligence tie):** as she cuts, Sela reads her old knots for the first time. One message — four years old — is **Oberon's instruction to fey wardens** watching the drow beneath Old Skull. It names the **"masked ones"** (Vhaeraunians) and **"spider-ones"** (Lolthites), and a **"third cleft"** — a deeper passage below the three sites the party cleared (S1–S3) — that fey wardens were holding. The containment is now broken along with the binding. **The party carries this intelligence into the Feywild.** It's Sela's final gift — the one piece of her legacy not spent by her death. Full read-aloud in file 1, Scene 4.
 - **Then:** the binding collapses → Oberon's hold breaks → the seam tears wide the wrong way → **the party is pulled through into the Feywild.** Sela is gone.
 
 ---
@@ -128,6 +129,7 @@ The seam contracting to a point **is** the threat — not a statblock. Track it 
 | Contract pay (Ulphor, S5) | — | Owed *if they ever get home to collect it* |
 | Quillip's berry | If unspent at the gate | Carried into the Feywild — maybe worth more there |
 | Sela's gift | The cut passes through the party | DM-defined S7 boon (lingering healing / fey goodwill) |
+| **Sela's last message** | Read aloud as she cuts (Scene 4) | **Drow intelligence carried into the Feywild:** Oberon's fey wardens were containing the drow; the **"third cleft"** is a deeper passage below S1–S3 sites, now unheld. Sets up the drow situation the party returns to in S7+ |
 | Freed children | If the gap was opened | Pour back toward Shadowdale; the party can't escort them (they go the other way) |
 | **Milestone** | Survived audience + broke harvest + crossed over | **Earned → apply between sessions (toward L7).** No table level-up |
 
@@ -154,6 +156,7 @@ The seam contracting to a point **is** the threat — not a statblock. Track it 
 - [ ] **Did the party refuse, bargain, or attack?** Record any **promises made to Oberon** (real fey debt → S7).
 - [ ] **The taken children** — freed, or still gathered?
 - [ ] **Sela Wyndmere is dead** (redemptive). Who stood with her? → flip her roster status to *deceased*; close her arc in the log.
+- [ ] **Sela's last message — drow intelligence.** The party now knows Oberon's fey wardens were containing the drow beneath Old Skull, and a **"third cleft"** (deeper than the S1–S3 staging sites) is now unheld. Track this as a live thread for S7+ — the drow situation will be worse when the party returns. Cross-link `campaign/factions.md` § Drow and § Fey.
 - [ ] **The party crossed into the Feywild** — set the S7 cold open (where do they land?).
 - [ ] **Oberon survives, un-fought, court unmade** — disposition toward the party going forward.
 - [ ] **The wood is greening again** — Shadowdale will feel the recall reverse while the PCs are gone.
