@@ -21,9 +21,10 @@ Each NPC now has their own page under [`roster/`](roster/). This page is the ind
 - [Helbrin — Touring Bard of the Dalelands](roster/roster-helbrin.md) — celebrity elf lutenist; lost the bardic showcase to Fiorn, offered him a road slot
 
 ### Fey of the Living Wood / Bright Court Beneath
+- [Oberon, the Green Lord — Archfey of the Living Wood](roster/roster-oberon.md) — the wood-lord **named at last**; gracious archfey behind the recall/slow harvest. **Not a fightable foe** (S6 audience)
 - [Quillip Burr-and-Whistle — Curious Pixie](roster/roster-quillip.md) — recurring fey ally and bargain-broker; gave Nalith the Bright Court guest-token
 - [Lorindar Greenmantle — The Antlered Herald](roster/roster-lorindar-greenmantle.md) — prepped herald; **did not appear in play** — Maelorn delivered the mark instead
-- [Maelorn, the Thorn Ward — Knight and Herald of the Thorn Lord](roster/roster-maelorn.md) — fey knight who **rode in on a stag and delivered the wood-lord's summons (S5)**; prepped gatekeeper of the seam
+- [Maelorn, the Thorn Ward — Knight and Herald of the Thorn Lord](roster/roster-maelorn.md) — fey knight who delivered the wood-lord's summons (S5); the **seam's gatekeeper** at the S6 court (gate-trial prepped for S6)
 
 ### Vhaeraunian Drow (deceased)
 - [Khelziir Aun'velve — Drow Priest of Vhaeraun](roster/roster-khelziir.md) — **dead (S3)**; field-priest killed at his altar, portal never consecrated
@@ -47,7 +48,10 @@ Each NPC now has their own page under [`roster/`](roster/). This page is the ind
 | Quillip Burr-and-Whistle | Sela Wyndmere | Both Living Wood fixtures; Sela will recognize the description if the party mentions her |
 | Quillip Burr-and-Whistle | *unnamed fey lord* | Knows of him; refuses to name him; will leave a conversation that presses on it |
 | Quillip Burr-and-Whistle | Nalith (party) | Adopted the party; reappeared at the S4 festival to leave Nalith a fey token (still **unused** — Quillip did not appear in S5, and the gate where it would have mattered was never reached) |
-| the Thorn Lord / Living Lord (*unnamed fey lord*) | Bright Court Beneath | He is its lord; the court's livery is the green-white-bone ribbon-knot. Styled **"the Thorn Lord / Living Lord"** in play (S5); **true name reserved (S6+ reveal)** |
+| **Oberon, the Green Lord** (the wood-lord) | his green-white-bone court | He is its lord; the court's livery is the green-white-bone ribbon-knot. Styled **"the Thorn Lord / Living Lord"** in play; **named Oberon for the S6 audience** (DM canon; in-fiction reveal at his table) |
+| **Oberon, the Green Lord** | party | *Planned (S6, not yet played):* receives the marked at his court, names himself, and offers an **eternal place at his table** — the welcome **is** the harvest. **Not fought** (archfey; no statblock). The planned climax cheats him of the catch — a debt owed both ways |
+| **Oberon, the Green Lord** | Sela Wyndmere | Her courier-lord of twelve years; she tied the binding that let him reel the wood in. *Planned (S6):* she faces him at his throne and **cuts the binding** to break his hold — her redemptive sacrifice (hold the played record for the post-play log) |
+| **Oberon, the Green Lord** | Maelorn the Thorn Ward | His knight and gatekeeper; tests the party at the seam and reports their measure to the lord ahead of the audience |
 | Lorindar Greenmantle (Herald) | Bright Court Beneath | Prepped outrider/message-bearer; **did not appear in play** — the audience-mark was delivered by Maelorn instead |
 | Maelorn the Thorn Ward | Bright Court Beneath | The lord's knight/herald; **rode in on a stag at the S4→S5 bonfire and delivered the summons (S5, played)**; prepped as the seam's gatekeeper |
 | Maelorn the Thorn Ward | party | S5 (played): delivered the wood-lord's summons — court audience in two days, *"Do not disappoint me by dying."* No combat; not an enemy to kill |

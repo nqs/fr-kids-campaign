@@ -7,7 +7,7 @@
 - **Role:** Knight and herald of the **Thorn Lord / Living Lord** (the fey lord of the Living Wood). Delivered the wood-lord's summons to the party; prepped as the gatekeeper who would test the marked at the seam (gate-test not yet played)
 - **Affiliation:** The wood-lord's court (Fey of the Living Wood — see [factions](../factions.md) §8)
 - **Location:** Ranges the Living Wood on a **great stag**; comes and goes through the treeline/Feywild seam
-- **Status:** Alive — departed the bonfire unopposed; expected to reappear at the court (S6)
+- **Status:** Alive — departed the bonfire unopposed; **the seam's gatekeeper at the S6 court,** where his prepped gate-trial finally runs (statblock reprinted in the [S6 combat tracker](../../sessions/session%206/the-green-lords-court-2-combat-tracker.md))
 - **One-line summary:** A proud, old fey knight in bark and bronze who rode out of the treeline on a great stag at the Greengrass bonfire, marked the party with a pointing finger, and named them to his lord's court — courteous, unafraid, and not to be disappointed by their dying.
 
 **Appearance:** A fey knight armored in overlapping bark-and-bronze plate, helmed in a crown of living silver branches hung with white hawthorn blossom, wound with green-white-bone ribbons. His glaive ends in a single black thorn. Rides a **massive stag.** The smell of fresh flowers travels with him; music falls silent at his entrance. Level voice, ancient bearing. **(DM ADDITION)**

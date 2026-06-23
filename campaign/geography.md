@@ -264,7 +264,11 @@ The **Living Wood** north-east of Shadowdale, beyond the Granite Shoulder, took 
 
 The blight is a **collapsing Feywild seam:** the thin border that keeps this wood half-enchanted is **contracting inward** toward the center, recalling the fey and the wood's ambient enchantment "like water down a drain" (Yinu, Arcana 30, S5). The fey are **not fleeing the drow — they are being recalled.** **Sela Wyndmere's ribbon-knots,** tied at intervals on the trees, were the **stitching holding the seam open;** with her pact broken (S5), the seam retracts faster.
 
-**The court at the center** is where the unnamed wood-lord (the **Thorn Lord / Living Lord**) will receive the marked party — the destination of the two-day summons delivered at the bonfire. Prep imagined the audience ground as a hawthorn-arch clearing (two gnarled hawthorns grown into a living arch, seven ribboned standing stones, the seam pulled tight into a shining doorway), guarded by **Maelorn the Thorn Ward** (see [roster](roster.md)) — but **the party did not reach it in S5** (see status note).
+**The court at the center** is where the wood-lord — **[Oberon, the Green Lord](roster/roster-oberon.md)** (named for the S6 audience) — receives the marked party. The audience ground is the **Hawthorn Gate:** two gnarled hawthorns grown into a living arch over the contracting seam, seven ribboned standing stones, the seam pulled tight into a shining doorway, guarded by **Maelorn the Thorn Ward** (see [roster](roster.md)). **The door is a threshold to the Feywild itself** — Oberon's court lies *across* the seam, not in the material wood. The party **did not reach it in S5** (see status note); the gate-trial and the crossing are **Session 006.**
+
+> [!NOTE]
+> **The Feywild beyond the seam** *(DM ADDITION, prep for S6 → S7)*
+> Past the Hawthorn Gate the seam opens not back onto the grey wood but into the **Feywild** — Oberon's true domain, a hall of endless-spring living hawthorn around his antler throne. The **planned S6 climax** collapses the seam (Sela's sacrifice) and **hurls the party through into the raw Feywild,** stranding them there as the **Session 007 cold open.** Where they land on the far side is unwritten — reserve it for S7. The Feywild's border along the Ashaba is canonically thin here *[CG/world]*; the harvest-court and the crossing are DM additions.
 
 > [!IMPORTANT]
 > **DM:** Status after Session 005 (played)
