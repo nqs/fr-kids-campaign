@@ -163,6 +163,9 @@ The offer **is** the harvest. Everything Sela confessed — the slow pull, the t
 | The thread behind the throne | **Arcana DC 15** (Yinu +11) | The seam is now a single contracting thread, anchored to the throne — and **anchored to the party**, fine green-gold filaments hooked into the mark on the four. When it closes, it does not send anyone home; it **reels them in.** *Saying yes just stops you pulling against the line.* |
 | The feast | **Survival/Nature DC 13**, or any fey-lore | The food is real and the warmth is real and that is the trap — **eat nothing, promise nothing.** A guest who takes the lord's bread by his own word is *gathered* by consent. (Classic fey law; Quillip will hiss it if no one rolls it.) |
 | Oberon himself | **Insight DC 17** (hard) | He is not lying and never has been. He genuinely means the gift. That is what makes him terrible: to Oberon, being gathered into his eternal court **is** kindness. He will not rage if refused — he will simply let the door finish closing, because the line is already set. |
+| Sela's ribbons in the court | **Investigation DC 14** or Sela's own recognition (automatic if she is present) | The ribbons woven through the hall — green, white, bone — are **Sela's knots.** She tied them. And some are not just stitching: they are **messages,** still legible in the knot-pattern, words she carried and never read. One cluster near the throne is older than the rest, the knots tighter, the ribbon sun-faded: a message she carried **years ago.** Sela goes still. *"Those are mine. I tied those. And I never… I never read what was in them."* (Sets up the drow-intelligence reveal in Scene 4.) |
+
+**Sela's ribbons are the bridge to the drow plot.** If the party spots the tell above (or even if they don't — Sela will notice her own knots), seed the realization that the ribbons weren't *only* stitching. Some carried **words** — Oberon's instructions to fey wardens who watched the passages beneath Old Skull. Sela carried drow intelligence for years without knowing it. Do **not** reveal the content here; save it for Scene 4, when Sela reads the knots as she cuts. The beat in Scene 3 is just the *recognition* — her knots are in the court, and they say things she never read.
 
 > [!WARNING]
 > **Flag:** DM — Oberon is not a combat encounter. Do not stat him; do not let them fight him.
@@ -192,7 +195,19 @@ The seam is a hand's-breadth from closing. Whatever the party has tried — refu
 
 > [!NOTE]
 > **Read-aloud:** Read Aloud — Sela at the Throne
-> Sela walks to the foot of the throne the way she walked into the wood — quiet, certain, watching the patient. She looks up at the Green Lord, and for the first time all day she is not afraid. *"You gave me healing,"* she says, *"and I gave you twelve years of knots, and never once read what I was tying. I read it now. Every ribbon I left was a stitch, and I sewed this wood into your hand a thread at a time. The children. The droughts. Them —"* she does not look at the still, smiling guests *"— I did that. Carrying your words."* She lifts the last knot of green, white, and bone. *"So I'll carry one more. My own."*
+> Sela walks to the foot of the throne the way she walked into the wood — quiet, certain, watching the patient. She looks up at the Green Lord, and for the first time all day she is not afraid. *"You gave me healing,"* she says, *"and I gave you twelve years of knots, and never once read what I was tying. I read it now. Every ribbon I left was a stitch, and I sewed this wood into your hand a thread at a time. The children. The droughts. Them —"* she does not look at the still, smiling guests *"— I did that. Carrying your words."* Her hands move to the ribbons woven through the throne's roots, and she stops. Her fingers find a knot she tied **years** ago — and her face changes. *"These weren't all stitches,"* she whispers. *"Some of these were **messages.** Real words. I was carrying — gods, I was carrying **intelligence** and I never —"* She lifts the last knot of green, white, and bone. *"So I'll carry one more. My own. And I'll read this one to them first, because they'll need it where they're going."*
+
+> [!NOTE]
+> **Read-aloud:** Read Aloud — The Last Message
+> As Sela's fingers work the old knot open, the ribbon-language unravels into words only she can read — but she speaks them aloud, fast, because the hall is coming apart around her and she is running out of time. *"This one's four years old. I carried it to the hollow hawthorn and never knew what it said."* She reads:
+>
+> *"The dark ones dig beneath the skull-stone. The masked ones open mouths in the rock; the spider-ones close them. Both are ours to watch, not ours to fight. Hold the green at the river-stone and do not let them past the third cleft. If the stitching holds, the wood holds."*
+>
+> She looks at the party, and the understanding hits her like the healing leaving her body. *"He wasn't just gathering. He was **watching** them. The drow. Under Old Skull. His wardens were holding them back, and I was the — I was the **thread** that held the line, and I never knew."* The knot dissolves in her fingers. *"The stitching's broken now. I broke it. And when this cut lands, there's nothing holding that third cleft at all."*
+
+> [!WARNING]
+> **Flag:** DM — The drow-intelligence tie (connects S6 to the S1–S3 drow arc)
+> This is the bridge between the fey arc and the drow arc. Sela's twelve years of unread messages weren't only the harvest-stitching — some were **Oberon's instructions to fey wardens** who monitored the drow passages beneath Old Skull. The "masked ones" are the **Vhaeraunians** (silver half-masks, S1–S3); the "spider-ones" are the **Lolthites** (S2). The **"third cleft"** is a deeper passage the party has never found — below the three staging sites they already cleared. The implication: Oberon's fey were a containment perimeter, and Sela's ribbons were part of it. By breaking the pact (S5) and cutting the binding (S6), the party has **removed that containment.** When they return from the Feywild, the drow situation beneath Old Skull will be worse than they left it. **The party carries this intelligence into the Feywild** — it's the one piece of Sela's legacy that isn't spent by her death.
 
 ### Sela Cuts the Line *(the climax — give it room)*
 
@@ -227,6 +242,7 @@ The binding collapses. Oberon's hold on the party breaks — they are not gather
 - **The harvest is broken** — the taken children freed (if the party opened the gap), the wood greening again, Oberon cheated of his catch.
 - **The party is pulled through into the Feywild** — alive, free, together, and **lost.** The emergence is the S7 cold open.
 - **Oberon survives, un-defeated and un-fought** — his court unmade but his person untouched. A debt is now owed in both directions. (Long-term thread.)
+- **Drow intelligence carried into the Feywild** — Sela's last message reveals Oberon's fey wardens were monitoring (and containing) the drow beneath Old Skull; the **"third cleft"** is a deeper passage the party has never found; and the fey containment is now broken along with the harvest. The party carries this knowledge with them — Sela's final gift alongside the cut.
 
 ---
 
@@ -242,6 +258,7 @@ The binding collapses. Oberon's hold on the party breaks — they are not gather
 ### Boons / Intangible
 
 - **Sela's gift** — the light of her cut passes *through* the party on the way out. DM discretion for an S7 boon: a one-time fey blessing, a lingering scrap of her healing, or simply the wood's goodwill carried into a hostile plane. Define it when S7 opens.
+- **Sela's last message (drow intelligence)** — the one piece of Sela's legacy not spent by her death. The party now knows: (1) Oberon's fey wardens were monitoring the drow beneath Old Skull for years; (2) the "masked ones" (Vhaeraunians) and "spider-ones" (Lolthites) were both under fey observation; (3) a **"third cleft"** — a deeper passage below the three staging sites the party already cleared — exists and was held by fey wardens; (4) that containment is now **broken** along with the binding. This intelligence follows the party into the Feywild and back, and sets up the drow situation they'll return to in S7+.
 - **Oberon's measure** — track *how* the party handled his table: refused flat, bargained (and what they promised), swung at him, or were saved before they could choose. It sets the Green Lord's disposition toward them the next time the wood and the party cross — and fey lords have long memories.
 
 ### XP / Milestone
@@ -259,6 +276,7 @@ Drafted here; enter into the campaign guide **before** play per the workflow (ro
 - **Sela Wyndmere — died redemptively (S6, pending play).** From penitent ally to **sacrifice:** spent her fey-loaned life to cut the binding and break the harvest. **Hold the roster status-flip to *deceased* until the session is actually played** (same gate as session-log) — but stage the entry now.
 - **The Harvest Clock & "the line"** — promote the contracting-seam mechanic to a named device: the binding reels the marked in when it closes; only the courier who tied it can cut it. → faction note.
 - **Maelorn the Thorn Ward — gate-trial played at last.** His prepped Ceremonial-Restraint trial finally runs here; note the outcome in the roster after play.
+- **Oberon's fey-warden containment of the drow (the "third cleft")** — Sela's last message reveals Oberon's fey were monitoring and containing the drow beneath Old Skull for years; Sela's ribbons carried drow intelligence she never read. A **"third cleft"** — a deeper passage below the three Vhaeraunian staging sites (S1–S3) — was held by fey wardens and is now unheld. → `campaign/factions.md` (§ Drow Underdark Factions and § Fey of the Living Wood — cross-link the two); `campaign/geography.md` (the third cleft as a DM Addition under Old Skull). **Hold the session-log entry until after play** (same gate as Sela's death).
 
 > [!WARNING]
 > **Flag:** Invented content to confirm with the user

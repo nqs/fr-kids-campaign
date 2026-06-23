@@ -68,3 +68,20 @@ The healer who patched you up all winter, who buried enough scouts to have alrea
 She is the one who tied the binding. She is the only one who can cut it. And the fey healing he loaned her is the thread she has to spend to do it.
 
 > *"You have years left to grow old badly. I spent mine. Let me spend them well."*
+
+---
+
+## Sela's Last Message
+
+*(Shown to the players when Sela reads the old knot in Scene 4 — her final gift, the one piece of her legacy not spent by her death.)*
+
+As Sela's fingers work the old knot open, she speaks the words aloud — fast, because the hall is coming apart around her:
+
+> *"The dark ones dig beneath the skull-stone. The masked ones open mouths in the rock; the spider-ones close them. Both are ours to watch, not ours to fight. Hold the green at the river-stone and do not let them past the third cleft. If the stitching holds, the wood holds."*
+
+**What the party learns:**
+
+- **The "masked ones"** are the Vhaeraunians — the drow cell the party fought in Sessions 1–3 (silver half-masks, three staging sites on Old Skull's flanks).
+- **The "spider-ones"** are the Lolthites — the rival drow faction purging Vhaeraunian anchors from below (Session 2).
+- **The "third cleft"** is a passage **deeper** than the three staging sites the party already cleared — one they have never found.
+- **Oberon's fey wardens were containing the drow** — and Sela's ribbons were part of that containment. The stitching is now broken. When the party returns from the Feywild, nothing will be holding that third cleft.
