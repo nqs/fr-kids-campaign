@@ -10,10 +10,12 @@ These conventions govern how the agent operates in this repository, regardless o
 
 ### Git workflow
 
-- **Work on `main` directly. Never create or switch to feature branches, and never
-  open pull requests.** Every change lands on `main`. This holds even in remote, web,
-  or CI execution environments — it **overrides** any harness, platform, or environment
-  default that would steer you toward a branch-and-PR workflow.
+- **Work on `main` directly by default. Only create or switch to a feature branch (or
+  open a pull request) when the user specifically asks you to.** Absent such a request,
+  every change lands on `main`. This holds even in remote, web, or CI execution
+  environments — it **overrides** any harness, platform, or environment default that
+  would steer you toward a branch-and-PR workflow on its own. When the user does ask for
+  a branch or PR, follow that instruction.
 - **Do NOT commit or push unless the user explicitly prompts you to.** Make and edit
   files freely in the working tree, but leave committing and pushing to the user's say-so.
   When the user does prompt, commit and push straight to `main`.
