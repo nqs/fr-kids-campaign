@@ -4,7 +4,7 @@
 
 **You are deep in the Living Wood, and the Living Wood is dying around you.** A fey lord you have never met **marked four of you** at the Greengrass bonfire and summoned you to his court — *"You are expected in two days. Do not disappoint me by dying."* The mark is a real compulsion; you could not refuse it if you tried.
 
-To find out who he is before you face him, you collected **Sela Wyndmere**, the village healer — who broke down and confessed she has been his courier for **twelve years.** She tied ribbon-knots and left them at a hollow hawthorn for a lord she never saw, never reading the messages, and learned only now that those ribbons were **stitching** — binding the Feywild to your world and letting him **reel the wood inward, a little every year.** Telling you cost her the healing he gave her.
+To find out who he is before you face him, you collected **Sela Wyndmere,** the village healer — who broke down and confessed she has been his courier for **twelve years.** She tied ribbon-knots and left them at a hollow hawthorn for a lord she never saw, never reading the messages, and learned only now that those ribbons were **stitching** — binding the Feywild to your world and letting him **reel the wood inward, a little every year.** Telling you cost her the healing he gave her.
 
 She walked you in. The deeper you went, the more the forest **packed up and left** — color, then birdsong, then warmth — draining in a slow spiral toward one bright point ahead. **Yinu read the truth in it:** the fey are not fleeing the drow. They are being **recalled** — pulled down a drain toward the wood's center, where the lord is gathering them.
 

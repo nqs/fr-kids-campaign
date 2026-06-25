@@ -6,7 +6,7 @@
 ## Scene Order
 
 | # | Scene | Key mechanic | DM flag |
-|---|-------|--------------|---------|
+|---|-------|--------------|--------|
 | 1 | The Last Mile | Reorient at the gate; seam closing on a clock; Sela declares she's crossing | ~10 min. **Don't re-run S5** — Harper book / Lathander letter / drow clock all off the table tonight |
 | 2 | The Hawthorn Gate | **Encounter 1** — Maelorn's trial; **berry shortcut**; Dirk's Unmarked-Sixth choice | Ends in a yield, never a kill. Maelorn escorts them through; **Sela crosses too** |
 | 3 | The Court Received | **Oberon named**; gracious welcome + the eternal-table **offer**; spot the harvest | **Do NOT stat or fight Oberon.** The lever is the binding, not the lord |
