@@ -7,7 +7,7 @@
 
 | # | Scene | Key mechanic | DM flag |
 |---|-------|--------------|---------|
-| 1 | Embers & the Mark | Debrief frames **the mark + 11-night clock**; party sent to collect Sela. **Dirk's debut** — Ulphor attaches the stranded orc deckhand to the party | Keep to ~15 min. Sela is **not** in the solar. Hand Dirk to silverstrike1 fast — one intro beat, no audition |
+| 1 | Embers & the Mark | Debrief frames **the mark + 11-night clock**; party sent to collect Sela. **Dirk's debut** — Ulphor attaches the stranded orc deckhand to the party | Keep to ~15 min. Sela is **not** in the solar. Hand Dirk to Ari fast — one intro beat, no audition |
 | — | Two errands *(parallel)* | Yinu → Harper "key" book; Naan → Lathander letter | Both are **plants** — don't pay off. Naan's letter = same night as the audience |
 | 2 | The Healer's Cottage | **Meet Sela properly** — per-PC threads, courier mechanics, rapport beat | ~10 min character scene. Mark the rapport PC (pays off Scene 4). She hands over 2 poultices + antitoxin |
 | 3 | The Quiet Wood | Survival/Arcana/Investigation reads; Sela reveals middle of her story | **Encounter 1** near the livestock thicket |
@@ -24,7 +24,7 @@
 
 ---
 
-## The New Hand — Dirk *(silverstrike1, in-fiction debut)*
+## The New Hand — Dirk *(Ari, in-fiction debut)*
 
 - **Who:** Orc Rogue 6 (Thief), Sailor. Stealth +10, Sleight of Hand +10, Darkvision 120 ft., 30-ft. climb + swim (Mariner's armor), Sneak Attack 3d6, Sharpshooter. AC 16, HP 38 *(L5 sheet — rebuild to L6 with the rest)*.
 - **Intro (Scene 1):** deckhand off the *Greengage's Luck*; barge fled downriver when the river went silent. Reported the "driven, not taken" livestock to Ulphor at dawn; she attaches them to the party. **Not marked** — wasn't at the bonfire.
@@ -52,7 +52,7 @@
 | 3 | Bolt for the closing door | Break for the seam |
 
 - **Win condition = calm the stag** (Nalith/Naan/Kto all have the tools). Telegraph fear in the beasts' eyes from initiative.
-- **Dirk's herding lane:** action to clear the path to the seam (ball bearings / rope / warning shots / looming) → next calm attempt has **advantage**; wolves ignore anyone not blocking the door. Give it to silverstrike1 before the bow comes up.
+- **Dirk's herding lane:** action to clear the path to the seam (ball bearings / rope / warning shots / looming) → next calm attempt has **advantage**; wolves ignore anyone not blocking the door. Give it to Ari before the bow comes up.
 - Killing the stag: allowed, not punished mechanically — but Sela takes the antler and the Thornward runs colder in Enc 2.
 
 ---
@@ -84,7 +84,7 @@
 | Worthy (bloodied) | HP ≤ 45 | Kneels, names them worthy → terms |
 | Worthy (timer) | End of Round 3 | "You did not break, did not kill" → terms |
 | Mercy bonus | Calmed beasts in Enc 1 | Yields a round early / bloodied threshold ≤55 |
-| **Unmarked Sixth** | Thornward stops at Dirk (pre-initiative) | Dirk's choice: **stand with the marked** (tested + named in guest-right) or stand aside (safe, but no safe-conduct at the audience). silverstrike1 answers, nobody else |
+| **Unmarked Sixth** | Thornward stops at Dirk (pre-initiative) | Dirk's choice: **stand with the marked** (tested + named in guest-right) or stand aside (safe, but no safe-conduct at the audience). Ari answers, nobody else |
 | **Killed Thornward** | PC kill | **Bad.** Audience off; lord's grievance; S6+ war. Let it cost. |
 
 ---
@@ -181,4 +181,4 @@
 - **Don't** name the fey lord. He's named at his own table (S6+).
 - **Don't** resolve Naan's two-invitations fork, Yinu's Harper key, or Quillip's riddle — plant them.
 - **Don't** stage a level-up. The party is already Level 6.
-- **Don't** play the Unmarked Sixth as a snub — it's Dirk's spotlight. The Thornward finds the unmarked volunteer *interesting*, and silverstrike1 makes the call alone.
+- **Don't** play the Unmarked Sixth as a snub — it's Dirk's spotlight. The Thornward finds the unmarked volunteer *interesting*, and Ari makes the call alone.

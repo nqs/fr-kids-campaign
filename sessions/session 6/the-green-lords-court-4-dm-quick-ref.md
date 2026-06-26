@@ -65,7 +65,7 @@ The seam contracting to a point **is** the threat — not a statblock. Track it 
 | Worthy (bloodied) | HP ≤ 45 | Kneels, names them worthy → escorts through |
 | Worthy (timer) | End of Round 3 | "You did not break, did not kill" → escorts through |
 | Mercy bonus | Calmed the stranded beasts in S5 | Yields a round early / bloodied ≤55 |
-| **Unmarked Sixth** | Maelorn stops at Dirk (pre-initiative) | Dirk's choice: **stand with the marked** (tested + counted through) or stand aside (safe, no crossing). silverstrike1 answers, nobody else |
+| **Unmarked Sixth** | Maelorn stops at Dirk (pre-initiative) | Dirk's choice: **stand with the marked** (tested + counted through) or stand aside (safe, no crossing). Ari answers, nobody else |
 | **Quillip's crossing** | After the gate resolves | She's afraid to cross; **if any PC invites her, she comes** (fey eyes inside the hall + S7 anchor). If not, she stays at the treeline and is gone when they fall. Let the players decide |
 | **Killed Thorn Ward** | PC kill | **Bad.** No escort; Oberon greets *poachers* — Act Two keeps its hooks, loses its grace. Let it cost the tone |
 

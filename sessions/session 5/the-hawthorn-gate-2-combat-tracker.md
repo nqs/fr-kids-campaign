@@ -60,7 +60,7 @@ NPC initiative is pre-rolled (DEX-averaged). PCs roll live and write into the bl
 
 > [!WARNING]
 > **Flag:** DM — This is a mercy puzzle wearing a fight's clothes
-> The party has Nalith (Animal Handling +6, Druid), Naan (Skilled: Animal Handling; Healing Light works on the stag), and Kto (Animal Handling +5). Any *one* success on the stag ends it. Don't hide the off-ramp — telegraph the fear in the beasts' eyes from initiative. If the table chooses violence, run it straight, but make every bloodied beast *flinch,* not snarl. **Watch Dirk:** a 3d6 Sneak Attack from a new player who wants to contribute is the likeliest way this goes bloody — hand silverstrike1 the herding lane (trigger above) early, before the bow comes up.
+> The party has Nalith (Animal Handling +6, Druid), Naan (Skilled: Animal Handling; Healing Light works on the stag), and Kto (Animal Handling +5). Any *one* success on the stag ends it. Don't hide the off-ramp — telegraph the fear in the beasts' eyes from initiative. If the table chooses violence, run it straight, but make every bloodied beast *flinch,* not snarl. **Watch Dirk:** a 3d6 Sneak Attack from a new player who wants to contribute is the likeliest way this goes bloody — hand Ari the herding lane (trigger above) early, before the bow comes up.
 
 ### Loot / Aftermath
 
@@ -176,7 +176,7 @@ NPC initiative is pre-rolled (DEX-averaged). PCs roll live and write into the bl
 ### Triggers & Countdowns
 
 - **The Berry Shortcut (best outcome).** If **Nalith presents Quillip's hawthorn berry** at any point (action to show/press it to the arch), the Thornward **immediately grounds his glaive.** Run **one symbolic round** — a single crossed-blades salute — then go straight to *Scene 5* terms. The Sprites stand down. *No real combat.* Flag it as the reward for keeping the token. **The berry vouches for everyone present at the arch — Dirk included** (*"vouched by the wood's own"*).
-- **The Unmarked Sixth (Dirk's beat — fires before or at initiative).** Dirk carries **no mark** — the Thornward says so aloud and offers the choice: *stand with the marked and be measured with them,* or *stand aside without quarrel.* Standing with the party = Dirk is tested normally and **named in the guest-right** at the yield. Standing aside = safe, but **no safe-conduct at the full moon** (cannot attend the audience). Let silverstrike1 answer — don't have another player answer for them. Full read-aloud in file 1, Scene 4.
+- **The Unmarked Sixth (Dirk's beat — fires before or at initiative).** Dirk carries **no mark** — the Thornward says so aloud and offers the choice: *stand with the marked and be measured with them,* or *stand aside without quarrel.* Standing with the party = Dirk is tested normally and **named in the guest-right** at the yield. Standing aside = safe, but **no safe-conduct at the full moon** (cannot attend the audience). Let Ari answer — don't have another player answer for them. Full read-aloud in file 1, Scene 4.
 - **Bloodied (≤45 HP)** — the Thornward steps back, plants his glaive, and **kneels:** *"Enough. You are worth the table."* Combat ends. Standard worthy-verdict.
 - **End of Round 3** — even unbloodied, the Thornward calls the test passed (*"You did not break, and you did not kill. Good."*) and yields. Combat ends.
 - **Ceremonial Restraint (⚗️)** — the Thornward **never drops a PC.** Any hit that would reduce a PC to 0 instead leaves them at **1 HP and prone** ("the flat of the thorn"). Narrate it.

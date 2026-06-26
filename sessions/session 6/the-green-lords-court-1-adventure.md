@@ -108,7 +108,7 @@ The mark is on four (Fiorn, Yinu, Naan, Nalith); **Dirk was on a barge when it l
 > **Read-aloud:** Read Aloud — The Thorn Ward and Dirk
 > The antlered helm turns to Dirk and the knight inhales once, like a man reading weather. *"Four my lord has marked. This one carries no mark, no invitation, and no debt — river-blood, walked into a leaving wood for people met a day ago."* A pause that might be approval. *"The marked are tested because they are expected. **You** are tested because you are interesting. Stand with them and be measured — or stand aside, and the gate has no quarrel with you."*
 
-**Let silverstrike1 make the call.** Standing with the party means Dirk is measured alongside everyone and **counted through the door** with the rest. Standing aside is safe and Maelorn genuinely holds no grudge — but Dirk then has **no safe-conduct across the seam** and watches from the treeline with Sela's old limit. (The berry covers Dirk too, if Nalith spends it.) No kid will pick to stay behind — but the *choice* is what makes crossing mean something.
+**Let Ari make the call.** Standing with the party means Dirk is measured alongside everyone and **counted through the door** with the rest. Standing aside is safe and Maelorn genuinely holds no grudge — but Dirk then has **no safe-conduct across the seam** and watches from the treeline with Sela's old limit. (The berry covers Dirk too, if Nalith spends it.) No kid will pick to stay behind — but the *choice* is what makes crossing mean something.
 
 ### What the Trial Measures
 

@@ -2,7 +2,7 @@
 
 > [Back to Party Roster](../party.md)
 
-**Player:** silverstrike1
+**Player:** Ari
 **Class/Level:** Rogue 5 (Thief)
 **Species:** Orc
 **Background:** Sailor
