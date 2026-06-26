@@ -2,8 +2,12 @@
 
 **System:** D&D 5e (2024 PHB rules)
 **Milestone Leveling**
-**Party Size:** 7 PCs
+**Party Size:** 6 active PCs (Loric T. paused — see note)
 **Current Level:** 5 (all PCs)
+
+> [!IMPORTANT]
+> **Note:** Loric T. (Lily) is paused
+> **Loric T.** and their player **Lily** are **not currently part of the campaign.** The character is **paused, not retired** — they may return at a later time, but **only on the DM's explicit say-so.** The character page is kept intact for that possibility. Treat the active table as the **six** PCs below. Do not write Loric into session content while paused.
 
 > [!NOTE]
 > **Note:** Level 6 milestone — earned, not yet applied
@@ -18,10 +22,12 @@ Each PC now has their own page with the full stat block, features, proficiencies
 - [Kto](party/party-kto.md) — Fighter 5 (Champion), High Elf · *front-line melee / ranged striker* · Player: Caitlin
 - [Fiorn (The Jester)](party/party-fiorn.md) — Rogue 5 (Thief), Changeling · *skill / infiltration / social* · Player: Fox
 - [Yinu](party/party-yinu.md) — Wizard 5 (Order of Scribes), Aasimar · *arcane blaster / controller* · Player: Sev
-- [Loric T.](party/party-loric-t.md) — Sorcerer 5 (Draconic), Tiefling · *arcane blaster / metamagic* · Player: Lily
 - [Nalith](party/party-nalith.md) — Druid 5 (Circle of Dreams), Tiefling · *support / healer / controller* · Player: Piper
 - [Naan](party/party-naan.md) — Warlock 5 (Celestial), Aasimar · *eldritch striker / secondary healer* · Player: Lilli
 - [Dirk](party/party-dirk.md) — Rogue 5 (Thief), Orc · *scout / infiltration / skirmisher* · Player: silverstrike1/Ari *(joined Session 005)*
+
+**Paused (not currently in the campaign):**
+- [Loric T.](party/party-loric-t.md) — Sorcerer 5 (Draconic), Tiefling · *arcane blaster / metamagic* · Player: Lily — **paused; may return only on DM say-so**
 
 ---
 
@@ -32,10 +38,10 @@ Each PC now has their own page with the full stat block, features, proficiencies
 | [Kto](party/party-kto.md) | Caitlin | Fighter (Champion) | 5 | High Elf | Front-line melee / ranged striker |
 | [Fiorn (The Jester)](party/party-fiorn.md) | Fox | Rogue (Thief) | 5 | Changeling | Skill/infiltration/social |
 | [Yinu](party/party-yinu.md) | Sev | Wizard (Scribes) | 5 | Aasimar | Arcane blaster/controller |
-| [Loric T.](party/party-loric-t.md) | Lily | Sorcerer (Draconic) | 5 | Tiefling | Arcane blaster/metamagic |
 | [Nalith](party/party-nalith.md) | Piper | Druid (Dreams) | 5 | Tiefling | Support/healer/controller |
 | [Naan](party/party-naan.md) | Lilli | Warlock (Celestial) | 5 | Aasimar | Eldritch striker / secondary healer |
 | [Dirk](party/party-dirk.md) | silverstrike1 | Rogue (Thief) | 5 | Orc | Scout / infiltration / skirmisher |
+| ~~[Loric T.](party/party-loric-t.md)~~ *(paused)* | Lily | Sorcerer (Draconic) | 5 | Tiefling | *Out of campaign — may return on DM say-so* |
 
 ### Strengths
 - Heavy arcane firepower (Fireball, Lightning Bolt, Scorching Ray, Twinned spells, Eldritch Blast at 270 ft. with Agonizing damage)

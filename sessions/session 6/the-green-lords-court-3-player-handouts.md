@@ -14,6 +14,7 @@ Now you stand at that center. Ahead: two great hawthorns arched over a doorway o
 
 - **The door is the only way on** — and a gatekeeper is about to step out of it to find out whether you're worth his lord's table.
 - **Do you still have Quillip's berry?** The pixie's little hawthorn token has never been spent. The gate might be exactly what it's for.
+- **Quillip is afraid of the door.** She's never gone through it — nobody who does comes back the same, she says. If you want her with you on the far side, you'll have to ask her.
 - **Dirk wasn't marked** — he wasn't at the bonfire. The gate will notice. Walking through is a choice he gets to make.
 - **Whatever waits past the seam, Sela is walking into it with you** — and she is not telling you everything she means to do.
 
