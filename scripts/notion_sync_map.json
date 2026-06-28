@@ -1,0 +1,43 @@
+{
+  "_comment": "Repo-relative Markdown path -> live Notion page ID. Consumed by scripts/sync_notion.py. Add an entry here before a new file's changes can be synced; unmapped files are skipped with a warning, not an error.",
+  "Home.md": "38c567c7-a569-81c6-8c45-d385e8cea017",
+  "AGENTS.md": "38c567c7-a569-8160-9510-dcdfb5796315",
+  "dnd-adventure-generator.md": "38c567c7-a569-817b-a8d5-ed77673826c1",
+
+  "campaign/world.md": "38c567c7-a569-81f2-8c9f-d262b5233193",
+  "campaign/geography.md": "38c567c7-a569-8122-bcc1-fad00515a565",
+  "campaign/factions.md": "38c567c7-a569-8126-b0f0-f146eef1bb08",
+  "campaign/roster.md": "38c567c7-a569-8102-b394-cf508e3ddf6c",
+  "campaign/party.md": "38c567c7-a569-8196-bf7f-cd3145f460fe",
+  "campaign/session-log.md": "38c567c7-a569-8140-a40a-f245750bbd32",
+
+  "campaign/roster/roster-lady-ulphor.md": "38c567c7-a569-816b-b8b7-f73f7d591fe7",
+  "campaign/roster/roster-brynn-ashford.md": "38c567c7-a569-81d2-a0c5-e3e9ceb2306b",
+  "campaign/roster/roster-torval-dunmore.md": "38c567c7-a569-817d-a295-e8931b4e0820",
+  "campaign/roster/roster-sela-wyndmere.md": "38c567c7-a569-81f0-b848-d25692cd804a",
+  "campaign/roster/roster-corwick-helm.md": "38c567c7-a569-81d1-8be5-d99968d67af4",
+  "campaign/roster/roster-orvyn-tal.md": "38c567c7-a569-81bc-8da2-c2707950580b",
+  "campaign/roster/roster-rellan-tessar.md": "38c567c7-a569-812b-969c-fc174a5ef16a",
+  "campaign/roster/roster-helbrin.md": "38c567c7-a569-818c-a701-d6815f8f8fb2",
+  "campaign/roster/roster-oberon.md": "38c567c7-a569-810a-a833-fa9d53edab9f",
+  "campaign/roster/roster-quillip.md": "38c567c7-a569-815b-8ad6-ceeab34f1e9a",
+  "campaign/roster/roster-maelorn.md": "38c567c7-a569-81fe-83dd-fec8e269b8bc",
+  "campaign/roster/roster-lorindar-greenmantle.md": "38c567c7-a569-810d-8e42-c777e26f08dd",
+  "campaign/roster/roster-khelziir.md": "38c567c7-a569-81f4-aa74-fcab6d38d15a",
+  "campaign/roster/roster-zeldrazz.md": "38c567c7-a569-8173-a150-cad4a801c72a",
+
+  "campaign/party/party-kto.md": "38c567c7-a569-817f-b7a4-c4f39bcf222e",
+  "campaign/party/party-fiorn.md": "38c567c7-a569-816d-a732-c96e80aba3bd",
+  "campaign/party/party-yinu.md": "38c567c7-a569-81fd-9483-e8c4c558b62b",
+  "campaign/party/party-nalith.md": "38c567c7-a569-81b3-91a6-d8a71996b90f",
+  "campaign/party/party-naan.md": "38c567c7-a569-816c-9641-e04601b0270d",
+  "campaign/party/party-dirk.md": "38c567c7-a569-8139-b7ff-f78dd1853a0c",
+  "campaign/party/party-loric-t.md": "38c567c7-a569-81a2-a4f5-ccd30cc2dd47",
+
+  "sessions/session 1/the-missing-scout-0-overview.md": "38c567c7-a569-8129-bde2-e2499da6865f",
+  "sessions/session 2/the-second-cleft-0-overview.md": "38c567c7-a569-8126-8863-c0c47eb32ade",
+  "sessions/session 3/the-half-mask-shrine-0-overview.md": "38c567c7-a569-812a-8ebe-e7dd91801931",
+  "sessions/session 4/the-greengrass-greengage-0-overview.md": "38c567c7-a569-81a1-995d-e196a1935c2d",
+  "sessions/session 5/the-hawthorn-gate-0-overview.md": "38c567c7-a569-8198-8d10-ca28598f251a",
+  "sessions/session 6/the-green-lords-court-0-overview.md": "38c567c7-a569-81c6-b58d-c9f66f7b2c06"
+}
