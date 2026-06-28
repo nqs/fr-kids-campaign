@@ -20,6 +20,7 @@ Each session has a **landing page** — a short summary plus links to the advent
 - [Session 003 — The Half-Mask Shrine](sessions/session%203/the-half-mask-shrine-0-overview.md)
 - [Session 004 — The Greengrass Greengage Affair](sessions/session%204/the-greengrass-greengage-0-overview.md)
 - [Session 005 — The Hawthorn Gate](sessions/session%205/the-hawthorn-gate-0-overview.md)
+- [Session 006 — The Green Lord's Court](sessions/session%206/the-green-lords-court-0-overview.md) *(planned)*
 
 ## Reference Material
 
