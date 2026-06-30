@@ -25,6 +25,7 @@ Each PC now has their own page with the full stat block, features, proficiencies
 - [Nalith](party/party-nalith.md) — Druid 5 (Circle of Dreams), Tiefling · *support / healer / controller* · Player: Piper
 - [Naan](party/party-naan.md) — Warlock 5 (Celestial), Aasimar · *eldritch striker / secondary healer* · Player: Lilli
 - [Dirk](party/party-dirk.md) — Rogue 5 (Thief), Orc · *scout / infiltration / skirmisher* · Player: Ari *(joined Session 005)*
+- [Tyvlex](party/party-tyvlex.md) — Rogue 6 (Thief), Elf (Wood) · *stealth / precision striker / utility* · Player: Kaila *(joined Session 006)*
 
 **Paused (not currently in the campaign):**
 - [Loric T.](party/party-loric-t.md) — Sorcerer 5 (Draconic), Tiefling · *arcane blaster / metamagic* · Player: Lily — **paused; may return only on DM say-so**
@@ -41,6 +42,7 @@ Each PC now has their own page with the full stat block, features, proficiencies
 | [Nalith](party/party-nalith.md) | Piper | Druid (Dreams) | 5 | Tiefling | Support/healer/controller |
 | [Naan](party/party-naan.md) | Lilli | Warlock (Celestial) | 5 | Aasimar | Eldritch striker / secondary healer |
 | [Dirk](party/party-dirk.md) | Ari | Rogue (Thief) | 5 | Orc | Scout / infiltration / skirmisher |
+| [Tyvlex](party/party-tyvlex.md) | Kaila | Rogue (Thief) | 6 | Elf (Wood) | Stealth / precision striker / utility |
 | ~~[Loric T.](party/party-loric-t.md)~~ *(paused)* | Lily | Sorcerer (Draconic) | 5 | Tiefling | *Out of campaign — may return on DM say-so* |
 
 ### Strengths

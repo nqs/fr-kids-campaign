@@ -10,8 +10,8 @@ tags:
 ## Session 006 — Welcome to My Table
 **Date played:**
 **Location in-world:** The Living Wood (gate of standing stones); the Bright Court Beneath (Oberon's hall)
-**Players present:** Sev (Yinu), Piper (Nalith), Lilli (Naan), Caitlin (Kto)
-**Absent:** Fox (Fiorn), Ari (Dirk) [unclear — a new PC named "Typhrex" (player: Kylan) was introduced at the table; see DM Notes]
+**Players present:** Sev (Yinu), Piper (Nalith), Lilli (Naan), Caitlin (Kto), Kaila (Tyvlex)
+**Absent:** Fox (Fiorn), Ari (Dirk)
 **Session ended at:** Sela rips the ribbon binding the seam; Oberon explodes into butterflies; party is rocketed toward the throne / out of the hall — landing location unknown, session cut on the launch
 
 ---
@@ -23,12 +23,12 @@ tags:
 - Party arrives at the gate described at the end of S5: a wing of moss-spurred standing stones, two ancient poplars grown together overhead, and a doorway of green-gold light "pulled tight, bright, and breathing." Sela stops at the tree line: *"This is as far as I've ever been led to come. He's never let me see the door itself."*
 - Yinu uses Arcana (automatic success given +11; DM simply confirms) — the gate is transportation magic.
 - Before the party can step through, **Maelorn the Thorn Ward** emerges from the gate: bark-and-bronze armor, helm of living silver branches, glaive whose head is a single black thorn. He plants the glaive: *"I am Maelorn, Thorn Ward of this gate. My lord has marked you, and you are marked to be tested before you are met. I will not aim to kill. Do not insult me by dying."*
-- Initiative rolled. Order (approximate, from transcript): Typhrex [unclear PC — see DM Notes], Yinu, Nalith, Naan, Kto [rolled for by table].
+- Initiative rolled. Order (approximate, from transcript): Tyvlex, Yinu, Nalith, Naan, Kto [rolled for by table].
 
 **Combat — Gate Trial (Maelorn + Two Giant Owl Archers)**
 
 - **Round 1:**
-  - [New PC / Typhrex] goes first; uses shortbow with Sneak Attack (advantage, first in initiative). Hits (15 + 7 = 22 to hit [roll unclear, approximately]). Damage: 4 + 4 = 8 piercing (d6 + mod) plus bonus action shortbow attack: 15 + 7 hits; 2 + 4 = 6 damage. Total ~14 damage to Maelorn.
+  - Tyvlex goes first; uses shortbow with Sneak Attack (advantage, first in initiative). Hits (15 + 7 = 22 to hit [roll unclear, approximately]). Damage: 4 + 4 = 8 piercing (d6 + mod) plus bonus action shortbow attack: 15 + 7 hits; 2 + 4 = 6 damage. Total ~14 damage to Maelorn.
   - DM reveals two giant owls circling 60 feet overhead — they fire arrows at the party (two arrows planted near [new PC] as a warning/attack signal).
   - Yinu casts Scorching Ray at Maelorn (DC/spell attack +8). Ray 1: natural 20 (dirty 20); Ray 2: misses (11 + 8 = 19, DM rules miss [unclear — transcript ambiguous]); Ray 3: hits (20 + 8). Two rays connect; Ray 1: 6 fire damage; Ray 2 (or 3): 7 fire damage. Total ~13 fire to Maelorn.
   - Nalith casts Moonbeam — positions the 5-ft.-radius, 40-ft.-high cylinder. Targets both owls; one owl fails its Constitution save, one succeeds. Rolls 2d10 radiant: one takes full (17 damage [unclear roll]), one takes half. One owl's wing dips and it begins to spiral/flee [possibly reduced to low HP or forced to withdraw — DM says it "begins to leap"].
@@ -46,7 +46,7 @@ tags:
 
 **Skill Checks in the Hall**
 
-- **Perception (Yinu — Arcana 23):** The green-gold thread (the Feywild seam from S5) is still present — it runs from Oberon's throne and is anchored to each of the four *marked* PCs (not Kto, not Dirk/Typhrex). The thread is contracting. When it closes, no one goes back where they came from — it will reel them somewhere else. Yinu shares this with the party.
+- **Perception (Yinu — Arcana 23):** The green-gold thread (the Feywild seam from S5) is still present — it runs from Oberon's throne and is anchored to each of the four *marked* PCs (not Kto, not Tyvlex). The thread is contracting. When it closes, no one goes back where they came from — it will reel them somewhere else. Yinu shares this with the party.
 - **Survival (Nalith — 16):** Fey lore — the food is real and the welcome is real, but it is a trap. Feywild rule: eat nothing, promise nothing; a guest who takes the lord's bread is bound by their own word and scattered [from their former life]. She shares this.
 - **Detect Magic (Naan — ritual, no roll):** Everything is magic. The entire hall is a pocket dimension of magic. The guests/thralls are not themselves magical — they are more like chandeliers [DM's description — mundane people inside a magical space, not individually enchanted items]. Naan notes she may be able to Remove Curse on individuals.
 - **Investigation (Yinu — rolled 1, result effectively 1):** Gets nothing useful. [Nat 1 confirmed in transcript. Transcript previously misattributed this roll to Fox/Fiorn; Fox was absent.]
