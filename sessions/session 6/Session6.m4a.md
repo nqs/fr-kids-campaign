@@ -9,6 +9,8 @@ speakers:
   SPEAKER_03: DM
 ---
 
+> **Editorial correction:** Fox (Fiorn) was **not present** at this session. Passing at-table mentions of Fox/Fiorn (around lines "Fox is in here" and "Fox's character doesn't need to hit Sprint") are cross-talk, not Fox speaking. Actions later attributed to Fiorn in the session log (Investigation roll, ribbon-noticing and untying in Oberon's hall) were performed by Sev (Yinu); the speaker-identification pass incorrectly conflated the two.
+
 [DM]: Hi, I'm Nick.
 [DM]: I'm the DM.
 [Unknown]: Oh, I'm Piper.

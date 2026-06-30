@@ -10,8 +10,8 @@ tags:
 ## Session 006 — Welcome to My Table
 **Date played:**
 **Location in-world:** The Living Wood (gate of standing stones); the Bright Court Beneath (Oberon's hall)
-**Players present:** Fox (Fiorn), Sev (Yinu), Piper (Nalith), Lilli (Naan), Caitlin (Kto)
-**Absent:** Ari (Dirk) [unclear — a new PC named "Typhrex" (player: Kylan) was introduced at the table; see DM Notes]
+**Players present:** Sev (Yinu), Piper (Nalith), Lilli (Naan), Caitlin (Kto)
+**Absent:** Fox (Fiorn), Ari (Dirk) [unclear — a new PC named "Typhrex" (player: Kylan) was introduced at the table; see DM Notes]
 **Session ended at:** Sela rips the ribbon binding the seam; Oberon explodes into butterflies; party is rocketed toward the throne / out of the hall — landing location unknown, session cut on the launch
 
 ---
@@ -23,7 +23,7 @@ tags:
 - Party arrives at the gate described at the end of S5: a wing of moss-spurred standing stones, two ancient poplars grown together overhead, and a doorway of green-gold light "pulled tight, bright, and breathing." Sela stops at the tree line: *"This is as far as I've ever been led to come. He's never let me see the door itself."*
 - Yinu uses Arcana (automatic success given +11; DM simply confirms) — the gate is transportation magic.
 - Before the party can step through, **Maelorn the Thorn Ward** emerges from the gate: bark-and-bronze armor, helm of living silver branches, glaive whose head is a single black thorn. He plants the glaive: *"I am Maelorn, Thorn Ward of this gate. My lord has marked you, and you are marked to be tested before you are met. I will not aim to kill. Do not insult me by dying."*
-- Initiative rolled. Order (approximate, from transcript): Typhrex [unclear PC — see DM Notes], Yinu, Nalith, Naan, Kto [rolled for by table], Fiorn.
+- Initiative rolled. Order (approximate, from transcript): Typhrex [unclear PC — see DM Notes], Yinu, Nalith, Naan, Kto [rolled for by table].
 
 **Combat — Gate Trial (Maelorn + Two Giant Owl Archers)**
 
@@ -49,7 +49,7 @@ tags:
 - **Perception (Yinu — Arcana 23):** The green-gold thread (the Feywild seam from S5) is still present — it runs from Oberon's throne and is anchored to each of the four *marked* PCs (not Kto, not Dirk/Typhrex). The thread is contracting. When it closes, no one goes back where they came from — it will reel them somewhere else. Yinu shares this with the party.
 - **Survival (Nalith — 16):** Fey lore — the food is real and the welcome is real, but it is a trap. Feywild rule: eat nothing, promise nothing; a guest who takes the lord's bread is bound by their own word and scattered [from their former life]. She shares this.
 - **Detect Magic (Naan — ritual, no roll):** Everything is magic. The entire hall is a pocket dimension of magic. The guests/thralls are not themselves magical — they are more like chandeliers [DM's description — mundane people inside a magical space, not individually enchanted items]. Naan notes she may be able to Remove Curse on individuals.
-- **Investigation (Fiorn — rolled 1, result effectively 1):** Gets nothing useful. [Nat 1 confirmed in transcript.]
+- **Investigation (Yinu — rolled 1, result effectively 1):** Gets nothing useful. [Nat 1 confirmed in transcript. Transcript previously misattributed this roll to Fox/Fiorn; Fox was absent.]
 
 **Oberon's Offer**
 
@@ -66,7 +66,7 @@ tags:
 
 - Naan touches a woman at the feast table and casts Remove Curse. The woman blinks, looks around terrified: *"Where am I? I remember — my husband said the fire needs more wood. I went to fetch it from the woodpile."* She has no memory of arriving or of any time spent in the hall. Naan confirms the experience to the party quietly.
 - Naan attempts Dispel Magic on the wider hall/more thralls. DM rules it fails: Oberon is effectively a deity within this realm; Dispel Magic cannot overcome his power at scale. The Remove Curse worked only because Naan's patron (Zophiel) empowered the touch directly. [DM's ruling paraphrased from transcript.]
-- Fiorn notices ribbons tied throughout the hall — on tables, chairs, throne roots — the same green-white-bone ribbon system Sela used for twelve years. Begins quietly untying them. Oberon appears to ignore this.
+- Yinu notices ribbons tied throughout the hall — on tables, chairs, throne roots — the same green-white-bone ribbon system Sela used for twelve years. Begins quietly untying them. Oberon appears to ignore this.
 
 **The Feywild Seam — Closing**
 
@@ -90,7 +90,7 @@ tags:
 
 - **Party refuses Oberon's offer** — no one eats, no one promises to stay. Each PC's refusal is individual but the result is unanimous. Oberon's compulsion over the four marked PCs is implicitly broken (Sela breaks the anchor before it can reel them in permanently).
 - **Naan uses Remove Curse on one thrall** — confirms the mechanism: thralls lose all memories of their time in the hall when freed. The woman freed had no idea she had been taken; she only remembered the moment before she was taken. Dispel Magic on the wider hall fails (Oberon too powerful in his own realm).
-- **Fiorn begins untying ribbons in the hall** — Oberon ignores this; effect on the hall's structure unclear, but it is consistent with S5's discovery that the ribbons are the physical stitching of the seam.
+- **Yinu begins untying ribbons in the hall** — Oberon ignores this; effect on the hall's structure unclear, but it is consistent with S5's discovery that the ribbons are the physical stitching of the seam.
 - **Sela rips the binding ribbon** — the session's climax. Sacrifices whatever remains of her fey connection and likely her life or freedom (fate unknown) to break the seam anchor and send the party out. Her warning: Shadowdale will be in grave danger once Oberon is no longer restraining whatever he was restraining under Old Skull (the Vhaeraunian/drow threat).
 - **Oberon named** — the Green Lord names himself in conversation (or is named by the DM's description as the session proceeds); he is **Oberon** in-world. [DM had reserved this for S6; it is now canon at the table.]
 - **Quillip's berry** — Nalith still has it; Oberon notices it and it is the basis of his specific appeal to Nalith. She does not spend it. Its mechanical effect remains undefined.
