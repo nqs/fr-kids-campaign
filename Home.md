@@ -20,7 +20,7 @@ Each session has a **landing page** — a short summary plus links to the advent
 - [Session 003 — The Half-Mask Shrine](sessions/session%203/the-half-mask-shrine-0-overview.md)
 - [Session 004 — The Greengrass Greengage Affair](sessions/session%204/the-greengrass-greengage-0-overview.md)
 - [Session 005 — The Hawthorn Gate](sessions/session%205/the-hawthorn-gate-0-overview.md)
-- [Session 006 — The Green Lord's Court](sessions/session%206/the-green-lords-court-0-overview.md) *(planned)*
+- [Session 006 — The Green Lord's Court](sessions/session%206/the-green-lords-court-0-overview.md)
 
 ## Reference Material
 
@@ -42,7 +42,7 @@ Each guide has a single `full.md`, per-page files under `pages/page-NNNN.md`, an
 
 This content is authored as **GitHub-flavoured Markdown** so it renders cleanly both when browsing the repo and when published as a GitHub Wiki. There are no plugins to install and no app to configure.
 
-**You only ever edit this repo.** The repo's GitHub Wiki is generated automatically from these files by the `Sync Wiki` GitHub Action (`.github/workflows/sync-wiki.yml`): on every push to `main` it runs `scripts/build_wiki.py` to stage a wiki-ready tree (extensionless page links, `session N` → `session-N`, references/PDFs linked back to the repo) and pushes it into the repo's `*.wiki.git`. No second repo to maintain by hand. A companion `Sync Notion` Action (`.github/workflows/sync-notion.yml`) mirrors the same mapped pages into the live Notion workspace via `scripts/sync_notion.py`, keyed off `scripts/notion_sync_map.json`.
+**You only ever edit this repo.** The repo's GitHub Wiki is generated automatically from these files by the `Sync Wiki` GitHub Action (`.github/workflows/sync-wiki.yml`): on every push to `main` it runs `scripts/build_wiki.py` to stage a wiki-ready tree (extensionless page links, `session N` → `session-N`, references/PDFs linked back to the repo) and pushes it into the repo's `*.wiki.git`. No second repo to maintain by hand.
 
 > [!IMPORTANT]
 > **One-time setup:** the wiki repo must exist before the Action can push to it. Enable **Settings → Features → Wikis**, then open the **Wiki** tab and click **Create the first page** once (any content). After that the sync runs on its own. You can also trigger it manually from the **Actions → Sync Wiki → Run workflow** button.

@@ -14,17 +14,17 @@ Each NPC now has their own page under [`roster/`](roster/). This page is the ind
 - [Lady Addee Ulphor — Lady of Shadowdale](roster/roster-lady-ulphor.md) — ruler of Shadowdale; trusted ally, holds the portal-anchor pendant in her vault
 - [Brynn Ashford — Delegate to the Dales Council](roster/roster-brynn-ashford.md) — Lady Ulphor's sharp-tongued proxy; trades in leverage
 - [Torval Dunmore — Innkeeper, The Old Skull Inn](roster/roster-torval-dunmore.md) — one-eyed veteran; sealed passage in his cellar
-- [Sela Wyndmere — Herbalist and Lay Healer](roster/roster-sela-wyndmere.md) — fey-touched healer; **broke her twelve-year pact with the wood-lord (S5)** and now guides the party into the Living Wood
+- [Sela Wyndmere — Herbalist and Lay Healer](roster/roster-sela-wyndmere.md) — fey-touched healer; broke her pact (S5), then **ripped Oberon's binding ribbon at his own throne (S6)** — scattering him and launching the party out. **Fate unknown; last seen in the hall**
 - [Corwick Helm — Blacksmith and Militia Captain](roster/roster-corwick-helm.md) — gruff militia captain; rivalry with the party thawing
 - [Orvyn Tal — Bookseller; former Harper agent](roster/roster-orvyn-tal.md) — semi-retired Harper; gave Yinu the Harper cipher book (S5) — *"a key, not a recruitment"*
 - [Rellan Tessar — Militia Scout (Recovered)](roster/roster-rellan-tessar.md) — the scout the party rescued in S1; now a grateful friendly contact
 - [Helbrin — Touring Bard of the Dalelands](roster/roster-helbrin.md) — celebrity elf lutenist; lost the bardic showcase to Fiorn, offered him a road slot
 
-### Fey of the Living Wood / Bright Court Beneath
-- [Oberon, the Green Lord — Archfey of the Living Wood](roster/roster-oberon.md) — the wood-lord **named at last**; gracious archfey behind the recall/slow harvest. **Not a fightable foe** (S6 audience)
-- [Quillip Burr-and-Whistle — Curious Pixie](roster/roster-quillip.md) — recurring fey ally and bargain-broker; gave Nalith the Bright Court guest-token
+### Fey of the Living Wood / Bright Court Beneath *(court disrupted, S6)*
+- [Oberon, the Green Lord — Archfey of the Living Wood](roster/roster-oberon.md) — named himself at his own table (S6); offer refused unanimously; **scattered into butterflies** when Sela ripped the binding. **Not dead — archfey dispersal.** His network was the lid on the drow beneath Old Skull
+- [Quillip Burr-and-Whistle — Curious Pixie](roster/roster-quillip.md) — recurring fey ally and bargain-broker; her guest-token was **noticed and honored by Oberon (S6)**, still unspent. **Whereabouts unknown since the Court's disruption**
 - [Lorindar Greenmantle — The Antlered Herald](roster/roster-lorindar-greenmantle.md) — prepped herald; **did not appear in play** — Maelorn delivered the mark instead
-- [Maelorn, the Thorn Ward — Knight and Herald of the Thorn Lord](roster/roster-maelorn.md) — fey knight who delivered the wood-lord's summons (S5); the **seam's gatekeeper** at the S6 court (gate-trial prepped for S6)
+- [Maelorn, the Thorn Ward — Knight and Herald of the Thorn Lord](roster/roster-maelorn.md) — ran his gate-trial (S6, played): fought to the measure, was bloodied, presented the party as *"worthy guests."* **Fate unknown since the hall's collapse**
 
 ### Vhaeraunian Drow (deceased)
 - [Khelziir Aun'velve — Drow Priest of Vhaeraun](roster/roster-khelziir.md) — **dead (S3)**; field-priest killed at his altar, portal never consecrated
@@ -49,13 +49,14 @@ Each NPC now has their own page under [`roster/`](roster/). This page is the ind
 | Quillip Burr-and-Whistle | *unnamed fey lord* | Knows of him; refuses to name him; will leave a conversation that presses on it |
 | Quillip Burr-and-Whistle | Nalith (party) | Adopted the party; reappeared at the S4 festival to leave Nalith a fey token (still **unused** — Quillip did not appear in S5, and the gate where it would have mattered was never reached) |
 | **Oberon, the Green Lord** (the wood-lord) | his green-white-bone court | He is its lord; the court's livery is the green-white-bone ribbon-knot. Styled **"the Thorn Lord / Living Lord"** in play; **named Oberon for the S6 audience** (DM canon; in-fiction reveal at his table) |
-| **Oberon, the Green Lord** | party | *Planned (S6, not yet played):* receives the marked at his court, names himself, and offers an **eternal place at his table** — the welcome **is** the harvest. **Not fought** (archfey; no statblock). The planned climax cheats him of the catch — a debt owed both ways |
-| **Oberon, the Green Lord** | Sela Wyndmere | Her courier-lord of twelve years; she tied the binding that let him reel the wood in. *Planned (S6):* she faces him at his throne and **cuts the binding** to break his hold — her redemptive sacrifice (hold the played record for the post-play log) |
+| **Oberon, the Green Lord** | party | **S6 (played):** received the marked at his table, named himself, and offered each a tailored eternity — **refused unanimously** (no one ate, no one promised). Never fought. Cheated of the catch by Sela's ribbon-rip — **a debt owed both ways.** He knows the party's secrets (Harper cipher, Naan's letter, Quillip's berry) |
+| **Oberon, the Green Lord** | Sela Wyndmere | Her courier-lord of twelve years; she tied the binding that let him reel the wood in. **S6 (played): she faced him at his throne, read her own knots — discovering the drow-suppression function — and ripped the binding,** scattering him. Her fate unknown; his response on reconstitution unknown |
+| **Oberon, the Green Lord** | Vhaeraunian drow (Old Skull) | **Revealed S6:** his ribbon network **suppressed** the drow beneath Old Skull — containment as a by-product of protecting his harvest. With the binding ripped, **the suppression is broken and the drow threat is live** |
 | **Oberon, the Green Lord** | Maelorn the Thorn Ward | His knight and gatekeeper; tests the party at the seam and reports their measure to the lord ahead of the audience |
 | Lorindar Greenmantle (Herald) | Bright Court Beneath | Prepped outrider/message-bearer; **did not appear in play** — the audience-mark was delivered by Maelorn instead |
 | Maelorn the Thorn Ward | Bright Court Beneath | The lord's knight/herald; **rode in on a stag at the S4→S5 bonfire and delivered the summons (S5, played)**; prepped as the seam's gatekeeper |
-| Maelorn the Thorn Ward | party | S5 (played): delivered the wood-lord's summons — court audience in two days, *"Do not disappoint me by dying."* No combat; not an enemy to kill |
-| Sela Wyndmere | party | S4: friendly festival contact (ran the Greening). **S5 (played): confessed her twelve-year fey pact, broke it, and became the party's Living Wood guide** |
+| Maelorn the Thorn Ward | party | S5 (played): delivered the summons. **S6 (played): ran the gate-trial as a real fight** — *"I will not aim to kill"* — was bloodied, honored the result, and presented the party to Oberon as worthy guests. Fate unknown since the hall's collapse |
+| Sela Wyndmere | party | S4: friendly festival contact. S5 (played): confessed and broke her pact; guided the party. **S6 (played): ripped the binding at Oberon's throne — the party owes her their exit. Fate unknown; they have every reason to go back for her** |
 | Sela Wyndmere | Bright Court Beneath | His unwitting courier of twelve years — **broke the pact and disclosed it to the party (S5)**, forfeiting her fey-granted healing; now works against the harvest she helped enable |
 | Orvyn Tal | Yinu (party) | S4: revealed his Harper tie. **S5 (played): gave Yinu the cipher book** *The Cypher and Glyph Sign of the Northern Sword Coast* — *"a key, not a recruitment"* |
 | Lady Ulphor | party | S4: paid the party 600 gp, took the portal-anchor pendant into her vault |

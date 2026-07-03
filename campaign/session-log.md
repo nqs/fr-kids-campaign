@@ -29,17 +29,17 @@ The party arrived in **Shadowdale** as freelance hands and, over four sessions, 
 ## Recent Session — Session 006 Quick Reference
 **Title:** Welcome to My Table · **Full log:** [session 6 - log](../sessions/session%206/session%206%20-%20log.md)
 
-- **Players present:** Fox (Fiorn), Sev (Yinu), Piper (Nalith), Lilli (Naan), Caitlin (Kto). **Ari (Dirk) absent; new PC Typhrex (Kylan) introduced — status unclear.**
+- **Players present:** Sev (Yinu), Piper (Nalith), Lilli (Naan), Caitlin (Kto), Kaila (Tyvlex — **new PC debut**, Rogue 6/Thief, Wood Elf). **Fox (Fiorn) and Ari (Dirk) absent.** *(The transcript's speaker-ID conflated Sev with Fox; corrected.)*
 - **Gate trial:** Maelorn emerged from the standing-stone gate on foot and fought the party alongside two giant owl archers — *"I will not aim to kill. Do not insult me by dying."* Party passed; Maelorn presented them to Oberon: *"Worthy guests for your table."* Maelorn was bloodied but not killed; fate at session end unknown.
 - **Oberon named and revealed:** The Green Lord rose from a throne of antler, root, and gray thorn and offered each marked PC a tailored eternal paradise — perpetual healing for Nalith (noting Quillip's berry), Harper secrets for Yinu, freedom from divided calling for Naan. Party refused unanimously; no one ate, no one promised to stay.
 - **Thralls confirmed:** Naan's Remove Curse freed one woman (lost all memory of her time in the hall; recalled only the moment before she was taken). Dispel Magic on the wider hall failed — Oberon is effectively a deity within his own realm; only Zophiel's direct empowerment let the single Remove Curse work.
-- **Feywild seam closing:** Yinu (Arcana 23) observed the green thread anchored to the four marked PCs contracting in real time — a few rounds from permanent closure with no visible exit. Fiorn quietly began untying ribbons throughout the hall; Oberon ignored this.
+- **Feywild seam closing:** Yinu (Arcana 23) observed the green thread anchored to the four marked PCs contracting in real time — a few rounds from permanent closure with no visible exit. Yinu also quietly began untying ribbons throughout the hall; Oberon ignored this.
 - **Sela's act — the climax:** Sela walked the hall reading the ribbons she had carried blind for twelve years, then ripped the binding ribbon from Oberon's throne. Her confession: she had been the thread holding his suppression layer over the Vhaeraunian drow beneath Old Skull. Her warning: *"Shadowdale will be in grave danger once he's out of [his constraints]."* Oberon burst into butterflies; the party was rocketed out of the hall.
 - **Session cut on the launch:** Landing location unknown. Sela's fate unknown. Oberon is scattered but not dead (archfey dispersal). **The Vhaeraunian drow threat beneath Old Skull is now live and uninhibited.**
 
 > [!NOTE]
 > **Note:** Trackers current through Session 006
-> The campaign-wide trackers below now fold in Session 006 outcomes (Oberon named and revealed, Sela's ribbon-rip, Vhaeraunian suppression layer broken, party launched from the Bright Court Beneath, landing location unknown, Typhrex introduced).
+> The campaign-wide trackers below now fold in Session 006 outcomes (Oberon named and revealed, Sela's ribbon-rip, Vhaeraunian suppression layer broken, party launched from the Bright Court Beneath, landing location unknown, Tyvlex introduced).
 
 ---
 
@@ -76,7 +76,7 @@ The party arrived in **Shadowdale** as freelance hands and, over four sessions, 
 | **Sela's fate** | Session 006 | **Open — urgent** | Sela ripped the ribbon and the party was launched. She was last seen in Oberon's hall. Alive, taken, or destroyed — unknown. The party owes her their return |
 | **Party's landing location** | Session 006 | **Open — immediate** | The party was rocketed out of the Bright Court Beneath at session end. Where they land in (or near) the material plane is the first question of S7 |
 | **Shadowdale — drow threat now live** | Session 006 | **Open — urgent** | Sela's warning: Oberon's network was suppressing the Vhaeraunians beneath Old Skull. With the binding broken, that suppression ends. Shadowdale has no warning. Lady Ulphor, Brynn, and the militia do not know |
-| **Typhrex (Kylan) — new PC** | Session 006 | **Open — unclear** | A new PC named Typhrex (player: Kylan) appeared at the table. Relationship to Dirk (Ari, absent) unclear. Origin, backstory, and how they arrived at the gate unresolved |
+| **Tyvlex (Kaila) — new PC** | Session 006 | **Open — intro needed** | New PC Tyvlex (Rogue 6/Thief, Wood Elf; player Kaila) debuted at the gate trial. Sheet on file ([party-tyvlex.md](party/party-tyvlex.md)); backstory blank and in-fiction introduction not established — settle both before/at the start of S7 |
 | **Oberon's knowledge of the Harpers** | Session 006 | **Open** | Oberon told Yinu he reads every letter, cipher, and dead drop that crosses his wood — and offered her access to all of it. He is now scattered. Does that knowledge die with his dispersal, or does it persist somewhere in the hall/ribbons? |
 
 ---
@@ -91,4 +91,8 @@ The party arrived in **Shadowdale** as freelance hands and, over four sessions, 
 | **Twin-stone counterpart in the Underdark** | S4 — Lady Ulphor explained the surrendered pendant is half a paired twin-stone | Someone could use the counterpart to open a portal *to the pendant* — i.e., into Ulphor's vault / Shadowdale. Latent threat; more urgent now that drow suppression is broken |
 | **Communication twin-stones exist (separate from portal pairs)** | S4 arcane challenge — Yinu identified a riverstone as one half of a message-sending twin-stone pair | Possible plot device — a tapped or planted communication stone as an intel vector |
 | **Quillip's fey token** | S4 — Quillip left Nalith a berry/token at the Greening | **S6: Oberon noticed it** and used it as the basis of his appeal to Nalith. Still unused mechanically. With the Bright Court disrupted, its fey backing may have changed — or Quillip may now need rescuing |
-| **What Sela's messages said** | S5 — Sela carried the wood-lord's ribbon-knotted messages for twelve years, never reading them | **Paid off (S6):** Sela read the ribb
+| **What Sela's messages said** | S5 — Sela carried the wood-lord's ribbon-knotted messages for twelve years, never reading them | **Paid off (S6):** Sela read the ribbons at the foot of Oberon's throne — the messages were the **suppression layer holding the Vhaeraunian drow beneath Old Skull in check.** She carried one more, her own, and ripped it. The reveal reframes the whole fey arc as the lid on the drow arc |
+| **The Thorn Lord's true name** | S5 — the wood-lord is styled only "the Thorn Lord / Living Lord"; Maelorn and Sela both decline to name him | **Paid off (S6):** he named himself at his own table — **Oberon, the Green Lord.** Scattered into butterflies by Sela's ribbon-rip; not dead (archfey dispersal) |
+| **Naan's Lathander pull (Highmoon)** | S5 — Lady Ulphor's private letter inviting Naan to the Temple of Lathander in Highmoon | **Deepened (S6):** Oberon revealed he read the letter and pitched his offer against it (*"You never need to choose between two lights again"*). Naan refused him — but still has not disclosed the letter to the party. The choice-of-lights beat is still live |
+| **"Biblio" the giant owl** | S6 — the table named one of Maelorn's giant owl archers Biblio; the DM agreed to bring it back | A recurring critter cameo owed to the table in a later session |
+| **Oberon's parting state — surprise, not rage** | S6 — his face "explodes wide with surprise" as he bursts into butterflies | How an archfey processes being *cheated of a catch* by his own courier. His disposition on reconstitution — grievance, respect, or bargain-hunger — is an open dial for a future arc |

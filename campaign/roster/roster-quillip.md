@@ -69,6 +69,10 @@
 > - **Prepped definition — Guest-Token of the Bright Court ⚗️:** a dried hawthorn berry grown on the wood-lord's own hawthorn, reading to the Court as *guest-right.* **One-shot:** presented at the court's gate, it would collapse a gatekeeper's challenge into a single ceremonial round; planted, it grows a hawthorn that blooms two weeks early (cosmetic).
 > - **Prepped riddle-hook:** *"Full moon's his. But the quarter-moon's mine — hawthorn, midnight, bring three friends, not four. There's a thing he doesn't want you to see, and I do."* (Note: in play the lord's audience was set at **two days,** not a full moon — adjust the riddle's framing if Quillip delivers it later.) **(DM ADDITION — prep, not yet played)**
 
+> [!IMPORTANT]
+> **DM:** Session 006 — the berry noticed; the Court disrupted
+> Quillip did not appear in S6, but her berry did: **Oberon himself noticed it in Nalith's possession** and honored her for *not* spending it — *"one of you carries one of my own court's berries and did not spend it… that is the speaking of a true guest."* This confirms the berry reads to the Court as **guest-right** (the prepped Guest-Token ruling holds), and it remains **unspent** in Nalith's pocket. More urgently: with **Oberon scattered and the Bright Court Beneath disrupted (S6),** Quillip's standing, safety, and whereabouts are unknown — she may be freed, stranded, or reeled in with the rest of the wood's fey. The party's most likely line into the post-S6 fey situation is finding her. **(DM ADDITION, Session 006)**
+
 > [!NOTE]
 > **Source notes**
 > Pixie statline from MM. Personality, location, name, bargain framework, and the guest-token ruling are DM additions.

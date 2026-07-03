@@ -264,19 +264,28 @@ The **Living Wood** north-east of Shadowdale, beyond the Granite Shoulder, took 
 
 The blight is a **collapsing Feywild seam:** the thin border that keeps this wood half-enchanted is **contracting inward** toward the center, recalling the fey and the wood's ambient enchantment "like water down a drain" (Yinu, Arcana 30, S5). The fey are **not fleeing the drow — they are being recalled.** **Sela Wyndmere's ribbon-knots,** tied at intervals on the trees, were the **stitching holding the seam open;** with her pact broken (S5), the seam retracts faster.
 
-**The court at the center** is where the wood-lord — **[Oberon, the Green Lord](roster/roster-oberon.md)** (named for the S6 audience) — receives the marked party. The audience ground is the **Hawthorn Gate:** two gnarled hawthorns grown into a living arch over the contracting seam, seven ribboned standing stones, the seam pulled tight into a shining doorway, guarded by **Maelorn the Thorn Ward** (see [roster](roster.md)). **The door is a threshold to the Feywild itself** — Oberon's court lies *across* the seam, not in the material wood. The party **did not reach it in S5** (see status note); the gate-trial and the crossing are **Session 006.**
+**The court at the center** is where the wood-lord — **[Oberon, the Green Lord](roster/roster-oberon.md)** (named for the S6 audience) — receives the marked party. The audience ground is the **Hawthorn Gate:** two gnarled hawthorns grown into a living arch over the contracting seam, seven ribboned standing stones, the seam pulled tight into a shining doorway, guarded by **Maelorn the Thorn Ward** (see [roster](roster.md)). **The door is a threshold to the Feywild itself** — Oberon's court lies *across* the seam, not in the material wood. **The gate-trial and the crossing were played in Session 006** — and the session ended with **the seam broken** (see the S6 status note below).
 
 > [!NOTE]
-> **The Feywild beyond the seam** *(DM ADDITION, prep for S6 → S7)*
-> Past the Hawthorn Gate the seam opens not back onto the grey wood but into the **Feywild** — Oberon's true domain, a hall of endless-spring living hawthorn around his antler throne. The **planned S6 climax** collapses the seam (Sela's sacrifice) and **hurls the party through into the raw Feywild,** stranding them there as the **Session 007 cold open.** Where they land on the far side is unwritten — reserve it for S7. The Feywild's border along the Ashaba is canonically thin here *[CG/world]*; the harvest-court and the crossing are DM additions.
+> **The Feywild beyond the seam** *(DM ADDITION, crossed in S6)*
+> Past the Hawthorn Gate the seam opens not back onto the grey wood but into the **Feywild** — Oberon's true domain, the **Bright Court Beneath:** a hall of endless-spring living hawthorn around his antler throne, tables stretching into misty distance, a feast that steams, and the gathered thralls (Shadowdale's taken among them) sitting smiling and still. **The party crossed it in S6.** The Feywild's border along the Ashaba is canonically thin here *[CG/world]*; the harvest-court and the crossing are DM additions.
 
 > [!IMPORTANT]
-> **DM:** Status after Session 005 (played)
-> The party **did not reach the court.** The session **cut on the approach** to the wood's center. There was **no gate-test, no combat, and no audience** — those carry forward to **Session 006.** The prepped "frightened-wood beasts" (fey-touched stag and wolves) **did not appear;** instead the party calmed **two stranded goats** in the skill challenge. The audience clock is **two days** (not a full moon). **(DM ADDITION, Session 005)**
+> **DM:** Status after Session 006 (played)
+> **The seam is broken.** The party passed Maelorn's gate-trial at the Hawthorn Gate, crossed into the Bright Court Beneath, refused Oberon's offer — and **Sela ripped the binding ribbon at the throne,** scattering Oberon into butterflies and launching the party out of the hall. Consequences for the geography, all deliberately unresolved until seen in play:
+> - **The Hawthorn Gate:** the doorway closed behind the party in S6; whether any crossing remains at the standing stones is unknown.
+> - **The Living Wood:** the recall has no anchor. Regreening, permanent grey, or something stranger — unrevealed.
+> - **The Bright Court Beneath:** disrupted; the fate of the hall, the thralls, Sela, and Maelorn is unknown.
+> - **The party's landing location:** unknown — Sela's warning was *"you won't land [in Shadowdale]."* This is the **Session 007 cold open.**
+> **(DM ADDITION, Session 006)**
+
+> [!IMPORTANT]
+> **DM:** Status after Session 005 (played) *(historical)*
+> The party **did not reach the court** in S5. The session **cut on the approach** to the wood's center — no gate-test, no combat, no audience (all played in S6). The prepped "frightened-wood beasts" (fey-touched stag and wolves) **did not appear;** instead the party calmed **two stranded goats** in the skill challenge. The audience clock was **two days** (not a full moon). **(DM ADDITION, Session 005)**
 
 > [!NOTE]
 > **Source notes**
-> The Living Wood and its thin Feywild border are canonical Shadowdale geography *[CG]*. The contracting seam / recall, the circle of blight, the ribbon-stitching, and the Thorn Lord's court are DM additions established in Session 005.
+> The Living Wood and its thin Feywild border are canonical Shadowdale geography *[CG]*. The contracting seam / recall, the circle of blight, the ribbon-stitching, and the Thorn Lord's court are DM additions established in Session 005; the Hawthorn Gate crossing, the Bright Court Beneath, and the seam's breaking are established in Session 006.
 
 ---
 

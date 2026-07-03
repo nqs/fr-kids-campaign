@@ -44,7 +44,7 @@
 | Abbey of the Sword | Allied | None yet | Battledale |
 | Shadowdale Militia | Allied | Corwick Helm | Shadowdale |
 | Tasseldale Resistance | Allied (covert) | Unknown | Underground, Tasseldale |
-| Fey of the Living Wood | Neutral / Unpredictable | Sela Wyndmere (indirect) | Living Wood, Shadowdale |
+| Fey of the Living Wood | **Disrupted (S6)** — Oberon scattered | Sela Wyndmere (**fate unknown, S6**); Quillip (whereabouts unknown) | Living Wood / Bright Court Beneath (disrupted) |
 | Cormyr | Neutral / Cautious | None | Suzail |
 | Archendale Trade Houses | Neutral / Self-serving | None | Archenbridge |
 | Netheril / Sembia | Enemy | — | Shade Enclave / Ordulin |
@@ -260,20 +260,20 @@ The Resistance's leadership is divided over whether to make contact with the Har
 **Type:** Informal community of fey; no central authority  
 **Alignment:** Chaotic Neutral (range: Chaotic Good to Chaotic Evil by individual)  
 **Seat:** The Living Wood, Shadowdale; the border of the Feywild along the River Ashaba  
-**Status:** Active — and behaving strangely near Old Skull
+**Status:** **Disrupted (S6)** — Oberon scattered, the binding ripped, the Bright Court Beneath in unknown condition; the wood's fate post-recall is an open question
 
 ### Overview
 The Living Wood surrounding Shadowdale is a fey-touched forest with an unusually thin border to the Feywild. The wood is home to nymphs, sprites, dryads, satyrs, and older powers — some benevolent, some territorial, all capricious. Lady Ulphor maintains a cautious, generally positive relationship with the fey community; Shadowdalers know to leave offerings and to not cut trees without asking. *[CG]*
 
 ### Key Contact (Roster)
-- **[Oberon, the Green Lord](roster/roster-oberon.md)** (archfey) — the wood-lord himself, **named for the S6 audience.** Gracious, ancient, predatory; the power behind the recall/slow harvest. **Not a fightable foe** (no statblock by design). *[HOMEBREW / DM canon — canonical D&D archfey, not in the FR references]*
-- **Sela Wyndmere** (Shadowdale healer) — for **twelve years** she carried ribbon-knotted messages for the wood-lord (the **Thorn Lord / Living Lord**), never reading them. **In S5 (played) she confessed and broke the pact** — learning her ribbons were the **stitching binding the Feywild seam,** and forfeiting her fey-granted healing to tell the party. Now a **penitent ally and the party's Living Wood guide.** *[HOMEBREW]*
-- **Quillip Burr-and-Whistle** (pixie) — direct party ally since Session 003 (bargained intel for a song). Left Nalith a **hawthorn berry** at the S4 festival (a possible **guest-token** — still **unused**; Quillip did not appear in S5). The party's reliable, capricious line into the wood. *[HOMEBREW]*
-- **Maelorn, the Thorn Ward** (CR 5 fey) — the wood-lord's knight/herald. **Rode in on a great stag at the bonfire (S5) and delivered the summons** to the four marked PCs. The **seam's gatekeeper** at the S6 court — his prepped gate-trial **runs in S6.** Statblock reprinted in the [S6 combat tracker](../sessions/session%206/the-green-lords-court-2-combat-tracker.md). *[HOMEBREW]*
+- **[Oberon, the Green Lord](roster/roster-oberon.md)** (archfey) — the wood-lord, **named himself at his own table (S6, played).** Gracious, ancient, predatory; the power behind the recall/slow harvest — and, it turns out, **the suppression layer over the drow beneath Old Skull.** **Scattered into butterflies (S6) — not dead.** *[HOMEBREW / DM canon — canonical D&D archfey, not in the FR references]*
+- **Sela Wyndmere** (Shadowdale healer) — carried the wood-lord's ribbon-messages blind for twelve years; confessed and broke the pact (S5); then **read her own knots at Oberon's throne and ripped the binding (S6),** scattering him and launching the party out. **Fate unknown — last seen in the hall.** *[HOMEBREW]*
+- **Quillip Burr-and-Whistle** (pixie) — direct party ally since Session 003. Her **hawthorn berry** (S4 gift to Nalith) was **confirmed as guest-right by Oberon himself (S6)** and remains unspent. **Whereabouts unknown since the Court's disruption.** *[HOMEBREW]*
+- **Maelorn, the Thorn Ward** (CR 5 fey) — the wood-lord's knight/herald. Delivered the summons (S5); **ran his gate-trial (S6, played)** — a real fight, fought to the measure — was bloodied, and presented the party at court as *"worthy guests."* **Fate unknown since the hall's collapse.** Statblock reprinted in the [S6 combat tracker](../sessions/session%206/the-green-lords-court-2-combat-tracker.md). *[HOMEBREW]*
 - **Lorindar Greenmantle, the Antlered Herald** (CR 5 fey) — a prepped outrider/message-bearer who **did not appear in play**; the audience-mark was delivered by Maelorn instead. Statblock in [S4 combat tracker](../sessions/session%204/the-greengrass-greengage-2-combat-tracker.md). Unused prep NPC. *[HOMEBREW]*
 
 ### Current Situation
-The Living Wood near Old Skull is **emptying** — and **S5 confirmed this in play** (Yinu, Arcana 30): it is not a flight from the drow but a **recall.** The wood's ambient enchantment, and the fey with it, are being pulled inward toward the **center of the wood** "like water down a drain" — a **collapsing Feywild seam.** Color and birdsong drain the closer one walks toward the center; from the canopy the forest is green for a few miles back toward town and **gray in a widening circle of blight** centered on where the party is headed. **Sela Wyndmere's ribbon-knots were the stitching holding the seam open;** with her pact broken, the seam has been retracting faster. The recall stranded ordinary woodland animals (two goats found in S5; missing-livestock rumors from forest-edge farms). What is doing the recalling is the wood-lord — **[Oberon, the Green Lord](roster/roster-oberon.md)** (named for the S6 audience) — gathering the wood inward to his court across the seam. Earlier signs of **Feywild bleed-through** (the S4 Fey primrose, a planar-traveler's tonic) read in hindsight as the visible edge of this contraction.
+The Living Wood near Old Skull is **emptying** — and **S5 confirmed this in play** (Yinu, Arcana 30): it is not a flight from the drow but a **recall.** The wood's ambient enchantment, and the fey with it, are being pulled inward toward the **center of the wood** "like water down a drain" — a **collapsing Feywild seam.** Color and birdsong drain the closer one walks toward the center; from the canopy the forest is green for a few miles back toward town and **gray in a widening circle of blight** centered on where the party is headed. **Sela Wyndmere's ribbon-knots were the stitching holding the seam open;** with her pact broken, the seam has been retracting faster. The recall stranded ordinary woodland animals (two goats found in S5; missing-livestock rumors from forest-edge farms). What is doing the recalling is the wood-lord — **[Oberon, the Green Lord](roster/roster-oberon.md)** (named for the S6 audience) — gathering the wood inward to his court across the seam. Earlier signs of **Feywild bleed-through** (the S4 Fey primrose, a planar-traveler's tonic) read in hindsight as the visible edge of this contraction. **As of S6 the recall has no anchor:** Sela ripped the binding at Oberon's throne, the seam is broken, and the wood's post-recall state — regreening, permanent grey, or something stranger — is deliberately unresolved until the party can see it again.
 
 ### The Court of the Green Lord ⚗️
 The fey lord using Sela as a courier is the lord of the wood — styled in play (S4–S5) as **the Thorn Lord / the Living Lord,** and **named at last for the S6 audience: [Oberon, the Green Lord](roster/roster-oberon.md)** (prep name: the *Bright Court Beneath*). An archfey of the wild green — old and powerful — whose seam runs deepest at the center of the Living Wood (the **Hawthorn Cleft**; see [geography](geography.md)), and whose **court lies across that seam, in the Feywild itself.** *(Naming the wood-lord "Oberon" is DM canon — see the roster entry's source note; the in-fiction reveal lands when he names himself at his own table.)*
@@ -283,18 +283,19 @@ The fey lord using Sela as a courier is the lord of the wood — styled in play 
 - **The harvest court & the Harvest Clock (S6 prep):** across the seam the court is **spring without end,** a hall of living hawthorn around Oberon's antler throne. The contracting seam is a **clock, not a battlefield** — when it closes it **reels the marked in** (filaments hooked into the mark); saying "yes" to his eternal-table offer, or simply eating his bread / making a careless promise, only *completes the gather.* The single lever in the hall is the **binding** itself — "the line" Sela tied — and **only the courier who tied it can cut it.**
 - **Oberon is not a fightable foe:** an archfey in the heart of his domain. **No statblock by design** (see [roster](roster/roster-oberon.md)); steel does nothing, and attacking him only advances the clock. He is **never not gracious** — he genuinely thinks being gathered is a kindness.
 - **Functionaries:** **Maelorn, the Thorn Ward** delivered the summons on a stag (S5) and is the **seam's gatekeeper** at the S6 court — his prepped gate-trial (Ceremonial Restraint, Ward of the Gate, the berry shortcut) **finally runs in S6.** **Sprite Outriders on fey-touched owls** ride with him. **Lorindar Greenmantle** (a prepped second herald) never appeared. None are villains to be killed — the Court tests and provokes, but its servants pull their blows and yield with honor. Killing one curdles the lord's grace into a grievance.
-- **The audience (S6):** the two-day **magical-compulsion** summons (Arcana 24, S5) comes due; the party crosses the seam to Oberon's court. **Planned S6 climax:** the welcome is the harvest, and **Sela cuts the binding** at the cost of her life to break his hold — the collapsing seam hurls the party **through into the Feywild** (the S7 cold open), cheating Oberon of the catch and leaving a debt owed both ways.
+- **The audience (S6, played):** the summons came due and the party crossed. Maelorn's gate-trial ran as a real fight (party passed, bloodied him, killed no one); Oberon **named himself at his own table** and made his offers — **refused unanimously.** Naan's *Remove Curse* freed one thrall (total memory loss of her time in the hall — confirming the thrall mechanism); *Dispel Magic* at scale failed (he is a deity within his own realm). And the climax ran through **Sela: she read her own knots at the throne, discovered the drow-suppression function of twelve years of messages, and ripped the binding** — scattering Oberon into butterflies and launching the party out of the hall.
 
 > [!IMPORTANT]
-> **DM:** S6 is prepped, not yet played
-> The Green Lord's naming, the harvest court, Sela's sacrifice, and the Feywild crossing are **planned Session 006 content** — record the *played* outcome (and any deal the party strikes with Oberon) in the post-play `session-log.md` pass, not here. How the party conducts itself at the gate and the table sets Oberon's lasting disposition toward them. **(DM ADDITION)**
+> **DM:** Faction status after Session 006 (played)
+> **The Court of the Green Lord is disrupted.** Oberon is **scattered, not dead** (archfey dispersal); the binding is ripped; the seam is broken; the harvest is cheated. Unknowns to resolve in play: the fate of **Sela** and **Maelorn** (both last seen in the hall), the fate of the **thralls** (including Shadowdale's taken children), the state of the **Living Wood** now that the recall has no anchor, **Quillip's** whereabouts, and Oberon's **disposition on reconstitution** — his last recorded expression was *surprise, not rage*. The biggest revelation cuts across factions: **his network was the suppression layer on the Vhaeraunian drow beneath Old Skull** (see §15) — the fey arc was the lid on the drow arc, and the lid is off. **(DM ADDITION, Session 006)**
 
 > [!TIP]
 > **Adventure Hooks**
-> - **The two-day audience** at the wood's center (the S5 → S6 throughline) — and **Naan's competing Temple-of-Lathander invitation** to Highmoon pulls the other way
-> - **Quillip's fey token** — still in Nalith's pocket, still unspent; may be a guest-token at the court
-> - **Sela's penance** — now an ally who has given up her healing to undo twelve years of unwitting service; what she carried, and to whom, is **still unread**
-> - **The recall** — whatever is pulling the wood inward is the real engine of the blight; stopping or surviving it is the arc's stakes
+> - **Go back for Sela** — the party owes her their exit; she was last seen at the foot of the throne of the archfey she cheated
+> - **The taken children** — Shadowdale's missing are (were?) at Oberon's tables; with the court disrupted, are they freed, stranded, or lost?
+> - **Quillip's fey token** — still in Nalith's pocket, still unspent; **Oberon himself confirmed it as guest-right (S6)**
+> - **Oberon reconstitutes** — the one being who can put the lid back on the drow, and he is owed a debt (and owes one)
+> - **The wood after the recall** — with the binding ripped, does the Living Wood grey out entirely, snap back to life, or something stranger?
 
 ---
 
@@ -448,7 +449,7 @@ The Church of Bane considers itself the ideological successor to the Zhentarim's
 **Type:** Underdark hostile factions  
 **Alignment:** Neutral Evil to Chaotic Evil  
 **Entry Points:** Old Skull (Shadowdale), caverns beneath Battledale, Deepingdale's forest floor  
-**Status:** Active below ground. The **Vhaeraunian surface push is broken** (all three Old Skull staging clefts closed by S3), but the deeper Lolthite vs. Vhaeraunian war continues, and Vhaeraunian retaliation for Site C is pending.
+**Status:** **Live and uninhibited (S6).** The Vhaeraunian surface push was broken (all three Old Skull staging clefts closed by S3) — but **S6 revealed that Oberon's fey message-network had been *suppressing* the Vhaeraunians beneath Old Skull all along.** With Sela's ribbon-rip breaking that binding and Oberon scattered, **the suppression is gone.** Shadowdale has no warning and the party is not there.
 
 ### Overview
 Drow plague **Battledale, Mistledale, and Shadowdale** via Underdark passages. Old Skull in Shadowdale is a volcanic headland that descends to the Underdark; Elminster's power once kept them contained, but since the Spellplague and his diminishment, they have been "wending their way up the narrow stairs" again. *[CG]*
@@ -481,8 +482,15 @@ The Lolthite enclave under Old Skull has the same intelligence the party does �
 
 **Stat-block note:** *Lolthite Drow Raider* (CR 1 homebrew, AC 16, HP 39) is reproduced in full in [S3 combat tracker](../sessions/session%203/the-half-mask-shrine-2-combat-tracker.md). Promote to a permanent stat-block reference if used in future sessions.
 
-### Vhaeraunian Retaliation Timer
-A Vhaeraunian retaliation arrives roughly **2–3 weeks of in-fiction time** after the cell is discovered destroyed. The party killed Khelziir, stopped the ritual, and **took the portal-anchor pendant** (rather than smashing or feeding the anchor in place), so the response is most likely an **investigative strike** — operatives sent to learn who hit the cell and where the anchor went. The clock is **now running** (started end of S3 / surfaced in S4). Form and timing TBD by the DM.
+### Vhaeraunian Retaliation Timer — accelerated (S6)
+A Vhaeraunian retaliation was originally clocked at roughly **2–3 weeks of in-fiction time** after the cell was discovered destroyed — most likely an **investigative strike** to learn who hit the cell and where the portal-anchor pendant went (the clock started end of S3).
+
+**Session 006 changed the shape of this threat entirely.** Sela's reading of the ribbons revealed that **Oberon's message network was actively suppressing the Vhaeraunians beneath Old Skull** — his words, carried through her for twelve years, were "holding them back." The staging-cleft campaign the party fought in S1–S3 was the *constrained* version of the Vhaeraunian operation. With the binding ripped:
+
+- **The suppression is off.** Whatever the Vhaeraunians were being held back *from*, they are no longer being held back from it.
+- **Shadowdale is undefended and unwarned** — Lady Ulphor, Brynn, Corwick, and the militia know nothing of this. Sela's last warning: *"You're going to have to find your way back to Shadowdale… it will be in grave danger."*
+- **The party is not there.** They were launched out of the Bright Court at session's end; landing location unknown.
+- Form, scale, and timing of the unsuppressed threat are **TBD by the DM** — but the old 2–3-week investigative-strike framing should be treated as **superseded, not just accelerated.**
 
 ### What's Happening Under Old Skull Right Now
 Corwick Helm's militia has confirmed drow movement in at least two upper passages. A scout who went deeper three weeks ago came back changed and has stopped talking. Lady Ulphor has been quietly sealing the Ashaba House's lower cellars. Sela Wyndmere has noticed fey withdrawing from the forest near Old Skull. The fey of the granite shoulder withdrew weeks ago — except for **Quillip Burr-and-Whistle**, who stayed out of curiosity and has been observing Khelziir's cell.
@@ -600,6 +608,6 @@ The Syndicate doesn't have a villain headquarters. It has a network of people wh
 
 ---
 
-*Last updated: campaign start — no sessions logged yet.*
+*Last updated: post-Session 006 — Oberon scattered, Bright Court disrupted, Vhaeraunian suppression broken (§8, §15).*
 *⚗️ = HOMEBREW: content introduced by the DM, not sourced from published Forgotten Realms sourcebooks. Flag for review if it conflicts with future canonical material.*
 *To update: paste corrected entries above this line; note session and date.*

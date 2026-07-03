@@ -8,7 +8,7 @@ tags:
 ---
 
 ## Session 006 — Welcome to My Table
-**Date played:**
+**Date played:** ~2026-06-30 (recording transcribed 2026-06-30)
 **Location in-world:** The Living Wood (gate of standing stones); the Bright Court Beneath (Oberon's hall)
 **Players present:** Sev (Yinu), Piper (Nalith), Lilli (Naan), Caitlin (Kto), Kaila (Tyvlex)
 **Absent:** Fox (Fiorn), Ari (Dirk)
@@ -104,4 +104,28 @@ tags:
 
 **Oberon, the Green Lord** — Named and revealed at last. Appears ancient, beautiful, warm, and deeply unsettling — *"like portraits of themselves."* Offers the party eternal spring, no aging, no loss, and targeted knowledge (Harper secrets to Yinu; perpetual healing to Nalith; clarity of divine calling to Naan). Frames the thralls as cared-for children. Acknowledges he reads every letter, cipher, and dead drop that crosses his wood (including Yinu's Harper cipher book). Deflects the kidnapping charge with parental framing. Bursts into butterflies when Sela rips the ribbon — his reaction is surprise, not rage. Fate unknown (he is an archfey; dispersal is not death).
 
-**Sela Wyndmere** — The session's emotional center. Walks the hall quietly while the party engages Oberon, reading the ribbons. Her final speech is a full confession and act
+**Sela Wyndmere** — The session's emotional center. Walks the hall quietly while the party engages Oberon, reading the ribbons. Her final speech is a full confession and act of penance: she names herself the instrument of twelve years of harvest, reads her own knots at last, discovers the drow-suppression function of the messages she carried, and rips the binding ribbon with her own hands. She does not ask the party's permission and does not say goodbye. Last seen in Oberon's hall as the party was launched. **Fate unknown — alive, taken, or destroyed.** The party owes her their exit.
+
+**The Freed Woman (unnamed thrall)** — A Shadowdale-area farmwife Naan freed with Remove Curse. Woke with no memory past the moment of her taking (*"My husband said the fire needs more wood. I went to fetch it from the woodpile."*). Confirmed the thrall mechanism for the party. Her fate after the hall's disruption — along with every other thrall at the tables, including Shadowdale's taken children — is unknown.
+
+---
+
+### Combat & Encounters
+
+- **Encounter 1 — The Gate Trial (Maelorn + two giant owl archers):** The only combat of the session. Maelorn emerged from the seam-doorway and fought on foot with two sprite-ridden giant owl archers circling 60 ft. overhead firing status-effect arrows (a numbing/limb-limp toxin — CON save DC ~13–15). Tyvlex opened with Sneak Attack (~14 damage), Yinu landed Scorching Ray (~13 fire), Nalith's Moonbeam drove off one owl (the table named it **"Biblio"** — DM agreed to bring it back in a later session), Naan landed Bane and later Cloud of Daggers + Telekinetic Shove. Maelorn was bloodied (greenish blood); the trial ended without a kill on either side, per his stated terms. He then presented the party at Oberon's court.
+- **Oberon — no combat, by design.** Hypothetical fight was discussed at the table and abandoned; the DM confirmed Oberon is effectively a deity within his own realm.
+
+---
+
+### Loot & Rewards
+
+- **None recorded.** No treasure, payment, or items changed hands in the transcript. Quillip's berry remains in Nalith's possession, unspent.
+
+---
+
+### Table Notes
+
+- **New PC debut:** **Tyvlex** (Rogue 6, Thief; Wood Elf), played by **Kaila**. Sheet on file at [party-tyvlex.md](../../campaign/party/party-tyvlex.md). In-fiction introduction not captured in the transcript — establish how she joined the party before/at the start of S7.
+- **Absences:** Fox (Fiorn) and Ari (Dirk) were both out. The transcription's speaker-ID conflated Sev (Yinu) with Fox in places — corrected in this log (Investigation nat-1 and the ribbon-untying were Yinu's).
+- **"Biblio" the owl:** the table named one of the giant owl archers Biblio (also rendered "Biffio") and the DM agreed to bring it back — *"hear him later for our later session."* Track as a recurring critter cameo.
+- **Recording:** transcript quality degrades badly in the final minutes (a stuck repeated phrase); the session's true final table-talk after the launch was not captured. The last reliably transcribed beat is Oberon bursting into butterflies and the party rocketing toward the throne/out of the hall.

@@ -2,8 +2,8 @@
 
 **System:** D&D 5e (2024 PHB rules)
 **Milestone Leveling**
-**Party Size:** 6 active PCs (Loric T. paused — see note)
-**Current Level:** 5 (all PCs)
+**Party Size:** 7 active PCs (Loric T. paused — see note)
+**Current Level:** 5 (Tyvlex's sheet is built at 6 — see Level 6 milestone note)
 
 > [!IMPORTANT]
 > **Note:** Loric T. (Lily) is paused
