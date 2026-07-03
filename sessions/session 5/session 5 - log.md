@@ -107,4 +107,10 @@ tags:
 
 **Confirmed looted:**
 - **Yinu:** *The Cypher and Glyph Sign of the Northern Sword Coast* (Harper cipher/codebook; gift from Orvyn Tal)
-- **Naan:** Letter of introduction to the Temple of Lathander in Highmoon (from Lady
+- **Naan:** Letter of introduction to the Temple of Lathander in Highmoon (from Lady Ulphor, handed to her privately on her way out of the Ashaba House; read but not disclosed to the party — Dirk peeked)
+- **Party:** Mundane expedition supplies from Lady Ulphor at no charge (*"Get your supplies… let me know if you need anything at all"*). **No payment** — Ulphor framed the mission as self-preservation, not a job (*"You're not paying us?"* was asked and answered)
+
+**Other rewards:**
+- **Heroic Inspiration** awarded to three PCs during the Living Wood skill challenge (transcript does not clearly identify which three)
+
+**Party wealth check (table talk):** ~2,000 gp on hand ("We have 2,000 gold and nothing to add" — Fiorn). No coin, gear, or magic items otherwise changed hands this session.

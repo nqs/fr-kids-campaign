@@ -89,4 +89,67 @@
   - Naan may use her Healing Light pool dice to add to rolls.
   - **Step 1 — Recite a celestial liturgy:** Spell/Religion-adjacent check. **Roll: ~24.** Success. Crowd impressed.
   - **Step 2 — Use Light cantrip to illuminate the sapling while it is set into the ground:** Performance check (to handle it gracefully as a spectacle). [Roll not clearly stated — implied success; "beautiful" noted.]
-  - **Step 3 — Deliver a benediction / public speech:** Persuasion check (+6). Roll: base 20, adds Healing Light dice — total stated as climbing through 23 → 26 → **31**. The sapling **blooms in Naan's hands
+  - **Step 3 — Deliver a benediction / public speech:** Persuasion check (+6). Roll: base 20, adds Healing Light dice — total stated as climbing through 23 → 26 → **31**. The sapling **blooms in Naan's hands as it is set into the ground** — DM: *"That's extremely ridiculous. You get a really, really good benediction."* Crowd deeply impressed.
+  - **Immediately after the blessing:** Lady Ulphor **presses a letter into Naan's hand** — the Temple of Lathander (Highmoon) introduction. [Note: this beat was re-played/confirmed at the Ashaba House in S5, which the campaign guide treats as the canonical delivery; the S4 moment is the first appearance.]
+
+- **Session called:** DM ended the session after the blessing as players wound down. **The bonfire and the final festival beat were explicitly deferred to Session 005** (where they opened the session — Maelorn's summons).
+
+---
+
+### Key Decisions & Consequences
+
+- **Pendant surrendered to Lady Ulphor's vault** — the session's biggest decision. Naan resisted the party vote and only agreed after Brynn's personal appeal. Destruction-by-disenchant was floated (Yinu offered to attempt it cheaply) but declined in favor of vault storage. The twin-stone counterpart in the Underdark remains a latent threat.
+- **Brynn's "first call" arrangement honored** — the party reported to Brynn before Lady Ulphor, cementing the back-channel. Brynn now has the party's full Site A–C intel picture, including the two-faction drow war.
+- **Orvyn flags the Harpers to Yinu** — first direct Harper contact with a PC: *"Come by my bookshop tomorrow afternoon… The Harpers have something to give to you."* (Collected in S5: the cipher book.)
+- **Helbrin's touring offer to Fiorn** — stands as an open hook after Fiorn beat him at the showcase.
+- **Quillip reappears and gifts Nalith the fey berry** — pocketed, unspent, undefined. (Later confirmed in S6 as Bright Court guest-right.)
+- **Naan asked to perform the Blessing of the First Light** — Lady Ulphor's direct request, positioning Naan publicly as a celestial-touched figure; followed immediately by the private Lathander letter.
+
+---
+
+### NPC Interactions
+
+**Lady Ulphor** — Ran the debrief at the Ashaba House (solarium); explained the twin-stone pendant mechanics; paid 600 gp group reward + 200 gp pendant buyout; hosted the party's inn rooms; opened the festival, distributed flower crowns (comically large one for Fiorn), invited Naan to perform the blessing, and pressed the Lathander letter into her hand.
+
+**Brynn Ashford** — Took the party's first report at Orvyn's bookshop (*"May I ask, why did you come to me first?" — "Because you told me to."*); arrived mid-pendant-debate at the Ashaba House and swung Naan with a personal appeal; ran a bookstall near the inn during the festival.
+
+**Orvyn Tal** — Hosted Brynn's debrief in his shop; ran the Arcane Skills Challenge ("Wonders of Spring") and pinned Yinu's gold ribbon; pulled her aside afterward with the first open Harper approach. Yinu's Arcana check sensed fresh Weave activity in his back room — unexplained.
+
+**Corwick Helm** — Walked the procession in dress uniform (sword on the wrong hip, "on purpose"); ran the archery contest; openly warm to Kto: *"I thought you'd show up. I'm glad to see you here."* The S2 rift with the party is visibly thawing.
+
+**Rellan Tessar** — Recovered and back on his feet; competed against Kto in the archery contest as a talented equal (*"That was a tough shot. I think I owe you about three arrows for both sides."*). Now a friendly recurring face.
+
+**Helbrin** — Touring celebrity bard ("the Justin Bieber of the Dales"); condescending before the showcase, gracious-ish after losing to Fiorn; offered Fiorn a supporting-act slot on the road. Fiorn's answering note: *"If you need anybody killed, seek me out."* Offer stands.
+
+**Sela Wyndmere** — Ran the Greening at the wood's edge; praised Nalith's poultice (*"This is excellent. You must be a skilled healer."*) and pinned her gold ribbon; conjured the test breeze for the archery wind-read. First on-screen party contact.
+
+**Quillip Burr-and-Whistle** — Half-second invisible cameo at the Greening; left Nalith the fey berry/token as the gold ribbon was pinned.
+
+---
+
+### Combat & Encounters
+
+- **No combat this session.** Entirely social, festival games, and skill challenges.
+
+---
+
+### Loot & Rewards
+
+**Coin:**
+- **600 gp** — group reward from Lady Ulphor for closing all three drow staging sites
+- **200 gp** — pendant buyout, paid to Naan (the holder)
+- **~15–25 gp** — tips from the Old Skull Inn evening performance (Fiorn, with Kto participating; exact amount and split unclear; Yinu pooling her share into group funds)
+
+**Items & favors:**
+- **Nalith:** Quillip's **fey berry/token** (pocketed; effect undefined at the time — confirmed as Bright Court guest-right in S6)
+- **Naan:** **Letter of introduction to the Temple of Lathander in Highmoon** from Lady Ulphor (first pressed into her hand at the blessing; canonical delivery re-played in S5)
+- **Party:** Rooms at the Old Skull Inn for the evening, paid by Lady Ulphor; festival flower crowns
+- **Gold ribbons:** Fiorn (Bardic Showcase), Yinu (Arcane Skills Challenge), Nalith (the Greening). Kto took Round 1 of the archery contest with a natural 20 but did not place overall [final placement unclear]
+
+**Standing offers coming out of the session:**
+- Helbrin's road-tour supporting-act offer to Fiorn
+- Orvyn's "come by tomorrow afternoon" Harper gift for Yinu (collected in S5)
+
+---
+
+*[Log completed retroactively from the Session4.m4a transcript — the original automated log was truncated mid-file at the blessing scene.]*
