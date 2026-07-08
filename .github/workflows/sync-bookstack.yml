@@ -1,0 +1,59 @@
+name: Sync BookStack
+
+# Keeps the BookStack wiki at wiki.nqs.io in sync with the Markdown content
+# here, so you only ever edit this repo. On every push to main that touches
+# campaign content, scripts/sync_bookstack.py mirrors it onto the
+# "Forgotten Realms Kids Campaign" shelf (creating the shelf, books, chapters,
+# and pages as needed, updating only what changed, and recycling pages whose
+# source files were deleted). Pages it didn't create are left alone.
+#
+# One-time prerequisite: a BookStack API token with permission to manage
+# shelves/books/pages. In BookStack: Edit Profile -> API Tokens -> Create
+# Token, then add a repo secret named BOOKSTACK_API_TOKEN containing
+# "<token_id>:<token_secret>" (both values joined by a colon).
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'AGENTS.md'
+      - 'dnd-adventure-generator.md'
+      - 'campaign/**'
+      - 'sessions/**'
+      - 'scripts/sync_bookstack.py'
+      - '.github/workflows/sync-bookstack.yml'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry run (print planned writes without changing BookStack)'
+        type: boolean
+        default: false
+
+permissions:
+  contents: read
+
+concurrency:
+  group: sync-bookstack
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Sync content to BookStack
+        env:
+          BOOKSTACK_API_TOKEN: ${{ secrets.BOOKSTACK_API_TOKEN }}
+          BOOKSTACK_URL: https://wiki.nqs.io
+          BOOKSTACK_SHELF: Forgotten Realms Kids Campaign
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          WIKI_SOURCE_BRANCH: ${{ github.ref_name }}
+        run: |
+          if [ -z "$BOOKSTACK_API_TOKEN" ]; then
+            echo "::error::Missing BOOKSTACK_API_TOKEN repo secret. Create a BookStack API token"
+            echo "::error::(Edit Profile -> API Tokens) and save it as '<token_id>:<token_secret>'."
+            exit 1
+          fi
+          python3 scripts/sync_bookstack.py ${{ inputs.dry_run && '--dry-run' || '' }}
