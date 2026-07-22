@@ -3,8 +3,8 @@
 Session-agnostic. Copy unchanged into each new session folder. Driven by:
 - Three markdown files (`<slug>-1-adventure.md`, `<slug>-2-combat-tracker.md`,
   `<slug>-3-player-handouts.md`).
-- An `images.json` manifest of `{description, url, aspect_ratio}` so images can
-  be sized without re-querying Gemini.
+- An `images.json` manifest of `{description, prompt, url, aspect_ratio, file}` so images can
+  be sized without re-querying the provider. `prompt` retains the exact final generation request for regeneration provenance.
 
 Entry point: `build_pdf(md_files, images_json, out_path, title)`.
 """
@@ -98,9 +98,10 @@ def _aspect(ratio: str) -> tuple[int, int]:
     return int(a), int(b)
 
 def load_images(path: str | Path) -> dict[str, dict]:
-    """Return {url: {description, aspect_ratio, file?, _path?}} from images.json.
+    """Return {url: {description, prompt, aspect_ratio, file?, _path?}} from images.json.
 
-    When an entry carries a `file` key, resolve it to an absolute `_path`
+    `prompt` is retained as generation provenance; rendering uses URL, aspect ratio,
+    and the local durable file path. When an entry carries a `file` key, resolve it to an absolute `_path`
     alongside images.json so the renderer can read the local copy."""
     images_dir = Path(path).parent
     data = json.loads(Path(path).read_text())

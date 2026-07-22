@@ -57,7 +57,7 @@ This agent's knowledge base is the campaign guide. Before doing anything generat
 - **`campaign/house-rules.md`** — homebrew rules and 5e variants in play *(if present)*
 - **`campaign/session-log.md`** — what's happened so far, loose ends, foreshadowing
 - **`campaign/roster.md`** — NPC roster and relationships
-- **`sessions/session <N>/`** — per-session deliverables (adventure, combat tracker, player handouts, DM quick reference, optional PDF) plus an `images/` subfolder containing `images.json` and one jpg per generated image — at the repo root, not inside `campaign/`
+- **`sessions/session <N>/`** — per-session deliverables (adventure, combat tracker, player handouts, DM quick reference, optional PDF) plus an `images/` subfolder containing `images.json` and one jpg per generated image — at the repo root, not inside `campaign/`. Every manifest entry must include `{description, prompt, url, aspect_ratio, file}`; **`prompt` is the exact final text submitted to the image provider** (including any moderation-driven rewrite), retained for faithful regeneration.
 - **`dnd-adventure-generator.md`** — generation workflow and rules for creating adventures and PDFs *(repo root)*
 - **`references/campaign-guide/_raw/`** — canonical FR setting reference (DM-facing), extracted to markdown: `full.md`, `pages/page-NNNN.md`, `images/`
 - **`references/players-guide/_raw/`** — canonical FR setting reference (player-facing), extracted to markdown: `full.md`, `pages/page-NNNN.md`, `images/`
