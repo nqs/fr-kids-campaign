@@ -807,6 +807,11 @@ class BlockRenderer:
         # Drop spacers that would otherwise sit directly under the image.
         while text_flows and isinstance(text_flows[0], Spacer):
             text_flows = text_flows[1:]
+        # Drop trailing page breaks and decorative flowables. The finalizer adds
+        # the page separator itself, so a PageBreak that the parser left after
+        # this handout would strand a blank page between it and the next one.
+        while text_flows and isinstance(text_flows[-1], (PageBreak, Spacer, HRFlowable)):
+            text_flows = text_flows[:-1]
 
         SP_TITLE, SP_TEXT = 6, 10  # gaps above and below the image
         title_h = _flow_height(heading, frame_w, frame_h)

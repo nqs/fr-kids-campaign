@@ -1,0 +1,74 @@
+[
+  {
+    "description": "Lighthouse road at night",
+    "file": "lighthouse-road.jpg",
+    "aspect_ratio": "16:9",
+    "tool_prompt": "Original painterly fantasy adventure sourcebook digital art. Cinematic wide fantasy landscape, pale gravel road at night across a dry former seabed, broken milestone foreground, skeletal stranded sailing ships far inland, solitary old stone lighthouse in distance sweeping one warm amber beam through blue sea mist, stars, no sea near tower, mysterious and hopeful, no characters, no words.",
+    "prompt": "Original painterly fantasy adventure sourcebook digital art. Cinematic wide fantasy landscape, pale gravel road at night across a dry former seabed, broken milestone foreground, skeletal stranded sailing ships far inland, solitary old stone lighthouse in distance sweeping one warm amber beam through blue sea mist, stars, no sea near tower, mysterious and hopeful, no characters, no words., high quality, detailed",
+    "status": "blocked",
+    "error": "OpenRouter allowed-provider settings exclude black-forest-labs for image-mcp default model"
+  },
+  {
+    "description": "Stranded ship refuge",
+    "file": "stranded-ship-camp.jpg",
+    "aspect_ratio": "16:9",
+    "tool_prompt": "Original painterly fantasy adventure sourcebook digital art. Wide fantasy illustration of a small sheltered camp inside the broken wooden hull of a stranded sailing ship on a dry salt flat at night. Blankets, coiled rope, hooded lantern, kettle, distant lighthouse beam blocked by hull. Cozy refuge against blue mist, no recognizable player characters, no words.",
+    "prompt": "Original painterly fantasy adventure sourcebook digital art. Wide fantasy illustration of a small sheltered camp inside the broken wooden hull of a stranded sailing ship on a dry salt flat at night. Blankets, coiled rope, hooded lantern, kettle, distant lighthouse beam blocked by hull. Cozy refuge against blue mist, no recognizable player characters, no words., high quality, detailed",
+    "status": "blocked",
+    "error": "OpenRouter allowed-provider settings exclude black-forest-labs for image-mcp default model"
+  },
+  {
+    "description": "Tamsin Reed, lighthouse keeper",
+    "file": "tamsin-reed.jpg",
+    "aspect_ratio": "3:4",
+    "tool_prompt": "Original painterly fantasy adventure sourcebook digital art. Fantasy portrait of an older human woman lighthouse keeper, weathered brown skin, silver cropped hair, patched dark teal wool coat, rope belt, brass hand lantern and wooden staff, worried protective expression, salt-stained stone lighthouse doorway, moonlight, no text.",
+    "prompt": "Original painterly fantasy adventure sourcebook digital art. Fantasy portrait of an older human woman lighthouse keeper, weathered brown skin, silver cropped hair, patched dark teal wool coat, rope belt, brass hand lantern and wooden staff, worried protective expression, salt-stained stone lighthouse doorway, moonlight, no text., high quality, detailed",
+    "status": "blocked",
+    "error": "OpenRouter allowed-provider settings exclude black-forest-labs for image-mcp default model"
+  },
+  {
+    "description": "Orin Vale, stranded traveler",
+    "file": "orin-vale.jpg",
+    "aspect_ratio": "3:4",
+    "tool_prompt": "Original painterly fantasy adventure sourcebook digital art. Fantasy portrait of a practical middle aged human traveling cartographer with warm brown skin, curly dark hair, rust colored scarf, rolled map and coil of rope, concerned but kind, seated beside sheltered lantern in stranded wooden ship at night, no text.",
+    "prompt": "Original painterly fantasy adventure sourcebook digital art. Fantasy portrait of a practical middle aged human traveling cartographer with warm brown skin, curly dark hair, rust colored scarf, rolled map and coil of rope, concerned but kind, seated beside sheltered lantern in stranded wooden ship at night, no text., high quality, detailed",
+    "status": "blocked",
+    "error": "OpenRouter allowed-provider settings exclude black-forest-labs for image-mcp default model"
+  },
+  {
+    "description": "Veyra Sorn, beacon operator",
+    "file": "veyra-sorn.jpg",
+    "aspect_ratio": "3:4",
+    "tool_prompt": "Original painterly fantasy adventure sourcebook digital art. Fantasy portrait of a stern human occult engineer woman with dark braided hair, charcoal coat with copper clasps, gloved hands holding brass alignment key, cold controlled expression, amber lighthouse machinery behind her, subtle ominous mood, no gore, no words.",
+    "prompt": "Original painterly fantasy adventure sourcebook digital art. Fantasy portrait of a stern human occult engineer woman with dark braided hair, charcoal coat with copper clasps, gloved hands holding brass alignment key, cold controlled expression, amber lighthouse machinery behind her, subtle ominous mood, no gore, no words., high quality, detailed",
+    "status": "blocked",
+    "error": "OpenRouter allowed-provider settings exclude black-forest-labs for image-mcp default model"
+  },
+  {
+    "description": "Brine fiend",
+    "file": "brine-fiend.jpg",
+    "aspect_ratio": "3:4",
+    "tool_prompt": "Original painterly fantasy adventure sourcebook digital art. Original fantasy lesser demon formed of dark barnacle-crusted stone, salt crystals and cold green vapor, compact hulking biped, clawed forelimbs, two curved horns, standing on stone lantern chamber floor, eerie not gory, no words.",
+    "prompt": "Original painterly fantasy adventure sourcebook digital art. Original fantasy lesser demon formed of dark barnacle-crusted stone, salt crystals and cold green vapor, compact hulking biped, clawed forelimbs, two curved horns, standing on stone lantern chamber floor, eerie not gory, no words., high quality, detailed",
+    "status": "blocked",
+    "error": "OpenRouter allowed-provider settings exclude black-forest-labs for image-mcp default model"
+  },
+  {
+    "description": "Tactical Map \u2014 Lighthouse approach",
+    "file": "lighthouse-approach-map.jpg",
+    "aspect_ratio": "1:1",
+    "tool_prompt": "Original painterly fantasy adventure sourcebook digital art. Strict overhead orthographic fantasy battlemap, no perspective, no characters, no labels, no grid. Square area 80 by 80 feet, dry pale salt flat, curving gravel path enters south, low ruined harbor walls provide cover east and west, round stone lighthouse base at north with south facing door, broken mast and driftwood west, gentle moonlight but clear readable terrain, no surrounding water.",
+    "prompt": "Original painterly fantasy adventure sourcebook digital art. Strict overhead orthographic fantasy battlemap, no perspective, no characters, no labels, no grid. Square area 80 by 80 feet, dry pale salt flat, curving gravel path enters south, low ruined harbor walls provide cover east and west, round stone lighthouse base at north with south facing door, broken mast and driftwood west, gentle moonlight but clear readable terrain, no surrounding water., high quality, detailed",
+    "status": "blocked",
+    "error": "OpenRouter allowed-provider settings exclude black-forest-labs for image-mcp default model"
+  },
+  {
+    "description": "Tactical Map \u2014 Lantern chamber",
+    "file": "lantern-chamber-map.jpg",
+    "aspect_ratio": "1:1",
+    "tool_prompt": "Original painterly fantasy adventure sourcebook digital art. Strict overhead orthographic fantasy battlemap, no perspective, no characters, no labels, no grid. Circular stone lighthouse lantern chamber 60 feet diameter centered within square frame. Central brass optical lens machine 10 feet wide, three distinct small brass alignment pedestals north east west, south entrance stair landing with solid parapet, broad walkable annular floor, enclosing glass and stone outer wall, warm amber machinery lighting, clear readable tactical layout, no pits.",
+    "prompt": "Original painterly fantasy adventure sourcebook digital art. Strict overhead orthographic fantasy battlemap, no perspective, no characters, no labels, no grid. Circular stone lighthouse lantern chamber 60 feet diameter centered within square frame. Central brass optical lens machine 10 feet wide, three distinct small brass alignment pedestals north east west, south entrance stair landing with solid parapet, broad walkable annular floor, enclosing glass and stone outer wall, warm amber machinery lighting, clear readable tactical layout, no pits., high quality, detailed",
+    "status": "blocked",
+    "error": "OpenRouter allowed-provider settings exclude black-forest-labs for image-mcp default model"
+  }
+]

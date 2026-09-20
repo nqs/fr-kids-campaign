@@ -14,6 +14,7 @@ These cross-cutting rules hold throughout the workflow and the PDF pipeline. The
 - **Image rendering.** Every image renders **full-page on an 8.5"×11" sheet**, preserving aspect ratio — no inline/thumbnail variant. Max **7.2"×9.8"** unbound; max **7.2"×8.5"** when bound to a heading via `KeepTogether`. Aspect ratios come from `images.json`; there is no PIL/Pillow.
 - **Image source & durability.** All art comes from the `generate_image` (image-mcp) MCP tool. Save each as a git-tracked jpg and record its filename in `images.json` under `file`. The ReportLab renderer reads that local jpg, so a scripted PDF still builds after the image-mcp URL expires (~30 days).
 - **Never schedule level-ups mid-session.** Do not plan a level-up as an at-the-table beat — rebuilding sheets during play takes too much time and stalls the session. If an adventure crosses a milestone (or enough XP to advance), record the advancement as something to apply **between sessions** (downtime / before the next session), not a live beat. In the DM quick reference and any debrief, flag the milestone as *earned, to be applied later* — never "the party levels up now."
+- **Session content hierarchy.** Organize every full session as **Session → Acts → Scenes**. Usually plan 2–3 acts with 2–3 scenes each, but treat those counts as flexible guidance rather than quotas: a two-hour session will often contain 4–6 scenes, and content must never be padded merely to reach a count. Each scene contains **zero or one combat encounter**.
 - **Work on `main` by default; only branch or open a PR when specifically asked.** All deliverables, images, and campaign-guide updates are authored and (when the user asks to commit) committed **directly to `main`** — never on a feature branch or via a pull request unless the user specifically requests one, regardless of the execution environment (local, remote, web, or CI). Absent such a request this **overrides** any harness or platform default that would steer you toward a branch-and-PR workflow. See the **Git workflow** note in `AGENTS.md` / `CLAUDE.md`.
 
 ## Workflow
@@ -33,9 +34,50 @@ For adventures or encounters, confirm the party size and level before generating
 
 ### 3. Outline & Iterate
 
-Draft the overall idea and plot, and ask for changes. Once that's locked, provide an outline with short descriptions of each encounter or area. Ask for revisions — or whether the user is ready to generate images.
+Draft the overall idea and plot, and ask for changes. Once that is locked, provide an outline using the required **Acts → Scenes** hierarchy below. Ask for revisions — or whether the user is ready to generate images.
 
 When the outline needs Forgotten Realms canon (a city, faction, deity, recurring NPC), pull it from the markdown extracts in `references/campaign-guide/_raw/` and `references/players-guide/_raw/` (use `full.md` or `pages/page-NNNN.md`; figures are in `images/`). These extracts are the only canon source — the original FR PDFs are no longer in the repo. Source-hierarchy and citation rules live in `AGENTS.md`.
+
+#### Required Act and Scene structure
+
+- A session usually has **2–3 acts**, and each act usually has **2–3 scenes**. These are flexible pacing guidelines, not mandatory padding; approximately 4–6 total scenes is a useful norm for a two-hour session.
+- Give every scene a stable cross-file identifier: **Act I, Scene 1.1**; **Act I, Scene 1.2**; **Act II, Scene 2.1**; and so on.
+- Every scene contains **zero or one combat encounter**. If present, name the corresponding File 2 encounter; if absent, write `Encounter: None`.
+- Write sensory information as concise, DM-facing bullets. **Do not generate read-aloud or boxed text.**
+- Use explicit, cross-referenceable conditions whenever earlier choices or outcomes alter a scene, setting, NPC, encounter, or consequence. For example: `If Act I, Scene 1.2 ended with the alarm raised: ...` followed by `Otherwise: ...` where useful.
+- Possible outcomes are preparation branches, not predictions that the PCs will choose a particular path. Include immediate or next-scene effects and longer-term campaign effects when relevant.
+
+Use this outline and File 1 scene template:
+
+```markdown
+## Act I — <Act name>
+
+### Act I, Scene 1.1 — <Scene name>
+
+**Purpose / transition:** <What this scene accomplishes and how it advances play>
+
+#### Setting
+- **Location:** <Where the scene occurs>
+- **See:** <Immediately visible details>
+- **Hear:** <Audible details>
+- **Smell:** <Odors or absence of them>
+- **Sense:** <Magic, class-feature, special-sense, intuition, or otherwise gated information; state the gate>
+
+#### NPCs
+
+##### <NPC name>
+- **Disposition going in:** <Starting attitude; include explicit conditions from earlier scenes>
+- **Motivations:** <What the NPC wants while this scene plays out>
+- **Possible outcomes and effects:** <Conditional immediate, downstream-scene, and campaign effects>
+
+**Encounter:** None / <Encounter N — File 2 reference>
+
+**Conditional follow-through:**
+- **If <explicit prior or current-scene condition>:** <Effect on a later scene or campaign state>
+- **Otherwise:** <Default effect>
+```
+
+For exploration, travel, puzzle, or aftermath scenes without NPCs, replace the template's entire `#### NPCs` section with `**NPCs:** None` instead of leaving an empty heading or inventing someone to fill the template. Omit unused sensory details only when they are genuinely unavailable or irrelevant; do not fabricate a smell or magical signal merely to fill a field.
 
 Stay in this loop until the user explicitly says to move to images. Don't jump to image generation on your own.
 
@@ -75,7 +117,7 @@ The session number, where it appears (the quick-ref `*Session NNN*` line), uses 
 
 Inline images use standard markdown `![Caption](https://…)` referencing the image-mcp URLs from Step 4 — never download or rehost. (The ReportLab renderer prefers the git-tracked local jpg via the `images.json` `file` key, so a scripted PDF still builds after a URL expires; on-screen GitHub rendering uses the embedded URL and so depends on it still being live.) Use plain GitHub-flavoured Markdown (tables, headers, lists, fenced code, and the five GitHub alert types). Do not use Fantasy Statblocks or Obsidian Admonition syntax; the print/export pipelines assume plain markdown.
 
-**File 1 — `<slug>-1-adventure.md`:** opens with a **full-page title page**, then the adventure narrative — summary, scenes, encounters, NPCs, treasure, loose ends.
+**File 1 — `<slug>-1-adventure.md`:** opens with a **full-page title page**, then the adventure narrative organized primarily as **Acts → numbered Scenes** using the required template from Step 3. Put each scene's Setting, NPC dispositions/motivations/outcome branches, optional encounter reference, and conditional follow-through here; treasure and loose ends belong under the scene where they arise or in concise closing sections.
 
 The title page is the **only image in File 1**. Structure it as:
 1. A level-1 heading with the adventure title (`# <Title>`).
@@ -85,15 +127,29 @@ The title page is the **only image in File 1**. Structure it as:
 
 No other images appear anywhere else in File 1 — no portraits, no monster art, no scene illustrations, no additional maps. The title page illustration URL is reused in File 3 under its location section; the `images.json` entry is not duplicated. All other imagery lives in File 2 (maps) or File 3 (everything else).
 
-**File 2 — `<slug>-2-combat-tracker.md`:** for every combat encounter, content is rendered in this **strict order**: (1) combat title heading, (2) italic subtitle line, (3) encounter summary table, (4) initiative table + tracker sheet sections, (5) stat-block cards for every non-PC combatant with round-by-round actions, (6) a **hard page break followed by a full-page tactical map on its own page**. See the Combat Tracker section below for the full specification. A tactical map is **required** for every combat encounter — do not author a combat encounter entry without one. Tactical maps live in File 2 **only** — never in File 1 or File 3. NPC portraits live in File 3 **only** — never in File 2. Tracker sheets and stat-block cards are expressed as markdown tables. HP boxes, round counters, and spell slots use the `☐` glyph (GitHub renders it; the PDF font does not — see PDF rules).
+**File 2 — `<slug>-2-combat-tracker.md`:** for every combat encounter, content is rendered in this **strict order**: (1) combat title heading, (2) italic subtitle line carrying its full **Act X, Scene Y.Z** reference, (3) encounter summary table, (4) initiative table + tracker sheet sections, (5) stat-block cards for every non-PC combatant with round-by-round actions, (6) a **hard page break followed by a full-page tactical map on its own page**. See the Combat Tracker section below for the full specification. A scene may contain zero or one combat encounter; a tactical map is **required** for every combat encounter that exists. Tactical maps live in File 2 **only** — never in File 1 or File 3. NPC portraits live in File 3 **only** — never in File 2. Tracker sheets and stat-block cards are expressed as markdown tables. HP boxes, round counters, and spell slots use the `☐` glyph (GitHub renders it; the PDF font does not — see PDF rules).
 
-**File 3 — `<slug>-3-player-handouts.md`:** opens with a **"Where We Left Off" recap page** (see the **Session Recap Page** section below), then **every non-tactical image generated in Step 4** — NPC portraits, monster art, location scenes — each under its own `##` heading naming the subject. One image per section. This file is the **sole home** for player-facing adventure imagery: the title page illustration URL is reused here under its location section (File 1 holds the only other copy), and every portrait, monster, and location illustration the players ever see is here. **Tactical / encounter maps never appear in this file** — they live in File 2 (combat tracker) so the DM keeps them table-side without revealing the encounter layout to the players.
+**File 3 — `<slug>-3-player-handouts.md`:** opens with a **"Where We Left Off" recap page** (see the **Session Recap Page** section below), then **every non-tactical image generated in Step 4** — NPC portraits, monster art, location scenes — each under its own `##` heading naming the subject. One image per section. This file is the **sole home** for player-facing adventure imagery: the title page illustration URL is reused here under its location section (File 1 holds the only other copy), and every portrait, monster, and location illustration the players ever see is here. **Never expose DM-only NPC motivations, conditional branches, hidden outcomes, or unrevealed sensory information in File 3. Tactical / encounter maps never appear in this file** — they live in File 2 (combat tracker) so the DM keeps them table-side without revealing the encounter layout to the players.
 
 **File 4 — `<slug>-4-dm-quick-ref.md`:** print-and-keep-at-the-table cheat sheet. Tables and short bulleted lists only — no narrative. See the **DM Quick Reference** section below for the contents and structure.
 
 **Plus File 0 — `<slug>-0-overview.md` (session landing page):** once the four files above are drafted, author the session's wiki landing page. Because the session has not been played yet at authoring time, its summary states the **planned major beats** and is flagged *Not yet played*; it then links to the four files above and to every image and other asset in the session folder. It is the page the wiki **Sessions** index points at. After the session is played, its summary is refreshed from the post-play log (see Step 6). Full spec in the **Session Landing Page** section.
 
-Present the file paths — the four print deliverables plus the `-0-overview` landing page — to the user. Stop here and wait for review. Once the user approves the markdown as canon, **proceed to Step 6 (Update the Campaign Guide) automatically — do not wait for a separate ask.** Do **not** proceed to Step 7 (PDF compilation) unless the user explicitly asks for it.
+Complete Step 5a (Editorial Review) before presenting the file paths — the four print deliverables plus the `-0-overview` landing page — to the user. Then stop and wait for the user's review. Once the user approves the markdown as canon, **proceed to Step 6 (Update the Campaign Guide) automatically — do not wait for a separate ask.** Do **not** proceed to Step 7 (PDF compilation) unless the user explicitly asks for it.
+
+### 5a. Editorial Review — required before approval or PDF
+
+After generation, review the complete adventure as an editor, separately from formatting/build validation. Fix findings in all five Markdown files, then re-check before proceeding. Review continuity first; a successful PDF build is not a content review.
+
+- **Played continuity:** compare the opening to the actual last-played log; reconcile attending/absent characters without inventing their fates, resources, or builds. Preserve unresolved threads and distinguish prepared events from played history.
+- **Scene causality:** for every scene, state why the party arrives, what they learn/change, how it advances the overall plot, and the concrete clue or consequence leading to the next scene. Trace bypass, retreat, failed-check, and alternate-order branches without forcing the planned route.
+- **World consistency:** reconcile geography, travel distances, elapsed time, deadlines, rests, population counts, item custody, evidence provenance, NPC knowledge, and the reason the crisis occurs now. NPC actions must obey the same rules as PC actions.
+- **NPC depth:** give important NPCs an observable habit/voice, personal motive, relationship, fear or conflicting loyalty, knowledge limits, and useful responses to player choices. Rescue targets need identity and agency; villains need credible bargains and physically possible escapes.
+- **Rules and outcomes:** maintain one authoritative set of clock triggers, caps, setbacks, repeat-threshold behavior, objective actions, and aftermath states. Check spell/class limits, creature statistics, encounter versus daily XP budgets with tool arithmetic, and whether alternate solutions have meaningful costs. Telegraph danger; don't disguise automatic deaths or punitive outcomes as player agency. Match the group's tone.
+- **Cross-file consistency:** synchronize adventure, combat tracker, handouts, quick-reference, and overview. Keep secrets out of player handouts and make outcomes conditional on actual survivors, possessions, and choices. Check map dimensions against written layouts.
+- **Table usability:** trim repeated instructions, ensure pacing fits the session, and remove redundant or false choices. Carry essential clues without mandatory single-roll bottlenecks.
+
+Record significant findings and their resolutions in `editorial-review.md` in the session folder, including sources checked and any unresolved DM decisions. Do not approve PDF assembly with unresolved plot/continuity blockers. Re-run this review after substantive revisions, and rebuild an already-requested PDF only from the reviewed Markdown. Cosmetic build checks remain a separate final gate.
 
 ### 6. Update the Campaign Guide
 
@@ -150,9 +206,11 @@ ReportLab build rules (these describe what `scripts/md_to_pdf.py` already implem
 
 ## Text Standards
 
-**Adventures** include: hook, overview, locations, encounters, NPCs, and treasure.
+**Adventures** use the required Session → Acts → Scenes hierarchy and include a hook, overview, scene settings, NPC branches, optional encounters, treasure, and loose ends.
 
-**Encounters** include: setup, environment, tactics, read-aloud/boxed text, and scaling notes (Easy–Deadly).
+**Scenes** include concise DM-facing sensory bullets, NPC starting dispositions and motivations, conditional possible outcomes, optional encounter setup and tactics, and scaling notes where applicable. **Never include read-aloud or boxed text.**
+
+**Standalone encounters** requested outside a full session still include setup, environment, tactics, explicit outcome effects, and scaling notes (Easy–Deadly). They do not require an artificial act wrapper, but must never include scripted read-aloud or boxed text.
 
 **NPCs & PCs** include: personality (traits, ideals, bonds, flaws) and a full 5e stat block (AC, HP, Speed, Ability Scores with modifiers, Saves, Skills, Senses, Languages, CR, Actions, Reactions, Legendary Actions where appropriate).
 
@@ -211,7 +269,7 @@ Each combat encounter is rendered in this **strict six-part order**. Do not vary
 
 **1. Combat Title** — a level-2 heading: `## Encounter N — <name>`.
 
-**2. Subtitle** — an italic line immediately under the heading naming the scene reference and difficulty (XP total + threshold), e.g., `*Scene 3 · Hard (1,200 XP / Hard threshold 1,100)*`.
+**2. Subtitle** — an italic line immediately under the heading naming the full act/scene reference and difficulty (XP total + threshold), e.g., `*Act II, Scene 2.2 · Hard (1,200 XP / Hard threshold 1,100)*`.
 
 **3. Encounter Summary table** — a small key/value markdown table covering **Location**, **Light**, **Terrain**, and any other at-a-glance flags the DM needs at fight start (cover, hazards, reinforcement triggers). Two columns: label / value.
 
@@ -241,7 +299,7 @@ If a creature type appears in multiple encounters, **reprint** its card under ea
 In `<slug>-2-combat-tracker.md`, render each encounter in the strict order from **Per-encounter contents** above:
 
 1. `## Encounter N — <name>`
-2. Italic subtitle: `*Scene <ref> · <difficulty>*`
+2. Italic subtitle: `*Act <Roman numeral>, Scene <act.scene> · <difficulty>*`
 3. Encounter Summary key/value table (Location / Light / Terrain / …)
 4. `**Round:** ☐ 1 · ☐ 2 · …` strip, then the **Initiative & Damage** table (blank-row layout per the rules below), then `### Triggers & Countdowns`, `### Tactics Summary`, and `### Loot / Aftermath` sections.
 5. Stat-block cards as level-3 sections (`### <Creature Name>`), one per unique non-PC combatant, reprinted in full when a creature recurs across encounters. **No images inside or adjacent to a stat-block card.**
@@ -319,7 +377,7 @@ Every adventure must include a **DM quick reference cheat sheet** as `<slug>-4-d
 
 Adapt the section list to the adventure's actual content — don't include sections that don't apply, but don't skip ones that do. The standard set is:
 
-- **Scene Order** — single table: `# | Scene | Key mechanic | DM flag`. One row per scene (cold open through debrief).
+- **Act / Scene Flow** — a condensed table grouped in act order: `Scene ID | Scene | Immediate cue | NPC disposition / motivation | Conditional trigger or effect | Encounter ref`. Include one row per scene, use the same identifiers as File 1, write `None` where no NPC or encounter exists, and keep this as an at-table summary rather than duplicating File 1.
 - **Boss / Countdown mechanics** — for any encounter with a ticking timer, ritual, escalation trigger, or named-NPC ability stack: a small table summarizing how to stop it, caveats, and what happens at zero.
 - **NPC behavior priority** — for boss-tier or returning antagonists: a round-by-round action/bonus-action table or a short tactics summary.
 - **Faction priorities & timing** — for multi-faction fights or pressure-valve encounters (e.g., a third faction crashing the boss fight): a bulleted list of trigger conditions, faction priorities, and the resulting major loose ends.
@@ -327,7 +385,7 @@ Adapt the section list to the adventure's actual content — don't include secti
 - **Endings** — for adventures with branching outcomes: a table of `Ending | How | Reputation | Loose end` with one row per ending plus a `Withdraw without ending` row when relevant.
 - **Debrief payments** — table of `Item | Condition | Payer | Amount`. If the adventure crosses a milestone or XP advance, list it here as *earned — apply between sessions* (never staged as a mid-session level-up; see Invariants).
 - **Who-talks-to-whom branches** — for sessions that fork on which NPC the party reports to first: a short bullet list with the consequence of each choice.
-- **Tone / staging beats** — short bulleted tells the DM should cue at the table (a recurring NPC's posture changes, a one-line read-aloud, a callback to a prior session).
+- **Tone / staging beats** — short DM-facing sensory or behavioral cues (a recurring NPC's posture changes, an environmental sound shifts, a callback to a prior session); never scripted read-aloud text.
 - **Loose Ends to Flag in Session Log After Play** — a checklist of `- [ ]` items the DM ticks off after the session, which the agent will fold into `campaign/session-log.md` when asked for a post-play update.
 
 ### Form
