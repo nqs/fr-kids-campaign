@@ -642,6 +642,7 @@ class BlockRenderer:
         # vertical space the title and description leave on the page.
         if self.section == "player-handouts":
             img = sized_image(url, self.manifest, max_w_in=7.2)
+            setattr(img, "portrait_name", self.manifest.get(url, {}).get("portrait_name"))
             img.hAlign = "CENTER"
             self.out.append(img)
             return
@@ -803,6 +804,24 @@ class BlockRenderer:
         consume whatever vertical space the title and text leave free."""
         heading = seg[0]
         img = seg[img_pos]
+        portrait_name = getattr(img, "portrait_name", None)
+        if portrait_name:
+            # Portraits are image + typeset name only; headings/captions stay
+            # outside this page. Manifest metadata, not filenames, selects it.
+            from reportlab.lib.styles import ParagraphStyle
+            name = Paragraph(_esc(portrait_name), ParagraphStyle(
+                "PortraitName", fontName="Times-Bold", fontSize=28,
+                leading=32, alignment=1, spaceBefore=0, spaceAfter=0))
+            _, name_h = name.wrap(frame_w, frame_h)
+            gap = 10
+            available = frame_h - name_h - gap - 2
+            scale = min(frame_w / img.drawWidth, available / img.drawHeight)
+            img.drawWidth *= scale
+            img.drawHeight *= scale
+            img.hAlign = "CENTER"
+            # Any aspect-ratio remainder keeps the name at the bottom.
+            spare = max(0, available - img.drawHeight)
+            return KeepTogether([img, Spacer(1, gap + spare), name])
         text_flows = seg[img_pos + 1:]
         # Drop spacers that would otherwise sit directly under the image.
         while text_flows and isinstance(text_flows[0], Spacer):

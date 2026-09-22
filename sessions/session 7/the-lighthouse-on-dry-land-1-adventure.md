@@ -132,6 +132,12 @@ Let them compare their visions immediately; each player chooses what their chara
 
 ##### Orin Vale — the man who kept them alive ⚗️
 
+**Visual — show the handout when they first see them, and read these cues aloud:**
+- Wiry, weather-beaten, grey stubble — and unhurried: he finishes a boot-stitch before he looks up.
+- A rope-belt with a **bent iron nail** hanging off it, on a leather cord.
+- Keeps the camp fed and counted, and keeps his own tally-book close.
+- Wants the light **out**, does not care how, and will show you what he has written down.
+
 - **Disposition going in:** wary for ten seconds, then instantly useful. Six weeks at this camp; **two people buried**; strangers who walked in *without* walking to the light are the first good news he has had.
 - **Personality (play him warm):** practical, unhurried, task-first. He mends boots while he talks and hands out tea in a fixed order, **counting the cups**, a habit he never explains and never stops. He says little of himself, remembers everything about everyone else, is **ashamed** of the two who died before he understood the road, wants his four back and the light **out** any way, and is quietly **afraid** of what is wearing his friend's coat.
 - **History:** a supply courier who knows the old coast road; Tamsin is his friend. Six weeks ago she gave him a ward-nail, a dated warning, and a copied maintenance page during a lucid interval. Her original log stays in the tower. Since the four were taken three nights ago, he has tried twice to reach them; Tamsin drove him back at the door. Andry escaped briefly from the tower during a transfer, brought out the torn ledger schedule, then was recaptured while guiding the other prisoners. Orin keeps that fragment with his tally.
@@ -200,6 +206,12 @@ Scared, courteous, patient in a way that reads as hopelessness. **The differing 
 
 ##### Tamsin Reed — keeper of the Sarshel Light, enthralled ⚗️
 
+**Visual — show the handout when they first see them, and read these cues aloud:**
+- Fifty-something, sun-cracked, in a coat black with salt.
+- A brass hand-lantern and a gnarled staff; other keeper’s tools hang by the doorway.
+- She warns you off three times before she swings, and she means all three.
+- She says you are **wreckers**. She says the light is hers. She will not let you up her stair.
+
 - **Disposition:** protective and suspicious, charmed for three months but eating and sleeping normally. Calls strangers wreckers and warns them three times. The captives’ names and her own maintenance notes create visible doubt before any roll.
 - **Personality:** patient, dryly funny beneath the charm; checks lantern wicks mid-conversation, insists everyone use the stair handrail, and corrects sloppy nautical terms. Duty and affection for Orin conflict with the implanted order to guard the door. Once herself, she is horrified by the deception and immediately starts helping.
 - **Motivations:** keep the light burning, keep the stair clear. She believes it is the last thing between the Drywater and something worse — **and she is right**, which is the tragedy of the scene. Not a cultist; never recruited.
@@ -237,6 +249,12 @@ Unaware until the alarm or the lamp-room; three nights at the pedestals. If the 
 
 ##### Veyra Sorn — cult operator of the Fraternity of Tharos ⚗️
 
+**Visual — show the handout when they first see them, and read these cues aloud:**
+- Dark braided hair, charcoal coat with brass fittings, black gloves and an astrolabe.
+- Gloved hands adjust a brass instrument; a ledger and fire-iron rest on the nearby bench.
+- She does not shout and she does not gloat — she **recites**, a flat, patient list of names.
+- Around her, **three rings of names are burning in the floor.**
+
 - **Disposition going in:** unsurprised by armed strangers, and honest that she is not the reason they are here — **she will say the one true thing they need: the Fraternity did not bring them here.** Let the table check it, let it stand.
 - **Personality:** calm, courteous, talkative while she works; she recites rather than shouts and never gloats — she *explains*, because that is how the Fraternity recruits and because she is a scholar who thinks she is the most interesting person in the room.
 - **Motivations — recognition, and the fear of going back empty-handed:** a **Fraternity scholar** whose standing rests on being the one who opened the Sarshel Seal — the name in the ledger's margin, the operative the Demonstone remembers. The reversal cost her months; the cell gets **one window a night**; the Fraternity does not forgive a wasted season. **That fear is the lever:** offer her any way to walk away **not empty-handed** — her life, the ledger, a story that blames the weather, a promise nobody follows her — and she genuinely considers it, and keeps it exactly as long as it profits her.
@@ -244,6 +262,12 @@ Unaware until the alarm or the lamp-room; three nights at the pedestals. If the 
 - **Fights, flees, dies:** **fights** in Encounter 2, using the pedestals as cover, the clock as a hostage, the emissary as a bodyguard. **Flees** below 25 HP with the emissary gone — onto the **gallery**, and **no 90-ft drop:** the south wall carries the **keeper's gear** (line and hoist-hooks for cleaning the lamp) and she takes the line over the rail and down the tower's west face, unhurried and competent, into the salt-fog. She escapes **wounded and named** and the Fraternity learns the party's faces — **let her run when the dice allow it.** **Killed:** the ritual does not stop on its own; her **+1** goes away and nothing else changes, and her ledger is in the party's hands.
 
 ##### The Brine Fiend — the seal's emissary ⚗️
+
+**Visual — show the handout when they first see them, and read these cues aloud:**
+- The room was dry, and then it was not.
+- A shape made of **standing brine** — gristle, grit, and salt packed into an outline about as tall as a person and twice as wide.
+- A **hooked mouth** it can open much further than the rest of it.
+- **Where it stands, the stone weeps.**
 
 - **Disposition going in:** half-manifested, ravenous, no interest in the party as people. It wants the lens, the salt, and the four warm things on the brackets.
 - **What it is — and is not. Keep this clean at the table:** a **lesser demon and the emissary of the thing sealed**, a shape sustained by the intact, misaligned lens (the pedestals power the ritual, not its body). **It is not the Sarshel Seal's prisoner.** The prisoner is the **thing under the floor** — far larger, never manifested tonight, that slow ten-second knock. **Do not stat it, do not name it, and do not let the table think the fight in this room is with it.**

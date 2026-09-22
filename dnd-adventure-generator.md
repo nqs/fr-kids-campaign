@@ -83,6 +83,14 @@ Stay in this loop until the user explicitly says to move to images. Don't jump t
 
 ### 4. Image Generation
 
+**Mandatory image requirements**
+
+- **Every tactical map must show a visible, evenly spaced square grid, with each square representing 5 feet × 5 feet.** Derive rows and columns from the written encounter dimensions; verify the generated grid visually before PDF assembly. A scale legend without actual grid lines is insufficient.
+- **NPC/creature artwork must be completely text-free: no baked-in names, lettering, descriptions, or nameplates.** Each portrait PDF page contains only the image, scaled as large as possible within the printable area without cropping or distortion, and the exact NPC name typeset separately at the bottom in large bold centered type (28 pt default). No top heading, descriptive bullets, captions, or other text may appear on that page. Store `portrait_name` in the image manifest to select this layout; retain Markdown headings for navigation, not printed portrait headings. Keep descriptive cues in the DM adventure, not the portrait page.
+- Preserve each exact successful prompt in `images/images.json`. Verify raw portraits contain no text, PDF portrait pages contain exactly one correctly spelled bottom-centered bold name and no other text, and map grids have correct spacing/count. Regenerate failures before rebuilding the PDF. Retain unmodified scene/title art when only maps or portraits need revision.
+
+
+
 Once the user approves moving to images, plan what's needed:
 - A **title page illustration** of the adventure's primary setting (required — one per adventure)
 - A portrait for each major NPC or monster

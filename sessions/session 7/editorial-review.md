@@ -30,3 +30,16 @@ Reviewed the five Session 007 Markdown deliverables against Session 006's played
 ## Verification gate
 
 Run cross-file assertions for clock/boundary/key rules, planned status, valid image paths, five initiative rows per fight, and encounter-map ordering. Rebuild the PDF from revised Markdown; independently verify expected sections, every manifest image embedded, no empty pages, and standalone tactical-map pages. Record actual build results in the overview only after verification.
+
+## Named-portrait and grid revision
+
+Regenerated four portraits through the default Hermes image function: Tamsin Reed, Orin Vale, Veyra Sorn, Brine Fiend. Visual inspection confirmed exact large centered name-only lettering, with no additional readable words. Regenerated both maps and visually confirmed square grids: 16×16 approach at 80×80 feet; 12×12 lantern field at 60×60 feet. Every square represents 5×5 feet. Some map lines pass beneath decorative terrain; written encounter dimensions remain authoritative. Scene and title art retained. Successful exact prompts and measured image sizes updated in the manifest. This is an art revision, not a change to story outcomes or encounter rules.
+
+
+## Revision 2 — art and portrait-page review
+
+- **Portrait pages were wrong:** the handouts printed a heading, the artwork's own baked-in nameplate, and four description bullets, so the name appeared twice and the page was noisy. Fixed at both layers: the raw portraits are now generated wordless, the description bullets moved into the DM sections of File 1 (nothing lost), and the renderer now typesets the name once at the foot of the page.
+- **Renderer change:** `scripts/md_to_pdf.py` composes an illustrated handout page as image + name only when the manifest entry carries `portrait_name`; the name is Times-Bold 28 pt, horizontally centered, and the image is scaled to the largest size the page allows. Covered by `scripts/test_portrait_layout.py` (fail-first test: the old composer printed the heading and bullets).
+- **Title/camp pages keep their captions** — the name-only rule applies to NPC and creature portraits, not scene illustrations.
+- **Tamsin's portrait was a bearded man** while the text makes her an elderly woman; regenerated and re-verified as an elderly woman, full head visible, no lettering.
+- **Artwork provenance is mixed.** Both Codex OAuth credentials are rate-limited until roughly 25 September 2026 (`usage_limit_reached`), so the four portraits and the two maps were made with `gpt-image-2-medium` before the quota ran out, and Tamsin was re-made on `openrouter/google/gemini-2.5-flash-image`, which also returns a faint corner artist mark — cropped off (bottom 12%) before use. Future sessions should check `hermes auth list` before image generation and expect to fall back to OpenRouter.

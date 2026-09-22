@@ -4,6 +4,8 @@
 
 > [!NOTE]
 > **Art generated:** show each illustration only when the party reaches its corresponding scene. Nothing on these pages tells the players where they are, who is waiting, or what the light is for — that is theirs to work out at the table.
+>
+> **Portrait pages are image and name only.** Each NPC/creature portrait page holds one picture scaled to fill the sheet and the name in large bold type at the foot of the page, added by the PDF renderer. The artwork carries no lettering of its own, and no captions or description bullets appear on those pages — show the picture and read the cues from File 1 aloud.
 
 ---
 
@@ -46,55 +48,19 @@
 
 ## Keeper Tamsin Reed
 
-*(Show when the party meets her.)*
-
-![Tamsin Reed](images/tamsin-reed.jpg)
-
-- Fifty-something, sun-cracked, in a coat black with salt.
-- A brass hand-lantern and a gnarled staff; other keeper’s tools hang by the doorway.
-- She warns you off three times before she swings, and she means all three.
-- She says you are **wreckers**. She says the light is hers. She will not let you up her stair.
-
----
+![Keeper Tamsin Reed](images/tamsin-reed.jpg)
 
 ## Orin Vale
 
-*(Show when the party meets him.)*
-
 ![Orin Vale](images/orin-vale.jpg)
-
-- Wiry, weather-beaten, grey stubble — and unhurried: he finishes a boot-stitch before he looks up.
-- A rope-belt with a **bent iron nail** hanging off it, on a leather cord.
-- Keeps the camp fed and counted, and keeps his own tally-book close.
-- Wants the light **out**, does not care how, and will show you what he has written down.
-
----
 
 ## Veyra Sorn
 
-*(Show this when the party first sees her at the lens — not before.)*
-
 ![Veyra Sorn](images/veyra-sorn.jpg)
-
-- Dark braided hair, charcoal coat with brass fittings, black gloves and an astrolabe.
-- Gloved hands adjust a brass instrument; a ledger and fire-iron rest on the nearby bench.
-- She does not shout and she does not gloat — she **recites**, a flat, patient list of names.
-- Around her, **three rings of names are burning in the floor.**
-
----
 
 ## The Brine Fiend
 
-*(Show this the moment it steps out of the glass.)*
-
-![Brine Fiend](images/brine-fiend.jpg)
-
-- The room was dry, and then it was not.
-- A shape made of **standing brine** — gristle, grit, and salt packed into an outline about as tall as a person and twice as wide.
-- A **hooked mouth** it can open much further than the rest of it.
-- **Where it stands, the stone weeps.**
-
----
+![The Brine Fiend](images/brine-fiend.jpg)
 
 # Handout — Discovered
 

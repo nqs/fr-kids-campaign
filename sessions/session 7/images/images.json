@@ -25,55 +25,60 @@
   },
   {
     "description": "Tamsin Reed, lighthouse keeper",
-    "prompt": "Original painterly fantasy adventure sourcebook digital art. Fantasy portrait of an older human woman lighthouse keeper, weathered brown skin, silver cropped hair, patched dark teal wool coat, rope belt, brass hand lantern and wooden staff, worried protective expression, salt-stained stone lighthouse doorway, moonlight, no text.",
+    "prompt": "Create an original richly painted fantasy character portrait, portrait orientation 3:4. Tamsin Reed is an ELDERLY WOMAN, unmistakably female, clean-shaven with no beard and no moustache, grey hair pinned back under a salt-stained keeper\u2019s cap. She wears a patched blue-green greatcoat cinched with a rope belt and holds a brass storm lantern in one hand and a gnarled wooden staff in the other, standing in the doorway of an old stone lighthouse tower at night. Weathered, watchful and protective. The subject is large and central and fills the composition, entire head visible, lit by lantern and moonlight. The background is a DRY abandoned coastline with no ocean and no waves and no modern objects. Absolutely no text anywhere: no name, no lettering, no title, no labels, no numbers, no signature, no watermark, no nameplate, no banner and no caption panel. Artwork extends to every edge, especially the bottom. Return only the image.",
     "url": "images/tamsin-reed.jpg",
-    "aspect_ratio": "2:3",
+    "aspect_ratio": "432:521",
     "file": "tamsin-reed.jpg",
-    "provider": "openai-codex",
-    "model": "gpt-image-2-medium",
+    "provider": "openrouter",
+    "model": "google/gemini-2.5-flash-image",
     "requested_aspect_ratio": "3:4",
-    "width": 1024,
-    "height": 1536
+    "width": 864,
+    "height": 1042,
+    "portrait_name": "Tamsin Reed",
+    "crop": "bottom 12% removed (corner artist mark)"
   },
   {
     "description": "Orin Vale, stranded traveler",
-    "prompt": "Original painterly fantasy adventure sourcebook digital art. Fantasy portrait of a practical middle aged human traveling cartographer with warm brown skin, curly dark hair, rust colored scarf, rolled map and coil of rope, concerned but kind, seated beside sheltered lantern in stranded wooden ship at night, no text.",
+    "prompt": "Original richly painted fantasy character illustration, portrait aspect ratio 3:4. A weathered practical male supply courier with curly dark hair, russet scarf, patched brown coat and rolled chart, repairing a boot beside a lantern in a stranded wooden ship. Warm, capable expression. Large central subject fills the composition, entire head visible, atmospheric nighttime light. Background is a DRY abandoned coastline or lighthouse interior, NO ocean or waves, no modern objects. Absolutely NO TEXT anywhere: no name, no lettering, no title, no labels, no numbers, no signatures, no watermark, no nameplate, no banner, no decorative caption panel. Extend the actual artwork all the way to every edge, especially the bottom. This is wordless artwork; a separate PDF renderer will place the name outside the image later.",
     "url": "images/orin-vale.jpg",
-    "aspect_ratio": "1312:1199",
+    "aspect_ratio": "3:4",
     "file": "orin-vale.jpg",
     "provider": "openai-codex",
     "model": "gpt-image-2-medium",
     "requested_aspect_ratio": "3:4",
-    "width": 1312,
-    "height": 1199
+    "width": 1086,
+    "height": 1448,
+    "portrait_name": "Orin Vale"
   },
   {
     "description": "Veyra Sorn, beacon operator",
-    "prompt": "Original painterly fantasy adventure sourcebook digital art. Fantasy portrait of a stern human occult engineer woman with dark braided hair, charcoal coat with copper clasps, gloved hands holding brass alignment key, cold controlled expression, amber lighthouse machinery behind her, subtle ominous mood, no gore, no words.",
+    "prompt": "Original richly painted fantasy character illustration, portrait aspect ratio 3:4. A composed ambitious dark-haired woman in a charcoal high-collared coat, brass fastenings and gloves, holding a brass sighting instrument at a glowing lighthouse lens. Large central subject fills the composition, entire head visible, atmospheric nighttime light. Background is a DRY abandoned coastline or lighthouse interior, NO ocean or waves, no modern objects. Absolutely NO TEXT anywhere: no name, no lettering, no title, no labels, no numbers, no signatures, no watermark, no nameplate, no banner, no decorative caption panel. Extend the actual artwork all the way to every edge, especially the bottom. This is wordless artwork; a separate PDF renderer will place the name outside the image later.",
     "url": "images/veyra-sorn.jpg",
-    "aspect_ratio": "2:3",
+    "aspect_ratio": "3:4",
     "file": "veyra-sorn.jpg",
     "provider": "openai-codex",
     "model": "gpt-image-2-medium",
     "requested_aspect_ratio": "3:4",
-    "width": 1024,
-    "height": 1536
+    "width": 1086,
+    "height": 1448,
+    "portrait_name": "Veyra Sorn"
   },
   {
     "description": "Brine fiend",
-    "prompt": "Original painterly fantasy adventure sourcebook digital art. Original fantasy lesser demon formed of dark barnacle-crusted stone, salt crystals and cold green vapor, compact hulking biped, clawed forelimbs, two curved horns, standing on stone lantern chamber floor, eerie not gory, no words.",
+    "prompt": "Original richly painted fantasy character illustration, portrait aspect ratio 3:4. An original person-sized lesser demon of salt-crusted dark brine, jagged glass teeth, seaweed and hooked claws emerging beside a lighthouse lens; eerie but no gore. Large central subject fills the composition, entire head visible, atmospheric nighttime light. Background is a DRY abandoned coastline or lighthouse interior, NO ocean or waves, no modern objects. Absolutely NO TEXT anywhere: no name, no lettering, no title, no labels, no numbers, no signatures, no watermark, no nameplate, no banner, no decorative caption panel. Extend the actual artwork all the way to every edge, especially the bottom. This is wordless artwork; a separate PDF renderer will place the name outside the image later.",
     "url": "images/brine-fiend.jpg",
-    "aspect_ratio": "5:6",
+    "aspect_ratio": "3:4",
     "file": "brine-fiend.jpg",
     "provider": "openai-codex",
     "model": "gpt-image-2-medium",
     "requested_aspect_ratio": "3:4",
-    "width": 1145,
-    "height": 1374
+    "width": 1086,
+    "height": 1448,
+    "portrait_name": "Brine Fiend"
   },
   {
     "description": "Tactical Map \u2014 Lighthouse approach",
-    "prompt": "Original painterly fantasy adventure sourcebook digital art. Strict overhead orthographic fantasy battlemap, no perspective, no characters, no labels, no grid. Square area 80 by 80 feet, dry pale salt flat, curving gravel path enters south, low ruined harbor walls provide cover east and west, round stone lighthouse base at north with south facing door, broken mast and driftwood west, gentle moonlight but clear readable terrain, no surrounding water.",
+    "prompt": "Original painted fantasy virtual tabletop battle map. Orthographic directly overhead, square canvas. Dry abandoned lighthouse approach on exposed cracked seabed, NO ocean or water. Entire field exactly 80 feet by 80 feet: draw a highly legible UNIFORM SQUARE GRID of exactly 16 columns by 16 rows spanning the entire playable field, each square represents 5 feet by 5 feet. Straight continuous equally spaced horizontal and vertical lines, no perspective and no hexes. Grid lines must remain plainly visible over every floor texture and landmark. Lighthouse circular base 40ft diameter toward north edge, south-facing door; road from south; three stone bollards 15ft apart near center; wreck ribs and crates as cover on dry ground. No people or tokens, no text besides optional tiny scale 1 square = 5 ft, no descriptions. Clear readable tactical geometry, subdued colors.",
     "url": "images/lighthouse-approach-map.jpg",
     "aspect_ratio": "1:1",
     "file": "lighthouse-approach-map.jpg",
@@ -81,11 +86,14 @@
     "model": "gpt-image-2-medium",
     "requested_aspect_ratio": "1:1",
     "width": 1254,
-    "height": 1254
+    "height": 1254,
+    "grid_square_feet": 5,
+    "grid_columns": 16,
+    "grid_rows": 16
   },
   {
     "description": "Tactical Map \u2014 Lantern chamber",
-    "prompt": "Original painterly fantasy adventure sourcebook digital art. Strict overhead orthographic fantasy battlemap, no perspective, no characters, no labels, no grid. Circular stone lighthouse lantern chamber 60 feet diameter centered within square frame. Central brass optical lens machine 10 feet wide, three distinct small brass alignment pedestals north east west, south entrance stair landing with solid parapet, broad walkable annular floor, enclosing glass and stone outer wall, warm amber machinery lighting, clear readable tactical layout, no pits.",
+    "prompt": "Original painted fantasy tabletop battle map. Orthographic directly overhead with no perspective. Square canvas covering exactly 60ft by 60ft. Draw an unmistakable UNIFORM SQUARE GRID of exactly 12 columns by 12 rows across the entire field: each square is 5ft by 5ft. Continuous evenly spaced horizontal and vertical grid lines visible across all terrain, including central lens and gallery; no hexes. Circular lighthouse lantern chamber 60ft diameter inscribed in square field; central lens cradle 15ft diameter; three small ritual pedestals 20ft north east and west of center; four small empty captive brackets at diagonal positions near center; stair mouth at south wall and narrow gallery around perimeter. No people or tokens, no text beyond optional tiny scale 1 square = 5 ft. Amber lens light and restrained cool stone, readable playable plan.",
     "url": "images/lantern-chamber-map.jpg",
     "aspect_ratio": "1:1",
     "file": "lantern-chamber-map.jpg",
@@ -93,6 +101,9 @@
     "model": "gpt-image-2-medium",
     "requested_aspect_ratio": "1:1",
     "width": 1254,
-    "height": 1254
+    "height": 1254,
+    "grid_square_feet": 5,
+    "grid_columns": 12,
+    "grid_rows": 12
   }
 ]

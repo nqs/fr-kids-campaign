@@ -104,6 +104,12 @@ The `dnd-adventure-generator.md` file defines the generation workflow: scope →
 
 Follow the markdown authoring, image generation, and PDF compilation instructions exactly as written in `dnd-adventure-generator.md`, with the added requirements below.
 
+### Image requirements
+
+- **Every tactical map must show a visible, evenly spaced square grid, with each square representing 5 feet × 5 feet.** Derive rows and columns from the written encounter dimensions; verify the generated grid visually before PDF assembly. A scale legend without actual grid lines is insufficient.
+- **NPC/creature artwork must be completely text-free: no baked-in names, lettering, descriptions, or nameplates.** Each portrait PDF page contains only the image, scaled as large as possible within the printable area without cropping or distortion, and the exact NPC name typeset separately at the bottom in large bold centered type (28 pt default). No top heading, descriptive bullets, captions, or other text may appear on that page. Store `portrait_name` in the image manifest to select this layout; retain Markdown headings for navigation, not printed portrait headings. Keep descriptive cues in the DM adventure, not the portrait page.
+- Preserve each exact successful prompt in `images/images.json`. Verify raw portraits contain no text, PDF portrait pages contain exactly one correctly spelled bottom-centered bold name and no other text, and map grids have correct spacing/count. Regenerate failures before rebuilding the PDF. Retain unmodified scene/title art when only maps or portraits need revision.
+
 ### Output requirements: four markdown files (PDFs on request)
 
 Every generated adventure produces four Markdown files in `sessions/session <N>/`, named with the slugified adventure title:
