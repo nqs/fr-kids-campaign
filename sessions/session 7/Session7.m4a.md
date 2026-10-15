@@ -2,18 +2,18 @@
 source: Session7.m4a
 transcribed: 2026-09-20T21:47:43Z
 model: large-v2
-speakers:
-  SPEAKER_00: Keto
-  SPEAKER_04: DM
-  SPEAKER_05: DM
+speakers: unreliable (see note below)
 ---
 
+> **Corrected record (2026-10-15).** Players and characters, confirmed by the DM: **Lilli → Naan · Piper → Nalith · Kaitlyn → Kto · Sev → Yinu · Fox → Fiorn.** Fox left partway through; **Juniper did not attend.** Absent: Ari (Dirk), Kaila (Tyvlex).
+> The automatic speaker labels are **not reliable** — diarization merged several voices under one label and often tagged players as `[DM]`. Only the roll call is hand-labelled; everything else keeps its machine label (`SPEAKER_00` was formerly mislabelled "Keto"). Character names mangled by speech-to-text were normalized (Keto/Kato → Kto, Fjorn/Fjord/Joran → Fiorn, Ginu/Yeno → Yinu, Ominster → Elminster, Vyra/Vera → Veyra, Lily → Lilli). "New Sharshel" is kept as spoken; the canonical spelling is **New Sarshel**. Attribution and facts: see `session 7 - log.md`.
+
 [DM]: I'm Nick, I'm the DM.
-[Keto]: I'm Kaitlyn, and I'm Keto.
-[DM]: I'm Severin, and I'm Yinu.
-[DM]: I'm Fox, and I'm Fjorn.
-[Keto]: I'm Lily, and I'm Nala, or Nama.
-[Keto]: I'm Piper, and I'm Nayla.
+[Kaitlyn]: I'm Kaitlyn, and I'm Kto.
+[Sev]: I'm Severin, and I'm Yinu.
+[Fox]: I'm Fox, and I'm Fiorn.
+[Lilli]: I'm Lilli, and I'm Naan.
+[Piper]: I'm Piper, and I'm Nalith.
 [DM]: Sweet.
 [DM]: Alright.
 [DM]: Hold on, everybody.
@@ -111,33 +111,33 @@ speakers:
 [SPEAKER_03]: Walk to the light.
 [SPEAKER_03]: I've done it once before it normally works out Guys I sense a problem.
 [SPEAKER_01]: I'm hearing voices again I'm hearing voices
-[Keto]: And this concerns us how?
+[SPEAKER_00]: And this concerns us how?
 [SPEAKER_03]: Because that means I'm going crazy.
-[Keto]: You're always crazy.
+[SPEAKER_00]: You're always crazy.
 [SPEAKER_03]: Oh yeah, this is not a new one.
 [SPEAKER_03]: It's my bad, y'all.
-[Keto]: You're not playing Fjorn.
-[SPEAKER_03]: I am playing Fjorn.
-[SPEAKER_02]: You got Fjorn?
-[SPEAKER_03]: I always play Fjorn.
-[SPEAKER_02]: Wait, I thought the whole thing was that we didn't have Fjorn's paper.
-[SPEAKER_03]: I don't have Fjorn's paper.
+[SPEAKER_00]: You're not playing Fiorn.
+[SPEAKER_03]: I am playing Fiorn.
+[SPEAKER_02]: You got Fiorn?
+[SPEAKER_03]: I always play Fiorn.
+[SPEAKER_02]: Wait, I thought the whole thing was that we didn't have Fiorn's paper.
+[SPEAKER_03]: I don't have Fiorn's paper.
 [SPEAKER_02]: Literally?
 [SPEAKER_02]: Okay, whatever.
-[SPEAKER_03]: I've got like three Fjorns.
+[SPEAKER_03]: I've got like three Fiorns.
 [DM]: I'm going to start running a different game for Fox and his friends, so I thought that if we had Juniper here, we'd have a full table.
 [DM]: and like I didn't, I don't want like 9 kids because it's too hard to play a game with 9 people or however many we have so I was telling Fox he could sit out, but Juniper's not here.
 [SPEAKER_03]: There would have been 6-something people.
-[Keto]: But we stayed up till 2am with the new characters and she had just texted her dad like this morning.
+[SPEAKER_00]: But we stayed up till 2am with the new characters and she had just texted her dad like this morning.
 [SPEAKER_02]: Wait guys, I'm a vision I turn into like some old sage dude And I go don't follow the light I
-[Keto]: It's light light.
+[SPEAKER_00]: It's light light.
 [SPEAKER_03]: I have a vision now, y'all.
 [SPEAKER_03]: The voices in my head are talking to me.
 [SPEAKER_03]: You're going insane!
-[Keto]: I've always been this way.
-[Keto]: I hear voices, but it's mostly my god.
-[SPEAKER_03]: I turn into Lily's god.
-[Keto]: Oh my god.
+[SPEAKER_00]: I've always been this way.
+[SPEAKER_00]: I hear voices, but it's mostly my god.
+[SPEAKER_03]: I turn into Lilli's god.
+[SPEAKER_00]: Oh my god.
 [SPEAKER_02]: This is quite uncanny.
 [SPEAKER_03]: and i give away and i give a stage with them to me walk towards the boats it's boat like it's uh... i can actually turned a little is not i can only turn into something i've done before just so you know i'm going to do that really weird implications your skill over five hundred people and all my god see this is what i got to the top of the top he killed a king That's lore that my dad added to.
 [SPEAKER_03]: He killed a king, which would make me one of the greatest assassins of all time, y'all.
@@ -146,8 +146,8 @@ speakers:
 [DM]: Can we have a punishment for saying brain rot?
 [SPEAKER_02]: Brain rot?
 [DM]: I didn't even say brain rot those times.
-[Keto]: No, it was me.
-[Keto]: I said tough tough tough to her, and I also said six seven.
+[SPEAKER_00]: No, it was me.
+[SPEAKER_00]: I said tough tough tough to her, and I also said six seven.
 [SPEAKER_03]: Oh, din din din doo.
 [SPEAKER_03]: That's my favorite one.
 [SPEAKER_01]: It's because of Odin!
@@ -164,17 +164,17 @@ speakers:
 [DM]: He should have to roll a constitution check.
 [DM]: Oh no, I'm gonna get diseased.
 [DM]: It's gonna be very concentrated salt.
-[Keto]: dude i'm gonna send you a handful a handful that's not that much the salt is it quite literally is that much i eat you got water with that no there's no why do we have water you should all be carrying water i don't have water is that all for your squirrel my squirrel does only get water on the weekends
+[SPEAKER_00]: dude i'm gonna send you a handful a handful that's not that much the salt is it quite literally is that much i eat you got water with that no there's no why do we have water you should all be carrying water i don't have water is that all for your squirrel my squirrel does only get water on the weekends
 [SPEAKER_03]: I don't have to take on say to eat a chunk full of salt, right?
 [SPEAKER_03]: No.
 [DM]: There's no, so you're able to determine it really is salt.
 [DM]: It tastes like ocean water basically.
 [DM]: You still have to do a constitution check.
 [DM]: He had a handful of salt.
-[Keto]: Can I start licking the ground?
+[SPEAKER_00]: Can I start licking the ground?
 [SPEAKER_03]: We are basically superhumans on another level superhuman.
 [SPEAKER_03]: You can cast magic.
-[SPEAKER_03]: Lily can cast magic.
+[SPEAKER_03]: Lilli can cast magic.
 [SPEAKER_03]: Piper can cast magic.
 [DM]: I can eat a handful of salt.
 [DM]: So, as you walk towards the ship, the light passes over you.
@@ -183,43 +183,43 @@ speakers:
 [DM]: The vision you see is the thing your character most wants.
 [DM]: What's the name of that one really powerful wizard guy?
 [SPEAKER_02]: Wait, does it have to be like really serious?
-[SPEAKER_02]: Ominster.
+[SPEAKER_02]: Elminster.
 [DM]: Omin- I guess I'm really serious.
 [DM]: You can make it funny, it doesn't matter.
-[DM]: I just saw Ominster.
-[DM]: My character's theme is to learn from Ominster.
+[DM]: I just saw Elminster.
+[DM]: My character's theme is to learn from Elminster.
 [DM]: Who wants to go first?
-[SPEAKER_03]: Uh, Katelyn goes first.
+[SPEAKER_03]: Uh, Kaitlyn goes first.
 [SPEAKER_03]: Yeah!
-[Keto]: No, because Caitlyn is literally so tough.
-[Keto]: Yeah, Caitlyn always does this.
+[SPEAKER_00]: No, because Kaitlyn is literally so tough.
+[SPEAKER_00]: Yeah, Kaitlyn always does this.
 [SPEAKER_03]: Can you grab me a watermelon, father?
-[Keto]: No, you're not getting my Pepsi.
+[SPEAKER_00]: No, you're not getting my Pepsi.
 [SPEAKER_02]: I had some.
 [SPEAKER_03]: Can I have the Pepsi?
 [SPEAKER_03]: I heard the ting-ding.
 [SPEAKER_03]: Uh, yeah, I'll get it later.
-[SPEAKER_03]: Fox, what's Fjord most want?
-[SPEAKER_03]: Uh, Fjord doesn't want to share.
+[SPEAKER_03]: Fox, what's Fiorn most want?
+[SPEAKER_03]: Uh, Fiorn doesn't want to share.
 [SPEAKER_03]: Doesn't matter.
 [SPEAKER_02]: I have to?
 [SPEAKER_02]: Oh, yeah.
-[SPEAKER_03]: So, Fjorn sees just a white ball floating.
+[SPEAKER_03]: So, Fiorn sees just a white ball floating.
 [SPEAKER_03]: His soul.
 [SPEAKER_03]: Remember in his story, his soul was taken from the gods?
-[Keto]: Is he a ginger?
-[Keto]: No, he...
+[SPEAKER_00]: Is he a ginger?
+[SPEAKER_00]: No, he...
 [SPEAKER_UNKNOWN]: I can be.
 [SPEAKER_03]: He lost his soul to the gods after killing your favorite- George Washington?
-[DM]: Joran desperately wants to get his soul back.
+[DM]: Fiorn desperately wants to get his soul back.
 [DM]: His original soul.
-[DM]: And I want to learn from Ominster.
-[DM]: You see yourself sitting in Ominster's lab and he's like patiently instructing you in magic.
+[DM]: And I want to learn from Elminster.
+[DM]: You see yourself sitting in Elminster's lab and he's like patiently instructing you in magic.
 [SPEAKER_01]: My vision just goes to a white room.
 [SPEAKER_01]: Oh, so you- What does that mean?
-[Keto]: Just a white room.
-[Keto]: A white padded room.
-[Keto]: Yes.
+[SPEAKER_00]: Just a white room.
+[SPEAKER_00]: A white padded room.
+[SPEAKER_00]: Yes.
 [SPEAKER_03]: That means she wants to no longer be crazy.
 [SPEAKER_03]: Yes.
 [SPEAKER_02]: Are you ready for this, guys?
@@ -243,7 +243,7 @@ speakers:
 [SPEAKER_02]: You can- no, infer what that meant.
 [DM]: I infer Christmas.
 [SPEAKER_02]: Okay, so, but like, what did the- like, why would I want Christmas?
-[Keto]: Why would you want your mom?
+[SPEAKER_00]: Why would you want your mom?
 [DM]: Memories with your mother!
 [DM]: Oh!
 [SPEAKER_02]: Infer!
@@ -251,30 +251,30 @@ speakers:
 [SPEAKER_03]: Is your mom dead?
 [SPEAKER_02]: Yeah, yeah.
 [SPEAKER_02]: Infer.
-[Keto]: Christmas with your mother Okay, so my character deeply wants to like be recognized by like her God and like She wants to be known as the like best Yeah, I do
+[SPEAKER_00]: Christmas with your mother Okay, so my character deeply wants to like be recognized by like her God and like She wants to be known as the like best Yeah, I do
 [SPEAKER_03]: I'm not your God before you Each of you believe that that thing you saw
 [DM]: is in the Lighthouse.
 [DM]: The rational thought you have about how you know Elminster's lab is not there, you know your soul is not in a random Lighthouse, you know your church isn't in there, you know your mom's church isn't there, does not apply.
 [DM]: It's a magical compulsion.
 [DM]: You believe and will behave as if the thing you want is in that Lighthouse.
-[Keto]: My church is the Lighthouse!
+[SPEAKER_00]: My church is the Lighthouse!
 [SPEAKER_03]: We're going to the Lighthouse.
 [SPEAKER_03]: If you stop me, I will kill you all.
-[Keto]: Yeah, I know we are going to the lighthouse.
+[SPEAKER_00]: Yeah, I know we are going to the lighthouse.
 [SPEAKER_02]: I was going into the lighthouse for purpose.
 [SPEAKER_02]: I don't know what you guys were doing.
 [SPEAKER_02]: You have to go to the ship.
 [DM]: Does it make us think that we have to be the first one there?
-[Keto]: You don't feel an urgency to rush either.
-[Keto]: You just know that you're making your way there, and the thing you want is in here.
+[SPEAKER_00]: You don't feel an urgency to rush either.
+[SPEAKER_00]: You just know that you're making your way there, and the thing you want is in here.
 [SPEAKER_01]: Let's get to the ship.
 [SPEAKER_01]: Yes, I want to go inside the ship.
 [SPEAKER_03]: Just so y'all know, if I get my original soul back, it's not a good thing for y'all.
 [SPEAKER_03]: You say that out loud.
-[Keto]: So guys, I drew my scroll out.
+[SPEAKER_00]: So guys, I drew my scroll out.
 [SPEAKER_03]: I say that out loud.
 [DM]: So if you keep walking and you arrive, as you approach the ship,
-[Keto]: It took us a good long time to get to this shit that's half a mile away, by the way.
+[SPEAKER_00]: It took us a good long time to get to this shit that's half a mile away, by the way.
 [SPEAKER_02]: It really did.
 [SPEAKER_02]: It's because of her squirrel.
 [SPEAKER_02]: Leave my squirrel alone!
@@ -330,8 +330,8 @@ speakers:
 [DM]: It was the fire.
 [SPEAKER_02]: There's a fire here?
 [SPEAKER_02]: Yes.
-[Keto]: Where's the person?
-[Keto]: Were they putting people in the fire?
+[SPEAKER_00]: Where's the person?
+[SPEAKER_00]: Were they putting people in the fire?
 [DM]: Can I turn it off?
 [DM]: So it's the ship, you can see, right?
 [DM]: And there are about ten people here.
@@ -355,8 +355,8 @@ speakers:
 [SPEAKER_02]: You don't walk into someone's house and then immediately run the other direction.
 [SPEAKER_02]: I do.
 [SPEAKER_02]: See, I would never, like, if this was your house, I would never run through it to get away, like... Jesus, Kaitlyn.
-[Keto]: Oh, I go to school for kids.
-[Keto]: Jesus, I meant not Kaitlyn.
+[SPEAKER_00]: Oh, I go to school for kids.
+[SPEAKER_00]: Jesus, I meant not Kaitlyn.
 [SPEAKER_02]: We're getting off track.
 [SPEAKER_02]: Oh my god.
 [SPEAKER_02]: Good evening.
@@ -369,19 +369,19 @@ speakers:
 [SPEAKER_02]: Come here.
 [SPEAKER_02]: Turn yourself around.
 [SPEAKER_03]: You're not allowed to eat all of them, but you can have some.
-[Keto]: Squirrels, we're all squirrels.
-[Keto]: How about Jester?
-[Keto]: No!
+[SPEAKER_00]: Squirrels, we're all squirrels.
+[SPEAKER_00]: How about Jester?
+[SPEAKER_00]: No!
 [SPEAKER_03]: You wanna see my stick and knife or are you gonna show me where my thing is?
 [DM]: We got knocked out, we got kicked out of the Fae realm and then appeared here.
 [SPEAKER_02]: Let's not tell her that.
 [DM]: They're kicked out of the Fae realm and now we're here.
 [SPEAKER_02]: She looks really- We're telling them everything.
 [SPEAKER_02]: Hey, baby girl!
-[Keto]: Hey, baby girl!
-[Keto]: How you doing?
+[SPEAKER_00]: Hey, baby girl!
+[SPEAKER_00]: How you doing?
 [SPEAKER_02]: You're not allowed to play with the NPCs.
-[Keto]: Oh, I mean,
+[SPEAKER_00]: Oh, I mean,
 [DM]: She looks at you, and she says, fine.
 [DM]: I look over this camera.
 [SPEAKER_01]: She looks like one of the Gallaghers.
@@ -403,11 +403,11 @@ speakers:
 [DM]: How can I help?
 [DM]: You found yourself on the road at night, did you?
 [DM]: The lighthouse showed you what's in the tower for you?
-[Keto]: No.
+[SPEAKER_00]: No.
 [DM]: Take a rest.
 [DM]: Have some soup.
 [DM]: And if you insist on keeping along the road, I'll give you some advice.
-[Keto]: Why are you not going to the lighthouse?
+[SPEAKER_00]: Why are you not going to the lighthouse?
 [DM]: Well...
 [DM]: Some of us have tried.
 [DM]: We don't really rightly know, actually.
@@ -418,7 +418,7 @@ speakers:
 [DM]: Well, because...
 [DM]: I see them die.
 [SPEAKER_01]: Then how do you not know what it is?
-[Keto]: That's pretty morbid.
+[SPEAKER_00]: That's pretty morbid.
 [DM]: It is a bit.
 [DM]: Um...
 [DM]: So she's describing two events that took place at different times.
@@ -428,12 +428,12 @@ speakers:
 [DM]: And she's telling you that she knows that there's something dangerous about going towards that lighthouse, and people have died, and they've buried them along the moss.
 [DM]: I'm still going to the lighthouse.
 [SPEAKER_02]: not want to it's magic williams magic look at my dog he keeps coming over here and then walking away like he smells food all right let's go let's go let's go get your feet out of here my legs are really okay i'm hating on you because you're sticking your feet up in the air you're like oh
-[Keto]: And usually I wouldn't care.
-[Keto]: And usually I would just take pictures, but that's okay.
+[SPEAKER_00]: And usually I wouldn't care.
+[SPEAKER_00]: And usually I would just take pictures, but that's okay.
 [SPEAKER_01]: You!
 [SPEAKER_02]: Bro, why are you taking pictures of my feet?
 [SPEAKER_02]: She's threatening me.
-[Keto]: I never threatened you.
+[SPEAKER_00]: I never threatened you.
 [SPEAKER_02]: In my head.
 [SPEAKER_02]: In my mind.
 [DM]: Okay, so what do you do?
@@ -441,18 +441,18 @@ speakers:
 [SPEAKER_02]: Well, we're trying to get information from this woman.
 [SPEAKER_03]: I start digging at the salt.
 [SPEAKER_01]: Do you believe the Gallagher's?
-[Keto]: She looks like one of the Gallagher's.
+[SPEAKER_00]: She looks like one of the Gallagher's.
 [DM]: It's like digging at the beach in the wet sand.
 [DM]: Like, when you dig down a little bit of water pools because you're below the water table, but there's nothing there.
-[Keto]: There's water?
+[SPEAKER_00]: There's water?
 [DM]: Yeah, the ground's wet.
-[Keto]: I want to drink the water from the ground.
+[SPEAKER_00]: I want to drink the water from the ground.
 [DM]: I asked her, do you know the most efficient way to get to the lighthouse?
 [SPEAKER_01]: I thought he was going to say, do you know the most efficient way to get to the lighthouse?
 [DM]: Why would I say that?
 [DM]: My character is the only normal one of the party.
-[Keto]: I'm normal.
-[Keto]: Just because I'm an elf doesn't mean I'm normal.
+[SPEAKER_00]: I'm normal.
+[SPEAKER_00]: Just because I'm an elf doesn't mean I'm normal.
 [DM]: I'll tell you that.
 [DM]: It's not a far walk.
 [DM]: You can see it's right there.
@@ -461,7 +461,7 @@ speakers:
 [DM]: The problem isn't the walk.
 [DM]: The problem is what you find when you get there.
 [DM]: What exactly do you believe we'll see?
-[DM]: We don't rightly know why the Tower's Puller spoke in, but the keeper of the lighthouse, a woman named Hanson Reed, still is there, still keeps the light.
+[DM]: We don't rightly know why the Tower's Puller spoke in, but the keeper of the lighthouse, a woman named Hanson [Tamsin] Reed, still is there, still keeps the light.
 [DM]: You can get there and talk to her.
 [DM]: She'll invite you in.
 [DM]: Problem is, what you're looking for won't be in there, no matter what you think.
@@ -492,19 +492,19 @@ speakers:
 [DM]: Okay, I'm gonna go check.
 [DM]: Yeah, you check too.
 [DM]: About 2,500 feet from where you are.
-[Keto]: I don't have Misty Step.
-[Keto]: Jesus, Lord, that's a lot of spells.
+[SPEAKER_00]: I don't have Misty Step.
+[SPEAKER_00]: Jesus, Lord, that's a lot of spells.
 [SPEAKER_02]: Okay, I might not.
 [DM]: It doesn't say the range for Misty Step, it just says self.
 [DM]: You can look in the books.
 [DM]: That's a quick reference sheet.
 [DM]: You cannot cast any spells and you cannot get the same scripture.
-[Keto]: What if I make a religion check?
-[Keto]: Just to make a religion check.
+[SPEAKER_00]: What if I make a religion check?
+[SPEAKER_00]: Just to make a religion check.
 [DM]: You'd have to be a little over something.
-[Keto]: Oh, I'm gonna look for my god.
-[Keto]: My god.
-[Keto]: What a loss of god hearing.
+[SPEAKER_00]: Oh, I'm gonna look for my god.
+[SPEAKER_00]: My god.
+[SPEAKER_00]: What a loss of god hearing.
 [DM]: I can teleport up to 30 feet, so I can't teleport over there.
 [DM]: No, you can go across a room, but across this salt lake.
 [SPEAKER_02]: See, I was right.
@@ -533,34 +533,34 @@ speakers:
 [DM]: I started walking towards the lighthouse without the others.
 [DM]: Okay.
 [SPEAKER_02]: I'm sending Moonby, he doesn't need to leave us.
-[Keto]: Wait, can I use Cloud of Daggers?
+[SPEAKER_00]: Wait, can I use Cloud of Daggers?
 [DM]: Guys, don't get involved in this.
 [SPEAKER_02]: I'm not actually fighting anyone.
 [DM]: No in-party fighting!
 [DM]: Unless it's arguing.
-[DM]: So is Yeno just, like, so completely absorbed by the compulsion she's just gonna, like, be my...
+[DM]: So is Yinu just, like, so completely absorbed by the compulsion she's just gonna, like, be my...
 [DM]: This is my character's dream.
 [DM]: That's what you've been showing.
 [DM]: Yeah.
 [DM]: Yes.
 [SPEAKER_02]: Okay, I'm going to...
-[Keto]: Wait, quick question.
-[Keto]: Is it Sunday in the game?
-[Keto]: What?
+[SPEAKER_00]: Wait, quick question.
+[SPEAKER_00]: Is it Sunday in the game?
+[SPEAKER_00]: What?
 [DM]: So Figarood actually is a 10 day week, I forget all the names.
 [DM]: Why?
-[Keto]: No, because churches are being held on Sunday and I should only go on Sundays.
+[SPEAKER_00]: No, because churches are being held on Sunday and I should only go on Sundays.
 [DM]: Yes.
 [DM]: Whatever day you think is church day is now.
-[Keto]: Oh, God.
-[Keto]: No, then I'm- wait, what time is it?
+[SPEAKER_00]: Oh, God.
+[SPEAKER_00]: No, then I'm- wait, what time is it?
 [SPEAKER_01]: Because I might be late to church.
-[Keto]: Well, you should go to church even if you're late.
+[SPEAKER_00]: Well, you should go to church even if you're late.
 [SPEAKER_01]: Well, I gotta go.
 [SPEAKER_01]: Go!
-[Keto]: Because I'm late.
-[Keto]: Go!
-[Keto]: So I also walk to the lighthouse as fast as I can.
+[SPEAKER_00]: Because I'm late.
+[SPEAKER_00]: Go!
+[SPEAKER_00]: So I also walk to the lighthouse as fast as I can.
 [SPEAKER_03]: You're the person that's talking to us.
 [SPEAKER_03]: again but this time game closer well are you because your soul is in the White House this person is not going to do it for the wing hundreds of years years old you know a bit longer what is the goal of writing the NPC information what are you looking so can you actually repeat this because I don't know so there was danger I didn't know about it good question
 [DM]: The lighthouse keeper doesn't know why she's doing what she's doing.
@@ -581,8 +581,8 @@ speakers:
 [SPEAKER_01]: So I don't know what y'all think y'all are running to, but you're going to fall on your face.
 [DM]: That's a good point.
 [DM]: It's actually a major slog to walk.
-[Keto]: Then I'm going to start leaping and bouncing.
-[Keto]: I need to get to search.
+[SPEAKER_00]: Then I'm going to start leaping and bouncing.
+[SPEAKER_00]: I need to get to search.
 [SPEAKER_01]: I'm just going to start using misty stuff every time.
 [SPEAKER_02]: Shut up.
 [SPEAKER_02]: If the ground is wet, like how Wouldn't it just dry up?
@@ -634,16 +634,16 @@ speakers:
 [SPEAKER_03]: I wouldn't recommend it.
 [DM]: I don't know.
 [SPEAKER_02]: Then he's alive.
-[Keto]: And he's cheating now.
+[SPEAKER_00]: And he's cheating now.
 [DM]: I didn't know I had flies.
-[Keto]: Can we use cloud of daggers?
-[Keto]: I'm just mad.
-[Keto]: Can I use cloud of daggers?
-[Keto]: Can I moonbeam her?
-[Keto]: Can I use healing light just for fun?
+[SPEAKER_00]: Can we use cloud of daggers?
+[SPEAKER_00]: I'm just mad.
+[SPEAKER_00]: Can I use cloud of daggers?
+[SPEAKER_00]: Can I moonbeam her?
+[SPEAKER_00]: Can I use healing light just for fun?
 [DM]: Okay.
 [DM]: Pass me the chips.
-[Keto]: The whole bowl?
+[SPEAKER_00]: The whole bowl?
 [DM]: Yes.
 [DM]: I can snipe you, so... Alright.
 [DM]: Do you cast fly?
@@ -665,15 +665,15 @@ speakers:
 [SPEAKER_03]: Hey, I'm walking here.
 [SPEAKER_01]: I'm trying to run, but then I fall on my face.
 [SPEAKER_01]: What?
-[Keto]: Fucking loser!
+[SPEAKER_00]: Fucking loser!
 [SPEAKER_01]: Because my shoe gets stuck.
-[Keto]: Right.
+[SPEAKER_00]: Right.
 [SPEAKER_01]: Um.
-[Keto]: Ice cream would be with you.
+[SPEAKER_00]: Ice cream would be with you.
 [SPEAKER_01]: And I can't get up.
 [SPEAKER_01]: So, I'm like halfway just on the ground.
 [SPEAKER_03]: Right.
-[SPEAKER_03]: I use Katelyn like a surfboard.
+[SPEAKER_03]: I use Kaitlyn like a surfboard.
 [SPEAKER_03]: No!
 [SPEAKER_02]: Okay, are we there yet?
 [SPEAKER_02]: Are we there yet?
@@ -683,10 +683,10 @@ speakers:
 [DM]: Can you guys find something to do for ten minutes?
 [DM]: Yup, play on my phone.
 [SPEAKER_01]: Get a snack, get a slushie if you're having one.
-[Keto]: No!
-[Keto]: I felt so threatened.
-[Keto]: You almost just made that a handful.
-[Keto]: I swear if you ever touch me with a banana peel again, I hate you.
+[SPEAKER_00]: No!
+[SPEAKER_00]: I felt so threatened.
+[SPEAKER_00]: You almost just made that a handful.
+[SPEAKER_00]: I swear if you ever touch me with a banana peel again, I hate you.
 [SPEAKER_01]: Wow, really?
 [SPEAKER_03]: I'm gonna plug my room in my phone, I realize it's dead.
 [SPEAKER_01]: We have a lot of flavoring at my house for that machine, bro.
@@ -694,25 +694,25 @@ speakers:
 [SPEAKER_02]: Too much.
 [SPEAKER_02]: What's up, what's up?
 [DM]: Hey.
-[Keto]: We should play Arctic Kingdom.
+[SPEAKER_00]: We should play Arctic Kingdom.
 [SPEAKER_01]: I'm not playing Arctic Kingdom.
-[Keto]: I'm going to dump you.
+[SPEAKER_00]: I'm going to dump you.
 [SPEAKER_02]: Because then I have to change my account.
 [SPEAKER_02]: Why?
 [SPEAKER_02]: No, because when I ask her to play Arctic Kingdom, she goes on to a different game.
 [SPEAKER_02]: But then she asks to play Arctic Kingdom.
 [SPEAKER_02]: Make it make sense.
 [SPEAKER_02]: I'm going to play Arctic Kingdom on her account.
-[Keto]: No, not again, please.
-[Keto]: Please, I don't want to be stuck in jail and needing to use the bathroom.
-[Keto]: You took so much of it, I only got a tiny bit.
+[SPEAKER_00]: No, not again, please.
+[SPEAKER_00]: Please, I don't want to be stuck in jail and needing to use the bathroom.
+[SPEAKER_00]: You took so much of it, I only got a tiny bit.
 [SPEAKER_02]: Like you couldn't get more or?
-[Keto]: Yeah, there's none left.
+[SPEAKER_00]: Yeah, there's none left.
 [SPEAKER_01]: This banana's really good.
-[Keto]: Do you lose XP over time?
-[Keto]: No.
-[Keto]: You shouldn't.
-[Keto]: Why?
+[SPEAKER_00]: Do you lose XP over time?
+[SPEAKER_00]: No.
+[SPEAKER_00]: You shouldn't.
+[SPEAKER_00]: Why?
 [DM]: You don't lose XP over time.
 [DM]: No.
 [DM]: An artist?
@@ -724,15 +724,15 @@ speakers:
 [SPEAKER_02]: No, but like also like you could possibly.
 [DM]: I could, it's true.
 [DM]: Thank you for telling me quite a lot.
-[Keto]: I can't throw my banana peel away.
+[SPEAKER_00]: I can't throw my banana peel away.
 [DM]: She's such a jerk.
-[Keto]: Stop, you're trolling on my account.
-[Keto]: No I'm not.
+[SPEAKER_00]: Stop, you're trolling on my account.
+[SPEAKER_00]: No I'm not.
 [SPEAKER_01]: I'm gonna put a banana peel on your face when you're sleeping.
-[Keto]: Where do I live?
+[SPEAKER_00]: Where do I live?
 [DM]: Where do I live?
-[Keto]: It's not even that funny.
-[Keto]: I don't personally have Pepsi down here.
+[SPEAKER_00]: It's not even that funny.
+[SPEAKER_00]: I don't personally have Pepsi down here.
 [DM]: Alright, we're gonna go in here, we're gonna be getting ready.
 [SPEAKER_01]: I'm not ready!
 [SPEAKER_02]: I'm not ready!
@@ -779,7 +779,7 @@ speakers:
 [DM]: I'm not ready!
 [DM]: I'm not ready!
 [DM]: I'm not ready
-[Keto]: Parker, are you counting your money over there?
+[SPEAKER_00]: Parker, are you counting your money over there?
 [DM]: She's looking at spell cards.
 [SPEAKER_02]: Okay, quick question, quick question.
 [SPEAKER_02]: Can I charm a person?
@@ -801,7 +801,7 @@ speakers:
 [SPEAKER_02]: Oh, so I should just spell magic myself?
 [DM]: Or something.
 [DM]: That's a thing you can try.
-[Keto]: Um... Just spell magic me.
+[SPEAKER_00]: Um... Just spell magic me.
 [SPEAKER_02]: Can I just spell magic her?
 [DM]: Cat, you can spell magic on anything.
 [SPEAKER_02]: Can I do that to her?
@@ -821,11 +821,11 @@ speakers:
 [SPEAKER_01]: That's literally what I've been looking for for the past 20 minutes.
 [SPEAKER_01]: Because I went on vacation to Tennessee.
 [SPEAKER_01]: Wait, is this Tennessee?
-[Keto]: Are you from Tennessee?
-[Keto]: Because you're the only Tennessee.
-[Keto]: Yeah, this was Tennessee cuz I was with a bunch of teenage boys And I just stay awake stay with That is quite a lesbian thing to say No
+[SPEAKER_00]: Are you from Tennessee?
+[SPEAKER_00]: Because you're the only Tennessee.
+[SPEAKER_00]: Yeah, this was Tennessee cuz I was with a bunch of teenage boys And I just stay awake stay with That is quite a lesbian thing to say No
 [DM]: just imagine the trees ability check using your spell casting ability so it is your proficiency bonus plus your ability check that leaves wisdom so what just imagine what is your wisdom bonus wisdom on what skills no your ability score bonfire where do you see wisdom on your sheets wait so why did you see like a white room here because oh wisdom plus three what is your proficiency bonus
-[Keto]: But that's what you truly want, is a white pattern.
+[SPEAKER_00]: But that's what you truly want, is a white pattern.
 [DM]: It's usually in the middle near the hit points.
 [DM]: Yeah.
 [DM]: Huh?
@@ -839,13 +839,13 @@ speakers:
 [DM]: Roll a d20, it adds 6.
 [SPEAKER_02]: Um, 18.
 [DM]: That does it.
-[Keto]: Wait.
-[Keto]: No, that was 19.
-[Keto]: 19.
+[SPEAKER_00]: Wait.
+[SPEAKER_00]: No, that was 19.
+[SPEAKER_00]: 19.
 [DM]: house around her and you peel it off you have to get up there you have to stop them you think there's something up there for you don't you what is it what do you think is up there why would I tell you okay it doesn't matter what it is assume it's up there for a minute and when a giant fucking demon is up there instead you have to kill it
-[Keto]: I don't know, we're going upstairs, guys!
-[Keto]: Wait, so why is there a demon in the church?
-[Keto]: No, the church is literally the most holy place, why is there a demon?
+[SPEAKER_00]: I don't know, we're going upstairs, guys!
+[SPEAKER_00]: Wait, so why is there a demon in the church?
+[SPEAKER_00]: No, the church is literally the most holy place, why is there a demon?
 [DM]: She looks at your equipment, the fact that you're like... You're a warlock, right?
 [DM]: You're like an angelic warlock?
 [DM]: Yes.
@@ -856,11 +856,11 @@ speakers:
 [DM]: Yeah.
 [DM]: But like, you all exude a certain power.
 [DM]: Sam, come back!
-[DM]: Um, she goes, and you, Katelyn, walk with this like, shirt that you normally have to cut a little more hair and walk with.
+[DM]: Um, she goes, and you, Kaitlyn, walk with this like, shirt that you normally have to cut a little more hair and walk with.
 [DM]: No, because again, why is the demon in the church?
 [DM]: Chances are my character probably used the fireball on the demon already.
-[Keto]: Let's go, let's go, let's go.
-[Keto]: Chances are my god killed that demon.
+[SPEAKER_00]: Let's go, let's go, let's go.
+[SPEAKER_00]: Chances are my god killed that demon.
 [DM]: Wait, what?
 [DM]: I'm running up the stairs!
 [SPEAKER_01]: Alright, you get to the top of the stairs.
@@ -875,9 +875,9 @@ speakers:
 [DM]: She opens the door and kicks it open.
 [DM]: The door!
 [SPEAKER_UNKNOWN]: The door!
-[DM]: Ginu!
+[DM]: Yinu!
 [DM]: You woke up chained to the wall in this room.
-[DM]: You guys see Ginu's character like this.
+[DM]: You guys see Yinu's character like this.
 [DM]: Chained to the wall with four others.
 [DM]: You can't cast anything unless... Is he Jesus?
 [DM]: Unless it's a verbal component of Lucifer.
@@ -928,7 +928,7 @@ speakers:
 [SPEAKER_02]: Camryn, what up girl?
 [DM]: What?
 [SPEAKER_01]: Nothing.
-[DM]: Lily, what was yours?
+[DM]: Lilli, what was yours?
 [SPEAKER_02]: Uh, not one.
 [SPEAKER_02]: Plus two.
 [SPEAKER_02]: Plus three.
@@ -936,7 +936,7 @@ speakers:
 [DM]: Sev, what was yours?
 [DM]: Uh, eight.
 [DM]: I'm probably going last or first.
-[Keto]: I'm going last.
+[SPEAKER_00]: I'm going last.
 [DM]: Oh, so what do you see in the room?
 [DM]: The room is a giant lantern room.
 [DM]: It's basically a big circular room and you can see in the room this person.
@@ -961,22 +961,22 @@ speakers:
 [SPEAKER_02]: We're not even outside.
 [SPEAKER_01]: No, if we were at the top.
 [SPEAKER_02]: More like, well, more like this is what we see.
-[SPEAKER_02]: God, Kato, get a grip.
-[DM]: Kato, you absolute imbecile.
+[SPEAKER_02]: God, Kto, get a grip.
+[DM]: Kto, you absolute imbecile.
 [DM]: Were there other people chained to the wall?
 [SPEAKER_01]: There were four others.
 [SPEAKER_01]: He said that.
-[Keto]: So usually we don't have four Jesuses, but that's okay.
+[SPEAKER_00]: So usually we don't have four Jesuses, but that's okay.
 [SPEAKER_01]: What?
-[Keto]: Catch the ball knowledge that I actually threw.
+[SPEAKER_00]: Catch the ball knowledge that I actually threw.
 [SPEAKER_02]: I actually did catch that ball knowledge.
-[Keto]: It's not even ball knowledge.
-[Keto]: We learned about this in Catholic school.
+[SPEAKER_00]: It's not even ball knowledge.
+[SPEAKER_00]: We learned about this in Catholic school.
 [DM]: To be fair, I don't go to a Catholic school.
-[Keto]: But everyone knows about Jesus.
-[Keto]: And like his crucifixion.
-[Keto]: Crucifixion?
-[Keto]: It's crucifixion.
+[SPEAKER_00]: But everyone knows about Jesus.
+[SPEAKER_00]: And like his crucifixion.
+[SPEAKER_00]: Crucifixion?
+[SPEAKER_00]: It's crucifixion.
 [DM]: There have been so many things that my kids have not known that have shocked me.
 [DM]: Quinn in particular.
 [DM]: What's the craziest thing Quinn has not known?
@@ -986,16 +986,16 @@ speakers:
 [DM]: I used to think Bruno Mars was dead.
 [SPEAKER_01]: Why would you think Bruno Mars was dead?
 [DM]: I thought he was dead.
-[Keto]: What?
-[Keto]: I thought Bruno Mars was dead.
+[SPEAKER_00]: What?
+[SPEAKER_00]: I thought Bruno Mars was dead.
 [DM]: Yeah, I do know he's dead.
 [DM]: I thought he died around the same time as Michael Jackson.
-[Keto]: I thought Bruno Mars was the lead singer for The Weeknd.
-[Keto]: Is that okay to say?
+[SPEAKER_00]: I thought Bruno Mars was the lead singer for The Weeknd.
+[SPEAKER_00]: Is that okay to say?
 [DM]: I don't know.
 [DM]: I don't know who The Weeknd is.
-[Keto]: He's like, ooh, I'm blinded by the lights.
-[Keto]: God, that was amazing.
+[SPEAKER_00]: He's like, ooh, I'm blinded by the lights.
+[SPEAKER_00]: God, that was amazing.
 [DM]: To be fair, I don't pay attention to who wrote what songs.
 [DM]: OK.
 [DM]: The creature, the brine demon, is this the brine demon?
@@ -1014,13 +1014,13 @@ speakers:
 [DM]: Did I use fireball on the demon?
 [SPEAKER_02]: Can I add a more friendship thing?
 [DM]: You don't have to ask me what you can do.
-[DM]: First, Kato, you see this scene.
+[DM]: First, Kto, you see this scene.
 [DM]: The woman is standing next to you in a circle, the demon is reaching out.
 [DM]: In a circle around the demon's head, a fireball will kill everybody in the room.
 [DM]: So, as usual, that's not usually the answer, unless you're far away from things, and you're inside.
 [DM]: Think of it as a grenade launcher.
 [DM]: You can't use grenade launchers in the middle of the scene.
-[DM]: But it's not your turn, so it's Kato's.
+[DM]: But it's not your turn, so it's Kto's.
 [DM]: So go ahead.
 [SPEAKER_01]: Alright.
 [SPEAKER_01]: Oh my gosh.
@@ -1028,39 +1028,39 @@ speakers:
 [SPEAKER_01]: I would die.
 [SPEAKER_02]: Would I be able to do a longbow?
 [DM]: I'm just gonna search something up that I know for future reference.
-[Keto]: Would you be able to do a longbow?
-[Keto]: Yeah.
-[Keto]: I think that if we shoot the woman, the demon dies too.
+[SPEAKER_00]: Would you be able to do a longbow?
+[SPEAKER_00]: Yeah.
+[SPEAKER_00]: I think that if we shoot the woman, the demon dies too.
 [DM]: I can summon something with an armor class of 14.
-[Keto]: Armor class 14 isn't even that tough.
+[SPEAKER_00]: Armor class 14 isn't even that tough.
 [SPEAKER_01]: If I use a longbow, I have a plus 9.
 [SPEAKER_02]: The demon is currently trying to eat the people, so we want to stop that.
-[Keto]: But if we stop the woman, then we stop the demon.
-[Keto]: Also, we don't care about people getting eaten.
-[Keto]: This happens every single day.
+[SPEAKER_00]: But if we stop the woman, then we stop the demon.
+[SPEAKER_00]: Also, we don't care about people getting eaten.
+[SPEAKER_00]: This happens every single day.
 [SPEAKER_01]: What?
-[Keto]: That's crazy, guys.
-[Keto]: What the fuck?
-[Keto]: Whoa!
-[Keto]: What?
+[SPEAKER_00]: That's crazy, guys.
+[SPEAKER_00]: What the fuck?
+[SPEAKER_00]: Whoa!
+[SPEAKER_00]: What?
 [DM]: Salt demons happen every day, guys.
-[Keto]: No, I'm talking about people getting eaten.
-[Keto]: It's not even that bad for, like, four people.
+[SPEAKER_00]: No, I'm talking about people getting eaten.
+[SPEAKER_00]: It's not even that bad for, like, four people.
 [DM]: I'm not looking to save them.
 [DM]: They're probably innocent people who could worship your god.
 [DM]: Innocent people?
-[Keto]: Innocent people!
-[Keto]: But they could help us.
-[Keto]: Okay, well then they're gonna meet my god.
-[Keto]: Jesus Christ.
+[SPEAKER_00]: Innocent people!
+[SPEAKER_00]: But they could help us.
+[SPEAKER_00]: Okay, well then they're gonna meet my god.
+[SPEAKER_00]: Jesus Christ.
 [DM]: In which case, if you don't care whether or not they die, why don't we sacrifice you to the salt demon?
-[DM]: Alright, Katoa, roll your attack rolls.
-[Keto]: Because I actually have a purpose.
+[DM]: Alright, Kto, roll your attack rolls.
+[SPEAKER_00]: Because I actually have a purpose.
 [SPEAKER_01]: How stupid or smart is this piece?
 [SPEAKER_01]: You don't know.
 [SPEAKER_01]: Yeah, I know.
-[Keto]: You gotta roll for damage.
-[Keto]: I was taking a drink.
+[SPEAKER_00]: You gotta roll for damage.
+[SPEAKER_00]: I was taking a drink.
 [SPEAKER_02]: Dog.
 [SPEAKER_02]: 15.
 [SPEAKER_02]: You see, so like, how are, like, where are you, like, here?
@@ -1080,7 +1080,7 @@ speakers:
 [SPEAKER_02]: Because I'm out of 15.
 [DM]: There's a tremendous amount of mental glow at the end.
 [DM]: So if you're asking because of a reason, I'll say the reason was based there.
-[Keto]: Um, from where the entrance are, are they like in front of us to the left or to the right?
+[SPEAKER_00]: Um, from where the entrance are, are they like in front of us to the left or to the right?
 [SPEAKER_02]: No, that's like a lot, so are they like...
 [SPEAKER_02]: I didn't have big feet, Lynn.
 [SPEAKER_02]: Do you have manners?
@@ -1090,19 +1090,19 @@ speakers:
 [DM]: Here we go.
 [DM]: At least I admit it!
 [SPEAKER_02]: Wait, I thought...
-[SPEAKER_02]: I thought... Steve was one of the four.
+[SPEAKER_02]: I thought... Sev was one of the four.
 [DM]: No, he was the fifth.
 [SPEAKER_02]: So there was a fifth and...
 [SPEAKER_02]: Okay.
 [DM]: I escaped because Misty stepped verbally.
 [DM]: No, because I thought there were...
 [DM]: Okay.
-[DM]: Kato, you rolled a what?
+[DM]: Kto, you rolled a what?
 [DM]: A 26.
 [DM]: 26, that hits.
 [DM]: You have more than one attack, I'm sure of it.
 [DM]: You have to roll a damage next, so... Yeah, I did a damage.
-[Keto]: 26.
+[SPEAKER_00]: 26.
 [DM]: 26 points of damage?
 [DM]: Yeah.
 [DM]: Shit.
@@ -1126,12 +1126,12 @@ speakers:
 [DM]: Alright, so, the woman turns, sees you come in, yell something in a language does anybody speak Sambian?
 [DM]: I doubt it.
 [DM]: No.
-[Keto]: Speak what?
+[SPEAKER_00]: Speak what?
 [DM]: A language called Sambian.
 [DM]: What if I do?
 [DM]: I only speak Dwarvish and Elvish in common.
-[Keto]: I speak Draconic.
-[Keto]: Loser.
+[SPEAKER_00]: I speak Draconic.
+[SPEAKER_00]: Loser.
 [DM]: She pulls two iron rods off her belt, they burst into flames, and she lunges at... Who's turn is it now?
 [DM]: We're playing Dungeons and Dragons.
 [DM]: And we're fighting a demon made from brine.
@@ -1146,21 +1146,21 @@ speakers:
 [DM]: Yeah, sure.
 [SPEAKER_01]: I wasn't scared whenever he started growling.
 [DM]: That period of time where you wanted us to encourage him not to growl.
-[Keto]: Well...
-[Keto]: I don't remember the first time I met him.
-[Keto]: It feels like it's been a while.
+[SPEAKER_00]: Well...
+[SPEAKER_00]: I don't remember the first time I met him.
+[SPEAKER_00]: It feels like it's been a while.
 [DM]: Uh, alright.
 [DM]: The first time I met him was at a New Year's party.
 [DM]: She clubs you with her burning sticks.
 [DM]: Wait, the woman has burning sticks?
 [DM]: Yes!
-[Keto]: Can I describe it?
-[Keto]: Yes, indeed.
+[SPEAKER_00]: Can I describe it?
+[SPEAKER_00]: Yes, indeed.
 [DM]: Oh.
-[Keto]: You could say, that's hot.
-[Keto]: Guys, I'm so hilarious!
+[SPEAKER_00]: You could say, that's hot.
+[SPEAKER_00]: Guys, I'm so hilarious!
 [DM]: Now, he points at Piper.
-[Keto]: Me.
+[SPEAKER_00]: Me.
 [SPEAKER_02]: No.
 [DM]: And yells something in San Diego and Rollin' Wisdom saves the day.
 [SPEAKER_02]: Can I just scream back at her?
@@ -1181,7 +1181,7 @@ speakers:
 [SPEAKER_01]: Pickled eggs are against our religion.
 [DM]: Alright, now that goes to, I believe, Piper.
 [DM]: Your turn.
-[DM]: It's going to be a Piper 7 Lily in turn.
+[DM]: It's going to be a Piper 7 Lilli in turn.
 [DM]: So Piper, go.
 [SPEAKER_02]: Okay, so um, can I Charm Person?
 [DM]: Yes, you can Charm Person somebody if you want to.
@@ -1200,12 +1200,12 @@ speakers:
 [DM]: Because you'll end up in battle.
 [SPEAKER_02]: Why?
 [DM]: That's what the spell's description says.
-[Keto]: Non-reasonable.
-[Keto]: Because you can't fall in love with you mid-fight.
-[Keto]: Right.
-[Keto]: Which is really sad, so I can't hit.
-[Keto]: Oh, I can't wait till it's my turn so I can put a whole person.
-[Keto]: Is the brine fiend technically human or a... Oh, okay.
+[SPEAKER_00]: Non-reasonable.
+[SPEAKER_00]: Because you can't fall in love with you mid-fight.
+[SPEAKER_00]: Right.
+[SPEAKER_00]: Which is really sad, so I can't hit.
+[SPEAKER_00]: Oh, I can't wait till it's my turn so I can put a whole person.
+[SPEAKER_00]: Is the brine fiend technically human or a... Oh, okay.
 [DM]: She can do it, but she gets advantage if you do it.
 [DM]: The brine fiend should roll seven for a twice and a big die or two rolls.
 [DM]: You're basically banking on me rolling really shitty twice in a row.
@@ -1222,113 +1222,113 @@ speakers:
 [DM]: Okay, let's resolve that really quickly.
 [DM]: Because that will end the fight, if it works.
 [DM]: So that's your turn.
-[DM]: It's going to go to Seb next.
+[DM]: It's going to go to Sev next.
 [DM]: I have to go to the bathroom.
 [DM]: I'll be right back.
-[Keto]: Okay.
-[Keto]: Guys, should I do a whole person?
-[Keto]: I didn't get an answer to my question.
+[SPEAKER_00]: Okay.
+[SPEAKER_00]: Guys, should I do a whole person?
+[SPEAKER_00]: I didn't get an answer to my question.
 [SPEAKER_02]: Should I try this again next turn?
-[Keto]: Yes, you should.
+[SPEAKER_00]: Yes, you should.
 [SPEAKER_02]: I'm just going to keep doing it.
 [SPEAKER_02]: At some point he'll have to look really shitty.
-[Keto]: like should i do whole person or like wait or should i do bang for you what uh read bang just read it I really do not care if the brine demon eats people.
-[Keto]: Like, sucks the subs, you shouldn't have been bothered.
-[Keto]: Cloud of daggers.
+[SPEAKER_00]: like should i do whole person or like wait or should i do bang for you what uh read bang just read it I really do not care if the brine demon eats people.
+[SPEAKER_00]: Like, sucks the subs, you shouldn't have been bothered.
+[SPEAKER_00]: Cloud of daggers.
 [SPEAKER_01]: But I can only do cloud of daggers on one person.
 [SPEAKER_02]: You only need one person.
-[SPEAKER_02]: Vera?
+[SPEAKER_02]: Veyra?
 [SPEAKER_02]: Wait, actually, do you have to do them on one person?
 [SPEAKER_02]: No, because if there is a five foot cube, so depending on how close they are.
 [SPEAKER_02]: So how close are you?
-[Keto]: Well, Couteau is like at the entrance.
-[SPEAKER_02]: No, but I meant Vera and the monster.
-[Keto]: And Vera is like right next to her.
-[Keto]: And the demon is right there on the board.
+[SPEAKER_00]: Well, Kto is like at the entrance.
+[SPEAKER_02]: No, but I meant Veyra and the monster.
+[SPEAKER_00]: And Veyra is like right next to her.
+[SPEAKER_00]: And the demon is right there on the board.
 [SPEAKER_02]: Yeah, but, okay.
 [SPEAKER_02]: Let me just ask him when he gets back.
-[Keto]: I need more squishies.
-[Keto]: Shut up.
-[Keto]: Be quiet.
+[SPEAKER_00]: I need more squishies.
+[SPEAKER_00]: Shut up.
+[SPEAKER_00]: Be quiet.
 [SPEAKER_01]: You hate Michael Jackson.
 [SPEAKER_01]: Do you think I can't even see?
 [SPEAKER_01]: Hey, don't say that.
 [SPEAKER_02]: Actually, I could give you a hint.
 [SPEAKER_02]: What?
 [SPEAKER_01]: What?
-[Keto]: Okay, maybe I can't do that.
-[Keto]: Can't do what?
-[Keto]: Encouraging song.
-[Keto]: What are you, a bard or something?
-[Keto]: What do you mean?
-[Keto]: Okay, that was a- okay.
-[Keto]: Encouraging song?
-[Keto]: Yeah.
-[Keto]: Like, that's some shit a bard could do.
+[SPEAKER_00]: Okay, maybe I can't do that.
+[SPEAKER_00]: Can't do what?
+[SPEAKER_00]: Encouraging song.
+[SPEAKER_00]: What are you, a bard or something?
+[SPEAKER_00]: What do you mean?
+[SPEAKER_00]: Okay, that was a- okay.
+[SPEAKER_00]: Encouraging song?
+[SPEAKER_00]: Yeah.
+[SPEAKER_00]: Like, that's some shit a bard could do.
 [SPEAKER_01]: Oh.
 [SPEAKER_02]: Well, I have it, and then it would give you guys proficiency.
-[Keto]: Pregnant mom and baby simulator game.
-[Keto]: Oh, I've seen that.
-[Keto]: I played it.
-[Keto]: It wasn't that good.
-[Keto]: by the amount of off-brand tokoworlds.
+[SPEAKER_00]: Pregnant mom and baby simulator game.
+[SPEAKER_00]: Oh, I've seen that.
+[SPEAKER_00]: I played it.
+[SPEAKER_00]: It wasn't that good.
+[SPEAKER_00]: by the amount of off-brand tokoworlds.
 [SPEAKER_02]: I don't think you guys understand how much I love you.
 [SPEAKER_02]: Can my father hurry his ass up?
 [SPEAKER_02]: Literally and figuratively.
 [SPEAKER_01]: Oh my god, Gymnastics Superstar Gold Girl.
 [SPEAKER_01]: I used to play that so much.
-[Keto]: I'm a little bit obsessed.
+[SPEAKER_00]: I'm a little bit obsessed.
 [SPEAKER_01]: Not the paper doll.
-[Keto]: I'm a little bit obsessed.
-[Keto]: I'm obsessed I said Rebecca I think I'm a little bit obsessed
+[SPEAKER_00]: I'm a little bit obsessed.
+[SPEAKER_00]: I'm obsessed I said Rebecca I think I'm a little bit obsessed
 [SPEAKER_02]: Subway surfer's city.
 [SPEAKER_02]: Should I charm person or actually try to deal damage?
-[Keto]: Charm person.
-[Keto]: Charm person would like stop the fight.
-[Keto]: I know but it's also like I'm like I need luck here like I'm preying on him like rolling shit.
-[Keto]: Then I can bane her or um wait
+[SPEAKER_00]: Charm person.
+[SPEAKER_00]: Charm person would like stop the fight.
+[SPEAKER_00]: I know but it's also like I'm like I need luck here like I'm preying on him like rolling shit.
+[SPEAKER_00]: Then I can bane her or um wait
 [SPEAKER_02]: Disadvantage on ability checks with chosen ability.
 [SPEAKER_02]: Wait, why did she get a roll with proficiency?
-[Keto]: I'm questioning him more because he's so confusing.
-[Keto]: I'm gonna hex her.
-[Keto]: What does that mean?
-[Keto]: Um, uh, she loses proficiency bonuses on saving throws.
-[Keto]: For how long?
-[Keto]: Let me see.
-[Keto]: Oh, on ability checks, I don't know.
-[Keto]: And so the fight ends.
-[Keto]: I kind of want to pop this.
+[SPEAKER_00]: I'm questioning him more because he's so confusing.
+[SPEAKER_00]: I'm gonna hex her.
+[SPEAKER_00]: What does that mean?
+[SPEAKER_00]: Um, uh, she loses proficiency bonuses on saving throws.
+[SPEAKER_00]: For how long?
+[SPEAKER_00]: Let me see.
+[SPEAKER_00]: Oh, on ability checks, I don't know.
+[SPEAKER_00]: And so the fight ends.
+[SPEAKER_00]: I kind of want to pop this.
 [SPEAKER_02]: You cast, choose one ability when you cast the stuff.
 [SPEAKER_02]: Oh, never mind.
 [SPEAKER_02]: You have to choose on ability checks.
 [SPEAKER_02]: Is that an ability check, or is that?
-[Keto]: I don't think it is.
-[Keto]: That's a saving throw.
-[Keto]: Yeah, then I'll just do here.
-[Keto]: So that doesn't do what it wants.
-[Keto]: Give back.
-[Keto]: Give back.
+[SPEAKER_00]: I don't think it is.
+[SPEAKER_00]: That's a saving throw.
+[SPEAKER_00]: Yeah, then I'll just do here.
+[SPEAKER_00]: So that doesn't do what it wants.
+[SPEAKER_00]: Give back.
+[SPEAKER_00]: Give back.
 [SPEAKER_01]: Give back.
-[Keto]: Should I just do a cold person?
-[Keto]: What does that mean?
-[Keto]: They're paralyzed.
-[Keto]: For... As long as I want?
-[Keto]: But, but, but, but, um... Well, until, uh, they roll a success.
-[Keto]: I guess the same way I can stop.
-[Keto]: Must have been.
-[Keto]: What is it for you, Pedro?
-[Keto]: Look, it's you!
-[Keto]: I could fall asleep to this music.
-[Keto]: I didn't even know music was playing.
-[Keto]: Dang.
-[Keto]: Bro I didn't sleep at all last night.
-[Keto]: That's for you cuz I did.
-[Keto]: Me too.
-[Keto]: What cuz me and Jeannie had a sleepover.
-[Keto]: You could still sleep at a sleepover.
-[Keto]: And then I seem like the dipshit who sleeps first.
-[Keto]: We were up like all night watching MAMA.
-[Keto]: And then we only got to episode 17.
+[SPEAKER_00]: Should I just do a cold person?
+[SPEAKER_00]: What does that mean?
+[SPEAKER_00]: They're paralyzed.
+[SPEAKER_00]: For... As long as I want?
+[SPEAKER_00]: But, but, but, but, um... Well, until, uh, they roll a success.
+[SPEAKER_00]: I guess the same way I can stop.
+[SPEAKER_00]: Must have been.
+[SPEAKER_00]: What is it for you, Pedro?
+[SPEAKER_00]: Look, it's you!
+[SPEAKER_00]: I could fall asleep to this music.
+[SPEAKER_00]: I didn't even know music was playing.
+[SPEAKER_00]: Dang.
+[SPEAKER_00]: Bro I didn't sleep at all last night.
+[SPEAKER_00]: That's for you cuz I did.
+[SPEAKER_00]: Me too.
+[SPEAKER_00]: What cuz me and Jeannie had a sleepover.
+[SPEAKER_00]: You could still sleep at a sleepover.
+[SPEAKER_00]: And then I seem like the dipshit who sleeps first.
+[SPEAKER_00]: We were up like all night watching MAMA.
+[SPEAKER_00]: And then we only got to episode 17.
 [SPEAKER_01]: do do do He...
 [DM]: Alright, whose turn is it?
 [DM]: Mine.
@@ -1352,7 +1352,7 @@ speakers:
 [DM]: We'll put it in the initiative on your turn.
 [DM]: Okay.
 [DM]: Alright.
-[DM]: Lily, you're last.
+[DM]: Lilli, you're last.
 [SPEAKER_02]: I mean, we got a question.
 [DM]: It basically just follows behind me like a stand from JoJo's Bizarre Adventure.
 [SPEAKER_02]: What was the wrong page?
@@ -1361,7 +1361,7 @@ speakers:
 [DM]: We technically have an extra party member, because there's the Shadow Spawn.
 [DM]: That's true.
 [DM]: Demon and what?
-[Keto]: The...Gay Rock.
+[SPEAKER_00]: The...Gay Rock.
 [SPEAKER_UNKNOWN]: Oh.
 [DM]: They're adjacent.
 [SPEAKER_02]: What do you mean they're adjacent?
@@ -1370,12 +1370,12 @@ speakers:
 [DM]: Mm-hmm.
 [DM]: Someone who has a radius could work on them.
 [DM]: That's true.
-[Keto]: Do you want to do daggers?
-[Keto]: Are they within five feet?
+[SPEAKER_00]: Do you want to do daggers?
+[SPEAKER_00]: Are they within five feet?
 [DM]: Of each other, yes.
-[Keto]: Oh, OK.
-[Keto]: Cloud of daggers.
-[Keto]: Cloud of daggers.
+[SPEAKER_00]: Oh, OK.
+[SPEAKER_00]: Cloud of daggers.
+[SPEAKER_00]: Cloud of daggers.
 [DM]: All right.
 [DM]: How's that work?
 [DM]: I had to mention something about the shadow spawn real quick.
@@ -1386,35 +1386,35 @@ speakers:
 [DM]: Okay.
 [DM]: Anyway.
 [DM]: I'm assuming that they get a saving throw or they take damage or something.
-[Keto]: Each creature in that area takes 64 slashing damage.
-[Keto]: A creature also takes damage if it enters the cube or ends its turn in there, or if the cube moves into its space.
-[Keto]: A creature takes this damage only once per turn.
-[Keto]: On your later turns, you can take magic action to teleport the cube up to 30 feet.
+[SPEAKER_00]: Each creature in that area takes 64 slashing damage.
+[SPEAKER_00]: A creature also takes damage if it enters the cube or ends its turn in there, or if the cube moves into its space.
+[SPEAKER_00]: A creature takes this damage only once per turn.
+[SPEAKER_00]: On your later turns, you can take magic action to teleport the cube up to 30 feet.
 [DM]: Okay, so you have to roll 6d4 for that damage.
-[Keto]: Yeah.
-[Keto]: Can I have your d4s?
-[Keto]: Is that the same?
+[SPEAKER_00]: Yeah.
+[SPEAKER_00]: Can I have your d4s?
+[SPEAKER_00]: Is that the same?
 [DM]: Yeah.
-[Keto]: Um, 4, 4, so that's 8, 8.
-[Keto]: 3, 2, 5.
-[Keto]: 8 plus 5.
-[Keto]: Can you do that?
-[Keto]: 13.
-[Keto]: And then, plus another 5.
-[Keto]: 18.
-[Keto]: 18.
-[Keto]: 18?
-[Keto]: 18.
+[SPEAKER_00]: Um, 4, 4, so that's 8, 8.
+[SPEAKER_00]: 3, 2, 5.
+[SPEAKER_00]: 8 plus 5.
+[SPEAKER_00]: Can you do that?
+[SPEAKER_00]: 13.
+[SPEAKER_00]: And then, plus another 5.
+[SPEAKER_00]: 18.
+[SPEAKER_00]: 18.
+[SPEAKER_00]: 18?
+[SPEAKER_00]: 18.
 [DM]: OK. For 18.
 [SPEAKER_01]: That's a lot, actually.
 [SPEAKER_UNKNOWN]: All right.
 [DM]: All right.
 [DM]: They both are severely injured by that, actually.
-[DM]: Top of the initiative goes back to Kato.
-[Keto]: Kill them.
+[DM]: Top of the initiative goes back to Kto.
+[SPEAKER_00]: Kill them.
 [DM]: Without entering the zone so shoot Probably the woman cuz they're both like in the club daggers, so the woman is probably the one on the woman is one to summon the demon so Killed one who summoned the demon the demon of which is created from sodium chloride and
-[Keto]: 17.
-[Keto]: 17?
+[SPEAKER_00]: 17.
+[SPEAKER_00]: 17?
 [DM]: That hit?
 [DM]: Yeah.
 [DM]: That hits both of them actually.
@@ -1493,26 +1493,26 @@ speakers:
 [DM]: 21.
 [DM]: 21.
 [SPEAKER_UNKNOWN]: 21.
-[Keto]: 21.
-[Keto]: 21.
-[Keto]: 21.
-[Keto]: 21.
-[Keto]: 21.
-[Keto]: 21.
-[Keto]: 21.
-[Keto]: 21.
-[Keto]: 21.
-[Keto]: 21.
-[Keto]: 21.
-[Keto]: 21.
-[Keto]: 21.
-[Keto]: 21.
-[Keto]: 21.
-[Keto]: 21.
-[Keto]: 21.
-[Keto]: 21.
-[Keto]: 21.
-[Keto]: 21.
+[SPEAKER_00]: 21.
+[SPEAKER_00]: 21.
+[SPEAKER_00]: 21.
+[SPEAKER_00]: 21.
+[SPEAKER_00]: 21.
+[SPEAKER_00]: 21.
+[SPEAKER_00]: 21.
+[SPEAKER_00]: 21.
+[SPEAKER_00]: 21.
+[SPEAKER_00]: 21.
+[SPEAKER_00]: 21.
+[SPEAKER_00]: 21.
+[SPEAKER_00]: 21.
+[SPEAKER_00]: 21.
+[SPEAKER_00]: 21.
+[SPEAKER_00]: 21.
+[SPEAKER_00]: 21.
+[SPEAKER_00]: 21.
+[SPEAKER_00]: 21.
+[SPEAKER_00]: 21.
 [DM]: 21.
 [DM]: 21.
 [DM]: 21.
@@ -1524,24 +1524,24 @@ speakers:
 [DM]: 21.
 [DM]: 21.
 [DM]: 21.
-[Keto]: 21.
-[Keto]: 21.
-[Keto]: 21.
-[Keto]: 21.
-[Keto]: 21.
-[Keto]: 21.
-[Keto]: 21.
-[Keto]: 21.
-[Keto]: 21.
-[Keto]: 21.
+[SPEAKER_00]: 21.
+[SPEAKER_00]: 21.
+[SPEAKER_00]: 21.
+[SPEAKER_00]: 21.
+[SPEAKER_00]: 21.
+[SPEAKER_00]: 21.
+[SPEAKER_00]: 21.
+[SPEAKER_00]: 21.
+[SPEAKER_00]: 21.
+[SPEAKER_00]: 21.
 [SPEAKER_UNKNOWN]: 21.
 [SPEAKER_UNKNOWN]: 21.
-[Keto]: No, did any of you catch the Jennifer's body reference that I just made?
-[Keto]: Good.
-[Keto]: The what?
-[Keto]: Jennifer's body.
+[SPEAKER_00]: No, did any of you catch the Jennifer's body reference that I just made?
+[SPEAKER_00]: Good.
+[SPEAKER_00]: The what?
+[SPEAKER_00]: Jennifer's body.
 [DM]: What's that?
-[Keto]: Like, my favorite movie.
+[SPEAKER_00]: Like, my favorite movie.
 [DM]: Ah.
 [DM]: Um.
 [SPEAKER_UNKNOWN]: Ah!
@@ -1554,7 +1554,7 @@ speakers:
 [SPEAKER_02]: I gotta hold my bangs!
 [SPEAKER_02]: No.
 [SPEAKER_02]: I have to hold my bangs.
-[Keto]: What?
+[SPEAKER_00]: What?
 [SPEAKER_01]: My music teacher says we can't say bless you because you don't have any other in our yes, I do Show us your bangs Everyone shut up.
 [SPEAKER_01]: She cast scorching ray when you could tell so you don't want to wait for a sec Remember any scorching ray point blank on someone in this very camp excuse me
 [DM]: Remember when I used Squirting Rain to one point blank in this very campaign?
@@ -1564,8 +1564,8 @@ speakers:
 [DM]: Are you alive?
 [DM]: 31 points of fire damage.
 [DM]: Yeah.
-[Keto]: It's not you.
-[Keto]: 31 points of damage for eating mine that much.
+[SPEAKER_00]: It's not you.
+[SPEAKER_00]: 31 points of damage for eating mine that much.
 [DM]: I am.
 [DM]: Write down 31, because that's how much damage you took.
 [DM]: That's a lot.
@@ -1604,23 +1604,23 @@ speakers:
 [DM]: So I am now at 6 health.
 [DM]: Oh god.
 [DM]: Does anyone have a healing spell?
-[Keto]: Me, probably.
-[Keto]: Oh wait, I need to do math, I'm sorry.
+[SPEAKER_00]: Me, probably.
+[SPEAKER_00]: Oh wait, I need to do math, I'm sorry.
 [SPEAKER_02]: What do you got?
-[Keto]: No, it's the fire.
+[SPEAKER_00]: No, it's the fire.
 [DM]: Her thing is attacking the fire demons.
 [DM]: Or the self-demon.
 [DM]: Because it left her stone, I guess.
-[Keto]: 19.
+[SPEAKER_00]: 19.
 [DM]: There is no fire demon!
-[Keto]: Yeah.
-[Keto]: Alright, I got that.
-[Keto]: Basically.
-[Keto]: What?
+[SPEAKER_00]: Yeah.
+[SPEAKER_00]: Alright, I got that.
+[SPEAKER_00]: Basically.
+[SPEAKER_00]: What?
 [DM]: It's alive, but injured.
 [DM]: That hurt.
 [DM]: Alright.
-[DM]: Then, now it goes to the Piper-Sev-Lily sequence.
+[DM]: Then, now it goes to the Piper-Sev-Lilli sequence.
 [DM]: So, your turn, Piper.
 [SPEAKER_02]: What?
 [SPEAKER_02]: Oh, me?
@@ -1654,7 +1654,7 @@ speakers:
 [DM]: From the demon?
 [SPEAKER_02]: Yeah.
 [DM]: 20 feet.
-[Keto]: If you kill her, then I can move the club daggers to the demon.
+[SPEAKER_00]: If you kill her, then I can move the club daggers to the demon.
 [SPEAKER_02]: Okay, I'm gonna Lightning Bolt her.
 [SPEAKER_02]: You're gonna make a Dexterity saving throw.
 [SPEAKER_UNKNOWN]: Wow.
@@ -1670,7 +1670,7 @@ speakers:
 [SPEAKER_01]: That was two.
 [SPEAKER_01]: No, wait.
 [SPEAKER_01]: Did I roll that three times?
-[Keto]: Two.
+[SPEAKER_00]: Two.
 [SPEAKER_01]: This is my third.
 [SPEAKER_01]: Mm-hmm.
 [SPEAKER_01]: Three, four.
@@ -1701,13 +1701,13 @@ speakers:
 [DM]: It's not here.
 [DM]: You feel a bit foolish, but you're glad that it didn't drag you into something that killed you.
 [DM]: My character is now angry.
-[Keto]: Piper, or not Piper, Lily looks so angry.
-[Keto]: She's missing mass.
+[SPEAKER_00]: Piper, or not Piper, Lilli looks so angry.
+[SPEAKER_00]: She's missing mass.
 [DM]: I don't get it.
-[Keto]: Literally, where are we?
-[Keto]: I literally thought I was going to my church.
-[Keto]: Like, what?
-[DM]: I'm going to use Scorching Ray on Vyra.
+[SPEAKER_00]: Literally, where are we?
+[SPEAKER_00]: I literally thought I was going to my church.
+[SPEAKER_00]: Like, what?
+[DM]: I'm going to use Scorching Ray on Veyra.
 [DM]: She's dead.
 [DM]: She is?
 [SPEAKER_01]: Yeah, she's dead.
@@ -1720,15 +1720,15 @@ speakers:
 [DM]: And, Tamsin looks at you, and goes, thank you so much.
 [DM]: And thank you for breaking my compulsion, even when yours was still on.
 [DM]: Yes.
-[Keto]: Can I make a religion check?
-[Keto]: Sure.
-[Keto]: To, like, have a little mini mass for myself.
+[SPEAKER_00]: Can I make a religion check?
+[SPEAKER_00]: Sure.
+[SPEAKER_00]: To, like, have a little mini mass for myself.
 [SPEAKER_02]: Wait, we gotta take the people down.
-[Keto]: Yeah, throw her four people first.
-[Keto]: No, can we still keep them up there?
-[Keto]: They're like, please help us!
+[SPEAKER_00]: Yeah, throw her four people first.
+[SPEAKER_00]: No, can we still keep them up there?
+[SPEAKER_00]: They're like, please help us!
 [SPEAKER_02]: Wait, did I turn the light off?
-[Keto]: I rescued the four people.
+[SPEAKER_00]: I rescued the four people.
 [DM]: I rescued the four people.
 [DM]: Alright, good job.
 [DM]: They're very happy.
@@ -1739,25 +1739,25 @@ speakers:
 [DM]: Yeah, we go down the steps.
 [DM]: Wait, wait, wait, what did you ask?
 [DM]: What did you want?
-[Keto]: my religion check is for it's for um if there's a church anywhere nearby yeah so um yes let's go yeah you know the question is it for your god well i'll make it for my god yeah
+[SPEAKER_00]: my religion check is for it's for um if there's a church anywhere nearby yeah so um yes let's go yeah you know the question is it for your god well i'll make it for my god yeah
 [DM]: The city that's nearby is quite large.
 [DM]: It's about nine miles down the road.
 [DM]: You'll be able to walk there.
 [DM]: The other people sheltering in that ship could probably use an escort.
 [DM]: Many of them are not adventurers with powers like yours.
 [DM]: And they're just called the Folk.
-[Keto]: Dang, that sucks for them.
-[Keto]: We should help them.
-[Keto]: We should sacrifice them.
-[Keto]: No!
-[Keto]: Are you evil?
-[Keto]: No, I'm just bored.
-[Keto]: I'm missing mass!
-[Keto]: Again!
-[Keto]: Um...
-[Keto]: If I miss another one, I'm fired.
-[Keto]: And I can't be fired, because being fired is a bad thing.
-[Keto]: Then I have no purpose.
+[SPEAKER_00]: Dang, that sucks for them.
+[SPEAKER_00]: We should help them.
+[SPEAKER_00]: We should sacrifice them.
+[SPEAKER_00]: No!
+[SPEAKER_00]: Are you evil?
+[SPEAKER_00]: No, I'm just bored.
+[SPEAKER_00]: I'm missing mass!
+[SPEAKER_00]: Again!
+[SPEAKER_00]: Um...
+[SPEAKER_00]: If I miss another one, I'm fired.
+[SPEAKER_00]: And I can't be fired, because being fired is a bad thing.
+[SPEAKER_00]: Then I have no purpose.
 [DM]: Why don't you just find a different god to worship if you get fired?
 [DM]: Why would you tell her that?
 [DM]: There is a ledger on her Persona, which is like a... a book.
@@ -1792,19 +1792,19 @@ speakers:
 [DM]: I'd kill nobles for free.
 [DM]: I'd kill nobles for free.
 [DM]: I'd kill nobles for free.
-[Keto]: I'd kill nobles for free.
-[Keto]: I'd kill nobles for free.
-[Keto]: I'd kill nobles for free.
-[Keto]: I'd kill nobles for free.
-[Keto]: I'd kill nobles for free.
-[Keto]: I'd kill nobles for free.
-[Keto]: I'd kill nobles for free.
-[Keto]: I'd kill nobles for free.
-[Keto]: My cause that I think is good.
+[SPEAKER_00]: I'd kill nobles for free.
+[SPEAKER_00]: I'd kill nobles for free.
+[SPEAKER_00]: I'd kill nobles for free.
+[SPEAKER_00]: I'd kill nobles for free.
+[SPEAKER_00]: I'd kill nobles for free.
+[SPEAKER_00]: I'd kill nobles for free.
+[SPEAKER_00]: I'd kill nobles for free.
+[SPEAKER_00]: I'd kill nobles for free.
+[SPEAKER_00]: My cause that I think is good.
 [DM]: She does need wires.
-[Keto]: My gods can't do evil, so I do evil for them.
-[Keto]: Gods?
+[SPEAKER_00]: My gods can't do evil, so I do evil for them.
+[SPEAKER_00]: Gods?
 [DM]: All gods do evil.
 [DM]: You're still bringing them with us.
 [DM]: I'm eating them.
-[Keto]: I'm fireballing you if you don't...
+[SPEAKER_00]: I'm fireballing you if you don't...

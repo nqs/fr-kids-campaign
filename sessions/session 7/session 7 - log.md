@@ -10,179 +10,106 @@ tags:
 ## Session 007 — The Lighthouse on Dry Land
 
 **Date played:** *(not stated in the recording)*
-**Location in-world:** Dry bed of the Sea of Fallen Stars, western Impiltur — the Salt Way coast road, the stranded-ship camp at the Embergull wreck, and the Sarshel Light lighthouse, roughly nine miles west of New Sarshel.
-**Players present:** Lilli (Naan), Piper (Nalith), Kaitlyn (Kto), Sev (Yinu), Fox (Fiorn — present at the start, then sat out; see Table Notes)
-**Absent:** Ari (Dirk), Kaila (Tyvlex). Juniper did not attend.
-**Session ended at:** Veyra dead, Brine Fiend dissolved, four prisoners freed, lighthouse light extinguished by Tamsin Reed; party preparing to escort camp survivors the ~9 miles east to New Sarshel.
+**Location in-world:** Dry bed of the Sea of Fallen Stars, western Impiltur — the coast road, the stranded ship *Embergull*, and the Sarshel Light, about nine miles west of New Sarshel.
+**Players present:** Lilli (Naan), Piper (Nalith), Kaitlyn (Kto), Sev (Yinu), Fox (Fiorn — **left partway through**)
+**Absent:** Ari (Dirk), Kaila (Tyvlex). **Juniper did not attend.**
+**Session ended at:** Veyra dead, Brine Fiend collapsed into salt water, the light shut off by keeper Tamsin Reed, four prisoners freed; the party about to escort the *Embergull* survivors nine miles east to New Sarshel.
+
+> [!NOTE]
+> **Sources.** Checked line-by-line against the recording (`Session7.m4a.md`). The transcript has **no reliable speaker labels**, so every attribution below comes from the DM naming a player or character, the turn order, or the character sheets (e.g. only Naan has *Cloud of Daggers*). Where none of those settles it, the log says **unclear**.
 
 ---
 
 ### What Happened
 
-**Opening — roll call and recap (recording 00:00–03:10)**
+**Opening.** Roll call, then the DM's recap: the party was pulled out of Oberon's court through a portal. Per table feedback the campaign is leaving the Dalelands; the portal drops them where "a magical event is happening." No rest since Session 006.
 
-- DM opens with a roll call for the transcription tool. Voices captured: Nick (DM), Caitlin/Kaitlyn (Kto), Sev (Yinu), Fox (Fiorn), Lilli (Naan), Piper (Nalith).
-- DM recaps Session 006: the party refused Oberon's offer, Sela ripped the binding ribbon, Oberon burst into butterflies, and the party was rocketed out of the Bright Court Beneath through a portal. They have no rest, no refreshed resources.
-- The portal deposits them into **a new region** — DM notes on the recording that per player feedback the campaign is leaving the Dalelands.
+**The landing.** Night, a flat cracked salt pan scattered with stranded ships, no water anywhere. A working lighthouse about a mile off; a campfire at a ship's hull roughly halfway there, about 400 ft off the road.
+- **Nalith (Piper) — Nature, natural 20:** the water has been gone for decades. This is not a myth.
+- **Arcana 21** *(roller unclear)*: no lingering magic at all — odd, because magic is usually everywhere.
 
-**Table split — Fox sits out (recording ~07:40)**
+**The beam.** The light swept over the party and each PC saw what they most want:
+- **Fiorn** — a white ball floating: his original soul, taken by the gods in his backstory.
+- **Yinu** — Elminster patiently teaching her magic in his lab.
+- **Naan** — a white room: to no longer hear voices.
+- **Nalith** — a living room at Christmas, her late mother on the couch, unwrapping a gift.
+- **Kto** — recognition from her god, known as the best.
 
-- DM explains to the table that he is **starting a separate game for Fox and his friends**, and does not want nine children at one table. *"Foxy could sit out, but the Junipers are here."*
-- Fox plays Fiorn through the **opening road and vision scene** — Fiorn is the one who "senses a problem" (*"I'm hearing voices again"*), and the table has Changeling banter (*"I turn into an old sage"*). Fiorn's vision from the beam: **a white sphere — his original soul** (stolen by the gods in his backstory).
-- **After approximately the 13-minute mark, nothing identifiable as Fox or Fiorn appears in the remaining recording.** The exact moment he stopped playing is unclear; there is no goodbye captured on tape.
+The DM ruled it a **magical compulsion**: each of them believes, and behaves as if, the thing they want is in the lighthouse.
 
-**Scene 1 — the landing and the road (recording 03:10–19:00)**
+**The *Embergull* camp.** The fire burns at the hull of the stranded *Embergull*; one person sits at it with a logbook. The camp keeper — **Oren** at the table — offered soup and a rest, and a warning: some of them have tried the walk; *"the problem is what you find when you get there."* The keeper, **Tamsin Reed** (the DM first says "Hanson Reed," later "Tamsin"), is still alive and still keeps the light, and doesn't know why — whatever makes the light pull people in is keeping her alive and running it. *"It's not going to give you what you want. It's going to try to eat you."* The party pressed on under the compulsion.
 
-- They land at night in a flat, desolate **salt flat** — cracked, mushy, salty ground; broken ships lying across dried seabed; no water visible. Twilight. ~1 mile west: an active lighthouse whose beam is still turning. ~0.5 miles toward the light: a small campfire near a ship hull.
-- **Nature check (Nalith/Piper, ~22):** The water has been gone for *decades* — not a recent event. Salt vegetation beginning to take hold.
-- **Arcana check (Yinu, 21):** No lingering magic detectable. DM notes this is oddly empty.
-- DM confirms all resources from S6 carry forward (no rest).
-- **The beam sweeps over the party.** Each PC sees the thing their character most wants:
-  - **Fiorn:** his soul — a white sphere (soul stolen by gods in his backstory).
-  - **Yinu:** herself in Elminster's lab, being instructed in magic.
-  - **Naan:** a white room — inner peace, no longer hearing voices.
-  - **Nalith:** a living room at Christmas, her dead mother on the couch unwrapping a gift.
-  - **Kto:** recognition from her god — being known as the greatest by her deity.
-- **Effect:** each PC is placed under a **magical compulsion** — they believe the thing they most desire is inside the lighthouse. Every subsequent sweep renews it.
-- Nalith walks toward the light. Naan walks. Kto runs (face-first into the wet salt slog). Yinu walks. Fiorn skips.
-- Yinu attempts **Misty Step** toward the tower; DM rules range is 30 feet — cannot cover the distance. Attempt abandoned.
+**Yinu is taken.** Yinu tried chaining *Misty Step* (30 ft a cast — the DM pointed out that's about 300 ft of a 2,000-ft trip), then cast ***Fly***. The DM: *"As soon as you cast fly, the next time the light passes over, you disappear… It's sentient, and it consumes people who try to make the trek."* The others watched her vanish and kept going on foot.
 
-**Scene 2 — the Embergull camp (recording 19:00–37:41)**
+*(About a ten-minute table break at the lighthouse door.)*
 
-- The campfire is at the hull of a stranded trading vessel: **the Embergull**. About ten people camped here; eight asleep; two awake staring into the dark; one at the fire keeping a logbook. One person sits ~50 feet out, facing the lighthouse.
-- Every time the beam sweeps over the campers, they glance at it — also under compulsion.
-- An NPC at the fire — **Orin** or **Oren** [name unclear from recording; DM to confirm; referred to as "she" at points] — keeps the camp and a logbook. She warns the party:
-  - The water retreated decades ago as a separate, prior event.
-  - People have been drawn to the lighthouse by the light. Some went. She has watched them die; she has buried them.
-  - The lighthouse keeper — **Tamsin Reed** [DM initially says "Hanson Reed," then corrects to Tamsin in the aftermath; use Tamsin] — is still alive inside and still keeps the light.
-  - *"It's not going to give you what you want. It's going to try to eat you."*
-- Party does not fully believe her (compulsion still active). They press on.
-- **Yinu attempts Dispel Magic on Naan** (DC 15; roll ~19 total). **Success.** Naan's compulsion is lifted — she knows the thing she wanted is not in the lighthouse.
-- No other PCs are dispelled before reaching the tower.
+**Tamsin at the door.** The DM prompted *dispel magic* — every person the beam hits is under a magical compulsion. **Nalith cast *Dispel Magic* on Tamsin** (DC 15; +6, rolled 18–19 — success). Her compulsion peeled off and she turned urgent: *you have to get up there, you have to stop them.* She remarked on Naan's angelic-warlock holiness — the whole party exudes power — led them up the stair, pulled a key from her pocket, and kicked the lantern-room door open.
 
-**Scene 3 — Tamsin Reed at the lighthouse door (recording 37:41–49:00)**
+**The lantern room.** **Yinu woke up chained to the wall** with four other prisoners, equipment (staff included) leaning against a wall out of reach, still in her robes. A spell with only a verbal component still works — she **Misty Stepped out of the chains.** A woman, **Veyra**, stood at a circle on the floor; the **Brine Fiend** ("salt demon") was emerging from it, feet nearly free, reaching for the chained prisoners. The party understood that she had been using the light to draw people here and feed them to the demon to bring it into the world. The DM warned that a *fireball* here would kill everyone in the room. Initiative.
 
-- *(A ~10-minute out-of-game break runs from roughly 37:44–43:00 — table chatter, no play.)*
-- Party reaches the lighthouse. **Tamsin Reed, the keeper**, meets them at the door. She **does not try to stop them** but tells them not to go up.
-- The beam's rule is stated at the table: every person hit by the beam is placed under magical compulsion.
-- Tamsin's ask: *"Whatever you think is up there — when a giant demon is up there instead, you have to tell me. I will help you. Together we might have a chance."* Party pushes back; Tamsin is unmoved.
-- She leads them up the stairs and **opens the lantern room door with her key**.
+**The fight.** Two rounds.
+- **Round 1.** **Kto** — longbow (+9), 26 to hit, **26 damage to the Brine Fiend.** **Veyra** shouted in a language the DM called "Sambian"; the PC it targeted rolled 25 and shrugged it off. The **Brine Fiend** attacked *(details unclear)*. **Nalith** tried *Charm Person* on Veyra — the DM ruled she was hostile and had advantage; it didn't land (she also asked about *Animal Friendship* on the Fiend: not a beast). **Yinu** cast ***Summon Shadowspawn* (Despair)** — creatures that start within 5 ft lose 20 ft of speed. **Naan** cast ***Cloud of Daggers*** on Veyra and the Fiend, standing adjacent: **18 slashing** to each, "both severely injured."
+- **Round 2.** **Kto** shot Veyra — 17 hits, **21 damage.** **Veyra's *Scorching Ray*:** two of three rays hit one PC for **31 fire** *(target unclear)*. **The Brine Fiend** melted into the floor, reformed beside a PC and bit twice for **26**, leaving that PC at **6 HP** *(target unclear)*; both enemies took more damage leaving the cloud. **Nalith**'s turn *(action unclear)*. **Yinu cast *Lightning Bolt*** at Veyra — failed Dex save — **Veyra died**, and the demon came apart and splashed down as a puddle of salt water.
 
-**Scene 4 — the lantern room and the fight (recording 49:00–87:15)**
+No PC dropped.
 
-- Inside: a circular lantern room with the light mechanism at centre. **Veyra** — a woman — stands at a summoning circle drawn on the floor. The **Brine Fiend** (table calls it "salt demon" or "brine demon") is emerging through the circle, feet first, reaching toward **four people chained to the wall**.
-- DM: Veyra summoned the demon and is being funded by nobles in New Sarshel.
-- DM warns the table: **a Fireball in this room would kill everyone in it**.
-- Initiative rolled.
+**The light goes out.** Tamsin walked to the lamp and turned her key. The light went out and the compulsion ended: the thing each PC was chasing was never there. *"You feel a bit foolish, but you're glad it didn't drag you into something that killed you."* Naan was furious about it. Tamsin: *"Thank you so much. And thank you for breaking my compulsion, even when yours was still on."*
 
-*Initiative (approximate):*
-- Kto: ~26 · Nalith: ~17 · Naan: ~10 · Veyra + Brine Fiend: placed between Naan and Yinu · Yinu: ~8 · Naan's Shadowspawn: added on Naan's turn
-
-*Key combat moments:*
-- **Kto** (longbow, +9): hits the Brine Fiend for **26 piercing** (roll 26 to hit).
-- **Nalith** attempts **Charm Person** on Veyra; DM gives Veyra advantage on the save (party is hostile). Veyra rolls 25 — resists. Charm Person fails.
-- **Veyra** yells something [DM: "Sambian" — DM invention; note for canonization], pulls two flaming iron rods, and attacks. An effect is rolled against; a PC rolls 25 and resists.
-- **Brine Fiend** melts into the floor and reforms next to Yinu, attacks twice. Combined: **26 damage** to Yinu, leaving her at roughly **6 HP**.
-- **Naan** casts **Summon Shadowspawn (Despair variant)** — a medium monstrosity that stays adjacent to Naan; creatures within 5 feet have their speed reduced by 20 at the start of their turn.
-- **Kto** casts **Cloud of Daggers** centred on Veyra and the Brine Fiend (they are adjacent). Roll: **18 slashing damage** to both. DM: *"They both are severely injured by that."*
-- **Veyra** casts **Scorching Ray** at Yinu — two rays hit, one misses. Total: **31 fire damage** to Yinu. [Yinu's survival at this point is unclear from the recording — DM appears to continue without a downed-PC call; DM to clarify.]
-- *(A long ~7-minute stretch from ~68:00–75:00 is off-topic table chatter with no play.)*
-- **Round 2 — Kto** shoots **Veyra** (roll 17 to hit): **21 piercing damage**.
-- Cloud of Daggers deals additional damage as enemies remain in the zone.
-- **Yinu** casts **Lightning Bolt** targeting Veyra. Veyra fails the Dexterity save. Damage ~24. **Veyra dies.**
-- **Consequence:** the ritual collapses. The **Brine Fiend dissolves into a puddle of salt water** on the floor. No PC deaths recorded.
-
-*Round-by-round attack rolls, exact damage totals, and initiative breakdown are not fully recoverable from this recording — the fight is overlapping cross-talk.*
-
-**Ending — lens shuttered (recording 87:15–89:20)**
-
-- With Veyra dead and the demon dissolved, **Tamsin walks to the light mechanism and turns her key. The lighthouse light goes out.**
-- DM: *"You feel a bit foolish, but you're glad it didn't drag you into something that killed you."*
-- A PC is still angry about it in-character.
-- The ritual had already ended with Veyra's death — the light being shut confirms and seals it.
-- **Tamsin thanks the party:** *"Thank you so much. And thank you for breaking my compulsion, even when yours was still on."*
-- **Four prisoners are freed** from the chains.
-- **Loot taken off Veyra's body:** a **ledger** listing several nobles in New Sarshel who were funding her, and approximately **15 coins** [denomination unclear — transcript says "15 book pieces"; DM to clarify].
-- Naan makes a Religion check — DM confirms a large city ~9 miles east: **New Sarshel**. A church of her deity is likely there.
-- DM: the Embergull camp survivors could use an escort to the city.
-
-**Session cut (recording 89:20–92:33)**
-
-- The party prepares to walk east. No arrival scene, no city scene, no epilogue.
-- Session ends as the group sets out on the nine-mile road to New Sarshel with the camp survivors.
+**Aftermath.** The four prisoners were unchained and brought down. **Kto** *(by context — the church thread was hers all session)* made a Religion check for a church nearby: the DM gave a large city **about nine miles down the road**, and noted that the people sheltering at the ship are ordinary folk who could use an escort. **Veyra's body:** a **ledger** with *"the names of several in the nearby city of New Sarshel that were funding her to summon this demon here — but you don't see why,"* and about **15 coins** ("15 book pieces" on the tape; denomination for the DM). The table's verdict: *"I'd kill nobles for free."* Session cut there.
 
 ---
 
 ### Key Decisions & Consequences
 
-- **They walked to the light instead of away from it.** The camp offered a rest and a warning; the party chose to go up and deal with the compulsion at its source.
-- **Only Naan had the compulsion lifted before the fight.** The rest entered still under it — which did not prove fatal, but Yinu came close.
-- **They trusted Tamsin and took her offer.** She led them to the top and opened the door. She is the one who ultimately shut the light.
-- **Veyra was killed, not captured.** The party does not know her full purpose or her principals beyond the ledger; everything they have is what was looted.
-- **They are taking the evidence and the survivors to New Sarshel.** The ledger of funding nobles and the camp survivors both travel east — the party arrives at a new city with a live political hook and no contacts.
+- **Yinu tried to fly to the light** — and the light took her straight to the lantern room, chained beside the prisoners. She freed herself only because *Misty Step* needs no hands.
+- **Nalith broke Tamsin's compulsion instead of her own.** That turned the keeper from obstacle into guide: she brought them to the top and opened the door. The party stayed compelled until the light went out.
+- **Veyra was killed, not questioned.** Everything the party knows about her backers is in the ledger, and the ledger says *who* paid, not *why*.
+- **The party agreed to walk the survivors east.** They arrive in New Sarshel with a dead summoner's ledger, ordinary people to protect, and no contacts.
 
 ---
 
 ### NPC Interactions
 
-**Camp keeper (the Embergull)** — [Name unclear from transcript; possibly "Orin" or "Oren"; gender unclear — referred to as "she" at points; DM to confirm.] Keeps the fire and a logbook at the wreck. Calm, experienced, appeared to have functioned despite the compulsion. Warned the party plainly that the lighthouse kills people; confirmed the water retreated decades ago as a separate event; said Tamsin Reed is inside and still keeps the light. Did not stop the party. Will presumably join or shepherd the survivors toward New Sarshel.
+**Oren** *(camp keeper, the Embergull)* — Name as spoken at the table; the prep called this role Orin Vale. Kept the fire and a logbook, fed the party soup, warned them plainly, and knew Tamsin by name. Presumably among the survivors walking east.
 
-**Tamsin Reed** — Lighthouse keeper. [DM first says "Hanson Reed"; corrects to "Tamsin" in the aftermath — Tamsin is the canonical name.] Was herself under a magical compulsion to keep the light running and did not understand why. Told the party not to go up, then asked for their help instead. Led them to the lantern room, opened the door with her key, and shut the light at session's end. Survived; expressed genuine gratitude. Her knowledge of the ritual's backers is a potential resource in New Sarshel.
+**Tamsin Reed** *(lighthouse keeper)* — Kept the light under a compulsion she didn't understand. Freed by Nalith's *Dispel Magic*, she guided the party up, opened the lantern room, and shut the light off. Grateful; alive.
 
-**Veyra** — The summoner in the lantern room. Killed by Yinu's Lightning Bolt in round 2. Her death ended the ritual and dissolved the Brine Fiend. Carried a ledger naming New Sarshel nobles who funded the operation. No extended dialogue captured clearly in the recording.
+**Veyra** *(the summoner)* — Was feeding lured people to the Brine Fiend through a circle in the lantern room, funded by New Sarshel backers. Killed by Yinu's *Lightning Bolt* in round 2. The Fraternity of Tharos was **not named at the table.**
 
-**The four prisoners** — Chained to the lantern-room walls. Freed after the fight. Unnamed, no hometowns established, now travelling east with the party.
-
----
-
-### Combat & Encounters
-
-**The lantern room — the session's only fight.** Veyra (summoner) + Brine Fiend ("salt demon") against the party. Four chained prisoners in the room and a DM warning that Fireball would kill everyone.
-
-- **Cloud of Daggers** (Kto) did the heavy damage: 18 slashing to both Veyra and the Brine Fiend in one instance.
-- **Naan's Shadowspawn** added as a practical extra body.
-- **Veyra killed by Yinu's Lightning Bolt** — this ended the ritual, dissolved the Brine Fiend, no further action needed.
-- No PC deaths recorded. Yinu was at low HP (possibly ~6) during the fight and took heavy fire damage; DM continued without a downed-PC call — DM to reconcile.
+**The four prisoners** — Chained in the lantern room, freed after the fight. Unnamed.
 
 ---
 
 ### Loot & Rewards
 
-- **Veyra's ledger** — names several nobles in New Sarshel who funded the demon summoning. The party's primary plot object from this session.
-- **~15 coins** off Veyra's body [denomination unclear; DM to clarify].
-- No payment from Tamsin or the camp. Thanks only.
+- **Veyra's ledger** — names several New Sarshel backers who funded the summoning; the reason isn't in it.
+- **About 15 coins** off Veyra (denomination unconfirmed).
+- **Yinu's own gear** — staff and equipment were leaning against the lantern-room wall; recovery isn't on the tape.
 
 ---
 
 ### Loose Ends — Opened / Closed
 
-**Closed this session**
-- **Party's landing location (open since S6)** — resolved: dry bed of the Sea of Fallen Stars, western Impiltur, ~1 mile west of the Sarshel Light and ~9 miles west of New Sarshel.
-- **The Sarshel Light compulsion** — introduced and resolved within the session. Tamsin shuttered the light; the compulsion ended.
+**Closed**
+- **Where the portal dropped the party** (open since S6) — the dry bed of the Sea of Fallen Stars in Impiltur, about nine miles west of New Sarshel.
+- **The lighthouse compulsion** — ended when Tamsin shut the light.
 
-**Opened this session**
-- **The New Sarshel funding ledger** — names nobles in the city who paid the summoner. The party is nine miles away carrying it, with no plan and no contacts.
-- **New Sarshel itself** — a large city, never visited. The party arrives with survivors, a body, and a ledger.
-- **The four freed prisoners** — alive, travelling with the party. No identities established.
-- **Camp keeper's identity and status** — name and gender unclear from the recording; she was a practical presence at the camp and likely travels east with the survivors.
-- **Tamsin Reed's situation** — freed from compulsion, keeper of a now-shuttered lighthouse, in Impiltur. A potential ally in New Sarshel.
+**Opened**
+- **Veyra's ledger** — who in New Sarshel paid for a demon, and why.
+- **New Sarshel** — large city nine miles east; the party arrives with survivors to escort.
+- **A church for Kto** — Kto has missed mass and wants a church; the Religion check pointed her at the city.
+- **The four freed prisoners** and **the *Embergull* survivors** — walking east with the party.
+- **Tamsin Reed** — free, grateful, and the best witness to what was done to her light.
 
-**Still open from earlier, untouched this session**
-- **Sela Wyndmere's fate** (S6) — referenced in the opening recap only. Unresolved.
-- **Oberon scattered, not dead** (S6) — not mentioned after the recap.
-- **Shadowdale and the unsuppressed Vhaeraunian drow** (S6) — the party is now in Impiltur, a long way from home. Nobody has warned Shadowdale.
-- **Tyvlex (Kaila)** (S6) — off-camera and safe. Not mentioned in play.
-- **Fox/Fiorn** — present at the start of the session, then sat out (DM is starting a separate game for Fox and his friends). Where Fiorn is while the party is in Impiltur is not established in-fiction.
+**Still open from earlier** — Sela's fate; Oberon scattered, not dead; the broken drow suppression under Old Skull with Shadowdale unwarned; Naan's Lathander letter; Yinu's cipher book; Tyvlex's introduction.
 
 ---
 
 ### Table Notes
 
-- **Date played:** not stated anywhere in the recording.
-- **Fox's attendance:** Fox was present at the start — in the roll call and playing Fiorn through the opening scene/vision. The DM says on tape that he is starting a **separate game for Fox and his friends** and that *"Foxy could sit out, but the Junipers are here."* After approximately the 13-minute mark, nothing identifiable as Fox or Fiorn appears in the remaining ~79 minutes. There is no explicit goodbye captured. **Fox was present at the start; sat out for the session; exact departure point unclear.**
-- **Juniper did not attend.** The DM's comment about "the Junipers" refers to a group of prospective new players, not a single player named Juniper. No new player appeared in this session.
-- **Camp NPC name:** unclear from the recording — sounds like "Orin" or "Oren." DM to confirm. This is not Orin Vale from the prep; the prep NPC by that name is not confirmed as appearing under that name at the table.
-- **Loot denomination:** "15 book pieces" in the transcript likely means 15 gold pieces or 150 gp. DM to clarify.
-- **Yinu's HP after Scorching Ray:** transcript shows Yinu at ~6 HP before taking 31 fire damage. DM continued without a downed-PC moment — possible that the 26-damage figure from the Brine Fiend was not fully applied, or Yinu has more HP than recorded. DM to reconcile.
-- **"Sambian" language (Veyra):** DM invention; not a standard FR language. Flag for canonization or in-world explanation.
-- **Transcription method:** `scripts/transcribe.sh` could not run (no pyenv/whisper-env/HF token). Transcript was produced with **faster-whisper 1.2.1 (CPU, int8)** in chunks. No speaker diarization. Proper nouns are approximate — check against prep files and DM memory for corrections.
+- **Fox.** The DM says on tape he is starting a separate game for Fox and his friends, and had told Fox he could sit out if Juniper came — *"but Juniper's not here."* So Fox played Fiorn from the roll call (Fiorn's vision is his) and **left partway through**; Fiorn has no turn in the lantern-room initiative. The exact moment isn't marked on the recording, and nothing in the fiction explains Fiorn's absence — a DM decision before he's written back in.
+- **Juniper did not attend.** She is mentioned only in that remark.
+- **Turn order (lantern room):** Kto → Veyra → Brine Fiend → Nalith → Yinu → Naan (the DM: "the Piper–Sev–Lily sequence"; "Lily, you're last").
+- **Unclear on tape:** who rolled the Arcana 21; who took the *Scorching Ray* and who was bitten to 6 HP; Nalith's round-2 action; the coin denomination.
+- **Spelling:** the DM says "New Sharshel"; the canonical name is **New Sarshel** (*FR Campaign Guide* p. 145).
+- **Transcription:** faster-whisper, no usable diarization — see the header of `Session7.m4a.md`.
