@@ -55,7 +55,7 @@ No PC dropped.
 
 **The light goes out.** Tamsin walked to the lamp and turned her key. The light went out and the compulsion ended: the thing each PC was chasing was never there. *"You feel a bit foolish, but you're glad it didn't drag you into something that killed you."* Naan was furious about it. Tamsin: *"Thank you so much. And thank you for breaking my compulsion, even when yours was still on."*
 
-**Aftermath.** The four prisoners were unchained and brought down. **Kto** *(by context — the church thread was hers all session)* made a Religion check for a church nearby: the DM gave a large city **about nine miles down the road**, and noted that the people sheltering at the ship are ordinary folk who could use an escort. **Veyra's body:** a **ledger** with *"the names of several in the nearby city of New Sarshel that were funding her to summon this demon here — but you don't see why,"* and about **15 coins** ("15 book pieces" on the tape; denomination for the DM). The table's verdict: *"I'd kill nobles for free."* Session cut there.
+**Aftermath.** The four prisoners were unchained and brought down. A PC — most likely **Naan** (on the tape: *"Lily looks so angry. She's missing mass"*; DM to confirm) — made a Religion check for a church nearby: the DM gave a large city **about nine miles down the road**, and noted that the people sheltering at the ship are ordinary folk who could use an escort. **Veyra's body:** a **ledger** with *"the names of several in the nearby city of New Sarshel that were funding her to summon this demon here — but you don't see why,"* and about **15 coins** ("15 book pieces" on the tape; denomination for the DM). The table's verdict: *"I'd kill nobles for free."* Session cut there.
 
 ---
 
@@ -97,7 +97,7 @@ No PC dropped.
 **Opened**
 - **Veyra's ledger** — who in New Sarshel paid for a demon, and why.
 - **New Sarshel** — large city nine miles east; the party arrives with survivors to escort.
-- **A church for Kto** — Kto has missed mass and wants a church; the Religion check pointed her at the city.
+- **A church** — one PC (most likely Naan; confirm) has been missing mass and wants a church; the Religion check pointed to the city.
 - **The four freed prisoners** and **the *Embergull* survivors** — walking east with the party.
 - **Tamsin Reed** — free, grateful, and the best witness to what was done to her light.
 
@@ -110,6 +110,6 @@ No PC dropped.
 - **Fox.** The DM says on tape he is starting a separate game for Fox and his friends, and had told Fox he could sit out if Juniper came — *"but Juniper's not here."* So Fox played Fiorn from the roll call (Fiorn's vision is his) and **left partway through**; Fiorn has no turn in the lantern-room initiative. The exact moment isn't marked on the recording, and nothing in the fiction explains Fiorn's absence — a DM decision before he's written back in.
 - **Juniper did not attend.** She is mentioned only in that remark.
 - **Turn order (lantern room):** Kto → Veyra → Brine Fiend → Nalith → Yinu → Naan (the DM: "the Piper–Sev–Lily sequence"; "Lily, you're last").
-- **Unclear on tape:** who rolled the Arcana 21; who took the *Scorching Ray* and who was bitten to 6 HP; Nalith's round-2 action; the coin denomination.
+- **Unclear on tape:** whose church/mass thread it is (most likely Naan — the tape says *"Lily looks so angry. She's missing mass"* — though Kto's vision was her god's recognition); who rolled the Arcana 21; who took the *Scorching Ray* and who was bitten to 6 HP; Nalith's round-2 action; the coin denomination.
 - **Spelling:** the DM says "New Sharshel"; the canonical name is **New Sarshel** (*FR Campaign Guide* p. 145).
 - **Transcription:** faster-whisper, no usable diarization — see the header of `Session7.m4a.md`.

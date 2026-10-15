@@ -38,7 +38,7 @@ The party arrived in **Shadowdale** as freelance hands and, over four sessions, 
 - **Tamsin:** Nalith's *Dispel Magic* freed the keeper at the door; she led them up and unlocked the lantern room.
 - **The fight:** Kto's longbow, Naan's *Cloud of Daggers* and Yinu's Shadowspawn; **Yinu's *Lightning Bolt* killed Veyra** in round 2 and the Brine Fiend collapsed into salt water. No PC dropped.
 - **Aftermath:** Tamsin shut the light off; compulsion ended. Four prisoners freed. Loot: Veyra's **ledger** (New Sarshel backers who funded the summoning — reason unknown) and ~15 coins.
-- **Session ended:** setting out to escort the survivors nine miles east to **New Sarshel**. Kto wants a church there.
+- **Session ended:** setting out to escort the survivors nine miles east to **New Sarshel**. One PC (most likely Naan) wants a church there.
 
 > [!NOTE]
 > **Note:** Trackers current through Session 007
@@ -83,8 +83,8 @@ The party arrived in **Shadowdale** as freelance hands and, over four sessions, 
 | ~~Lighthouse compulsion (the Brine Fiend lure)~~ | Session 007 | **Resolved** | Veyra killed (Yinu's *Lightning Bolt*, round 2); the Brine Fiend collapsed into salt water; Tamsin Reed shut the light off and the compulsion ended |
 | **Fiorn (Fox) — left partway through S7** | Session 007 | **Open — table logistics** | Fox played from the roll call and left partway through; Fiorn has no turn in the lantern-room fight. The DM is starting a separate game for Fox and his friends. Nothing in the fiction explains Fiorn's absence — decide before he is written back in |
 | **Veyra's ledger** | Session 007 | **Open — immediate hook** | Seized from Veyra's body. Lists names of New Sarshel nobles who funded the Brine Fiend summoning. Purpose of the ritual not yet established. Party is headed to New Sarshel — direct collision with these patrons is likely |
-| **New Sarshel — new city** | Session 007 | **Open — immediate** | ~9 miles from the lighthouse. Large city; Kto wants a church there. Party escorting Embergull survivors there. First contact with the city's power structure, Veyra's noble patrons, and Tamsin Reed's local knowledge all pending |
+| **New Sarshel — new city** | Session 007 | **Open — immediate** | ~9 miles from the lighthouse. Large city; one PC (most likely Naan) wants a church there. Party escorting Embergull survivors there. First contact with the city's power structure, Veyra's noble patrons, and Tamsin Reed's local knowledge all pending |
 | **Tamsin Reed — freed lighthouse keeper** | Session 007 | **Open** | Was herself magically compelled to keep the light running. Now free. Her knowledge of the ritual's backers, the salt marsh, and the ocean-retreat mystery is a potential resource. Relationship with the party is warm |
 | **Oren (Embergull camp keeper)** | Session 007 | **Open** | Kept the *Embergull* camp alive and warned the party; walking east with the survivors. Prep called this role Orin Vale |
 | **Yinu's gear in the lantern room** | Session 007 | **Open — minor** | Her staff and equipment were leaning against the lantern-room wall when she woke chained; recovery not on the recording — confirm with Sev |
-| **A church for Kto** | Session 007 | **Open** | Kto has missed mass and wants a church; her Religion check pointed her at the city nine miles east |
+| **A church (most likely Naan's)** | Session 007 | **Open** | One PC has been missing mass and wants a church — on the tape most likely Naan (*"Lily looks so angry. She's missing mass"*); confirm. The Religion check pointed to the city nine miles east |

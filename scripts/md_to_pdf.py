@@ -168,8 +168,15 @@ def _flow_height(flow, avail_w: float, avail_h: float) -> float:
 # at table-rendering time. For inline paragraphs we substitute "[ ]".
 CHECKBOX_GLYPH = "\u2610"
 
+# The homebrew marker (U+2697 ALEMBIC, usually followed by the emoji variation
+# selector U+FE0F) has no glyph in the built-in Times/Helvetica fonts and prints
+# as black boxes. Print it as a superscript dagger, which Times does carry.
+HOMEBREW_MARK = "\u2697"
+HOMEBREW_PDF = "<super>\u2020</super>"
+
 def _esc(s: str) -> str:
-    return (s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;"))
+    s = (s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;"))
+    return s.replace(HOMEBREW_MARK + "\ufe0f", HOMEBREW_PDF).replace(HOMEBREW_MARK, HOMEBREW_PDF).replace("\ufe0f", "")
 
 def _inline_to_html(children: list) -> str:
     out = []
@@ -213,11 +220,13 @@ def _box_cell(label: str = "", size: float = 9) -> Table:
     ]))
     return t
 
-def _checkbox_row(n: int, size: float = 9, gap: float = 1) -> Table:
-    """A horizontal row of n empty bordered cells."""
-    cells = [[""] * n]
-    widths = [size] * n
-    t = Table(cells, colWidths=widths, rowHeights=[size])
+def _checkbox_row(n: int, size: float = 9, gap: float = 1, per_row: int = 0) -> Table:
+    """n empty bordered cells, wrapped onto rows of `per_row` (0 = one row)."""
+    per_row = per_row if 0 < per_row < n else n
+    rows = -(-n // per_row)
+    cells = [[""] * per_row for _ in range(rows)]
+    widths = [size] * per_row
+    t = Table(cells, colWidths=widths, rowHeights=[size] * rows)
     style = [
         ("ALIGN", (0, 0), (-1, -1), "CENTER"),
         ("VALIGN", (0, 0), (-1, -1), "MIDDLE"),
@@ -227,7 +236,8 @@ def _checkbox_row(n: int, size: float = 9, gap: float = 1) -> Table:
         ("BOTTOMPADDING", (0, 0), (-1, -1), 0),
     ]
     for i in range(n):
-        style.append(("BOX", (i, 0), (i, 0), 0.5, INK))
+        col, row = i % per_row, i // per_row
+        style.append(("BOX", (col, row), (col, row), 0.5, INK))
     t.setStyle(TableStyle(style))
     return t
 
@@ -243,7 +253,7 @@ def _hp_cell(text: str) -> list:
     parts: list = []
     if label:
         parts.append(Paragraph(f"<b>{_esc(label)}</b>", CARD_BODY))
-    parts.append(_checkbox_row(n, size=8, gap=0.5))
+    parts.append(_checkbox_row(n, size=8, gap=0.5, per_row=10))
     return parts
 
 # --- table rendering -------------------------------------------------------
