@@ -157,7 +157,7 @@ After generation, review the complete adventure as an editor, separately from fo
 - **Cross-file consistency:** synchronize adventure, combat tracker, handouts, quick-reference, and overview. Keep secrets out of player handouts and make outcomes conditional on actual survivors, possessions, and choices. Check map dimensions against written layouts.
 - **Table usability:** trim repeated instructions, ensure pacing fits the session, and remove redundant or false choices. Carry essential clues without mandatory single-roll bottlenecks.
 
-Record significant findings and their resolutions in `editorial-review.md` in the session folder, including sources checked and any unresolved DM decisions. Do not approve PDF assembly with unresolved plot/continuity blockers. Re-run this review after substantive revisions, and rebuild an already-requested PDF only from the reviewed Markdown. Cosmetic build checks remain a separate final gate.
+Record significant findings and their resolutions in `<slug>-editorial-review.md` in the session folder (slug-prefixed: the GitHub Wiki's flat namespace rejects duplicate basenames across sessions), including sources checked and any unresolved DM decisions. Do not approve PDF assembly with unresolved plot/continuity blockers. Re-run this review after substantive revisions, and rebuild an already-requested PDF only from the reviewed Markdown. Cosmetic build checks remain a separate final gate.
 
 ### 6. Update the Campaign Guide
 

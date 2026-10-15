@@ -18,7 +18,7 @@
 - [DM Quick Reference](the-lighthouse-on-dry-land-4-dm-quick-ref.md) — at-the-table cheat sheet (Act/Scene flow, the snare strip, the pace and rest rules, the ritual clock, the lens endings, DM don'ts)
 - **[Printable PDF](the-lighthouse-on-dry-land.pdf)** — **48 pages**, revised after editorial review; all four print deliverables and eight unique images
 
-- [Editorial review](editorial-review.md) — continuity findings, resolutions, verification, and remaining DM choices
+- [Editorial review](the-lighthouse-on-dry-land-editorial-review.md) — continuity findings, resolutions, verification, and remaining DM choices
 
 ## Images
 

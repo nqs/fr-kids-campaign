@@ -16,7 +16,7 @@
 - [Player Handouts](the-tide-festival-3-player-handouts.md) — "Where We Left Off" recap, scene art, portraits, the festival schedule, Veyra's ledger page
 - [DM Quick Reference](the-tide-festival-4-dm-quick-ref.md) — Act/Scene flow, carry-forward conditions, encounter cheat sheets, NPC cues, rewards
 - **[Printable PDF](the-tide-festival.pdf)** — **37 pages**, built after the editorial review: all four print files, nine unique images (ten placements), zero blank pages
-- [Editorial review](editorial-review.md) — continuity findings, fixes, checks, and open DM decisions
+- [Editorial review](the-tide-festival-editorial-review.md) — continuity findings, fixes, checks, and open DM decisions
 
 ## Images
 
