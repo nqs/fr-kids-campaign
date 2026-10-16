@@ -322,6 +322,7 @@ def _render_table(node: dict) -> Table:
             if i % 2 == 0:
                 style.append(("BACKGROUND", (0, i), (-1, i), ROW_ALT))
     t.setStyle(TableStyle(style))
+    t._is_init = is_init
     return t
 
 
@@ -588,7 +589,24 @@ class BlockRenderer:
 
     def _h_table(self, node: dict) -> None:
         self._after_stat_label = False
-        self.out.append(_render_table(node))
+        table = _render_table(node)
+        if getattr(table, "_is_init", False):
+            # An initiative table is used at the table as one sheet: bind it to
+            # its heading (e.g. "Round Strip & Initiative") and the short intro
+            # lines between them, so the heading can't strand at a page bottom
+            # and the table can't split. Headings only keepWithNext the single
+            # flowable after them, which is the round strip, not the table.
+            end = len(self.out)
+            start = end
+            for i in range(end - 1, max(-1, end - 6), -1):
+                if self._is_heading_flow(self.out[i]):
+                    start = i
+                    break
+            bound = list(self.out[start:]) + [table]
+            del self.out[start:]
+            self.out.append(KeepTogether(bound))
+        else:
+            self.out.append(table)
         self.out.append(Spacer(1, 6))
 
     def _h_block_code(self, node: dict) -> None:

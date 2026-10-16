@@ -40,7 +40,7 @@
   },
   {
     "description": "The Brack Brothers",
-    "prompt": "Original bright, cheerful painterly fantasy storybook illustration, warm sunny colors, whimsical and friendly, family-friendly. Portrait orientation. The subject is large and central and fills the composition, the entire head fully visible inside the frame. A comic trio of three scruffy, bumbling human brothers, all men, posed together and all three heads fully visible: on the left a skinny, sly brother with a tall crooked top hat and a sash full of copper coins holding a stick; in the middle a short, worried brother holding a dented tin bucket; on the right an enormous gentle-giant brother with a tiny cap who cradles a big red crab wearing a tiny hat like a beloved pet. Patched, mismatched clothes. Background: a white salt flat road with a rickety wooden toll hut and a striped gate pole. Absolutely no text anywhere: no words, no letters, no numbers, no writing on banners or signs, no labels, no title, no caption, no signature, no watermark. The artwork extends to every edge of the frame.",
+    "prompt": "Original richly painted fantasy adventure illustration, warm late-morning light, bold confident colors, exciting but family-friendly. Portrait orientation. The subject is large and central and fills the composition, all three heads fully visible inside the frame. Three hard-bitten human brothers, all adult men, salt-road wreckers posed shoulder to shoulder with confident, dangerous smirks: on the left a lean, sharp-featured brother with a thin black moustache in a long weathered grey coat, a coiled weighted fishing net over one shoulder and a heavy cudgel in his hand; in the middle a wiry, squinting brother with a leather bandolier of lead shot across his chest, twirling a loaded sling; on the right a huge, broad-shouldered bald brawler with cloth-wrapped scarred knuckles, and crouched at his feet a big red giant crab wearing a battered rope harness like a working beast. Salt-stained leather, practical gear, no armor shine. Background: a white cracked salt flat, a weathered wooden salt-collector's hut and a red-and-white striped gate pole across a pale road. Absolutely no text anywhere: no words, no letters, no numbers, no writing on banners or signs, no labels, no title, no caption, no signature, no watermark. The artwork extends to every edge of the frame.",
     "url": "images/brack-brothers.jpg",
     "file": "brack-brothers.jpg",
     "requested_aspect_ratio": "3:4",
@@ -49,11 +49,12 @@
     "provider": "openai-codex",
     "model": "gpt-image-2-medium",
     "portrait_name": "The Brack Brothers",
-    "aspect_ratio": "2:3"
+    "aspect_ratio": "2:3",
+    "revision": "r2 tone revision"
   },
   {
     "description": "Lord Percival Gullwhistle",
-    "prompt": "Original bright, cheerful painterly fantasy storybook illustration, warm sunny colors, whimsical and friendly, family-friendly. Portrait orientation. The subject is large and central and fills the composition, the entire head fully visible inside the frame. A plump, middle-aged human nobleman, clearly male, with rosy cheeks, a nervous toothy grin, a sweaty brow and a curled ginger moustache. He wears an extravagant teal-and-gold frock coat with a ruff of white gull feathers, a huge feathered tricorn hat topped with a small golden seagull ornament, a golden seagull pin on his lapel and a monocle, and he clutches a rolled parchment scroll to his chest. Background: a sunny festival harbor with plain unlettered bunting. Absolutely no text anywhere: no words, no letters, no numbers, no writing on banners or signs, no labels, no title, no caption, no signature, no watermark. The artwork extends to every edge of the frame.",
+    "prompt": "Original richly painted fantasy adventure illustration, warm lantern light against a cool twilight sky, family-friendly. Portrait orientation. The subject is large and central and fills the composition, the entire head and hat fully visible inside the frame. An elegant middle-aged human nobleman, clearly male, slim and upright, with a neatly trimmed ginger beard streaked with silver and a gracious, charming smile that does not reach his cold, watchful grey eyes. He wears a finely tailored teal-and-gold frock coat with a white lace cravat, a golden seagull pin on his lapel, and a dark tricorn hat with a single long white gull feather; a slim rapier hangs at his hip, and one gloved hand rests on a rolled parchment scroll sealed with dark red wax. Background: a stone balcony above a festival harbor at dusk, paper lanterns and plain unlettered bunting glowing warmly in front of him, long shadows behind. Absolutely no text anywhere: no words, no letters, no numbers, no writing on banners or signs, no labels, no title, no caption, no signature, no watermark. The artwork extends to every edge of the frame.",
     "url": "images/lord-gullwhistle.jpg",
     "file": "lord-gullwhistle.jpg",
     "requested_aspect_ratio": "3:4",
@@ -62,7 +63,8 @@
     "provider": "openai-codex",
     "model": "gpt-image-2-medium",
     "portrait_name": "Lord Percival Gullwhistle",
-    "aspect_ratio": "2:3"
+    "aspect_ratio": "2:3",
+    "revision": "r2 tone revision"
   },
   {
     "description": "Tibbet Sparkwright, fireworks gnome",
@@ -78,8 +80,8 @@
     "aspect_ratio": "2:3"
   },
   {
-    "description": "The Grand Sea-Serpent Float runs wild",
-    "prompt": "Original bright, cheerful painterly fantasy storybook illustration, warm sunny colors, whimsical and friendly, family-friendly. A giant clockwork sea-serpent parade float made of painted wood, canvas and brass gears, with teal-and-gold scales and a goofy grinning face, has come alive and is careening comically down a festival street at sunset on squeaky wheels, spraying clouds of confetti from its mouth. Laughing, startled townsfolk duck and dive aside, wooden pickle barrels roll across the cobbles, two little brass clockwork seagulls flap around its head, and a plump nobleman in a feathered tricorn hat clings to its back with a terrified face. Nobody is hurt. Absolutely no text anywhere: no words, no letters, no numbers, no writing on banners or signs, no labels, no title, no caption, no signature, no watermark. The artwork extends to every edge of the frame.",
+    "description": "The Grand Sea-Serpent Float wakes",
+    "prompt": "Original richly painted fantasy adventure illustration, dramatic sunset and lantern light, exciting and tense but family-friendly, no blood and nobody shown hurt. A house-sized clockwork sea-serpent parade float of painted wood, canvas and brass gears with teal-and-gold scales has come alive and is rolling down a lantern-lit festival street: its painted grin has split open to show rows of brass teeth, its glass eyes glow sea-green, and hissing jets of white steam pour from its jaws. Townsfolk run for cover, a wooden grandstand cracks, pickle barrels roll across the cobbles, and two brass clockwork seagulls dive out of the orange sky. On the grandstand behind it an elegant nobleman in a teal-and-gold coat and a feathered tricorn hat holds up a glowing scroll, calm and smiling. Absolutely no text anywhere: no words, no letters, no numbers, no writing on banners or signs, no labels, no title, no caption, no signature, no watermark. The artwork extends to every edge of the frame.",
     "url": "images/serpent-float.jpg",
     "file": "serpent-float.jpg",
     "requested_aspect_ratio": "16:9",
@@ -87,10 +89,11 @@
     "height": 1024,
     "provider": "openai-codex",
     "model": "gpt-image-2-medium",
-    "aspect_ratio": "3:2"
+    "aspect_ratio": "3:2",
+    "revision": "r2 tone revision"
   },
   {
-    "description": "Encounter 1 tactical map \u2014 the Brack Brothers' toll booth",
+    "description": "Encounter 1 tactical map \u2014 the Brack Brothers' roadblock",
     "prompt": "Top-down orthographic tabletop battle map, bright cheerful painted fantasy style, seen from directly above. A pale dirt road 15 feet wide runs straight from the left edge to the right edge across the middle of a white cracked salt flat. In the center, just above the road, a small rickety wooden toll booth hut with a slanted roof; a red-and-white striped wooden gate pole lies across the road beside it. Upper right: a cluster of wooden salt barrels. Lower left: an upside-down wooden rowboat. Lower right: a broken ship's mast standing upright with a rope swing hanging from it, and a large wooden washtub beside it. Below the road in the middle: a patch of darker wet salt mud. The whole map is overlaid with a clear, evenly spaced square grid of exactly 12 columns by 12 rows, thin dark grid lines covering the entire image edge to edge, every square equal. No text, no numbers, no letters, no labels, no legend, no compass rose, no border, no signature, no watermark.",
     "url": "images/toll-booth-map.jpg",
     "file": "toll-booth-map.jpg",

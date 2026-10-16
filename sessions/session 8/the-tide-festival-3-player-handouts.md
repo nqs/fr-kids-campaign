@@ -53,8 +53,8 @@ In the lantern room, a woman named **Veyra** was calling up a **Brine Fiend** to
 
 ![The Grand Sea-Serpent Float](images/serpent-float.jpg)
 
-- A house-sized clockwork sea serpent of painted wood and brass gears, teal and gold, with a goofy grin — and it's moving.
-- Confetti everywhere. Squeaky wheels. Somebody shouting "RISE, O SEA!"
+- A house-sized clockwork sea serpent of painted wood and brass gears, teal and gold — and its painted grin has split open into rows of brass teeth.
+- Steam hissing from its jaws. Glass eyes glowing sea-green. The band stops mid-note, and the crowd starts to run.
 
 ---
 
