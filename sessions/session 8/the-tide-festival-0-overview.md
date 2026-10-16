@@ -1,4 +1,4 @@
-# The Tide Festival
+# Session 008 — The Tide Festival
 
 *Tier 2 · Level 6 · New Sarshel, Impiltur — the salt road, the Landward Gate, and the city's Tide Festival*
 
@@ -39,4 +39,4 @@
 
 ---
 
-[← Session Index](../../campaign/session-log.md) · [Home](../../Home.md)
+[← Session Index](../../campaign/session-log.md) · [Home](../../README.md)

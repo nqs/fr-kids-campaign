@@ -13,4 +13,4 @@ The party arrived in Shadowdale as freelance hands and took on Torval Dunmore's 
 
 ---
 
-[← Session Index](../../campaign/session-log.md) · [Home](../../Home.md)
+[← Session Index](../../campaign/session-log.md) · [Home](../../README.md)

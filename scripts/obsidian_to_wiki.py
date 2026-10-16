@@ -26,7 +26,7 @@ NAME_MAP = {
     "session-log": "campaign/session-log.md",
     "agents": "AGENTS.md",
     "dnd-adventure-generator": "dnd-adventure-generator.md",
-    "home": "Home.md",
+    "home": "README.md",
 }
 
 # Obsidian callout type -> (GitHub alert, friendly label)

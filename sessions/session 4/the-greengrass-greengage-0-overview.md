@@ -41,4 +41,4 @@ Home for the **Greengrass Festival**, the party debriefed Brynn first at Orvyn T
 
 ---
 
-[← Session Index](../../campaign/session-log.md) · [Home](../../Home.md)
+[← Session Index](../../campaign/session-log.md) · [Home](../../README.md)

@@ -47,4 +47,4 @@ The party crossed the granite shoulder to **Site C**, the last open Vhaeraunian 
 
 ---
 
-[← Session Index](../../campaign/session-log.md) · [Home](../../Home.md)
+[← Session Index](../../campaign/session-log.md) · [Home](../../README.md)

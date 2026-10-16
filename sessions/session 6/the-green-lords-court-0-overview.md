@@ -34,4 +34,4 @@ Session 006 delivered the audience in the two acts as planned — with the table
 
 ---
 
-[← Session Index](../../campaign/session-log.md) · [Home](../../Home.md)
+[← Session Index](../../campaign/session-log.md) · [Home](../../README.md)

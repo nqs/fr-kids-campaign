@@ -14,9 +14,8 @@ shelf -> book -> chapter -> page hierarchy:
         Chapter per session      <- sessions/session <N>/*.md
       Book "DM Operating Docs"   <- AGENTS.md, dnd-adventure-generator.md
 
-Same content set as scripts/build_wiki.py, minus the GitHub-wiki-only nav
-pages (Home.md, _Sidebar.md) — BookStack's shelf/book navigation replaces
-them. Raw machine transcripts (*.m4a.md), binaries, and references/ stay in
+Content set: campaign/, sessions/, AGENTS.md and dnd-adventure-generator.md;
+BookStack's shelf/book navigation serves as the index. Raw machine transcripts (*.m4a.md), binaries, and references/ stay in
 the main repo and are linked back to GitHub.
 
 Transforms applied while rendering a page:

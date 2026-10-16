@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 """Push changed repo Markdown files to their live Notion pages.
 
-The repo is the single source of truth; this script is the inverse of
-build_wiki.py — instead of staging a wiki tree, it talks to the Notion REST
+The repo is the single source of truth; this script talks to the Notion REST
 API directly and replaces a target page's content with a hand-converted
 rendering of the source Markdown. Internal links that target another mapped
 page become Notion page mentions (matching how the workspace was migrated by

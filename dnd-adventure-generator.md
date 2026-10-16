@@ -157,7 +157,7 @@ After generation, review the complete adventure as an editor, separately from fo
 - **Cross-file consistency:** synchronize adventure, combat tracker, handouts, quick-reference, and overview. Keep secrets out of player handouts and make outcomes conditional on actual survivors, possessions, and choices. Check map dimensions against written layouts.
 - **Table usability:** trim repeated instructions, ensure pacing fits the session, and remove redundant or false choices. Carry essential clues without mandatory single-roll bottlenecks.
 
-Record significant findings and their resolutions in `<slug>-editorial-review.md` in the session folder (slug-prefixed: the GitHub Wiki's flat namespace rejects duplicate basenames across sessions), including sources checked and any unresolved DM decisions. Do not approve PDF assembly with unresolved plot/continuity blockers. Re-run this review after substantive revisions, and rebuild an already-requested PDF only from the reviewed Markdown. Cosmetic build checks remain a separate final gate.
+Record significant findings and their resolutions in `<slug>-editorial-review.md` in the session folder (slug-prefixed like every other session file), including sources checked and any unresolved DM decisions. Do not approve PDF assembly with unresolved plot/continuity blockers. Re-run this review after substantive revisions, and rebuild an already-requested PDF only from the reviewed Markdown. Cosmetic build checks remain a separate final gate.
 
 ### 6. Update the Campaign Guide
 
@@ -184,7 +184,7 @@ After the guide is updated, present a summary of the diff and stop. Step 7 is op
 
 Only run this step when the user explicitly asks for PDFs. The four markdown files from Step 5 are the source of truth; the PDF is rendered **from** them. Never write narrative content into the PDF build that doesn't exist in the markdown — if something needs to change, change the markdown and rebuild.
 
-For on-screen reading, the Markdown renders directly on GitHub (repo or wiki) and in any Markdown previewer — no plugin or build step required. For a print-ready PDF, use the scripted path:
+For on-screen reading, the Markdown renders directly on GitHub, on the BookStack wiki at wiki.nqs.io (synced on push), and in any Markdown previewer — no plugin or build step required. For a print-ready PDF, use the scripted path:
 
 - **ReportLab build (markdown → PDF renderer)** — for adventures that need rendered checkbox cells, parchment stat-card backgrounds, or a single combined PDF, run the reusable build script at `scripts/build_pdf.py`. It parses the four markdown files in order (`<slug>-1-adventure.md` → `<slug>-2-combat-tracker.md` → `<slug>-3-player-handouts.md` → `<slug>-4-dm-quick-ref.md`) and emits a single PDF. The script contains no duplicated narrative — narrative lives only in the markdown.
 
@@ -406,9 +406,9 @@ Adapt the section list to the adventure's actual content — don't include secti
 
 ## Session Landing Page
 
-Every session gets a **landing page** — `<slug>-0-overview.md` in the session folder — that serves as the session's front door in the wiki. The wiki **Sessions** index (in `Home.md`, `README.md`, and `_Sidebar.md`) links to this page, not to the raw adventure file; from here a reader gets the gist in a few sentences and then jumps to the adventure, the other deliverables, the images, and the rest of the session's assets. It is short by design: a summary plus a link directory, never a second copy of the adventure.
+Every session gets a **landing page** — `<slug>-0-overview.md` in the session folder — that serves as the session's front door in the wiki. The **Sessions** index in `README.md` links to this page (BookStack lists it first in the session's chapter), not to the raw adventure file; from here a reader gets the gist in a few sentences and then jumps to the adventure, the other deliverables, the images, and the rest of the session's assets. It is short by design: a summary plus a link directory, never a second copy of the adventure.
 
-The `-0-` prefix sorts it ahead of the four numbered deliverables and keeps its basename unique, which matters because `scripts/build_wiki.py` flattens every page to its basename. No build-script change is needed — the wiki sync already publishes any new `.md` under `sessions/`.
+The `-0-` prefix sorts it ahead of the four numbered deliverables. No sync-script change is needed — `scripts/sync_bookstack.py` already publishes any new `.md` under `sessions/` and names the session's BookStack chapter from this page.
 
 ### Form
 
@@ -424,11 +424,11 @@ The `-0-` prefix sorts it ahead of the four numbered deliverables and keeps its 
   - **Session Log** → `session N - log.md` (only once the session is played and the log exists)
   - **Printable PDF** → `<slug>.pdf` (only once a PDF has been built)
 - **`## Images`** — link every image in `images/images.json`: link text is the entry's `description`, link target is `images/<file>`. Group **Tactical maps** (descriptions beginning `Tactical Map`) separately from **Portraits & scenes** under bold sub-labels. Omit the section entirely if the session has no images. (Link the image files, not `images.json` itself.)
-- **`## Other Assets`** — link any remaining session assets that are not deliverables or images: the audio recording (`.m4a`), a `.txt` transcript, etc. Omit if there are none. (Do not link `*.m4a.md` machine transcripts or `images.json` — the wiki build does not publish them, so those links would dead-end.)
-- **Footer** — a `---` rule, then a back-link line: `[← Session Index](../../campaign/session-log.md) · [Home](../../Home.md)`.
+- **`## Other Assets`** — link any remaining session assets that are not deliverables or images: the audio recording (`.m4a`), a `.txt` transcript, etc. Omit if there are none. (Do not link `*.m4a.md` machine transcripts or `images.json` — the BookStack sync does not publish them as pages.)
+- **Footer** — a `---` rule, then a back-link line: `[← Session Index](../../campaign/session-log.md) · [Home](../../README.md)`.
 
-### Linking & wiki rules
+### Linking & BookStack rules
 
-- Use **relative links** so they resolve both in the repo file browser and after `build_wiki.py` rewrites them for the wiki. Same-folder deliverables are linked by bare filename (`<slug>-1-adventure.md`); the session log's spaces are URL-encoded (`session%203%20-%20log.md`); images are `images/<file>.jpg`; the footer reaches the campaign guide with `../../`.
-- Only link targets the wiki build can resolve: emitted `.md` pages (everything under `sessions/` except `*.m4a.md`), the external asset types it rewrites to repo blob URLs (`.pdf`, `.m4a`, `.txt`, `.jpg`/`.jpeg`/`.png`), and `campaign/*` pages. Avoid linking `images.json` (`.json` is neither) or `*.m4a.md` (not published).
+- Use **relative links** so they resolve both in the repo file browser and after `sync_bookstack.py` rewrites them to BookStack page URLs. Same-folder deliverables are linked by bare filename (`<slug>-1-adventure.md`); the session log's spaces are URL-encoded (`session%203%20-%20log.md`); images are `images/<file>.jpg`; the footer reaches the campaign guide with `../../`.
+- Link synced `.md` pages (everything under `sessions/` except `*.m4a.md`, plus `campaign/*`) and session assets (`.pdf`, `.m4a`, `.txt`, `.jpg`/`.jpeg`/`.png`), which the BookStack sync points back at the repo. Avoid linking `images.json` or `*.m4a.md` (not published as pages).
 - The page is **authored in Step 5** with the planned-beats summary and the asset links, and **refreshed in the post-play pass** (Step 6's held bucket) to record what happened, flip the status to Played, and add the now-existing log/PDF links.

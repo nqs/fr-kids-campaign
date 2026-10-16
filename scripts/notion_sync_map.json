@@ -1,6 +1,6 @@
 {
   "_comment": "Repo-relative Markdown path -> live Notion page ID. Consumed by scripts/sync_notion.py. Add an entry here before a new file's changes can be synced; unmapped files are skipped with a warning, not an error.",
-  "Home.md": "38c567c7-a569-81c6-8c45-d385e8cea017",
+  "README.md": "38c567c7-a569-81c6-8c45-d385e8cea017",
   "AGENTS.md": "38c567c7-a569-8160-9510-dcdfb5796315",
   "dnd-adventure-generator.md": "38c567c7-a569-817b-a8d5-ed77673826c1",
 

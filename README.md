@@ -1,6 +1,6 @@
 # Forgotten Realms — Kids Campaign
 
-The DM's knowledge base for an ongoing D&D 5e campaign set in **Shadowdale**, the Dalelands. This wiki holds the campaign guide, per-session deliverables, and the operating docs that drive content generation.
+The DM's knowledge base for an ongoing D&D 5e campaign set in **Shadowdale**, the Dalelands. This repo holds the campaign guide, per-session deliverables, and the operating docs that drive content generation.
 
 ## Campaign Guide
 
@@ -20,6 +20,9 @@ Each session has a **landing page** — a short summary plus links to the advent
 - [Session 003 — The Half-Mask Shrine](sessions/session%203/the-half-mask-shrine-0-overview.md)
 - [Session 004 — The Greengrass Greengage Affair](sessions/session%204/the-greengrass-greengage-0-overview.md)
 - [Session 005 — The Hawthorn Gate](sessions/session%205/the-hawthorn-gate-0-overview.md)
+- [Session 006 — The Green Lord's Court](sessions/session%206/the-green-lords-court-0-overview.md)
+- [Session 007 — The Lighthouse on Dry Land](sessions/session%207/the-lighthouse-on-dry-land-0-overview.md)
+- [Session 008 — The Tide Festival](sessions/session%208/the-tide-festival-0-overview.md)
 
 ## Reference Material
 
@@ -37,22 +40,20 @@ Each guide has a single `full.md`, per-page files under `pages/page-NNNN.md`, an
 
 ---
 
-# GitHub Wiki Setup
+# Wiki (BookStack)
 
-This content is authored as **GitHub-flavoured Markdown** so it renders cleanly both when browsing the repo and when published as a GitHub Wiki. There are no plugins to install and no app to configure.
+The campaign wiki is the self-hosted **BookStack** at [wiki.nqs.io](https://wiki.nqs.io), shelf **Forgotten Realms Kids Campaign**. Content is authored here as **GitHub-flavoured Markdown**, so it also renders cleanly when browsing the repo.
 
-**You only ever edit this repo.** The repo's GitHub Wiki is generated automatically from these files by the `Sync Wiki` GitHub Action (`.github/workflows/sync-wiki.yml`): on every push to `main` it runs `scripts/build_wiki.py` to stage a wiki-ready tree (extensionless page links, `session N` → `session-N`, references/PDFs linked back to the repo) and pushes it into the repo's `*.wiki.git`. No second repo to maintain by hand.
+**You only ever edit this repo.** The `Sync BookStack` GitHub Action (`.github/workflows/sync-bookstack.yml`) runs `scripts/sync_bookstack.py` on every push to `main` that touches campaign content. It mirrors `campaign/`, `sessions/`, `AGENTS.md`, and `dnd-adventure-generator.md` onto the shelf (books → chapters → pages), updates only what changed, and recycles pages whose source file was deleted. Links to PDFs, images, recordings, and `references/` point back to this repo. Trigger it manually (optionally as a dry run) from **Actions → Sync BookStack → Run workflow**.
 
 > [!IMPORTANT]
-> **One-time setup:** the wiki repo must exist before the Action can push to it. Enable **Settings → Features → Wikis**, then open the **Wiki** tab and click **Create the first page** once (any content). After that the sync runs on its own. You can also trigger it manually from the **Actions → Sync Wiki → Run workflow** button.
+> **One-time setup:** a BookStack API token with permission to manage shelves, books, and pages, stored as the repo secret `BOOKSTACK_API_TOKEN` (`<token_id>:<token_secret>`). See the header of `scripts/sync_bookstack.py`.
 
 ## Layout
 
 ```
 fr-kids-campaign/
-├── README.md                     # this file — GitHub repo landing page
-├── Home.md                       # wiki landing page + index (same content)
-├── _Sidebar.md                   # wiki navigation sidebar
+├── README.md                     # this file — repo landing page + index
 ├── AGENTS.md                     # Campaign Keeper agent instructions
 ├── dnd-adventure-generator.md    # Generation workflow (scope → outline → images → markdown → guide → PDF)
 ├── campaign/                     # campaign-guide canon
@@ -69,10 +70,7 @@ fr-kids-campaign/
 
 ## Linking between pages
 
-Pages link to one another with **standard relative Markdown links** — e.g. `[roster](campaign/roster.md)` — rather than Obsidian `[[wikilinks]]`. Relative links resolve correctly in the repo file browser, in pull-request diffs, and in the rendered GitHub Wiki. Spaces in session-folder paths are URL-encoded as `%20`.
-
-> [!NOTE]
-> If you publish these pages to the repo's actual GitHub Wiki (the separate `*.wiki.git`), GitHub also supports `[[Page Title]]` wikilink syntax there. The relative-link form used here was chosen because it works everywhere, including normal repo browsing.
+Pages link to one another with **standard relative Markdown links** — e.g. `[roster](campaign/roster.md)` — rather than Obsidian `[[wikilinks]]`. Relative links resolve correctly in the repo file browser and in pull-request diffs, and `scripts/sync_bookstack.py` rewrites them to BookStack page URLs. Spaces in session-folder paths are URL-encoded as `%20`.
 
 ## Callouts
 
